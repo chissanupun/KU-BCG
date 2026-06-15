@@ -1,0 +1,1775 @@
+{
+  "took": 32,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 24,
+      "relation": "eq"
+    },
+    "max_score": 5.98555,
+    "hits": [
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "4xgzyp4B882ltYvqGpAC",
+        "_score": 5.98555,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การปรับตัวต่อการเปลี่ยนแปลงภูมิอากาศในพื้นที่เมือง",
+          "authors": [],
+          "year": 2017,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Climate+change",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "Climate change"
+          ],
+          "search_keyword": "Climate change",
+          "doc_type": "งานวิจัย",
+          "funding": "JICA",
+          "indexed_at": "2026-06-15T07:32:17.000Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "5Bgzyp4B882ltYvqGpAC",
+        "_score": 5.98555,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการส่งเสริมประเทศไทยเพื่อรวมภาคเกษตรในแผนการปรับตัวของประเทศด้านการเปลี่ยนแปลงสภาพภูมิอากาศ",
+          "authors": [
+            "ดร.วิษณุ อรรถวานิช, รองศาสตราจารย์",
+            "ดร.สมหมาย อุดมวิทิต",
+            "ผู้ช่วยศาสตราจารย์"
+          ],
+          "year": 2016,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Climate+change",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "Climate change"
+          ],
+          "search_keyword": "Climate change",
+          "doc_type": "งานวิจัย",
+          "funding": "องค์การอาหารและเกษตรแห่งสหประชาชาติ",
+          "indexed_at": "2026-06-15T07:32:17.000Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "wBjoyZ4B882ltYvqOo48",
+        "_score": 5.6541047,
+        "_source": {
+          "source": "KUKR",
+          "title": "Study of forest types change in Thailand using geoinformatics technology during 2018 to 2019",
+          "authors": [
+            "Weeraphart Khunrattanasiri",
+            "Vissanu Domrongsutsiri",
+            "Napaporn Kao-mim",
+            "Jutamad Srikongruk",
+            "วีระภาส คุณรัตนสิริ",
+            "วิษณุ ดำรงสัจจ์ศิริ",
+            "นภาพร เค้ามิม",
+            "จุฑามาศ ศรีคงรักษ์"
+          ],
+          "year": "2024",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/437774",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Forest resources",
+            "Forests",
+            "Forest land",
+            "Geographical information systems",
+            "Satellites",
+            "Imagery",
+            "Forest management",
+            "Thailand",
+            "ทรัพยากรป่าไม้",
+            "ป่า",
+            "ที่ดินป่าไม้",
+            "ระบบสารสนเทศภูมิศาสตร์",
+            "ดาวเทียม",
+            "จินตนาการ",
+            "การจัดการป่าไม้",
+            "ประเทศไทย",
+            "Forest types",
+            "Satellite image",
+            "Geographic information system",
+            "GIS",
+            "Data overlay technique",
+            "Geoinformatics technology",
+            "Forest change",
+            "Mangrove forest",
+            "Secondary forest",
+            "Peat swamp forest",
+            "Teak plantation",
+            "Savanna",
+            "Beach forest",
+            "Montane forest",
+            "Mixed deciduous forest",
+            "Dry evergreen forest",
+            "Dry dipterocarp forest",
+            "Moist evergreen forest",
+            "Bamboo forest",
+            "Freshwater swamp forest",
+            "Pine forest",
+            "Carbon sequestration",
+            "Biomass estimation",
+            "Forest resource management",
+            "พื้นที่ป่าไม้",
+            "ชนิดป่าไม้",
+            "ภูมิสารสนเทศศาสตร์",
+            "เทคนิคการซ้อนทับข้อมูล",
+            "ภาพถ่ายดาวเทียม",
+            "การเปลี่ยนแปลงพื้นที่ป่าไม้",
+            "ป่าชายเลน",
+            "ป่าที่ฟื้นฟูตามธรรมชาติ",
+            "ป่าพรุ",
+            "สวนป่าสัก",
+            "ป่าทุ่ง",
+            "ป่าชายหาด",
+            "ป่าดิบเขา",
+            "ป่าเบญจพรรณ",
+            "ป่าดิบแล้ง",
+            "ป่าเต็งรัง",
+            "ป่าดิบชื้น",
+            "ป่าไผ่",
+            "ป่าบึงน้ำจืด",
+            "ป่าสนเขา",
+            "สังคมพืชลานหิน",
+            "การกักเก็บคาร์บอน",
+            "ชีวมวล",
+            "การจัดการทรัพยากรป่าไม้"
+          ],
+          "search_keyword": "ชีวมวล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:56:04.486Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "tBjoyZ4B882ltYvqOo89",
+        "_score": 5.6541047,
+        "_source": {
+          "source": "KUKR",
+          "title": "Factors affecting climate change adaptation ability of tilapia cage culture aquaculturist in Ubon Ratchathani",
+          "authors": [
+            "Chalermchon Wongsopa",
+            "Kulapa Kuldilok",
+            "Aerwadee Premashthira",
+            "Borworn Tanrattanaphong",
+            "เฉลิมชนม์ วงศ์โสภา",
+            "กุลภา กุลดิลก",
+            "เออวดี เปรมัษเฐียร",
+            "บวร ตันรัตนพงศ์"
+          ],
+          "year": "2024",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/437745",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis niloticus",
+            "Cage culture",
+            "Fish culture",
+            "Climatic change",
+            "Drought",
+            "Flooding",
+            "Farmers",
+            "Adaptation",
+            "Adaptability",
+            "Training",
+            "Collective farming",
+            "Farms",
+            "Thailand",
+            "การเลี้ยงสัตว์น้ำในกระชัง",
+            "การเพาะเลี้ยงปลา",
+            "การเปลี่ยนแปลงภูมิอากาศ",
+            "ความแห้งแล้ง",
+            "น้ำท่วม",
+            "เกษตรกร",
+            "การปรับตัว",
+            "ความสามารถในการปรับตัว",
+            "การฝึกอบรม",
+            "การทำฟาร์มแบบรวมกลุ่ม",
+            "ฟาร์ม",
+            "ประเทศไทย",
+            "Nile tilapia",
+            "Climate changes",
+            "Knowledge",
+            "Community networking",
+            "Ubon Ratchathani province",
+            "ปลานิล",
+            "การเลี้ยงปลาในกระชัง",
+            "การเปลี่ยนแปลงสภาพภูมิอากาศ",
+            "ภัยแล้ง",
+            "อุทกภัย",
+            "การอบรม",
+            "ความรู้",
+            "การรวมกลุ่ม",
+            "จ.อุบลราชธานี"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "5RjoyZ4B882ltYvqOo89",
+        "_score": 5.6541047,
+        "_source": {
+          "source": "KUKR",
+          "title": "Change of inorganic nitrogen and suspended solid in biofloc nursing system for red tilapia",
+          "authors": [
+            "Ratchamongkol Khajornwuttisak",
+            "Phongchate Pichitkul",
+            "Chumpol Srithong",
+            "Idsariya Wudtisin",
+            "ราชมงคล ขจรวุฒิศักดิ์",
+            "พงศ์เชฏฐ์ พิชิตกุล",
+            "ชุมพล ศรีทอง",
+            "อิสริยา วุฒิสินธุ์"
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20008937",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis",
+            "Tilapia (genus)",
+            "Fish larvae",
+            "Fish culture",
+            "Aquaculture",
+            "Fish feeding",
+            "Water analysis",
+            "Water quality",
+            "Degradation",
+            "Inorganic compounds",
+            "Nitrogen",
+            "Nitrites",
+            "Ammonium nitrogen",
+            "Sediment",
+            "ลูกปลา",
+            "การเพาะเลี้ยงปลา",
+            "การเพาะเลี้ยงสัตว์น้ำ",
+            "การให้อาหารปลา",
+            "การวิเคราะห์น้ำ",
+            "คุณภาพน้ำ",
+            "การย่อยสลาย",
+            "สารประกอบอนินทรีย์",
+            "ไนโตรเจน",
+            "ไนไตรต์",
+            "แอมโมเนียมไนโตรเจน",
+            "ตะกอน",
+            "Red tilapia",
+            "Biofloc technology",
+            "BFT",
+            "Water quality analysis",
+            "Inorganic nitrogen",
+            "Nitrite",
+            "Ammonia",
+            "Suspended solid",
+            "ปลานิลแดง",
+            "การอนุบาลลูกปลา",
+            "ระบบแบบไบโอฟลอค",
+            "เทคโนโลยีไบโอฟลอค",
+            "การให้อาหารสัตว์น้ำ",
+            "การวิเคราะห์คุณภาพน้ำ",
+            "การย่อยสลายสารอินทรีย์",
+            "สารอนินทรีย์",
+            "แอมโมเนียม",
+            "ไนไตรท์",
+            "ตะกอนแขวนลอย"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "_RjoyZ4B882ltYvqOo48",
+        "_score": 5.241436,
+        "_source": {
+          "source": "KUKR",
+          "title": "Traditional agroforestry systems in Timor-Leste can store large amounts of carbon in both soil and biomass",
+          "abstract": "Agroforestry has the potential to make agriculture more resilient while improving carbon sequestration by incorporating trees and/or other woody perennials into agricultural land, thereby diversifying landscapes. Traditional agricultural systems in tropical areas often include trees, but their carbon sequestration potential is not always well described, hindering their inclusion in climate change mitigation strategies. In this study, we quantified carbon storage in both vegetation biomass and soil in five traditional agroforestry systems (AFS) in Timor-Leste, namely cropping systems with fallow (CF), silvopastures (SP), young agroforests (YA), home gardens (HG), and forest gardens (FG). Our results show that these traditional AFS can store large amounts of carbon, with the average total carbon stocks (soil and biomass) being 155 Mg C ha−1. The AFS with the highest total carbon stocks (FG) stored an average of 213 Mg C ha−1. The average stocks in the other AFS were 108 Mg C ha−1 in CF, 158 Mg C ha−1 in SP, 134 Mg C ha−1 in YA, and 171 Mg C ha−1 in HG. Biomass carbon stocks varied substantially between AFS, while soil carbon stocks were less variable between AFS but more site-dependent. We found no relationship between the amount of carbon stored in biomass and soil. Our results highlight the diversity of traditional AFS in Timor-Leste and their carbon sequestration capacity. These results could provide an important baseline for the inclusion of AFS in Timor-Leste’s climate change mitigation strategy, and could serve as a reference for future AFS studies in different agro-climates of Timor-Leste. © The Author(s) 2025.",
+          "authors": [
+            "Piponiot, C.",
+            "Cogné, M.",
+            "Freycon, V.",
+            "Thoumazeau, A.",
+            "Gusmão, M.",
+            "Peltier, R."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446329",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Climate change mitigation",
+            "Farming systems",
+            "Soil organic carbon",
+            "South East Asia",
+            "Vegetation biomass",
+            "agroforestry",
+            "biomass",
+            "carbon sequestration",
+            "climate change",
+            "cropping practice",
+            "farming system",
+            "organic carbon",
+            "soil carbon",
+            "vegetation type",
+            "Lesser Sunda Islands",
+            "Sunda Isles",
+            "Timor",
+            "Timor-Leste"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "MBjoyZ4B882ltYvqOpA9",
+        "_score": 4.874707,
+        "_source": {
+          "source": "KUKR",
+          "title": "A study of land use changes using geographic information system in Doi Luang National Park",
+          "abstract": "This study aimed to analyze the land use patterns and land use change in\r\nDoi Luang National Park by using geographic information system (GIS) remote sensing (RS) and global positioning system (GPS) during 2015 2019 and 2023. Markov Chain Model was applied to predict the land use patterns in 2027. The results showed that Doi Luang National Park has an area of 1204.85 square kilometers. The land use was classified in 6 patterns: agricultural areas, deciduous forest areas evergreen forest areas, water areas , community areas and buildings and miscellaneous areas. From 2015 to 2019, there was a total change of 1.62 square kilometers, representing 0.13 percent of the total area. The evergreen forest areas the most decreasing change of land use about 0.75 square kilometers, representing 46.30 percent, and\r\nthe agricultural area increased by 0.56 square kilometers, accounting for 32.72 percent. From 2019 to 2023, there was a total change of 9.69 square kilometers, representing 0.80 percent of the total area. The deciduous forest areas the most decreasing change of land use about 2.99 square kilometers, representing 30.02 percent, and the agricultural area increased by 4.25 square kilometers, accounting for 42.65 percent. The study tested the accuracy of the model and found that it was 90.95 percent accurate. The prediction of land use in 2027 showed that agricultural areas, deciduous forest areas, evergreen forest areas, water areas, community areas and buildings and miscellaneous areas: 221.40, 41.35, 931.22, 2.18, 4.01and 4.68 square kilometers.",
+          "authors": [
+            "Kittipong Promjak",
+            "Kamonporn Panngom",
+            "Thanyarat Chuesaard",
+            "Torlarp Kamyo",
+            "กิตติพงษ์ พรมจักร์",
+            "กมลพร ปานง่อม",
+            "ธัญญรัตน์ เชื้อสะอาด",
+            "ต่อลาภ คำโย"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20020229",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Land use",
+            "Geographic information",
+            "Geography",
+            "Doi Luang National Park",
+            "การใช้ประโยชน์ที่ดิน",
+            "ภูมิสารสนเทศ",
+            "ภูมิศาสตร์",
+            "อุทยานแห่งชาติดอยหลวง",
+            "Nature reserves",
+            "Geographical information systems",
+            "การใช้ที่ดิน",
+            "แหล่งสงวนทางธรรมชาติ",
+            "ระบบสารสนเทศภูมิศาสตร์"
+          ],
+          "search_keyword": "agroforestry",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:09:50.086Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "8RjoyZ4B882ltYvqOo89",
+        "_score": 4.5375543,
+        "_source": {
+          "source": "KUKR",
+          "title": "Prediction of land use changes for the Mae Soi river sub-basin, Lampang province, using a neural network model",
+          "abstract": "The purpose of this research was to measure and forecast the land use changes in the Mae Soi river sub-basin, Lampang province. Landsat satellite imagery data during the years 2001, 2011, and 2021 were used to detect such changes and make future predictions. All three years of satellite imagery data have been geometrically revised for geographic compatibility. The image data was classified and the accuracy was determined using the kappa statistic, while the prediction of land use change was made using a neural network model combined with factors influencing the changes in land use. The study found that there was a change in land use between 2001 to 2011, with the most reduction of approximately 30,011 rai (4,801.76 ha) occurring in agricultural land, which was converted to forest land. Between 2011 and 2021, the watershed quality forests under class 1 and 2 in the Chae Son sub-district experienced the greatest reduction of approximately 2,762 rai (441.92 ha). A neural network model was used to predict the land use change by the 2031. The Jupyter Notebook platform provides the best estimate with an accuracy of 79.9 percent. Based on the predicted change between 2021 to 2031, it was observed that the forest land would decrease continuously, with approximately 13,268 rai (2,122.88 ha) being converted to agricultural land. The study area should be a defensive measure and allocate suitable areas for agriculture. In order to prevent the ingress of agricultural land into the watershed quality forests class 1 and 2, especially in the Chae Son subdistrict. Agroforestry systems can be promoted in the study area in order to promote sustainable use.",
+          "authors": [
+            "Niracha Sukyuang",
+            "Kankhajane Chuchip",
+            "Piyapong Tongdeenok",
+            "นิรชา สุขยวง",
+            "กาญจน์เขจร ชูชีพ",
+            "ปิยพงษ์ ทองดีนอก"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20018707",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Agricultural land",
+            "Forest land",
+            "Communal lands",
+            "Land use change",
+            "Neural network model",
+            "Geographic compatibility",
+            "Prediction",
+            "Land use planning",
+            "Mae Soi river sub-basin",
+            "Lampang province",
+            "Thailand",
+            "พื้นที่การเกษตร",
+            "พื้นที่ป่าไม้",
+            "พื้นที่ชุมชน",
+            "ทรัพยากรที่ดิน",
+            "การใช้ที่ดิน",
+            "การเปลี่ยนแปลงการใช้ที่ดิน",
+            "แบบจำลองโครงข่ายประสาทเทียม",
+            "แบบจำลองเชิงพื้นที่",
+            "การคาดการณ์",
+            "การวางแผนการใช้ที่ดิน",
+            "พื้นที่ลุ่มน้ำ",
+            "จ.ลำปาง",
+            "ประเทศไทย",
+            "Farmland",
+            "Woodlands",
+            "Land resources",
+            "Land",
+            "Land use",
+            "Land management",
+            "Models",
+            "Computer applications",
+            "Remote sensing",
+            "Geographical information systems",
+            "Satellites",
+            "Forecasting",
+            "Site factors",
+            "Watersheds",
+            "พื้นที่เกษตรกรรม",
+            "พื้นที่ป่า",
+            "ที่ดิน",
+            "การจัดการที่ดิน",
+            "แบบจำลอง",
+            "การประยุกต์ใช้คอมพิวเตอร์",
+            "การสำรวจข้อมูลระยะไกล",
+            "ระบบสารสนเทศภูมิศาสตร์",
+            "ดาวเทียม",
+            "การพยากรณ์",
+            "ปัจจัยทางพื้นที่",
+            "ลุ่มน้ำ"
+          ],
+          "search_keyword": "วนเกษตร",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:07:10.006Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "HRjoyZ4B882ltYvqOpA9",
+        "_score": 4.382126,
+        "_source": {
+          "source": "KUKR",
+          "title": "Factors related to decision making to modify the rice area by farmers in Nadi district, Prachinburi province",
+          "abstract": "The purposes of this research were 1) basic information socio-economic characteristics 2) the decision making to change the area of rice cultivation. 3) problems and suggestions related to decision making to change the area for rice cultivation. The population were 277 farmers with rice fields according to the zoning of the area suitable for growing rice members. One hundred eighteen samples were selected by using stratified random sampling methodology. The samples were divided into two groups less appropriate area (S3) and inappropriate areas (N). The data were collected by using interview form. The statistical methodology used to analyze the data by SPSS were frequency, percentage, mean, minimum value, maximum value, standard deviation, interpretation, and ratings research result. The research found that 1) 81.4 percent of the farmers were members of the BAAC, 57.6 percent received knowledge about land conversion from state agricultural extension officers, 65.3 percent which loaned from the BAAC, 55.1 percent of the farmers sold the rice directly to the farmers, 67.8 percent the farmers were faced a production problem in the dry season. 2) Farmers had a moderate level of decision-making concerning the area of rice cultivation (mean= 2.96), with the highest level of economic aspect. The five sub-topics are: losses from rice planting often, risk of loss, rice prices fall, unstable grain yield, and the high cost of rice production. 3) Problems related to decision making to change the area for rice cultivation it was found that the farmers had problems in making decisions to change the area at a moderate level (mean = 2.64), the economic was highest level of impact on the decision-making level of the farmers. The four sub-topics are: losses from rice planting often, rice prices fall, the area of agriculture is leased the lease depends on the owner, and the risk of high losses. Suggestion, If the farmers want to adjust the area to grow rice should promote a stable occupation for farmers. There are government officials to advice and training to create knowledge in the new career",
+          "authors": [
+            "Narisara Yongkasikam",
+            "Ponsaran Saranrom",
+            "Nareerat Seerasan",
+            "นริศรา ยงกสิกรรม",
+            "พลสราญ สราญรมย์",
+            "นารีรัตน์ สีระสาร"
+          ],
+          "year": "2017",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20004975",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Farmer",
+            "Rice cultivation",
+            "Modify area",
+            "Decision making",
+            "Risk",
+            "Rice prices",
+            "Costs",
+            "Prachinburi province",
+            "เกษตรกร",
+            "ข้าว",
+            "พื้นที่ปลูก",
+            "การแบ่งเขตพื้นที่",
+            "การปรับเปลี่ยนพื้นที่",
+            "การตัดสินใจ",
+            "ราคาผลผลิต",
+            "การขาดแคลนน้ำ",
+            "ต้นทุนการผลิต",
+            "จังหวัดปราจีนบุรี",
+            "Farmers",
+            "Rice",
+            "Oryza",
+            "Plant production",
+            "Cultivated land",
+            "Land use",
+            "Site factors",
+            "Risk factors",
+            "Prices",
+            "Thailand",
+            "การผลิตพืช",
+            "พื้นที่เพาะปลูก",
+            "การใช้ที่ดิน",
+            "ปัจจัยทางพื้นที่",
+            "ปัจจัยเสี่ยง",
+            "ราคา",
+            "ประเทศไทย"
+          ],
+          "search_keyword": "วนเกษตร",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:08:07.623Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "NhjoyZ4B882ltYvqOpA9",
+        "_score": 4.382126,
+        "_source": {
+          "source": "KUKR",
+          "title": "Tropical and subtropical Asia's valued tree species under threat",
+          "abstract": "Tree diversity in Asia's tropical and subtropical forests is central to nature-based solutions. Species vulnerability to multiple threats, which affect provision of ecosystem services, is poorly understood. We conducted a region-wide, spatially explicit assessment of the vulnerability of 63 socioeconomically important tree species to overexploitation, fire, overgrazing, habitat conversion, and climate change. Trees were selected for assessment from national priority lists, and selections were validated by an expert network representing 20 countries. We used Maxent suitability modeling to predict species distribution ranges, freely accessible spatial data sets to map threat exposures, and functional traits to estimate threat sensitivities. Species-specific vulnerability maps were created as the product of exposure maps and sensitivity estimates. Based on vulnerability to current threats and climate change, we identified priority areas for conservation and restoration. Overall, 74% of the most important areas for conservation of these trees fell outside protected areas, and all species were severely threatened across an average of 47% of their native ranges. The most imminent threats were overexploitation and habitat conversion; populations were severely threatened by these factors in an average of 24% and 16% of their ranges, respectively. Our model predicted limited overall climate change impacts, although some study species were likely to lose over 15% of their habitat by 2050 due to climate change. We pinpointed specific natural areas in Borneo rain forests as hotspots for in situ conservation of forest genetic resources, more than 82% of which fell outside designated protected areas. We also identified degraded areas in Western Ghats, Indochina dry forests, and Sumatran rain forests as hotspots for restoration, where planting or assisted natural regeneration will help conserve these species, and croplands in southern India and Thailand as potentially important agroforestry options. Our results highlight the need for regionally coordinated action for effective conservation and restoration. © 2021 The Authors. Conservation Biology published by Wiley Periodicals LLC on behalf of Society for Conservation Biology.",
+          "authors": [
+            "Gaisberger, H.",
+            "Fremout, T.",
+            "Kettle, C. J.",
+            "Vinceti, B.",
+            "Kemalasari, D.",
+            "Kanchanarak, T.",
+            "Thomas, E.",
+            "Serra-Diaz, J. M.",
+            "Svenning, J. C.",
+            "Slik, F.",
+            "Eiadthong, W.",
+            "Palanisamy, K.",
+            "Ravikanth, G.",
+            "Bodos, V.",
+            "Sang, J.",
+            "Warrier, R. R.",
+            "Wee, A. K. S.",
+            "Elloran, C.",
+            "Ramos, L. T.",
+            "Henry, M.",
+            "Hossain, M. A.",
+            "Theilade, I.",
+            "Laegaard, S.",
+            "Bandara, K. M. A.",
+            "Weerasinghe, D. P.",
+            "Changtragoon, S.",
+            "Yuskianti, V.",
+            "Wilkie, P.",
+            "Nghia, N. H.",
+            "Elliott, S.",
+            "Pakkad, G.",
+            "Tiansawat, P.",
+            "Maycock, C.",
+            "Bounithiphonh, C.",
+            "Mohamed, R.",
+            "Nazre, M.",
+            "Siddiqui, B. N.",
+            "Lee, S. L.",
+            "Lee, C. T.",
+            "Zakaria, N. F.",
+            "Hartvig, I.",
+            "Lehmann, L.",
+            "David, D. B. D.",
+            "Lillesø, J. P. B.",
+            "Phourin, C.",
+            "Yongqi, Z.",
+            "Ping, H.",
+            "Volkaert, H. A.",
+            "Graudal, L.",
+            "Hamidi, A.",
+            "Thea, S.",
+            "Sreng, S.",
+            "Boshier, D.",
+            "Tolentino, E., Jr.",
+            "Ratnam, W.",
+            "Aung, M. M.",
+            "Galante, M.",
+            "Isa, S. F. M.",
+            "Dung, N. Q.",
+            "Hoa, T. T.",
+            "Le, T. C.",
+            "Miah, M. D.",
+            "Zuhry, A. L. M.",
+            "Alawathugoda, D.",
+            "Azman, A.",
+            "Pushpakumara, G.",
+            "Sumedi, N.",
+            "Siregar, I. Z.",
+            "Nak, H. K.",
+            "Linsky, J.",
+            "Barstow, M.",
+            "Koh, L. P.",
+            "Jalonen, R."
+          ],
+          "year": "2022",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/421202",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "análisis del cambio climático",
+            "climate change analysis",
+            "conservation hotspots",
+            "conservation priorities",
+            "especies de árboles",
+            "evaluación espacialmente explícita de amenazas",
+            "mapeo de vulnerabilidades",
+            "modelado de distribución",
+            "prioridades de conservación",
+            "prioridades de restauración",
+            "puntos calientes de conservación",
+            "puntos calientes de restauración",
+            "restoration hotspots",
+            "restoration priorities",
+            "spatially explicit threat assessment",
+            "species distribution modeling",
+            "tree species",
+            "vulnerability mapping",
+            "agroforestry",
+            "climate change",
+            "conservation management",
+            "conservation planning",
+            "ecosystem service",
+            "environmental restoration",
+            "mapping method",
+            "prioritization",
+            "spatial data",
+            "subtropical region",
+            "tropical region",
+            "vulnerability",
+            "Borneo",
+            "India",
+            "Indochina",
+            "Thailand",
+            "Western Ghats",
+            "ecosystem",
+            "environmental protection",
+            "forest",
+            "tree",
+            "Conservation of Natural Resources",
+            "Forests",
+            "Trees"
+          ],
+          "search_keyword": "agroforestry",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:09:50.086Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "KxjoyZ4B882ltYvqOo88",
+        "_score": 4.1452236,
+        "_source": {
+          "source": "KUKR",
+          "title": "Artificial macropores enhance mangrove establishment in hypersaline environments",
+          "abstract": "Mangroves thrive in the intertidal zone but face limits under extreme conditions. Hypersalinity in tidally impaired areas can restrict their natural establishment. This study investigates whether coring artificial holes, or macropores, which mimic crab burrows to enhance soil aeration, improve water infiltration, and reduce salinity, can enhance mangrove establishment in hypersaline areas. In a 1-year field experiment, we tested the establishment, survival, and growth of Bruguiera cylindrica seedlings with and without artificially cored macropores across different inundation levels in a salt flat ecotone in Chanthaburi, Eastern Thailand. Seedling establishment was significantly higher in treated plots, with macropores increasing establishment odds by eight times compared to controls (p < 0.001). Treatment also accelerated leaf formation by 36 days on average (p < 0.001) and increased monthly shoot growth by 0.3 cm (p = 0.015). While macropores significantly enhanced belowground biomass in medium-inundation plots (p = 0.045), effects on aboveground biomass were marginal (p = 0.06). Soil salinity was significantly lower around treated seedlings, but only in medium hydroperiod plots (p < 0.01). Vessel analysis showed that macropores increased vessel diameter by an average of 2.38 μm (p = 0.049), suggesting improved water transport efficiency. These findings suggest that artificial macropores could be a promising, low-cost tool for supporting early mangrove establishment in hypersaline areas. However, further research is needed to refine macropore arrangement and evaluate effectiveness across various mangrove species and environmental conditions. If validated, this method may provide a practical strategy to enhance mangrove resilience against sea-level rise. © 2025 Society for Ecological Restoration.",
+          "authors": [
+            "Pranchai, A.",
+            "Jenke, M.",
+            "Thongmee, J.",
+            "Sutthinon, P.",
+            "Karuna, S.",
+            "Wongkamhaeng, K.",
+            "Berger, U."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/447301",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "artificial macropores",
+            "hypersalinity",
+            "mangrove expansion",
+            "mangrove restoration",
+            "seedling establishment",
+            "environmental conditions",
+            "environmental restoration",
+            "growth rate",
+            "hypersaline environment",
+            "macropore",
+            "mangrove",
+            "salinity",
+            "sea level change",
+            "survival",
+            "vessel",
+            "Central Region [Thailand]",
+            "Chanthaburi",
+            "Thailand"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:01:49.432Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "1RjoyZ4B882ltYvqOo48",
+        "_score": 3.6264591,
+        "_source": {
+          "source": "KUKR",
+          "title": "Forest dynamics and carbon stock over a 10-year period at Lam Nam Nan National Park in Uttaradit and Phrae provinces",
+          "abstract": "This research aimed to monitor the changes in forest dynamics such as species diversity, density of trees, sapling and seedling stages, tree volume, periodic annual increment (PAI), biomass, and carbon dioxide absorption in each forest type. Twenty-three concentric sample plots were established in 2010 for tree census and were measured again in 2020. The four forest types were classified as mixed deciduous forest (MDF), dry evergreen forest (DEF), dry dipterocarp forest (DDF), and hill evergreen forest (HEF). The number of plots in each forest type were 17, 3, 2, and 1. The tree density decreased from 73.04+-67.89 tree/rai to 72.77+-96.54 tree/rai: sapling decreased from 7.03+-12.90 tree/rai to 3.27+-1.71 tree/rai and seedling decreased from 17.32+-5.39 to 7.93+-8.96 tree/rai. The tree volume however increased from 12.28+-7.04 to 13.81+-6.55 cubic m/rai. A paired-samples t-test was used to compare the change in tree volume between the two years and indicated that the change was non-significant. In terms of stand volume growth, the gross growth increased by 2.92+-3.14 cubic m/rai. The net growth increased by 1.51+-4.02 cubic m/rai. The biomass increased from 10.23+-6.45 tons/rai to 13.25+-3.36 tons/rai. The periodic annual increment in biomass was 0.308+-0.750 tons/rai/year. The total carbon dioxide absorption by each forest type was 3,348,865.83 tC and carbon dioxide sequestration was 12,279,895.09 tCO2eq. Forest type with the highest carbon dioxide sequestration potential was found to be mixed deciduous forest followed by dry evergreen forest, deciduous dipterocarp forest, and hill evergreen forest.",
+          "authors": [
+            "Jutaporn Thongnun",
+            "Pichit Lumyai",
+            "จุฑาพร ทองนุ่น",
+            "พิชิต ลำใย",
+            "Santi Suksard",
+            "Supasit Sriarkarin",
+            "สันติ สุขสอาด",
+            "ศุภศิษย์ ศรีอักขรินทร์"
+          ],
+          "year": "2022",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20017411",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Mixed deciduous forest",
+            "Dry evergreen forest",
+            "Dry dipterocarp forest",
+            "Hill evergreen forest",
+            "Species diversity",
+            "Carbon dioxide absorption",
+            "Carbon dioxide sequestration",
+            "Carbon stock",
+            "Trees density",
+            "Tree volume",
+            "Periodic annual increment",
+            "Uttaradit province",
+            "Phrae province",
+            "ป่าเบญจพรรณ",
+            "ป่าดิบแล้ง",
+            "ป่าเต็งรัง",
+            "ป่าดิบเขา",
+            "ความหลากหลายทางชนิด",
+            "การกักเก็บคาร์บอน",
+            "การดูดซับคาร์บอนไดออกไซด์",
+            "ความหนาแน่นของไม้",
+            "การเติบโตของหมู่ไม้",
+            "ปริมาตรไม้",
+            "ปริมาณมวลชีวภาพ",
+            "อุทยานแห่งชาติลำน้ำน่าน",
+            "จ.อุตรดิตถ์",
+            "จ.แพร่",
+            "Forests",
+            "Deciduous summer forests",
+            "Biodiversity",
+            "Carbon cycle",
+            "Carbon dioxide",
+            "Biomass",
+            "Stand characteristics",
+            "Density",
+            "Forest trees",
+            "Forest stands",
+            "ป่า",
+            "ความหลากหลายทางชีวภาพ",
+            "วัฏจักรของคาร์บอน",
+            "คาร์บอนไดออกไซด์",
+            "มวลชีวภาพ",
+            "ลักษณะของป่า",
+            "ความหนาแน่น",
+            "ไม้ป่า",
+            "หมู่ไม้ป่า"
+          ],
+          "search_keyword": "ชีวมวล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:56:04.487Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "AhjoyZ4B882ltYvqOpA9",
+        "_score": 3.398796,
+        "_source": {
+          "source": "KUKR",
+          "title": "Proceedings of the sixth international casuarina workshop: Casuarinas for green economy and environmental sustainability",
+          "authors": [
+            "Maliwan Haruthaithanasan",
+            "Khongsak Pinyopusarerk",
+            "Abel Nicodemus",
+            "David Bush",
+            "Lex Thomson"
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/420029",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Casuarinaceae",
+            "Casuarina equisetifolia",
+            "Casuarina junghuhniana",
+            "Research",
+            "Genetic resources",
+            "Genetic diversity",
+            "Silviculture",
+            "Plantation",
+            "Agroforestry",
+            "Nitrogen fixation",
+            "Biotechnology",
+            "Climate change",
+            "สนประดิพัทธ์",
+            "สนทะเล",
+            "ไม้ยืนต้น",
+            "การวิจัย",
+            "ทรัพยากรทางพันธุกรรม",
+            "ความหลากหลายทางพันธุกรรม",
+            "วนวัฒนวิทยา",
+            "วนเกษตร",
+            "การตรึงไนโตรเจน",
+            "เทคโนโลยีชีวภาพ",
+            "การเปลี่ยนแปลงสภาพภูมิอากาศ"
+          ],
+          "search_keyword": "วนเกษตร",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:07:10.006Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "DRjoyZ4B882ltYvqOo88",
+        "_score": 2.9906476,
+        "_source": {
+          "source": "KUKR",
+          "title": "Selective conversion of aqueous sorbitol to sorbitan by amorphous Silica-Alumina catalysts",
+          "abstract": "Biomass-derived chemicals are key enablers of a circular bioeconomy, offering renewable solutions to mitigate climate change. Notably, 1,4-sorbitan is a versatile platform chemical for food, chemical, and pharmaceutical industries. We can obtain 1,4-sorbitan from solid acid-catalyzed dehydration of biomass-derived sorbitol. However, the instability and poor selectivity of most solid acid catalysts in aqueous sorbitol significantly hinder the efficient production of 1,4-sorbitan, limiting their industrial viability. Here, we show that the hydrothermal stability and optimal Brønsted acid strength of commercial amorphous silica-alumina with 40 wt% silica enabled high selectivity of 1,4-sorbitan (65 %) derived from aqueous sorbitol. The silica in amorphous silica-alumina catalysts provided optimal Brønsted acidity that minimized the degradation of the desired 1,4-sorbitan product by preventing further dehydration to isosorbide and polymerization to coke. Moreover, the silica content in amorphous silica-alumina catalysts improved the hydrothermal stability and prevented the phase transformation of the γ-alumina matrix. Our findings demonstrate that amorphous silica-alumina is a highly selective catalyst for 1,4-sorbitan production from aqueous sorbitol, and amorphous silica-alumina offers enhanced stability. These findings pave the way for designing improved solid acid catalysts for other sustainable, aqueous biomass conversions. © 2025",
+          "authors": [
+            "Lertthanaphol, N.",
+            "Sereerattanakorn, P.",
+            "Tulaphol, S.",
+            "Maihom, T.",
+            "Phung, T. K.",
+            "Garbarino, G.",
+            "Busca, G.",
+            "Wittayakun, J.",
+            "Jaeger, V.",
+            "Lalvani, S. B.",
+            "Sathitsuksanoh, N."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446546",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Amorphous silica-alumina",
+            "Aqueous sorbitol",
+            "Dehydration",
+            "Isosorbide",
+            "Sorbitan",
+            "Bioconversion",
+            "Catalysis",
+            "Catalysts",
+            "Chemical industry",
+            "Amorphous silica aluminas",
+            "Food industries",
+            "Hydrothermal stabilities",
+            "Platform chemicals",
+            "Renewables",
+            "Silica-alumina catalysts",
+            "Solid acid catalysts",
+            "Acidity",
+            "Aluminum Oxide",
+            "Biomass",
+            "Glucitol",
+            "Silica",
+            "Stability"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "qBjoyZ4B882ltYvqOo89",
+        "_score": 2.924796,
+        "_source": {
+          "source": "KUKR",
+          "title": "Carbon footprint",
+          "authors": "รัตนาวรรณ มั่งคั่ง",
+          "year": "2015",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/328323",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "Carbon",
+            "Carbon dioxide",
+            "Greenhouse gases",
+            "Quality labels",
+            "Consumer behaviour",
+            "Climatic change",
+            "Greenhouse effect",
+            "Trade",
+            "คาร์บอน",
+            "คาร์บอนไดออกไซด์",
+            "ก๊าซเรือนกระจก",
+            "ฉลากแสดงคุณภาพ",
+            "พฤติกรรมผู้บริโภค",
+            "การเปลี่ยนแปลงภูมิอากาศ",
+            "สภาพเรือนกระจก",
+            "การค้า",
+            "Products",
+            "Green business",
+            "Carbon footprint label",
+            "Standard",
+            "Carbon credits",
+            "Consumer behavior",
+            "Strategic management",
+            "ผลิตภัณฑ์",
+            "ธุรกิจสีเขียว",
+            "ฉลากคาร์บอนฟุตพริ้นท์",
+            "มาตรฐาน",
+            "การประเมินการปล่อยก๊าซ",
+            "คาร์บอนเครดิต",
+            "พฤติกรรมการบริโภค",
+            "กลยุทธ์บริหารธุรกิจ"
+          ],
+          "search_keyword": "คาร์บอนฟุตพริ้นท์",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:03.331Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "HRjoyZ4B882ltYvqOo88",
+        "_score": 2.6591158,
+        "_source": {
+          "source": "KUKR",
+          "title": "Cradle-to-gate carbon footprint of industrial-scale fermentative production of poly(3-hydroxybutyrate-co-3-hydroxyhexanoate) (PHBH)",
+          "abstract": "Poly(3-hydroxybutyrate-co-3-hydroxyhexanoate) (PHBH) is a marine-biodegradable polyhydroxyalkanoate (PHA) with increasing relevance as a sustainable alternative to conventional plastics. This study presents a comprehensive cradle-to-gate life cycle assessment (LCA) of industrial-scale PHBH production in Taiwan, using crude palm oil (CPO) sourced from Thailand and Malaysia, focusing on the interplay between feedstock origin, process energy demand, and carbon footprint. The system boundary includes CPO production, CPO transport, fermentation in a 400-m3 fermentor, and downstream extraction, both experimental data and process modeling. Unlike previous PHAs LCAs that relied on generalized or laboratory-scale assumptions, this work introduces an oxygen transfer-based fermentation model and a stoichiometrically balanced process inventory that captures industrial operation details such as air compression and centrifugation. Results show that PHBH extraction is the largest carbon hotspot, contributing 37 % of the total global warming potential (GWP) in the Base case (12.04 kg-CO<inf>2</inf>eq/kg-PHBH), due to high electricity demand for aeration and agitation. The Base/OUR-OTR provides the GWP of 11.31 kg-CO<inf>2</inf>eq/kg-PHBH, a 6 % reduction. Substituting Malaysian CPO significantly reduces emissions to 9.05 kg-CO<inf>2</inf>eq/kg-PHBH, owing to a trade-off between biogenic carbon flows (CC-B) and land-use change emissions (CC-LUC). Renewable energy integration, including solar electricity and biomass steam, further reduces GWP to 7.57 kg-CO<inf>2</inf>eq/kg-PHBH, achieving a 16.4 % reduction from the fossil-based baseline. Notably, PHBH extraction is dominated by material-related CC-F emissions, particularly from surfactants and NaOCl, highlighting the importance of chemical selection in downstream processing. © 2025 Elsevier Ltd.",
+          "authors": [
+            "Chen, H. T.",
+            "He, Y. H.",
+            "Lin, P. Y.",
+            "Huang, W. S.",
+            "Srinivasan, K. R.",
+            "You, J. Y.",
+            "Sun, P. Y.",
+            "Hu, A. H.",
+            "Srinophakun, P.",
+            "Saisriyoot, M.",
+            "Li, S. Y."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446788",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Life cycle assessment (LCA)",
+            "Oxygen uptake rate (OUR)/oxygen transfer rate (OTR)-based approach",
+            "Palm oil",
+            "Poly(3-hydroxybutyrate-co-3-hydroxyhexanoate) (PHBH)",
+            "Carbon cycle",
+            "Carbon dioxide",
+            "Economic and social effects",
+            "Fermentation",
+            "Fermenters",
+            "Global warming",
+            "Industrial emissions",
+            "Land use",
+            "Life cycle",
+            "Life cycle assessment",
+            "Oil shale",
+            "Oxygen",
+            "Pollution control",
+            "Sustainable development",
+            "Crude palm oil",
+            "Global warming potential",
+            "Industrial scale",
+            "Oxygen transfer rate",
+            "Oxygen uptake rate /oxygen transfer rate -based approach",
+            "Oxygen uptake rates",
+            "Poly(3-hydroxybutyrate-co-3-hydroxyhexanoate)",
+            "Rate-based approach"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "qRjoyZ4B882ltYvqOo89",
+        "_score": 2.5323858,
+        "_source": {
+          "source": "KUKR",
+          "title": "Carbon foot print of indigo fabric product",
+          "authors": [
+            "Piyapa Jaithaisong",
+            "Waranchaya khotjumpa",
+            "Wasunun Ponmun",
+            "Chuleewan Thunyasirinon",
+            "ปิยาภา ใจไธสง",
+            "วรัญชญา คตจำปา",
+            "วสุนันท์ โพนหมั้น",
+            "ชุลีวัลย์ ธัญญศิรินนท์"
+          ],
+          "year": "2015",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20008768",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "Indigo fabric",
+            "Indigo cotton",
+            "Carbon footprint",
+            "Label",
+            "Greenhouse gases",
+            "GHGs",
+            "Sakon Nakhon province",
+            "ผ้าย้อมคราม",
+            "คาร์บอนฟุตพริ้นท์",
+            "ฉลากคาร์บอน",
+            "ก๊าซคาร์บอนไดออกไซด์",
+            "การปล่อยก๊าซเรือนกระจก",
+            "กระบวนการผลิต",
+            "กระบวนการย้อม",
+            "จ.สกลนคร อ.พรรณานิคม",
+            "Indigofera",
+            "Textiles",
+            "Natural fabrics",
+            "Processed products",
+            "Processed plant products",
+            "Dyes",
+            "Processing",
+            "Carbon dioxide",
+            "Carbon dioxide enrichment",
+            "Climatic change",
+            "Air pollution",
+            "Thailand",
+            "สิ่งทอ",
+            "สิ่งทอจากธรรมชาติ",
+            "ผลิตภัณฑ์แปรรูป",
+            "ผลิตภัณฑ์แปรรูปจากพืช",
+            "สีย้อม",
+            "คาร์บอนไดออกไซด์",
+            "คาร์บอนไดออกไซด์เอนริชเมนท์",
+            "การเปลี่ยนแปลงภูมิอากาศ",
+            "ก๊าซเรือนกระจก",
+            "มลพิษทางอากาศ",
+            "ประเทศไทย"
+          ],
+          "search_keyword": "คาร์บอนฟุตพริ้นท์",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:03.331Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "zBjoyZ4B882ltYvqOo48",
+        "_score": 2.5194666,
+        "_source": {
+          "source": "KUKR",
+          "title": "Forecasting the carbon sequestration of system of intensive forestation at the Wang Chan Forest Learning Center, Rayong province",
+          "abstract": "The research objective was to determine the tree carbon storage and to generate the forecasting carbon sequestration in the next five years of forest planted by System of Intensive Forestation (SIF) at the Wang Chan Forest Learning Center, Rayong Province. Data collection was done from permanent sample plots of size 40*40 square m base on stratified random sampling method by density of trees namely high, medium and low, with one plot per stratum. The data recorded were the tree species, respective diameters, and the total height of every tree in the permanent sample plots from 2015-2022 anuanly. The biomass was estimated using allometric equation specified for dry evergreen forests and the carbon sequestered was quantified by following the methodology of Intergovernmental Panel on Climate Change (IPCC) 2006. The regression equations were used to forecast the carbon dioxide that would be sequestered in the next five years. We found 64 tree species, 58 genus, and 33 families. The highest tree density was of Dalbergia cochinchinensis, with Pterocarpus macrocarpus and Lagerstroemia floribunda having the next highest densities, of 19.58, 11.13 and 10.54 tree/rai (122.38, 69.56 and 65.88 tree/ha), respectively, with a biomass of 10.21 ton/rai (63.81 ton/ha). The carbon sequestered for 8 years was estimated at 4.80 tonC/rai (30.00 tonC/ha), while the carbon dioxide sequestered was 17.60 tonCO2/rai (110.00 tonCO2/ha), with a increment rate of 2.20 tonCO2/rai/year (13.75 tonCO2/ha/year). The regression equation forecasted the amount of carbon dioxide sequestered within the next five years (2023–2027) was of the form; carbon dioxide sequestration = -4.72+(2.63*Year), R2 = 0.93. Using this equation, the carbon sequestration of 2023-2027 were 18.95, 21.58, 24.21, 26.84 and 29.47 tonCO2/rai (118.43, 134.87, 151.31, 167.75 and 184.18 tonCO2/ha, respectively.",
+          "authors": [
+            "Areerat Sieosathanakul",
+            "Pasuta Sunthornhao",
+            "Sakhan Teejuntuk",
+            "อารีรัตน์ เซียวสธนกุล",
+            "พสุธา สุนทรห้าว",
+            "สคาร ทีจันทึก"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20020114",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Tracwood",
+            "Rosewood",
+            "Dalbergia cochinchinensis",
+            "Burma padauk",
+            "Pterocarpus macrocarpus",
+            "Lagerstroemia floribunda",
+            "Tree species",
+            "Intensive forestation",
+            "Carbon storage",
+            "Carbon sequestration",
+            "Carbon dioxide absorption",
+            "Biomass",
+            "Rayong province",
+            "Thailand",
+            "พะยูง",
+            "ประดู่ป่า",
+            "ตะแบก",
+            "ชนิด",
+            "การปลูกป่าแบบประณีต",
+            "การกักเก็บคาร์บอน",
+            "การดูดซับก๊าซคาร์บอนไดออกไซด์",
+            "ปริมาณมวลชีวภาพ",
+            "ศูนย์เรียนรู้ป่าวังจันทร์",
+            "จ.ระยอง",
+            "ประเทศไทย",
+            "Lagocephalus spp",
+            "Species",
+            "Biodiversity",
+            "Forest surveys",
+            "Forest inventories",
+            "Carbon cycle",
+            "Carbon dioxide",
+            "Intensive silviculture",
+            "Forecasting",
+            "ความหลากหลายทางชีวภาพ",
+            "การสำรวจป่า",
+            "การสำรวจทางป่าไม้",
+            "วัฏจักรของคาร์บอน",
+            "คาร์บอนไดออกไซด์",
+            "มวลชีวภาพ",
+            "วนวัฒนวิทยาแบบประณีต",
+            "การพยากรณ์"
+          ],
+          "search_keyword": "ชีวมวล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:56:04.486Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "DxjoyZ4B882ltYvqOo88",
+        "_score": 2.5194666,
+        "_source": {
+          "source": "KUKR",
+          "title": "Machine learning and thermodynamic modeling for optimizing hydrogen production via algae-biomass co-gasification",
+          "abstract": "Global energy transition demands sustainable hydrogen (H<inf>2</inf>) production technologies to replace fossil fuels and mitigate climate change impacts. Although biomass gasification presents a promising pathway, conventional single-feedstock approaches suffer from low H<inf>2</inf> yields and process inefficiencies. Current biomass gasification research lacks integration of advanced algae co-feedstocks with intelligent process optimization. Existing studies rely on either experimental trials or simulation modeling in isolation, missing opportunities for comprehensive optimization through machine learning (ML)-enhanced thermodynamic analysis. This study pioneers the integration of algae-biomass co-gasification with six ML algorithms to optimize H<inf>2</inf> production and syngas quality through comprehensive thermodynamic modeling and artificial intelligence (AI). Three microalgae species (Chlorella vulgaris, Nannochloropsis oculata, Fucus serratus) were co-gasified with biomass feedstocks (Fir Pellet (FP), Palm Empty Fruit Bunch (PEFB), Pellet Pine Wood (PPW)) using Aspen Plus® simulation based on Gibbs free energy minimization. Six ML algorithms (XGB, RF, SVR, KNN, ANN, DT) with Shapley additive explanations (SHAP) analysis predicted H<inf>2</inf> yield and syngas lower heating value (LHV) from 3609 data points across 24 input parameters. C. vulgaris emerged as the superior algae species, with C. vulgaris-FP combinations achieving maximum H<inf>2</inf> yield (9.87 %) and exergy efficiency (84.84 %), while C. vulgaris-PPW delivered peak energy efficiency (87.73 %). C. vulgaris consistently produced the highest LHV syngas regardless of biomass type. XGB demonstrated superior predictive accuracy (R2 > 0.96, RMSE = 0.327) for H<inf>2</inf> yield, while RF excelled in LHV prediction (R2 = 0.951). SHAP analysis identified gasification temperature (GT), steam-to-fuel ratio (S/F), equivalence ratio (ER), and blend percentage (BF) as critical optimization parameters. This methodology establishes new benchmarks for algae-biomass co-gasification, outperforming conventional approaches. The framework enables real-time optimization and industrial scalability for sustainable energy systems. © 2025 The Authors",
+          "authors": [
+            "Tuntiwongwat, T.",
+            "Yukawa, T.",
+            "Srinophakun, T. R.",
+            "Manatura, K.",
+            "Sukpancharoen, S.",
+            "Mirjalili, S."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446560",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Artificial intelligence",
+            "Bioenergy",
+            "Gasification",
+            "Optimization",
+            "Process simulation",
+            "Regression",
+            "Supervised learning",
+            "Algae",
+            "Benchmarking",
+            "Biomass",
+            "Blending",
+            "Ecology",
+            "Exergy",
+            "Feedstocks",
+            "Forestry",
+            "Fossil fuels",
+            "Gibbs free energy",
+            "Hydrogen fuels",
+            "Learning algorithms",
+            "Learning systems",
+            "Pelletizing",
+            "Photobiological hydrogen production",
+            "Quality control",
+            "Syngas production",
+            "Synthesis gas",
+            "Uncertainty analysis",
+            "Algae biomass",
+            "Bio-energy",
+            "Co-gasification",
+            "Low heating values",
+            "Optimisations",
+            "Process simulations",
+            "Syn gas",
+            "Thermodynamic modelling",
+            "Vulgaris"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "dhjoyZ4B882ltYvqOo88",
+        "_score": 2.4034033,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effects of particle size and aging on heavy metal adsorption by polypropylene and polystyrene microplastics under varying environmental conditions",
+          "abstract": "Microplastics have become a major environmental issue because of their widespread presence and tendency to adsorb heavy metals, which can have harmful effects on aquatic ecosystems and human health. The present study investigates the adsorption mechanisms of Pb2+ and Cu2+ ions on both pristine and artificially aged microplastics (MPs) made of polystyrene (PS) and polypropylene (PP). Furthermore, the influence of MP size on the adsorption capacity under different environmental conditions was evaluated. According to the characterization of MPs, aging leads to physical damage and an increase in the number of oxygen-containing functional groups on their surface. The experimental results highlight the significantly higher adsorption ability of smaller and aged MPs compared with that of pristine MPs for both the heavy metal ions. The pseudo-second-order equation provided a better fit for the adsorption kinetics study (R2 = 0.95), suggesting that chemisorption governs the rate-limiting phase in the adsorption mechanism on the MP surfaces. The concordance between the adsorption isotherm model and Freundlich model (R2 > 0.95) indicated a predominance of multilayer adsorption. The environmental factors such as pH, humic acid, temperature, and SO42− concentration significantly affected the adsorption of Pb2⁺ and Cu2⁺ onto PP and PS MPs. These variables play a crucial role in determining the nature of the interactions between heavy metal ions and the microplastic particles under diverse environmental conditions. Electrostatic interactions, surface complexation and van der Waals forces were identified as two factors that could either improve or diminish the metal ion adsorption capacity of MPs. © 2024 Elsevier Ltd",
+          "authors": [
+            "Muthuraja, R.",
+            "Ou, B.",
+            "Thangavelu, M.",
+            "Narhayanan, T. N.",
+            "Chittamart, N.",
+            "Janjaroen, D."
+          ],
+          "year": "2024",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/440337",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "Adsorption",
+            "Heavy metals",
+            "Microplastics",
+            "Polypropylene",
+            "Polystyrene",
+            "Copper",
+            "Humic Substances",
+            "Hydrogen-Ion Concentration",
+            "Kinetics",
+            "Lead",
+            "Metals, Heavy",
+            "Particle Size",
+            "Polypropylenes",
+            "Polystyrenes",
+            "Water Pollutants, Chemical",
+            "Metal ions",
+            "Microplastic",
+            "cupric ion",
+            "functional group",
+            "heavy metal",
+            "humic acid",
+            "metal ion",
+            "oxygen",
+            "polystyrene derivative",
+            "Adsorption mechanism",
+            "Ecosystem health",
+            "Environmental conditions",
+            "Environmental issues",
+            "Harmful effects",
+            "Heavy metal adsorption",
+            "Heavy metal ion",
+            "Human health",
+            "Particles sizes",
+            "complexation",
+            "environmental issue",
+            "isotherm",
+            "adsorption kinetics",
+            "aging",
+            "aquatic environment",
+            "Article",
+            "chemical analysis",
+            "chemical interaction",
+            "chemisorption",
+            "complex formation",
+            "concentration process",
+            "controlled study",
+            "environmental change",
+            "environmental factor",
+            "environmental risk",
+            "force",
+            "human",
+            "hydrophobicity",
+            "pH",
+            "static electricity",
+            "temperature",
+            "chemistry",
+            "humic substance",
+            "water pollutant",
+            "Van der Waals forces"
+          ],
+          "search_keyword": "microplastic",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:03:31.159Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "qxjoyZ4B882ltYvqOo89",
+        "_score": 2.286923,
+        "_source": {
+          "source": "KUKR",
+          "title": "Carbon footprint of electrical generation from fossil fuel compared to other alternative energy",
+          "authors": [
+            "Jirabodin Chairit",
+            "Cheema Soralump",
+            "จิรบดินทร์ ชัยฤทธิ์",
+            "จีมา ศรลัมพ์"
+          ],
+          "year": "2014",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/310463",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "Hydropower",
+            "Wind energy",
+            "Alternative energy",
+            "Fossil fuels",
+            "Natural gas",
+            "Electrical generation",
+            "Greenhouse gas emission",
+            "Carbon footprint",
+            "Life cycle",
+            "Environmental assessment",
+            "Global warming",
+            "พลังงานน้ำ",
+            "พลังงานลม",
+            "พลังงานทางเลือก",
+            "เชื้อเพลิงฟอสซิล",
+            "ก๊าซธรรมชาติ",
+            "กระบวนการผลิตพลังงานไฟฟ้า",
+            "การปล่อยก๊าซเรือนกระจก",
+            "คาร์บอนฟุตพริ้นท์",
+            "วัฏจักรชีวิต",
+            "การประเมินผลกระทบต่อสิ่งแวดล้อม",
+            "ภาวะโลกร้อน",
+            "Water power",
+            "Wind power",
+            "Renewable energy",
+            "Renewable resources",
+            "Energy generation",
+            "Energy consumption",
+            "Energy management",
+            "Carbon cycle",
+            "Climatic change",
+            "Greenhouse gases",
+            "Environmental impact assessment",
+            "กำลังลม",
+            "พลังงานทดแทนได้",
+            "ทรัพยากรที่ทดแทนได้",
+            "การผลิตพลังงาน",
+            "การใช้พลังงาน",
+            "การจัดการพลังงาน",
+            "วัฏจักรของคาร์บอน",
+            "การเปลี่ยนแปลงภูมิอากาศ",
+            "ก๊าซเรือนกระจก"
+          ],
+          "search_keyword": "คาร์บอนฟุตพริ้นท์",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:03.331Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "RxjoyZ4B882ltYvqOo88",
+        "_score": 2.0848403,
+        "_source": {
+          "source": "KUKR",
+          "title": "Foliar application of chitosan and different temperature storage on postharvest quality of Edaw longan (Dimocarpus longan)",
+          "authors": [
+            "Kanokporn Thongrod",
+            "กนกพร ทองรอด"
+          ],
+          "year": "2017",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/372920",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Dimocarpus longan",
+            "Biopolymers",
+            "Chitosan",
+            "Spraying",
+            "Storage",
+            "Temperature",
+            "Keeping quality",
+            "Weight losses",
+            "Peel",
+            "Colour",
+            "Respiration",
+            "Ethylene production",
+            "Browning",
+            "Morbidity",
+            "ไบโอโพลีเมอร์",
+            "ไคโตแซน",
+            "การพ่น",
+            "การเก็บรักษา",
+            "อุณหภูมิ",
+            "คุณภาพการเก็บ",
+            "การสูญเสียน้ำหนัก",
+            "เปลือก",
+            "สี",
+            "การหายใจ",
+            "การผลิตเอธิลีน",
+            "การเกิดสีน้ำตาล",
+            "สภาวะการเกิดโรค",
+            "Longan",
+            "Edaw longan",
+            "Biopolymer",
+            "Foliar application",
+            "Prolong storage life",
+            "Temperatures",
+            "Postharvest quality",
+            "Weight loss",
+            "Peel color change",
+            "Softening",
+            "Browning index",
+            "Disease index",
+            "ลำไย",
+            "ไบโอพอลิเมอร์",
+            "การยืดอายุ",
+            "ไคโตซาน",
+            "การฉีดพ่น",
+            "อายุการเก็บรักษา",
+            "คุณภาพหลังการเก็บเกี่ยว",
+            "พันธุ์อีดอ",
+            "การชะลอการสูญเสียน้ำหนัก",
+            "ค่าสีเปลือก",
+            "ความอ่อนนุ่ม",
+            "การผลิตเอทิลีน",
+            "ดัชนีการเกิดสีน้ำตาล",
+            "ดัชนีการเกิดโรค"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "rhjoyZ4B882ltYvqOo89",
+        "_score": 1.9966254,
+        "_source": {
+          "source": "KUKR",
+          "title": "รอยเท้าคาร์บอนกับอุตสาหกรรมอาหาร",
+          "authors": "เยาวดี คุปตะพันธ์",
+          "year": "2011",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/43581",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "Carbon",
+            "Foods",
+            "Food industry",
+            "Climatic change",
+            "Greenhouse effect",
+            "Greenhouse gases",
+            "Mankind",
+            "Burning",
+            "Deforestation",
+            "Carbon dioxide",
+            "Pollution",
+            "Food processing",
+            "Cycling",
+            "Product labelling",
+            "Standardizing",
+            "Environmental impact assessment",
+            "Trade marks",
+            "Enterprises",
+            "คาร์บอน",
+            "อาหาร",
+            "อุตสาหกรรมอาหาร",
+            "การเปลี่ยนแปลงภูมิอากาศ",
+            "สภาพเรือนกระจก",
+            "ก๊าซเรือนกระจก",
+            "มนุษย์",
+            "การเผาไหม้",
+            "การโค่นป่าไม้",
+            "คาร์บอนไดออกไซด์",
+            "มลพิษ",
+            "กรรมวิธีการผลิตอาหาร",
+            "วัฏจักร",
+            "ฉลากผลิตภัณฑ์",
+            "การทำให้เป็นมาตรฐาน",
+            "การประเมินผลกระทบต่อสิ่งแวดล้อม",
+            "เครื่องหมายการค้า",
+            "วิสาหกิจ",
+            "Carbon footprint",
+            "CF",
+            "Life cycle assessment",
+            "รอยเท้าคาร์บอน",
+            "ปรากฏการณ์เรือนกระจก",
+            "ภาวะโลกร้อน",
+            "กิจกรรมของมนุษย์",
+            "การตัดไม้ทำลายป่า",
+            "การปล่อยก๊าซเรือนกระจก",
+            "การตรวจวัด",
+            "การประเมินวัฏจักรชีวิตผลิตภัณฑ์",
+            "มาตรฐานสากล",
+            "การปล่อยก๊าซคาร์บอนไดออกไซด์",
+            "โครงการฉลากคาร์บอนรีดักชัน",
+            "มาตรฐาน ISO 14067",
+            "ผลกระทบสิ่งแวดล้อม",
+            "เครื่องหมายคาร์บอนฟุตพริ้นท์",
+            "บริษัท"
+          ],
+          "search_keyword": "คาร์บอนฟุตพริ้นท์",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:03.331Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "7hgzyp4B882ltYvqGpAC",
+        "_score": 1.924962,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การวิเคราะห์ผลกระทบของการเปลี่ยนแปลงสภาพภูมิอากาศต่อปลาดุกอุย ปลาดุกยักษ์ และปลาดุกลูกผสมในระดับโมเลกุลและอัตราการเจริญเติบโต เพื่อพัฒนากลยุทธ์การเพาะเลี้ยงเชิงอุตสาหกรรม",
+          "authors": [
+            "ดร.วรพงศ์ สิงห์ชาติ"
+          ],
+          "year": 2025,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "การเปลี่ยนแปลงสภาพภูมิอากาศ"
+          ],
+          "search_keyword": "การเปลี่ยนแปลงสภาพภูมิอากาศ",
+          "doc_type": "งานวิจัย",
+          "funding": "โครงการวิจัยขั้นสูงและสร้างเครือข่ายนานาชาติด้านการเปลี่ยนแปลงสภาพภูมิอากาศ (Climate Change) ภายใต้โครงการพลิกโฉมมหาวิทยาลัย (Reinventing University) ประจำปีงบประมาณ พ.ศ. 2568",
+          "indexed_at": "2026-06-15T07:32:22.733Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      }
+    ]
+  }
+}

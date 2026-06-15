@@ -1,0 +1,145 @@
+{
+  "took": 6,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 4,
+      "relation": "eq"
+    },
+    "max_score": 4.9142876,
+    "hits": [
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "9Rgzyp4B882ltYvqGpAC",
+        "_score": 4.9142876,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การวิเคราะห์ประเด็นปัญหาความยั่งยืนของอุตสาหกรรมข้าวไทยโดยตลอดวัฏจักรชีวิตผลิตภัณฑ์เพื่อการพัฒนาอย่างยั่งยืน",
+          "authors": [
+            "ดร.รัตนาวรรณ มั่งคั่ง, รองศาสตราจารย์"
+          ],
+          "year": 2019,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=sustainability",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "sustainability"
+          ],
+          "search_keyword": "sustainability",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานพัฒนาการวิจัยการเกษตร (สวก.)",
+          "indexed_at": "2026-06-15T07:32:29.046Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "9hgzyp4B882ltYvqGpAC",
+        "_score": 4.9142876,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการเสริมสร้างความมั่นคงทางด้านอาชีพชาวนาอย่างยั่งยืน",
+          "authors": [],
+          "year": 2017,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=sustainability",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "sustainability"
+          ],
+          "search_keyword": "sustainability",
+          "doc_type": "งานวิจัย",
+          "funding": "มูลนิธิอาสาเพื่อนพึ่ง (ภาฯ) ยามยาก สภากาชาดไทย",
+          "indexed_at": "2026-06-15T07:32:29.046Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "9xgzyp4B882ltYvqGpAC",
+        "_score": 4.9142876,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การพัฒนานวัตกรรมผลิตภัณฑ์ชุมชนเพื่อความยั่งยืน",
+          "authors": [],
+          "year": 2025,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=sustainability",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "sustainability"
+          ],
+          "search_keyword": "sustainability",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนสนับสนุนการวิจัย คณะศิลปศาสตร์และวิทยาการจัดการ ประจำปีงบประมาณ 2568",
+          "indexed_at": "2026-06-15T07:32:29.046Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "-Bgzyp4B882ltYvqGpAC",
+        "_score": 4.9142876,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการแบบสำรวจการประเมินความยั่งยืนของน้ำ",
+          "authors": [],
+          "year": 2022,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=sustainability",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "sustainability"
+          ],
+          "search_keyword": "sustainability",
+          "doc_type": "งานวิจัย",
+          "funding": "บริษัท ซี.เอ.ไอ. จำกัด",
+          "indexed_at": "2026-06-15T07:32:29.046Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      }
+    ]
+  }
+}

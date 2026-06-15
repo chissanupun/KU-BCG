@@ -1,0 +1,643 @@
+{
+  "took": 12,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 18,
+      "relation": "eq"
+    },
+    "max_score": 3.5005941,
+    "hits": [
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "sBgzyp4B882ltYvqGpAB",
+        "_score": 3.5005941,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "บรรจุภัณฑ์แอคทีฟย่อยสลายได้ทางชีวภาพจากการใช้ผลพลอยได้ทางการเกษตรเพื่อยึดอายุการเก็บรักษาอาหารและลดขยะอาหาร (food waste) โดยความร่วมมือระหว่างบริษัท บรรจุภัณฑ์เพื่อสิ่งแวดล้อม จำกัด (GRACZ) และบริษัท เซ็นทรัล รีเทล คอร์ปอเรชั่น จำกัด (มหาชน)",
+          "authors": [
+            "ดร.ปรียานุช สีโชละ"
+          ],
+          "year": 2023,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%88%E0%B8%B8%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "บรรจุภัณฑ์"
+          ],
+          "search_keyword": "บรรจุภัณฑ์",
+          "doc_type": "งานวิจัย",
+          "funding": "หน่วยบริหารและจัดการทุนด้านการเพิ่มความสามารถในการแข่งขันของประเทศ (บพข)",
+          "indexed_at": "2026-06-15T07:31:53.539Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "sRgzyp4B882ltYvqGpAB",
+        "_score": 3.5005941,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การออกแบบบรรจุภัณฑ์เวชภัณฑ์",
+          "authors": [
+            "ดร.เลอพงศ์ จารุพันธ์, รองศาสตราจารย์"
+          ],
+          "year": 2012,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%88%E0%B8%B8%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "บรรจุภัณฑ์"
+          ],
+          "search_keyword": "บรรจุภัณฑ์",
+          "doc_type": "งานวิจัย",
+          "funding": "บริษัท Berlin Pharmaceutical Industry จำกัด",
+          "indexed_at": "2026-06-15T07:31:53.539Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "shgzyp4B882ltYvqGpAB",
+        "_score": 3.5005941,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การผลิตบรรจุภัณฑ์จากชานอ้อย",
+          "authors": [
+            "ดร.ศิริกัลยา สุวจิตตานนท์, รองศาสตราจารย์"
+          ],
+          "year": 2003,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%88%E0%B8%B8%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "บรรจุภัณฑ์"
+          ],
+          "search_keyword": "บรรจุภัณฑ์",
+          "doc_type": "งานวิจัย",
+          "funding": "ศูนย์เชี่ยวชาญด้านเทคโนโลยีอนุภาคจุฬาลงกรณ์มหาวิทยาลัย",
+          "indexed_at": "2026-06-15T07:31:53.539Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "sxgzyp4B882ltYvqGpAB",
+        "_score": 3.5005941,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การพัฒนาบรรจุภัณฑ์สำหรับผลิตภัณฑ์หม่อน",
+          "authors": [
+            "ดร.รุ่งกานต์ บุญนาถกร, อาจารย์",
+            "นางสาวสุธิชา พืชสิงห์"
+          ],
+          "year": 2006,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%88%E0%B8%B8%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "บรรจุภัณฑ์"
+          ],
+          "search_keyword": "บรรจุภัณฑ์",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:31:53.539Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "tBgzyp4B882ltYvqGpAB",
+        "_score": 3.5005941,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "บรรจุภัณฑ์อาหารจากฟางข้าวอินทรีย์",
+          "authors": [
+            "ดร.รังสิมา ชลคุป",
+            "ดร.ปรียานุช สีโชละ"
+          ],
+          "year": 2022,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%88%E0%B8%B8%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "บรรจุภัณฑ์"
+          ],
+          "search_keyword": "บรรจุภัณฑ์",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานการวิจัยแห่งชาติ (วช.)",
+          "indexed_at": "2026-06-15T07:31:53.539Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "tRgzyp4B882ltYvqGpAB",
+        "_score": 3.5005941,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "พัฒนาผลิตภัณฑ์หมูแดดเดียว บรรจุภัณฑ์เพื่อยืดอายุการเก็บรักษา",
+          "authors": [
+            "นายสมโภชน์ ใหญ่เอี่ยม"
+          ],
+          "year": 2014,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%88%E0%B8%B8%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "บรรจุภัณฑ์"
+          ],
+          "search_keyword": "บรรจุภัณฑ์",
+          "doc_type": "งานวิจัย",
+          "indexed_at": "2026-06-15T07:31:53.539Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "thgzyp4B882ltYvqGpAB",
+        "_score": 3.5005941,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การสำรวจข้อมูลเรื่องอุตสาหกรรมบรรจุภัณฑ์อาหารในประเทศไทย",
+          "authors": [
+            "ดร.วาณี ชนเห็นชอบ, รองศาสตราจารย์"
+          ],
+          "year": 2013,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%88%E0%B8%B8%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "บรรจุภัณฑ์"
+          ],
+          "search_keyword": "บรรจุภัณฑ์",
+          "doc_type": "งานวิจัย",
+          "funding": "Korea Food Research Institute (KFR)",
+          "indexed_at": "2026-06-15T07:31:53.539Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "txgzyp4B882ltYvqGpAB",
+        "_score": 3.5005941,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การพัฒนาการผลิตและการออกแบบบรรจุภัณฑ์ผลิตภัณฑ์ทำความสะอาดและบำรุงผิวที่มีส่วนผสมของสารสกัดจากธรรมชาติ",
+          "authors": [
+            "ดร.สุพนิดา วินิจฉัย",
+            "ดร.อุดมลักษณ์ สุขอัตตะ",
+            "ดร.ประภัสสร รักถาวร",
+            "นษภร ลีบุญญานนท์"
+          ],
+          "year": 2009,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%88%E0%B8%B8%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "บรรจุภัณฑ์"
+          ],
+          "search_keyword": "บรรจุภัณฑ์",
+          "doc_type": "งานวิจัย",
+          "funding": "โครงการความร่วมมือระหว่างมหาวิทยาลัยเกษตรศาสตร์ - ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตร",
+          "indexed_at": "2026-06-15T07:31:53.539Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "uBgzyp4B882ltYvqGpAB",
+        "_score": 3.5005941,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การศึกษาเทคนิคการแปรรูปไม้บางจากไม้บนพื้นที่สูงเพื่อเป็นบรรจุภัณฑ์สำหรับผลิตภัณฑ์ของมูลนิธิโครงการหลวง",
+          "authors": [],
+          "year": 2023,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%88%E0%B8%B8%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "บรรจุภัณฑ์"
+          ],
+          "search_keyword": "บรรจุภัณฑ์",
+          "doc_type": "งานวิจัย",
+          "funding": "มูลนิธิโครงการหลวง",
+          "indexed_at": "2026-06-15T07:31:53.539Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "uRgzyp4B882ltYvqGpAB",
+        "_score": 3.5005941,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การพัฒนาบรรจุภัณฑ์พลาสติกชีวภาพฐานสตาร์ชมันสำปะหลังสำหรับการบรรจุอาหารแบบสุญญากาศ",
+          "authors": [
+            "ดร.ณัฐดนัย หาญการสุจริต, ศาสตราจารย์",
+            "ดร.รังรอง ยกส้าน",
+            "รองศาสตราจารย์"
+          ],
+          "year": 2022,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%88%E0%B8%B8%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "บรรจุภัณฑ์"
+          ],
+          "search_keyword": "บรรจุภัณฑ์",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานการวิจัยแห่งชาติ (วช.)",
+          "indexed_at": "2026-06-15T07:31:53.539Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "uhgzyp4B882ltYvqGpAB",
+        "_score": 3.5005941,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "บรรจุภัณฑ์ใช้แล้วทิ้งย่อยสลายได้ทางชีวภาพจากวัสดุคอมพาวด์มันสำปะหลังสำหรับใช้ทดแทนพลาสติกในสภาวการณ์แพร่ระบาดของ COVID-19",
+          "authors": [
+            "ดร.ปฐมา จาตกานนท์"
+          ],
+          "year": 2022,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%88%E0%B8%B8%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "บรรจุภัณฑ์"
+          ],
+          "search_keyword": "บรรจุภัณฑ์",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานการวิจัยแห่งชาติ (วช.)",
+          "indexed_at": "2026-06-15T07:31:53.539Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "uxgzyp4B882ltYvqGpAB",
+        "_score": 3.5005941,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การประเมินวัฏจักรชีวิตเพื่อเปรียบเทียบสมรรถนะเชิงสิ่งแวดล้อมของบรรจุภัณฑ์ย่อยสลายได้ทางชีวภาพ",
+          "authors": [
+            "ดร.ธำรงรัตน์ มุ่งเจริญ, รองศาสตราจารย์"
+          ],
+          "year": 2010,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%88%E0%B8%B8%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "บรรจุภัณฑ์"
+          ],
+          "search_keyword": "บรรจุภัณฑ์",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานนวัตกรรมแห่งชาติ",
+          "indexed_at": "2026-06-15T07:31:53.539Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "vBgzyp4B882ltYvqGpAB",
+        "_score": 3.5005941,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การพัฒนาผลิตภัณฑ์และการบรรจุภัณฑ์ของเกษตรกรลูกค้า ประจำปี 2553",
+          "authors": [
+            "นางสาวยุพวัลย์ ทองใบอ่อน"
+          ],
+          "year": 2011,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%88%E0%B8%B8%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "บรรจุภัณฑ์"
+          ],
+          "search_keyword": "บรรจุภัณฑ์",
+          "doc_type": "งานวิจัย",
+          "funding": "ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตร",
+          "indexed_at": "2026-06-15T07:31:53.539Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "vRgzyp4B882ltYvqGpAB",
+        "_score": 3.5005941,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการพัฒนาบรรจุภัณฑ์และการสร้างมาตรฐานผลิตภัณฑ์เครื่องสำอางสำหรับผิวหนังและเส้นผมจากสารสกัดสมุนไพร",
+          "authors": [
+            "ดร.สุพนิดา วินิจฉัย"
+          ],
+          "year": 2006,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%88%E0%B8%B8%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "บรรจุภัณฑ์"
+          ],
+          "search_keyword": "บรรจุภัณฑ์",
+          "doc_type": "งานวิจัย",
+          "funding": "มก.-ธกส. (โครงการความร่วมมือระหว่างมหาวิทยาลัยเกษตรศาสตร์ กับธนาคารเพื่อการเกษตรและสหกรณ์การเกษตร)",
+          "indexed_at": "2026-06-15T07:31:53.539Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "vhgzyp4B882ltYvqGpAB",
+        "_score": 3.5005941,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการคูปองนวัตกรรมเรื่อง แผ่นกำจัดเอทิลีนในบรรจุภัณฑ์ขนส่งเพื่อยืดอายุของสินค้าเพื่อการเกษตร",
+          "authors": [
+            "ดร.เลอพงศ์ จารุพันธ์, รองศาสตราจารย์"
+          ],
+          "year": 2012,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%88%E0%B8%B8%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "บรรจุภัณฑ์"
+          ],
+          "search_keyword": "บรรจุภัณฑ์",
+          "doc_type": "งานวิจัย",
+          "funding": "บริษัท ล็อกเก็ต จำกัด",
+          "indexed_at": "2026-06-15T07:31:53.539Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "vxgzyp4B882ltYvqGpAB",
+        "_score": 3.5005941,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การพัฒนาระบบบรรจุภัณฑ์สมาร์ทเพื่อธุรกิจค้าปลีกสมัยใหม่",
+          "authors": [
+            "ดร.ภัทรินทร์ ลีลาภิวัฒน์, รองศาสตราจารย์",
+            "ดร.วาณี ชนเห็นชอบ",
+            "รองศาสตราจารย์",
+            "ดร.เลอพงศ์ จารุพันธ์",
+            "รองศาสตราจารย์"
+          ],
+          "year": 2020,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%88%E0%B8%B8%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "บรรจุภัณฑ์"
+          ],
+          "search_keyword": "บรรจุภัณฑ์",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานพัฒนาการวิจัยการเกษตร (สวก.)",
+          "indexed_at": "2026-06-15T07:31:53.539Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "wBgzyp4B882ltYvqGpAB",
+        "_score": 3.5005941,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การพัฒนาระบบให้ความร้อนแบบโอห์มมิคสำหรับอาหารในบรรจุภัณฑ์",
+          "authors": [
+            "ดร.ปิติยา กมลพัฒนะ, รองศาสตราจารย์"
+          ],
+          "year": 2014,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%88%E0%B8%B8%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "บรรจุภัณฑ์"
+          ],
+          "search_keyword": "บรรจุภัณฑ์",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:31:53.539Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "wRgzyp4B882ltYvqGpAB",
+        "_score": 3.5005941,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการการพัฒนากระบวนการผลิตและบรรจุภัณฑ์ที่เหมาะสมสำหรับกะปิ",
+          "authors": [
+            "ดร.ปัทมา ระตะนะอาพร",
+            "รองศาสตราจารย์",
+            "ดร.จุฑา มุกดาสนิท",
+            "ผู้ช่วยศาสตราจารย์",
+            "ดร.ปริญญา ลิมป์วิริยะกุล"
+          ],
+          "year": 2010,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%88%E0%B8%B8%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "บรรจุภัณฑ์"
+          ],
+          "search_keyword": "บรรจุภัณฑ์",
+          "doc_type": "งานวิจัย",
+          "funding": "ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตร",
+          "indexed_at": "2026-06-15T07:31:53.539Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      }
+    ]
+  }
+}

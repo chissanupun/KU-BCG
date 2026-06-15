@@ -1,0 +1,89 @@
+{
+  "took": 6,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 2,
+      "relation": "eq"
+    },
+    "max_score": 5.5020742,
+    "hits": [
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Khgzyp4B882ltYvqGpEC",
+        "_score": 5.5020742,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการสำรวจและจัดทําข้อมูลความหลากหลายทางชีวภาพของปู ในชุดโครงการสำรวจและจัดทําข้อมูลความหลากหลายทางชีวภาพในพื้นที่ที่มีความหลากหลายทางชีวภาพสูง หมู่เกาะสุรินทร์ จ.พังงา และหมู่เกาะอ่างทอง จ.สุราษฎรณ์ธานี",
+          "authors": [
+            "นางสาวพันธุ์ทิพย์ วิเศษพงษ์พันธ์, รองศาสตราจารย์",
+            "ดร.วชิระ ใจงาม",
+            "อาจารย์",
+            "เอกพันธ์ พจน์ดำรง"
+          ],
+          "year": 2005,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Biodiversity",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Biodiversity"
+          ],
+          "search_keyword": "Biodiversity",
+          "doc_type": "งานวิจัย",
+          "indexed_at": "2026-06-15T07:33:06.132Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Kxgzyp4B882ltYvqGpEC",
+        "_score": 5.5020742,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการสำรวจและจัดทำฐานข้อมูลความหลากหลายทางชีวภาพสวนป่าขุนหาญ จังหวัดศรีสะเกษ",
+          "authors": [
+            "ดร.วัฒนชัย ตาเสน, รองศาสตราจารย์"
+          ],
+          "year": 2013,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Biodiversity",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Biodiversity"
+          ],
+          "search_keyword": "Biodiversity",
+          "doc_type": "งานวิจัย",
+          "funding": "องค์การอุตสาหกรรมป่าไม้",
+          "indexed_at": "2026-06-15T07:33:06.132Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,469 @@
+{
+  "took": 13,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 11,
+      "relation": "eq"
+    },
+    "max_score": 3.976018,
+    "hits": [
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "xBgzyp4B882ltYvqGpAB",
+        "_score": 3.976018,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การใช้ประโยชน์น้ำมันปลาดิบที่ได้จากกระบวนการผลิตปลาป่นเพื่อพัฒนาเป็นผลิตภัณฑ์น้ำมันปลารูปแบบใหม่",
+          "authors": [
+            "ดร.วรรณวิมล คล้ายประดิษฐ์, รองศาสตราจารย์",
+            "ดร.วันชัย วรวัฒนเมธีกุล",
+            "รองศาสตราจารย์",
+            "ผศ.ดร.มารุจ ลิมปะวัฒนะ"
+          ],
+          "year": 2018,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=FISH",
+          "topic_ids": [
+            "3",
+            "5"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular",
+            "Bio"
+          ],
+          "keywords": [
+            "FISH"
+          ],
+          "search_keyword": "FISH",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานกองทุนสนับสนุนการวิจัย (สกว.)",
+          "indexed_at": "2026-06-15T07:32:05.762Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง",
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality",
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "xRgzyp4B882ltYvqGpAB",
+        "_score": 3.976018,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การพัฒนาผงแคลเซียมจากก้างและกระดูกปลานิลเพื่อประยุกต์ใช้ในผลิตภัณฑ์ปลาหยองและปลาแท่งกรอบในระดับกึ่งอุตสาหกรรม",
+          "authors": [
+            "นางสาวเนาวพันธ์ ดลรุ้ง",
+            "ดร.จีรภา หินซุย",
+            "ผู้ช่วยศาสตราจารย์",
+            "นางนพมาศ จารย์คำมา",
+            "นางสาวณัฐณิรินทร์ บูรณะสระกวี"
+          ],
+          "year": 2025,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=FISH",
+          "topic_ids": [
+            "3",
+            "5"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular",
+            "Bio"
+          ],
+          "keywords": [
+            "FISH"
+          ],
+          "search_keyword": "FISH",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานพัฒนาการวิจัยการเกษตร (สวก.)",
+          "indexed_at": "2026-06-15T07:32:05.762Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง",
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality",
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "xhgzyp4B882ltYvqGpAB",
+        "_score": 3.976018,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การผลิตกาวจากหนังปลาของไทย",
+          "authors": [
+            "ดร.กังสดาลย์ บุญปราบ, รองศาสตราจารย์",
+            "นายจิราวัฒน์ เสถียรคมสรไกร (นิสิตระดับปริญญาโท รหัส 53142000"
+          ],
+          "year": 2010,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=FISH",
+          "topic_ids": [
+            "3",
+            "5"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular",
+            "Bio"
+          ],
+          "keywords": [
+            "FISH"
+          ],
+          "search_keyword": "FISH",
+          "doc_type": "งานวิจัย",
+          "funding": "บัณฑิตวิทยาลัย มก.",
+          "indexed_at": "2026-06-15T07:32:05.762Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง",
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality",
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "xxgzyp4B882ltYvqGpAB",
+        "_score": 3.976018,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การศึกษาการผลิตปลาสวรรค์แผ่นฮาลาลจากปลาทะเล",
+          "authors": [
+            "ดร.วันเพ็ญ มีสมญา",
+            "นางสาวสมจิต อ่อนเหม",
+            "ดร.วันชัย วรวัฒนเมธีกุล",
+            "รองศาสตราจารย์",
+            "นางสาวศรุดา (ตวิษา) โลหะนะ"
+          ],
+          "year": 2012,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=FISH",
+          "topic_ids": [
+            "3",
+            "5"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular",
+            "Bio"
+          ],
+          "keywords": [
+            "FISH"
+          ],
+          "search_keyword": "FISH",
+          "doc_type": "งานวิจัย",
+          "indexed_at": "2026-06-15T07:32:05.762Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง",
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality",
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "yBgzyp4B882ltYvqGpAB",
+        "_score": 3.976018,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การศึกษาผลกระทบจากการทบทวนมาตรการห้ามมิให้ผลิต นำเข้า หรือจำหน่ายปลาปักเป้าและอาหารที่มีปลาปักเป้าเป็นส่วนผสม",
+          "authors": [
+            "ดร.วรัณทัต ดุลยพฤกษ์",
+            "อาจารย์",
+            "ดร.จุฑา มุกดาสนิท",
+            "ผู้ช่วยศาสตราจารย์",
+            "ดร.ศิริสุดา จำนงทรง"
+          ],
+          "year": 2011,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=FISH",
+          "topic_ids": [
+            "3",
+            "5"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular",
+            "Bio"
+          ],
+          "keywords": [
+            "FISH"
+          ],
+          "search_keyword": "FISH",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานกองทุนสนับสนุนการวิจัย",
+          "indexed_at": "2026-06-15T07:32:05.762Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง",
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality",
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "yRgzyp4B882ltYvqGpAB",
+        "_score": 3.976018,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การศึกษาสถานภาพระบบนิเวศวิทยาแหล่งน้ำ ชนิดสัตว์น้ำและผลผลิตสัตว์น้ำในแม่น้ำบางปะกง",
+          "authors": [
+            "ดร.ณรงค์ วีระไวทยะ, รองศาสตราจารย์",
+            "ดร.ไพลิน จิตรชุ่ม",
+            "ผู้ช่วยศาสตราจารย์",
+            "ดร.พัชรี ครูขยัน",
+            "ผู้ช่วยศาสตราจารย์"
+          ],
+          "year": 2013,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=FISH",
+          "topic_ids": [
+            "3",
+            "5"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular",
+            "Bio"
+          ],
+          "keywords": [
+            "FISH"
+          ],
+          "search_keyword": "FISH",
+          "doc_type": "งานวิจัย",
+          "indexed_at": "2026-06-15T07:32:05.762Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง",
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality",
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "yhgzyp4B882ltYvqGpAB",
+        "_score": 3.976018,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "ผลของนำมันปลาจากปลาป่นนอร์เวย์ต่อระดับไขมันในเลือดหนูทดลอง",
+          "authors": [
+            "ดร.วันเพ็ญ มีสมญา",
+            "นางสาวเยาวดี คุปตะพันธ์",
+            "นางสาวดวงจันทร์ เฮงสวัสดิ์"
+          ],
+          "year": 1999,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=FISH",
+          "topic_ids": [
+            "3",
+            "5"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular",
+            "Bio"
+          ],
+          "keywords": [
+            "FISH"
+          ],
+          "search_keyword": "FISH",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัย มก.",
+          "indexed_at": "2026-06-15T07:32:05.762Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง",
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality",
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "yxgzyp4B882ltYvqGpAB",
+        "_score": 3.976018,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การศึกษาเบื้องต้นเรื่องการประยุกต์ใช้กาวน้ำจากหนังของปลาเพื่องานศิลปะ เพื่อพัฒนาคุณภาพชีวิต",
+          "authors": [
+            "ดร.กังสดาลย์ บุญปราบ, รองศาสตราจารย์"
+          ],
+          "year": 2017,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=FISH",
+          "topic_ids": [
+            "3",
+            "5"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular",
+            "Bio"
+          ],
+          "keywords": [
+            "FISH"
+          ],
+          "search_keyword": "FISH",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนส่วนตัว",
+          "indexed_at": "2026-06-15T07:32:05.762Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง",
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality",
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "zBgzyp4B882ltYvqGpAB",
+        "_score": 3.976018,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การประยุกต์ใช้สารออกฤทธิ์จากธรรมชาติในการควบคุมการเสื่อมคุณภาพของสัตว์น้ำ และยับยั้งแบคทีเรียก่อโรคในระบบทางเดินอาหารที่พบปนเปื้อนในสัตว์น้ำและผลิตภัณฑ์ ภายใต้ชุดโครงการ การพัฒนาเทคโนโลยีชีวภาพทางการเพาะเลี้ยงสัตว์น้ำและการจัดการความเสี่ยงของผลิตภัณฑ์สัตว์น้ำ จากการเพาะเลี้ยง",
+          "authors": [
+            "ดร.พงษ์เทพ วิไลพันธ์, รองศาสตราจารย์",
+            "ดร.วรรณวิมล คล้ายประดิษฐ์",
+            "รองศาสตราจารย์",
+            "ดร.เยาวภา ไหวพริบ",
+            "รองศาสตราจารย์"
+          ],
+          "year": 2013,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=FISH",
+          "topic_ids": [
+            "3",
+            "5"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular",
+            "Bio"
+          ],
+          "keywords": [
+            "FISH"
+          ],
+          "search_keyword": "FISH",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานคณะกรรมการวิจัยแห่งชาติ",
+          "indexed_at": "2026-06-15T07:32:05.762Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง",
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality",
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "zRgzyp4B882ltYvqGpAB",
+        "_score": 3.976018,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "Cloning Expression and Rational Design of Engineered Fish Growth Hormones that are more Potent and Able to Stimulate Growth on Variety of Fish",
+          "authors": [
+            "ดร.สมชัย พรบันลือลาภ, รองศาสตราจารย์",
+            "ดร.อุทัยรัตน์ ณ นคร",
+            "ศาสตราจารย์",
+            "ดร.เรืองชาย ยุ้นพันธ์",
+            "ผู้ช่วยศาสตราจารย์"
+          ],
+          "year": 2006,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=FISH",
+          "topic_ids": [
+            "3",
+            "5"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular",
+            "Bio"
+          ],
+          "keywords": [
+            "FISH"
+          ],
+          "search_keyword": "FISH",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:32:05.762Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง",
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality",
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "zhgzyp4B882ltYvqGpAB",
+        "_score": 3.976018,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การศึกษาเครือข่ายสังคมที่มีผลต่อการระบาดของพยาธิใบไม้ตับจากแหล่งน้ำไปสู่ชุมชน",
+          "authors": [
+            "นางสาวสุวิชา เกษมสุวรรณ",
+            "รองศาสตราจารย์",
+            "นายชัยเทพ พูลเขตต์",
+            "รองศาสตราจารย์",
+            "ผศ.สิริขจร ตังควัฒนา"
+          ],
+          "year": 2013,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=FISH",
+          "topic_ids": [
+            "3",
+            "5"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular",
+            "Bio"
+          ],
+          "keywords": [
+            "FISH"
+          ],
+          "search_keyword": "FISH",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานกองทุนสนับสนุนการวิจัย",
+          "indexed_at": "2026-06-15T07:32:05.762Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง",
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality",
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      }
+    ]
+  }
+}

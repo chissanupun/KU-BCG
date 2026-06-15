@@ -1,0 +1,3359 @@
+{
+  "took": 42,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 54,
+      "relation": "eq"
+    },
+    "max_score": 11.054403,
+    "hits": [
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "yBjoyZ4B882ltYvqOo48",
+        "_score": 11.054403,
+        "_source": {
+          "source": "KUKR",
+          "title": "Influence of Spirulina on lactic acid bacteria cultivation",
+          "abstract": "Spirulina platensis is produced commercially as a food source, and is considered safe for human consumption. It has attractively increasing interest due to its high protein content, essential amino acids, fatty acids, and pigments. Here, the potential of Spirulina platensis IFRPD 1182 biomass as a substrate for cultivation of lactic acid bacteria was evaluated. Lactobacillus rhamnosus ATCC 53103 growth was supported by Spirulina biomass during fermentation. The increasing of S. platensis biomass could increase C-phycocyanin and total phenolic contents including antioxidant properties which could be developed as bioproducts. The results showed a guideline for applying Spirulina as a substrate with other nutrient sources that could support the growth of lactic acid bacteria and lactic acid production.",
+          "authors": [
+            "Wanida Pan-utai",
+            "วนิดา ปานอุทัย",
+            "กฤติน จุลนารา",
+            "จุฑามาศ อินคล้าย",
+            "จุฑาทิพย์ รวดเร็ว",
+            "ณัฐวดี แก้วเกลื่อน",
+            "Krittin Julnara",
+            "Juthamart Inkhlay",
+            "Jutatip Roudrew",
+            "Nutthawadee Kaewkluean"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20019249",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Lactobacillus rhamnosus",
+            "Lactic acid bacteria",
+            "Microbial culture",
+            "Bacteria cultivation",
+            "Spirulina platensis",
+            "Fermentation",
+            "Growth",
+            "Phycocyanin",
+            "Total phenolic contents",
+            "Antioxidant",
+            "Bioproducts",
+            "แบคทีเรียแล็กติก",
+            "เชื้อแบคทีเรีย",
+            "การเพาะเลี้ยงแบคทีเรีย",
+            "การเพาะเลี้ยงจุลินทรีย์",
+            "อาหารเลี้ยงเชื้อ",
+            "สาหร่ายสไปรูลิน่า",
+            "กระบวนการหมัก",
+            "การเจริญเติบโต",
+            "ไฟโคไซยานิน",
+            "ปริมาณฟินอลิกทั้งหมด",
+            "สารต้านอนุมูลอิสระ",
+            "ชีวผลิตภัณฑ์",
+            "Lactobacillus",
+            "Cell culture",
+            "Culture techniques",
+            "Culture media",
+            "Cyanobacteria",
+            "Lactic fermentation",
+            "Phenolic content",
+            "Antioxidants",
+            "แบคทีเรียที่ผลิตกรดแลคติค",
+            "การเพาะเลี้ยงเซลล์",
+            "เทคนิคการเพาะเลี้ยง",
+            "อาหารเพาะเลี้ยง",
+            "การหมักกรดแลคติก",
+            "การเติบโต",
+            "ปริมาณสารฟีนอลิค",
+            "สารยับยั้งการรวมตัวของออกซิเจน"
+          ],
+          "search_keyword": "ชีวมวล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:56:04.486Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "HRgzyp4B882ltYvqGpEC",
+        "_score": 10.295175,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การเก็บรักษาเชื้อแบคทีเรียกรดแลคติก",
+          "authors": [],
+          "year": 2009,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=lactic+acid+bacteria",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "lactic acid bacteria"
+          ],
+          "search_keyword": "lactic acid bacteria",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนส่วนตัว",
+          "indexed_at": "2026-06-15T07:32:53.233Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Hhgzyp4B882ltYvqGpEC",
+        "_score": 10.295175,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "AMYLOLYTIC LACTIC ACID BACTERIA (ALAB) (2011) นักวิจัย: Dr.Pramuan Saithong , ประเภท:",
+          "authors": [],
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=lactic+acid+bacteria",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "lactic acid bacteria"
+          ],
+          "search_keyword": "lactic acid bacteria",
+          "doc_type": "ทรัพย์สินทางปัญญา",
+          "indexed_at": "2026-06-15T07:32:53.233Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Hxgzyp4B882ltYvqGpEC",
+        "_score": 10.295175,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "ผลิตภัณฑ์เครื่องดื่มหมักจากน้ำหางกะทิ (Culture coconut whey by lactic acid bacteria) เสริมพรีไบโอติกส์ (prebiotic) และสารสกัดจากหม่อน (mulberry extract) (2023) นักวิจัย: Dr.Pramuan Saithong , Dr.Wanida Tewaruth Chitisankul , Dr.Phisamai Srichayet , ประเภท:",
+          "authors": [],
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=lactic+acid+bacteria",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "lactic acid bacteria"
+          ],
+          "search_keyword": "lactic acid bacteria",
+          "doc_type": "ทรัพย์สินทางปัญญา",
+          "indexed_at": "2026-06-15T07:32:53.233Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "IBgzyp4B882ltYvqGpEC",
+        "_score": 10.295175,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "กรรมวิธีการหมักแป้งขนมจีนที่มีปริมาณสารกาบาสูงโดยใช้แบคทีเรียที่ผลิตกรดแลกติก (2024) นักวิจัย: Dr.Sirichai Songsermpong, Associate Professor , Dr.Sudsai Trevanich, Associate Professor , นางสาวชนม์นิภา จิตราคณี , ประเภท:",
+          "authors": [],
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=lactic+acid+bacteria",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "lactic acid bacteria"
+          ],
+          "search_keyword": "lactic acid bacteria",
+          "doc_type": "ทรัพย์สินทางปัญญา",
+          "indexed_at": "2026-06-15T07:32:53.233Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "ORjoyZ4B882ltYvqOo88",
+        "_score": 10.149208,
+        "_source": {
+          "source": "KUKR",
+          "title": "Encapsulation of lactic acid bacteria as starter culture in fermented foods",
+          "authors": [
+            "Kanokwan Yodin",
+            "กนกวรรณ ยอดอินทร์"
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20009930",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Lactic acid bacteria",
+            "Bacteria",
+            "Microbial flora",
+            "Fermented food",
+            "Lactic fermentation",
+            "Processing",
+            "Starter culture",
+            "Encapsulation",
+            "Extrusion",
+            "Emulsion",
+            "Spray drying",
+            "Coating material",
+            "Starch",
+            "Alginate",
+            "Gellan",
+            "Xanthan gum",
+            "Carrageenan",
+            "Chitosan",
+            "Gelatin",
+            "Cellulose acetate phthalate",
+            "Milk proteins",
+            "Prebiotics",
+            "เชื้อแลคติกแอซิด",
+            "เชื้อแบคทีเรีย",
+            "จุลินทรีย์ประจำถิ่น",
+            "อาหารหมัก",
+            "การหมักกรดแลคติก",
+            "กระบวนการหมัก",
+            "กล้าเชื้อ",
+            "เซลล์ห่อหุ้ม",
+            "เอ็นแคปซูเลชัน",
+            "วิธีการห่อหุ้ม",
+            "วิธีเอ็กซ์ทรูชัน",
+            "วิธีอิมัลชัน",
+            "วัสดุห่อหุ้ม",
+            "สตาร์ช",
+            "อัลจิเนต",
+            "เจลแลน",
+            "แซนแทนกัม",
+            "คาราจีแนน",
+            "ไคโตซาน",
+            "เจลาติน",
+            "เซลลูโลสอะซิเตทพธาเลท",
+            "โปรตีนนม",
+            "พรีไบโอติก",
+            "การรอดชีวิต"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "0xjoyZ4B882ltYvqOo89",
+        "_score": 8.521112,
+        "_source": {
+          "source": "KUKR",
+          "title": "In vitro screening of potential probiotic lactic acid bacteria isolated from intestinal contents and gills of nile tilapia",
+          "authors": [
+            "Prachom, N.",
+            "Rumjuankiat, K.",
+            "Sanguankiat, A.",
+            "Boonyoung, S.",
+            "Pilasombut, K."
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20008879",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis niloticus",
+            "ปลา",
+            "เหงือกของสัตว์น้ำ",
+            "ลำไส้",
+            "Bacillus coagulans",
+            "Pseudomonas fluorescens",
+            "Salmonella typhimurium",
+            "Escherichia coli",
+            "Listeria",
+            "แบคทีเรียที่ผลิตกรดแลคติค",
+            "จุลินทรีย์ประจำถิ่น",
+            "กรดแลคติค",
+            "โปรไบโอติก",
+            "เทคนิคการทำไอโซเลชั่น",
+            "การวิเคราะห์ทางจุลชีววิทยา",
+            "การจัดจำแนก",
+            "ความทนทาน",
+            "Nile tilapia",
+            "Gills",
+            "Intestine",
+            "Listeria innocua",
+            "Lactic acid bacteria",
+            "Probiotics",
+            "Isolation",
+            "Microbial identification",
+            "Antagonistic activity",
+            "Antimicrobial activity",
+            "Acid tolerance",
+            "NaCl tolerance",
+            "Fresh bile tolerance",
+            "ปลานิล",
+            "เหงือก",
+            "แบคทีเรีย",
+            "สายพันธุ์",
+            "การจำแนกเชื้อ",
+            "กรดแลคติก",
+            "Fishes",
+            "Intestines",
+            "Microbial flora",
+            "Lactic acid",
+            "Isolation techniques",
+            "Microbiological analysis",
+            "Identification",
+            "Tolerance"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "GBjoyZ4B882ltYvqOo88",
+        "_score": 5.44756,
+        "_source": {
+          "source": "KUKR",
+          "title": "Characterization of physicochemical, microbiological, and nutritional changes in traditional Chinese hairy tofu during two-stage fermentation",
+          "abstract": "Hairy tofu (Mao tofu), a unique soybean-based fermented food from Anhui, China, is traditionally made through a unique two-stage fermentation process involving surface mold growth followed by anaerobic jar fermentation with added spices. This study aimed to characterize the sequential physicochemical, microbiological, and nutritional changes during the traditional two-stage fermentation of hairy tofu, which had never been studied previously. Fresh tofu was fermented under aerobic conditions for 2 days using Mucor sp., then spiced and sealed in jars for anaerobic fermentation for over 12 weeks. Physicochemical analysis showed a decrease in pH and water activity, while texture softened and color darkened with time, along the two-step fermentation process. Microbial counts peaked during mold fermentation and shifted in dominance from fungi to lactic acid bacteria (LAB) during anaerobic stages. Antioxidant activity and total phenolic content significantly increased during fermentation, particularly after spice addition. Nutritional analysis revealed a rise in mineral content due to salt addition, and dynamic changes in macronutrients. Notably, protein content increased during mold fermentation, likely due to fungal biomass formation. During anaerobic fermentation, protein decreased and carbohydrate content rose, possibly reflecting LAB survival metabolism involving proteolysis and gluconeogenesis. Digestibility of protein, fat, and starch improved during fermentation, owing to microbial enzymatic activities. Isoflavone aglycones markedly increased, in particular following fungal fermentation, thus enhancing isoflavone bioavailability. Taken together, these findings highlight the biochemical complexity and functional enhancement of hairy tofu during fermentation, supporting its value as a traditional functional food. © 2025 Elsevier B.V.",
+          "authors": [
+            "Surya, R.",
+            "Petsong, K.",
+            "Tedjakusuma, F.",
+            "Valiandy Jiuangga, V.",
+            "Thinthasit, A.",
+            "Nugroho, D."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446746",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Anhui tofu",
+            "Fermentation",
+            "Hairy tofu",
+            "Mao tofu",
+            "Mucor"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "ChjoyZ4B882ltYvqOo88",
+        "_score": 5.160409,
+        "_source": {
+          "source": "KUKR",
+          "title": "Creation of a functional duckweed holobiont to reduce nutrient competition with microalgae for high-yield biomass production",
+          "abstract": "Duckweed has been highlighted as an appropriate biomass for low-carbon industries because of its significantly high production rate and multiple resource value. However, the outbreak of microalgae is a practical issue that decreases duckweed production yield. This study demonstrated that the growth of the duckweed Lemna aequinoctialis from factory wastewater was enhanced by colonization with indigenous plant growth-promoting bacteria (PGPB), whereas the growth of a duckweed competitor microalga, Coelastrella sp. KC10, from the same wastewater was reduced by indigenous microalgal growth-inhibiting bacteria (MGIB). Finally, a quadruple co-culture of a synthetic duckweed holobiont, L. aequinoctialis colonized by both KLaR20 (PGPB) and KLaR16 (MGIB), and Coelastrella sp. KC10 successfully recovered the duckweed production level by 117.5% in frond number and 84.5% in dry weight compared to those in the absence of microalgae. This case study demonstrates for the first time that duckweed holobionts can be reconstructed and enforced to antagonize growth competitor microalgae. © 2025 The Author(s)",
+          "authors": [
+            "Thanh Phạm, H. T.",
+            "Kuroda, S.",
+            "Khairina, Y.",
+            "Morikawa, M."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446530",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Duckweed holobiont",
+            "Microalga growth-inhibiting bacteria",
+            "Microalgae",
+            "Plant growth-promoting bacteria",
+            "Quadruple co-culture",
+            "Co-cultures",
+            "Micro-algae",
+            "Microalga",
+            "Microalgal growth",
+            "Plant growth promoting bacterium",
+            "auxin",
+            "carbon",
+            "DNA polymerase",
+            "genomic DNA",
+            "RNA 16S",
+            "antagonism",
+            "aquatic plant",
+            "bacterium",
+            "biomass",
+            "colonization",
+            "nutrient uptake",
+            "symbiont",
+            "wastewater treatment",
+            "Article",
+            "bacterial colonization",
+            "biomass production",
+            "coculture",
+            "Coelastrella",
+            "colony formation",
+            "comparative study",
+            "dry weight",
+            "food industry",
+            "frond",
+            "green chemistry",
+            "growth inhibition",
+            "holobiont",
+            "Lemna paucicostata",
+            "microalgal growth inhibiting bacteria",
+            "nonhuman",
+            "nutrient",
+            "plant growth",
+            "plant growth-promoting bacterium",
+            "waste water management",
+            "wastewater",
+            "Araceae",
+            "growth, development and aging",
+            "metabolism",
+            "microbiology",
+            "Bacteria",
+            "Coculture Techniques",
+            "Nutrients"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "PhjoyZ4B882ltYvqOo88",
+        "_score": 4.934639,
+        "_source": {
+          "source": "KUKR",
+          "title": "Inhibition of Escherichia coli and Salmonella sp. using chitosan-gallic acid films",
+          "authors": [
+            "Poubol, J.",
+            "Phiriyangkul, P.",
+            "จุฑาทิพย์ โพธิ์อุบล",
+            "พริมา พิริยางกูร"
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/427852",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Vegetables",
+            "Fruits",
+            "Chitosan",
+            "Packaging materials",
+            "Tannins",
+            "Escherichia coli",
+            "Salmonella",
+            "Contamination",
+            "Microorganisms",
+            "Inhibition",
+            "Postharvest control",
+            "ผัก",
+            "ผลไม้",
+            "ไคโตแซน",
+            "บรรจุภัณฑ์",
+            "แทนนิน",
+            "การปนเปื้อน",
+            "จุลินทรีย์",
+            "การยับยั้ง",
+            "การควบคุมหลังการเก็บเกี่ยว",
+            "Chitosan film",
+            "Gallic acid",
+            "Salmonella sp.",
+            "ฟิล์มไคโตซาน",
+            "กรดแกลลิก",
+            "เอสเชอริเคีย โคไล",
+            "ซัลโมเนลลา",
+            "การยับยั้งจุลินทรีย์"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "2BjoyZ4B882ltYvqOo89",
+        "_score": 4.5883684,
+        "_source": {
+          "source": "KUKR",
+          "title": "Approval of isolated bacteria from the proximal intestine of nile tilapia using microbiological and molecular analysis",
+          "authors": [
+            "Suchanit Ngamkala",
+            "Wuttinun Raksajit",
+            "Khomson Satchasataporn",
+            "สุชนิทธิ์ งามกาละ",
+            "วุฒินันท์ รักษาจิตร์",
+            "คมสัน สัจจะสถาพร"
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/396016",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Lactobacillus",
+            "Tilapia",
+            "Bacteria",
+            "Bacterioses",
+            "Identification",
+            "Probiotics",
+            "Disease control",
+            "ปลานิล",
+            "แบคทีเรีย",
+            "โรคที่เกิดจากแบคทีเรีย",
+            "การจัดจำแนก",
+            "โปรไบโอติก",
+            "การควบคุมโรค",
+            "Lactobacillus rhamnosus",
+            "Microbiological method",
+            "PCR",
+            "Bacterial culture",
+            "Nile tilapia",
+            "Molecular analysis",
+            "โรค",
+            "ลำไส้ส่วนต้น",
+            "วิธีทางจุลชีววิทยา",
+            "ชีววิทยาโมเลกุล",
+            "การเพาะเชื้อแบคทีเรีย",
+            "แบคทีเรียจากลำไส้ส่วนต้น",
+            "แบคทีเรียกรดแลคติก",
+            "ปฏิกิริยาลูกโซ่โพลีเมอเรส",
+            "โรคที่เกิดจากการติดเชื้อแบคทีเรีย",
+            "โปรไบโอติกส์แบคทีเรีย"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "ARjoyZ4B882ltYvqOo88",
+        "_score": 4.561147,
+        "_source": {
+          "source": "KUKR",
+          "title": "Bioconversion of Sugarcane Bagasse into Cellulose and Organic Acid Using Lactiplantibacillus plantarum/Laccase-Mediated Pretreatment",
+          "abstract": "This study investigated the synergistic Lactiplantibacillus plantarum and laccase-mediated (PL) pretreatment to enhance the efficiency of cellulose and organic acid extraction from sugarcane bagasse (SCB). The extracted cellulose was characterized by various analytical techniques to assess its purity. The PL-treated fibers showed a significant increase in cellulose content and organic acids. The cellulose content increased from 42.27% in the raw SCB to 61.63% in the PL-fiber after bleaching, while lignin and xylan decreased from 25.09% and 23.17% to 7.26% and 19.49%, respectively. The acid concentration increased from 22.28 to 127.09 μmol/mL in L. plantarum treatment and 22.08 to 118.06 μmol/mL in PL treatment. The profiles of organic acid produced by L. plantarum were related to the degradation of hemicellulose and lignin, and the use of laccase to oxidize phenolic compounds in lignin. Notably, bleaching time of fibers was reduced from 7 to 5 h while maintaining high whiteness and crystallinity index of 69.45%. SEM analysis revealed the opening of the fiber structure and increased internal surface area. The Synchrotron radiation Fourier-transform infrared (SR-FTIR) and principal component analysis demonstrated changes in the distribution of chemical composition, which further confirmed the effectiveness of the pretreatment. The combined microbial and enzymatic pretreatment represents a promising environmentally friendly and sustainable strategy for efficient production of carbohydrates and organic acids from food waste. © The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature 2025.",
+          "authors": [
+            "Saknaveeporn, K.",
+            "Yingkamhaeng, N.",
+            "Torgbo, S.",
+            "Kamonsutthipaijit, N.",
+            "Thumanu, K.",
+            "Nimchua, T.",
+            "Watthanasakphuban, N.",
+            "Sukyai, P."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446393",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Biological pretreatment",
+            "Carbohydrates",
+            "Hydrolytic enzymes",
+            "Lignocellulosic biomass",
+            "Bagasse",
+            "Biodegradation",
+            "Crystallinity",
+            "Degradation",
+            "Fibers",
+            "Fourier transform infrared spectroscopy",
+            "Lignin",
+            "Synchrotron radiation",
+            "Acids extractions",
+            "Biological pre-treatment",
+            "Cellulose content",
+            "Hydrolytic enzyme",
+            "L. plantarum",
+            "Laccases",
+            "Organics",
+            "Pre-treatments",
+            "Sugar-cane bagasse",
+            "Principal component analysis"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "NRjoyZ4B882ltYvqOo88",
+        "_score": 4.4489045,
+        "_source": {
+          "source": "KUKR",
+          "title": "Physical and biochemical properties of chitosan film combined with gallic acid for fresh produce packaging",
+          "authors": [
+            "Phiriyangkul, P.",
+            "Sangthong, C.",
+            "Poubol, J.",
+            "พริมา พิริยางกูร",
+            "ชลิตา แสงทอง",
+            "จุฑาทิพย์ โพธิ์อุบล"
+          ],
+          "year": "2021",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/414105",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Chitosan",
+            "Edible films",
+            "Tannins",
+            "Chemicophysical properties",
+            "Biochemistry",
+            "Antioxidants",
+            "Packaging materials",
+            "Fresh products",
+            "ไคโตแซน",
+            "ฟิล์มรับประทานได้",
+            "แทนนิน",
+            "คุณสมบัติทางเคมีกายภาพ",
+            "ชีวเคมี",
+            "สารยับยั้งการรวมตัวของออกซิเจน",
+            "บรรจุภัณฑ์",
+            "ผลิตภัณฑ์สด",
+            "Chitosan film",
+            "Gallic acid",
+            "Physical properties",
+            "Biochemical properties",
+            "Fresh produce packaging",
+            "ฟิล์มไคโตซาน",
+            "ฟิล์มที่บริโภคได้",
+            "กรดแกลลิก",
+            "คุณสมบัติทางกายภาพ",
+            "คุณสมบัติทางชีวเคมี",
+            "สารต้านอนุมูลอิสระ",
+            "ผลิตผลสด"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "fRjoyZ4B882ltYvqOo88",
+        "_score": 4.3152113,
+        "_source": {
+          "source": "KUKR",
+          "title": "Proximate Composition, Fatty Acid Profile, and Microplastic Contamination of Edible Odonate Larvae (Aeshnidae: Anax sp.) in Rice Fields",
+          "abstract": "Although the human consumption of edible insects is a culturally well documented practice, the nutritional literature of aquatic insects has not been completely covered. The present study was conducted with the aim of evaluating the proximate composition, fatty acid profiles, and microplastic contamination of edible odonate larvae (Aeshnidae: Anax sp.). Nutrient analysis showed that the proximate composition was a good source of protein (65.70 g/100g dry weight). The major fatty acids were oleic (1.08 g/100g DW) and palmitic acid (1.01 g/100g DW). The long-chain polyunsaturated fatty acid profile showed an abundance of linoleic, alpha-linolenic, and eicosapentaenoic acids. Total microplastics content found 694 items in the gastrointestinal tract, with a mean abundance of 11.57 items/individual. Five distinct polymers, including polyethylene, polyamide, polypropylene, polyethylene terephthalate, and cellulose, were identified through chemical analysis of FTIR spectra. Future research should be conducted regarding a comprehensive nutritional study to as method for a nutritional reference on food safety and security. © 2023 Jordan Journal of Biological Sciences. All rights reserved",
+          "authors": [
+            "Maneechan, W.",
+            "Prommi, T. O."
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/433362",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "Edible aquatic insect",
+            "Fatty acid",
+            "Microplastics",
+            "Odonata",
+            "Proximate composition",
+            "Rice field"
+          ],
+          "search_keyword": "microplastic",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:03:31.159Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "UBjoyZ4B882ltYvqOo88",
+        "_score": 4.144869,
+        "_source": {
+          "source": "KUKR",
+          "title": "Synthesis of silver particles using white sugar for shelf-life extension of banana and tomato",
+          "abstract": "Silver particle was prepared with green method using white sugar as a reducing agent and coated on paper packaging for shelf-life extension of vegetable and fruit.The disinfection efficiency against E. coli was investigated with initial concentration of E. coli bacteria of 2*10**(3) CFU/ml.The result showed that paper coated with chitosan and silver nitrates synthesized by white sugar inhibit 100 percent of E. coli for 10 minutes. In addition, shelf-life extension of banana and tomato using paper coated with chitosan and silver nitrates synthesized by white sugar at room temperature (25 deg C) for 7 and 14 days, respectively. The result found that the shelf-life extension of banana and tomato could be increased by packing with paper packing coated with chitosan and silver nitrates synthesized by white sugar.",
+          "authors": [
+            "Kornkanok Ubolchollakhat",
+            "Phatthira Samakphong",
+            "กรกนก อุบลชลเขต",
+            "ภัททิรา สมัครพงศ์"
+          ],
+          "year": "2016",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20002454",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Banana",
+            "Tomato",
+            "Vegetables",
+            "Fruits",
+            "Silver particles",
+            "White sugar",
+            "Synthesis",
+            "Green method",
+            "Paper packaging",
+            "Shelf-life extension",
+            "กล้วย",
+            "มะเขือเทศ",
+            "ผักและผลไม้",
+            "อนุภาคเงิน",
+            "น้ำตาลทรายขาว",
+            "การสังเคราะห์",
+            "กรรมวิธีสีเขียว",
+            "บรรจุภัณฑ์กระดาษ",
+            "การเคลือบ",
+            "การยืดอายุการเก็บรักษา",
+            "เอสเชอริเชีย โคไล",
+            "การยับยั้งเชื้อแบคทีเรีย",
+            "Bananas",
+            "Tomatoes",
+            "Silver",
+            "Sugar",
+            "Coating",
+            "Packaging materials",
+            "Keeping quality",
+            "Escherichia coli",
+            "Inhibition",
+            "ผลไม้",
+            "ผัก",
+            "เงิน",
+            "น้ำตาล",
+            "บรรจุภัณฑ์",
+            "คุณภาพการเก็บ",
+            "การยับยั้ง"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "_BjoyZ4B882ltYvqOo48",
+        "_score": 4.124855,
+        "_source": {
+          "source": "KUKR",
+          "title": "Kineococcus halophytocola sp. nov., Isolated from Leaves of Halophyte Sesuvium portulacastrum L",
+          "abstract": "An aerobic, Gram-stain-positive, motile, coccus-shaped actinomycete, designated strain LSe6-4T, was isolated from leaves of sea purslane (Sesuvium portulacastrum L.) in Thailand and subjected to a polyphasic taxonomic studies. Growth of the strain occurred at temperatures between 15 and 38 °C, and with NaCl concentrations 0–13%. The 16S rRNA gene sequences analysis indicated that the strain was most closely related to Kineococcus endophyticus KLBMP 1274T (99.2%), and Kineococcus mangrovi L2-1-L1T (99.0%). The genome of strain LSe6-4T was estimated to be 4.22 Mbp in size, with DNA G+C content of 74.57%. The average nucleotide identity (ANI) and digital DNA-DNA hybridization (dDDH) relatedness values between strain LSe6-4T and the closely related species were less than the threshold values for identifying a novel species. Strain LSe6-4T showed morphological and chemotaxonomic characteristics of the genus Kineocoocus. The whole-cell hydrolysates contained meso-diaminopimelic acid as the diagnostic diamino acid, with arabinose, galactose, and ribose as whole-cell sugars. The predominant menaquinone was MK-9(H<inf>2</inf>). The polar lipid profile composed of phosphatidylglycerol, diphosphatidylglycerol, an unidentified phospholipid, three unidentified aminophospholipids, and an unidentified aminolipid. Major cellular fatty acids (> 10% of total fatty acids) were anteiso-C<inf>15:0</inf> and iso-C<inf>14:0</inf>. It is evident from the combination of genotypic and phenotypic characteristics that strain LSe6-4T represents a novel species of the genus Kineococcus, for which the name Kineococcus halophytocola sp. nov. is proposed. The type strain is strain LSe6-4T (= TBRC 17798T = NBRC 116401T). © The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature 2025.",
+          "authors": [
+            "Thanompreechachai, J.",
+            "Butdee, W.",
+            "Chantavorakit, T.",
+            "Suriyachadkun, C.",
+            "Duangmal, K."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446304",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "aminophospholipid",
+            "arabinose",
+            "bacterial DNA",
+            "bacterial RNA",
+            "cardiolipin",
+            "diamino acid",
+            "diaminopimelic acid",
+            "galactose",
+            "menaquinone",
+            "phosphatidylglycerol",
+            "phospholipid",
+            "ribose",
+            "RNA 16S",
+            "sodium chloride",
+            "farnoquinone",
+            "fatty acid",
+            "Actinobacteria",
+            "Article",
+            "bacterial genome",
+            "bacterial growth",
+            "bacterial strain",
+            "bacterium isolation",
+            "chemotaxonomy",
+            "comparative study",
+            "concentration (parameter)",
+            "controlled study",
+            "DNA base composition",
+            "DNA DNA hybridization",
+            "fatty acid analysis",
+            "genotype phenotype correlation",
+            "Gram positive bacterium",
+            "Gram staining",
+            "halophyte",
+            "Kineococcus halophytocola",
+            "Kineococcus mangrovi",
+            "lipid fingerprinting",
+            "microbial biomass",
+            "microbial morphology",
+            "new species",
+            "nonhuman",
+            "nucleotide sequence",
+            "phylogenetic tree",
+            "plant leaf",
+            "Portulacaceae",
+            "RNA analysis",
+            "RNA sequence",
+            "Sesuvium portulacastrum",
+            "temperature",
+            "Thailand",
+            "type strain",
+            "whole cell",
+            "Actinomycetales",
+            "bacterium identification",
+            "chemistry",
+            "classification",
+            "DNA sequencing",
+            "genetics",
+            "isolation and purification",
+            "microbiology",
+            "nucleic acid hybridization",
+            "phylogeny",
+            "Bacterial Typing Techniques",
+            "Base Composition",
+            "DNA, Bacterial",
+            "Fatty Acids",
+            "Phospholipids",
+            "Plant Leaves",
+            "RNA, Ribosomal, 16S",
+            "Salt-Tolerant Plants",
+            "Sequence Analysis, DNA",
+            "Vitamin K 2"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "QhjoyZ4B882ltYvqOo88",
+        "_score": 4.052505,
+        "_source": {
+          "source": "KUKR",
+          "title": "Seed coating on quality of sorghum seed",
+          "authors": [
+            "Ngamprasitthi, S.",
+            "Wongpila, W.",
+            "Inchan, Y.",
+            "Panitnok, K.",
+            "Chaisri, S.",
+            "สุปราณี งามประสิทธิ์",
+            "วราภรณ์ วงศ์พิลา",
+            "ยุวดี อินจันทร์",
+            "กิ่งกานท์ พานิชนอก",
+            "สกล ฉายศรี"
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/387893",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Sorghum bicolor",
+            "Seed",
+            "Seed pelleting",
+            "Chemicals",
+            "Chitosan",
+            "Bacteria",
+            "Quality",
+            "Seed characteristics",
+            "Vigour",
+            "Germination",
+            "Seeds",
+            "เมล็ดพันธุ์",
+            "การเคลือบเมล็ด",
+            "สารเคมี",
+            "ไคโตแซน",
+            "แบคทีเรีย",
+            "คุณภาพ",
+            "ลักษณะของเมล็ดพันธุ์",
+            "ความแข็งแรง",
+            "การงอก",
+            "เมล็ด",
+            "Sorghum",
+            "Seed coating",
+            "Chemical substances",
+            "Bacteria KPS46",
+            "Seed vigor",
+            "Seed germination",
+            "ข้าวฟ่าง",
+            "การเคลือบเมล็ดพันธุ์",
+            "ไคโตซาน",
+            "แบคทีเรีย KPS46",
+            "คุณภาพเมล็ดพันธุ์",
+            "ความแข็งแรงของเมล็ด",
+            "ความงอก"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "txjoyZ4B882ltYvqOo89",
+        "_score": 3.6304655,
+        "_source": {
+          "source": "KUKR",
+          "title": "The study of amount of total coliform, fecal coliform, Escherichia coli, and Aeromonas hydrophila that isolated from tilapia farming in cages in the Aun river Pok Noi subdistrict, Panna Nikhom district, Sakon Nakhon province",
+          "authors": [
+            "Arun Butna",
+            "Nopparat Patchanee",
+            "Songsub Arungamol",
+            "Tharadol Jitjak",
+            "Jakkapat Pachachit",
+            "อรัญ บุตรนา",
+            "นพรัตน์ พัชณีย์",
+            "ทรงทรัพย์ อรุณกมล",
+            "ธราดล จิตจักร",
+            "จักรพรรดิ์ ประชาชิต"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20018103",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Tilapia",
+            "Fish culture",
+            "Cages",
+            "Bacterial contamination",
+            "Microbial contamination",
+            "Coliform bacteria",
+            "Fecal coliform",
+            "Escherichia coli",
+            "Aeromonas hydrophila",
+            "Water quality",
+            "Sakon Nakhon province",
+            "Thailand",
+            "ปลานิล",
+            "การเลี้ยงปลา",
+            "กระชัง",
+            "การปนเปื้อนของเชื้อแบคทีเรีย",
+            "การปนเปื้อนของจุลินทรีย์",
+            "โคลิฟอร์ม",
+            "ฟีคัลโคลิฟอร์ม",
+            "คุณภาพน้ำ",
+            "จ.สกลนคร อ.พรรณนานิคม ต.พอกน้อย",
+            "ประเทศไทย",
+            "Freshwater fishes",
+            "Cage culture",
+            "Biological contamination",
+            "Bacteria",
+            "ปลาน้ำจืด",
+            "การเพาะเลี้ยงปลา",
+            "การเลี้ยงสัตว์น้ำในกระชัง",
+            "การปนเปื้อนทางชีววิทยา",
+            "โคลิฟอร์มแบคทีเรีย",
+            "แบคทีเรีย"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "-xjoyZ4B882ltYvqOo48",
+        "_score": 3.6132925,
+        "_source": {
+          "source": "KUKR",
+          "title": "Growth and Lipid Production of Ankistrodesmus Sp. IFRPD 1061 Under Mixotrophic Culture Condition: Effect of Sodium Acetate Concentration and Period Addition of Sodium Acetate in an Open Pond",
+          "abstract": "Microalgae with increased amount of biomass and lipid yield are crucial for biodiesel production. Mixotrophic cultivation has prominence for increasing the micro-algal cell concentration and hence the volumetric productivity owing to independent utilization of both the photo-assimilation of CO<inf>2</inf> and oxidative assimilation of organic carbon sources. In this study, Ankistrodesmus sp. IFRPD 1061 was examined under various concentrations of sodium acetate for concentration and productivity of biomass and lipid, lipid contents (LCs), and fatty acid profiles. The optimum condition was obtained at Day 21 with 10 mM sodium acetate, which gave 6.940 ± 0.057 g L−1 biomass concentration, 327.619 ± 2.020 mg L−1 day−1 biomass productivity, 2.795 ± 0.191 g L−1 lipid concentration, 131.955 ± 9.275 mg L−1 day−1 lipid productivity, and 40.286 % ± 3.079 % w/w LC. The optimum condition (10 mM sodium acetate) in an open pond cultivation attained maximum values at Day 14, that is, 0.575 ± 0.004 g L−1 biomass concentration, 38.161 ± 0.076 mg L−1 day−1 biomass productivity, 0.203 ± 0.002 g L−1 lipid concentration, 13.440 ± 0.197 mg L−1 day−1 lipid productivity, and 35.219 % ± 0.585 % w/w LC. The lipids recovered from mixotrophic micro-algae were primarily unsaturated fatty acids, which are appropriate to produce biodiesel. The results revealed that a 10 mM sodium acetate concentration can enhance lipid accumulation within algal cells. © 2024 Wiley-VCH GmbH.",
+          "authors": [
+            "Jarungkeerativimol, P.",
+            "Sultan, I. N.",
+            "Khan, M. W.",
+            "Parakulsuksatid, P.",
+            "Tareen, A. K."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446250",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Lipid productivity",
+            "Microalgae",
+            "Mixotrophic culture",
+            "Open pond",
+            "Sodium acetate",
+            "Acetic acid",
+            "Acetate concentrations",
+            "Algal cells",
+            "Lipid content",
+            "Lipid productivities",
+            "Micro-algae",
+            "Microalga",
+            "Mixotrophic cultures",
+            "Optimum conditions"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "jBjoyZ4B882ltYvqOo89",
+        "_score": 3.6059728,
+        "_source": {
+          "source": "KUKR",
+          "title": "Nutritional Compositions of Aquatic Insects Living in Rice Fields, with a Particular Focus on Odonate Larvae",
+          "abstract": "Although the human consumption of aquatic insects is prevalent in many regions, the nutritional composition of the insects has not been comprehensively determined. The proximate composition of Pantala sp. was shown to be a good source of protein (49.45 ± 0.32 g/100 g DW), as well as of minerals such as sodium, calcium, potassium, phosphorus, zinc, and iron. All nine essential amino acids are present in this species, with valine being the most abundant. The major fatty acids are palmitic acid (1.19 ± 0.02 g/100 g DW), oleic acid (0.63 ± 0.02 g/100 g DW), and linoleic acid (0.55 ± 0.01 g/100 g DW). Lead (Pb), arsenic (As), and cadmium (Cd) showed a value of 0.18 ± 0.01 mg·kg−1, 3.51 ± 0.12 mg·kg−1, and 0.17 ± 0.00 mg·kg−1, respectively. Furthermore, microplastic (MP) contamination in odonate larvae (419 individuals belonging to three identified families) was found in varying shapes, e.g., fibers, fragments, and rods. FTIR analysis revealed the following MP polymers, polyethylene terephthalate, polyvinyl acetate, bis(2-ethylhexyl), polybutadiene, poly(methyl methacrylate-co-methacrylic acid); P(MMA-co-MA), poly(ethylene glycol) tetrahydrofurfuryl ether, poly(acrylonitrile-co-butadiene), and polypropylene glycol. The results of this work could be a nutritional reference for food security and the risk of eating insects. © 2022 by the authors.",
+          "authors": [
+            "Maneechan, W.",
+            "Vitheepradit, A.",
+            "Prommi, T. O."
+          ],
+          "year": "2022",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/429450",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "aquatic insect",
+            "heavy metal",
+            "microplastic",
+            "nutritional composition",
+            "Odonata"
+          ],
+          "search_keyword": "microplastic",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:03:31.159Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "3hjoyZ4B882ltYvqOo89",
+        "_score": 3.5188289,
+        "_source": {
+          "source": "KUKR",
+          "title": "56. Kasetsart University Annual Conference",
+          "authors": [
+            "Aksorn Saengtienchai",
+            "อักษร แสงเทียนชัย",
+            "Win Surachetpong",
+            "Usuma Jermnak",
+            "Napasorn Phaochoosak",
+            "วิน สุรเชษฐพงษ์",
+            "อุสุมา เจิมนาค",
+            "นภสร เผ่าชูศักดิ์"
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/383253",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Tilapia",
+            "Oreochromis aureus",
+            "Cage culture",
+            "Antibiotic properties",
+            "ปลานิล",
+            "การเลี้ยงสัตว์น้ำในกระชัง",
+            "คุณสมบัติของยาปฏิชีวนะ",
+            "Nile tilapia",
+            "Bacteria",
+            "Antibiotics",
+            "Potency",
+            "Pharmaceutical equivalence",
+            "การเลี้ยงปลาในกระชัง",
+            "เภสัชกรรมสมมูล",
+            "ยาปฏิชีวนะ",
+            "วิธีทางจุลชีววิทยา"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "DRjoyZ4B882ltYvqOo88",
+        "_score": 3.4186015,
+        "_source": {
+          "source": "KUKR",
+          "title": "Selective conversion of aqueous sorbitol to sorbitan by amorphous Silica-Alumina catalysts",
+          "abstract": "Biomass-derived chemicals are key enablers of a circular bioeconomy, offering renewable solutions to mitigate climate change. Notably, 1,4-sorbitan is a versatile platform chemical for food, chemical, and pharmaceutical industries. We can obtain 1,4-sorbitan from solid acid-catalyzed dehydration of biomass-derived sorbitol. However, the instability and poor selectivity of most solid acid catalysts in aqueous sorbitol significantly hinder the efficient production of 1,4-sorbitan, limiting their industrial viability. Here, we show that the hydrothermal stability and optimal Brønsted acid strength of commercial amorphous silica-alumina with 40 wt% silica enabled high selectivity of 1,4-sorbitan (65 %) derived from aqueous sorbitol. The silica in amorphous silica-alumina catalysts provided optimal Brønsted acidity that minimized the degradation of the desired 1,4-sorbitan product by preventing further dehydration to isosorbide and polymerization to coke. Moreover, the silica content in amorphous silica-alumina catalysts improved the hydrothermal stability and prevented the phase transformation of the γ-alumina matrix. Our findings demonstrate that amorphous silica-alumina is a highly selective catalyst for 1,4-sorbitan production from aqueous sorbitol, and amorphous silica-alumina offers enhanced stability. These findings pave the way for designing improved solid acid catalysts for other sustainable, aqueous biomass conversions. © 2025",
+          "authors": [
+            "Lertthanaphol, N.",
+            "Sereerattanakorn, P.",
+            "Tulaphol, S.",
+            "Maihom, T.",
+            "Phung, T. K.",
+            "Garbarino, G.",
+            "Busca, G.",
+            "Wittayakun, J.",
+            "Jaeger, V.",
+            "Lalvani, S. B.",
+            "Sathitsuksanoh, N."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446546",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Amorphous silica-alumina",
+            "Aqueous sorbitol",
+            "Dehydration",
+            "Isosorbide",
+            "Sorbitan",
+            "Bioconversion",
+            "Catalysis",
+            "Catalysts",
+            "Chemical industry",
+            "Amorphous silica aluminas",
+            "Food industries",
+            "Hydrothermal stabilities",
+            "Platform chemicals",
+            "Renewables",
+            "Silica-alumina catalysts",
+            "Solid acid catalysts",
+            "Acidity",
+            "Aluminum Oxide",
+            "Biomass",
+            "Glucitol",
+            "Silica",
+            "Stability"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "LhjoyZ4B882ltYvqOo88",
+        "_score": 3.3769236,
+        "_source": {
+          "source": "KUKR",
+          "title": "Monitoring the quality of fresh-cut Kimju guava in packages using intelligent chitosan film incorporated with AMP and anthocyanin",
+          "abstract": "This research was conducted to study the use of 0.5 percent chitosan film mixed with 10 percent aminomethyl propanol (AMP) and 1 percent anthocyanin from butterfly pea flowers that coated on filter papers for monitoring the quality of fresh-cut Kimju guava stored at 10 and 37 deg C. The results found that Kimju guava packages had increases of CO2 concentration and decreases of O2 concentration. Fresh-cut guava showed increases of pH, total soluble solid, and total bacterial counts. Moreover, the browning and spoilage of guava flesh increased as the storage temperature increased. On the 7th day of storage at 10 and 37 deg C, CO2 concentrations in the packages were increased from 0 to 0.5 and 5 percent. The pH values were increased from 4.2 to 4.5 and 5.9. Total soluble solids increased from 24.6 to 28.4 and 28.2 Brix. Total bacteria, yeasts, and molds were increased from 5.6, 4.8, and 2.5 log CFU/g to 17, 8.7, and 15 log CFU/g and 20.5, 9.7, and 19.5 log CFU/g, respectively. Escherichia coli and Salmonella spp. were not detected in fresh-cut guava stored at 10 deg C, but E. coli (8.1 log CFU/g) was detected when stored at 37 deg C. The chitosan film color was changed from blue to blue-green and blue-yellow according to the loss of guava quality during storage. Therefore, the intelligent chitosan film could be used as an index indicator for monitoring the quality of fresh-cut guava.",
+          "authors": [
+            "Jutatip Poubol",
+            "Papitchaya Sujaritji",
+            "Pharima Phiriyangkul",
+            "จุฑาทิพย์ โพธิ์อุบล",
+            "ปพิชญา สุจริตจิตร",
+            "พริมา พิริยางกูร"
+          ],
+          "year": "2024",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20021684",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Guava",
+            "Packages",
+            "Chitosan film",
+            "Aminomethyl propanol",
+            "AMP",
+            "Anthocyanin",
+            "Butterfly pea flowers",
+            "Quality loss",
+            "Microbial contamination",
+            "Escherichia coli",
+            "Salmonella",
+            "Shelf life",
+            "ฝรั่ง",
+            "พันธุ์กิมจู",
+            "ผลไม้ตัดแต่งพร้อมบริโภค",
+            "บรรจุภัณฑ์",
+            "ไคโตซาน",
+            "อะมิโนเมทิลโพรพานอล",
+            "เอเอ็มพี",
+            "แอนโทไซยานิน",
+            "ดอกอัญชัน",
+            "การสูญเสียคุณภาพ",
+            "การปนเปื้อนของจุลินทรีย์",
+            "การปนเปื้อนเชื้อก่อโรค",
+            "อายุการเก็บรักษา",
+            "Guavas",
+            "Psidium guajava",
+            "Fruits",
+            "Packaging",
+            "Packaging materials",
+            "Chitosan",
+            "Anthocyanins",
+            "Deterioration",
+            "Storage losses",
+            "Nutritional losses",
+            "Quality",
+            "Biological contamination",
+            "Bacteria",
+            "ผลไม้",
+            "การบรรจุหีบห่อ",
+            "ไคโตแซน",
+            "การเสื่อมสภาพ",
+            "การสูญเสียเนื่องจากการเก็บรักษา",
+            "การสูญเสียทางโภชนาการ",
+            "คุณภาพ",
+            "การปนเปื้อนทางชีววิทยา",
+            "แบคทีเรีย"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "UhjoyZ4B882ltYvqOo88",
+        "_score": 3.1962028,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of seed coating with chitosan and bacterial suspension, KPS46 on growth and fresh ear yield of sweet corn",
+          "authors": [
+            "Ngamprasitthi, S.",
+            "Inchan, Y.",
+            "Panichnok, K.",
+            "Chaisri, S.",
+            "สุปราณี งามประสิทธิ์",
+            "ยุวดี อินจันทร์",
+            "กิ่งกานท์ พานิชนอก",
+            "สกล ฉายศรี"
+          ],
+          "year": "2016",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/387891",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Sweet corn",
+            "Zea mays",
+            "Seed pelleting",
+            "Chitosan",
+            "Bacteria",
+            "Growth",
+            "Yields",
+            "ข้าวโพดหวาน",
+            "การเคลือบเมล็ด",
+            "ไคโตแซน",
+            "แบคทีเรีย",
+            "การเติบโต",
+            "ผลผลิต",
+            "Seed coating",
+            "Bacterial suspension",
+            "KPS46",
+            "Fresh ear yield",
+            "การเคลือบเมล็ดพันธุ์",
+            "ไคโตซาน",
+            "แบคทีเรีย KPS46",
+            "การเจริญเติบโต",
+            "ผลผลิตฝักสด"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "UxjoyZ4B882ltYvqOo88",
+        "_score": 3.1962028,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of seed coating with chitosan and bacterial suspension, KPS46 on growth and\r\nfresh ear yield of sweet corn",
+          "authors": [
+            "Ngamprasitthi, S.",
+            "Inchan, Y.",
+            "Panichnok, K.",
+            "Chaisri, S.",
+            "สุปราณี งามประสิทธิ์",
+            "ยุวดี อินจันทร์",
+            "กิ่งกานท์ พานิชนอก",
+            "สกล ฉายศรี"
+          ],
+          "year": "2016",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/423488",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Zea mays",
+            "Sweet corn",
+            "Seed pelleting",
+            "Chitosan",
+            "Bacteria",
+            "Growth",
+            "Yields",
+            "ข้าวโพดหวาน",
+            "การเคลือบเมล็ด",
+            "ไคโตแซน",
+            "แบคทีเรีย",
+            "การเติบโต",
+            "ผลผลิต",
+            "Seed coating",
+            "Bacterial suspension",
+            "KPS46",
+            "Fresh ear yields",
+            "การเคลือบเมล็ดพันธุ์",
+            "ไคโตซาน",
+            "แบคทีเรีย KPS46",
+            "การเจริญเติบโต",
+            "ผลผลิตฝักสด"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "3xjoyZ4B882ltYvqOo89",
+        "_score": 3.1962028,
+        "_source": {
+          "source": "KUKR",
+          "title": "56. Kasetsart University Annual Conference",
+          "authors": [
+            "Pagaporn Phanaram",
+            "ผกาภรณ์ พันธุ์อร่าม",
+            "Pattanapon Kayansamruaj",
+            "Piti Amparyup",
+            "Prapansak Srisapoome",
+            "พัฒนพล ขยันสํารวจ",
+            "ปิติ อ่ำพายัพ",
+            "ประพันธ์ศักดิ์ ศีรษะภูมิ"
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/383647",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Tilapia (genus)",
+            "Oreochromis niloticus",
+            "Bacteria",
+            "Streptococcus agalactiae",
+            "Antimicrobial properties",
+            "Mortality",
+            "แบคทีเรีย",
+            "คุณสมบัติของยาต้านจุลชีพ",
+            "การตาย",
+            "Nile tilapia",
+            "Pro-hepcidin",
+            "Anti-bacterial activity",
+            "Streptococcus agalactaie",
+            "ปลานิล",
+            "การผลิตโปรตีนลูกผสม",
+            "ระบบแบคทีเรีย",
+            "การต่อต้าน",
+            "ประสิทธิภาพในการต้านทาน",
+            "อัตราการตาย",
+            "สภาพการทดลองระดับห้องปฏิบัติการ"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "_xjoyZ4B882ltYvqOo48",
+        "_score": 3.1711564,
+        "_source": {
+          "source": "KUKR",
+          "title": "Efficient extraction of lignin-rich nanofibers from rambutan peel using a two-step delignification process",
+          "abstract": "Fibrillated cellulose obtained from waste streams is highly valued because it converts a residual byproduct into a high-performance, and sustainable material. However, its use is often limited by preparation methods that are both complicated and time-consuming. In this study, we introduce a straightforward approach for production of lignin-containing carbohydrate nanofibers (LCNFs) through a two-step partial delignification process. Our approach is based on a peracetic acid (PAA) treatment followed by an alkaline sodium hydroxide (NaOH, 2 wt% and 5 wt%) step. We examined the produced LCNFs with regard to chemical composition, zeta potential, morphology, colloidal stability, thermal stability, and particle size. Rambutan peel served as the biomass source, yielding LCNFs with lignin contents between 14 and 22 wt% and cellulose contents of 50–73 wt%, at an overall yield exceeding 43 wt%. High-pressure homogenization of the fibers treated with the two-step partial delignification produced LCNFs with an average diameter of less than 9.8 nm. The colloidal stability of the LCNFs was studied after six months of storage at 4 °C, demonstrating stable suspensions and unchanged chemical composition. Thermal analysis revealed significant improvements in thermal stability for the NaOH-treated LCNFs, with onset temperature (T<inf>onset</inf>), of 287 °C (PAA-2N) and 305 °C (PAA-5N), and T<inf>max</inf> at 340 °C and 343 °C, respectively. This eco-friendly process for producing LCNFs offers a scalable pathway for developing high-performance nanofibers with broad industrial application. © The Author(s), under exclusive licence to Springer Nature B.V. 2025.",
+          "authors": [
+            "Torgbo, S.",
+            "Sukyai, P.",
+            "Sukatta, U.",
+            "Beaumont, M.",
+            "Rosenau, T."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446333",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Fruit waste",
+            "Lignin–containing nanofibers",
+            "Nanocellulose",
+            "Peracetic acid",
+            "Rambutan peel",
+            "Alkalinity",
+            "Delignification",
+            "Chemical compositions",
+            "Colloidal Stability",
+            "High performance material",
+            "Lignin–containing nanofiber",
+            "Nano-cellulose",
+            "Peracetic acids",
+            "Rambutan peels",
+            "Thermal",
+            "Waste stream",
+            "Nanofibers",
+            "Cellulose",
+            "Chemical Composition",
+            "Lignins",
+            "Performance",
+            "Processes",
+            "Thermal Stability"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Ghgzyp4B882ltYvqGpEC",
+        "_score": 3.050037,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การประเมินคุณสมบัติการเป็นโปรไบโอติคสำหรับการประยุกต์ใช้แบคทีเรียโปรไบโอติคในอาหารเสริมประเภทข้าวEvaluation of In vitro Probiotic Properties for Application of probiotic bacteria in rice supplements",
+          "authors": [
+            "ดร.ศรัณย์ พรหมสาย, รองศาสตราจารย์"
+          ],
+          "year": 2017,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=probiotic",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "probiotic"
+          ],
+          "search_keyword": "probiotic",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนมุ่งเป้าประจำวิทยาเขตกำแพงแสน",
+          "indexed_at": "2026-06-15T07:32:47.061Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "GxjoyZ4B882ltYvqOo88",
+        "_score": 3.0173192,
+        "_source": {
+          "source": "KUKR",
+          "title": "Sustainable integrated co-production of bioactive xylooligosaccharides and second-generation ethanol from energy cane bagasse",
+          "abstract": "Energy cane bagasse is an abundant lignocellulosic biomass with untapped potential for biorefinery use. This study aimed to enhance the valorization of energy cane bagasse through an integrated process for co-producing bioactive xylooligosaccharides (XOS) and ethanol. Xylan extraction via alkaline hydrogen peroxide (AHP) pretreatment, followed by enzymatic hydrolysis using crude xylanases from Aspergillus flavus KUB2, yielded a high XOS concentration of 421.15 mg/g at 24 h, primarily as xylobiose (X2). The produced XOS demonstrated significant bioactivity, including promoting probiotic bacterial growth, increasing short-chain fatty acid (SCFA) production, and exhibiting considerable antioxidant activity. The remaining cellulose-rich solids were subsequently converted into second-generation biofuel. Fermentation of this residue yielded a final ethanol concentration of 31.08 g/L, achieving a theoretical yield of 89.46 % and 0.46 g/g ethanol yield. These findings demonstrate the feasibility of using energy cane bagasse for co-producing functional food ingredients and ethanol, supporting economic and sustainable biorefinery development. © 2025 The Authors",
+          "authors": [
+            "Khemla, P.",
+            "Thammasittirong, A.",
+            "Jeennor, S.",
+            "Panchanawaporn, S.",
+            "Thammasittirong, S. N. R."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446761",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Antioxidant activity",
+            "Co-production",
+            "Energy cane",
+            "Ethanol",
+            "Prebiotic",
+            "Xylooligosaccharides",
+            "Antioxidants",
+            "Aspergillus",
+            "Bioactivity",
+            "Bioethanol",
+            "Cellulosic ethanol",
+            "Lignocellulosic biomass",
+            "Molasses",
+            "Probiotics",
+            "Antioxidant activities",
+            "Bioactives",
+            "Biorefineries",
+            "Energy",
+            "Prebiotics",
+            "Second generation",
+            "Xylo- oligosaccharides",
+            "Bagasse",
+            "antioxidant",
+            "biomass",
+            "fatty acid",
+            "hydrogen peroxide",
+            "hydrolysis",
+            "polymer",
+            "sustainability",
+            "valorization",
+            "Concentration",
+            "Production",
+            "Yield"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "5xjoyZ4B882ltYvqOo89",
+        "_score": 2.9777865,
+        "_source": {
+          "source": "KUKR",
+          "title": "55. Kasetsart University Annual Conference",
+          "authors": [
+            "Supawan Tepparin",
+            "Korntip Kannika",
+            "Prapansak Srisapoome",
+            "Sasimanas Unajak",
+            "Nontawith Areechon",
+            "ศุภวรรณ เทพรินทร์",
+            "กรทิพย์ กันนิการ์",
+            "ประพันธ์ศักดิ์ ศรีษะภูมิ",
+            "ศศิมนัส อุณจักร",
+            "นนทวิทย์ อารีย์ชน"
+          ],
+          "year": "2017",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/367006",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis niloticus",
+            "Tilapia",
+            "Streptococcus agalactiae",
+            "Bacteria",
+            "Vaccines",
+            "Efficiency",
+            "Adjuvants",
+            "Laboratory experimentation",
+            "Disease control",
+            "Immunostimulation",
+            "ปลานิล",
+            "แบคทีเรีย",
+            "วัคซีน",
+            "ประสิทธิภาพ",
+            "ตัวเสริม",
+            "การทดลองในห้องปฏิบัติการ",
+            "การควบคุมโรค",
+            "การกระตุ้นให้เกิดภูมิคุ้มกันโรค",
+            "Vaccine",
+            "Adjuvant",
+            "Experimental trial",
+            "Challenge test",
+            "Immunogenicity",
+            "เชื้อแบคทีเรีย",
+            "สารเสริมฤทธิ์",
+            "การให้วัคซีน",
+            "การป้องกันโรค",
+            "การกระตุ้นภูมิคุ้มกัน"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:05:16.089Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "CRjoyZ4B882ltYvqOo88",
+        "_score": 2.9106553,
+        "_source": {
+          "source": "KUKR",
+          "title": "Two-step pyrolysis of malic acid-activated corncob biochar for hydrocarbon pollutant removal from non-aqueous solvent",
+          "abstract": "Corncob-derived bioadsorbents (CBAs) were synthesized through pyrolysis catalyzed by biodegradable malic acid. The effects of various pyrolysis temperatures (500, 700, 800 and 900 °C) and chemical impregnation ratios (1:1 and 1:3) were investigated. The results indicate that the CBA produced by two-step pyrolysis (initially at 500 °C followed by 900 °C with a 1:1 malic acid-to-CBA ratio) exhibited outstanding properties, achieving a pyrolysis yield of 19.4 %. This CBA featured an abundance of amorphous carbon structures, a surface area of 167 m2/g, a total pore volume of 0.07 cm3/g, an average pore size of 4.46 nm, and a water contact angle of 120°, indicating high hydrophobicity. The synthesized CBA was applied for the removal of total petroleum hydrocarbon (TPH) from spent ethyl lactate, a non-aqueous solvent. TPH adsorption onto the CBA reached equilibrium within 180 min, with a partition coefficient of 2.77 L/g, higher than that of powdered activated carbon (0.86 L/g). The dominant adsorption mechanisms involved hydrophobic interactions, ion-dipole forces, pore-filling diffusion, and van der Waals forces. Furthermore, the spent CBA was successfully converted into refuse-derived fuel pellets with an adequate heating value of 34.5 MJ/kg. These findings suggest that malic acid activation offers a more sustainable method for producing CBAs with potential applications in hydrocarbon adsorption, thereby promoting resource recovery and supporting environmental sustainability. © 2025 Elsevier Ltd",
+          "authors": [
+            "Jumroonrat, R.",
+            "Siri, A.",
+            "Rakruam, P.",
+            "Nisamaneenate, J.",
+            "Chawaloesphonsiya, N.",
+            "Painmanakul, P.",
+            "Punyapalakul, P.",
+            "Poyai, T."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446528",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Adsorption",
+            "Biochar",
+            "Corncob biomass",
+            "Solvent recovery",
+            "Total petroleum hydrocarbons",
+            "Activated carbon",
+            "Cracking (chemical)",
+            "Gasoline",
+            "Hydrocarbon refining",
+            "Hydrocarbons",
+            "Hydrophobicity",
+            "Petroleum chemistry",
+            "Pore size",
+            "Solvent extraction",
+            "Solvents",
+            "Van der Waals forces",
+            "Bioadsorbent",
+            "Hydrocarbon adsorption",
+            "Malic acids",
+            "Non-aqueous solvents",
+            "Synthesised",
+            "Two-step pyrolysis",
+            "partition coefficient",
+            "petroleum hydrocarbon",
+            "pollutant removal",
+            "pyrolysis",
+            "solvent"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "1hjoyZ4B882ltYvqOo89",
+        "_score": 2.8794026,
+        "_source": {
+          "source": "KUKR",
+          "title": "Immunoproteomics analysis assisted multiepitope subunit vaccine for streptococcosis disease",
+          "authors": [
+            "Ansaya Pumchan",
+            "Orathai Sawatdichaikul",
+            "Nontawith Areechon",
+            "Hidehiro Kondo",
+            "Ikuo Hirono",
+            "Sasimanas Unajak"
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/402207",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis aureus",
+            "Fish diseases",
+            "Streptococcus agalactiae",
+            "Bacteria",
+            "Radioimmunoassay",
+            "Immunological techniques",
+            "Disease control",
+            "Bacterioses",
+            "Vaccination",
+            "โรคของปลา",
+            "แบคทีเรีย",
+            "การวิเคราะห์ภูมิคุ้มกันทางรังสีวิทยา",
+            "เทคนิคทางภูมิคุ้มกันวิทยา",
+            "การควบคุมโรค",
+            "โรคที่เกิดจากแบคทีเรีย",
+            "การให้วัคซีน",
+            "Tilapia",
+            "Streptococcosis disease",
+            "Disease prevention",
+            "Subunit vaccine",
+            "Multiepitope",
+            "Vaccination method",
+            "Immunoproteomics analysis",
+            "ปลานิล",
+            "โรคปลา",
+            "การป้องกันโรค",
+            "อิมมูโนโกลบูลิน",
+            "การผลิตวัคซีน"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "4xjoyZ4B882ltYvqOo89",
+        "_score": 2.7873125,
+        "_source": {
+          "source": "KUKR",
+          "title": "Efficacy of adjuvanted Streptococcus agalactiae vaccine by montanide ISA 763 A VG in nile tilapia (Oreochromis niloticus Linn.)",
+          "abstract": "This research investigated the efficacy of adjuvant (Montanide ISA 763 A VG) at concentrations of 0, 5, 10, 20 and 50 percent in formalin-killed Streptococcus agalactiae vaccine in Nile tilapia (Oreochromis niloticus Linn.). The results showed that adjuvant at 20 and 50 percent induced significantly higher protection (survival and RPS value) than other groups after three months of experimental trial (P LT 0.05). However, only the antibody titer of 20 percent adjuvant was significantly higher than the control group (P LT 0.05). The second experiment aimed to find the efficacy of a single vaccination with 10 and 20 percent adjuvant compared with non-adjuvant vaccine with a booster dose. The results showed that after the booster vaccination without adjuvant, the antibody titer was significantly higher than other treatments (P LT 0.05). However, in terms of protection (survival and RPS), the vaccines with both 10 and 20 percent adjuvant showed similar efficacy to the booster vaccination until the third month of the trial (P GT 0.05), and were significantly different from the vaccine without adjuvant (non-booster group) and from the control (non-vaccination) (P LT 0.05). Thus, adjuvant vaccine was as effective as booster vaccination for the first three months of the four-month trial. Further study with the aim to extend protection with a single dose of adjuvant vaccine is being conducted",
+          "authors": [
+            "Supawan Tepparin",
+            "Sasimanas Unajak",
+            "Ikuo Hirono",
+            "Hidehiro Kondo",
+            "Nontawith Areechon"
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20005247",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Nile tilapia",
+            "Streptococcus agalactiae",
+            "Vaccine adjuvants",
+            "Killed vaccines",
+            "Booster",
+            "Antibody",
+            "Survival",
+            "Oreochromis niloticus",
+            "Streptococcaceae",
+            "Bacteria",
+            "Vaccines",
+            "Adjuvants",
+            "Vaccination",
+            "Antibodies",
+            "Disease control",
+            "Mortality",
+            "แบคทีเรีย",
+            "วัคซีน",
+            "ตัวเสริม",
+            "การให้วัคซีน",
+            "สารภูมิต้านทาน",
+            "การควบคุมโรค",
+            "การตาย",
+            "ปลานิล",
+            "สเตรปโตคอคคัส อะกาแลคเทีย",
+            "เชื้อแบคทีเรีย",
+            "ตัวเสริมวัคซีน",
+            "วัคซีนเชื้อตาย",
+            "การฉีดวัคซีน",
+            "ระดับแอนติบอดี",
+            "อัตราความอยู่รอด"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "ERjoyZ4B882ltYvqOpA9",
+        "_score": 2.7873125,
+        "_source": {
+          "source": "KUKR",
+          "title": "Beneficial microorganisms in Arabica coffee cultivated under agroforestry system",
+          "authors": [
+            "Amprayn, K.",
+            "Tangkoonboribun, R.",
+            "Piriyaphattarakit, A.",
+            "Supawong, V.",
+            "Kengkwasingh, P.",
+            "Ongsa, S.",
+            "Junjam, N.",
+            "กนกอร อัมพรายน์",
+            "รจนา ตั้งกุลบริบูรณ์",
+            "อนันต์ พิริยะภัทรกิจ",
+            "วชิระพร สุภาวงศ์",
+            "ภัทรวดี เก่งกว่าสิงห์",
+            "ศศิพิมล อ่องสา",
+            "นุชจรินทร์ จันทร์แจ่ม"
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/422173",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Coffea arabica",
+            "Arabica coffee",
+            "Soil",
+            "Cultivated land",
+            "Soil microorganisms",
+            "Beneficial organisms",
+            "Selection",
+            "Agroforestry",
+            "Growth",
+            "กาแฟอะราบิก้า",
+            "ดิน",
+            "พื้นที่เพาะปลูก",
+            "จุลินทรีย์ดิน",
+            "สิ่งมีชีวิตที่เป็นประโยชน์",
+            "การคัดเลือก",
+            "วนเกษตร",
+            "การเติบโต",
+            "Cultivation soil",
+            "Beneficial microorganisms",
+            "PGP bacteria",
+            "Agroforestry system",
+            "Plant-growth promoting",
+            "กาแฟอาราบิก้า",
+            "ดินเพาะปลูก",
+            "แบคทีเรียพีจีพี",
+            "จุลินทรีย์ที่มีประโยชน์",
+            "การเกษตร",
+            "การส่งเสริมการเจริญเติบโต"
+          ],
+          "search_keyword": "วนเกษตร",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:07:10.006Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "9xjoyZ4B882ltYvqOo48",
+        "_score": 2.4147928,
+        "_source": {
+          "source": "KUKR",
+          "title": "Chemically Pretreated Biomass Conversion for Biorefinery: A Review of Current Trends",
+          "abstract": "The need for clean, alternative energy sources has increased due to the depletion of fossil fuel reserves and rising energy consumption. Saccharification, fermentation, and chemical pretreatment can turn lignocellulosic biomass (LCB), an affordable and renewable resource, into bioenergy potential. Chemical pretreatment is essential to convert LCB into biofuels or biochemicals in later stages. Certain upgraded pretreatments are required to improve LCB accessibility and digestion. Enhancing the hydrolysis of its carbohydrates, such as cellulose and hemicelluloses, is the inevitable of the LCB pretreatment. In order to produce bioproducts, lignocelluloses must have their refractory structure modified. Different pretreatment techniques have been developed to produce bioenergy from LCB. The most current developments in acid, alkaline, organosolv, deep eutectic solvents (DESs), and wet oxidation chemical pretreatment techniques (CPT) are reviewed and discussed. The study aims to increase our understanding of these pretreatment procedures and their potential as environmentally friendly technologies for advancing contemporary biorefineries and the future recommendations were discussed. © 2025 Korean Institute of Chemical Engineers. All rights reserved.",
+          "authors": [
+            "Paramasivam, P.",
+            "Dasari, S.",
+            "Kumar, S. M.",
+            "Kottam, N.",
+            "Rattanaporn, K.",
+            "Jayapriya, J.",
+            "Sriariyanun, M."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/448214",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Bioenergy potential",
+            "Biorefinery",
+            "Ligno cellulosic biomass",
+            "Pretreatment technology",
+            "Upgrade chemical methods"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "CxjoyZ4B882ltYvqOo88",
+        "_score": 2.4147928,
+        "_source": {
+          "source": "KUKR",
+          "title": "Potential for integrating enzymatic and conventional approaches in lignin nanoparticle production from oil palm biomass",
+          "abstract": "Oil palm processing generates substantial lignin-rich residues that remain underutilized. Converting this lignin into nanoparticles (LNPs) offers sustainable applications in biomedicine, materials, and remediation. Conventional extraction and synthesis methods often involve harsh chemicals or high energy input, which alter lignin's functional groups and raise environmental concerns. Enzymatic methods, using laccases, peroxidases, and auxiliary oxidases, operate under mild conditions and preserve phenolic and aliphatic functionalities. This review examines physical, chemical, and enzymatic strategies for LNP production, highlighting their effects on particle properties and environmental impact. Major approaches include solvent exchange, acid precipitation, ultrasonication, and homogenization, combined with enzymatic surface modification. It also outlines characterization methods and potential applications in drug delivery, UV protection, antioxidant activity, and pollutant adsorption. Challenges remain in enzyme cost, stability, and lignin variability. Future research should prioritize enzyme engineering, process intensification, and integration with deep eutectic and ionic liquids to support a sustainable circular bioeconomy. © 2025 Elsevier Ltd",
+          "authors": [
+            "Afrakomah, G. S.",
+            "Afedzi, A. E. K.",
+            "Gyan, K.",
+            "Puthson, P.",
+            "Wanmolee, W.",
+            "Parakulsuksatid, P."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446533",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Biorefinery",
+            "Circular bioeconomy",
+            "Green nanomaterials",
+            "Integrated enzymatic conversion",
+            "Lignin nanoparticles",
+            "Oil palm biomass",
+            "Bioeconomy",
+            "Biomass",
+            "Chemical modification",
+            "Drug delivery",
+            "Environmental impact",
+            "Lignin",
+            "Precipitation (chemical)",
+            "Surface treatment",
+            "Biorefineries",
+            "Conventional approach",
+            "Enzymatic conversions",
+            "Green nanomaterial",
+            "Lignin nanoparticle",
+            "Nano-particle production",
+            "Oil palm",
+            "Ionic liquids",
+            "functional group",
+            "ionic liquid",
+            "laccase",
+            "nanomaterial",
+            "nanoparticle",
+            "oxidoreductase",
+            "peroxidase",
+            "solvent",
+            "acid precipitation",
+            "adsorption",
+            "antioxidant activity",
+            "drug delivery system",
+            "Elaeis",
+            "enzyme chemistry",
+            "enzyme engineering",
+            "nonhuman",
+            "pharmaceutics",
+            "review",
+            "synthesis",
+            "ultraviolet radiation",
+            "Methods",
+            "Oil",
+            "Processing",
+            "Production",
+            "Solvent Exchange"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "DBjoyZ4B882ltYvqOo88",
+        "_score": 2.4147928,
+        "_source": {
+          "source": "KUKR",
+          "title": "Seaweed-derived bioactives with anti-tyrosinase activity: a potential for skin-whitening cosmetics with in silico and in vitro approaches",
+          "abstract": "Seaweed is a promising source of bioactive compounds with potential applications in skincare, particularly for addressing hyperpigmentation. This study investigated the chemical profiles and biological activities of hydrophilic and lipophilic extracts from Sargassum polycystum, Caulerpa lentillifera, and Gracilaria fisheri. LC-MS and GC–MS analyses identified 8 and 112 compounds in hydrophilic and lipophilic extracts, respectively. Among these, G. fisheri lipophilic extracts exhibited the strongest anti-tyrosinase activity. Molecular docking identified eight compounds with low binding affinities comparable to kojic acid and tropolone, while ADMET predictions highlighted stigmasterol for its favorable skin permeability and safety. In vitro cytotoxicity assays confirmed its low toxicity (IC<inf>50</inf> = 3.38 ± 0.28 µg/mL) with no adverse effects at 0.006 µg/mL. Trypsin stability assays and molecular docking against serine proteases (trypsin and chymotrypsin) showed no significant off-target interactions. These findings suggest stigmasterol as a safe, selective, and effective natural tyrosinase inhibitor for potential use in skin-whitening formulation. © 2025 The Author(s)",
+          "authors": [
+            "Thong-Olran, A.",
+            "Sermsakulwat, S.",
+            "Napiroon, T.",
+            "Jaikaew, P.",
+            "Kongkiatpaiboon, S.",
+            "Tayana, N.",
+            "Wichachucherd, B.",
+            "Charoenrat, T.",
+            "Traijitt, T.",
+            "Chittapun, S."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446535",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Hyperpigmentation",
+            "Seaweed extract",
+            "Skincare bioactive",
+            "Stigmasterol",
+            "Tyrosinase inhibitor",
+            "algal extract",
+            "antityrosinase",
+            "cosmetic",
+            "monophenol monooxygenase",
+            "skin whitening cosmetic",
+            "unclassified drug",
+            "ABTS radical scavenging assay",
+            "antioxidant activity",
+            "Article",
+            "biological activity",
+            "biomass",
+            "Caulerpa lentillifera",
+            "cell viability",
+            "controlled study",
+            "cytotoxicity",
+            "drug activity",
+            "enzyme inhibition",
+            "gas chromatography",
+            "high performance liquid chromatography",
+            "human",
+            "human cell",
+            "in silico design",
+            "in vivo study",
+            "liquid chromatography-mass spectrometry",
+            "molecular docking",
+            "MTT assay",
+            "nonhuman",
+            "optical density",
+            "quadrupole mass spectrometry",
+            "seaweed",
+            "skin permeability",
+            "thin layer chromatography",
+            "ultra performance liquid chromatography",
+            "ultraviolet radiation"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "txjoyZ4B882ltYvqOo48",
+        "_score": 2.4094987,
+        "_source": {
+          "source": "KUKR",
+          "title": "Organic solvent pretreatment on sugarcane leaves for prebiotic production",
+          "authors": [
+            "Thidarat Yordsunk",
+            "Kittipong Rattanaporn",
+            "Weerachet Jittanit",
+            "Kullanart Tongkhao"
+          ],
+          "year": "2024",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/435203",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Sugarcane",
+            "Saccharum",
+            "Leaves",
+            "Solvents",
+            "Acetic acid",
+            "Chemical composition",
+            "Lignocellulose",
+            "Biomass",
+            "อ้อย",
+            "ใบ",
+            "ตัวทำละลาย",
+            "กรดอะซีติค",
+            "องค์ประกอบทางเคมี",
+            "ลิกโนเซลลูโลส",
+            "มวลชีวภาพ",
+            "Prebiotic production",
+            "Thermal pretreatment",
+            "Organic solvent",
+            "Lignocelluloses",
+            "Xylooligosaccharides",
+            "Xylotriose",
+            "Sugar contents",
+            "ใบอ้อย",
+            "พรีไบโอติก",
+            "กรรมวิธีการผลิต",
+            "ตัวทำละลายอินทรีย์",
+            "กรดอะซิติก",
+            "ไซโลโอลิโกแซกคาไรด์",
+            "ไซโลทริโอส",
+            "ปริมาณน้ำตาล"
+          ],
+          "search_keyword": "ชีวมวล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:56:04.485Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "WRjoyZ4B882ltYvqOo88",
+        "_score": 2.3371038,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effects of chitosan on growth and level of leaves brown spot disease in Hom-nin rice",
+          "abstract": "Chitosan foliar application on growth and level of leaves brown spot disease incidencein Homnin rice.The experiment was 2x6 factorial in CRD5 replications including 2 factors. Factor 1) concentrations of chitosan with 1.2 and 2.4 percent, factor 2) volumes of chitosan at 0, 2, 4, 8, 10 and 16 ml/l. The results showed that chitosan improved rice growth and positively related with chlorophyll content. The application of chitosan at 2.4 percent increased chlorophyll content higher than that at 1.2 percent. The application of chitosan at 10 ml/l by volume provided maximum chlorophyll content. The increase in the volume of chitosan resulted in lower chlorophyll content. Furthermore, chitosan application reduced severity of leaves brown spot disease and disease index in Hom-nin rice. The application of chitosan at 1.2 percent and 2.4 percent with 10 ml/L by volume showed the lowerse verity of brown spot disease in leaves, related to increasing salicylic acid content in leaves. Thus, this alleviated leaves brown spot disease symptoms in Hom-nin rice",
+          "authors": [
+            "Kanokwan Wattanakorn",
+            "Pornpairin Rungcharoenthong",
+            "กนกวรรณ วัฒนากร",
+            "พรไพรินทร์ รุ่งเจริญทอง"
+          ],
+          "year": "2015",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20003392",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Hom-nin rice",
+            "Leaves brown spot disease",
+            "Chitosan foliar application",
+            "Plant growth",
+            "Chlorophyll content",
+            "ข้าวเจ้า",
+            "พันธุ์หอมนิล",
+            "โรคใบจุดสีน้ำตาล",
+            "โรคพืช",
+            "การป้องกันกำจัดโรค",
+            "ไคโตซาน",
+            "อัตราความเข้มข้น",
+            "การเจริญเติบโตของพืช",
+            "เปอร์เซ็นต์ดัชนีการเกิดโรค",
+            "ปริมาณคลอโรฟิลล์",
+            "การลดความรุนแรงของโรค",
+            "Oryza sativa",
+            "Spots",
+            "Plant diseases",
+            "Disease control",
+            "Chitosan",
+            "Foliar application",
+            "Application rates",
+            "Growth rate",
+            "Chlorophylls",
+            "โรคใบจุด",
+            "การควบคุมโรค",
+            "ไคโตแซน",
+            "การให้ทางใบ",
+            "อัตราการใช้",
+            "อัตราการเติบโต",
+            "คลอโรฟิลล์"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "dBjoyZ4B882ltYvqOo88",
+        "_score": 2.2688684,
+        "_source": {
+          "source": "KUKR",
+          "title": "Using feces to indicate plastic pollution in terrestrial vertebrate species in western Thailand",
+          "abstract": "Plastic pollution is a widespread and growing concern due to its transformation into microplastics (MPs), which can harm organisms and ecosystems. This study, aimed to identify plastic pollution in the feces of terrestrial vertebrates using convenience sampling both inside and outside protected areas in Western Thailand. We hypothesized that MPs are likely to be detectable in the feces of all vertebrate species, primarily in the form of small black fragments. We predicted varying quantities of MPs in the feces of the same species across different protected areas. Furthermore, we expected that factors indicating human presence, landscape characteristics, scat weight, and the MP abundance in water, soils, and sediments would influence the presence of plastics in feces. Among 12 terrestrial species studied, potential MPs were found in 41.11% of 90 samples, totaling 83 pieces across eight species including the Asian elephant (Elephas maximus), Eld’s deer (Rucervus eldii), Dhole (Cuon alpinus), Gaur (Bos gaurus), Sambar deer (Rusa unicolor), Wild boar (Sus scrofa), Northern red muntjac (Muntiacus vaginalis), and Butterfly lizard (Leiolepis belliana). Specifically, 3.61% of all potential MPs (three pieces) were macroplastics, and the remaining 96.39% were considered potential MPs with the abundance of 0.92 ± 1.89 items.scat−1 or 8.69 ± 32.56 items.100 g−1 dw. There was an association between the numbers of feces with and without potential plastics and species (χ2 = 20.88, p = 0.012). Most potential plastics were fibers (95.18%), predominantly black (56.63%) or blue (26.51%), with 74.70% smaller than two millimeters. Although there were no significant associations between species and plastic morphologies, colors, and sizes, the abundance classified by these characteristics varied significantly. FTIR identified 52.38% as natural fibers, 38.10% as synthetic fibers (rayon, polyurethane (PUR), polyethylene terephthalate (PET), polypropylene (PP), and PUR blended with cotton), and 9.52% as fragments of PET and Polyvinyl Chloride (PVC). Human-related factors were linked to the occurrence of potential plastics found in the feces of land-dwelling wildlife. This study enhances the understanding of plastic pollution in tropical protected areas, revealing the widespread of MPs even in small numbers from the areas distant from human settlements. Monitoring plastics in feces offers a non-invasive method for assessing plastic pollution in threatened species, as it allows for easy collection and taxonomic identification without harming live animals. However, stringent measures to assure the quality are necessitated to prevent exogenous MP contamination. These findings underscore the importance of raising awareness about plastic pollution in terrestrial ecosystems, especially regarding plastic products from clothing and plastic materials used in agriculture and irrigation systems. Copyright 2024 Teampanpong and Duengkae.",
+          "authors": [
+            "Teampanpong, J.",
+            "Duengkae, P."
+          ],
+          "year": "2024",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/439790",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "Feces",
+            "Microplastics",
+            "Plastic pollution",
+            "Protected areas",
+            "Terrestrial vertebrates",
+            "Western Forest Complex",
+            "Western Thailand",
+            "docosahexaenoic acid",
+            "immunoglobulin G",
+            "macroplastic",
+            "microplastic",
+            "plastic",
+            "polyethylene terephthalate",
+            "polypropylene",
+            "polyurethan",
+            "polyvinylchloride",
+            "Agave",
+            "Article",
+            "biogeography",
+            "color",
+            "colorectal cancer",
+            "convenience sample",
+            "deer",
+            "elephant",
+            "Elephas maximus",
+            "endangered species",
+            "European wild boar",
+            "flax",
+            "foreign body",
+            "forest",
+            "Fourier transform infrared spectroscopy",
+            "gaur (cattle)",
+            "habitat",
+            "human",
+            "irrigation (agriculture)",
+            "landfill",
+            "lizard",
+            "Macaca fascicularis",
+            "muntjac",
+            "nonhuman",
+            "pig",
+            "pollution",
+            "quality control",
+            "ramie",
+            "river",
+            "sediment",
+            "soil pollution",
+            "taxonomic identification",
+            "terrestrial species",
+            "Thailand",
+            "wildlife"
+          ],
+          "search_keyword": "microplastic",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:03:31.159Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "5hjoyZ4B882ltYvqOo89",
+        "_score": 2.1437488,
+        "_source": {
+          "source": "KUKR",
+          "title": "55. Kasetsart University Annual Conference",
+          "authors": [
+            "Yongsun Lee",
+            "Prapansak Srisapoome",
+            "Sasimanas Unajak",
+            "Korntip Kannika",
+            "Nontawith Areechon"
+          ],
+          "year": "2017",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/367004",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis niloticus",
+            "Tilapia",
+            "Immunity",
+            "Ascorbic acid",
+            "Beta glucanase",
+            "Nutrients",
+            "Supplements",
+            "Growth rate",
+            "Animal performance",
+            "Weight gain",
+            "Feed conversion efficiency",
+            "ปลานิล",
+            "ภูมิคุ้มกัน",
+            "ภูมิคุ้มกันแต่กำเนิด",
+            "ภูมิคุ้มกันร่างกายอย่างเจาะจง",
+            "กรดแอสคอร์บิค",
+            "เบทากลูคาเนส",
+            "สารอาหาร",
+            "สารเสริม",
+            "อัตราการเติบโต",
+            "สมรรถภาพของสัตว์",
+            "การเพิ่มน้ำหนัก",
+            "ประสิทธิภาพการเปลี่ยนอาหารเป็นเนื้อ",
+            "Nile tilapia",
+            "Innate immunity",
+            "Adaptive immune",
+            "Vitamin C",
+            "Beta-glucan",
+            "Dietary supplementation",
+            "Growth performances",
+            "Feed conversion ratio",
+            "วิตามินซี",
+            "เบต้า-กลูแคน",
+            "อาหารเสริม",
+            "สมรรถภาพการเจริญเติบโต",
+            "การเพิ่มน้ำหนักตัว",
+            "อัตราแลกเนื้อ"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:05:01.958Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "5BjoyZ4B882ltYvqOo48",
+        "_score": 2.086224,
+        "_source": {
+          "source": "KUKR",
+          "title": "Influence of biomass ash from power plant in combination with fertilizers on Leucaena production under sandy saline and acidic soil for renewable energy",
+          "authors": [
+            "Nop Tonmukayakul",
+            "Songyos Chotchutima",
+            "Piya Duangpatra",
+            "Nikhom Laemsak",
+            "Ed Sarobol",
+            "นพ ตัณมุขยกุล",
+            "ทรงยศ โชติชุติมา",
+            "ปิยะ ดวงพัตรา",
+            "นิคม แหลมสัก",
+            "เอ็จ สโรบล"
+          ],
+          "year": "2021",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/418942",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Leucaena leucocephala",
+            "Inorganic fertilizers",
+            "Farmyard manure",
+            "Ashes",
+            "Electrification",
+            "Byproducts",
+            "Fertilizer application",
+            "Soil improvement",
+            "Saline soils",
+            "Acid soils",
+            "Sandy soils",
+            "Growth",
+            "Yields",
+            "Renewable energy",
+            "Thermal properties",
+            "ปุ๋ยอนินทรีย์",
+            "ปุ๋ยคอก",
+            "เถ้า",
+            "การผลิตไฟฟ้า",
+            "ผลพลอยได้",
+            "การใส่ปุ๋ย",
+            "การปรับปรุงดิน",
+            "ดินเค็ม",
+            "ดินกรด",
+            "ดินทรายจัด",
+            "การเติบโต",
+            "ผลผลิต",
+            "พลังงานทดแทนได้",
+            "สมบัติทางความร้อน",
+            "Leucaena",
+            "Chemical fertilizer",
+            "Farm manure",
+            "Power plant ash",
+            "Biomass ash",
+            "Sandy soil",
+            "Saline soil",
+            "Acidic soil",
+            "กระถินยักษ์",
+            "ปุ๋ยเคมี",
+            "โรงไฟฟ้าชีวมวล",
+            "ดินทราย",
+            "การเจริญเติบโต",
+            "พลังงานทดแทน",
+            "คุณสมบัติเชิงพลังงาน"
+          ],
+          "search_keyword": "ชีวมวล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:56:04.487Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "IBjoyZ4B882ltYvqOo88",
+        "_score": 2.0132506,
+        "_source": {
+          "source": "KUKR",
+          "title": "Genome-wide association studies unveils the genetic basis of cell wall composition and saccharification of cassava pulp",
+          "abstract": "Cassava (Manihot esculenta Crantz) is a key crop for starch and biofuels production. This study focuses on the polysaccharide composition and saccharification efficiency in cassava pulp through genome-wide association studies (GWAS), targeting the improvement of root characteristics for industrial use. We analyzed 135 partially inbred lines population, performing monosaccharide composition and saccharification analyses to reveal substantial variability in storage root biomass. Among 33 traits examined, 128 significant SNPs were associated with 23 biomass traits, highlighting a complex genetic architecture. Saccharification potential varied from 39 to 95 nmol Glu mg−1 h−1, with high broad-sense heritability for saccharification and several monosaccharide traits, indicating a strong genetic control. Our findings revealed that cassava pulp comprises similar proportions of pectin, hemicellulose, and cellulose in all genotypes. Correlation analysis showed significant associations between cellulose content and saccharification, suggesting that enhancing these traits can improve bioconversion efficiency. Negative correlations with glucose and glucuronic acid in hemicellulose and pectin fractions imply these components may inhibit saccharification. We identified 118 candidate genes associated with 21 traits, with many involved in stress responses affecting cell wall composition. This study verified 12 key candidate genes through sequence and expression analysis, including MANES_07G081200, a YTH domain-containing protein associated with saccharification. Several stress-response genes, such as MANES_04G118600 and MANES_09G174600, were linked to monosaccharide traits, suggesting that adaptive stress pathways influence biomass characteristics. This study provides insights into the genetic determinants of cassava pulp's saccharification and polysaccharide composition, aiding breeding efforts to develop cassava varieties optimized for industrial applications. © 2024 Elsevier Masson SAS",
+          "authors": [
+            "Sunvittayakul, P.",
+            "Wonnapinij, P.",
+            "Wannitikul, P.",
+            "Phanthanong, P.",
+            "Changwitchukarn, K.",
+            "Suttangkakul, A.",
+            "Utthiya, S.",
+            "Phraemuang, A.",
+            "Kongsil, P.",
+            "Prommarit, K.",
+            "Ceballos, H.",
+            "Gómez, L. D.",
+            "Kittipadakul, P.",
+            "Vuttipongchaikij, S."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446887",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Cassava pulp",
+            "Cell wall composition",
+            "Genome-wide association studies (GWAS)",
+            "Saccharification",
+            "cellulose",
+            "polysaccharide",
+            "cell wall",
+            "genetics",
+            "genome-wide association study",
+            "Manihot",
+            "metabolism",
+            "single nucleotide polymorphism",
+            "Polymorphism, Single Nucleotide",
+            "Polysaccharides"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "JRjoyZ4B882ltYvqOo88",
+        "_score": 2.0132506,
+        "_source": {
+          "source": "KUKR",
+          "title": "Computational Study of the Transfer Hydrogenation of Furfural to Furfuryl Alcohol in the UiO-66 Metal-Organic Frameworks: Mechanistic Insights and Predictive Descriptors for Transition States and Activation Energies",
+          "abstract": "The catalytic transfer hydrogenation (CTH) of carbonyls in biobased chemicals is an essential route for converting biomass into more valuable chemicals and fuels. In this work, we investigate the CTH of furfural to furfuryl alcohol using isopropanol as the hydrogen source over UiO-66 metal-organic frameworks by means of density functional calculations. Two main reaction pathways differing in the formation of isopropoxide are analyzed. The pathway without isopropoxide formation is found to be favored over the one where isopropoxide is formed due to smaller activation barriers in the rate-limiting step and a subsequently higher rate constant. The acid strength of UiO-66 can be tuned by partial substitution of tetravalent metals, with the barriers appearing in the order Hf < Zr < Ce < Ti. Therefore, the catalytic activity of the Hf-substituted zeolite is the highest. In turn, modifying the group connecting the Zr sites of the MOF with a −CH<inf>3</inf> group reduces the barrier. Regression analysis shows that both the partial charge of the tetravalent metal site bound to furfural and the NH<inf>3</inf> adsorption energies serve as good descriptors for predicting the transition state energy, while the activation barrier can be reasonably approximated by linear functions of the partial charge of the tetravalent metal site alone. By means of the sure-independence screening and sparsifying operator (SISSO) method, we can identify the best nonlinear combination of DFT-based descriptors. We find that the combinations of descriptors have excellent predictions that can, in many cases, eliminate the need for time-intensive quantum chemical reaction pathway calculations. © 2025 American Chemical Society.",
+          "authors": [
+            "Maihom, T.",
+            "Boekfa, B.",
+            "Boonya-Udtayan, S.",
+            "Ketwong, P.",
+            "Wattanakit, C.",
+            "Probst, M.",
+            "Limtrakul, J."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/447000",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Activation analysis",
+            "Activation energy",
+            "Catalysis",
+            "Furfural",
+            "Hydrogenation",
+            "Substitution reactions",
+            "Zirconium",
+            "Activation barriers",
+            "Catalytic transfer hydrogenation",
+            "Descriptors",
+            "Furfuryl alcohol",
+            "Iso-propoxide",
+            "Metal sites",
+            "Metalorganic frameworks (MOFs)",
+            "Partial charges",
+            "Reaction pathways",
+            "Tetravalent metals",
+            "Rate constants"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "YxjoyZ4B882ltYvqOo88",
+        "_score": 2.0132506,
+        "_source": {
+          "source": "KUKR",
+          "title": "Generation of biodegradable microplastics from commercially available PBAT and PLA-based plastic bags in water: Impacts of UVA and water medium",
+          "abstract": "This study investigated the abiotic degradation potential of two commercially available biodegradable plastic bags, primarily composed of poly(butylene adipate-co-terephthalate) (PBAT) and polylactic acid (PLA), in ultrapure water (UW) and artificial seawater (ASW) under UVA light and dark conditions at 30 ± 1 °C over a 12-week period. Degradation behavior was evaluated based on weight loss, morphological changes, carbonyl index (CI), dissolved organic carbon (DOC) generation, microplastic formation, and water analysis. Results indicated that both PBAT and PLA degraded more rapidly in UW than in ASW, with UVA light markedly enhancing the degradation rate. Surface analysis revealed that PBAT degradation primarily occurred through bulk erosion, whereas PLA degradation involved both bulk and surface erosion. PBAT experienced substantial weight loss, while PLA showed a more rapid increase in CI, suggesting greater susceptibility to hydrolysis. Water analysis revealed pH fluctuations, DOC release, and the presence of microplastics (MPs), indicating ongoing hydrolytic and oxidative degradation. The presence of MPs was further confirmed by Nile Red (NR) tagging and ImageJ analysis, which identified a variety of particle shapes, primarily fragments and fibers. MP size and distribution analysis using ImageJ demonstrated that both plastic types contributed significantly to MP formation. Overall, these findings suggest that commercially available biodegradable plastic bags undergo incomplete degradation in aquatic environments and may persist in seawater in a manner similar to conventional plastics. These results highlight the need for further research to enhance the design and environmental performance of biodegradable plastics, particularly with regard to their degradation behavior in marine conditions. © 2025 Elsevier B.V.",
+          "authors": [
+            "Changlake, O.",
+            "Kaewkam, P.",
+            "Lin, K. Y. A.",
+            "Sirivithayapakorn, S.",
+            "Kobwittaya, K."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446806",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "Biodegradable plastic",
+            "Light",
+            "Seawater",
+            "Temperature",
+            "Ultrapure water",
+            "Degradation",
+            "Elastomers",
+            "Erosion",
+            "Microplastic",
+            "Particle size analysis",
+            "Plastic containers",
+            "Surface analysis",
+            "Water analysis",
+            "Artificial seawater",
+            "Biodegradable plastics",
+            "Carbonyl index",
+            "Degradation behavior",
+            "Dissolved organic carbon",
+            "Microplastics",
+            "Plastic bags",
+            "Polies (butylene adipate co terephthalate)",
+            "Ultra-pure water",
+            "Weight loss",
+            "carbon",
+            "carbonyl derivative",
+            "organic carbon",
+            "poly(butylene adipate co terephthalate)",
+            "polylactic acid",
+            "sea water",
+            "unclassified drug",
+            "water",
+            "plastic",
+            "poly(butylene adipate-co-butylene terephthalate)",
+            "polyester",
+            "polylactide",
+            "biodegradation",
+            "light intensity",
+            "aquatic environment",
+            "Article",
+            "attenuated total reflectance Fourier transform infrared spectroscopy",
+            "biodegradability",
+            "comparative study",
+            "darkness",
+            "density",
+            "field emission scanning electron microscopy",
+            "hydrolysis",
+            "morphological trait",
+            "oxidation",
+            "particle size",
+            "pH",
+            "surface property",
+            "ultraviolet A radiation",
+            "volume",
+            "weight",
+            "chemistry",
+            "radiation response",
+            "ultraviolet radiation",
+            "water pollutant",
+            "Plastics",
+            "Polyesters",
+            "Ultraviolet Rays",
+            "Water Pollutants, Chemical"
+          ],
+          "search_keyword": "microplastic",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:03:31.159Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "dhjoyZ4B882ltYvqOo88",
+        "_score": 2.0132506,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effects of particle size and aging on heavy metal adsorption by polypropylene and polystyrene microplastics under varying environmental conditions",
+          "abstract": "Microplastics have become a major environmental issue because of their widespread presence and tendency to adsorb heavy metals, which can have harmful effects on aquatic ecosystems and human health. The present study investigates the adsorption mechanisms of Pb2+ and Cu2+ ions on both pristine and artificially aged microplastics (MPs) made of polystyrene (PS) and polypropylene (PP). Furthermore, the influence of MP size on the adsorption capacity under different environmental conditions was evaluated. According to the characterization of MPs, aging leads to physical damage and an increase in the number of oxygen-containing functional groups on their surface. The experimental results highlight the significantly higher adsorption ability of smaller and aged MPs compared with that of pristine MPs for both the heavy metal ions. The pseudo-second-order equation provided a better fit for the adsorption kinetics study (R2 = 0.95), suggesting that chemisorption governs the rate-limiting phase in the adsorption mechanism on the MP surfaces. The concordance between the adsorption isotherm model and Freundlich model (R2 > 0.95) indicated a predominance of multilayer adsorption. The environmental factors such as pH, humic acid, temperature, and SO42− concentration significantly affected the adsorption of Pb2⁺ and Cu2⁺ onto PP and PS MPs. These variables play a crucial role in determining the nature of the interactions between heavy metal ions and the microplastic particles under diverse environmental conditions. Electrostatic interactions, surface complexation and van der Waals forces were identified as two factors that could either improve or diminish the metal ion adsorption capacity of MPs. © 2024 Elsevier Ltd",
+          "authors": [
+            "Muthuraja, R.",
+            "Ou, B.",
+            "Thangavelu, M.",
+            "Narhayanan, T. N.",
+            "Chittamart, N.",
+            "Janjaroen, D."
+          ],
+          "year": "2024",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/440337",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "Adsorption",
+            "Heavy metals",
+            "Microplastics",
+            "Polypropylene",
+            "Polystyrene",
+            "Copper",
+            "Humic Substances",
+            "Hydrogen-Ion Concentration",
+            "Kinetics",
+            "Lead",
+            "Metals, Heavy",
+            "Particle Size",
+            "Polypropylenes",
+            "Polystyrenes",
+            "Water Pollutants, Chemical",
+            "Metal ions",
+            "Microplastic",
+            "cupric ion",
+            "functional group",
+            "heavy metal",
+            "humic acid",
+            "metal ion",
+            "oxygen",
+            "polystyrene derivative",
+            "Adsorption mechanism",
+            "Ecosystem health",
+            "Environmental conditions",
+            "Environmental issues",
+            "Harmful effects",
+            "Heavy metal adsorption",
+            "Heavy metal ion",
+            "Human health",
+            "Particles sizes",
+            "complexation",
+            "environmental issue",
+            "isotherm",
+            "adsorption kinetics",
+            "aging",
+            "aquatic environment",
+            "Article",
+            "chemical analysis",
+            "chemical interaction",
+            "chemisorption",
+            "complex formation",
+            "concentration process",
+            "controlled study",
+            "environmental change",
+            "environmental factor",
+            "environmental risk",
+            "force",
+            "human",
+            "hydrophobicity",
+            "pH",
+            "static electricity",
+            "temperature",
+            "chemistry",
+            "humic substance",
+            "water pollutant",
+            "Van der Waals forces"
+          ],
+          "search_keyword": "microplastic",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:03:31.159Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "OxjoyZ4B882ltYvqOo88",
+        "_score": 1.9799662,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effects of seed treatment and coating on germination and vigor of peanut seed under low temperature regime",
+          "authors": [
+            "Parinee Jeammuangpuk",
+            "Tanapon Chaisan",
+            "Damrongvudhi Onwimol",
+            "Juangjun Duangpatra",
+            "ภาริณี เจียมเมืองปักษ์",
+            "ธนพล ไชยแสน",
+            "ดำรงวุฒิ อ่อนวิมล",
+            "จวงจันทร์ ดวงพัตรา"
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/390618",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Arachis hypogaea",
+            "Groundnuts",
+            "Seed",
+            "Seed pelleting",
+            "Salicylic acids",
+            "Calcium chloride",
+            "Chitosan",
+            "Quality",
+            "Germination",
+            "Seeds",
+            "Seed characteristics",
+            "Vigour",
+            "ถั่วลิสง",
+            "เมล็ดพันธุ์",
+            "การเคลือบเมล็ด",
+            "กรดซาลิไซลิค",
+            "แคลเซียมคลอไรด์",
+            "ไคโตแซน",
+            "คุณภาพ",
+            "การงอก",
+            "เมล็ด",
+            "ลักษณะของเมล็ดพันธุ์",
+            "ความแข็งแรง",
+            "Peanut seed",
+            "Seed enhancement",
+            "Seed treatment",
+            "Seed coating",
+            "Salicylic acid",
+            "Ascorbate",
+            "CaCl2",
+            "Seed germination",
+            "Seed vigor",
+            "Low temperature regime",
+            "การคลุกเมล็ดพันธุ์",
+            "การเคลือบเมล็ดพันธุ์",
+            "สารเคมี",
+            "กรดซาลิไซลิก",
+            "แอสคอเบท",
+            "ไคโตซาน",
+            "คุณภาพเมล็ดพันธุ์",
+            "ความแข็งแรงของเมล็ดพันธุ์",
+            "สภาวะอุณหภูมิต่ำ"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "RBjoyZ4B882ltYvqOo88",
+        "_score": 1.9799662,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of vitamin c and chitosan film coating on storability of sunflower seeds",
+          "abstract": "Sunflower seeds have a high fat content that causes rapid seed deterioration. The objective of this experiment was to determine the effects of coating of sunflower seeds with polymer (Flare-2, Centor Thai) mixing with vitamin c and chitosan at the concentrations of 0 (control) 2 4 and 6 ppm (120 ml/100g seed). The coated seeds were stored in plastic bag for 6 months at 10 deg C. The results showed that the seed germination of coated seeds for all treatments after 4 months of storage was not significantly different from the initial value. However, after 5 and 6 months of storage, the control treatment had the lowest germination percentage of 76 percent and it was lower than the coated seeds with polymer mixing with vitamin C and chitosan treatments (87-95 percent). Seed vigor of coated seeds decreased with the longer storage time in every treatment. Germination index (GI) and seedling growth",
+          "authors": [
+            "Piyanath Pagamas",
+            "ปิยะณัฎฐ์ ผกามาศ",
+            "มัณฑนา ปานศรีทอง",
+            "Manthana Pansrithong"
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20012931",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Sunflower seeds",
+            "Storability",
+            "Coating",
+            "Vitamin c",
+            "Chitosan",
+            "Seed germination",
+            "Germination index",
+            "GI",
+            "Seedling growth",
+            "เมล็ดทานตะวัน",
+            "การเก็บรักษาเมล็ดพันธุ์",
+            "การเคลือบเมล็ดพันธุ์",
+            "วิตามินซี",
+            "ไคโตซาน",
+            "ความงอกของเมล็ด",
+            "การเจริญเติบโต",
+            "อายุการเก็บรักษา",
+            "Helianthus annuus",
+            "Sunflower seed",
+            "Seed",
+            "Seed storage",
+            "Seed pelleting",
+            "Ascorbic acid",
+            "Chitin",
+            "Polymers",
+            "Germination",
+            "Germinability",
+            "Developmental stages",
+            "Growth rate",
+            "Seed testing",
+            "เมล็ดพันธุ์",
+            "การเคลือบเมล็ด",
+            "กรดแอสคอร์บิค",
+            "ไคโตแซน",
+            "ไคติน",
+            "โพลีเมอร์",
+            "การงอก",
+            "ความสามารถในการงอก",
+            "ระยะการพัฒนา",
+            "อัตราการเติบโต",
+            "การตรวจสอบคุณภาพเมล็ดพันธุ์"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "SBjoyZ4B882ltYvqOo88",
+        "_score": 1.9799662,
+        "_source": {
+          "source": "KUKR",
+          "title": "14. National Seed Conference 2017",
+          "authors": [
+            "Parinee Jeammuangpuk",
+            "Wanchai Chanprasert",
+            "Tanapon Chaisan",
+            "Juangjun Duangpatra",
+            "ภาริณี เจียมเมืองปักษ์",
+            "วันชัย จันทร์ประเสริฐ",
+            "ธนพล ไชยแสน",
+            "จวงจันทร์ ดวงพัตรา"
+          ],
+          "year": "2017",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/381220",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Peanuts",
+            "Seed treatments",
+            "Chemical priming",
+            "Stress condition",
+            "Salicylic acid",
+            "Chitosan",
+            "Ascorbate",
+            "CaCl2",
+            "Seed quality",
+            "Germination",
+            "Seedling",
+            "Growth",
+            "Low temperature regime",
+            "ถั่วลิสง",
+            "การเตรียมพร้อมเมล็ดพันธุ์",
+            "สารเคมี",
+            "กรดซาลิไซลิก",
+            "แอสคอเบท",
+            "แคลเซียมคลอไรด์",
+            "ไคโตซาน",
+            "คุณภาพของเมล็ดพันธุ์",
+            "การงอก",
+            "ต้นกล้า",
+            "การเจริญเติบโต",
+            "สภาวะอุณหภูมิต่ำ",
+            "Groundnuts",
+            "Arachis hypogaea",
+            "Seed treatment",
+            "Pregermination",
+            "Salicylic acids",
+            "Calcium chloride",
+            "Quality",
+            "Seed",
+            "Seeds",
+            "Seedlings",
+            "Temperature",
+            "ซีดทรีทเมนท์",
+            "การปรับสภาพก่อนเมล็ดงอก",
+            "กรดซาลิไซลิค",
+            "ไคโตแซน",
+            "คุณภาพ",
+            "เมล็ดพันธุ์",
+            "เมล็ด",
+            "การเติบโต",
+            "อุณหภูมิ"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "ShjoyZ4B882ltYvqOo88",
+        "_score": 1.9799662,
+        "_source": {
+          "source": "KUKR",
+          "title": "Efficacy of rice bran wax and chitosan based coating on enhancing the shelf life of eggs",
+          "authors": [
+            "Niparat Sritharet",
+            "Kannikar Charoensuk",
+            "Wanida Innok",
+            "นิภารัตน์ ศรีธเรศ",
+            "กรรณิการ์ เจริญสุข",
+            "วนิดา อินทร์นอก"
+          ],
+          "year": "2017",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20003008",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Egg",
+            "Rice bran wax",
+            "Chitosan",
+            "Shelf life",
+            "Egg quality",
+            "Eggshell strength",
+            "Weight",
+            "Thick albumen",
+            "Yolk color",
+            "Haugh unit",
+            "ไข่ไก่สด",
+            "ไขรำข้าว",
+            "กรดโอเลอิค",
+            "ไตรเอทานอลเอมีน",
+            "ไคโตซาน",
+            "สารเคลือบผิว",
+            "อายุการเก็บรักษา",
+            "คุณภาพไข่",
+            "ความหนาเปลือกไข่",
+            "น้ำหนักไข่",
+            "สีของไข่แดง",
+            "ค่าฮอกยูนิต",
+            "Layer chickens",
+            "Eggs",
+            "Bran",
+            "Albumins",
+            "Oleic acid",
+            "Waxing",
+            "Keeping quality",
+            "Egg characters",
+            "Egg shell",
+            "Egg white",
+            "Egg yolk",
+            "ไก่ไข่",
+            "ไข่",
+            "รำข้าว",
+            "แอลบูมิน",
+            "ไคโตแซน",
+            "การเคลือบไข",
+            "คุณภาพการเก็บ",
+            "ลักษณะของไข่",
+            "เปลือกไข่",
+            "ไข่ขาว",
+            "ไข่แดง"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      }
+    ]
+  }
+}

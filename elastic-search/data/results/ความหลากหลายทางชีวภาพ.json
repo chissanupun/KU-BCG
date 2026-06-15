@@ -1,0 +1,426 @@
+{
+  "took": 10,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 12,
+      "relation": "eq"
+    },
+    "max_score": 3.8926363,
+    "hits": [
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "MBgzyp4B882ltYvqGpED",
+        "_score": 3.8926363,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการสำรวจและจัดทำข้อมูลความหลากหลายทางชีวภาพในพื้นที่วิกฤตทาความหลากหลายทางชีวภาพ (Biodiversity Hotspots) จังหวัดนครศรีธรรมราช จังหวัดสงขลา จังหวัดพัทลุง และจังหวัดสตูล",
+          "authors": [],
+          "year": 2010,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%A0%E0%B8%B2%E0%B8%9E",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ความหลากหลายทางชีวภาพ"
+          ],
+          "search_keyword": "ความหลากหลายทางชีวภาพ",
+          "doc_type": "งานวิจัย",
+          "indexed_at": "2026-06-15T07:33:18.063Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "MRgzyp4B882ltYvqGpED",
+        "_score": 3.8926363,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การสำรวจความหลากหลายทางชีวภาพในพื้นที่วิกฤตทางความหลากหลายทางชีวภาพ",
+          "authors": [
+            "ดร.ดอกรัก มารอด, ศาสตราจารย์"
+          ],
+          "year": 2011,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%A0%E0%B8%B2%E0%B8%9E",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ความหลากหลายทางชีวภาพ"
+          ],
+          "search_keyword": "ความหลากหลายทางชีวภาพ",
+          "doc_type": "งานวิจัย",
+          "indexed_at": "2026-06-15T07:33:18.063Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Mhgzyp4B882ltYvqGpED",
+        "_score": 3.8926363,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "ความหลากหลายทางชีวภาพของสัตว์น้ำเศรษฐกิจในพื้นที่ลุ่มน้ำคลองกำพวน",
+          "authors": [
+            "นายสหัส ราชเมืองขวาง",
+            "นายกำจัด รื่นเริงดี"
+          ],
+          "year": 2009,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%A0%E0%B8%B2%E0%B8%9E",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ความหลากหลายทางชีวภาพ"
+          ],
+          "search_keyword": "ความหลากหลายทางชีวภาพ",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัย มก. ประจำปี 2552 (เงินอุดหนุนศูนย์วิจัยเพื่อการพัฒนาชายฝั่งอันดามัน)",
+          "indexed_at": "2026-06-15T07:33:18.063Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Mxgzyp4B882ltYvqGpED",
+        "_score": 3.8926363,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การใช้ประโยชน์จากความหลากหลายทางชีวภาพมะพร้าวไทยเพื่อรองรับการปรับปรุงพันธุ์มะพร้าวและการพัฒนาผลิตภัณฑ์เพื่อสุขภาพ",
+          "authors": [
+            "ดร.ศิวเรศ อารีกิจ, รองศาสตราจารย์",
+            "ผศ.ดร.สินีวัลยา วิชิต"
+          ],
+          "year": 2022,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%A0%E0%B8%B2%E0%B8%9E",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ความหลากหลายทางชีวภาพ"
+          ],
+          "search_keyword": "ความหลากหลายทางชีวภาพ",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานพัฒนาการวิจัยการเกษตร (สวก.)",
+          "indexed_at": "2026-06-15T07:33:18.063Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "NBgzyp4B882ltYvqGpED",
+        "_score": 3.8926363,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "บูรณาการการใช้ประโยชน์จากความหลากหลายทางชีวภาพมะพร้าวไทยเพื่อการสร้างพันธุ์มะพร้าวมูลค่าทางเศรษฐกิจสูงและการเพิ่มมูลค่าผลิตภัณฑ์มะพร้าว",
+          "authors": [
+            "ดร.ศิวเรศ อารีกิจ, รองศาสตราจารย์"
+          ],
+          "year": 2019,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%A0%E0%B8%B2%E0%B8%9E",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ความหลากหลายทางชีวภาพ"
+          ],
+          "search_keyword": "ความหลากหลายทางชีวภาพ",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานพัฒนาเศรษฐกิจจากฐานชีวภาพ (องค์การมหาชน)",
+          "indexed_at": "2026-06-15T07:33:18.063Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "NRgzyp4B882ltYvqGpED",
+        "_score": 3.8926363,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "หน่วยความหลากหลายทางชีวภาพของจุลินทรีย์และการใช้ประโยชน์เพื่อการจัดการศัตรูพืช วิทยาเขตกำแพงแสน",
+          "authors": [
+            "ดร.จินตนา อันอาตม์งาม, รองศาสตราจารย์"
+          ],
+          "year": 2026,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%A0%E0%B8%B2%E0%B8%9E",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ความหลากหลายทางชีวภาพ"
+          ],
+          "search_keyword": "ความหลากหลายทางชีวภาพ",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานการวิจัยแห่งชาติ (วช.)",
+          "indexed_at": "2026-06-15T07:33:18.063Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Nhgzyp4B882ltYvqGpED",
+        "_score": 3.8926363,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการพัฒนาเว็บท่า (Web Portal) ด้านความหลากหลายทางชีวภาพ สำหรับสืบค้นข้อมูลและให้บริการประชาชน",
+          "authors": [],
+          "year": 2010,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%A0%E0%B8%B2%E0%B8%9E",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ความหลากหลายทางชีวภาพ"
+          ],
+          "search_keyword": "ความหลากหลายทางชีวภาพ",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานปลัดกระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม",
+          "indexed_at": "2026-06-15T07:33:18.063Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Nxgzyp4B882ltYvqGpED",
+        "_score": 3.8926363,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการวิจัยความหลากหลายทางชีวภาพของแบคทีเรียส่งเสริมการเติบโตของพืชจากดินในสถานีวิจัยกาญจนบุรี สถาบันค้นคว้าและพัฒนาระบบนิเวศเกษตร",
+          "authors": [
+            "ดร.วิเชียร กิจปรีชาวนิช, รองศาสตราจารย์",
+            "นายจรัล เห็นพิทักษ์",
+            "ดร.สุรางค์ สุธิราวุธ",
+            "ผู้ช่วยศาสตราจารย์"
+          ],
+          "year": 2009,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%A0%E0%B8%B2%E0%B8%9E",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ความหลากหลายทางชีวภาพ"
+          ],
+          "search_keyword": "ความหลากหลายทางชีวภาพ",
+          "doc_type": "งานวิจัย",
+          "funding": "โครงการศูนย์ความเป็นเลิศทางวิชาการ มหาวิทยาลัยเกษตรศาสตร์",
+          "indexed_at": "2026-06-15T07:33:18.063Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "OBgzyp4B882ltYvqGpED",
+        "_score": 3.8926363,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "ศึกษาความหลากหลายทางชีวภาพของเชื้อรา Termitomyces spp. (เห็ดโคน) ที่อยู่ร่วมกับปลวกเลี้ยงรา บริเวณจังหวัดกาญจนบุรี โดยใช้เทคนิคทางโมเลกุล",
+          "authors": [
+            "นายณิศ กีร์ติบุตร",
+            "ผู้ช่วยศาสตราจารย์",
+            "นางพูนพิไล สุวรรณฤทธิ์",
+            "รองศาสตราจารย์",
+            "นายสุเทพ ญาดี"
+          ],
+          "year": 2009,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%A0%E0%B8%B2%E0%B8%9E",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ความหลากหลายทางชีวภาพ"
+          ],
+          "search_keyword": "ความหลากหลายทางชีวภาพ",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:33:18.063Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "ORgzyp4B882ltYvqGpED",
+        "_score": 3.8926363,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "ความหลากหลายทางชีวภาพของจุลินทรีย์ในป่าชายเลน",
+          "authors": [
+            "นางพูนพิไล สุวรรณฤทธิ์, รองศาสตราจารย์"
+          ],
+          "year": 2000,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%A0%E0%B8%B2%E0%B8%9E",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ความหลากหลายทางชีวภาพ"
+          ],
+          "search_keyword": "ความหลากหลายทางชีวภาพ",
+          "doc_type": "งานวิจัย",
+          "funding": "โครงการพัฒนาองค์ความรู้และศึกษานโยบายการจัดการทรัพยากรชีวภาพในประเทศไทย ร่วมกับศูนย์พันธุวิศวกรรมและ",
+          "indexed_at": "2026-06-15T07:33:18.063Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Ohgzyp4B882ltYvqGpED",
+        "_score": 3.8926363,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการศึกษาสำรวจความหลากหลายทางชีวภาพบริเวณเหมืองหินปูน บริษัทปูนซีเมนต์ไทย (ท่าหลวง) จำกัด",
+          "authors": [],
+          "year": 2010,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%A0%E0%B8%B2%E0%B8%9E",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ความหลากหลายทางชีวภาพ"
+          ],
+          "search_keyword": "ความหลากหลายทางชีวภาพ",
+          "doc_type": "งานวิจัย",
+          "funding": "บริษัทปูนซีเมนต์ไทย (ท่าหลวง)จำกัด",
+          "indexed_at": "2026-06-15T07:33:18.063Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Oxgzyp4B882ltYvqGpED",
+        "_score": 3.8926363,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการพัฒนาระบบและเครือข่ายฐานข้อมูลความหลากหลายทางชีวภาพระดับประเทศ ระยะที่ 1 ปี 2553",
+          "authors": [],
+          "year": 2010,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%A0%E0%B8%B2%E0%B8%9E",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ความหลากหลายทางชีวภาพ"
+          ],
+          "search_keyword": "ความหลากหลายทางชีวภาพ",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานพัฒนาเศรษฐกิจจากฐานชีวภาพ (องค์การมหาชน)",
+          "indexed_at": "2026-06-15T07:33:18.063Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      }
+    ]
+  }
+}

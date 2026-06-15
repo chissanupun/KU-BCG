@@ -1,0 +1,558 @@
+{
+  "took": 11,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 16,
+      "relation": "eq"
+    },
+    "max_score": 3.6150045,
+    "hits": [
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "5Rgzyp4B882ltYvqGpAC",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การเปลี่ยนแปลงสภาพภูมิอากาศ, การศึกษาเตรียมการดำเนินงานตามมาตรา 6 ของอนุสัญญาสหประชาชาติว่าด้วยการเปลี่ยนแปลงสภาพภูมิอากาศ",
+          "authors": [
+            "ดร.วุฒิ หวังวัชรกุล, รองศาสตราจารย์"
+          ],
+          "year": 2004,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "การเปลี่ยนแปลงสภาพภูมิอากาศ"
+          ],
+          "search_keyword": "การเปลี่ยนแปลงสภาพภูมิอากาศ",
+          "doc_type": "งานวิจัย",
+          "funding": "กระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม",
+          "indexed_at": "2026-06-15T07:32:22.733Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "5hgzyp4B882ltYvqGpAC",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการศึกษาติดตามการเปลี่ยนแปลงสภาพภูมิอากาศบริเวณมหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตศรีราชา จังหวัดชลบุรี",
+          "authors": [
+            "ดร.มิ่งขวัญ มิ่งเมือง, รองศาสตราจารย์"
+          ],
+          "year": 2006,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "การเปลี่ยนแปลงสภาพภูมิอากาศ"
+          ],
+          "search_keyword": "การเปลี่ยนแปลงสภาพภูมิอากาศ",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:32:22.733Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "5xgzyp4B882ltYvqGpAC",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การพัฒนาแนวทางวิจัยวงปีไม้เชิงบูรณาการเพื่อยกระดับความแม่นยำในการคาดการณ์ความเสี่ยงภูมิอากาศ ประเมินผลกระทบของ PM2.5 ในการจัดการจัดการสวนป่า และเสริมสร้างความสามารถในการปรับตัว ของประเทศไทยต่อการเปลี่ยนแปลงสภาพภูมิอากาศ",
+          "authors": [],
+          "year": 2026,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "การเปลี่ยนแปลงสภาพภูมิอากาศ"
+          ],
+          "search_keyword": "การเปลี่ยนแปลงสภาพภูมิอากาศ",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:32:22.733Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "6Bgzyp4B882ltYvqGpAC",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การพัฒนาเทคนิคโคลนนิ่งในการอนุรักษ์ความหลากหลายทางชีวภาพของปลากัดและการใช้ประโยชน์เชิงพาณิชย์เพื่อลดผลกระทบจากการเปลี่ยนแปลงสภาพภูมิอากาศ",
+          "authors": [
+            "ดร.สุขุมาล พฤกษ์อุดม, อาจารย์",
+            "ดร.กรรณิการ์ ศิริภัทรประวัติ",
+            "รองศาสตราจารย์",
+            "นายสรณัฏฐ์ ศิริสวย",
+            "อาจารย์"
+          ],
+          "year": 2024,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "การเปลี่ยนแปลงสภาพภูมิอากาศ"
+          ],
+          "search_keyword": "การเปลี่ยนแปลงสภาพภูมิอากาศ",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานการวิจัยแห่งชาติ (วช.)",
+          "indexed_at": "2026-06-15T07:32:22.733Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "6Rgzyp4B882ltYvqGpAC",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การพัฒนาความรู้ด้านนิเวศวิทยากล้าไม้ต้นเพื่อการฟื้นฟูป่าเขตร้อนและการกักเก็บคาร์บอนภายใต้การเปลี่ยนแปลงสภาพภูมิอากาศของประเทศไทย : กรณีศึกษาจากแปลงถาวรขนาดใหญ่เพื่อศึกษาพลวัตของสังคมพืชเขตรักษาพันธุ์สัตว์ป่าห้วยขาแข็ง จังหวัดอุทัยธานี",
+          "authors": [
+            "ดร.นันทชัย พงศ์พัฒนานุรักษ์, รองศาสตราจารย์"
+          ],
+          "year": 2019,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "การเปลี่ยนแปลงสภาพภูมิอากาศ"
+          ],
+          "search_keyword": "การเปลี่ยนแปลงสภาพภูมิอากาศ",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานพัฒนาเศรษฐกิจจากฐานชีวภาพ (องค์การมหาชน)",
+          "indexed_at": "2026-06-15T07:32:22.733Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "6hgzyp4B882ltYvqGpAC",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "แผนงานการพัฒนาพันธุ์อ้อยใหม่เพื่อตอบสนองการเปลี่ยนแปลงสภาพภูมิอากาศและเพิ่มประสิทธิภาพการผลิตอ้อย",
+          "authors": [
+            "ดร.ภัศจี คงศีล, รองศาสตราจารย์"
+          ],
+          "year": 2020,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "การเปลี่ยนแปลงสภาพภูมิอากาศ"
+          ],
+          "search_keyword": "การเปลี่ยนแปลงสภาพภูมิอากาศ",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานการวิจัยแห่งชาติ (วช.)",
+          "indexed_at": "2026-06-15T07:32:22.733Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "6xgzyp4B882ltYvqGpAC",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การจัดการอย่างมีส่วนร่วมของชุมชนเพื่อส่งเสริมคุณค่าระบบนิเวศจากความหลากหลายทางชีวภาพของนกบริเวณชายฝั่ง อำเภอบ้านแหลม จังหวัดเพชรบุรี ภายใต้สภาวะการเปลี่ยนแปลงสภาพภูมิอากาศ",
+          "authors": [
+            "นายเมธี จันทโรปกรณ์",
+            "อาจารย์",
+            "ดร.สุรัตน์ บัวเลิศ",
+            "รองศาสตราจารย์",
+            "นายชาตรี นิ่มปี"
+          ],
+          "year": 2016,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "การเปลี่ยนแปลงสภาพภูมิอากาศ"
+          ],
+          "search_keyword": "การเปลี่ยนแปลงสภาพภูมิอากาศ",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานพัฒนาเศรษฐกิจจากฐานชีวภาพ (องค์การมหาชน)",
+          "indexed_at": "2026-06-15T07:32:22.733Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "7Bgzyp4B882ltYvqGpAC",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การเปลี่ยนแปลงสภาพภูมิอากาศต่อถิ่นที่อาศัยทางธรรมชาติของพืชพรรณและสัตว์ป่า ในอุทยานแห่งชาติดอยสุเทพ-ปุย จังหวัดเชียงใหม่",
+          "authors": [
+            "ดร.สราวุธ สังข์แก้ว, รองศาสตราจารย์"
+          ],
+          "year": 2015,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "การเปลี่ยนแปลงสภาพภูมิอากาศ"
+          ],
+          "search_keyword": "การเปลี่ยนแปลงสภาพภูมิอากาศ",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:32:22.733Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "7Rgzyp4B882ltYvqGpAC",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการติดตามองค์ประกอบความหลากหลายทางชีวภาพและระบบนิเวศจากการเปลี่ยนแปลงสภาพภูมิอากาศ",
+          "authors": [
+            "ดร.ดอกรัก มารอด, ศาสตราจารย์"
+          ],
+          "year": 2014,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "การเปลี่ยนแปลงสภาพภูมิอากาศ"
+          ],
+          "search_keyword": "การเปลี่ยนแปลงสภาพภูมิอากาศ",
+          "doc_type": "งานวิจัย",
+          "indexed_at": "2026-06-15T07:32:22.733Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "7hgzyp4B882ltYvqGpAC",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การวิเคราะห์ผลกระทบของการเปลี่ยนแปลงสภาพภูมิอากาศต่อปลาดุกอุย ปลาดุกยักษ์ และปลาดุกลูกผสมในระดับโมเลกุลและอัตราการเจริญเติบโต เพื่อพัฒนากลยุทธ์การเพาะเลี้ยงเชิงอุตสาหกรรม",
+          "authors": [
+            "ดร.วรพงศ์ สิงห์ชาติ"
+          ],
+          "year": 2025,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "การเปลี่ยนแปลงสภาพภูมิอากาศ"
+          ],
+          "search_keyword": "การเปลี่ยนแปลงสภาพภูมิอากาศ",
+          "doc_type": "งานวิจัย",
+          "funding": "โครงการวิจัยขั้นสูงและสร้างเครือข่ายนานาชาติด้านการเปลี่ยนแปลงสภาพภูมิอากาศ (Climate Change) ภายใต้โครงการพลิกโฉมมหาวิทยาลัย (Reinventing University) ประจำปีงบประมาณ พ.ศ. 2568",
+          "indexed_at": "2026-06-15T07:32:22.733Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "7xgzyp4B882ltYvqGpAC",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การเปลี่ยนแปลงสภาพภูมิอากาศต่อการเจริญเติบโต ระบบการสืบพันธ์ุ ปริมาณและคุณภาพผลมะละกอ",
+          "authors": [],
+          "year": 2016,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "การเปลี่ยนแปลงสภาพภูมิอากาศ"
+          ],
+          "search_keyword": "การเปลี่ยนแปลงสภาพภูมิอากาศ",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานพัฒนาเศรษฐกิจจากฐานชีวภาพ (องค์การมหาชน)",
+          "indexed_at": "2026-06-15T07:32:22.733Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "8Bgzyp4B882ltYvqGpAC",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การเพิ่มขีดความสามารถในการอนุวัตตามอนุสัญญาสหประชาชาติว่าด้วยการเปลี่ยนแปลงสภาพภูมิอากาศของไทย",
+          "authors": [
+            "ดร.วุฒิ หวังวัชรกุล, รองศาสตราจารย์"
+          ],
+          "year": 2002,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "การเปลี่ยนแปลงสภาพภูมิอากาศ"
+          ],
+          "search_keyword": "การเปลี่ยนแปลงสภาพภูมิอากาศ",
+          "doc_type": "งานวิจัย",
+          "indexed_at": "2026-06-15T07:32:22.733Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "8Rgzyp4B882ltYvqGpAC",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "เหมาบริการวิเคราะห์หาอายุซากดึกดำบรรพ์ในชั้นตะกอน โครงการศึกษาวิจัยการเปลี่ยนแปลงสภาพภูมิอากาศในอดีตพื้นที่เมืองโบราณอู่ทอง",
+          "authors": [
+            "ณัฐวัฒน์ เกษเทศ",
+            "นนทรัตน์ นิ่มสุวรรณ"
+          ],
+          "year": 2017,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "การเปลี่ยนแปลงสภาพภูมิอากาศ"
+          ],
+          "search_keyword": "การเปลี่ยนแปลงสภาพภูมิอากาศ",
+          "doc_type": "งานวิจัย",
+          "funding": "กรมทรัพยากรธรณี",
+          "indexed_at": "2026-06-15T07:32:22.733Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "8hgzyp4B882ltYvqGpAC",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการการคาดการณ์พื้นที่ปลูกสร้างและสภาพลมในเมืองเพื่อการวางผังเมืองกรุงเทพมหานครว่าด้วยการเปลี่ยนแปลงสภาพภูมิอากาศ",
+          "authors": [
+            "ดร.ภัทรนันท์ ทักขนนท์, รองศาสตราจารย์",
+            "ดร.รัฐภูมิ ปาการเสรี",
+            "อาจารย์",
+            "นางสาวขวัญชนก ศักดิ์โฆษิต",
+            "นางสาวพิชญา เจริญถาวรโภคา"
+          ],
+          "year": 2022,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "การเปลี่ยนแปลงสภาพภูมิอากาศ"
+          ],
+          "search_keyword": "การเปลี่ยนแปลงสภาพภูมิอากาศ",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานการวิจัยแห่งชาติ (วช.)",
+          "indexed_at": "2026-06-15T07:32:22.733Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "8xgzyp4B882ltYvqGpAC",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "ดครงการความเป็นไปได้และความถี่ของการเกิดอุทกภัย/ดินถล่มจากการเปลี่ยนแปลงสภาพภูมิอากาศ/ภาวะโลกร้อน:พื้นที่ศึกษาภาคเหนือ",
+          "authors": [
+            "ดร.สุทธิศักดิ์ ศรลัมพ์, รองศาสตราจารย์"
+          ],
+          "year": 2013,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "การเปลี่ยนแปลงสภาพภูมิอากาศ"
+          ],
+          "search_keyword": "การเปลี่ยนแปลงสภาพภูมิอากาศ",
+          "doc_type": "งานวิจัย",
+          "funding": "กรมทรัพยากรน้ำ",
+          "indexed_at": "2026-06-15T07:32:22.733Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "9Bgzyp4B882ltYvqGpAC",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "นวัตกรรมการเลี้ยงปลานิล/ปลาทับทิมระบบอัจฉริยะเพื่อลดความเสี่ยงและผลกระทบจากการเปลี่ยนแปลงสภาพภูมิอากาศ",
+          "authors": [
+            "นายปณิธาน แก้วจันทวี",
+            "นายวุฒิชัย อ่อนเอี่ยม",
+            "ดร.สุรินทร์ภรณ์ ศรีอินทร์",
+            "Mr. Akinori Ozaki",
+            "นายกิตตินันท์ บุญรอด"
+          ],
+          "year": 2026,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "การเปลี่ยนแปลงสภาพภูมิอากาศ"
+          ],
+          "search_keyword": "การเปลี่ยนแปลงสภาพภูมิอากาศ",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานการวิจัยแห่งชาติ (วช.)",
+          "indexed_at": "2026-06-15T07:32:22.733Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      }
+    ]
+  }
+}
