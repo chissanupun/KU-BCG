@@ -1,0 +1,95 @@
+{
+  "took": 9,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 2,
+      "relation": "eq"
+    },
+    "max_score": 5.5020742,
+    "hits": [
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "gxgzyp4B882ltYvqGpAA",
+        "_score": 5.5020742,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การจัดทำมาตรฐานวิธีผลิตไบโอดีเซลเชิงพาณิชย์จากนำ้มันพืชใช้แล้วสำหรับอุตสาหกรรมขนาดเล็ก และศึกษาคุณภาพไบโอดีเซลระหว่างการเก็บรักษาระยะยาว",
+          "authors": [
+            "ดร.เพ็ญจิตร ศรีนพคุณ, ศาสตราจารย์",
+            "น.ส.ดรุณวรรณ ชื่นบุบผา",
+            "น.ส.สุกานดา เชียงคำ"
+          ],
+          "year": 2012,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=biodiesel",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "biodiesel"
+          ],
+          "search_keyword": "biodiesel",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ",
+          "indexed_at": "2026-06-15T07:31:16.742Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "hBgzyp4B882ltYvqGpAA",
+        "_score": 5.5020742,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การทำไบโอดีเซลให้บริสุทธิ์ด้วยเรซินจากชีวมวลสำหรับเครื่องผลิตไบโอดีเซล KUB-200",
+          "authors": [
+            "ดร.สุจิณณา กรรณสูต, รองศาสตราจารย์",
+            "ดร.นิพนธ์ ตังคณานุรักษ์",
+            "รองศาสตราจารย์",
+            "นางคณิตา ตังคณานุรักษ์",
+            "รองศาสตราจารย์"
+          ],
+          "year": 2010,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=biodiesel",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "biodiesel"
+          ],
+          "search_keyword": "biodiesel",
+          "doc_type": "งานวิจัย",
+          "funding": "ศูนย์ความเป็นเลิศทางวิชาการด้านปาล์มน้ำมัน มก.",
+          "indexed_at": "2026-06-15T07:31:16.742Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      }
+    ]
+  }
+}

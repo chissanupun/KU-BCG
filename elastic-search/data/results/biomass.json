@@ -1,0 +1,295 @@
+{
+  "took": 111,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 8,
+      "relation": "eq"
+    },
+    "max_score": 4.278299,
+    "hits": [
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "exgzyp4B882ltYvqGZD_",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การศึกษาแหล่งผลิตและปริมาณเชื้อเพลิงชีวมวลสำหรับโครงการผลิตพลังงานไฟฟ้าจากเชื้อเพลิงชีวมวล",
+          "authors": [
+            "ดร.มะลิวัลย์ หฤทัยธนาสันติ์"
+          ],
+          "year": 2017,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Biomass",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Biomass"
+          ],
+          "search_keyword": "Biomass",
+          "doc_type": "งานวิจัย",
+          "funding": "บริษัท เสริมสร้าง อินเตอร์เนชั่นแนล จำกัด",
+          "indexed_at": "2026-06-15T07:31:10.115Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "fBgzyp4B882ltYvqGpAA",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การจัดทำข้อมูลอ้างอิงมวลชีวภาพเหนือพื้นดินสามมิติของระบบนิเวศป่าไม้สำคัญของประเทศไทย โดยใช้เทคโนโลยีการสแกนด้วยเลเซอร์จากภาคพื้นดิน เพื่อสนับสนุนการปรับเทียบและการตรวจสอบความถูกต้องของชุดข้อมูลมวลชีวภาพจากดาวเทียม",
+          "authors": [
+            "ดร.นันทชัย พงศ์พัฒนานุรักษ์, รองศาสตราจารย์"
+          ],
+          "year": 2026,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Biomass",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Biomass"
+          ],
+          "search_keyword": "Biomass",
+          "doc_type": "งานวิจัย",
+          "funding": "Smithsonian Tropical Research Institute, USA",
+          "indexed_at": "2026-06-15T07:31:10.116Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "fRgzyp4B882ltYvqGpAA",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การวิจัยและพัฒนาระบบการปลูกพืชชีวมวลร่วมกับการปลูกข้าวเพื่อเพิ่มศักยภาพพลังงานชีวมวล",
+          "authors": [
+            "นางสาวสดใส ช่างสลัก",
+            "ดร.นรุณ วรามิตร",
+            "ผู้ช่วยศาสตราจารย์",
+            "ดร.พรศิริ เลี้ยงสกุล",
+            "ผู้ช่วยศาสตราจารย์"
+          ],
+          "year": 2016,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Biomass",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Biomass"
+          ],
+          "search_keyword": "Biomass",
+          "doc_type": "งานวิจัย",
+          "indexed_at": "2026-06-15T07:31:10.116Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "fhgzyp4B882ltYvqGpAA",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การพัฒนาแบบจำลองด้านโลจิสติกส์ของการป้อนชีวมวลเข้าสู่โรงงานผลิตพลังงานจากชีวมวลขนาดใหญ่ (กรณีศึกษา โลจิสติกส์ของชีวมวลที่เหลือทิ้งในไร่นา)",
+          "authors": [],
+          "year": 2009,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Biomass",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Biomass"
+          ],
+          "search_keyword": "Biomass",
+          "doc_type": "งานวิจัย",
+          "funding": "บริษัท ปตท. จำกัด (มหาชน)",
+          "indexed_at": "2026-06-15T07:31:10.116Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "fxgzyp4B882ltYvqGpAA",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การศึกษาการยกระดับคุณภาพ และลดความชื้นวัตถุดิบชีวมวลเบื้องต้นด้วยเทคโนโลยีทอร์ริแฟคชั่น",
+          "authors": [
+            "ดร.ปิติพงษ์ โตบันลือภพ, รองศาสตราจารย์",
+            "ดร.เอ็จ สโรบล",
+            "ศาสตราจารย์",
+            "ดร.นพ ตัณมุขยกุล",
+            "ผู้ช่วยศาสตราจารย์"
+          ],
+          "year": 2018,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Biomass",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Biomass"
+          ],
+          "search_keyword": "Biomass",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:31:10.116Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "gBgzyp4B882ltYvqGpAA",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการจ้างที่ปรึกษาเพื่อศึกษาความเป็นไปได้การใช้เชื้อเพลิงชีวมวลในการผลิตไฟฟ้าโรงไฟฟ้าพลังงานความร้อนชีวมวลบึงกาฬ จังหวัดบึงกาฬ",
+          "authors": [
+            "ดร.มะลิวัลย์ หฤทัยธนาสันติ์"
+          ],
+          "year": 2017,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Biomass",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Biomass"
+          ],
+          "search_keyword": "Biomass",
+          "doc_type": "งานวิจัย",
+          "indexed_at": "2026-06-15T07:31:10.116Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "gRgzyp4B882ltYvqGpAA",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "เตาผลิตถ่านชีวภาพด้วยวิธีการแยกสลายมวลชีวภาพด้วยความร้อน (2010) นักวิจัย: Dr.Orasa Suksawang, Associate Professor , ประเภท:",
+          "authors": [],
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Biomass",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Biomass"
+          ],
+          "search_keyword": "Biomass",
+          "doc_type": "ทรัพย์สินทางปัญญา",
+          "indexed_at": "2026-06-15T07:31:10.116Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "ghgzyp4B882ltYvqGpAA",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "กรรมวิธีการเพิ่มปริมาณชีวมวลสาหร่ายสไปรูลิน่า (2015) นักวิจัย: Dr.Sarote Sirisansaneeyakul, Professor , มณชัย เดชสังกรานนท์ , Mr.Natapas Phoopat , ประเภท:",
+          "authors": [],
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Biomass",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Biomass"
+          ],
+          "search_keyword": "Biomass",
+          "doc_type": "ทรัพย์สินทางปัญญา",
+          "indexed_at": "2026-06-15T07:31:10.116Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      }
+    ]
+  }
+}

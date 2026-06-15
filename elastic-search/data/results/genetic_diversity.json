@@ -1,0 +1,2535 @@
+{
+  "took": 32,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 40,
+      "relation": "eq"
+    },
+    "max_score": 4.8235116,
+    "hits": [
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "IRgzyp4B882ltYvqGpEC",
+        "_score": 4.8235116,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การจัดการเชื้อพันธุกรรมวงศ์แตง: การศึกษาความสัมพันธ์ของแตงกวาโดยใช้ลายพิมพ์ดีเอ็นเอ",
+          "authors": [
+            "อาจารย์ จาณุลักษณ์ ขนบดี"
+          ],
+          "year": 2010,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Genetic+diversity",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Genetic diversity"
+          ],
+          "search_keyword": "Genetic diversity",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ",
+          "indexed_at": "2026-06-15T07:32:59.976Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Ihgzyp4B882ltYvqGpEC",
+        "_score": 4.8235116,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "ความหลากหลายทางพันธุกรรมของกระบือปลักในประเทศไทย",
+          "authors": [],
+          "year": 2019,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Genetic+diversity",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Genetic diversity"
+          ],
+          "search_keyword": "Genetic diversity",
+          "doc_type": "งานวิจัย",
+          "funding": "บัณฑิตวิทยาลัย มหาวิทยาลัยเกษตรศาสตร์",
+          "indexed_at": "2026-06-15T07:32:59.976Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Ixgzyp4B882ltYvqGpEC",
+        "_score": 4.8235116,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การพัฒนาระบบวิเคราะห์ความหลากหลายทางพันธุกรรมในสิ่งมีชีวิต",
+          "authors": [
+            "ดร.วิภา หงษ์ตระกูล, รองศาสตราจารย์",
+            "ดร.พีรวัฒน์ วัฒนพงศ์",
+            "ผู้ช่วยศาสตราจารย์",
+            "ดร.พันธุ์ปิติ เปี่ยมสง่า",
+            "รองศาสตราจารย์"
+          ],
+          "year": 2006,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Genetic+diversity",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Genetic diversity"
+          ],
+          "search_keyword": "Genetic diversity",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:32:59.976Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "JBgzyp4B882ltYvqGpEC",
+        "_score": 4.8235116,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การวิเคราะห์ความหลากหลายทางพันธุกรรมบนดีเอ็นเอ เอ ของเชื้อเบโกโมไวรัสที่เข้าทำลายพืชผักตระกูลแตงในประเทศไทย",
+          "authors": [
+            "ดร.รัชนี ฮงประยูร, รองศาสตราจารย์",
+            "วิวรรธน์ ปิยทัสสี"
+          ],
+          "year": 2017,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Genetic+diversity",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Genetic diversity"
+          ],
+          "search_keyword": "Genetic diversity",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานคณะกรรมการการอุดมศึกษา",
+          "indexed_at": "2026-06-15T07:32:59.976Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "JRgzyp4B882ltYvqGpEC",
+        "_score": 4.8235116,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การพัฒนาเครื่องหมายโมเลกุลชนิดไมโครแซทเทลไลท์ และศึกษาความหลากหลายทางพันธุกรรม ของพืชสกุลเม่า (Antidesma spp.) ในเขตภาคตะวันออกเฉียงเหนือตอนบน เพือประโยชน์ในการคัดเลือกและปรับปรุงสายพันธุ์",
+          "authors": [
+            "นายภูมิ พิมพ์ประพันธ์",
+            "อาจารย์"
+          ],
+          "year": 2015,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Genetic+diversity",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Genetic diversity"
+          ],
+          "search_keyword": "Genetic diversity",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:32:59.976Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Jhgzyp4B882ltYvqGpEC",
+        "_score": 4.8235116,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การศึกษาความหลากหลายทาพันธุกรรมของสัตว์สะเทินน้ำสะเทินบกในสถานีวิจัยสิ่งแวดล้อมสะแกราช จ.นครราชสีมา",
+          "authors": [
+            "สุรภพ สุทธิวิเศษ",
+            "ดร.วุฒิ ทักษิณธรรม",
+            "ผู้ช่วยศาสตราจารย์",
+            "นายเกษม คงนิรันดรสุข",
+            "อาจารย์"
+          ],
+          "year": 2011,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Genetic+diversity",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Genetic diversity"
+          ],
+          "search_keyword": "Genetic diversity",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานคณะกรรมการวิจัยแห่งชาติ",
+          "indexed_at": "2026-06-15T07:32:59.976Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Jxgzyp4B882ltYvqGpEC",
+        "_score": 4.8235116,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "ความหลากหลายทางพันธุกรรมของไม้หลุมพอ (Intsia palembanica) ของไทยและการประยุกต์ใช้เพื่อจัดการการใช้ประโยชน์อย่างยั่งยืน",
+          "authors": [
+            "ดร.สุธีร์ ดวงใจ, รองศาสตราจารย์",
+            "นายกุศล ตั้งใจพิทักษ์",
+            "ดร.สุวิมล อุทัยรัศมี",
+            "ผู้ช่วยศาสตราจารย์"
+          ],
+          "year": 2016,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Genetic+diversity",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Genetic diversity"
+          ],
+          "search_keyword": "Genetic diversity",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:32:59.976Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "KBgzyp4B882ltYvqGpEC",
+        "_score": 4.8235116,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "ความหลากหลายทางพันธุกรรมของเห็บ Haemaphysalis ที่เก็บได้จากโคในภาคตะวันออกเฉียงเหนือของประเทศไทย",
+          "authors": [],
+          "year": 2023,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Genetic+diversity",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Genetic diversity"
+          ],
+          "search_keyword": "Genetic diversity",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:32:59.976Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "KRgzyp4B882ltYvqGpEC",
+        "_score": 4.8235116,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การจำแนกสายพันธุ์กัญชงด้วยข้อมูลพันธุกรรมและการประเมินปริมาณน้ำมัน Canabidiol (CBD) เพื่อรองรับการใช้ประโยชน์ในอนาคต",
+          "authors": [
+            "ดร.วันชัย ปลื้มภาณุภัทร",
+            "รองศาสตราจารย์"
+          ],
+          "year": 2022,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Genetic+diversity",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Genetic diversity"
+          ],
+          "search_keyword": "Genetic diversity",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:32:59.976Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "QhjoyZ4B882ltYvqOpA9",
+        "_score": 4.6791997,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of a rubber plantation on termite diversity in Melawi, West Kalimantan, Indonesia",
+          "abstract": "One of the negative effects of rubber plantation expansion is the loss of biodiversity in the area. One of the widely used rubber plantation systems is rubber forest agroforestry, which is known to have little effect on biodiversity. This study compared termite species in rubber forest with those in the primary forest within Bukit Baka Bukit Raya National Park in Melawi, Indonesia. Two rubber forest sites (newly opened) and unproductive/old rubber forest, were chosen to estimate the long term effects of rubber forest on termite biodiversity. A standardized transect method was used for termite collection. In total, 35 termite species belonging to eight sub families were collected. Termite species richness in the old rubber forest decreased up to 62.5% compared to that in primary forest sites. In the newly opened rubber forest site, termite species richness was only slightly less than that of the primary forest sites. Termite species richness results corresponded with their functional groups, with no soil feeders found in the old rubber forest. Furthermore, the calculation of several diversity indices also confirmed the results. The results indicated that the expansion of rubber forest in the area appears to have adversely affected termite diversity more than expected. © 2018 Kasetsart University",
+          "authors": [
+            "Hidayat, M. R.",
+            "Endris, W. M.",
+            "Dwiyanti, Y."
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/410420",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Bukit Baka Bukit Raya national park",
+            "Rubber plantation",
+            "Termite species richness"
+          ],
+          "search_keyword": "agroforestry",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:09:50.087Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "tRjoyZ4B882ltYvqOo48",
+        "_score": 4.561147,
+        "_source": {
+          "source": "KUKR",
+          "title": "Species diversity and biomass of mangrove tree at Khlong Kam Phuan in Ranong province",
+          "abstract": "At the time of the 2004 tsunami geological disaster, the area around the Kamphuan Canal area, Ranong province, Thailand was extensively damaged, especially the plants in the mangrove forest. Later, the area was preserved in its existing natural state. Currently, government agencies and the private and public sectors are placing increased importance on biological diversity, with Thailand having the goal of carbon neutrality by 2050. The objectives of this study were to assess diversity and to estimate the biomass of tree species in the mangrove forest at Khlong Kam Phuan, Ranong province, Thailand. A permanent plot (40 m * 300 m) was es-tablished and later divided into 10 m * 10 m square sub-plots, resulting in a total of 120 plots. Tree data were collected on all plants with a diameter at breast height (dbh) GT= 3.2 cm. For tree species that produced large pneumatophores, such as Rhizophora apiculata and R. mucronata, the measurement was conducted at 20 cm above the root collar. ln addition, a sub-plot size of 4 m * 4 m was sampled for the sapling stage (dbh LT 3.2 cm but total height GT 1.3 m). Finally, a plot size of 1 m * 1 m was used to collect seedling data (total height LT 1.3 m). Based on the analysis of the results, there were 1,422 individuals in the study area, consisting of 1,294 trees, 52 saplings and 76 seedlings. Based on identification and classification, the individuals belonged to 5 families, 7 genera and 11 species. Based on plant habit, there were 7 tree species: 3 small tree species and 1 shrub species. The Rhizophoraceae was the most dominant family, represented by 5 species. The species diver-sity index or Shannon-Wiener index (H') was less than 1.22 based on the variety of plant species. ln addition, the species richness and species evenness were 1.39 and 0.51 respectively. Rhizophora apiculata, Rhizophora mucronate and Bruguiera cylindrica were the top-3 species with order of importance index values of 165.02, 72.46 and 24.96 percent, respectively. The averages of height and dbh of the trees were 11.18 cm and 9.31 m, re-spectively. The total biomass was 459.70 t ha -1, consisting of 359.03 t ha -1 of above ground biomass and 100.67 t ha -1 of underground biomass.",
+          "authors": [
+            "Arun Pandaeng",
+            "Yongyut Trisurat",
+            "Chakrit Na Takuathung",
+            "อรุณ ปานแดง",
+            "ยงยุทธ ไตรสุรัตน์",
+            "ชาคริต ณ ตะกั่วทุ่ง"
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20022699",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Mangrove tree",
+            "Mangrove forest",
+            "Biodiversity",
+            "Species diversity",
+            "Biomass",
+            "Ranong province",
+            "Thailand",
+            "พรรณไม้",
+            "ป่าชายเลน",
+            "ชนิดของพืชพรรณ",
+            "ความหลากหลายทางชนิด",
+            "ความหลากหลายทางชีวภาพ",
+            "มวลชีวภาพ",
+            "คลองกำพวน",
+            "จ.ระนอง",
+            "ประเทศไทย",
+            "Mangroves",
+            "Vegetation",
+            "Forest management",
+            "Forest reserves",
+            "พืชพรรณ",
+            "การจัดการป่าไม้",
+            "การอนุรักษ์ป่าไม้"
+          ],
+          "search_keyword": "ชีวมวล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:56:04.485Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "aBjoyZ4B882ltYvqOo88",
+        "_score": 4.561147,
+        "_source": {
+          "source": "KUKR",
+          "title": "Diversity of caddisflies (Trichoptera), water quality factors, and microplastics in a northern Thai stream",
+          "abstract": "The larvae of various caddisfly species are used to assess water quality at various levels of pollution. The purpose of this study was to determine the species composition and seasonal distribution of Trichoptera larvae in a northern Thai mountain stream, as well as their relationship to physicochemical parameters. Seasonally collected benthic macroinvertebrates were sampled between October 2024 and April 2025. A total of 2748 individual caddisfly larvae, distributed across 13 families and 24 genera were found. The most abundant larvae were Hydropsychidae, followed by Odontoceridae and Philopotamidae. The most prevalent species in this study were Marilia sumatrana, Chimarra sp., Cheumatopsyche dubitants, and Potamyia phaidra. The results from applying the indices of caddisfly biodiversity in the seven streams indicated that the Shannon index (H') ranged from 2.393 to 2.901, the Simpson index (D) ranged from 0.8763 to 0.9374, and the Evenness index (E) ranged from 0.835 to 0.943, respectively. Pearson correlation analysis showed that environmental factors such as water pH, temperature, dissolved oxygen, ammonia-nitrogen, nitrate-nitrogen, and total dissolved solids were significantly associated with caddisfly larvae (p < 0.05, p < 0.01). Polyplectropus sp. was significantly related to dissolved oxygen. Amphipsyche meridiana, Hydropsyche askalaphos, and Oecetis sp. were significantly related to ammonia-nitrogen content. Ganonema sp. and Leptocerus sp. were significantly related to nitrate-nitrogen content. Marilia sumatrana was significantly related to water pH. Triaenodes sp. was significantly related to water temperature. The larvae of Chimarra akkaorum, Cheumatopsyche dubitants, Macrostemum sp., and Leptocerus sp. were all significantly associated with total dissolved solids. All individuals tested contained microplastics. Small MPs (less than 100 to 250 μm) were found in the largest concentrations, in the shape of fibers, and primarily in the color blue. A total of seven types of polymers have been identified, of which cellulose acetate butyrate (CAB) and polyethylene terephthalate (PET) are the most common. © 2025 The Author(s). This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.",
+          "authors": [
+            "Prommi, T. O.",
+            "Seetapan, K.",
+            "Vitheepradit, A."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/448011",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "biodiversity",
+            "Caddisfly larvae",
+            "environmental variables",
+            "plastic particles",
+            "streams"
+          ],
+          "search_keyword": "microplastic",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:03:31.159Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "ORjoyZ4B882ltYvqOpA9",
+        "_score": 4.4489045,
+        "_source": {
+          "source": "KUKR",
+          "title": "Small mammal diversity in agroforestry area and other plantations of Doi Tung Development Project, Thailand",
+          "abstract": "Agroforestry systems are designed to maintain biodiversity between natural forests and agricultural areas. This strategy has the potential to maximize biodiversity and habitat for wildlife. This research studies the relationships between small mammal diversity and agroforestry area in Doi Tung Development Project (DTDP), Thailand as a model for wildlife diversity in an agroforestry area. Live traps were set up in 2010 in: Agroforestry area, coffee (Coffea arabica L.) under Khasia pine (Pinus kesiya Royle ex Gordon) plantation (CK). Monoculture fruit orchard, macadamia (Macadamia integrifolia Maiden & Betche plantation (MP). Forest plantation, khasia pine plantation mixed with native species (KN). With a total number of 3,888 trap nights, 114 small mammals were trapped. Five genus of family Muridae, such as Rattus, Maxomys, Niviventer, Berylmys and Mus and another two species, Hylomys suiilus Erinaceidae and Tupaia belangeri Tupaiidae were found in the study areas. The number of animals was highest in KN. The diversity index was highest in MP (H′ = 1.1). Genus Rattus was the most common in all study areas (87.7%). The degree of relationship between small mammal species and tree compositions in agroforestry areas was highest in KN which can provide better habitat for small mammals than CK and MP. The habitat patterns, especially tree species diversity, tree compositions (size classes), canopy layers, percentage tree canopy covers and food availability are important for assemblages of small mammals in the agroforestry areas. © 2020, Springer Nature B.V.",
+          "authors": [
+            "Chaiyarat, R.",
+            "Sripho, S.",
+            "Ardsungnoen, S."
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/405393",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Agroforestry",
+            "Biodiversity",
+            "Coffee (coffea arabica)",
+            "Macadamia (macadamia integrifolia)",
+            "Small mammal",
+            "canopy",
+            "coffee",
+            "diversity index",
+            "food availability",
+            "native species",
+            "species diversity",
+            "Thailand",
+            "Berylmys",
+            "Coffea arabica",
+            "Erinaceidae",
+            "Hylomys",
+            "Macadamia",
+            "Macadamia integrifolia",
+            "Mammalia",
+            "Maxomys",
+            "Muridae",
+            "Niviventer",
+            "Niviventer niviventer",
+            "Pinus kesiya",
+            "Rattus",
+            "Rattus niviventer",
+            "Rattus rattus",
+            "Tupaia belangeri",
+            "Tupaiidae"
+          ],
+          "search_keyword": "agroforestry",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:09:50.086Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "MhjoyZ4B882ltYvqOpA9",
+        "_score": 4.446526,
+        "_source": {
+          "source": "KUKR",
+          "title": "Vegetation structure characteristics and tree species composition in Phu Pra Bhat Phu Hin Jom Tad - Phu Pra Bhat National Park (Preparation) Udon Thani province",
+          "abstract": "Study of plant communities and plant species composition in Phu Phra Bha Phu Hin Jom Tad– Phu Phra Bhat National Park ( Preparation) Udon Thani Province. The objective is to study plant communities and plant species composition. By placing 30 sample plots of size 20 meters x 20 meters. There are 30 plots and sub-plots measuring 5 meters x 5 meters. The center of each sample plot was to cover all plant communities. All of tree with diameter based on height (DBH) larger than >= 4.5 cm were measured and identified. To analyze structure and composition of tree species. The results show that the deciduous dipterocarp forest, had 44 tree species The tree density was 716 stems ha-1, The basal area was 11.24 m2 ha-1 The species diversity index was 2.88. The important species suchnumber Saplings was found to be 2,300 stems ha-1 diversity index was 2.88. Seeding (Cratoxylum formosum) and (Memecylon edula) Mixed deciduous forest, Show 44 tree species found, tree density and basal area were 685 stems ha-1 and 12.60 m2 ha-1 respectively. and diversity index value was 3.37. The density of saplings show 4,457 trees/ha. And diversity index was 2.70. Seeding (Memecylon edule) and ( Broussonetia papyrifera) Dry evergreen forest was found 44 species.of Tree density and basal area were 840 stems ha-1And diversity index was 25.77 m2 ha-1square meters/ha. It has a diversity index value of 3.41. The density of saplings in the dry evergreen forest was 320 stems ha-1, with a diversity index of 1.38. Seeding (Xylia xylocarpa) and (Scleropyrum pentandrum) and Rocky Forest, Show 20 species of tree density and basal area were 465 stems ha-1 and 15.04. m2 ha-1 respectively The diversity index value was 2.48. Saplings show that 2,640 stems ha-1, The species diversity index was 1.90. Seeding (Lannea coromandelica) and (Cratoxylum formosum) etc.",
+          "authors": [
+            "Kittichai Kaungku",
+            "Monthon Nosaengsri",
+            "Kritsada Phongkaranyapas",
+            "Lamthai Asanok",
+            "กิตติชัย คะอังกุ",
+            "มณฑล นอแสงศรี",
+            "กฤษดา พงษ์การัณยภาส",
+            "แหลมไทย อาษานอก"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20020350",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Plant community",
+            "Plant diversity",
+            "Tree",
+            "Vegetation structure",
+            "Species",
+            "Phu Hin Jom Tad-Phu Pra Bhat National Park",
+            "Udon Thani province",
+            "สังคมพืช",
+            "พรรณพืช",
+            "ความหลากหลาย",
+            "ชนิด",
+            "ความหนาแน่น",
+            "ไม้ต้น",
+            "โครงสร้างสังคมพืช",
+            "อุทยานแห่งชาติภูหินจอมธาตุ-ภูพระบาท",
+            "จ.อุดรธานี",
+            "Forests",
+            "National parks",
+            "Vegetation",
+            "Plant communities",
+            "Biodiversity",
+            "Trees",
+            "Plant ecology",
+            "Thailand",
+            "ป่า",
+            "อุทยานแห่งชาติ",
+            "พืชพรรณ",
+            "กลุ่มพืช",
+            "ความหลากหลายทางชีวภาพ",
+            "ไม้ยืนต้น",
+            "นิเวศวิทยาพืช",
+            "ประเทศไทย"
+          ],
+          "search_keyword": "agroforestry",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:09:50.086Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "ABjoyZ4B882ltYvqOo88",
+        "_score": 4.341631,
+        "_source": {
+          "source": "KUKR",
+          "title": "Comparative assessment of main roadside and sub roadside plantations on urban ecosystem functions in Dhaka North and South City areas of Bangladesh",
+          "abstract": "While the ecosystem functions of urban main roadside plantation (MR) are well-documented however, significant knowledge gap for sub roadside plantation (SR) limits our understanding. Using both purposive and random sampling methods, we investigated species richness, diversity, above-below ground and total biomass carbon storage (AGC, BGC and TC) of MR and SR plantations in both northern and southern parts of Dhaka city. We found that species richness is higher in MR than SR in Dhaka north (MR: 4.70 ± 0.24, SR: 3.51 ± 0.14), south (MR: 4.45 ± 0.24, SR: 4.20 ± 0.32) and north + south (MR: 4.55 ± 0.17, SR: 3.85 ± 0.18) city respectively. MR of Dhaka north city showed higher mean AGC storage than SR (MR: 63.78 ± 11.33 Mg ha−1, SR: 40.16 ± 5.03 Mg ha−1) although the result is opposite for Dhaka south city (MR: 80.99 ± 11.08 Mg ha−1, SR: 103.58 ± 14.18 Mg ha−1). When combined north + south together, AGC was found higher in MR (73.62 ± 7.99 Mg ha−1) than SR (71.87 ± 8.39 Mg ha−1) following the similar trend for BGC and total carbon (TC). Species richness, DBH, basal area and crown area significantly increase (all, P < 0.05) AGC, BGC and TC mostly in MR with few exceptions in case of SR, however, species diversity was found higher in SR. Our study suggested that SR are contributing less ecosystem functions than MR in both northern and southern parts of Dhaka city therefore, enhancing SR plantation is strongly recommended to maintain balanced ecosystem functions. © The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature 2025.",
+          "authors": [
+            "Akter, S.",
+            "Sayeed, K. M. A.",
+            "Parvin, N.",
+            "Jamil, M.",
+            "Dalim, H. M.",
+            "Chowdhury, M. K.",
+            "Hossain, M. I.",
+            "Mahato, S.",
+            "Prokriti, S. A.",
+            "Islam, S.",
+            "Zhang, X.",
+            "Pongsivapai, P.",
+            "Jaman, M. S."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446371",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Carbon storage",
+            "Species diversity",
+            "Species richness",
+            "Urban roadside plantation"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "RBjoyZ4B882ltYvqOpA9",
+        "_score": 4.1430435,
+        "_source": {
+          "source": "KUKR",
+          "title": "Diversity and spatial distribution of the Fagaceae tree species in the Doi Suthep-Pui National Park, Chiang Mai province",
+          "authors": [
+            "Dokrak Marod",
+            "Suchada Bootcharee",
+            "Wongsatorn Phumphuang",
+            "Lamthai Asanok",
+            "Torlarp Kamyo",
+            "Sathid Thinkampaeng",
+            "Jakkaphong Thongsawi",
+            "Sutheera Hermhuk",
+            "Nathawat Khlangsap",
+            "Wimonmart Nuipakdee"
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/386630",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Fagaceae",
+            "Forests",
+            "Forest trees",
+            "Biodiversity",
+            "Spatial distribution",
+            "Ecology",
+            "Highlands",
+            "National parks",
+            "Thailand",
+            "ป่า",
+            "ไม้ป่า",
+            "ความหลากหลายทางชีวภาพ",
+            "การกระจายทางด้านพื้นที่",
+            "นิเวศวิทยา",
+            "ที่สูง",
+            "อุทยานแห่งชาติ",
+            "ประเทศไทย",
+            "Montane forest",
+            "Species diversity",
+            "Ecological niche",
+            "Doi Suthep-Pui National Park",
+            "Chiang Mai province",
+            "พืชวงศ์ก่อ",
+            "ความหลากหลายชนิด",
+            "การกระจายเชิงพื้นที่",
+            "ความสำคัญในระบบนิเวศ",
+            "ถิ่นอาศัยที่เหมาะสม",
+            "ป่าดิบเขา",
+            "อุทยานแห่งชาติดอยสุเทพ-ปุย",
+            "จ.เชียงใหม่"
+          ],
+          "search_keyword": "agroforestry",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:11:02.854Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "MxjoyZ4B882ltYvqOpA9",
+        "_score": 4.087575,
+        "_source": {
+          "source": "KUKR",
+          "title": "Characteristics of plant community structure and tree species composition in the area of Phu Kao - Phu Phan Kham National Park. Nong Bua Lamphu province",
+          "abstract": "Study of plant community structure and tree species composition In the area of Phu Kao - Phu Phan Kham National Park. Nong Bua Lamphu Province The objective is to study plant communities and tree species composition. By placing 30 sample plots of size 20 x 20 meters and sub-plots of size 4 x 4 meters within the sample plots to cover all plant communities. Ready to collect data on plant species composition Then measure the diameter of trees that are greater than or equal to 4.5 centimeters along with classifying the tree species. to use for analysis Characteristics of the structure of plant communities and the composition of tree species in each society found that in mixed deciduous forest, 32 tree species were found. Tree density was 950 trees/ha. Cross-sectional area was 23.27 square meters/ha. It has a diversity index value of 3.11. The dominant wood type is such as thin-bark tabaek. (Lagerstroemia duperreana) and Stereospermum fimbriatum. Seedlings were found in 4 types, with a density of 1,000 seedlings/ha. The cross-sectional area was 0.20 square meters/ha. The diversity index value was 1.26. Tree species such as bauhinia purpurea were found in 6 species, with a density of 24,000 trees/ha. The species diversity index was 1.63. Fruit species such as bird's foot (Vitex pinnata) and Ngiw. Forest (Bombax ceiba) Deciduous forest, 32 types of trees found. Tree density 1,100 trees/ha. Cross-sectional area 29.41 square meters/ha. It has a diversity index value of 2.98. Dominant tree species such as padauk (Pterocarpus macrocarpus) and mango (Buchanania lanzan Spreng) seedlings were found in 7 types. The seedling density was 1,750 trees/ha. The cross-sectional area was 0.07 square. meter/ha There was a diversity index value of 1.83. Seedling types such as shorea obtuse and takraw (Schleichera oleosa) were found in 7 types. The fruit density was 42,000 trees/ha and the diversity index value was 1.81 species. Trees such as red (Xylia xylocarpa) and hiang (Dipterocarpus obtusifolius). Dry evergreen forest, 34 tree species found. Tree density 665 trees/ha. Cross-sectional area 23.27 square meters/ha. The species diversity index was 3.10. The dominant tree species were Cratoxylum formosum and Oxalis corniculata. Two types of seedlings were found, with a density of 250 trees/ha, a cross-sectional area of 0. 36 square meters/ha. Terre There was a variety index value of 0.69. Seedling types were Un.1 and red rubber (Dipterocarpus turbinatus). Three types of fruit were found. The fruit density was equal to 10,000 trees/ha and the variety index value was 1.05. Such as red (Xylia xylocarpa) etc.",
+          "authors": [
+            "Thongchai Narat",
+            "Kritsada Phongkaranyapas",
+            "Monthon Nosaengsri",
+            "Lamthai Asanok",
+            "ธงชัย นาราษฎร์",
+            "กฤษดา พงษ์การัณยภาส",
+            "มณฑล นอแสงศรี",
+            "แหลมไทย อาษานอก"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20020379",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Plant community",
+            "Plant diversity",
+            "Tree",
+            "Species",
+            "Species composition",
+            "Phu Kao-Phu Phan Kham National Park",
+            "Nong Bua Lamphu province",
+            "สังคมพืช",
+            "ความหลากหลายชนิด",
+            "ไม้ต้น",
+            "ชนิด",
+            "องค์ประกอบชนิดไม้",
+            "อุทยานแห่งชาติภูเก้า-ภูพานคำ",
+            "จ.หนองบัวลำภู",
+            "Vegetation",
+            "Plant communities",
+            "Trees",
+            "Biodiversity",
+            "National parks",
+            "Thailand",
+            "พืชพรรณ",
+            "กลุ่มพืช",
+            "ไม้ยืนต้น",
+            "ความหลากหลายทางชีวภาพ",
+            "อุทยานแห่งชาติ",
+            "ประเทศไทย"
+          ],
+          "search_keyword": "agroforestry",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:09:50.086Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "zhjoyZ4B882ltYvqOo48",
+        "_score": 3.9614763,
+        "_source": {
+          "source": "KUKR",
+          "title": "Species diversity and carbon storage in biomass of tree and sapling in the Ban Nong Kwang community forest, Uttaradit province",
+          "abstract": "This study aimed to determine the plant community characteristics and biomass carbon storage of trees and saplings in an exploited area of Ban Nong Kwang Community Forest, Uttaradit Province, spread over an area of 804 rai. Ten sample plots of size 40 m*40 m were randomly established in three zones according to the watershed classification area. All the trees and saplings were identified and measured for their diameter at breast height (DBH) and total height. The importance value index (IVI) was used to identify the dominant species. The biomass of trees and saplings was calculated using allometric equations, and the carbon storage in the biomass was estimated. There were 75 tree species in 61 genera and 32 families found in the study area. Among these, the Rubiaceae family had the highest number of tree species (9 species), followed by Fabaceae (8 species), Dipterocarpaceae, Anacardiaceae, Malvaceae, and Bignoniaceae (5 species), while the other families had less than 5 species. Based on the IVI, Xylia xylocarpa (Roxb.) W.Theob. var. xylocarpa was the most dominant tree species. The total tree density was between 122.5–177.8 trees/rai (765.63–1,111.25 trees/ha), and the Shannon-Wiener index of species diversity was between 2.54–2.97. The total biomass (aboveground and belowground) was estimated to be between 15.04-16.93 tons/rai (94.00–105.81 tons/ha), with there being no significant differences in biomass among the watershed classes (p GT 0.05). The carbon storage in biomass was between 7.07-7.96 tons/rai (41.19-49.75 tons/ha). The total carbon stock in the study area was estimated at 6,087.93 tons, accounting for 22,322.41 tonCO2e. These results can be used as a baseline for developing the Thailand Voluntary Emission Reduction Program (T-VER).",
+          "authors": [
+            "Boonsueb Sengbuntan",
+            "Piyawat Diloksumpun",
+            "Sapit Diloksumpun",
+            "บุญสืบ เซ่งบุญตั๋น",
+            "ปิยวัตน์ ดิลกสัมพันธ์",
+            "สาพิศ ดิลกสัมพันธ์"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20020126",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Tree",
+            "Sapling",
+            "Fabaceae",
+            "Dipterocarpaceae",
+            "Anacardiaceae",
+            "Malvaceae",
+            "Bignoniaceae",
+            "Xylia xylocarpa",
+            "Plant community",
+            "Species diversity",
+            "Biodiversity",
+            "Carbon storage",
+            "Carbon dioxide",
+            "Biomass",
+            "Community forest",
+            "Uttaradit province",
+            "Thailand",
+            "ไม้ยืนต้น",
+            "ไม้รุ่น",
+            "พรรณไม้",
+            "สังคมพืช",
+            "ความหลากหลายทางชนิด",
+            "ความหลากหลายทางชีวภาพ",
+            "การกักเก็บคาร์บอน",
+            "คาร์บอนไดออกไซด์",
+            "มวลชีวภาพ",
+            "ป่าชุมชน",
+            "บ้านหนองกวาง",
+            "จ.อุตรดิตถ์",
+            "ประเทศไทย",
+            "Leguminosae",
+            "Trees",
+            "Vegetation",
+            "Forest inventories",
+            "Forest mensuration",
+            "Breast height diameter",
+            "Carbon cycle",
+            "Communal forests",
+            "พืชพรรณ",
+            "การสำรวจทางป่าไม้",
+            "การคณิตป่าไม้",
+            "เส้นผ่าศูนย์กลางที่ระดับเพียงอก",
+            "วัฏจักรของคาร์บอน"
+          ],
+          "search_keyword": "ชีวมวล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:56:04.486Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "BxjoyZ4B882ltYvqOpA9",
+        "_score": 3.9614763,
+        "_source": {
+          "source": "KUKR",
+          "title": "Plant diversity in agroforestry system and food security of community in Mae Tha sub-district, Mae On district, Chiang Mai province",
+          "authors": [
+            "Pongpichai Kladwang",
+            "Surin Onprom",
+            "Vipak Jintana",
+            "พงษ์พิชัย กลัดวัง",
+            "สุรินทร์ อ้นพรม",
+            "วิพักตร์ จินตนา"
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/395001",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Food crops",
+            "Biodiversity",
+            "Species",
+            "Agroforestry",
+            "Food security",
+            "Households",
+            "Rural communities",
+            "Thailand",
+            "พืชอาหาร",
+            "ความหลากหลายทางชีวภาพ",
+            "ชนิด",
+            "วนเกษตร",
+            "ความมั่นคงด้านอาหาร",
+            "ครอบครัว",
+            "ชุมชนชนบท",
+            "ประเทศไทย",
+            "Food trees",
+            "Plant diversity",
+            "Community",
+            "Mae Tha sub-district",
+            "Mae On district",
+            "Chiang Mai province",
+            "ชนิดพืช",
+            "ความมั่นคงทางอาหาร",
+            "ครัวเรือน",
+            "จ.เชียงใหม่ อ.แม่ออน"
+          ],
+          "search_keyword": "วนเกษตร",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:07:10.006Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "OBjoyZ4B882ltYvqOpA9",
+        "_score": 3.9614763,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effects of forest restoration on vegetation structure and diversity of tree species in Ban Lao Nuea community forest, Phrae province",
+          "authors": [
+            "Kritsada Phongkaranyaphat",
+            "Lamthai Asanok",
+            "Sumai Maiman",
+            "Wannaubon Singyoocharoen",
+            "กฤษดา พงษ์การัณยภาส",
+            "แหลมไทย อาษานอก",
+            "สุมัย หมายหมั้น",
+            "วรรณอุบล สิงห์อยู่เจริญ"
+          ],
+          "year": "2021",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/412501",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Forest resources",
+            "Communal forests",
+            "Trees",
+            "Vegetation",
+            "Plant population",
+            "Plant communities",
+            "Species",
+            "Varieties",
+            "Biodiversity",
+            "Plant strata",
+            "Ecological succession",
+            "Forest management",
+            "Forest rehabilitation",
+            "Forest reserves",
+            "Thailand",
+            "ทรัพยากรป่าไม้",
+            "ป่าชุมชน",
+            "ไม้ยืนต้น",
+            "พืชพรรณ",
+            "ประชากรพืช",
+            "กลุ่มพืช",
+            "ชนิด",
+            "พันธุ์",
+            "ความหลากหลายทางชีวภาพ",
+            "ชั้นเรือนไม้",
+            "การทดแทนทางนิเวศ",
+            "การจัดการป่าไม้",
+            "การฟื้นฟูป่าไม้",
+            "การอนุรักษ์ป่าไม้",
+            "ประเทศไทย",
+            "Community forest",
+            "Tree species",
+            "Vegetation structure",
+            "Plant succession",
+            "Plant density",
+            "Species diversity",
+            "Phrae province",
+            "พื้นที่ป่าไม้",
+            "ชนิดพันธุ์ไม้",
+            "โครงสร้างสังคมพืช",
+            "ความหลากหลายทางชนิด",
+            "ความหนาแน่นพืช",
+            "การทดแทนของพืช",
+            "บ้านเหล่าเหนือ",
+            "จ.แพร่ อ.สอง ต.บ้านกลาง"
+          ],
+          "search_keyword": "agroforestry",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:09:50.086Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "-hjoyZ4B882ltYvqOo89",
+        "_score": 3.1920748,
+        "_source": {
+          "source": "KUKR",
+          "title": "Impact of sky openness and tree diversity on growth of coffee under shade in Khun Chang Khian Highland Agricultural Research and Training Station and Nong Hoi Highland Agricultural Station, Chiangmai province",
+          "authors": [
+            "Panida Kachina",
+            "Narit Yimyam",
+            "Teerapong Soawapak",
+            "Nalat Mathawang",
+            "ปณิดา กาจีนะ",
+            "นริศ ยิ้มแย้ม",
+            "ธีระพงษ์ เสาวภาคย์",
+            "นลัท มัทวัง"
+          ],
+          "year": "2021",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/416346",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Coffea arabica",
+            "Arabica coffee",
+            "Agroforestry",
+            "Biodiversity",
+            "Species",
+            "Light",
+            "Shade",
+            "Environmental factors",
+            "Growth",
+            "Thailand",
+            "กาแฟอะราบิก้า",
+            "วนเกษตร",
+            "ความหลากหลายทางชีวภาพ",
+            "ชนิด",
+            "แสง",
+            "ร่มเงา",
+            "ปัจจัยสิ่งแวดล้อม",
+            "การเติบโต",
+            "ประเทศไทย",
+            "Sky openness factors",
+            "Tree diversity",
+            "Under-shade",
+            "Chiangmai province",
+            "กาแฟ",
+            "พันธุ์อาราบิก้า",
+            "ไม้ต้น",
+            "ความหลากชนิด",
+            "แสงผ่านเรือนยอด",
+            "การเจริญเติบโต",
+            "จ.เชียงใหม่"
+          ],
+          "search_keyword": "วนเกษตร",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:07:10.006Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "dRjoyZ4B882ltYvqOo88",
+        "_score": 2.9466612,
+        "_source": {
+          "source": "KUKR",
+          "title": "Aquatic insect biodiversity, water quality variables, and microplastics in the living weir freshwater ecosystem",
+          "abstract": "Most Thai rivers have not yet reached “good” ecological status. Furthermore, the scientific community is deeply concerned about the existence and abundance of microplastics (MPs) in freshwater. The live weirs’ river health status was assessed using water quality and a variety of aquatic insect species. The research was conducted along Khlong-La, which was compared in the absence (R1, R2) and presence of living weirs (LWs) (M71, M62, M4, and M2). In 2023, aquatic insects and water samples were gathered during two months: January (rainy season) and July (dry season). The results revealed that the six sampling sites had similar physical and chemical properties, with the exception of total dissolved solids, which varied significantly. A total of 658 aquatic insects from 25 families and 6 orders were identified. The Hydropsychidae dominated the aquatic insect fauna at the LWs locations, followed by Chironomidae, Naucoridae, and Caenidae. Ten genera were discovered at the reference site (R1), whereas 16, 21, 24, and 19 were discovered at LWs (M71, M62, M4, M2), and 16 at the reference site (R2). The results of CCA ordination revealed that the most important factors influencing aquatic insect diversity were dissolved oxygen, water temperature, pH, electrical conductivity, and ammonia nitrogen. This study suggests that because of their significant responses to environmental factors, the species richness of aquatic insects may indicate the conservation value of habitats. The BMWPTHAI score was 41, 51, 57, 58, 73, 54, and the ASPTTHAI score was 5.12, 5.10, 5.18, 5.27, 4.86, and 5.40, respectively. Shannon-Weiner diversity index (H’) values were 2.059, 2.461, 2.839, 2.777, and 2.587, respectively. The results showed that the water quality was average. The physicochemical data, as well as the BMWP and ASPT, revealed that the water at the living well was slightly polluted. Furthermore, larger MPs (>500 µm) were found in the largest concentrations, in the shape of fibers, and primarily in the color violet. © 2024 The Author(s).",
+          "authors": [
+            "Vitheepradit, A.",
+            "Mitpuangchon, N.",
+            "Prommi, T. O."
+          ],
+          "year": "2024",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/439689",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "Benthic macroinvertebrate",
+            "check dam",
+            "physicochemical parameters",
+            "small plastic particles"
+          ],
+          "search_keyword": "microplastic",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:03:31.159Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "AhjoyZ4B882ltYvqOpA9",
+        "_score": 2.7389514,
+        "_source": {
+          "source": "KUKR",
+          "title": "Proceedings of the sixth international casuarina workshop: Casuarinas for green economy and environmental sustainability",
+          "authors": [
+            "Maliwan Haruthaithanasan",
+            "Khongsak Pinyopusarerk",
+            "Abel Nicodemus",
+            "David Bush",
+            "Lex Thomson"
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/420029",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Casuarinaceae",
+            "Casuarina equisetifolia",
+            "Casuarina junghuhniana",
+            "Research",
+            "Genetic resources",
+            "Genetic diversity",
+            "Silviculture",
+            "Plantation",
+            "Agroforestry",
+            "Nitrogen fixation",
+            "Biotechnology",
+            "Climate change",
+            "สนประดิพัทธ์",
+            "สนทะเล",
+            "ไม้ยืนต้น",
+            "การวิจัย",
+            "ทรัพยากรทางพันธุกรรม",
+            "ความหลากหลายทางพันธุกรรม",
+            "วนวัฒนวิทยา",
+            "วนเกษตร",
+            "การตรึงไนโตรเจน",
+            "เทคโนโลยีชีวภาพ",
+            "การเปลี่ยนแปลงสภาพภูมิอากาศ"
+          ],
+          "search_keyword": "วนเกษตร",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:07:10.006Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "NBjoyZ4B882ltYvqOpA9",
+        "_score": 2.5127194,
+        "_source": {
+          "source": "KUKR",
+          "title": "Vegetation structure characteristics and tree species composition in the Ban Krathum Thong, Wang Khoi sub-District, Paisali district, Nakhon Sawan province",
+          "authors": [
+            "Nopparut Hirunkham",
+            "Kritsada Phongkaranyaphat",
+            "Monthon Norsaengsri",
+            "Lamthai Asanok",
+            "นพรัตน์ หิรัญคำ",
+            "กฤษดา พงษ์การัณยภาส",
+            "มณฑล นอแสงศรี",
+            "แหลมไทย อาษานอก"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20020381",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Community forest",
+            "Vegetation structure",
+            "Plant communities",
+            "Tree",
+            "Species diversity",
+            "Species composition",
+            "Ban Krathum Thong",
+            "Nakhon Sawan province",
+            "ป่าชุมชน",
+            "โครงสร้างสังคมพืช",
+            "ดัชนีความหลากหลาย",
+            "พืชพรรณ",
+            "ไม้ต้น",
+            "ชนิด",
+            "องค์ประกอบชนิด",
+            "ป่าชุมชนบ้านกระทุ่มทอง",
+            "จ.นครสวรรค์ อ.ไพศาลี ต.วังข่อย",
+            "Communal forests",
+            "Vegetation",
+            "Trees",
+            "Biodiversity",
+            "Species",
+            "Thailand",
+            "ไม้ยืนต้น",
+            "กลุ่มพืช",
+            "ความหลากหลายทางชีวภาพ",
+            "ประเทศไทย"
+          ],
+          "search_keyword": "agroforestry",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:09:50.086Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "KRjoyZ4B882ltYvqOpA9",
+        "_score": 2.4323564,
+        "_source": {
+          "source": "KUKR",
+          "title": "Vegetation structure characteristics and carbon stock of mixed deciduous forest in protected area of teak (Tectona grandis) plantation, North Forest Industry Organization",
+          "authors": [
+            "Penpilai Piankhit",
+            "Kamonporn Panngom",
+            "Monthon Nosaengsri",
+            "Kunthaphong Kruama",
+            "Sirirat Somprakon",
+            "Waralee Srikue",
+            "Narinthorn Jumwong",
+            "Pattama Sangvisitpirom",
+            "Lamthai Asanok",
+            "เพ็ญพิลัย เปี่ยนคิด",
+            "กมลพร ปานง่อม",
+            "มณฑล นอแสงศรี",
+            "กันตพงศ์ เครือมา",
+            "ศิริรัตน์ สมประโคน",
+            "วราลี ศรีเกื้อ",
+            "นรินธร จำวงษ์",
+            "ปัทมา แสดงวิศิษฎ์ภิรมย์",
+            "แหลมไทย อาษานอก"
+          ],
+          "year": "2024",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/438297",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Tectona grandis",
+            "Forest plantations",
+            "Biodiversity",
+            "Carbon cycle",
+            "Carbon dioxide",
+            "Forest management",
+            "Thailand",
+            "การปลูกสร้างสวนป่า",
+            "ความหลากหลายทางชีวภาพ",
+            "วัฏจักรของคาร์บอน",
+            "คาร์บอนไดออกไซด์",
+            "การจัดการป่าไม้",
+            "ประเทศไทย",
+            "Teak plantation",
+            "Vegetation",
+            "Species diversity",
+            "Carbon absorption",
+            "Carbon stock",
+            "Mixed deciduous forest",
+            "ไม้ต้น",
+            "สังคมพืช",
+            "สวนป่าสัก",
+            "ความหลากหลายทางชนิด",
+            "การกักเก็บคาร์บอน",
+            "ป่าผสมผลัดใบ"
+          ],
+          "search_keyword": "agroforestry",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:09:50.086Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "PhjoyZ4B882ltYvqOpA9",
+        "_score": 2.3482258,
+        "_source": {
+          "source": "KUKR",
+          "title": "Livelihoods of small-scale rubber farmers: A comparative study of rubber agroforestry systems and monocropping rubber plots in Southern Thailand",
+          "abstract": "This research compared six pairs of rubber agroforestry systems (rubber-AFS) and monocropping rubber plots (altogether twelve cases) in Songkhla, Phatthalung and Trang provinces in the following dimensions: 1) rubber plot management and socio-economic outcomes, using semi-structured and unstructured interviews, together with records of daily incomes and expenses from the plots during a 12 month period and 2) plant vertical structures and plant diversity. The research framework was based on the concept of five capital assets in the sustainable livelihoods approach (SLA) comprising natural, financial, social, human, and physical capital. The natural capital of the rubber-AFS owners was higher than that of the monocropping rubber plot owners in terms of diverse plant species and multiple vertical stratification and crown cover percentage. These could help reduce soil erosion. Higher numbers of plant species induced financial capital, due to higher average incomes (THB 1,875.46 ± 1,193.51 / day/rai) and lower average expenses in the rubber-AFS (THB 88.58 ± 148.36 /day/rai), compared to the monocropping rubber plots (THB 1,533.77 ± 443.67 /day/rai and THB 97.04 ± 104.14 /day/rai respectively). The social capital of rubber-AFS owners had been developed through co-learning experiences and social relationships between themselves and visitors interested in rubber-AFS. Increases in human capital in the form of the acquisition of knowledge and skills in managing their rubber-AFS with good health were found. An increase in physical capital was not yet evident. © 2019 Kasetsart University.",
+          "authors": [
+            "Kittitornkool, J.",
+            "Kaewwongsri, P.",
+            "Tongkam, P.",
+            "Bumrungsri, S.",
+            "Sawangchote, P."
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/410938",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Environment",
+            "Monoculture",
+            "Rubber agroforestry system (rubber-AFS)",
+            "Soil erosion",
+            "Sustainable livelihoods approach (SLA)"
+          ],
+          "search_keyword": "agroforestry",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:09:50.086Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "KBjoyZ4B882ltYvqOpA9",
+        "_score": 2.2861242,
+        "_source": {
+          "source": "KUKR",
+          "title": "Establishment of tree species community in abandoned teak plantation of North Forest Industry Organization",
+          "authors": [
+            "Waralee Srikue",
+            "Monthon Norsaengsri",
+            "Kritsada Phongkaranyaphat",
+            "Narinthorn Jumwong",
+            "Pattama Sangvisitpirom",
+            "Kunthaphong Kruama",
+            "Lamthai Asanok",
+            "วราลี ศรีเกื้อ",
+            "มณฑล นอแสงศรี",
+            "กฤษดา พงษ์การัณยภาส",
+            "นรินธร จำวงษ์",
+            "ปัทมา แสดงวิศิษฎ์ภิรมย์",
+            "กันตพงศ์ เครือมา",
+            "แหลมไทย อาษานอก"
+          ],
+          "year": "2024",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/438296",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Tectona grandis",
+            "Forest plantations",
+            "Forest management",
+            "Forest rehabilitation",
+            "Regeneration",
+            "Natural regeneration",
+            "Trees",
+            "Forest trees",
+            "Biodiversity",
+            "Thailand",
+            "การปลูกสร้างสวนป่า",
+            "การจัดการป่าไม้",
+            "การฟื้นฟูป่าไม้",
+            "การเจริญทดแทน",
+            "การสืบต่อพันธุ์ทางธรรมชาติ",
+            "ไม้ยืนต้น",
+            "ไม้ป่า",
+            "ความหลากหลายทางชีวภาพ",
+            "ประเทศไทย",
+            "Abandoned teak plantation",
+            "Vegetation",
+            "Species diversity",
+            "Natural succession",
+            "สวนไม้สัก",
+            "พื้นที่ทิ้งร้าง",
+            "สังคมพืช",
+            "ความหลากหลายทางชนิด",
+            "การทดแทนตามธรรมชาติ"
+          ],
+          "search_keyword": "agroforestry",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:09:50.086Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "QBjoyZ4B882ltYvqOpA9",
+        "_score": 2.2861242,
+        "_source": {
+          "source": "KUKR",
+          "title": "Forest regeneration at lower montane forest after restoration in Doi Suthep–Pui national park, Chiang Mai province",
+          "authors": [
+            "Sathid Thinkampheang",
+            "Dokrak Marod",
+            "Prateep Duengkae",
+            "Lamthai Asanok",
+            "Sutheera Hermhuk",
+            "สถิตย์ ถิ่นกำแพง",
+            "ดอกรัก มารอด",
+            "ประทีป ด้วงแค",
+            "แหลมไทย อาษานอก",
+            "สุธีระ เหิมฮึก"
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/420336",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Ecosystems",
+            "Highlands",
+            "Population structure",
+            "Plant population",
+            "Biodiversity",
+            "Species",
+            "Reforestation",
+            "Forest management",
+            "Forest rehabilitation",
+            "ระบบนิเวศ",
+            "ที่สูง",
+            "โครงสร้างประชากร",
+            "ประชากรพืช",
+            "ความหลากหลายทางชีวภาพ",
+            "ชนิด",
+            "การปลูกสร้างป่าใหม่",
+            "การจัดการป่าไม้",
+            "การฟื้นฟูป่าไม้",
+            "Mountain ecosystem",
+            "Forest structure",
+            "Plant diversity",
+            "Forest regeneration",
+            "Lower montane forest",
+            "Regeneration",
+            "ระบบนิเวศภูเขา",
+            "โครงสร้างป่า",
+            "ความหลากหลาย",
+            "ป่าฟื้นฟู",
+            "ป่าดิบเขาระดับต่ำ",
+            "การฟื้นฟูป่า",
+            "การจัดการพื้นที่ป่า"
+          ],
+          "search_keyword": "agroforestry",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:09:50.087Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "_RjoyZ4B882ltYvqOo48",
+        "_score": 2.2831469,
+        "_source": {
+          "source": "KUKR",
+          "title": "Traditional agroforestry systems in Timor-Leste can store large amounts of carbon in both soil and biomass",
+          "abstract": "Agroforestry has the potential to make agriculture more resilient while improving carbon sequestration by incorporating trees and/or other woody perennials into agricultural land, thereby diversifying landscapes. Traditional agricultural systems in tropical areas often include trees, but their carbon sequestration potential is not always well described, hindering their inclusion in climate change mitigation strategies. In this study, we quantified carbon storage in both vegetation biomass and soil in five traditional agroforestry systems (AFS) in Timor-Leste, namely cropping systems with fallow (CF), silvopastures (SP), young agroforests (YA), home gardens (HG), and forest gardens (FG). Our results show that these traditional AFS can store large amounts of carbon, with the average total carbon stocks (soil and biomass) being 155 Mg C ha−1. The AFS with the highest total carbon stocks (FG) stored an average of 213 Mg C ha−1. The average stocks in the other AFS were 108 Mg C ha−1 in CF, 158 Mg C ha−1 in SP, 134 Mg C ha−1 in YA, and 171 Mg C ha−1 in HG. Biomass carbon stocks varied substantially between AFS, while soil carbon stocks were less variable between AFS but more site-dependent. We found no relationship between the amount of carbon stored in biomass and soil. Our results highlight the diversity of traditional AFS in Timor-Leste and their carbon sequestration capacity. These results could provide an important baseline for the inclusion of AFS in Timor-Leste’s climate change mitigation strategy, and could serve as a reference for future AFS studies in different agro-climates of Timor-Leste. © The Author(s) 2025.",
+          "authors": [
+            "Piponiot, C.",
+            "Cogné, M.",
+            "Freycon, V.",
+            "Thoumazeau, A.",
+            "Gusmão, M.",
+            "Peltier, R."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446329",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Climate change mitigation",
+            "Farming systems",
+            "Soil organic carbon",
+            "South East Asia",
+            "Vegetation biomass",
+            "agroforestry",
+            "biomass",
+            "carbon sequestration",
+            "climate change",
+            "cropping practice",
+            "farming system",
+            "organic carbon",
+            "soil carbon",
+            "vegetation type",
+            "Lesser Sunda Islands",
+            "Sunda Isles",
+            "Timor",
+            "Timor-Leste"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "_hjoyZ4B882ltYvqOo48",
+        "_score": 2.2831469,
+        "_source": {
+          "source": "KUKR",
+          "title": "Dietary supplementation with Bacillus tropicus enhances growth performance, modulates gut microbiota, and improves health status in giant freshwater prawn, Macrobrachium rosenbergii",
+          "abstract": "This study evaluated the impact of the probiotic Bacillus tropicus on growth, health parameters, and gut microbiota composition in Macrobrachium rosenbergii. Prawns were administered diets containing B. tropicus at concentrations of 6.45 × 107 and 6.45 × 108 colony-forming units (cfu)/kg over a 56-day feeding trial. These two diets were designated D7 and D8, respectively. Results demonstrated a significant improvement in feed efficiency and total biomass yield for prawns fed the D7 diet, although no significant differences were detected in final body weight or weight gain among the groups. Protease activity in the hepatopancreas was significantly elevated in both probiotic-treated groups, suggesting enhanced protein digestion capacity. Following challenge with Lactococcus garvieae, prawns fed probiotic-supplemented diets exhibited significantly higher survival rates, indicating improved disease resistance. Immunological assessments revealed that B. tropicus supplementation significantly enhanced lysozyme activity, phagocytic activity, and the expression of key immune-related genes (propo, lgbp, mnsod, and crus) in both hepatopancreases and hemocytes. Gut microbiota profiling revealed distinct microbial community structures across control and probiotic-treated groups, with a shift in dominant phyla and genera. Notably, the abundance of opportunistic pathogens such as L. garvieae and Enterobacter roggenkampii was markedly reduced in the gut of prawns fed the D7 diet, although alpha diversity indices remained unchanged. These findings suggest that B. tropicus supplementation confers multiple health benefits to M. rosenbergii, including improved growth performance, immunomodulation, enhanced resistance to bacterial infection, and modulation of gut microbiota composition. Thus, B. tropicus represents a promising probiotic candidate for sustainable prawn aquaculture. © The Author(s), under exclusive licence to Springer Nature Switzerland AG 2025.",
+          "authors": [
+            "Liang, Y. Y.",
+            "Tanamanosuk, M.",
+            "Kantha, P.",
+            "Liu, C. H."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446331",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Bacillus tropicus",
+            "Growth",
+            "Gut microbiota",
+            "Health status",
+            "Macrobrachium rosenbergii",
+            "Probiotic",
+            "diet",
+            "food supplementation",
+            "microbial community",
+            "prawn culture",
+            "probiotics"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "zxjoyZ4B882ltYvqOo48",
+        "_score": 2.2215781,
+        "_source": {
+          "source": "KUKR",
+          "title": "Carbon sequestration assessment based on above-ground biomass of deciduous dipterocarp forest at Kasetsart University Chalermphrakiat Sakon Nakhon province campus, Sakon Nakhon province",
+          "abstract": "72nd Year HM Queen Sirikit Chalermprakiat at Deciduous Dipterocarp Park, Kasetsart University, Chalermphrakiat Sakon Nakhon Province Campus, was established to conserve environmental resources and ecosystems. Over the past 20 years, the park has been successful in preventing forest fires and facilitating water flow into the forest, resulting in increased soil moisture and organic matter content. This study aims to investigate the post-fire carbon sequestration of 72nd Year HM Queen Sirikit Chalermprakiat based on above-ground biomass at Deciduous Dipterocarp Park.. We setup the long-term plot measuring 200 x 200 meters was established in 2017, a survey of tree with a diameter at breast height (DBH) greater than 2 cm was conducted, including measurements of DBH, species identification, coordinates, and total height and re-census at 2022.\r\nThe result showed the aboveground biomass of the Kasetsart University, Chaloem Phrakiat Campus, Sakon Nakhon Province, in 2017 and 2022 were found 19,009.54 and 21,507.03 tons, respectively. The carbon sequestration in aboveground biomass for the same years was 8,934.48 and 10,108.30 tons, or carbon dioxide volume was 32,789.54 and 37,097.46 tC/ha equivalent respectively. Comparing the years, there was a fluctuation in aboveground biomass with an of 3,943.16 and increase 1,443.20 tons and carbon sequestration in aboveground biomass of 678.30 and increase 1,853.28 tons of carbon. The forest structure and species composition of tree species in the permanent plot in 2017 and 2022 shows that trees species was 86 and 92 species, an average density of 3,714 and 3,727 individual.ha¹, and an average basal area of 21.89 and 23.19 m².ha¹, respectively. The Shannon- Weiner diversity index were found 2.85 and 2.75 respectively.",
+          "authors": [
+            "Sathid Thinkampheang",
+            "Dokrak Marod",
+            "Nattakarnda Duangon",
+            "Suteera Hermhuk",
+            "Wongsatorn Phumphuang",
+            "Anusorn Kullawong",
+            "Wasan Chandaeng",
+            "สถิตย์ ถิ่นกำแพง",
+            "ดอกรัก มารอด",
+            "ณัฐกาญดา ดวงอ่อน",
+            "สุธีระ เหิมฮึก",
+            "วงศธร พุ่มพวง",
+            "อนุสรณ์ กุลวงษ์",
+            "วสันต์ จันทร์แดง"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20020283",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Dry dipterocarp forest",
+            "Fire protection",
+            "Dynamics",
+            "Forest fire management",
+            "Biomass",
+            "Carbon sequestration",
+            "ป่าเต็งรัง",
+            "การกันไฟ",
+            "พลวัต",
+            "การจัดการไฟป่า",
+            "มวลชีวภาพ",
+            "การกักเก็บคาร์บอน",
+            "Forests",
+            "Forest fires",
+            "Fire prevention",
+            "Carbon",
+            "ป่า",
+            "ไฟป่า",
+            "การป้องกันไฟ",
+            "คาร์บอน"
+          ],
+          "search_keyword": "ชีวมวล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:56:04.486Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "1RjoyZ4B882ltYvqOo48",
+        "_score": 2.2215781,
+        "_source": {
+          "source": "KUKR",
+          "title": "Forest dynamics and carbon stock over a 10-year period at Lam Nam Nan National Park in Uttaradit and Phrae provinces",
+          "abstract": "This research aimed to monitor the changes in forest dynamics such as species diversity, density of trees, sapling and seedling stages, tree volume, periodic annual increment (PAI), biomass, and carbon dioxide absorption in each forest type. Twenty-three concentric sample plots were established in 2010 for tree census and were measured again in 2020. The four forest types were classified as mixed deciduous forest (MDF), dry evergreen forest (DEF), dry dipterocarp forest (DDF), and hill evergreen forest (HEF). The number of plots in each forest type were 17, 3, 2, and 1. The tree density decreased from 73.04+-67.89 tree/rai to 72.77+-96.54 tree/rai: sapling decreased from 7.03+-12.90 tree/rai to 3.27+-1.71 tree/rai and seedling decreased from 17.32+-5.39 to 7.93+-8.96 tree/rai. The tree volume however increased from 12.28+-7.04 to 13.81+-6.55 cubic m/rai. A paired-samples t-test was used to compare the change in tree volume between the two years and indicated that the change was non-significant. In terms of stand volume growth, the gross growth increased by 2.92+-3.14 cubic m/rai. The net growth increased by 1.51+-4.02 cubic m/rai. The biomass increased from 10.23+-6.45 tons/rai to 13.25+-3.36 tons/rai. The periodic annual increment in biomass was 0.308+-0.750 tons/rai/year. The total carbon dioxide absorption by each forest type was 3,348,865.83 tC and carbon dioxide sequestration was 12,279,895.09 tCO2eq. Forest type with the highest carbon dioxide sequestration potential was found to be mixed deciduous forest followed by dry evergreen forest, deciduous dipterocarp forest, and hill evergreen forest.",
+          "authors": [
+            "Jutaporn Thongnun",
+            "Pichit Lumyai",
+            "จุฑาพร ทองนุ่น",
+            "พิชิต ลำใย",
+            "Santi Suksard",
+            "Supasit Sriarkarin",
+            "สันติ สุขสอาด",
+            "ศุภศิษย์ ศรีอักขรินทร์"
+          ],
+          "year": "2022",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20017411",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Mixed deciduous forest",
+            "Dry evergreen forest",
+            "Dry dipterocarp forest",
+            "Hill evergreen forest",
+            "Species diversity",
+            "Carbon dioxide absorption",
+            "Carbon dioxide sequestration",
+            "Carbon stock",
+            "Trees density",
+            "Tree volume",
+            "Periodic annual increment",
+            "Uttaradit province",
+            "Phrae province",
+            "ป่าเบญจพรรณ",
+            "ป่าดิบแล้ง",
+            "ป่าเต็งรัง",
+            "ป่าดิบเขา",
+            "ความหลากหลายทางชนิด",
+            "การกักเก็บคาร์บอน",
+            "การดูดซับคาร์บอนไดออกไซด์",
+            "ความหนาแน่นของไม้",
+            "การเติบโตของหมู่ไม้",
+            "ปริมาตรไม้",
+            "ปริมาณมวลชีวภาพ",
+            "อุทยานแห่งชาติลำน้ำน่าน",
+            "จ.อุตรดิตถ์",
+            "จ.แพร่",
+            "Forests",
+            "Deciduous summer forests",
+            "Biodiversity",
+            "Carbon cycle",
+            "Carbon dioxide",
+            "Biomass",
+            "Stand characteristics",
+            "Density",
+            "Forest trees",
+            "Forest stands",
+            "ป่า",
+            "ความหลากหลายทางชีวภาพ",
+            "วัฏจักรของคาร์บอน",
+            "คาร์บอนไดออกไซด์",
+            "มวลชีวภาพ",
+            "ลักษณะของป่า",
+            "ความหนาแน่น",
+            "ไม้ป่า",
+            "หมู่ไม้ป่า"
+          ],
+          "search_keyword": "ชีวมวล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:56:04.487Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "9xjoyZ4B882ltYvqOo89",
+        "_score": 2.0553038,
+        "_source": {
+          "source": "KUKR",
+          "title": "The participation in resource management bamboo forest Ban Phatub Thambol Pha Sing Amphur Muang Nan province, Nan province",
+          "abstract": "The objectives of this research were 1) To explore the context of community and bamboo resources 2) To investigate in operation groups who related to bamboo resources in Ban Phatub Thambol PhaSing Amphur Muang Nan Province. 3) To analyze in participation bamboo resources management. The research is the mixed method, the questionnaires were collected data with 143 populations, there were representatives from each households (1 person per household) and in-depth interviewed with 13 key informants who consisting of community leaders, group leaders, the government officials, the local officials and the local wisdoms. Additional, data were determined to descriptive statics. The results of the study revealed that the geographical and physical characteristics of Ban Phatub where located in the center of Phatub national forest park. There is a community forest with plentiful bamboo and diversity in this area. The results show the bamboo resources participants in management, there were 52.45 percent female and 47.55 percent male. The main in occupation was agriculture 58.04 percent. There are 3 groups of activities related to bamboo are connected with culture and subsidize with a relationship moreover, the group structure was defined with the roles and duties to participate in conservation, prevention and rehabilitation. The mission was linked to sub-district and the groups were supported by training and funding also. Additional, the 5 levels were determined for participation in bamboo resources management therefore the finding outs were demonstrated to the highest participatory. management (1) Opinion making, the mean (mu) 4.90 and the standard deviation (sigma) 0.30 evaluate to the allocation of bamboo products (2) Decision making, the mean (mu) 5.00 and the standard deviation (sigma) 0.00 evaluate to considerate to bamboo forest boundary in each village (3) Operation, the mean (mu) 4.97 and the standard deviation (sigma) 0.16 evaluate to participate bamboo forest patrol (4) Benefit, the mean (mu) 4.90 and the standard deviation (sigma) 0.30 evaluate to non-payment in the shoots and culms (5) Estimation, the mean (mu) 4.29 and the standard deviation (sigma) 0.57 evaluate to check- in bamboo forest and the trucks entry respectively",
+          "authors": [
+            "Pok Wuthisawas",
+            "Tanin Kongsila",
+            "ภก วุฒิสวัสดิ์",
+            "ธานินทร์ คงศิลา"
+          ],
+          "year": "2022",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20016169",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Community",
+            "Wild bamboo",
+            "Resource management",
+            "Participation",
+            "Culture",
+            "Knowledge",
+            "Forest conservation",
+            "Nan province",
+            "ชุมชน",
+            "ป่าไผ่",
+            "การจัดการทรัพยากร",
+            "การมีส่วนร่วม",
+            "ผลประโยชน์",
+            "วัฒนธรรม",
+            "องค์ความรู้",
+            "การอนุรักษ์ป่า",
+            "จ.น่าน อ.เมือง ต.ผาสิงห์",
+            "Rural communities",
+            "Bamboos",
+            "Poaceae",
+            "Social forestry",
+            "Community involvement",
+            "Forest management",
+            "Resource conservation",
+            "Thailand",
+            "ชุมชนชนบท",
+            "ไผ่",
+            "ป่าสังคม",
+            "การมีส่วนร่วมของชุมชน",
+            "การจัดการป่าไม้",
+            "การอนุรักษ์ทรัพยากร",
+            "ประเทศไทย"
+          ],
+          "search_keyword": "วนเกษตร",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:07:10.006Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "NhjoyZ4B882ltYvqOpA9",
+        "_score": 2.0553038,
+        "_source": {
+          "source": "KUKR",
+          "title": "Tropical and subtropical Asia's valued tree species under threat",
+          "abstract": "Tree diversity in Asia's tropical and subtropical forests is central to nature-based solutions. Species vulnerability to multiple threats, which affect provision of ecosystem services, is poorly understood. We conducted a region-wide, spatially explicit assessment of the vulnerability of 63 socioeconomically important tree species to overexploitation, fire, overgrazing, habitat conversion, and climate change. Trees were selected for assessment from national priority lists, and selections were validated by an expert network representing 20 countries. We used Maxent suitability modeling to predict species distribution ranges, freely accessible spatial data sets to map threat exposures, and functional traits to estimate threat sensitivities. Species-specific vulnerability maps were created as the product of exposure maps and sensitivity estimates. Based on vulnerability to current threats and climate change, we identified priority areas for conservation and restoration. Overall, 74% of the most important areas for conservation of these trees fell outside protected areas, and all species were severely threatened across an average of 47% of their native ranges. The most imminent threats were overexploitation and habitat conversion; populations were severely threatened by these factors in an average of 24% and 16% of their ranges, respectively. Our model predicted limited overall climate change impacts, although some study species were likely to lose over 15% of their habitat by 2050 due to climate change. We pinpointed specific natural areas in Borneo rain forests as hotspots for in situ conservation of forest genetic resources, more than 82% of which fell outside designated protected areas. We also identified degraded areas in Western Ghats, Indochina dry forests, and Sumatran rain forests as hotspots for restoration, where planting or assisted natural regeneration will help conserve these species, and croplands in southern India and Thailand as potentially important agroforestry options. Our results highlight the need for regionally coordinated action for effective conservation and restoration. © 2021 The Authors. Conservation Biology published by Wiley Periodicals LLC on behalf of Society for Conservation Biology.",
+          "authors": [
+            "Gaisberger, H.",
+            "Fremout, T.",
+            "Kettle, C. J.",
+            "Vinceti, B.",
+            "Kemalasari, D.",
+            "Kanchanarak, T.",
+            "Thomas, E.",
+            "Serra-Diaz, J. M.",
+            "Svenning, J. C.",
+            "Slik, F.",
+            "Eiadthong, W.",
+            "Palanisamy, K.",
+            "Ravikanth, G.",
+            "Bodos, V.",
+            "Sang, J.",
+            "Warrier, R. R.",
+            "Wee, A. K. S.",
+            "Elloran, C.",
+            "Ramos, L. T.",
+            "Henry, M.",
+            "Hossain, M. A.",
+            "Theilade, I.",
+            "Laegaard, S.",
+            "Bandara, K. M. A.",
+            "Weerasinghe, D. P.",
+            "Changtragoon, S.",
+            "Yuskianti, V.",
+            "Wilkie, P.",
+            "Nghia, N. H.",
+            "Elliott, S.",
+            "Pakkad, G.",
+            "Tiansawat, P.",
+            "Maycock, C.",
+            "Bounithiphonh, C.",
+            "Mohamed, R.",
+            "Nazre, M.",
+            "Siddiqui, B. N.",
+            "Lee, S. L.",
+            "Lee, C. T.",
+            "Zakaria, N. F.",
+            "Hartvig, I.",
+            "Lehmann, L.",
+            "David, D. B. D.",
+            "Lillesø, J. P. B.",
+            "Phourin, C.",
+            "Yongqi, Z.",
+            "Ping, H.",
+            "Volkaert, H. A.",
+            "Graudal, L.",
+            "Hamidi, A.",
+            "Thea, S.",
+            "Sreng, S.",
+            "Boshier, D.",
+            "Tolentino, E., Jr.",
+            "Ratnam, W.",
+            "Aung, M. M.",
+            "Galante, M.",
+            "Isa, S. F. M.",
+            "Dung, N. Q.",
+            "Hoa, T. T.",
+            "Le, T. C.",
+            "Miah, M. D.",
+            "Zuhry, A. L. M.",
+            "Alawathugoda, D.",
+            "Azman, A.",
+            "Pushpakumara, G.",
+            "Sumedi, N.",
+            "Siregar, I. Z.",
+            "Nak, H. K.",
+            "Linsky, J.",
+            "Barstow, M.",
+            "Koh, L. P.",
+            "Jalonen, R."
+          ],
+          "year": "2022",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/421202",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "análisis del cambio climático",
+            "climate change analysis",
+            "conservation hotspots",
+            "conservation priorities",
+            "especies de árboles",
+            "evaluación espacialmente explícita de amenazas",
+            "mapeo de vulnerabilidades",
+            "modelado de distribución",
+            "prioridades de conservación",
+            "prioridades de restauración",
+            "puntos calientes de conservación",
+            "puntos calientes de restauración",
+            "restoration hotspots",
+            "restoration priorities",
+            "spatially explicit threat assessment",
+            "species distribution modeling",
+            "tree species",
+            "vulnerability mapping",
+            "agroforestry",
+            "climate change",
+            "conservation management",
+            "conservation planning",
+            "ecosystem service",
+            "environmental restoration",
+            "mapping method",
+            "prioritization",
+            "spatial data",
+            "subtropical region",
+            "tropical region",
+            "vulnerability",
+            "Borneo",
+            "India",
+            "Indochina",
+            "Thailand",
+            "Western Ghats",
+            "ecosystem",
+            "environmental protection",
+            "forest",
+            "tree",
+            "Conservation of Natural Resources",
+            "Forests",
+            "Trees"
+          ],
+          "search_keyword": "agroforestry",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:09:50.086Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "xhjoyZ4B882ltYvqOo48",
+        "_score": 2.0407467,
+        "_source": {
+          "source": "KUKR",
+          "title": "Comparative study of the appearance of Chromolaena odorata in mixed deciduous forest, Namtok Tat Sai Rung Forest Park, Chiang Rai province",
+          "authors": [
+            "Saowaros Chompoothep",
+            "Kamonporn Panngom",
+            "Itsaree Howpinjai",
+            "Torlarp Kamyo",
+            "เสาวรส ชมภูเทพ",
+            "กมลพร ปานง่อม",
+            "อิสรีย์ ฮาวปินใจ",
+            "ต่อลาภ คำโย"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20018070",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Chromolaena odorata",
+            "Invasive species",
+            "Seedling community",
+            "Plant community",
+            "Species diversity",
+            "Biodiversity",
+            "Seedling tree density",
+            "Biomass",
+            "Mixed deciduous forest",
+            "Chiang Rai province",
+            "Thailand",
+            "สาบเสือ",
+            "พันธุ์ต่างถิ่น",
+            "พืชต่างถิ่น",
+            "พืชรุกราน",
+            "สังคมพืช",
+            "สังคมกล้าไม้",
+            "ความหลากหลายทางชนิด",
+            "ความหลากหลายทางชีวภาพ",
+            "ความหนาแน่นของกล้าไม้",
+            "มวลชีวภาพ",
+            "ป่าผสมผลัดใบ",
+            "วนอุทยานน้ำตกตาดสายรุ้ง",
+            "จ.เชียงราย",
+            "ประเทศไทย",
+            "Asteraceae",
+            "Weeds",
+            "Plant competition",
+            "Geographical distribution",
+            "Population density",
+            "Trees",
+            "วัชพืช",
+            "การแข่งขันของพืช",
+            "การแพร่กระจายทางภูมิศาสตร์",
+            "ความหนาแน่นของประชากร",
+            "ไม้ยืนต้น"
+          ],
+          "search_keyword": "ชีวมวล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:56:04.486Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "-BjoyZ4B882ltYvqOo89",
+        "_score": 2.0407467,
+        "_source": {
+          "source": "KUKR",
+          "title": "[Proceedings of the forest annual conference 2021: 84th anniversary of Thai forestry]",
+          "abstract": "",
+          "authors": [
+            "เดชา ดวงนามล",
+            "สุธิดา มณีอเนกคุณ",
+            "เจษฎา วงค์พรหม",
+            "วสันต์ จันทร์แดง",
+            "Decha Duangnamon",
+            "Sutida Maneeanakekul",
+            "Jetsada Wrongprom",
+            "Wasun Jundaeng"
+          ],
+          "year": "2021",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/414014",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ชุมชน",
+            "สวนยางพารา",
+            "การปลูกพืชร่วม",
+            "การจัดการแปลง",
+            "ความหลากหลายทางชนิด",
+            "อัตราการเติบโต",
+            "ผลผลิตน้ำยาง",
+            "ผลตอบแทนทางเศรษฐกิจ",
+            "บ้านเขาดิน",
+            "จ.กระบี่ อ.ลำทับ",
+            "Valuable tree community",
+            "Rubber-based agroforestry systems",
+            "Intercrops rubber plantation",
+            "Companion planting",
+            "Species diversity",
+            "Growth rate",
+            "Krabi province",
+            "ระบบการปลูกพืช",
+            "วนเกษตร",
+            "Hevea brasiliensis",
+            "พืชปลูกร่วมกัน",
+            "ไม้ยืนต้น",
+            "ความหลากหลายทางชีวภาพ",
+            "การจัดการการผลิตพืช",
+            "รายได้",
+            "ประเทศไทย",
+            "Communes",
+            "Cropping systems",
+            "Agroforestry",
+            "Companion crops",
+            "Trees",
+            "Biodiversity",
+            "Crop management",
+            "Income",
+            "Thailand"
+          ],
+          "search_keyword": "วนเกษตร",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:07:10.006Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "4hjoyZ4B882ltYvqOo48",
+        "_score": 1.9368052,
+        "_source": {
+          "source": "KUKR",
+          "title": "Sector sampling method to survey trees outside forest area: A case study at the office of agricultural museum and culture, Kasetsart University",
+          "authors": [
+            "Pavarut Tipburee",
+            "Pichit Lumyai",
+            "ปวรุตม์ ทิพย์บุรี",
+            "พิชิต ลำใย"
+          ],
+          "year": "2021",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/412572",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Trees",
+            "Urban areas",
+            "Forest inventories",
+            "Sampling",
+            "Wood",
+            "Biomass",
+            "Carbon cycle",
+            "Biodiversity",
+            "Thailand",
+            "ไม้ยืนต้น",
+            "พื้นที่เมือง",
+            "การสำรวจทางป่าไม้",
+            "การสุ่มตัวอย่าง",
+            "เนื้อไม้",
+            "มวลชีวภาพ",
+            "วัฏจักรของคาร์บอน",
+            "ความหลากหลายทางชีวภาพ",
+            "ประเทศไทย",
+            "Forest resources",
+            "Public park",
+            "Non-forest area",
+            "Tree outside forest area",
+            "Sector sampling",
+            "Carbon storage",
+            "Diversity index",
+            "Office of agricultural museum and culture",
+            "Kasetsart University",
+            "ทรัพยากรไม้",
+            "สวนสาธารณะ",
+            "พื้นที่นอกเขตป่า",
+            "พื้นที่เขตเมือง",
+            "การสำรวจ",
+            "การสุ่มตัวอย่างแบบเซคเตอร์",
+            "การกักเก็บคาร์บอน",
+            "ดัชนีความหลากหลาย",
+            "สำนักพิพิธภัณฑ์และวัฒนธรรมการเกษตร",
+            "มหาวิทยาลัยเกษตรศาสตร์"
+          ],
+          "search_keyword": "ชีวมวล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:56:04.487Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "whjoyZ4B882ltYvqOo48",
+        "_score": 1.7577496,
+        "_source": {
+          "source": "KUKR",
+          "title": "Plant community composition and carbon storage of mangrove forest at Kung Krabaen Bay Royal Development Study Centre, Chanthaburi province",
+          "authors": [
+            "Supada Nakmuay",
+            "Wattanachai Tasen",
+            "Sutee Duangjai",
+            "Prawet Chansiri",
+            "สุภาดา นักมวย",
+            "วัฒนชัย ตาเสน",
+            "สุธีร์ ดวงใจ",
+            "ประเวศ จันทร์ศิริ"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/438192",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Mangroves",
+            "Vegetation",
+            "Plant communities",
+            "Dominant species",
+            "Biodiversity",
+            "Species",
+            "Population structure",
+            "Carbon",
+            "Biomass",
+            "Growth",
+            "Forest rehabilitation",
+            "Development projects",
+            "Thailand",
+            "ป่าชายเลน",
+            "พืชพรรณ",
+            "กลุ่มพืช",
+            "ชนิดเด่น",
+            "ความหลากหลายทางชีวภาพ",
+            "ชนิด",
+            "โครงสร้างประชากร",
+            "คาร์บอน",
+            "มวลชีวภาพ",
+            "การเติบโต",
+            "การฟื้นฟูป่าไม้",
+            "โครงการพัฒนา",
+            "ประเทศไทย",
+            "Mangrove forest",
+            "Restoration mangrove forest",
+            "Species diversity",
+            "Rhizophora apiculata",
+            "Plant community",
+            "Carbon storage",
+            "Forest structure",
+            "Mangrove restoration",
+            "Kung Krabaen Bay Royal Development Study Centre",
+            "Chanthaburi province",
+            "สังคมพืช",
+            "โกงกางใบเล็ก",
+            "ความหลากหลายชนิด",
+            "พรรณไม้เด่น",
+            "โครงสร้างป่า",
+            "ดัชนีความหลากหลาย",
+            "การกักเก็บคาร์บอน",
+            "การเจริญเติบโต",
+            "การฟื้นฟูป่าชายเลน",
+            "ศูนย์ศึกษาการพัฒนาอ่าวคุ้งกระเบน",
+            "โครงการพระราชดำริ",
+            "จ.จันทบุรี"
+          ],
+          "search_keyword": "ชีวมวล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:56:04.486Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "xRjoyZ4B882ltYvqOo89",
+        "_score": 1.4277616,
+        "_source": {
+          "source": "KUKR",
+          "title": "Synthesis of reservoir management system for aquatic resource conservation and sustainable utilization: A case study of Ubolratana Reservoir: [Final research report]",
+          "authors": [
+            "Charumas Meksumpun",
+            "Sansanee Wangvoralak",
+            "Monnissa Srisomwong",
+            "Urairathr Nedtharnn",
+            "Jirarpast Adjimangkunl",
+            "Pichasit Sangmek",
+            "Santi Poungcharean",
+            "Kanyanat Soontornprasit",
+            "Pattira Kasamesiri",
+            "Shettapong Meksumpun",
+            "จารุมาศ เมฆสัมพันธ์",
+            "ศันสนีย์ หวังวรลักษณ์",
+            "มณช์นิศาษ์ ศรีสมวงศ์",
+            "อุไรรัฒท์ เนตรหาญ",
+            "จิราภัษ อัจจิมางกูร",
+            "พิชาศิษฐ์ แสงเมฆ",
+            "สันติ พ่วงเจริญ",
+            "กัญญาณัฐ สุนทรประสิทธิ์",
+            "ภัททิรา เกษมศิริ",
+            "เชษฐพงษ์ เมฆสัมพันธ์"
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/402634",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Water reservoirs",
+            "Water resources",
+            "Water management",
+            "Fishery resources",
+            "Resource conservation",
+            "Water quality",
+            "Freshwater ecology",
+            "Aquatic environment",
+            "Biodiversity",
+            "Sustainability",
+            "Uses",
+            "Oreochromis niloticus",
+            "Cage culture",
+            "Traditional fishing",
+            "Socioeconomic environment",
+            "Quality of life",
+            "Fishery management",
+            "Community involvement",
+            "Thailand",
+            "อ่างเก็บกักน้ำ",
+            "ทรัพยากรน้ำ",
+            "การจัดการน้ำ",
+            "ทรัพยากรประมง",
+            "การอนุรักษ์ทรัพยากร",
+            "คุณภาพน้ำ",
+            "นิเวศวิทยาในน้ำจืด",
+            "สภาพแวดล้อมทางน้ำ",
+            "ความหลากหลายทางชีวภาพ",
+            "ความยั่งยืน",
+            "การใช้",
+            "การเลี้ยงสัตว์น้ำในกระชัง",
+            "การประมงพื้นบ้าน",
+            "สภาพแวดล้อมทางเศรษฐกิจและสังคม",
+            "คุณภาพชีวิต",
+            "การจัดการประมง",
+            "การมีส่วนร่วมของชุมชน",
+            "ประเทศไทย",
+            "Water reservoir",
+            "Management system",
+            "Aquatic resource conservation",
+            "Ecology",
+            "Diversity",
+            "Nile tilapia",
+            "Fish culture",
+            "Fishery utilization",
+            "Sustainable utilization",
+            "Fishery communities",
+            "Socio-economic environment",
+            "Ubolratana Reservoir",
+            "อ่างเก็บน้ำ",
+            "ระบบการบริหารจัดการ",
+            "แหล่งน้ำ",
+            "นิเวศวิทยา",
+            "ความหลากหลาย",
+            "การใช้ประโยชน์อย่างยั่งยืน",
+            "ปลานิล",
+            "การเลี้ยงปลาในกระชัง",
+            "ชุมชนประมง",
+            "สภาพเศรษฐกิจและสังคม",
+            "การจัดการประมงร่วม",
+            "มาตรการทางการประมง",
+            "สมรรถนะชุมชน",
+            "อ่างเก็บน้ำเขื่อนอุบลรัตน์"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "xhjoyZ4B882ltYvqOo89",
+        "_score": 1.4277616,
+        "_source": {
+          "source": "KUKR",
+          "title": "Executive summary and the research program synthesis: Synthesis of reservoir management system for aquatic resource conservation and sustainable utilization: A case study of Ubolratana Reservoir",
+          "authors": [
+            "Charumas Meksumpun",
+            "Sansanee Wangvoralak",
+            "Monnissa Srisomwong",
+            "Urairathr Nedtharnn",
+            "Jirarpast Adjimangkunl",
+            "Shettapong Meksumpun",
+            "Santi Poungcharean",
+            "Kanyanat Soontornprasit",
+            "Pattira Kasamesiri",
+            "Pichasit Sangmek",
+            "จารุมาศ เมฆสัมพันธ์",
+            "ศันสนีย์ หวังวรลักษณ์",
+            "มณช์นิศาษ์ ศรีสมวงศ์",
+            "อุไรรัฒท์ เนตรหาญ",
+            "จิราภัษ อัจจิมางกูร",
+            "เชษฐพงษ์ เมฆสัมพันธ์",
+            "สันติ พ่วงเจริญ",
+            "กัญญาณัฐ สุนทรประสิทธิ์",
+            "ภัททิรา เกษมศิริ",
+            "พิชาศิษฐ์ แสงเมฆ"
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/402635",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Water reservoirs",
+            "Water resources",
+            "Water management",
+            "Fishery resources",
+            "Resource conservation",
+            "Water quality",
+            "Freshwater ecology",
+            "Aquatic environment",
+            "Biodiversity",
+            "Sustainability",
+            "Uses",
+            "Oreochromis niloticus",
+            "Cage culture",
+            "Traditional fishing",
+            "Socioeconomic environment",
+            "Quality of life",
+            "Fishery management",
+            "Community involvement",
+            "Thailand",
+            "อ่างเก็บกักน้ำ",
+            "ทรัพยากรน้ำ",
+            "การจัดการน้ำ",
+            "ทรัพยากรประมง",
+            "การอนุรักษ์ทรัพยากร",
+            "คุณภาพน้ำ",
+            "นิเวศวิทยาในน้ำจืด",
+            "สภาพแวดล้อมทางน้ำ",
+            "ความหลากหลายทางชีวภาพ",
+            "ความยั่งยืน",
+            "การใช้",
+            "การเลี้ยงสัตว์น้ำในกระชัง",
+            "การประมงพื้นบ้าน",
+            "สภาพแวดล้อมทางเศรษฐกิจและสังคม",
+            "คุณภาพชีวิต",
+            "การจัดการประมง",
+            "การมีส่วนร่วมของชุมชน",
+            "ประเทศไทย",
+            "Water reservoir",
+            "Management system",
+            "Aquatic resource conservation",
+            "Ecology",
+            "Diversity",
+            "Nile tilapia",
+            "Fish culture",
+            "Fishery utilization",
+            "Sustainable utilization",
+            "Fishery communities",
+            "Socio-economic environment",
+            "Ubolratana Reservoir",
+            "อ่างเก็บน้ำ",
+            "ระบบการบริหารจัดการ",
+            "แหล่งน้ำ",
+            "นิเวศวิทยา",
+            "ความหลากหลาย",
+            "การใช้ประโยชน์อย่างยั่งยืน",
+            "ปลานิล",
+            "การเลี้ยงปลาในกระชัง",
+            "ชุมชนประมง",
+            "สภาพเศรษฐกิจและสังคม",
+            "การจัดการประมงร่วม",
+            "มาตรการทางการประมง",
+            "สมรรถนะชุมชน",
+            "อ่างเก็บน้ำเขื่อนอุบลรัตน์"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      }
+    ]
+  }
+}

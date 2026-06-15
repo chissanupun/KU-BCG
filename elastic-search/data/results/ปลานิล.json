@@ -1,0 +1,3483 @@
+{
+  "took": 15,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 68,
+      "relation": "eq"
+    },
+    "max_score": 2.1915312,
+    "hits": [
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "tBjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Factors affecting climate change adaptation ability of tilapia cage culture aquaculturist in Ubon Ratchathani",
+          "authors": [
+            "Chalermchon Wongsopa",
+            "Kulapa Kuldilok",
+            "Aerwadee Premashthira",
+            "Borworn Tanrattanaphong",
+            "เฉลิมชนม์ วงศ์โสภา",
+            "กุลภา กุลดิลก",
+            "เออวดี เปรมัษเฐียร",
+            "บวร ตันรัตนพงศ์"
+          ],
+          "year": "2024",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/437745",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis niloticus",
+            "Cage culture",
+            "Fish culture",
+            "Climatic change",
+            "Drought",
+            "Flooding",
+            "Farmers",
+            "Adaptation",
+            "Adaptability",
+            "Training",
+            "Collective farming",
+            "Farms",
+            "Thailand",
+            "การเลี้ยงสัตว์น้ำในกระชัง",
+            "การเพาะเลี้ยงปลา",
+            "การเปลี่ยนแปลงภูมิอากาศ",
+            "ความแห้งแล้ง",
+            "น้ำท่วม",
+            "เกษตรกร",
+            "การปรับตัว",
+            "ความสามารถในการปรับตัว",
+            "การฝึกอบรม",
+            "การทำฟาร์มแบบรวมกลุ่ม",
+            "ฟาร์ม",
+            "ประเทศไทย",
+            "Nile tilapia",
+            "Climate changes",
+            "Knowledge",
+            "Community networking",
+            "Ubon Ratchathani province",
+            "ปลานิล",
+            "การเลี้ยงปลาในกระชัง",
+            "การเปลี่ยนแปลงสภาพภูมิอากาศ",
+            "ภัยแล้ง",
+            "อุทกภัย",
+            "การอบรม",
+            "ความรู้",
+            "การรวมกลุ่ม",
+            "จ.อุบลราชธานี"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "tRjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Powerful biocontrol: From probiotics to fish vaccines",
+          "abstract": "",
+          "authors": "ศศิมนัส อุณจักร์",
+          "year": "2024",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/442573",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "สัตว์น้ำ",
+            "กุ้ง",
+            "ปลานิล",
+            "โรคสัตว์น้ำ",
+            "โรคตายด่วน",
+            "โรคตาโปน",
+            "ไบโอคอนโทรล",
+            "โปรไบโอติก",
+            "วัคซีน",
+            "การพัฒนาวัคซีน",
+            "การควบคุมโรค",
+            "Aquatic animals",
+            "Shrimp",
+            "Nile tilapia",
+            "Oreochromis niloticus",
+            "Aquatic animal diseases",
+            "Early mortality syndrome",
+            "EMS",
+            "Exophthalmia",
+            "Streptococcus agalactiae",
+            "Biocontrol",
+            "Probiotics",
+            "Vaccines",
+            "Vaccine development",
+            "Disease control"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "thjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of glutamine supplementation in fish meal replacement by plant protein diets on growth performance and digestive enzyme activity in sex reversal tilapia juveniles (Oreochromis niloticus Linnaeus, 1758)",
+          "authors": [
+            "Juthamas Chomphunich",
+            "Ubonrat Limtipsuntorn",
+            "Wikrom Rangsin",
+            "Wannapa Rangsin",
+            "จุฑามาศ ชมภูนิช",
+            "อุบลรัตน์ ลิ้มทิพย์สุนทร",
+            "วิกรม รังสินธุ์",
+            "วรรณนภา รังสินธุ์"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/428533",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis niloticus",
+            "Tilapia",
+            "Freshwater fishes",
+            "Feed additives",
+            "Glutamine",
+            "Plant protein",
+            "Soybean meal",
+            "Growth rate",
+            "Enzyme activity",
+            "Intestines",
+            "Pepsin",
+            "Trypsin",
+            "Chymotrypsin",
+            "ปลานิล",
+            "ปลาน้ำจืด",
+            "สารเจือปนในอาหารสัตว์",
+            "กลูตามีน",
+            "โปรตีนจากพืช",
+            "กากถั่วเหลือง",
+            "อัตราการเติบโต",
+            "กิจกรรมของเอนไซม์",
+            "ลำไส้",
+            "เปปซิน",
+            "ทริปซิน",
+            "ไคโมทริปซิน",
+            "Sex reversal",
+            "Tilapia juveniles",
+            "Feeding",
+            "Plant proteins",
+            "ปลานิลแปลงเพศ",
+            "ปลานิลขนาดเล็ก",
+            "การให้อาหาร",
+            "สารเจือปน",
+            "โปรตีนพืช",
+            "การเจริญเติบโต"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "txjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "The study of amount of total coliform, fecal coliform, Escherichia coli, and Aeromonas hydrophila that isolated from tilapia farming in cages in the Aun river Pok Noi subdistrict, Panna Nikhom district, Sakon Nakhon province",
+          "authors": [
+            "Arun Butna",
+            "Nopparat Patchanee",
+            "Songsub Arungamol",
+            "Tharadol Jitjak",
+            "Jakkapat Pachachit",
+            "อรัญ บุตรนา",
+            "นพรัตน์ พัชณีย์",
+            "ทรงทรัพย์ อรุณกมล",
+            "ธราดล จิตจักร",
+            "จักรพรรดิ์ ประชาชิต"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20018103",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Tilapia",
+            "Fish culture",
+            "Cages",
+            "Bacterial contamination",
+            "Microbial contamination",
+            "Coliform bacteria",
+            "Fecal coliform",
+            "Escherichia coli",
+            "Aeromonas hydrophila",
+            "Water quality",
+            "Sakon Nakhon province",
+            "Thailand",
+            "ปลานิล",
+            "การเลี้ยงปลา",
+            "กระชัง",
+            "การปนเปื้อนของเชื้อแบคทีเรีย",
+            "การปนเปื้อนของจุลินทรีย์",
+            "โคลิฟอร์ม",
+            "ฟีคัลโคลิฟอร์ม",
+            "คุณภาพน้ำ",
+            "จ.สกลนคร อ.พรรณนานิคม ต.พอกน้อย",
+            "ประเทศไทย",
+            "Freshwater fishes",
+            "Cage culture",
+            "Biological contamination",
+            "Bacteria",
+            "ปลาน้ำจืด",
+            "การเพาะเลี้ยงปลา",
+            "การเลี้ยงสัตว์น้ำในกระชัง",
+            "การปนเปื้อนทางชีววิทยา",
+            "โคลิฟอร์มแบคทีเรีย",
+            "แบคทีเรีย"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "uBjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Primary production and Nile tilapia growth in fertilized and non-fertilized ponds",
+          "authors": [
+            "Pichasit Sangmek",
+            "Sittichai Hatachote",
+            "Anatta Salee",
+            "Jenjira Rawiphan",
+            "Kednapat Sriphairoj",
+            "พิชาศิษฐ์ แสงเมฆ",
+            "สิทธิชัย ฮะทะโชติ",
+            "อนัตตา สาลี",
+            "เจนจิรา ระวิพันธ์",
+            "เกตุนภัส ศรีไพโรจน์"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20018119",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis niloticus",
+            "Nile tilapia",
+            "Fish ponds",
+            "Fertilized pond",
+            "Non-fertilized pond",
+            "Fertilizer application",
+            "Phytoplankton",
+            "Chlorophyll a",
+            "Growth",
+            "Feeding regime",
+            "Feed conversion ratio",
+            "Feed cost",
+            "ปลานิล",
+            "บ่อเลี้ยงปลา",
+            "การใส่ปุ๋ย",
+            "การไม่ใส่ปุ๋ย",
+            "การให้อาหาร",
+            "ผลผลิตขั้นต้น",
+            "แพลงก์ตอนพืช",
+            "คลอโรฟิลล์ เอ",
+            "การเจริญเติบโต",
+            "อัตราการเปลี่ยนอาหารเป็นเนื้อ",
+            "ต้นทุนค่าอาหาร",
+            "Fish feeding",
+            "Primary productivity",
+            "Chlorophylls",
+            "Feed conversion efficiency",
+            "Costs",
+            "Feeds",
+            "บ่อปลา",
+            "การให้อาหารปลา",
+            "การผลิตขั้นปฐมภูมิ",
+            "คลอโรฟิลล์",
+            "การเติบโต",
+            "ประสิทธิภาพการเปลี่ยนอาหารเป็นเนื้อ",
+            "ต้นทุน",
+            "อาหารสัตว์"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "uRjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Feeding management (protein level and feed intake) on marine red tilapia (Oreochromis niloticus x O. mossambicus) culture",
+          "authors": [
+            "Sorasak Chueabokha",
+            "Wasana Arkronrat",
+            "Rungtiwa Konsantad",
+            "Chonlada Leearam",
+            "Kritchavat Songdum",
+            "Pimpakan Matha",
+            "Phattaraporn Manaprempree",
+            "สรศักดิ์ เชื้อบ่อคา",
+            "วาสนา อากรรัตน์",
+            "รุ่งทิวา คนสันทัด",
+            "ชลดา ลีอร่าม",
+            "กริชวัชร์ สงค์ดำ",
+            "พิมพกานต์ มาถา",
+            "ภัทราพร มานะเปรมปรีย์"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20019965",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Marine red tilapia",
+            "Oreochromis niloticus",
+            "Oreochromis mossambicus",
+            "Fish culture",
+            "Fish feeding",
+            "Protein level",
+            "Feed intake",
+            "Feed consumption",
+            "Growth rates",
+            "Fish size",
+            "Body weight",
+            "Mortality rate",
+            "Feed cost",
+            "ปลานิลแดง",
+            "สายพันธุ์ทนเค็ม",
+            "การเลี้ยงปลา",
+            "การเพาะเลี้ยงสัตว์น้ำ",
+            "การให้อาหาร",
+            "อาหารปลา",
+            "โปรตีน",
+            "พฤติกรรมการกินอาหาร",
+            "น้ำหนักตัว",
+            "อัตราการตาย",
+            "ต้นทุน",
+            "Tilapia",
+            "Protein content",
+            "Feeding level",
+            "Animal feeding",
+            "Feeding frequency",
+            "Animal performance",
+            "Feed conversion efficiency",
+            "Mortality",
+            "ปลานิล",
+            "การเพาะเลี้ยงปลา",
+            "การให้อาหารปลา",
+            "ปริมาณโปรตีน",
+            "ระดับการให้อาหาร",
+            "การให้อาหารสัตว์",
+            "ความถี่ในการให้อาหาร",
+            "การได้รับอาหารของสัตว์",
+            "การบริโภคอาหารสัตว์",
+            "สมรรถภาพของสัตว์",
+            "ประสิทธิภาพการเปลี่ยนอาหารเป็นเนื้อ",
+            "การตาย"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "uhjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Preliminary study on algae utilization to decrease nitrogen compound in water during marine red tilapia (Oreochromis niloticus x O. mossambicus) rearing",
+          "authors": [
+            "Phattaraporn Manaprempree",
+            "Rungtiwa Konsantad",
+            "Wasana Arkronrat",
+            "Chonlada Leearam",
+            "Kritchavat Songdum",
+            "Sorasak Chueabokha",
+            "Pimpakan Matha",
+            "ภัทราพร มานะเปรมปรีย์",
+            "รุ่งทิวา คนสันทัด",
+            "วาสนา อากรรัตน์",
+            "ชลดา ลีอร่าม",
+            "กริชวัชร์ สงค์ดำ",
+            "สรศักดิ์ เชื้อบ่อคา",
+            "พิมพกานต์ มาถา"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20019967",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Marine red tilapia",
+            "Oreochromis niloticus",
+            "Oreochromis mossambicus",
+            "Fish culture",
+            "Algae",
+            "Seaweed",
+            "Caulerpa",
+            "Seaweed treatment",
+            "Wastewater treatment",
+            "Water quality",
+            "Nitrogen compound",
+            "Ammonia content",
+            "ปลานิลแดง",
+            "สายพันธุ์ทนเค็ม",
+            "การเลี้ยงปลา",
+            "การเพาะเลี้ยงสัตว์น้ำ",
+            "สาหร่ายทะเล",
+            "สาหร่ายพวงองุ่น",
+            "การบำบัดน้ำเสีย",
+            "คุณภาพน้ำ",
+            "สารประกอบไนโตรเจน",
+            "ปริมาณแอมโมเนีย",
+            "Tilapia (genus)",
+            "Nitrogen",
+            "Ammonia",
+            "การเพาะเลี้ยงปลา",
+            "สาหร่าย",
+            "ไนโตรเจน",
+            "แอมโมเนีย"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "uxjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Study on growth rate of Oreochromis niloticus, Clarias gariepinus and Cyprinus carpio in aquaponics system with hydroponic lettuce growing system",
+          "authors": [
+            "Sathit Boonnom",
+            "Saowapar Khianngam",
+            "Kaewta Limhang",
+            "สาธิต บุญน้อม",
+            "เสาวภา เขียนงาม",
+            "แก้วตา ลิ้มเฮง"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20020287",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Nile tilapia",
+            "Russian catfish",
+            "Carp",
+            "Aquaponics",
+            "Lettuce",
+            "Soilless cultivation",
+            "Growth performance",
+            "ปลานิล",
+            "ปลาดุกรัสเซีย",
+            "ปลาคาร์ป",
+            "อควาโปนิกส์",
+            "ผักสลัด",
+            "การปลูกพืชไร้ดิน",
+            "การเจริญเติบโต",
+            "Oreochromis niloticus",
+            "Clarias gariepinus",
+            "Cyprinus carpio",
+            "Animal husbandry",
+            "Organic agriculture",
+            "Fish culture",
+            "Hydroponics",
+            "Growth",
+            "ปลาไน",
+            "การเลี้ยงสัตว์",
+            "เกษตรอินทรีย์",
+            "การเพาะเลี้ยงปลา",
+            "การปลูกพืชในน้ำยา",
+            "การเติบโต"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "vBjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "The 10th annual national conference on business and accounting: Virtual-conference",
+          "abstract": "",
+          "authors": [
+            "ปรัชญา คงโนนกอก",
+            "รุจิรัตน์ พัฒนถาบุตร",
+            "Pratya Khongnonkok",
+            "Ruchirat Patanathabutr"
+          ],
+          "year": "2022",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/442198",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "ปลานิล",
+            "ธุรกิจครบวงจร",
+            "สิ่งแวดล้อมทางการจัดการ",
+            "องค์ประกอบการตลาด",
+            "แรงกดดันการแข่งขัน",
+            "ธุรกิจครอบครัว",
+            "การตลาดเชิงกลยุทธ์",
+            "อุตสาหกรรมประมง",
+            "Nile tilapia",
+            "Integrated business",
+            "Managerial environment",
+            "Marketing components",
+            "SWOT analysis",
+            "PESTEL analysis",
+            "Competitive forces",
+            "Family business",
+            "Strategic marketing",
+            "Fisheries industry",
+            "ปลาน้ำจืด",
+            "ภาคอุตสาหกรรมเกษตร",
+            "อุตสาหกรรมเกษตร",
+            "การประมง",
+            "การประมงขนาดเล็ก",
+            "การตลาด",
+            "เทคนิคการตลาด",
+            "การแข่งขันทางเศรษฐกิจ",
+            "Tilapia",
+            "Freshwater fishes",
+            "Agroindustrial sector",
+            "Agroindustry",
+            "Fisheries",
+            "Artisanal fisheries",
+            "Marketing",
+            "Marketing techniques",
+            "Economic competition"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "vRjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "เส้นทางนักวิจัย สู่เกษตรไทยยั่งยืน",
+          "authors": "วิน สุรเชษฐพงษ์",
+          "year": "2022",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/435845",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "ปลานิล",
+            "เกษตรยั่งยืน",
+            "การเพาะเลี้ยง",
+            "การติดเชื้อ",
+            "เชื้อไวรัส"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "vhjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Tilapia culture",
+          "authors": [
+            "วิศณุพร รัตนตรัยวงศ์",
+            "คงภพ อำพลศักดิ์",
+            "สมบัติ สิริพันธ์วราภรณ์",
+            "สมนึก คงทรัตน์",
+            "ณัฐพงค์ วรรณพัฒน์",
+            "ประพันธ์ศักดิ์ ศรีษะภูมิ",
+            "ณาตยา ศรีจันทึก",
+            "เกวลิน หนูฤทธิ์",
+            "นนทวิทย์ อารีย์ชน",
+            "ศศิมนัส อุณจักร์",
+            "มินตรา ศีลอุดม",
+            "จุฑารัตน์ กิตติวานิช"
+          ],
+          "year": "2022",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/438893",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis aureus",
+            "Tilapia",
+            "Freshwater fishes",
+            "Aquatic animals",
+            "Aquatic breeding",
+            "Fish culture",
+            "Fish feeding",
+            "Fish diseases",
+            "Marketing",
+            "ปลานิล",
+            "ปลาทับทิม",
+            "สายพันธุ์",
+            "การปรับปรุงพันธุ์สัตว์น้ำ",
+            "การเพาะเลี้ยงปลา",
+            "การให้อาหารปลา",
+            "โรคของปลา",
+            "การตลาด"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "vxjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Application Nile 4.0 V.2",
+          "authors": [
+            "Roongparit Jongjaraunsuk",
+            "Wara Taparhudee",
+            "รุ่งพฤทธิ์ จงเจริญสุข",
+            "วราห์ เทพาหุดี"
+          ],
+          "year": "2022",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/417646",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Nile tilapia",
+            "Oreochromis niloticus",
+            "Fish culture",
+            "Fish feeding",
+            "Fish farms",
+            "Information technology",
+            "Information systems",
+            "Information processing",
+            "Farmers",
+            "Decision support",
+            "ปลานิล",
+            "การเพาะเลี้ยงปลา",
+            "การให้อาหารปลา",
+            "ฟาร์มปลา",
+            "แอปพลิเคชัน",
+            "เทคโนโลยีสารสนเทศ",
+            "ระบบสารสนเทศ",
+            "การเข้าถึงข้อมูล",
+            "ฐานข้อมูล",
+            "การสืบค้นสารสนเทศ",
+            "การจัดเก็บสารสนเทศ",
+            "การประมวลผลข้อมูล",
+            "เกษตรกร",
+            "การสนับสนุนการตัดสินใจ"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "wBjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Economic worthiness of the tilapia collaborative farming extension project in Chon Buri province",
+          "authors": [
+            "Atiya Wongwitwichote",
+            "Kulapa Kuldilok",
+            "Decharut Sukkumnoed",
+            "อติญา วงศ์วิทย์วิโชติ",
+            "กุลภา กุลดิลก",
+            "เดชรัต สุขกำเนิด"
+          ],
+          "year": "2021",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/413029",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis niloticus",
+            "Profitability",
+            "Cost benefit analysis",
+            "Extension activities",
+            "Fish culture",
+            "Collective farming",
+            "Thailand",
+            "ความสามารถในการทำกำไร",
+            "การวิเคราะห์ต้นทุน-ผลประโยชน์",
+            "กิจกรรมการส่งเสริม",
+            "การเพาะเลี้ยงปลา",
+            "การทำฟาร์มแบบรวมกลุ่ม",
+            "ประเทศไทย",
+            "Tilapia",
+            "Economic worthiness",
+            "Extension project",
+            "Collaborative farming",
+            "Chon Buri province",
+            "ปลานิล",
+            "ความคุ้มค่าทางเศรษฐกิจ",
+            "การส่งเสริม",
+            "การเลี้ยงปลา",
+            "เกษตรแปลงใหญ่",
+            "ต้นทุน",
+            "ผลตอบแทน",
+            "ผลประโยชน์",
+            "จ.ชลบุรี"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "wRjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "องค์ความรู้เพื่อแก้ไขปัญหาโรคไวรัสทิลาเปียเลคในปลานิลอย่างยั่งยืน: ผลงานวิจัยที่สร้างผลกระทบ",
+          "authors": [
+            "วิน สุรเชษฐพงษ์",
+            "ปุณธนาฒย์ ทัตติยพงศ์"
+          ],
+          "year": "2021",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/417782",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Tilapia",
+            "Tilapia lake virus",
+            "TiLV",
+            "Fish culture",
+            "Research",
+            "Fish detection",
+            "Diagnosis",
+            "ปลานิล",
+            "โรคไวรัสทิลาเปียเลค",
+            "การเพาะเลี้ยงปลา",
+            "การวิจัย",
+            "กลไกการก่อโรค",
+            "การตอบสนองภูมิคุ้มกัน",
+            "การควบคุมโรค",
+            "การวินิจฉัยโรค"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "whjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "The use of various instant noodles as a supplement to tilapia and hybrid catfish culture on growth rates and changes in water quality and fish meat quality",
+          "authors": [
+            "Suthin Somboon",
+            "Vichit Semachai",
+            "Anugul Amim",
+            "สุทิน สมบูรณ์",
+            "วิชิต เสมาชัย",
+            "อนุกูล เอมอิ่ม"
+          ],
+          "year": "2021",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/418550",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Tilapia",
+            "Oreochromis niloticus",
+            "Clarias",
+            "Fish culture",
+            "Aquaculture",
+            "Fish feeding",
+            "Instant foods",
+            "Animal performance",
+            "Mortality",
+            "Feed conversion efficiency",
+            "Growth",
+            "Water quality",
+            "ปลานิล",
+            "การเพาะเลี้ยงปลา",
+            "การเพาะเลี้ยงสัตว์น้ำ",
+            "การให้อาหารปลา",
+            "อาหารกึ่งสำเร็จรูป",
+            "สมรรถภาพของสัตว์",
+            "การตาย",
+            "ประสิทธิภาพการเปลี่ยนอาหารเป็นเนื้อ",
+            "การเติบโต",
+            "คุณภาพน้ำ",
+            "Catfish",
+            "Fish diet",
+            "Instant noodles",
+            "Feed supplements",
+            "Feed efficiency",
+            "Growth rates",
+            "Survival rates",
+            "Fish meat quality",
+            "ปลานิลแปลงเพศ",
+            "ปลาดุก",
+            "การเลี้ยงปลา",
+            "เส้นบะหมี่กึ่งสำเร็จรูป",
+            "อาหารเสริม",
+            "การปนเปื้อนของเชื้อรา",
+            "ประสิทธิภาพอาหารสัตว์",
+            "การเจริญเติบโตของสัตว์",
+            "อัตราการรอด",
+            "คุณภาพเนื้อปลา",
+            "คุณภาพซาก"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "wxjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "ปลาของพ่อ สินทรัพย์ของแผ่นดิน ความเสี่ยงในอุตสาหกรรมการเพาะเลี้ยงปลานิลที่เลี่ยงได้: ผลงานวิจัยที่สร้างผลกระทบ",
+          "authors": [
+            "ประพันธ์ศักดิ์ ศีรษะภูมิ",
+            "อิสริยา วุฒิสินธุ์"
+          ],
+          "year": "2021",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/419096",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Tilapia nilotica",
+            "Oreochromis niloticus",
+            "Fish culture",
+            "Fish diseases",
+            "Chemical contamination",
+            "Environmental factors",
+            "Climatic factors",
+            "Risk factors",
+            "Risk management",
+            "ปลานิล",
+            "การเพาะเลี้ยงปลา",
+            "โรคของปลา",
+            "การปนเปื้อนของสารเคมี",
+            "ปัจจัยสิ่งแวดล้อม",
+            "ปัจจัยทางภูมิอากาศ",
+            "ปัจจัยเสี่ยง",
+            "การจัดการความเสี่ยง"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "xBjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "The study of suitable rate for replacement of fishmeal by protein compound in red tilapia feed on growth and feed utilization efficiency",
+          "authors": [
+            "Suthin Somboon",
+            "Vichit Semachai",
+            "Anugul Amim",
+            "สุทิน สมบูรณ์",
+            "วิชิต เสมาชัย",
+            "อนุกูล เอมอิ่ม"
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/401574",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis niloticus",
+            "Feeds",
+            "Ingredients",
+            "Animal feeding",
+            "Proteins",
+            "Fish meal",
+            "Growth",
+            "Feed conversion efficiency",
+            "Carcasses",
+            "อาหารสัตว์",
+            "ส่วนผสม",
+            "การให้อาหารสัตว์",
+            "โปรตีน",
+            "ปลาป่น",
+            "การเติบโต",
+            "ประสิทธิภาพการเปลี่ยนอาหารเป็นเนื้อ",
+            "ซากสัตว์",
+            "Red tilapia",
+            "Protein compound",
+            "Fish diet",
+            "Feed utilization efficiency",
+            "ปลานิลแดง",
+            "โปรตีนคอมปาวด์",
+            "อาหารทดแทน",
+            "สูตรอาหาร",
+            "อัตราส่วน",
+            "การเจริญเติบโต",
+            "ประสิทธิภาพการใช้ประโยชน์จากอาหาร",
+            "องค์ประกอบทางโภชนาการ"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "xRjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Synthesis of reservoir management system for aquatic resource conservation and sustainable utilization: A case study of Ubolratana Reservoir: [Final research report]",
+          "authors": [
+            "Charumas Meksumpun",
+            "Sansanee Wangvoralak",
+            "Monnissa Srisomwong",
+            "Urairathr Nedtharnn",
+            "Jirarpast Adjimangkunl",
+            "Pichasit Sangmek",
+            "Santi Poungcharean",
+            "Kanyanat Soontornprasit",
+            "Pattira Kasamesiri",
+            "Shettapong Meksumpun",
+            "จารุมาศ เมฆสัมพันธ์",
+            "ศันสนีย์ หวังวรลักษณ์",
+            "มณช์นิศาษ์ ศรีสมวงศ์",
+            "อุไรรัฒท์ เนตรหาญ",
+            "จิราภัษ อัจจิมางกูร",
+            "พิชาศิษฐ์ แสงเมฆ",
+            "สันติ พ่วงเจริญ",
+            "กัญญาณัฐ สุนทรประสิทธิ์",
+            "ภัททิรา เกษมศิริ",
+            "เชษฐพงษ์ เมฆสัมพันธ์"
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/402634",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Water reservoirs",
+            "Water resources",
+            "Water management",
+            "Fishery resources",
+            "Resource conservation",
+            "Water quality",
+            "Freshwater ecology",
+            "Aquatic environment",
+            "Biodiversity",
+            "Sustainability",
+            "Uses",
+            "Oreochromis niloticus",
+            "Cage culture",
+            "Traditional fishing",
+            "Socioeconomic environment",
+            "Quality of life",
+            "Fishery management",
+            "Community involvement",
+            "Thailand",
+            "อ่างเก็บกักน้ำ",
+            "ทรัพยากรน้ำ",
+            "การจัดการน้ำ",
+            "ทรัพยากรประมง",
+            "การอนุรักษ์ทรัพยากร",
+            "คุณภาพน้ำ",
+            "นิเวศวิทยาในน้ำจืด",
+            "สภาพแวดล้อมทางน้ำ",
+            "ความหลากหลายทางชีวภาพ",
+            "ความยั่งยืน",
+            "การใช้",
+            "การเลี้ยงสัตว์น้ำในกระชัง",
+            "การประมงพื้นบ้าน",
+            "สภาพแวดล้อมทางเศรษฐกิจและสังคม",
+            "คุณภาพชีวิต",
+            "การจัดการประมง",
+            "การมีส่วนร่วมของชุมชน",
+            "ประเทศไทย",
+            "Water reservoir",
+            "Management system",
+            "Aquatic resource conservation",
+            "Ecology",
+            "Diversity",
+            "Nile tilapia",
+            "Fish culture",
+            "Fishery utilization",
+            "Sustainable utilization",
+            "Fishery communities",
+            "Socio-economic environment",
+            "Ubolratana Reservoir",
+            "อ่างเก็บน้ำ",
+            "ระบบการบริหารจัดการ",
+            "แหล่งน้ำ",
+            "นิเวศวิทยา",
+            "ความหลากหลาย",
+            "การใช้ประโยชน์อย่างยั่งยืน",
+            "ปลานิล",
+            "การเลี้ยงปลาในกระชัง",
+            "ชุมชนประมง",
+            "สภาพเศรษฐกิจและสังคม",
+            "การจัดการประมงร่วม",
+            "มาตรการทางการประมง",
+            "สมรรถนะชุมชน",
+            "อ่างเก็บน้ำเขื่อนอุบลรัตน์"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "xhjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Executive summary and the research program synthesis: Synthesis of reservoir management system for aquatic resource conservation and sustainable utilization: A case study of Ubolratana Reservoir",
+          "authors": [
+            "Charumas Meksumpun",
+            "Sansanee Wangvoralak",
+            "Monnissa Srisomwong",
+            "Urairathr Nedtharnn",
+            "Jirarpast Adjimangkunl",
+            "Shettapong Meksumpun",
+            "Santi Poungcharean",
+            "Kanyanat Soontornprasit",
+            "Pattira Kasamesiri",
+            "Pichasit Sangmek",
+            "จารุมาศ เมฆสัมพันธ์",
+            "ศันสนีย์ หวังวรลักษณ์",
+            "มณช์นิศาษ์ ศรีสมวงศ์",
+            "อุไรรัฒท์ เนตรหาญ",
+            "จิราภัษ อัจจิมางกูร",
+            "เชษฐพงษ์ เมฆสัมพันธ์",
+            "สันติ พ่วงเจริญ",
+            "กัญญาณัฐ สุนทรประสิทธิ์",
+            "ภัททิรา เกษมศิริ",
+            "พิชาศิษฐ์ แสงเมฆ"
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/402635",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Water reservoirs",
+            "Water resources",
+            "Water management",
+            "Fishery resources",
+            "Resource conservation",
+            "Water quality",
+            "Freshwater ecology",
+            "Aquatic environment",
+            "Biodiversity",
+            "Sustainability",
+            "Uses",
+            "Oreochromis niloticus",
+            "Cage culture",
+            "Traditional fishing",
+            "Socioeconomic environment",
+            "Quality of life",
+            "Fishery management",
+            "Community involvement",
+            "Thailand",
+            "อ่างเก็บกักน้ำ",
+            "ทรัพยากรน้ำ",
+            "การจัดการน้ำ",
+            "ทรัพยากรประมง",
+            "การอนุรักษ์ทรัพยากร",
+            "คุณภาพน้ำ",
+            "นิเวศวิทยาในน้ำจืด",
+            "สภาพแวดล้อมทางน้ำ",
+            "ความหลากหลายทางชีวภาพ",
+            "ความยั่งยืน",
+            "การใช้",
+            "การเลี้ยงสัตว์น้ำในกระชัง",
+            "การประมงพื้นบ้าน",
+            "สภาพแวดล้อมทางเศรษฐกิจและสังคม",
+            "คุณภาพชีวิต",
+            "การจัดการประมง",
+            "การมีส่วนร่วมของชุมชน",
+            "ประเทศไทย",
+            "Water reservoir",
+            "Management system",
+            "Aquatic resource conservation",
+            "Ecology",
+            "Diversity",
+            "Nile tilapia",
+            "Fish culture",
+            "Fishery utilization",
+            "Sustainable utilization",
+            "Fishery communities",
+            "Socio-economic environment",
+            "Ubolratana Reservoir",
+            "อ่างเก็บน้ำ",
+            "ระบบการบริหารจัดการ",
+            "แหล่งน้ำ",
+            "นิเวศวิทยา",
+            "ความหลากหลาย",
+            "การใช้ประโยชน์อย่างยั่งยืน",
+            "ปลานิล",
+            "การเลี้ยงปลาในกระชัง",
+            "ชุมชนประมง",
+            "สภาพเศรษฐกิจและสังคม",
+            "การจัดการประมงร่วม",
+            "มาตรการทางการประมง",
+            "สมรรถนะชุมชน",
+            "อ่างเก็บน้ำเขื่อนอุบลรัตน์"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "xxjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Irrigation water usage for aquaculture in Phan Thong district, Chon Buri province",
+          "authors": [
+            "Wanchana Prapawicha",
+            "Methee Kaewnern",
+            "วันชนะ ประภาวิชา",
+            "เมธี แก้วเนิน"
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/413882",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis niloticus",
+            "Fish culture",
+            "Polyculture (aquaculture)",
+            "Water resources",
+            "Resource management",
+            "Irrigation water",
+            "Canals",
+            "Water use",
+            "Thailand",
+            "การเพาะเลี้ยงปลา",
+            "การเพาะเลี้ยงหลากชนิด (การเพาะเลี้ยงสัตว์น้ำ)",
+            "ทรัพยากรน้ำ",
+            "การจัดการทรัพยากร",
+            "น้ำชลประทาน",
+            "คลอง",
+            "การใช้น้ำ",
+            "ประเทศไทย",
+            "Tilapia culture",
+            "Polyculture",
+            "Aquaculture",
+            "Water usage",
+            "Water resource management",
+            "Irrigation water usage",
+            "Chon Buri province",
+            "ปลานิล",
+            "การเลี้ยงปลา",
+            "การเลี้ยงสัตว์น้ำหลายชนิด",
+            "การเพาะเลี้ยงแบบรวม",
+            "การจัดการทรัพยากรน้ำ",
+            "คลองชลประทาน",
+            "จ.ชลบุรี อ.พานทอง"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "yBjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Optimal period for iodine supplementation in diet on growth performance, carcass composition and chemical compositions of Tilapia (Oreochromis niloticus)",
+          "authors": [
+            "Chanida Saengsalasai",
+            "Ornprapun Songserm",
+            "Sukanya Rattanatabtimtong",
+            "Suchart Ingthamjitr",
+            "ชนิดา แสงศาลาศรี",
+            "อรประพันธ์ ส่งเสริม",
+            "สุกัญญา รัตนทับทิมทอง",
+            "สุชาติ อิงธรรมจิตร์"
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/411277",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis niloticus",
+            "Feeds",
+            "Iodine",
+            "Supplements",
+            "Timing",
+            "Fish feeding",
+            "Growth",
+            "Carcass composition",
+            "Chemical composition",
+            "อาหารสัตว์",
+            "ไอโอดีน",
+            "สารเสริม",
+            "ช่วงเวลาที่เหมาะสม",
+            "การให้อาหารปลา",
+            "การเติบโต",
+            "ส่วนประกอบของซากสัตว์",
+            "องค์ประกอบทางเคมี",
+            "Tilapia",
+            "Diet",
+            "Supplementation",
+            "Optimal period",
+            "Growth performance",
+            "ปลานิล",
+            "อาหารปลา",
+            "การเสริม",
+            "การเจริญเติบโต",
+            "องค์ประกอบซาก"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "yRjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Characterization of acidic tuna protease and its application for extraction of tilapia collagen hydrolysate",
+          "authors": [
+            "Patwarin Tohmadlae",
+            "Wanchai Worawattanamateekul",
+            "Jirapa Hinsui"
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/418348",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Tilapia",
+            "Skin",
+            "Collagen",
+            "Proteases",
+            "Tuna",
+            "Pepsin",
+            "Stomach",
+            "Extraction",
+            "ปลานิล",
+            "ผิวหนัง",
+            "คอลลาเจน",
+            "โปรตีเอส",
+            "ปลาทูน่า",
+            "เปปซิน",
+            "กระเพาะอาหาร",
+            "การสกัด",
+            "Tilapia skin",
+            "Fish skin",
+            "Collagen hydrolysate",
+            "Protease",
+            "Tuna pepsin",
+            "หนังปลานิล",
+            "คอลลาเจนไฮโดรไลเสต"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "yhjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effects of additional cassava pulp meal and fibrolytic enzymes in Nile tilapia (Oreochromis niloticus L.) diets on digestibility and growth performance",
+          "authors": [
+            "Sittichai Hatachote",
+            "Kednapat Sriphairoj",
+            "Orapin Jintasataporn",
+            "Srinoy Chumkam",
+            "สิทธิชัย ฮะทะโชติ",
+            "เกตุนภัส ศรีไพโรจน์",
+            "อรพินท์ จินตสถาพร",
+            "ศรีน้อย ชุ่มคำ"
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/405987",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis niloticus",
+            "Feeds",
+            "Enzymes",
+            "Cellulase",
+            "Cassava",
+            "Ingredients",
+            "Supplements",
+            "Fish feeding",
+            "Digestibility",
+            "Growth",
+            "อาหารสัตว์",
+            "เอนไซม์",
+            "เซลลูเลส",
+            "มันสำปะหลัง",
+            "ส่วนผสม",
+            "สารเสริม",
+            "การให้อาหารปลา",
+            "ความสามารถย่อยอาหาร",
+            "การเติบโต",
+            "Nile tilapia",
+            "Diets",
+            "Fibrolytic enzymes",
+            "Cassava pulp meal",
+            "ปลานิล",
+            "อาหารปลา",
+            "เอนไซม์ย่อยเยื่อใย",
+            "ไซลาเนส",
+            "แมนนาเนส",
+            "กากมันสำปะหลัง",
+            "สูตรอาหาร",
+            "อาหารเสริม",
+            "การให้อาหาร",
+            "ประสิทธิภาพการย่อยได้",
+            "การเจริญเติบโต"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "yxjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Cost-benefit of Nile tilapia (Oreochromis niloticus) cultured in Sakon Nakhon province",
+          "authors": [
+            "Sittichai Hatachote",
+            "Kednapat Sriphairoj",
+            "Orapin Jintasataporn",
+            "Srinoy Chumkam",
+            "สิทธิชัย ฮะทะโชติ",
+            "เกตุนภัส ศรีไพโรจน์",
+            "อรพินท์ จินตสถาพร",
+            "ศรีน้อย ชุ่มคำ"
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/406070",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis niloticus",
+            "Fish culture",
+            "Cost benefit analysis",
+            "Stocking density",
+            "Feed conversion efficiency",
+            "Survival",
+            "Yields",
+            "Marketing",
+            "Prices",
+            "Thailand",
+            "การเพาะเลี้ยงปลา",
+            "การวิเคราะห์ต้นทุน-ผลประโยชน์",
+            "ความหนาแน่นของสัตว์ต่อพื้นที่",
+            "ประสิทธิภาพการเปลี่ยนอาหารเป็นเนื้อ",
+            "การอยู่รอด",
+            "ผลผลิต",
+            "การตลาด",
+            "ราคา",
+            "ประเทศไทย",
+            "Nile tilapia",
+            "Cost",
+            "Benefit",
+            "Sakon Nakhon province",
+            "ปลานิล",
+            "การเลี้ยงปลา",
+            "ต้นทุน",
+            "ผลตอบแทน",
+            "อัตราการปล่อย",
+            "อัตราการเปลี่ยนอาหารเป็นเนื้อ",
+            "อัตราการรอด",
+            "จ.สกลนคร"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "zBjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Virulence properties and pathogenicity of Flavobacterium columnare in hybrid red tilapia (Oreochromis sp.)",
+          "authors": [
+            "Le Dinh Hai",
+            "Putita Chockmangmeepisan",
+            "Rungnapa Sakulworakan",
+            "Ha Thanh Dong",
+            "Pattanapon Kayansamruaj",
+            "Tiladit Rung-ruangkijkrai",
+            "Nopadon Pirarat",
+            "Channarong Rodkhum"
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/406723",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis",
+            "Hybrids",
+            "Flavobacterium",
+            "Pathogenicity",
+            "Fish diseases",
+            "ลูกผสม",
+            "ความสามารถในการทำให้เกิดโรค",
+            "โรคของปลา",
+            "Oreochromis sp.",
+            "Hybrid red tilapia",
+            "Flavobacterium columnare",
+            "Virulence properties",
+            "Columnaris disease",
+            "ปลานิลแดงลูกผสม",
+            "ฟลาโวแบคทีเรียม",
+            "ความรุนแรงของเชื้อ",
+            "ความสามารถในการก่อโรค",
+            "โรคคอลัมนาริส"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "zRjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of dietary supplementation of Thunbergia laurifolia Linn. (Rang Chuet) on muscular lipid peroxidation in Nile Tilapia (Oreochromis niloticus)",
+          "authors": [
+            "Natthana Thitichayaphong",
+            "Wuttikij Ruangpoonga",
+            "Chatchai Tangwongprasert",
+            "Chanon Suriyapromchai",
+            "Thammasit Techasriamornrat",
+            "Bundit Laphatbuntawee",
+            "ณัฏฐ์ธน ฐิติชญาพงษ์",
+            "วุฒิกิจ เรืองภูงา",
+            "ฉัตรชัย ตังวงศ์ประเสริฐ",
+            "ชานน สุริยะพรหมชัย",
+            "ธรรมสิทธิ์ เตชะศรีอมรรัตน์",
+            "บัณฑิต ลภัสบุญทวี"
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/408588",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Tilapia",
+            "Oreochromis niloticus",
+            "Acanthaceae",
+            "Supplements",
+            "Lipid peroxidation",
+            "Muscles",
+            "ปลานิล",
+            "สารเสริม",
+            "ปฏิกิริยาออกซิเดชั่นของไขมัน",
+            "กล้ามเนื้อ",
+            "Nile Tilapia",
+            "Thunbergia laurifolia",
+            "Rang Chuet",
+            "Supplement",
+            "Muscle",
+            "Dietary",
+            "Supplementation",
+            "รางจืด",
+            "อาหารเสริม",
+            "ลิปิดเปอร์ออกซิเดชัน",
+            "การให้อาหาร",
+            "การลดปฏิกิริยา"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "zhjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Acute toxicity and LC50 of copper nanoparticles (Cu-NPs) in aquatic animals and its effects on aquatic plants",
+          "authors": [
+            "Printip Wongthai",
+            "Pongluck Yuktatat",
+            "Warinporn Sriaphiphan",
+            "Sarun Tiptirapong",
+            "Natthana Thitichayaphong",
+            "ปริญทิพย์ วงศ์ไทย",
+            "พงศ์ลักษณ์ ยุกตะทัต",
+            "วรินทร์พร ศรีอภิพันธ์",
+            "ศรัณย์ ทิพย์ถิระพงศ์",
+            "ณัฏฐ์ธน ฐิติชญาพงษ์"
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/408598",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Aquatic animals",
+            "Aquatic plants",
+            "Toxicity",
+            "Residues",
+            "Copper",
+            "Mortality",
+            "Tilapia",
+            "Danio rerio",
+            "Oreochromis niloticus",
+            "Macrobrachium lanchesteri",
+            "Pomacea",
+            "Symptoms",
+            "สัตว์น้ำ",
+            "พืชน้ำ",
+            "ความเป็นพิษ",
+            "พิษตกค้าง",
+            "ทองแดง",
+            "การตาย",
+            "ปลานิล",
+            "อาการ",
+            "Aquatic animal",
+            "Nanoparticle",
+            "Pomacea flagellata",
+            "Anubias nana",
+            "Egeria densa",
+            "Nile tilapia",
+            "Zebra fish",
+            "Riceland prawn",
+            "Apple snail",
+            "Brazilian water weed",
+            "Symptom",
+            "Concentrations",
+            "นาโนคอปเปอร์",
+            "ปลาม้าลาย",
+            "กุ้งฝอย",
+            "หอยแอปเปิ้ล",
+            "อนูเบียส",
+            "สาหร่ายเดนซ่า",
+            "ผลกระทบ"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "zxjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Update on francisellosis in tilapia",
+          "authors": [
+            "Theeraporn Pulpipat",
+            "Pei-Chi Wang",
+            "Shih-Chu Chen"
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/427616",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Tilapia",
+            "Francisella",
+            "Diagnosis",
+            "Pathogenicity",
+            "Vaccines",
+            "Vaccination",
+            "Disease control",
+            "Infectious diseases",
+            "Fish diseases",
+            "ปลานิล",
+            "การวินิจฉัยโรค",
+            "ความสามารถในการทำให้เกิดโรค",
+            "วัคซีน",
+            "การให้วัคซีน",
+            "การควบคุมโรค",
+            "โรคติดเชื้อ",
+            "โรคของปลา",
+            "Nile tilapia",
+            "Oreochromis niloticus",
+            "Francisellosis",
+            "Francisella orientalis",
+            "Vaccine",
+            "โรคฟรานซิสเซลโลซิส",
+            "ฟรานซิสเซลลา",
+            "แบคทีเรีย",
+            "การเกิดโรค",
+            "โรคปลา"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "0BjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "A novel orthomyxo-like virus that affects global tilapia aquaculture",
+          "authors": "Win Surachetpong",
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/427618",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis",
+            "Tilapia",
+            "Tilapia (genus)",
+            "Fish diseases",
+            "Viroses",
+            "Orthomyxoviridae",
+            "Aquaculture",
+            "Vaccination",
+            "Viruses",
+            "Disease control",
+            "Vaccines",
+            "Immunity",
+            "ปลานิล",
+            "โรคของปลา",
+            "โรคที่เกิดจากเชื้อไวรัส",
+            "การเพาะเลี้ยงสัตว์น้ำ",
+            "การให้วัคซีน",
+            "เชื้อไวรัส",
+            "การควบคุมโรค",
+            "วัคซีน",
+            "ภูมิคุ้มกัน",
+            "Nile tilapia",
+            "Oreochromis niloticus",
+            "Tilapia lake virus disease",
+            "TiLVD",
+            "Tilapia lake virus",
+            "TiLV",
+            "Orthomyxo-like virus",
+            "Infectious diseases",
+            "โรคปลา",
+            "ไวรัสทิลาเปียเลค",
+            "ทีไอแอลวี",
+            "ไวรัสคล้ายออโธมิกโซ",
+            "โรคอุบัติใหม่",
+            "โรคติดเชื้อ",
+            "การป้องกันโรค"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "0RjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Screening possibility insects as an alternative sustainable protein sources for Nile tilapia (Oreochromis niloticus) using in vitro digestibility technique",
+          "authors": [
+            "Phacharaphat Seemuang",
+            "Pipatpong Chundang",
+            "Uthaiwan Kovitvadhi",
+            "Attawit Kovitvadhi"
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/427879",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis niloticus",
+            "Stratiomyidae",
+            "Tenebrio molitor",
+            "Tenebrionidae",
+            "Musca domestica",
+            "Pyralidae",
+            "Lepidoptera",
+            "Acheta domesticus",
+            "Crude protein",
+            "Digestibility",
+            "In vitro experimentation",
+            "ค่าโปรตีนโดยประมาณ",
+            "ความสามารถย่อยอาหาร",
+            "การทดลองในสภาพหลอดทดลอง",
+            "Nile tilapia",
+            "Insects",
+            "Black soldier fly",
+            "Hermetia illucens",
+            "Beetle worms",
+            "Zophobas morio",
+            "Achroia grisella",
+            "Lesser wax moth",
+            "In vitro digestibility",
+            "ปลานิล",
+            "แมลงวันลาย",
+            "หนอนแมลงวันลาย",
+            "หนอนนก",
+            "แมลง",
+            "โซโฟบัส โมริโอ",
+            "หนอนยักษ์",
+            "ซูเปอร์เวิร์ม",
+            "แมลงวันบ้าน",
+            "มอดขี้ผึ้งน้อย",
+            "จิ้งหรีดทองแดงลาย",
+            "โปรตีนทางเลือก",
+            "การย่อยได้",
+            "สภาพหลอดทดลอง",
+            "โปรตีนหยาบ"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "0hjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effects of dietary supplementation with broccoli sprouts (Brassica oleracea) on the hematology and immunological responses of Nile tilapia (Oreochromis niloticus)",
+          "authors": [
+            "Duangjai Pisuttharachai",
+            "Warrapong Nalinanon",
+            "Nontawith Areechon"
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20008486",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Nile tilapia",
+            "Oreochromis niloticus",
+            "Broccoli sprouts",
+            "Dietary supplementation",
+            "Hematology",
+            "Phagocytic activity",
+            "Immunological responses",
+            "Tilapia",
+            "Tilapia (genus)",
+            "Broccoli",
+            "Brassica oleracea",
+            "Rations",
+            "Supplementary feeding",
+            "Erythrocytes",
+            "Haematocrit",
+            "Immunology",
+            "Immune response",
+            "Phagocytosis",
+            "ปลานิล",
+            "บร็อคโคลี่",
+            "อาหารเลี้ยงสัตว์",
+            "การให้อาหารเสริม",
+            "เม็ดเลือดแดง",
+            "ปริมาตรเม็ดเลือดแดงในเลือด",
+            "ภูมิคุ้มกันวิทยา",
+            "การตอบสนองทางภูมิคุ้มกัน",
+            "การกำจัดอนุภาคแปลกปลอม",
+            "อาหารปลา",
+            "ต้นอ่อนบรอกโคลี",
+            "สูตรอาหาร",
+            "การเสริม",
+            "การให้อาหาร",
+            "โลหิตวิทยา",
+            "เม็ดเลือดขาว",
+            "การจับกินสิ่งแปลกปลอม"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "0xjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "In vitro screening of potential probiotic lactic acid bacteria isolated from intestinal contents and gills of nile tilapia",
+          "authors": [
+            "Prachom, N.",
+            "Rumjuankiat, K.",
+            "Sanguankiat, A.",
+            "Boonyoung, S.",
+            "Pilasombut, K."
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20008879",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis niloticus",
+            "ปลา",
+            "เหงือกของสัตว์น้ำ",
+            "ลำไส้",
+            "Bacillus coagulans",
+            "Pseudomonas fluorescens",
+            "Salmonella typhimurium",
+            "Escherichia coli",
+            "Listeria",
+            "แบคทีเรียที่ผลิตกรดแลคติค",
+            "จุลินทรีย์ประจำถิ่น",
+            "กรดแลคติค",
+            "โปรไบโอติก",
+            "เทคนิคการทำไอโซเลชั่น",
+            "การวิเคราะห์ทางจุลชีววิทยา",
+            "การจัดจำแนก",
+            "ความทนทาน",
+            "Nile tilapia",
+            "Gills",
+            "Intestine",
+            "Listeria innocua",
+            "Lactic acid bacteria",
+            "Probiotics",
+            "Isolation",
+            "Microbial identification",
+            "Antagonistic activity",
+            "Antimicrobial activity",
+            "Acid tolerance",
+            "NaCl tolerance",
+            "Fresh bile tolerance",
+            "ปลานิล",
+            "เหงือก",
+            "แบคทีเรีย",
+            "สายพันธุ์",
+            "การจำแนกเชื้อ",
+            "กรดแลคติก",
+            "Fishes",
+            "Intestines",
+            "Microbial flora",
+            "Lactic acid",
+            "Isolation techniques",
+            "Microbiological analysis",
+            "Identification",
+            "Tolerance"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "1BjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Positive genetic correlation between resistance to aeromonasis and streptococcosis in nile tilapia Oreochromis niloticus (Linnaeus, 1758)",
+          "authors": [
+            "Sila Sukhavachana",
+            "Kongphop Ampolsak",
+            "Supawadee Poompuang"
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20011248",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Nile tilapia",
+            "Oreochromis niloticus",
+            "Bacterial diseases",
+            "Streptococcus agalactiae",
+            "Streptococcosis",
+            "Aeromonas hydrophila",
+            "Aeromonasis",
+            "Genetic correlation",
+            "Heritability",
+            "Model accuracy",
+            "Diseases resistance",
+            "Tilapia",
+            "Fishes",
+            "Fish diseases",
+            "Bacterioses",
+            "Animal breeding",
+            "Genetic inheritance",
+            "Disease resistance",
+            "ปลานิล",
+            "ปลา",
+            "โรคของปลา",
+            "โรคที่เกิดจากแบคทีเรีย",
+            "การปรับปรุงพันธุ์สัตว์",
+            "สหสัมพันธ์ทางพันธุกรรม",
+            "อัตราพันธุกรรม",
+            "การถ่ายทอดทางพันธุกรรม",
+            "ความต้านทานโรค",
+            "โรคจากแบคทีเรีย",
+            "เชื้อแบคทีเรีย",
+            "พันธุกรรม"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "1RjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of additional cassava peel meal and fibrolytic enzymes in Nile tilapia (Oreochromis niloticus) diets on digestibility and growth performance",
+          "authors": [
+            "Sittichai Hatachote",
+            "Kednapat Sriphairoj",
+            "Orapin Jintasataporn",
+            "Srinoy Chumkam",
+            "สิทธิชัย ฮะทะโชติ",
+            "เกตุนภัส ศรีไพโรจน์",
+            "อรพินท์ จินตสถาพร",
+            "ศรีน้อย ชุ่มคำ"
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/399096",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis niloticus",
+            "Feeds",
+            "Ingredients",
+            "Enzymes",
+            "Cassava",
+            "Peel",
+            "Fish feeding",
+            "Digestibility",
+            "Growth",
+            "อาหารสัตว์",
+            "ส่วนผสม",
+            "เอนไซม์",
+            "มันสำปะหลัง",
+            "เปลือก",
+            "การให้อาหารปลา",
+            "ความสามารถย่อยอาหาร",
+            "การเติบโต",
+            "Nile tilapia",
+            "Diets",
+            "Fibrolytic enzymes",
+            "Cassava peel meal",
+            "Growth performance",
+            "ปลานิล",
+            "อาหารปลา",
+            "สูตรอาหาร",
+            "เอนไซม์ย่อยเยื่อใย",
+            "เปลือกมันสำปะหลัง",
+            "การเสริม",
+            "การให้อาหาร",
+            "ประสิทธิภาพการย่อยได้",
+            "การเจริญเติบโต"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "1hjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Immunoproteomics analysis assisted multiepitope subunit vaccine for streptococcosis disease",
+          "authors": [
+            "Ansaya Pumchan",
+            "Orathai Sawatdichaikul",
+            "Nontawith Areechon",
+            "Hidehiro Kondo",
+            "Ikuo Hirono",
+            "Sasimanas Unajak"
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/402207",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis aureus",
+            "Fish diseases",
+            "Streptococcus agalactiae",
+            "Bacteria",
+            "Radioimmunoassay",
+            "Immunological techniques",
+            "Disease control",
+            "Bacterioses",
+            "Vaccination",
+            "โรคของปลา",
+            "แบคทีเรีย",
+            "การวิเคราะห์ภูมิคุ้มกันทางรังสีวิทยา",
+            "เทคนิคทางภูมิคุ้มกันวิทยา",
+            "การควบคุมโรค",
+            "โรคที่เกิดจากแบคทีเรีย",
+            "การให้วัคซีน",
+            "Tilapia",
+            "Streptococcosis disease",
+            "Disease prevention",
+            "Subunit vaccine",
+            "Multiepitope",
+            "Vaccination method",
+            "Immunoproteomics analysis",
+            "ปลานิล",
+            "โรคปลา",
+            "การป้องกันโรค",
+            "อิมมูโนโกลบูลิน",
+            "การผลิตวัคซีน"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "1xjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "A study on the physical quality and nutrients of nile tilapia fish by moist heat treatment",
+          "authors": [
+            "Onnalin Inkaew",
+            "Marisa Phupinyokul",
+            "Witcha Treesuwan",
+            "อรนลิน อินทร์แก้ว",
+            "มาริษา ภู่ภิญโญกุล",
+            "วิชชา ตรีสุวรรณ"
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/389095",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Tilapia",
+            "Oreochromis niloticus",
+            "Fish",
+            "Heat treatment",
+            "Food processing",
+            "Boiling",
+            "Steaming",
+            "Organoleptic properties",
+            "Discoloration",
+            "Texture",
+            "Firmness",
+            "Nutritive value",
+            "Quality",
+            "ปลานิล",
+            "ปลา (ผลิตภัณฑ์)",
+            "การปฏิบัติโดยใช้ความร้อน",
+            "กรรมวิธีการผลิตอาหาร",
+            "การต้ม",
+            "การอบไอน้ำ",
+            "คุณสมบัติทางประสาทสัมผัส",
+            "การเปลี่ยนสี",
+            "เนื้อสัมผัส",
+            "ความแน่นเนื้อ",
+            "คุณค่าทางโภชนาการ",
+            "คุณภาพ",
+            "Nile tilapia fish",
+            "Fish meat",
+            "Cooking",
+            "Moist heat treatment",
+            "Heated process",
+            "Sous vide",
+            "Colour",
+            "Nutritional value",
+            "Amino acid",
+            "Total phosphorus",
+            "Calcium",
+            "Iron",
+            "เนื้อปลานิล",
+            "กระบวนการปรุงสุก",
+            "การปรุงด้วยความร้อนชื้น",
+            "การนึ่ง",
+            "การซูวิด",
+            "คุณภาพทางกายภาพ",
+            "น้ำหนัก",
+            "ความหนาของชิ้นเนื้อปลา",
+            "การเปลี่ยนแปลงของสี",
+            "คุณค่าทางอาหาร",
+            "กรดอะมิโน",
+            "ฟอสฟอรัสทั้งหมด",
+            "แคลเซียม",
+            "ธาตุเหล็ก"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "2BjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Approval of isolated bacteria from the proximal intestine of nile tilapia using microbiological and molecular analysis",
+          "authors": [
+            "Suchanit Ngamkala",
+            "Wuttinun Raksajit",
+            "Khomson Satchasataporn",
+            "สุชนิทธิ์ งามกาละ",
+            "วุฒินันท์ รักษาจิตร์",
+            "คมสัน สัจจะสถาพร"
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/396016",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Lactobacillus",
+            "Tilapia",
+            "Bacteria",
+            "Bacterioses",
+            "Identification",
+            "Probiotics",
+            "Disease control",
+            "ปลานิล",
+            "แบคทีเรีย",
+            "โรคที่เกิดจากแบคทีเรีย",
+            "การจัดจำแนก",
+            "โปรไบโอติก",
+            "การควบคุมโรค",
+            "Lactobacillus rhamnosus",
+            "Microbiological method",
+            "PCR",
+            "Bacterial culture",
+            "Nile tilapia",
+            "Molecular analysis",
+            "โรค",
+            "ลำไส้ส่วนต้น",
+            "วิธีทางจุลชีววิทยา",
+            "ชีววิทยาโมเลกุล",
+            "การเพาะเชื้อแบคทีเรีย",
+            "แบคทีเรียจากลำไส้ส่วนต้น",
+            "แบคทีเรียกรดแลคติก",
+            "ปฏิกิริยาลูกโซ่โพลีเมอเรส",
+            "โรคที่เกิดจากการติดเชื้อแบคทีเรีย",
+            "โปรไบโอติกส์แบคทีเรีย"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "2RjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Recombinant Tilapia lake virus (TiLV) protein from Baculovirus expression insect cell system for vaccine production",
+          "authors": [
+            "Xiaomin Wang",
+            "Triwit Rattanarojpong",
+            "Phenjun Mekvichitsaeng",
+            "Saengchai Akeprathumchai",
+            "Pongsak Khunrae",
+            "Kanokwan Poomputsa"
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/419905",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis niloticus",
+            "Viroses",
+            "Fish diseases",
+            "Viruses",
+            "Vaccines",
+            "Recombinant proteins",
+            "Baculoviridae",
+            "Hosts",
+            "Disease control",
+            "โรคที่เกิดจากเชื้อไวรัส",
+            "โรคของปลา",
+            "เชื้อไวรัส",
+            "วัคซีน",
+            "รีคอมบิแนนท์โปรตีน",
+            "ผู้ถูกอาศัย",
+            "การควบคุมโรค",
+            "Tilapia",
+            "Oreochromis sp.",
+            "Tilapia lake virus",
+            "TiLV",
+            "Recombinant TiLV-S6 protein",
+            "TiLV-S6 vaccine",
+            "Baculovirus expression insect cell system",
+            "Vaccine production",
+            "ปลานิล",
+            "โรคไวรัสทิลาเปียเลค",
+            "เชื้อไวรัสTiLV",
+            "วัคซีน TiLV-S6",
+            "โปรตีนลูกผสม",
+            "โปรตีน TiLV-S6",
+            "เซลล์แมลง",
+            "แบคคิวโลไวรัส",
+            "การผลิตวัคซีน"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "2hjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Oxygen consumption rates of hybrid red tilapia at different sizes during challenge to water velocity",
+          "authors": [
+            "Jesada Is-haak",
+            "Methee Kaewnern",
+            "Ruangvit Yoonpundh",
+            "Wara Taparhudee"
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20007460",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Hybrid red tilapia",
+            "Fish size",
+            "Oxygen consumption rate",
+            "OC rates",
+            "Water velocity",
+            "Tilapia",
+            "Oreochromis",
+            "Body measurements",
+            "Animal physiology",
+            "Physiological functions",
+            "Oxygen consumption",
+            "Water quality",
+            "ปลานิล",
+            "การวัดขนาดร่างกาย",
+            "สรีรวิทยาของสัตว์",
+            "หน้าที่ทางสรีรวิทยา",
+            "การใช้ออกซิเจน",
+            "คุณภาพน้ำ",
+            "ปลานิลแดงลูกผสม",
+            "ขนาดตัว",
+            "ความเร็วของกระแสน้ำ"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "2xjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of different feed loading on sediment accumulation rate and carbon burial rate in the polyculture system of nile tilapia (Oreochromis niloticus) and pacific white shrimp (Litopenaeus vannamei)",
+          "authors": [
+            "Sawika Kunlapapuk",
+            "Idsariya Wudtisin",
+            "Ruangvit Yoonpundh",
+            "Soranut Sirisuay"
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20007465",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Nile tilapia",
+            "Pacific white shrimp",
+            "Polyculture",
+            "Feed loading",
+            "Feeding rate",
+            "Nutrient composition",
+            "Carbon burial rate",
+            "Sediment accumulation rate",
+            "Chonburi province",
+            "Oreochromis niloticus",
+            "Tilapia (genus)",
+            "Penaeidae",
+            "Prawns and shrimps",
+            "Aquaculture",
+            "Fish feeding",
+            "Feeding systems",
+            "Fish ponds",
+            "Water analysis",
+            "Water quality",
+            "Carbon",
+            "Sedimentation",
+            "Thailand",
+            "กุ้ง",
+            "การเพาะเลี้ยงสัตว์น้ำ",
+            "การให้อาหารปลา",
+            "ระบบการให้อาหารสัตว์",
+            "บ่อปลา",
+            "การวิเคราะห์น้ำ",
+            "คุณภาพน้ำ",
+            "คาร์บอน",
+            "การตกตะกอน",
+            "ประเทศไทย",
+            "ปลานิล",
+            "กุ้งขาว",
+            "ระบบการเลี้ยงแบบผสมผสาน",
+            "ปริมาณการให้อาหาร",
+            "อัตราการสะสมตะกอน",
+            "จ.ชลบุรี อ.พานทอง"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "3BjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Economic analysis of commercial investment for seed production of sex reversal of nile tilapia (Oreochromis niloticus Linn.) in Khamphaengsaen Fisheries Research Station, Faculty of Fisheries Kasetsart University",
+          "authors": [
+            "Prakoon Salikara",
+            "Natthapong Paankhao",
+            "ประคุณ ศาลิกร",
+            "ณัฐพงษ์ ปานขาว"
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20011055",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Tilapia",
+            "Oreochromis niloticus",
+            "Sex differentiation",
+            "Fish culture",
+            "Aquaculture",
+            "Commercial farming",
+            "Economic analysis",
+            "Cost benefit analysis",
+            "Production costs",
+            "Farm income",
+            "Profit",
+            "Investment",
+            "Impact assessment",
+            "Feasibility studies",
+            "Pilot farms",
+            "Educational institutions",
+            "Higher education",
+            "Universities",
+            "Thailand",
+            "ปลานิล",
+            "การเปลี่ยนสภาพเพศ",
+            "การเพาะเลี้ยงปลา",
+            "การเพาะเลี้ยงสัตว์น้ำ",
+            "การเกษตรเชิงพาณิชย์",
+            "การวิเคราะห์เศรษฐกิจ",
+            "การวิเคราะห์ต้นทุน-ผลประโยชน์",
+            "ต้นทุนในการผลิต",
+            "รายได้จากการทำฟาร์ม",
+            "กำไร",
+            "การลงทุน",
+            "การประเมินผลกระทบ",
+            "การศึกษาความเป็นไปได้ของโครงการ",
+            "ฟาร์มทดลอง",
+            "สถาบันการศึกษา",
+            "อุดมศึกษา",
+            "มหาวิทยาลัย",
+            "ประเทศไทย",
+            "Nile tilapia",
+            "Sex reversal",
+            "Commercial investment",
+            "Cost",
+            "Income",
+            "Benefit",
+            "Investigate feasibility",
+            "Khamphaengsaen Fisheries Research Station",
+            "Faculty of Fisheries",
+            "Kasetsart University",
+            "ลูกปลานิล",
+            "การแปลงเพศ",
+            "การผลิตลูกปลานิล",
+            "การผลิตเชิงพาณิชย์",
+            "ต้นทุน",
+            "ผลตอบแทน",
+            "ความคุ้มค่า",
+            "ผลกระทบของการผลิต",
+            "สถาบันอุดมศึกษา",
+            "สถานีวิจัยประมงกำแพงแสน",
+            "คณะประมง",
+            "มหาวิทยาลัยเกษตรศาสตร์"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "3RjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Utilization of effluent from nitrifying biofilter tank of recirculating Nile tilapia farm to cultivate microalgal Scenedesmus armatus",
+          "abstract": "This research cultivates microalgal Scenedesmus armatus using effluent containing high nitrate concentration from nitrifying biofilter tanks of commercial recirculating tilapia culture system to produce microalgal biomass and lutein. The 9-days batch cultivation of S. armatus in 1-L photobioreactors using nitrifying effluent was conducted and compared with the cultivation using the standard BG-11 medium under the same condition. The results revealed that the cultivation using nitrifying effluent had biomass productivity and lutein content of 71.71 mg/L.d and 1.12 mg/g, respectively, which were statistically insignificant difference (p 0.05) from those cultured with BG-11 medium. The obtained results implied that the concurrent production of microalgal biomass and high-valued chemicals were possible using low cost resource such as the effluent from recirculating aquaculture.",
+          "authors": [
+            "Kittikoon Sucunthowong",
+            "Sorawit Powtongsook",
+            "Kasidit Nootong",
+            "กิตติคุณ สุคันโธวงศ์",
+            "สรวิศ เผ่าทองศุข",
+            "กษิดิศ หนูทอง"
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20009178",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Scenedesmus armatus",
+            "Microalgal",
+            "Aquaculture",
+            "Nitrifying biofilter tanks",
+            "Effluent",
+            "Wastewater",
+            "Nile tilapia farm",
+            "Recirculating",
+            "Nitrate",
+            "Biomass",
+            "Lutein",
+            "จุลสาหร่าย",
+            "การเพาะเลี้ยงสาหร่าย",
+            "ถังปฏิกรณ์ชีวภาพเชิงแสง",
+            "ถังบำบัดไนทริฟิเคชัน",
+            "น้ำเสีย",
+            "น้ำทิ้ง",
+            "ฟาร์มเลี้ยงปลานิล",
+            "น้ำหมุนเวียน",
+            "ไนเทรต",
+            "ชีวมวล",
+            "ลูทีน",
+            "Scenedesmus",
+            "Algae",
+            "Culture techniques",
+            "Wastewater treatment",
+            "Tanks",
+            "Nitrification",
+            "Oreochromis niloticus",
+            "Fish farms",
+            "Xanthophylls",
+            "สาหร่าย",
+            "เทคนิคการเพาะเลี้ยง",
+            "การบำบัดน้ำเสีย",
+            "แทงค์",
+            "ไนทริฟิเคชัน",
+            "ฟาร์มปลา",
+            "มวลชีวภาพ",
+            "แซนโทฟิลล์"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "3hjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "56. Kasetsart University Annual Conference",
+          "authors": [
+            "Aksorn Saengtienchai",
+            "อักษร แสงเทียนชัย",
+            "Win Surachetpong",
+            "Usuma Jermnak",
+            "Napasorn Phaochoosak",
+            "วิน สุรเชษฐพงษ์",
+            "อุสุมา เจิมนาค",
+            "นภสร เผ่าชูศักดิ์"
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/383253",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Tilapia",
+            "Oreochromis aureus",
+            "Cage culture",
+            "Antibiotic properties",
+            "ปลานิล",
+            "การเลี้ยงสัตว์น้ำในกระชัง",
+            "คุณสมบัติของยาปฏิชีวนะ",
+            "Nile tilapia",
+            "Bacteria",
+            "Antibiotics",
+            "Potency",
+            "Pharmaceutical equivalence",
+            "การเลี้ยงปลาในกระชัง",
+            "เภสัชกรรมสมมูล",
+            "ยาปฏิชีวนะ",
+            "วิธีทางจุลชีววิทยา"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "3xjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "56. Kasetsart University Annual Conference",
+          "authors": [
+            "Pagaporn Phanaram",
+            "ผกาภรณ์ พันธุ์อร่าม",
+            "Pattanapon Kayansamruaj",
+            "Piti Amparyup",
+            "Prapansak Srisapoome",
+            "พัฒนพล ขยันสํารวจ",
+            "ปิติ อ่ำพายัพ",
+            "ประพันธ์ศักดิ์ ศีรษะภูมิ"
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/383647",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Tilapia (genus)",
+            "Oreochromis niloticus",
+            "Bacteria",
+            "Streptococcus agalactiae",
+            "Antimicrobial properties",
+            "Mortality",
+            "แบคทีเรีย",
+            "คุณสมบัติของยาต้านจุลชีพ",
+            "การตาย",
+            "Nile tilapia",
+            "Pro-hepcidin",
+            "Anti-bacterial activity",
+            "Streptococcus agalactaie",
+            "ปลานิล",
+            "การผลิตโปรตีนลูกผสม",
+            "ระบบแบคทีเรีย",
+            "การต่อต้าน",
+            "ประสิทธิภาพในการต้านทาน",
+            "อัตราการตาย",
+            "สภาพการทดลองระดับห้องปฏิบัติการ"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "4BjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "56. Kasetsart University Annual Conference",
+          "authors": [
+            "Panupan Uampakdee",
+            "ภาณุพันธ์ อ่วมภักดี",
+            "Wara Taparhudee",
+            "Ruangvit Yoonpundh",
+            "วราห์ เทพาหุดี",
+            "เรืองวิชญ์ ยุ้นพันธ์"
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/383652",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis niloticus",
+            "Tilapia",
+            "Fish culture",
+            "Cage culture",
+            "Ponds",
+            "Winds",
+            "Velocity",
+            "Dissolved oxygen",
+            "Air",
+            "Water",
+            "ปลานิล",
+            "การเพาะเลี้ยงปลา",
+            "การเลี้ยงสัตว์น้ำในกระชัง",
+            "แอ่งน้ำ",
+            "ลม",
+            "ความเร็ว",
+            "ออกซิเจนละลายได้",
+            "อากาศ",
+            "น้ำ",
+            "Earthen pond",
+            "Wind speed",
+            "Ddissolved oxygen transfer rate",
+            "ความเร็วลม",
+            "อัตราการแลกเปลี่ยนออกซิเจนระหว่างอากาศและน้ำ",
+            "การเลี้ยงปลาในกระชัง",
+            "บ่อดิน"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "4RjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Efficacy of pcDNA-Alp1 DNA vaccine against Streptococcus agalactiae in Nile tilapia (Oreochromis niloticus)",
+          "authors": [
+            "Phiangfhun Inthasaeng",
+            "Sasimanas Unajak",
+            "Nontawit Areechon",
+            "Ikuo Hirono",
+            "Win Surachetpong",
+            "เพียงฝัน อินทะแสง",
+            "ศศิมนัส อุณจักร",
+            "นนทวิทย์ อารีย์ชน",
+            "วิน สุรเชษฐพงษ์"
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/383721",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis niloticus",
+            "Streptococcus agalactiae",
+            "Fish diseases",
+            "Vaccines",
+            "Disease control",
+            "Immunostimulation",
+            "โรคของปลา",
+            "วัคซีน",
+            "การควบคุมโรค",
+            "การกระตุ้นให้เกิดภูมิคุ้มกันโรค",
+            "Nile tilapia",
+            "Streptococcosis",
+            "DNA vaccine",
+            "Immunological response",
+            "ปลานิล",
+            "วัคซีนดีเอนเอ",
+            "โรคสเตรปโตคอคโคซิส",
+            "สเตรปโตคอคโคซิส อากาแลคติเอ",
+            "การกระตุ้นภูมิคุ้มกัน",
+            "ประสิทธิภาพ"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "4hjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Toxicity and anesthetic efficiency of chloroxylenol on Nile tilapia (Oreochromis niloticus) and goldfish (Carassius auratus)",
+          "authors": [
+            "Patcharee Khrukhayan",
+            "Ketmani Suansi",
+            "Supaphit Wisawatho",
+            "พัชรี ครูขยัน",
+            "เกษมณี สวนสี",
+            "ศุภาพิชญ์ วิสาวะโท"
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/431492",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis niloticus",
+            "Carassius auratus",
+            "Anaesthetics",
+            "Disinfectants",
+            "Anaesthesia",
+            "Toxicity",
+            "Survival",
+            "Efficiency",
+            "ยาสลบ",
+            "สารฆ่าเชื้อ",
+            "การชา",
+            "ความเป็นพิษ",
+            "การอยู่รอด",
+            "ประสิทธิภาพ",
+            "Nile tilapia",
+            "Goldfish",
+            "Chloroxylenol",
+            "Anesthetic efficiency",
+            "ปลานิล",
+            "ปลาทอง",
+            "คลอโรไซลินอล",
+            "น้ำยาฆ่าเชื้อ",
+            "การสลบ",
+            "การฟื้น",
+            "การรอดตาย"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "4xjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Efficacy of adjuvanted Streptococcus agalactiae vaccine by montanide ISA 763 A VG in nile tilapia (Oreochromis niloticus Linn.)",
+          "abstract": "This research investigated the efficacy of adjuvant (Montanide ISA 763 A VG) at concentrations of 0, 5, 10, 20 and 50 percent in formalin-killed Streptococcus agalactiae vaccine in Nile tilapia (Oreochromis niloticus Linn.). The results showed that adjuvant at 20 and 50 percent induced significantly higher protection (survival and RPS value) than other groups after three months of experimental trial (P LT 0.05). However, only the antibody titer of 20 percent adjuvant was significantly higher than the control group (P LT 0.05). The second experiment aimed to find the efficacy of a single vaccination with 10 and 20 percent adjuvant compared with non-adjuvant vaccine with a booster dose. The results showed that after the booster vaccination without adjuvant, the antibody titer was significantly higher than other treatments (P LT 0.05). However, in terms of protection (survival and RPS), the vaccines with both 10 and 20 percent adjuvant showed similar efficacy to the booster vaccination until the third month of the trial (P GT 0.05), and were significantly different from the vaccine without adjuvant (non-booster group) and from the control (non-vaccination) (P LT 0.05). Thus, adjuvant vaccine was as effective as booster vaccination for the first three months of the four-month trial. Further study with the aim to extend protection with a single dose of adjuvant vaccine is being conducted",
+          "authors": [
+            "Supawan Tepparin",
+            "Sasimanas Unajak",
+            "Ikuo Hirono",
+            "Hidehiro Kondo",
+            "Nontawith Areechon"
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20005247",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Nile tilapia",
+            "Streptococcus agalactiae",
+            "Vaccine adjuvants",
+            "Killed vaccines",
+            "Booster",
+            "Antibody",
+            "Survival",
+            "Oreochromis niloticus",
+            "Streptococcaceae",
+            "Bacteria",
+            "Vaccines",
+            "Adjuvants",
+            "Vaccination",
+            "Antibodies",
+            "Disease control",
+            "Mortality",
+            "แบคทีเรีย",
+            "วัคซีน",
+            "ตัวเสริม",
+            "การให้วัคซีน",
+            "สารภูมิต้านทาน",
+            "การควบคุมโรค",
+            "การตาย",
+            "ปลานิล",
+            "สเตรปโตคอคคัส อะกาแลคเทีย",
+            "เชื้อแบคทีเรีย",
+            "ตัวเสริมวัคซีน",
+            "วัคซีนเชื้อตาย",
+            "การฉีดวัคซีน",
+            "ระดับแอนติบอดี",
+            "อัตราความอยู่รอด"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "5BjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Prediction of oxygen transfer rate between air and water in tilapia (Oreochromis niloticus) cultured in cages in earthen ponds",
+          "authors": [
+            "Panupan Uampakdee",
+            "Wara Taparhudee",
+            "Ruangvit Yoonpundh",
+            "ภาณุพันธ์ อ่วมภักดี",
+            "วราห์ เทพาหุดี",
+            "เรืองวิชญ์ ยุ้นพันธ์"
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20008936",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Tilapia",
+            "Exchange rate",
+            "Oxygen",
+            "Air",
+            "Water",
+            "Pond",
+            "Floating cages",
+            "Soil ponds",
+            "ปลานิล",
+            "อัตราการแลกเปลี่ยน",
+            "ออกซิเจน",
+            "อากาศ",
+            "นํ้า",
+            "บ่อเลี้ยง",
+            "การเลี้ยงปลาในกระชัง",
+            "บ่อดิน",
+            "Oreochromis niloticus",
+            "Gas exchange",
+            "Ponds",
+            "Fish ponds",
+            "การแลกเปลี่ยนก๊าซ",
+            "น้ำ",
+            "แอ่งน้ำ",
+            "บ่อปลา"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "5RjoyZ4B882ltYvqOo89",
+        "_score": 2.1915312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Change of inorganic nitrogen and suspended solid in biofloc nursing system for red tilapia",
+          "authors": [
+            "Ratchamongkol Khajornwuttisak",
+            "Phongchate Pichitkul",
+            "Chumpol Srithong",
+            "Idsariya Wudtisin",
+            "ราชมงคล ขจรวุฒิศักดิ์",
+            "พงศ์เชฏฐ์ พิชิตกุล",
+            "ชุมพล ศรีทอง",
+            "อิสริยา วุฒิสินธุ์"
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20008937",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis",
+            "Tilapia (genus)",
+            "Fish larvae",
+            "Fish culture",
+            "Aquaculture",
+            "Fish feeding",
+            "Water analysis",
+            "Water quality",
+            "Degradation",
+            "Inorganic compounds",
+            "Nitrogen",
+            "Nitrites",
+            "Ammonium nitrogen",
+            "Sediment",
+            "ลูกปลา",
+            "การเพาะเลี้ยงปลา",
+            "การเพาะเลี้ยงสัตว์น้ำ",
+            "การให้อาหารปลา",
+            "การวิเคราะห์น้ำ",
+            "คุณภาพน้ำ",
+            "การย่อยสลาย",
+            "สารประกอบอนินทรีย์",
+            "ไนโตรเจน",
+            "ไนไตรต์",
+            "แอมโมเนียมไนโตรเจน",
+            "ตะกอน",
+            "Red tilapia",
+            "Biofloc technology",
+            "BFT",
+            "Water quality analysis",
+            "Inorganic nitrogen",
+            "Nitrite",
+            "Ammonia",
+            "Suspended solid",
+            "ปลานิลแดง",
+            "การอนุบาลลูกปลา",
+            "ระบบแบบไบโอฟลอค",
+            "เทคโนโลยีไบโอฟลอค",
+            "การให้อาหารสัตว์น้ำ",
+            "การวิเคราะห์คุณภาพน้ำ",
+            "การย่อยสลายสารอินทรีย์",
+            "สารอนินทรีย์",
+            "แอมโมเนียม",
+            "ไนไตรท์",
+            "ตะกอนแขวนลอย"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      }
+    ]
+  }
+}

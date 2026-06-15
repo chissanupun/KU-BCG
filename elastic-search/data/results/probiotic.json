@@ -1,0 +1,294 @@
+{
+  "took": 7,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 8,
+      "relation": "eq"
+    },
+    "max_score": 4.278299,
+    "hits": [
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "FRgzyp4B882ltYvqGpEC",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "คุณสมบัติของจุลินทรีย์โปรไบติกต่อการยับยั้งจุลินทรีย์และการเจริญในอาหารหมักจากกากถั่วเหลือง",
+          "authors": [],
+          "year": 2017,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=probiotic",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "probiotic"
+          ],
+          "search_keyword": "probiotic",
+          "doc_type": "งานวิจัย",
+          "funding": "คณะวิทยาศาสตร์",
+          "indexed_at": "2026-06-15T07:32:47.061Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Fhgzyp4B882ltYvqGpEC",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การคัดเลือกและศึกษาคุณสมบัติการเป็นโปรไบโอติกของแลคติกแอซิดแบคทีเรียจากแหนมเห็ดเพื่อการผลิตกล้าเชื้อแหนมเห็ดโปรไบโอติก",
+          "authors": [
+            "นางพัทธินันท์ วาริชนันท์"
+          ],
+          "year": 2016,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=probiotic",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "probiotic"
+          ],
+          "search_keyword": "probiotic",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:32:47.061Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Fxgzyp4B882ltYvqGpEC",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การคัดกรองแบคทีเรียโปรไบโอติคที่มีความสามารถในการใช้คาร์โบไฮเดรตเพื่อพัฒนาเป็นผลิตภัณฑ์ข้าวไทยเสริมโปรไบโอติค",
+          "authors": [
+            "ดร.ศรัณย์ พรหมสาย, รองศาสตราจารย์"
+          ],
+          "year": 2015,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=probiotic",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "probiotic"
+          ],
+          "search_keyword": "probiotic",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนสนับสนุนการวิจัยมุ่งเป้า ประจำปี 2558 วิทยาเขตกำแพงแสน",
+          "indexed_at": "2026-06-15T07:32:47.061Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "GBgzyp4B882ltYvqGpEC",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "ผลของเครื่องเทศในสูตรเครื่องแกงไทยต่อสมบัติโปรไบโอติกของโปรไบโอติกแบคทีเรียทางการค้า",
+          "authors": [
+            "ดร.จุฑามาศ กลิ่นโซดา",
+            "นายวันชัย พันธ์ทวี",
+            "นางกนกวรรณ ยอดอินทร์",
+            "ดร.เขมพัษ ตรีสุวรรณ"
+          ],
+          "year": 2016,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=probiotic",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "probiotic"
+          ],
+          "search_keyword": "probiotic",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานพัฒนาเศรษฐกิจจากฐานชีวภาพ (องค์การมหาชน)",
+          "indexed_at": "2026-06-15T07:32:47.061Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "GRgzyp4B882ltYvqGpEC",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การประยุกต์ใช้โพรไบโอติกในอุตสาหกรรมไก่เนื้อและบทบาทของโพรไบโอติกต่อการป้องกันเชื้อ Salmonella",
+          "authors": [
+            "ดร.มัสลิน นาคไพจิตร, รองศาสตราจารย์"
+          ],
+          "year": 2019,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=probiotic",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "probiotic"
+          ],
+          "search_keyword": "probiotic",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานกองทุนสนับสนุนการวิจัย (สกว.)",
+          "indexed_at": "2026-06-15T07:32:47.061Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Ghgzyp4B882ltYvqGpEC",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การประเมินคุณสมบัติการเป็นโปรไบโอติคสำหรับการประยุกต์ใช้แบคทีเรียโปรไบโอติคในอาหารเสริมประเภทข้าวEvaluation of In vitro Probiotic Properties for Application of probiotic bacteria in rice supplements",
+          "authors": [
+            "ดร.ศรัณย์ พรหมสาย, รองศาสตราจารย์"
+          ],
+          "year": 2017,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=probiotic",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "probiotic"
+          ],
+          "search_keyword": "probiotic",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนมุ่งเป้าประจำวิทยาเขตกำแพงแสน",
+          "indexed_at": "2026-06-15T07:32:47.061Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Gxgzyp4B882ltYvqGpEC",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การคัดกรองแบคทีเรียที่มีศักยภาพเป็นโพรไบโอติกจากอาหารหมัก",
+          "authors": [
+            "ดร.ศรัณย์ พรหมสาย, รองศาสตราจารย์",
+            "ดร.เยาวนุช พรมนวล",
+            "ผู้ช่วยศาสตราจารย์"
+          ],
+          "year": 2025,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=probiotic",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "probiotic"
+          ],
+          "search_keyword": "probiotic",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนสนับสนุนการวิจัย ภาควิชาวิทยาศาสตร์และนวัฒกรรมชีวภาพ คณะศิลปศาสตร์และวิทยาศาสตร์ ประจำปีงบประมาณ 2568",
+          "indexed_at": "2026-06-15T07:32:47.061Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "HBgzyp4B882ltYvqGpEC",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การใช้แบคทีเรียโปรไบโอติกสำหรับการเลี้ยงสัตว์น้ำ",
+          "authors": [
+            "นาย ณัฐพงษ์ ปานขาว"
+          ],
+          "year": 2014,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=probiotic",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "probiotic"
+          ],
+          "search_keyword": "probiotic",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนส่วนตัว",
+          "indexed_at": "2026-06-15T07:32:47.061Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      }
+    ]
+  }
+}

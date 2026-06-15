@@ -1,0 +1,228 @@
+{
+  "took" : 3,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 19,
+      "relation" : "eq"
+    },
+    "max_score" : 1.0,
+    "hits" : [
+      {
+        "_index" : "ku_bcg_relations",
+        "_id" : "TBjoyZ4B882ltYvqO5Ao",
+        "_score" : 1.0,
+        "_source" : {
+          "subject" : "Biomass",
+          "predicate" : "isKeywordOf",
+          "object" : "AGRIS_Q",
+          "topic_id" : "1"
+        }
+      },
+      {
+        "_index" : "ku_bcg_relations",
+        "_id" : "TRjoyZ4B882ltYvqO5Ao",
+        "_score" : 1.0,
+        "_source" : {
+          "subject" : "Biomass",
+          "predicate" : "isKeywordOf",
+          "object" : "AGRIS_N",
+          "topic_id" : "1"
+        }
+      },
+      {
+        "_index" : "ku_bcg_relations",
+        "_id" : "ThjoyZ4B882ltYvqO5Ao",
+        "_score" : 1.0,
+        "_source" : {
+          "subject" : "kumooc005",
+          "predicate" : "isEntryPointFor",
+          "object" : "carbon_footprint_learners",
+          "topic_id" : "1"
+        }
+      },
+      {
+        "_index" : "ku_bcg_relations",
+        "_id" : "TxjoyZ4B882ltYvqO5Ao",
+        "_score" : 1.0,
+        "_source" : {
+          "subject" : "Chitosan",
+          "predicate" : "isFeedstockOf",
+          "object" : "biodegradable_packaging",
+          "topic_id" : "2"
+        }
+      },
+      {
+        "_index" : "ku_bcg_relations",
+        "_id" : "UBjoyZ4B882ltYvqO5Ao",
+        "_score" : 1.0,
+        "_source" : {
+          "subject" : "Faculty_ประมง",
+          "predicate" : "providesRawMaterialTo",
+          "object" : "Faculty_อุตสาหกรรมเกษตร",
+          "topic_id" : "2"
+        }
+      },
+      {
+        "_index" : "ku_bcg_relations",
+        "_id" : "URjoyZ4B882ltYvqO5Ao",
+        "_score" : 1.0,
+        "_source" : {
+          "subject" : "packaging",
+          "predicate" : "pollutesVia",
+          "object" : "water_quality",
+          "topic_id" : "3"
+        }
+      },
+      {
+        "_index" : "ku_bcg_relations",
+        "_id" : "UhjoyZ4B882ltYvqO5Ao",
+        "_score" : 1.0,
+        "_source" : {
+          "subject" : "agricultural_plastic",
+          "predicate" : "pollutesVia",
+          "object" : "water_quality",
+          "topic_id" : "3"
+        }
+      },
+      {
+        "_index" : "ku_bcg_relations",
+        "_id" : "UxjoyZ4B882ltYvqO5Ao",
+        "_score" : 1.0,
+        "_source" : {
+          "subject" : "kumooc025",
+          "predicate" : "isLaunchingNodeFor",
+          "object" : "microplastics_learners",
+          "topic_id" : "3"
+        }
+      },
+      {
+        "_index" : "ku_bcg_relations",
+        "_id" : "VBjoyZ4B882ltYvqO5Ao",
+        "_score" : 1.0,
+        "_source" : {
+          "subject" : "kumooc026",
+          "predicate" : "expandsEconomicsPerspectiveOf",
+          "object" : "microplastics_problem",
+          "topic_id" : "3"
+        }
+      },
+      {
+        "_index" : "ku_bcg_relations",
+        "_id" : "VRjoyZ4B882ltYvqO5Ao",
+        "_score" : 1.0,
+        "_source" : {
+          "subject" : "forest",
+          "predicate" : "mitigatesCarbonVia",
+          "object" : "carbon_stock",
+          "topic_id" : "4"
+        }
+      },
+      {
+        "_index" : "ku_bcg_relations",
+        "_id" : "VhjoyZ4B882ltYvqO5Ao",
+        "_score" : 1.0,
+        "_source" : {
+          "subject" : "agriculture",
+          "predicate" : "mitigatesCarbonVia",
+          "object" : "emission_reduction",
+          "topic_id" : "4"
+        }
+      },
+      {
+        "_index" : "ku_bcg_relations",
+        "_id" : "VxjoyZ4B882ltYvqO5Ao",
+        "_score" : 1.0,
+        "_source" : {
+          "subject" : "industry",
+          "predicate" : "mitigatesCarbonVia",
+          "object" : "LCA",
+          "topic_id" : "4"
+        }
+      },
+      {
+        "_index" : "ku_bcg_relations",
+        "_id" : "WBjoyZ4B882ltYvqO5Ao",
+        "_score" : 1.0,
+        "_source" : {
+          "subject" : "fishery",
+          "predicate" : "mitigatesCarbonVia",
+          "object" : "blue_carbon",
+          "topic_id" : "4"
+        }
+      },
+      {
+        "_index" : "ku_bcg_relations",
+        "_id" : "WRjoyZ4B882ltYvqO5Ao",
+        "_score" : 1.0,
+        "_source" : {
+          "subject" : "Probiotic",
+          "predicate" : "enhancesGrowthOf",
+          "object" : "ปลานิล",
+          "topic_id" : "5"
+        }
+      },
+      {
+        "_index" : "ku_bcg_relations",
+        "_id" : "WhjoyZ4B882ltYvqO5Ao",
+        "_score" : 1.0,
+        "_source" : {
+          "subject" : "ระบบเพาะเลี้ยง",
+          "predicate" : "requires",
+          "object" : "water_quality",
+          "topic_id" : "5"
+        }
+      },
+      {
+        "_index" : "ku_bcg_relations",
+        "_id" : "WxjoyZ4B882ltYvqO5Ao",
+        "_score" : 1.0,
+        "_source" : {
+          "subject" : "Faculty_ประมง",
+          "predicate" : "connectsViaValueChain",
+          "object" : "Faculty_อุตสาหกรรมเกษตร",
+          "topic_id" : "5"
+        }
+      },
+      {
+        "_index" : "ku_bcg_relations",
+        "_id" : "XBjoyZ4B882ltYvqO5Ao",
+        "_score" : 1.0,
+        "_source" : {
+          "subject" : "Agroforestry",
+          "predicate" : "integratesSpecies",
+          "object" : "tree_species",
+          "topic_id" : "6"
+        }
+      },
+      {
+        "_index" : "ku_bcg_relations",
+        "_id" : "XRjoyZ4B882ltYvqO5Ao",
+        "_score" : 1.0,
+        "_source" : {
+          "subject" : "Agroforestry",
+          "predicate" : "integratesSpecies",
+          "object" : "crop_species",
+          "topic_id" : "6"
+        }
+      },
+      {
+        "_index" : "ku_bcg_relations",
+        "_id" : "XhjoyZ4B882ltYvqO5Ao",
+        "_score" : 1.0,
+        "_source" : {
+          "subject" : "Agroforestry",
+          "predicate" : "integratesSpecies",
+          "object" : "aquatic_species_mangrove",
+          "topic_id" : "6"
+        }
+      }
+    ]
+  }
+}

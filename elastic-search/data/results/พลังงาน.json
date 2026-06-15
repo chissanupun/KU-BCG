@@ -1,0 +1,574 @@
+{
+  "took": 15,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 16,
+      "relation": "eq"
+    },
+    "max_score": 3.6150045,
+    "hits": [
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "jRgzyp4B882ltYvqGpAA",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการสร้างกระบวนความคิดในการอนุรักษ์พลังงานและพลังงานทดแทนและพัฒนาวิชาชีพด้านพลังงานแก่ประชาชน (Energy for Life)",
+          "authors": [
+            "ดร.มงคล รักษาพัชรวงศ์, รองศาสตราจารย์"
+          ],
+          "year": 2015,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "พลังงาน"
+          ],
+          "search_keyword": "พลังงาน",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานปลัดกระทรวงพลังงาน",
+          "indexed_at": "2026-06-15T07:31:31.599Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "jhgzyp4B882ltYvqGpAA",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การใช้ประโยชน์ไม้โตเร็วเพื่อเป็นพลังงานทดแทนในการผลิตกระแสไฟฟ้าและแก๊สหุงต้ม โครงการย่อย รูปแบบการบริหารจัดการวัตถุดิบไม้โตเร็วเพื่อเป็นพลังงานทดแทนในการผลิตกระแสไฟฟ้าพลังงานชีวมวลและแก๊สหุงต้ม",
+          "authors": [
+            "ดร.วิวัฒน์ หาญวงศ์จิรวัฒน์",
+            "ผู้ช่วยศาสตราจารย์",
+            "ดร.จงรัก วัชรินทร์รัตน์",
+            "อาจารย์",
+            "ดร.สคาร ทีจันทึก"
+          ],
+          "year": 2007,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "พลังงาน"
+          ],
+          "search_keyword": "พลังงาน",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานคณะกรรมการวิจัยแห่งชาติ",
+          "indexed_at": "2026-06-15T07:31:31.600Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "jxgzyp4B882ltYvqGpAA",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การประเมินสายพันธุ์อ้อยพลังงานลูกผสม (Saccharum officinarum x S. Spontaneum) เพื่อการผลิตอ้อยพลังงานในพื้นที่ดินอุดมสมบูรณ์ต่ำสำหรับใช้เป็นพืชพลังงานในพื้นที่ภาคกลาง",
+          "authors": [
+            "ดร.สราวุธ รุ่งเมฆารัตน์",
+            "ผู้ช่วยศาสตราจารย์"
+          ],
+          "year": 2018,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "พลังงาน"
+          ],
+          "search_keyword": "พลังงาน",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานกองทุนสนับสนุนการวิจัย (สกว.)",
+          "indexed_at": "2026-06-15T07:31:31.600Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "kBgzyp4B882ltYvqGpAA",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "พลังงานฐานชีวภาพและพืชพลังงาน",
+          "authors": [
+            "นายวินัย อาจคงหาญ, รองศาสตราจารย์",
+            "ดร.เจริญศักดิ์ โรจนฤทธิ์พิเชษฐ์",
+            "ศาสตราจารย์",
+            "ดร.เอ็จ สโรบล",
+            "ศาสตราจารย์"
+          ],
+          "year": 2008,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "พลังงาน"
+          ],
+          "search_keyword": "พลังงาน",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานคณะกรรมการวิจัยแห่งชาติ",
+          "indexed_at": "2026-06-15T07:31:31.600Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "kRgzyp4B882ltYvqGpAA",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการวิจัยเพื่อทดสอบประสิทธิภาพในการประหยัดพลังงานของสีประหยัดพลังงานสำหรับอาคาร",
+          "authors": [
+            "ดร.ชนิกานต์ ยิ้มประยูร, รองศาสตราจารย์"
+          ],
+          "year": 2017,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "พลังงาน"
+          ],
+          "search_keyword": "พลังงาน",
+          "doc_type": "งานวิจัย",
+          "funding": "บริษัท ทีโอเอ เพ้นท์ (ประเทศไทย) จำกัด (มหาชน)",
+          "indexed_at": "2026-06-15T07:31:31.600Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "khgzyp4B882ltYvqGpAA",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การประเมินผลผลิตอ้อยพลังงานลูกผสม (Saccharum officinarum x S. Spontaneum) เพื่อการผลิตอ้อยพลังงานในพื้นที่ภาคกลาง",
+          "authors": [],
+          "year": 2019,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "พลังงาน"
+          ],
+          "search_keyword": "พลังงาน",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานกองทุนสนับสนุนการวิจัย (สกว.)",
+          "indexed_at": "2026-06-15T07:31:31.600Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "kxgzyp4B882ltYvqGpAA",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "ศักยภาพในการติดตั้งระบบผลิตพลังงานไฟฟ้าจากพลังงานหมุนเวียนในพื้นที่ของมหาวิทยาลัยเกษตรศาสตร์",
+          "authors": [
+            "ดร.ชนิกานต์ ยิ้มประยูร, รองศาสตราจารย์",
+            "ดร.ภัทรนันท์ ทักขนนท์",
+            "รองศาสตราจารย์"
+          ],
+          "year": 2014,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "พลังงาน"
+          ],
+          "search_keyword": "พลังงาน",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:31:31.600Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "lBgzyp4B882ltYvqGpAB",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "ความมั่นคงทางพลังงานของอาเซียน : บทวิเคราะห์นโยบายพลังงานหมุนเวียนของมาเลเซียและอินโดนีเซีย",
+          "authors": [],
+          "year": 2016,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "พลังงาน"
+          ],
+          "search_keyword": "พลังงาน",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานกองทุนสนับสนุนการวิจัย (สกว.)",
+          "indexed_at": "2026-06-15T07:31:31.600Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "lRgzyp4B882ltYvqGpAB",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการต้นแบบระบบการจัดการขยะแปรรูปเป็นพลังงานอย่างยั่งยืนด้วยระบบไพโรไลซิสเพื่อได้ผลผลิตเป็นเชื้อเพลิงของเหลว แท่งเชื้อเพลิง ก๊าซสังเคราะห์อัดแน่น ปุ๋ยหมัก และพลังงานไฟฟ้า",
+          "authors": [
+            "นายเกียรติไกร อายุวัฒน์",
+            "รองศาสตราจารย์",
+            "นายพงษ์ภวัลย์ ภัทรประภานันท์",
+            "ผู้ช่วยศาสตราจารย์",
+            "นางนงลักษณ์ เล็กรุ่งเรืองกิจ"
+          ],
+          "year": 2017,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "พลังงาน"
+          ],
+          "search_keyword": "พลังงาน",
+          "doc_type": "งานวิจัย",
+          "funding": "กรมพัฒนาพลังงานทดแทนและอนุรักษ์พลังงาน",
+          "indexed_at": "2026-06-15T07:31:31.600Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "lhgzyp4B882ltYvqGpAB",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการจัดทำตัวชี้วัดสมรรถนะด้านพลังงานเพื่อเพิ่มประสิทธิภาพการใช้พลังงานในโรงงานควบคุม",
+          "authors": [
+            "ดร.เกรียงไกร อัศวมาศบันลือ, รองศาสตราจารย์",
+            "นายสมบัติ ประสงค์สุข",
+            "ดร.ธีรวิทย์ เป่ยคำภา",
+            "รองศาสตราจารย์",
+            "ดร.เชาว์วิทย์ ระฆังทอง"
+          ],
+          "year": 2016,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "พลังงาน"
+          ],
+          "search_keyword": "พลังงาน",
+          "doc_type": "งานวิจัย",
+          "funding": "กรมพัฒนาพลังงานทดแทนและอนุรักษ์พลังงาน กระทรวงพลังงาน",
+          "indexed_at": "2026-06-15T07:31:31.600Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "lxgzyp4B882ltYvqGpAB",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "อุปกรณ์จ่ายพลังงานไฟฟ้าสำรองจากเซลล์เชื้อเพลิงพลังงานไฮโดรเจน (2025) นักวิจัย: Dr.Kriengkrai Assawamartbunlue, Associate Professor , นายภุชงค์ งามเสงี่ยม , นายวรุฒ งามอภิสิทธิ์ , นายณรงค์เดช แซ่เต่ง , นางสาววันวิวา หลักหนองบุ , นางสาวสรัญญา ลิขิตถาวรไชย , ประเภท:",
+          "authors": [],
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "พลังงาน"
+          ],
+          "search_keyword": "พลังงาน",
+          "doc_type": "ทรัพย์สินทางปัญญา",
+          "indexed_at": "2026-06-15T07:31:31.600Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "mBgzyp4B882ltYvqGpAB",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "ระบบปรับอากาศประหยัดพลังงานโดยเสาเข็มพลังงาน (2022) นักวิจัย: Dr.Apiniti Jotisankasa, Professor , Dr.Attaporn Wisessint, Assistant Professor , Dr.Kanet Katchasuwanmanee, Assistant Professor , Dr.Peerayot Sanposh, Associate Professor , วสุธร ศิริยากร , ธิติ ชาญชญานนท์ , ประเภท:",
+          "authors": [],
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "พลังงาน"
+          ],
+          "search_keyword": "พลังงาน",
+          "doc_type": "ทรัพย์สินทางปัญญา",
+          "indexed_at": "2026-06-15T07:31:31.600Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "mRgzyp4B882ltYvqGpAB",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "(วิจัย/สิ่งประดิษฐ์) โครงการประกวดเพิ่มประสิทธิภาพด้านการอนุรักษ์พลังงานและพลังงานทดแทนโดยเทคโนโลยีและนวัตกรรม 4.0 (2020) ผลงาน:นวัตกรรมการบริหารพลังงานแบตเตอรี่แบบแยกกลุ่ม นักวิจัย: ดร.อุมารินทร์ แสงพานิช, ผู้ช่วยศาสตราจารย์ ดร.รุ่งโรจน์ สงค์ประกอบ ดร.วีระพล โมนยะกุล Doner:กรมพัฒนาพลังงานทดแทนและอนุรักษ์พลังงาน กระทรวงพลังงาน",
+          "authors": [],
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "พลังงาน"
+          ],
+          "search_keyword": "พลังงาน",
+          "doc_type": "รางวัล",
+          "indexed_at": "2026-06-15T07:31:31.600Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "mhgzyp4B882ltYvqGpAB",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "เครื่องยนต์พลังงานความร้อน (2025) นักวิจัย: Dr.Kriengkrai Assawamartbunlue, Associate Professor , ประเภท:",
+          "authors": [],
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "พลังงาน"
+          ],
+          "search_keyword": "พลังงาน",
+          "doc_type": "ทรัพย์สินทางปัญญา",
+          "indexed_at": "2026-06-15T07:31:31.600Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "mxgzyp4B882ltYvqGpAB",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "เครื่องอบแห้งพลังงานชีวมวล (2025) นักวิจัย: Dr.RUNGTAWEE PADAKAN, Assistant Professor , ประเภท:",
+          "authors": [],
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "พลังงาน"
+          ],
+          "search_keyword": "พลังงาน",
+          "doc_type": "ทรัพย์สินทางปัญญา",
+          "indexed_at": "2026-06-15T07:31:31.600Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "nBgzyp4B882ltYvqGpAB",
+        "_score": 3.6150045,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการประหยัดพลังงานสำหรับโรงงานขนาดเล็ก",
+          "authors": [
+            "ดร.ฉัตรดนัย จิระเดชะ, รองศาสตราจารย์"
+          ],
+          "year": 2010,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "พลังงาน"
+          ],
+          "search_keyword": "พลังงาน",
+          "doc_type": "งานวิจัย",
+          "funding": "กรมโรงงานอุตสาหกรรม กระทรวงอุตสาหกรรม",
+          "indexed_at": "2026-06-15T07:31:31.600Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      }
+    ]
+  }
+}

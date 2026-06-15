@@ -1,0 +1,713 @@
+{
+  "took": 11,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 20,
+      "relation": "eq"
+    },
+    "max_score": 3.3979402,
+    "hits": [
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "zxgzyp4B882ltYvqGpAB",
+        "_score": 3.3979402,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การบริหารจัดการคุณภาพน้ำดื่ม",
+          "authors": [
+            "ดร.สุชาติ เหลืองประเสริฐ, รองศาสตราจารย์"
+          ],
+          "year": 2020,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%99%E0%B9%89%E0%B8%B3",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "คุณภาพน้ำ"
+          ],
+          "search_keyword": "คุณภาพน้ำ",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานการวิจัยแห่งชาติ (วช.)",
+          "indexed_at": "2026-06-15T07:32:11.224Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "0Bgzyp4B882ltYvqGpAB",
+        "_score": 3.3979402,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "วางเครือข่ายบ่อสังเกตการณ์เพื่อการติดตามระดับและคุณภาพน้ำใต้ดินพื้นที่พื้นที่ บริษัทยูเนี่ยนอุตสาหกรรมสิ่งทอ จำกัด (มหาชน)",
+          "authors": [
+            "ดร.กัญจน์นรี ช่วงฉ่ำ, อาจารย์"
+          ],
+          "year": 2017,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%99%E0%B9%89%E0%B8%B3",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "คุณภาพน้ำ"
+          ],
+          "search_keyword": "คุณภาพน้ำ",
+          "doc_type": "งานวิจัย",
+          "funding": "บริษัท ยูเนี่ยนอุตสาหกรรมสิ่งทอ จำกัด (มหาชน)",
+          "indexed_at": "2026-06-15T07:32:11.224Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "0Rgzyp4B882ltYvqGpAB",
+        "_score": 3.3979402,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "ศักยภาพของการพัฒนาลุ่มน้ำที่มีต่อคุณภาพน้ำในลุ่มน้ำแม่กลอง",
+          "authors": [
+            "ดร.พัฒนา อนุรักษ์พงศธร",
+            "รองศาสตราจารย์"
+          ],
+          "year": 2003,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%99%E0%B9%89%E0%B8%B3",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "คุณภาพน้ำ"
+          ],
+          "search_keyword": "คุณภาพน้ำ",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานคณะกรรมการวิจัยแห่งชาติ",
+          "indexed_at": "2026-06-15T07:32:11.224Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "0hgzyp4B882ltYvqGpAB",
+        "_score": 3.3979402,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "ติดตามระดับและคุณภาพน้ำใต้ดินเพื่อการเฝ้าระวังอย่างต่อเนื่อง พื้นที่ บริษัท พีทีที โกลบอล เคมิคอล จำกัด (มหาชน) สาขา 12 โรงโพลีเอททีลีน",
+          "authors": [
+            "ดร.กัญจน์นรี ช่วงฉ่ำ, อาจารย์"
+          ],
+          "year": 2017,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%99%E0%B9%89%E0%B8%B3",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "คุณภาพน้ำ"
+          ],
+          "search_keyword": "คุณภาพน้ำ",
+          "doc_type": "งานวิจัย",
+          "funding": "บริษัท พีทีที โกลบอล เคมิคอล จำกัด (มหาชน)",
+          "indexed_at": "2026-06-15T07:32:11.224Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "0xgzyp4B882ltYvqGpAB",
+        "_score": 3.3979402,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การบำบัดสีและปรับปรุงคุณภาพน้ำทิ้งจากโรงงานอุตสาหกรรมการผลิตเยื่อและกระดาษโดยวิธีทางชีวภาพ",
+          "authors": [
+            "ดร.พิลาณี ไวถนอมสัตย์",
+            "ดร.วราภรณ์ อภิวัฒนาภิวัต"
+          ],
+          "year": 2005,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%99%E0%B9%89%E0%B8%B3",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "คุณภาพน้ำ"
+          ],
+          "search_keyword": "คุณภาพน้ำ",
+          "doc_type": "งานวิจัย",
+          "funding": "บริษัท สยามเซลลูโลส จำกัด",
+          "indexed_at": "2026-06-15T07:32:11.224Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "1Bgzyp4B882ltYvqGpAB",
+        "_score": 3.3979402,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "วางเครือข่ายบ่อสังเกตการณ์เพื่อการติดตามระดับและคุณภาพน้ำใต้ดินพื้นที่ สาขา 11 (โรงโอเลฟินส์ 3) จำกัด",
+          "authors": [
+            "ดร.กัญจน์นรี ช่วงฉ่ำ, อาจารย์"
+          ],
+          "year": 2014,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%99%E0%B9%89%E0%B8%B3",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "คุณภาพน้ำ"
+          ],
+          "search_keyword": "คุณภาพน้ำ",
+          "doc_type": "งานวิจัย",
+          "funding": "บริษัท พีทีที โกลบอลเคมิคอล จำกัด (มหาชน)",
+          "indexed_at": "2026-06-15T07:32:11.224Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "1Rgzyp4B882ltYvqGpAB",
+        "_score": 3.3979402,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การพัฒนาระบบเซ็นเซอร์ด้านชีวภาพ เพื่อการประเมินคุณภาพน้ำอย่างง่าย",
+          "authors": [
+            "ดร.สุชาติ เหลืองประเสริฐ",
+            "รองศาสตราจารย์"
+          ],
+          "year": 2020,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%99%E0%B9%89%E0%B8%B3",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "คุณภาพน้ำ"
+          ],
+          "search_keyword": "คุณภาพน้ำ",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานการวิจัยแห่งชาติ (วช.)",
+          "indexed_at": "2026-06-15T07:32:11.225Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "1hgzyp4B882ltYvqGpAB",
+        "_score": 3.3979402,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "งานติดตามตรวจสอบคุณภาพสิ่งแวดล้อมด้านคุณภาพน้ำ และนิเวศวิทยาทางน้ำ โครงการกังหันลมผลิตไฟฟ้าลำตะคอง ระยะที่ 2 (ระยะก่อสร้าง) ปี 2560",
+          "authors": [
+            "ดร.ณรงค์ วีระไวทยะ, รองศาสตราจารย์"
+          ],
+          "year": 2017,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%99%E0%B9%89%E0%B8%B3",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "คุณภาพน้ำ"
+          ],
+          "search_keyword": "คุณภาพน้ำ",
+          "doc_type": "งานวิจัย",
+          "indexed_at": "2026-06-15T07:32:11.225Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "1xgzyp4B882ltYvqGpAB",
+        "_score": 3.3979402,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการวิจัยการประเมิน Carbon Credit จากการลดปริมาณก๊าซเรือนกระจกที่เกิดจากกระบวนการบำบัดน้ำเสียของโรงควบคุมคุณภาพน้ำหนองแขม สำนักการระบายน้ำ",
+          "authors": [
+            "นายสุเทพ สิริวิทยาปกรณ์, รองศาสตราจารย์"
+          ],
+          "year": 2015,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%99%E0%B9%89%E0%B8%B3",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "คุณภาพน้ำ"
+          ],
+          "search_keyword": "คุณภาพน้ำ",
+          "doc_type": "งานวิจัย",
+          "funding": "บริษัท ยูทิลิตี้บิสิเนส อัลลายแอนซ์ จำกัด",
+          "indexed_at": "2026-06-15T07:32:11.225Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "2Bgzyp4B882ltYvqGpAB",
+        "_score": 3.3979402,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การศึกษาเพื่อกำหนดกลยุทธ์และเทคโนโลยีการปรับปรุงคุณภาพน้ำจากกิจกรรมเกษตรชายฝั่ง",
+          "authors": [
+            "ดร.ประทักษ์ ตาบทิพย์วรรณ, รองศาสตราจารย์",
+            "ดร.มงคล ดำรงค์ศรี",
+            "ผู้ช่วยศาสตราจารย์",
+            "ดร.พงศ์เชฏฐ์ พิชิตกุล",
+            "ผู้ช่วยศาสตราจารย์"
+          ],
+          "year": 1997,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%99%E0%B9%89%E0%B8%B3",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "คุณภาพน้ำ"
+          ],
+          "search_keyword": "คุณภาพน้ำ",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานคณะกรรมการพัฒนาการเศรษฐกิจและสังคมแห่งชาติ",
+          "indexed_at": "2026-06-15T07:32:11.225Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "2Rgzyp4B882ltYvqGpAB",
+        "_score": 3.3979402,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "สำรวจเพื่อแก้ไขปัญหาคุณภาพน้ำบ่อหนึ่งในพื้นที่เขตประกอบการอุตสาหกรรมไออาร์พีซี",
+          "authors": [
+            "ดร.กัญจน์นรี ช่วงฉ่ำ, อาจารย์"
+          ],
+          "year": 2014,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%99%E0%B9%89%E0%B8%B3",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "คุณภาพน้ำ"
+          ],
+          "search_keyword": "คุณภาพน้ำ",
+          "doc_type": "งานวิจัย",
+          "funding": "บริษัท ไออาร์พีซี จำกัด (มหาชน)",
+          "indexed_at": "2026-06-15T07:32:11.225Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "2hgzyp4B882ltYvqGpAB",
+        "_score": 3.3979402,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การวางเครือข่ายบ่อสังเกตการณ์เพื่อการติดตามระดับและคุณภาพน้ำใต้ดิน พื้นที่ ไอ-หนึ่ง",
+          "authors": [
+            "ดร.กัญจน์นรี ช่วงฉ่ำ, อาจารย์"
+          ],
+          "year": 2012,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%99%E0%B9%89%E0%B8%B3",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "คุณภาพน้ำ"
+          ],
+          "search_keyword": "คุณภาพน้ำ",
+          "doc_type": "งานวิจัย",
+          "funding": "บริษัท พีทีที โกลบอล เคมิคอล จำกัด (มหาชน)",
+          "indexed_at": "2026-06-15T07:32:11.225Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "2xgzyp4B882ltYvqGpAB",
+        "_score": 3.3979402,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "วางเครือข่ายบ่อสังเกตการณ์เพื่อการติดตามระดับและคุณภาพน้ำใต้ดินพื้นที่ บริษัท บีเอสที สเปเซียลตี้ จำกัด",
+          "authors": [
+            "ดร.กัญจน์นรี ช่วงฉ่ำ, อาจารย์",
+            "นายอาณัติ เฮงเจริญ"
+          ],
+          "year": 2017,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%99%E0%B9%89%E0%B8%B3",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "คุณภาพน้ำ"
+          ],
+          "search_keyword": "คุณภาพน้ำ",
+          "doc_type": "งานวิจัย",
+          "funding": "บริษัท บีเอสที สเปเซียลต้ จำกัด",
+          "indexed_at": "2026-06-15T07:32:11.225Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "3Bgzyp4B882ltYvqGpAB",
+        "_score": 3.3979402,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "วางเครือข่ายบ่อสังเกตการณ์เพื่อการติดตามระดับและคุณภาพน้ำใต้ดินพื้นที่ บริษัท ยูเนี่ยนไพโอเนียร์ จำกัด (มหาชน)",
+          "authors": [
+            "ดร.กัญจน์นรี ช่วงฉ่ำ, อาจารย์"
+          ],
+          "year": 2017,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%99%E0%B9%89%E0%B8%B3",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "คุณภาพน้ำ"
+          ],
+          "search_keyword": "คุณภาพน้ำ",
+          "doc_type": "งานวิจัย",
+          "funding": "บริษัท ยูเนี่ยนไพโอเนียร์ จำกัด (มหาชน)",
+          "indexed_at": "2026-06-15T07:32:11.225Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "3Rgzyp4B882ltYvqGpAB",
+        "_score": 3.3979402,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "วางเครือข่ายบ่อสังเกตการณ์เพื่อการติดตามระดับและคุณภาพน้ำใต้ดินพื้นที่ บริษัท วีนัสเธร็ด จำกัด",
+          "authors": [
+            "ดร.กัญจน์นรี ช่วงฉ่ำ, อาจารย์",
+            "นายอาณัติ เฮงเจริญ"
+          ],
+          "year": 2017,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%99%E0%B9%89%E0%B8%B3",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "คุณภาพน้ำ"
+          ],
+          "search_keyword": "คุณภาพน้ำ",
+          "doc_type": "งานวิจัย",
+          "funding": "บริษัท วีนัสเธร็ด จำกัด",
+          "indexed_at": "2026-06-15T07:32:11.225Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "3hgzyp4B882ltYvqGpAC",
+        "_score": 3.3979402,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การวางเครือข่ายบ่อสังเกตการณ์เพื่อการติดตามระดับและคุณภาพน้ำใต้ดิน พื้นที่ ไอ-สี่",
+          "authors": [
+            "ดร.กัญจน์นรี ช่วงฉ่ำ, อาจารย์"
+          ],
+          "year": 2012,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%99%E0%B9%89%E0%B8%B3",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "คุณภาพน้ำ"
+          ],
+          "search_keyword": "คุณภาพน้ำ",
+          "doc_type": "งานวิจัย",
+          "funding": "บริษัท พีทีที โกลบอล เคมิคอล จำกัด (มหาชน)",
+          "indexed_at": "2026-06-15T07:32:11.225Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "3xgzyp4B882ltYvqGpAC",
+        "_score": 3.3979402,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การตรวจสอบ และวิเคราะห์คุณภาพน้ำในลำน้ำแม่น้ำน้อย เพื่อจัดทำแผนปฏิบัติการควบคุม กำกับดูแล ป้องกัน และปรับปรุงแก้ไขปัญหา",
+          "authors": [
+            "ดร.ฉัตรดนัย จิระเดชะ, รองศาสตราจารย์"
+          ],
+          "year": 2011,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%99%E0%B9%89%E0%B8%B3",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "คุณภาพน้ำ"
+          ],
+          "search_keyword": "คุณภาพน้ำ",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานอุตสาหกรรม จังหวัดสิงห์บุรี",
+          "indexed_at": "2026-06-15T07:32:11.225Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "4Bgzyp4B882ltYvqGpAC",
+        "_score": 3.3979402,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการศึกษาศักยภาพของคลองลัดโพธิ์อันเนื่องมาจากพระราชดำริด้านการนำพลังน้ำมาใช้ประโยชน์และการปรับปรุงคุณภาพน้ำ",
+          "authors": [
+            "นายชัยวัฒน์ ขยันการนาวี, รองศาสตราจารย์",
+            "ดร.นุชนารถ ศรีวงศิตานนท์",
+            "ศาสตราจารย์"
+          ],
+          "year": 2007,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%99%E0%B9%89%E0%B8%B3",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "คุณภาพน้ำ"
+          ],
+          "search_keyword": "คุณภาพน้ำ",
+          "doc_type": "งานวิจัย",
+          "funding": "กรมชลประทาน",
+          "indexed_at": "2026-06-15T07:32:11.225Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "4Rgzyp4B882ltYvqGpAC",
+        "_score": 3.3979402,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การวางเครือข่ายบ่อสังเกตการณ์เพื่อการติดตามระดับและคุณภาพน้ำใต้ดิน พื้นที่บริษัท บางกอกโพลี เอททีลีน จำกัด (มหาชน)",
+          "authors": [
+            "ดร.กัญจน์นรี ช่วงฉ่ำ, อาจารย์"
+          ],
+          "year": 2013,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%99%E0%B9%89%E0%B8%B3",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "คุณภาพน้ำ"
+          ],
+          "search_keyword": "คุณภาพน้ำ",
+          "doc_type": "งานวิจัย",
+          "funding": "บริษัท พีทีที โกลบอล เคมิคอล จำกัด (มหาชน)",
+          "indexed_at": "2026-06-15T07:32:11.225Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "4hgzyp4B882ltYvqGpAC",
+        "_score": 3.3979402,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "ผลของการเสริมเอนไซม์ซูเปอร์ออกไซด์คัสมิวเดส และซิลีเนียมในอาหารต่อคุณภาพน้ำเชื้อของพ่อพันธุ์สุกร",
+          "authors": [
+            "นายศรีสุวรรณ ชมชัย, รองศาสตราจารย์",
+            "ดร.วาณี ชัยวัฒนสิน",
+            "รองศาสตราจารย์",
+            "ดร.สุเจตน์ ชื่นชม",
+            "ผู้ช่วยศาสตราจารย์"
+          ],
+          "year": 2009,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%99%E0%B9%89%E0%B8%B3",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "คุณภาพน้ำ"
+          ],
+          "search_keyword": "คุณภาพน้ำ",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนส่วนตัว",
+          "indexed_at": "2026-06-15T07:32:11.225Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      }
+    ]
+  }
+}

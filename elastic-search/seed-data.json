@@ -1,0 +1,165 @@
+{
+  "topics": [
+    {
+      "id": "1",
+      "name_th": "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร",
+      "name_en": "Biomass & Bioenergy",
+      "bcg_pillars": ["Bio", "Circular", "Green"],
+      "faculties": ["เกษตร", "อุตสาหกรรมเกษตร", "วนศาสตร์"],
+      "anchor_concept": "Biomass — การเปลี่ยนของเหลือทางการเกษตร (ฟางซานอ้อย กากปาล์ม) เป็นพลังงาน",
+      "keywords_en": ["Biomass", "biodiesel", "Ethanol", "bioenergy", "palm oil", "sugarcane"],
+      "keywords_th": ["พลังงาน", "ชีวมวล"],
+      "relations": [
+        { "subject": "Biomass", "predicate": "isKeywordOf", "object": "AGRIS_Q" },
+        { "subject": "Biomass", "predicate": "isKeywordOf", "object": "AGRIS_N" },
+        { "subject": "kumooc005", "predicate": "isEntryPointFor", "object": "carbon_footprint_learners" }
+      ],
+      "ku_forest_keywords": ["Biomass", "biodiesel", "Ethanol", "พลังงาน"],
+      "kukr_keywords": ["ชีวมวล", "biomass"],
+      "ku_mooc_courses": ["kumooc005"]
+    },
+    {
+      "id": "2",
+      "name_th": "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้",
+      "name_en": "Chitosan & Bio-packaging",
+      "bcg_pillars": ["Bio", "Circular"],
+      "faculties": ["ประมง", "อุตสาหกรรมเกษตร", "เกษตร"],
+      "anchor_concept": "Chitosan — biopolymer จากเปลือกกุ้ง ใช้ทำฟิล์ม/บรรจุภัณฑ์ย่อยสลายได้",
+      "keywords_en": ["chitosan", "packaging", "biodegradable", "biopolymer", "shrimp"],
+      "keywords_th": ["ไคโตซาน", "บรรจุภัณฑ์"],
+      "relations": [
+        { "subject": "Chitosan", "predicate": "isFeedstockOf", "object": "biodegradable_packaging" },
+        { "subject": "Faculty_ประมง", "predicate": "providesRawMaterialTo", "object": "Faculty_อุตสาหกรรมเกษตร" }
+      ],
+      "ku_forest_keywords": ["chitosan", "packaging", "ไคโตซาน", "บรรจุภัณฑ์"],
+      "kukr_keywords": ["chitosan", "ไคโตซาน"],
+      "ku_mooc_courses": []
+    },
+    {
+      "id": "3",
+      "name_th": "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง",
+      "name_en": "Microplastics & Water Quality",
+      "bcg_pillars": ["Green", "Circular"],
+      "faculties": ["ประมง", "อุตสาหกรรมเกษตร", "เกษตร"],
+      "anchor_concept": "Microplastics — การตรวจวัด ติดตาม และจัดการไมโครพลาสติกในห่วงโซ่อาหารและน้ำ",
+      "keywords_en": ["microplastic", "water quality", "FISH", "packaging", "aquaculture"],
+      "keywords_th": ["คุณภาพน้ำ", "ไมโครพลาสติก"],
+      "relations": [
+        { "subject": "packaging", "predicate": "pollutesVia", "object": "water_quality" },
+        { "subject": "agricultural_plastic", "predicate": "pollutesVia", "object": "water_quality" },
+        { "subject": "kumooc025", "predicate": "isLaunchingNodeFor", "object": "microplastics_learners" },
+        { "subject": "kumooc026", "predicate": "expandsEconomicsPerspectiveOf", "object": "microplastics_problem" }
+      ],
+      "ku_forest_keywords": ["water quality", "FISH", "packaging", "คุณภาพน้ำ"],
+      "kukr_keywords": ["microplastic", "ไมโครพลาสติก"],
+      "ku_mooc_courses": ["kumooc025", "kumooc026"]
+    },
+    {
+      "id": "4",
+      "name_th": "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้",
+      "name_en": "Carbon Footprint & Carbon Neutrality",
+      "bcg_pillars": ["Green"],
+      "faculties": ["วนศาสตร์", "เกษตร", "อุตสาหกรรมเกษตร", "ประมง"],
+      "anchor_concept": "Carbon Footprint — การวัด ลด และชดเชยคาร์บอนตลอดห่วงโซ่",
+      "keywords_en": ["carbon footprint", "climate change", "sustainability", "Remote Sensing", "carbon stock", "LCA"],
+      "keywords_th": ["การเปลี่ยนแปลงสภาพภูมิอากาศ", "คาร์บอนฟุตพริ้นท์"],
+      "relations": [
+        { "subject": "forest", "predicate": "mitigatesCarbonVia", "object": "carbon_stock" },
+        { "subject": "agriculture", "predicate": "mitigatesCarbonVia", "object": "emission_reduction" },
+        { "subject": "industry", "predicate": "mitigatesCarbonVia", "object": "LCA" },
+        { "subject": "fishery", "predicate": "mitigatesCarbonVia", "object": "blue_carbon" }
+      ],
+      "ku_forest_keywords": ["Climate change", "การเปลี่ยนแปลงสภาพภูมิอากาศ", "sustainability", "Remote Sensing"],
+      "kukr_keywords": ["คาร์บอนฟุตพริ้นท์", "carbon footprint"],
+      "ku_mooc_courses": ["kumooc005", "kumooc016", "kumooc026"]
+    },
+    {
+      "id": "5",
+      "name_th": "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง",
+      "name_en": "Sustainable Aquaculture & Probiotics",
+      "bcg_pillars": ["Bio", "Green"],
+      "faculties": ["ประมง", "อุตสาหกรรมเกษตร"],
+      "anchor_concept": "Sustainable Aquaculture — ปลานิล/กุ้ง/สาหร่าย ภายใต้ระบบบาลานซ์เชื้อจุลินทรีย์",
+      "keywords_en": ["FISH", "probiotic", "lactic acid bacteria", "Genetic diversity", "aquaculture", "tilapia"],
+      "keywords_th": ["ปลานิล", "การเพาะเลี้ยง"],
+      "relations": [
+        { "subject": "Probiotic", "predicate": "enhancesGrowthOf", "object": "ปลานิล" },
+        { "subject": "ระบบเพาะเลี้ยง", "predicate": "requires", "object": "water_quality" },
+        { "subject": "Faculty_ประมง", "predicate": "connectsViaValueChain", "object": "Faculty_อุตสาหกรรมเกษตร" }
+      ],
+      "ku_forest_keywords": ["FISH", "ปลานิล", "probiotic", "lactic acid bacteria", "Genetic diversity"],
+      "kukr_keywords": ["ปลานิล", "aquaculture", "probiotic"],
+      "ku_mooc_courses": []
+    },
+    {
+      "id": "6",
+      "name_th": "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ",
+      "name_en": "Agroforestry & Biodiversity",
+      "bcg_pillars": ["Green", "Bio"],
+      "faculties": ["วนศาสตร์", "เกษตร", "ประมง"],
+      "anchor_concept": "Agroforestry — ระบบบูรณาการพืช-ป่าไม้-ปศุสัตว์ในที่ดินเดียวกัน",
+      "keywords_en": ["Biodiversity", "ecology", "agroforestry", "mangrove"],
+      "keywords_th": ["ความหลากหลายทางชีวภาพ", "ป่าชายเลน", "วนเกษตร"],
+      "relations": [
+        { "subject": "Agroforestry", "predicate": "integratesSpecies", "object": "tree_species" },
+        { "subject": "Agroforestry", "predicate": "integratesSpecies", "object": "crop_species" },
+        { "subject": "Agroforestry", "predicate": "integratesSpecies", "object": "aquatic_species_mangrove" }
+      ],
+      "ku_forest_keywords": ["Biodiversity", "ecology", "ความหลากหลายทางชีวภาพ", "ป่าชายเลน"],
+      "kukr_keywords": ["วนเกษตร", "agroforestry"],
+      "ku_mooc_courses": ["kumooc016", "kumooc017"]
+    }
+  ],
+  "ku_forest_search_urls": [
+    { "keyword": "Biomass", "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Biomass", "topic_ids": ["1"] },
+    { "keyword": "biodiesel", "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=biodiesel", "topic_ids": ["1"] },
+    { "keyword": "Ethanol", "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Ethanol", "topic_ids": ["1"] },
+    { "keyword": "พลังงาน", "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99", "topic_ids": ["1"] },
+    { "keyword": "chitosan", "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=chitosan", "topic_ids": ["2"] },
+    { "keyword": "packaging", "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=packaging", "topic_ids": ["2", "3"] },
+    { "keyword": "ไคโตซาน", "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B9%84%E0%B8%84%E0%B9%82%E0%B8%95%E0%B8%8B%E0%B8%B2%E0%B8%99", "topic_ids": ["2"] },
+    { "keyword": "บรรจุภัณฑ์", "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%88%E0%B8%B8%E0%B8%A0%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B9%8C", "topic_ids": ["2"] },
+    { "keyword": "water quality", "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=water+quality", "topic_ids": ["3"] },
+    { "keyword": "FISH", "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=FISH", "topic_ids": ["3", "5"] },
+    { "keyword": "คุณภาพน้ำ", "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%99%E0%B9%89%E0%B8%B3", "topic_ids": ["3"] },
+    { "keyword": "Climate change", "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Climate+change", "topic_ids": ["4"] },
+    { "keyword": "การเปลี่ยนแปลงสภาพภูมิอากาศ", "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%99%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8", "topic_ids": ["4"] },
+    { "keyword": "sustainability", "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=sustainability", "topic_ids": ["4"] },
+    { "keyword": "Remote Sensing", "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Remote+Sensing", "topic_ids": ["4"] },
+    { "keyword": "ปลานิล", "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%99%E0%B8%B4%E0%B8%A5", "topic_ids": ["5"] },
+    { "keyword": "probiotic", "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=probiotic", "topic_ids": ["5"] },
+    { "keyword": "lactic acid bacteria", "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=lactic+acid+bacteria", "topic_ids": ["5"] },
+    { "keyword": "Genetic diversity", "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Genetic+diversity", "topic_ids": ["5"] },
+    { "keyword": "Biodiversity", "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Biodiversity", "topic_ids": ["6"] },
+    { "keyword": "ecology", "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=ecology", "topic_ids": ["6"] },
+    { "keyword": "ความหลากหลายทางชีวภาพ", "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%A0%E0%B8%B2%E0%B8%9E", "topic_ids": ["6"] },
+    { "keyword": "ป่าชายเลน", "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%A5%E0%B8%99", "topic_ids": ["6"] }
+  ],
+  "kukr_urls": {
+    "search": "https://kukr.lib.ku.ac.th/KUKR/Search",
+    "index": "https://kukr.lib.ku.ac.th/KUKR/Index",
+    "author": "https://kukr.lib.ku.ac.th/KUKR/Author",
+    "ebooks": "https://kukr.lib.ku.ac.th/KUKR/Html/index/80?type=1",
+    "journals": "https://kukr.lib.ku.ac.th/KUKR/Html/index/245?type=1",
+    "proceedings": "https://kukr.lib.ku.ac.th/KUKR/Html/index/246?type=1",
+    "datasets": "https://kukr.lib.ku.ac.th/KUKR/Html/index/247?type=1",
+    "bang_khen": "https://kukr.lib.ku.ac.th/KUKR/Html/index/2454",
+    "top20": "https://kukr.lib.ku.ac.th/KUKR/Analysis/top10"
+  },
+  "ku_mooc_courses": [
+    { "code": "kumooc005", "name": "การคำนวณคาร์บอนฟุตพริ้นท์รายบุคคล", "url": "https://kumooc.ku.th/courses/6/info", "topic_ids": ["1", "4"], "category": "เกษตรและสิ่งแวดล้อม" },
+    { "code": "kumooc016", "name": "พื้นฐานความรู้การทำฟาร์มป่าไม้", "url": "https://kumooc.ku.th/courses/73/info", "topic_ids": ["4", "6"], "category": "เกษตรและสิ่งแวดล้อม" },
+    { "code": "kumooc017", "name": "การใช้งานเลื่อยโซ่ขั้นพื้นฐาน", "url": "https://kumooc.ku.th/courses/74/info", "topic_ids": ["6"], "category": "เกษตรและสิ่งแวดล้อม" },
+    { "code": "kumooc025", "name": "Microplastics 101", "url": "https://kumooc.ku.th/courses/82/info", "topic_ids": ["3"], "category": "เกษตรและสิ่งแวดล้อม" },
+    { "code": "kumooc026", "name": "เศรษฐศาสตร์การจัดการมลพิษและของเสีย", "url": "https://kumooc.ku.th/courses/84/info", "topic_ids": ["3", "4"], "category": "เกษตรและสิ่งแวดล้อม" },
+    { "code": "kumooc039", "name": "การปลูกเลี้ยงและดูแลแคคตัส", "url": "https://kumooc.ku.th/courses/104/info", "topic_ids": ["5"], "category": "เกษตรและสิ่งแวดล้อม" }
+  ],
+  "ku_mooc_categories": [
+    { "name": "เกษตรและสิ่งแวดล้อม", "url": "https://kumooc.ku.th/courses/list/4" },
+    { "name": "อาหารและโภชนาการ", "url": "https://kumooc.ku.th/courses/list/14" },
+    { "name": "คณิตศาสตร์และวิทยาศาสตร์", "url": "https://kumooc.ku.th/courses/list/10" },
+    { "name": "คอมพิวเตอร์และเทคโนโลยี", "url": "https://kumooc.ku.th/courses/list/11" },
+    { "name": "สุขภาพและการแพทย์", "url": "https://kumooc.ku.th/courses/list/9" },
+    { "name": "ศาสตร์แห่งแผ่นดิน", "url": "https://kumooc.ku.th/courses/list/19" }
+  ]
+}

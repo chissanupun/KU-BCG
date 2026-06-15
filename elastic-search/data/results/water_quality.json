@@ -1,0 +1,3444 @@
+{
+  "took": 69,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 149,
+      "relation": "eq"
+    },
+    "max_score": 4.6597805,
+    "hits": [
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "wxgzyp4B882ltYvqGpAB",
+        "_score": 4.6597805,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "Water Quality Management in Lowland Area",
+          "authors": [
+            "ดร.นฤมล มัตสึยามะ, รองศาสตราจารย์"
+          ],
+          "year": 2010,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=water+quality",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "water quality"
+          ],
+          "search_keyword": "water quality",
+          "doc_type": "งานวิจัย",
+          "funding": "Institute of Lowland and Marine Research, Saga University, Japan",
+          "indexed_at": "2026-06-15T07:31:59.447Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "whgzyp4B882ltYvqGpAB",
+        "_score": 4.537809,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "รวบรวมข้อมูลด้านคุณภาพน้ำและบริบทด้านสุขาภิบาลอนามัยสิ่งแวดล้อมที่เกี่ยวข้องกับการจัดการคุณภาพน้ำประปาหมู่บ้านในชุมชนในพื้นที่ห่างไกลและทุรกันดารให้ได้มาตรฐาน",
+          "authors": [
+            "นายไกรวิชญ์ เรืองฤาหาร",
+            "ผู้ช่วยศาสตราจารย์"
+          ],
+          "year": 2023,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=water+quality",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "water quality"
+          ],
+          "search_keyword": "water quality",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักสุขาภิบาลอาหารและน้ำ กรมอนามัย",
+          "indexed_at": "2026-06-15T07:31:59.447Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "QhjoyZ4B882ltYvqOo88",
+        "_score": 4.517002,
+        "_source": {
+          "source": "KUKR",
+          "title": "Seed coating on quality of sorghum seed",
+          "authors": [
+            "Ngamprasitthi, S.",
+            "Wongpila, W.",
+            "Inchan, Y.",
+            "Panitnok, K.",
+            "Chaisri, S.",
+            "สุปราณี งามประสิทธิ์",
+            "วราภรณ์ วงศ์พิลา",
+            "ยุวดี อินจันทร์",
+            "กิ่งกานท์ พานิชนอก",
+            "สกล ฉายศรี"
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/387893",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Sorghum bicolor",
+            "Seed",
+            "Seed pelleting",
+            "Chemicals",
+            "Chitosan",
+            "Bacteria",
+            "Quality",
+            "Seed characteristics",
+            "Vigour",
+            "Germination",
+            "Seeds",
+            "เมล็ดพันธุ์",
+            "การเคลือบเมล็ด",
+            "สารเคมี",
+            "ไคโตแซน",
+            "แบคทีเรีย",
+            "คุณภาพ",
+            "ลักษณะของเมล็ดพันธุ์",
+            "ความแข็งแรง",
+            "การงอก",
+            "เมล็ด",
+            "Sorghum",
+            "Seed coating",
+            "Chemical substances",
+            "Bacteria KPS46",
+            "Seed vigor",
+            "Seed germination",
+            "ข้าวฟ่าง",
+            "การเคลือบเมล็ดพันธุ์",
+            "ไคโตซาน",
+            "แบคทีเรีย KPS46",
+            "คุณภาพเมล็ดพันธุ์",
+            "ความแข็งแรงของเมล็ด",
+            "ความงอก"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "TRjoyZ4B882ltYvqOo88",
+        "_score": 4.2561793,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of chitosan on postharvest quality of Xichu persimmon",
+          "authors": [
+            "Adisak Chirasukon",
+            "อดิศักดิ์ จิราสุคนธ์"
+          ],
+          "year": "2016",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/355384",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Persimmon",
+            "Xichu",
+            "Chitosan coating",
+            "Postharvest quality",
+            "Prolong storage life",
+            "Weight loss",
+            "Firmness",
+            "Postharvest technology",
+            "พลับ",
+            "พันธุ์ซิชู",
+            "การเคลือบผิว",
+            "ไคโตซาน",
+            "คุณภาพหลังการเก็บเกี่ยว",
+            "การยืดอายุการเก็บรักษา",
+            "การเก็บรักษาคุณภาพ",
+            "การสูญเสียน้ำหนัก",
+            "ความแน่นเนื้อ",
+            "การยอมรับของผู้บริโภค",
+            "เทคโนโลยีหลังการเก็บเกี่ยว",
+            "Diospyros virginiana",
+            "American persimmon",
+            "Coating",
+            "Chitosan",
+            "Storage",
+            "Quality",
+            "Weight losses",
+            "การเคลือบ",
+            "ไคโตแซน",
+            "การเก็บรักษา",
+            "คุณภาพ"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "2RjoyZ4B882ltYvqOo48",
+        "_score": 4.1367464,
+        "_source": {
+          "source": "KUKR",
+          "title": "High quality solid biofuel from woody biomass using torrefaction technique",
+          "authors": [
+            "Natthawan Prasongthum",
+            "Neeranuch Duangwongsa",
+            "Pathompat Khowattana",
+            "Teerawit Laosombut",
+            "Apichat Junsod",
+            "Mangkorn Mooksri",
+            "Amornrat Suemanotham",
+            "Lalita Attanatho",
+            "Yoothana Thanmongkhon",
+            "นรรฎธวรรณ ประสงค์ธรรม",
+            "ณีรนุช ดวงวงษา",
+            "ปฐมภัสร์ ก่อวัฒนะ",
+            "ธีรวิทย์ เหล่าสมบัติ",
+            "อภิชาติ จันสด",
+            "มังกร มุขศรี",
+            "อมรรัตน์ สื่อมโนธรรม",
+            "ลลิตา อัตนโถ",
+            "ยุทธนา ฐานมงคล"
+          ],
+          "year": "2021",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/413936",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Wood residues",
+            "Logging wastes",
+            "Energy sources",
+            "Energy generation",
+            "Biofuels",
+            "Bioenergy",
+            "Energy technology",
+            "เศษไม้เหลือ",
+            "ของเสียจากการทำไม้",
+            "แหล่งพลังงาน",
+            "การผลิตพลังงาน",
+            "เชื้อเพลิงชีวภาพ",
+            "พลังงานชีวภาพ",
+            "เทคโนโลยีพลังงาน",
+            "Wood waste",
+            "Biomass residues",
+            "Residual biomass leftover",
+            "Biomass fuels",
+            "Solid biofuel",
+            "Torrefaction",
+            "Heating value",
+            "Thermal efficiency",
+            "เศษไม้เหลือทิ้ง",
+            "เศษวัสดุเหลือทิ้ง",
+            "เศษเหลือชีวมวล",
+            "เชื้อเพลิงชีวมวล",
+            "เชื้อเพลิงแข็ง",
+            "กระบวนการทอร์ริแฟค",
+            "ค่าความร้อน",
+            "การเผาไหม้"
+          ],
+          "search_keyword": "ชีวมวล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:56:04.487Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "whjoyZ4B882ltYvqOo89",
+        "_score": 4.0747795,
+        "_source": {
+          "source": "KUKR",
+          "title": "The use of various instant noodles as a supplement to tilapia and hybrid catfish culture on growth rates and changes in water quality and fish meat quality",
+          "authors": [
+            "Suthin Somboon",
+            "Vichit Semachai",
+            "Anugul Amim",
+            "สุทิน สมบูรณ์",
+            "วิชิต เสมาชัย",
+            "อนุกูล เอมอิ่ม"
+          ],
+          "year": "2021",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/418550",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Tilapia",
+            "Oreochromis niloticus",
+            "Clarias",
+            "Fish culture",
+            "Aquaculture",
+            "Fish feeding",
+            "Instant foods",
+            "Animal performance",
+            "Mortality",
+            "Feed conversion efficiency",
+            "Growth",
+            "Water quality",
+            "ปลานิล",
+            "การเพาะเลี้ยงปลา",
+            "การเพาะเลี้ยงสัตว์น้ำ",
+            "การให้อาหารปลา",
+            "อาหารกึ่งสำเร็จรูป",
+            "สมรรถภาพของสัตว์",
+            "การตาย",
+            "ประสิทธิภาพการเปลี่ยนอาหารเป็นเนื้อ",
+            "การเติบโต",
+            "คุณภาพน้ำ",
+            "Catfish",
+            "Fish diet",
+            "Instant noodles",
+            "Feed supplements",
+            "Feed efficiency",
+            "Growth rates",
+            "Survival rates",
+            "Fish meat quality",
+            "ปลานิลแปลงเพศ",
+            "ปลาดุก",
+            "การเลี้ยงปลา",
+            "เส้นบะหมี่กึ่งสำเร็จรูป",
+            "อาหารเสริม",
+            "การปนเปื้อนของเชื้อรา",
+            "ประสิทธิภาพอาหารสัตว์",
+            "การเจริญเติบโตของสัตว์",
+            "อัตราการรอด",
+            "คุณภาพเนื้อปลา",
+            "คุณภาพซาก"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "QxjoyZ4B882ltYvqOo88",
+        "_score": 4.068902,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effects of chitosan coating on prolonging of shelf life, egg quality and antimicrobial of chicken eggs",
+          "abstract": "The objective of this study was to evaluate the efficiency of chitosan coating on prolonging shelf life, egg quality and antimicrobial of chicken eggs. The experiment was randomly allotted into a completely randomized design. Chitosan coatings eggs were divided into 5 treatments according to the concentration of chitosan coated eggs with 0, 0.5, 1, 1.5 and 2%, respectively. Chicken eggs were storage at 25 deg C and 50% relative humidity for 33 days. The results showed that haugh unit (HU) of eggs decreased when the storage period increased. The quality of uncoated egg decreased from haugh unit = 72.06 to 68.62 after 6 days of storage. While, all chitosan coated eggs could be maintain the quality of eggs (haugh unit 72) in AA grade for 9 days. However, egg weight, egg yolk color, weight loss and antimicrobial were no significant difference (P more than 0.05) between treatments. After 33 days of storage, non-coated eggs had 8.89% of weight loss higher than the weight loss of 1 and 1.5 % of chitosan coated eggs 7.86 and 8.23%. The quality of chicken egg coated with chitosan had significantly better quality than non-coated eggs and room temperature storage at 25 deg C for at least 33 days. In conclusion, the application showed of chitosan coated eggs the effectively extended the shelf life of fresh eggs at 0, 0.5, 1, 1.5 and 2 % of chitosan concentration. The quality of chitosan coated eggs in haugh unit 72 can be preserved for up to 9 days at 25 deg C.",
+          "authors": [
+            "Pongthorn Suksanong",
+            "Niparat Sritharet",
+            "Awanwee Petchkongkaew",
+            "พงศ์ธร สุขสนอง",
+            "นิภารัตน์ ศรีธเรศ",
+            "อวันวี เพชรคงแก้ว"
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20009804",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Chicken eggs",
+            "Chitosan",
+            "Concentration",
+            "Coating",
+            "Shelf life extension",
+            "Egg quality",
+            "Haugh unit",
+            "Egg weight",
+            "Yolk color",
+            "Weight loss",
+            "Antimicrobial activity",
+            "ไข่ไก่",
+            "ไคโตซาน",
+            "ความเข้มข้น",
+            "การเคลือบไข่",
+            "การเก็บรักษา",
+            "อายุการเก็บรักษา",
+            "คุณภาพไข่",
+            "ฮอกยูนิต",
+            "น้ำหนักไข่",
+            "สีไข่แดง",
+            "การสูญเสียน้ำหนัก",
+            "การต้านเชื้อจุลินทรีย์",
+            "Eggs",
+            "Layer chickens",
+            "Protective coatings",
+            "Storage",
+            "Keeping quality",
+            "Egg characters",
+            "Antimicrobial properties",
+            "ไข่",
+            "ไก่ไข่",
+            "ไคโตแซน",
+            "การเคลือบป้องกัน",
+            "คุณภาพการเก็บ",
+            "ลักษณะของไข่",
+            "คุณสมบัติของยาต้านจุลชีพ"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "SRjoyZ4B882ltYvqOo88",
+        "_score": 3.9169197,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of chitosan on yield and quality of cucumber (Cucumis sativus l.)",
+          "abstract": "The study on effects of chitosan on yield and quality of cucumber were investigated. The experiment was used with a Completely Randomized Design (CRD) with 20 replications and 7 treatments as by chosen concentration levels of 0, 0.5, 1, 1.5, 2, 2.5 and 3 ml/L. Chitosan was applied every 2 weeks. The number of fruit per plant, fruit weight, fruit length, diameter, firmness and sweetness of the cucumber were recorded. The results showed that the T7 chitosan at 3 ml/L significantly increased the highest yield of 15 fruits per plant. However, while the T7 had a significantly lower sweetness of the cucumber than the T4, T5 and T6 chitosan applied at 1.5, 2 and 2.5 ml/L respectively. In addition, the application of chitosan at 0.5 and 1 ml/L both T2 and T3 was significantly higher fruit weight per fruit of the cucumber when compared to T7 treatment",
+          "authors": [
+            "Vipharat Yodphomma",
+            "Paiboon Muymas",
+            "Suttinee Srijisatan",
+            "วิภารัตน์ ยอดพรมมา",
+            "ไพบูลย์ หมุ่ยมาศ",
+            "ศุทธินี ศรีใจสถาน"
+          ],
+          "year": "2017",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20003000",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Cucumber",
+            "Chitosan",
+            "Chitosan application",
+            "Concentration levels",
+            "Fruit weight",
+            "Fruit length",
+            "Firmness",
+            "Sweetness",
+            "แตงกวา",
+            "ไคโตซาน",
+            "อัตราความเข้มข้น",
+            "การฉีดพ่น",
+            "การใส่ปุ๋ยคอก",
+            "น้ำหนักสด",
+            "จำนวนผลผลิต",
+            "ความยาวผล",
+            "ความแน่นเนื้อ",
+            "ความหวาน",
+            "Cucumis sativus",
+            "Fertilizer application",
+            "Biofertilizers",
+            "Weight",
+            "Growth",
+            "ไคโตแซน",
+            "การใส่ปุ๋ย",
+            "ปุ๋ยชีวภาพ",
+            "น้ำหนัก",
+            "การเติบโต"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "bBjoyZ4B882ltYvqOo88",
+        "_score": 3.9167724,
+        "_source": {
+          "source": "KUKR",
+          "title": "Changing in Spatial and Temporal Accumulation of Microplastics in the Water Column at Urban Ko Yo Community in Songkhla Lagoon, Thailand",
+          "abstract": "Ko Yo, situated at the mouth of Songkhla Lagoon, is an urban ecosystem renowned as one of the active areas of Songkhla Province. Numerous anthropogenic activities occur in this area, including homestay tourism, aquaculture, fishing, and the operation of restaurants, all of which generate significant environmental waste. Microplastics represent a widespread pollutant and have been widely recognized as a critical environmental concern. However, they have received little attention among the general public. Therefore, this study investigated the type and quantity of microplastic accumulation in the water bodies surrounding Ko Yo, Songkhla Province. Water sampling stations were established along the coastline and 1 km into the subtidal area, and sampling was conducted for a year. Microplastics in the water samples were recorded and categorized using a modified size and color sorting protocol. Samples were analyzed via Fourier-transform infrared spectroscopy to identify microplastic polymers. The results revealed the accumulation of 6 types of microplastics around Ko Yo: Cotton polyester blend, polyester, alkyd, polypropylene, polyvinylchloride, and low-density polyethylene. These polymers most frequently occurred during the summer and the northeastern monsoon season. Cotton polyester blend, a synthetic fiber commonly used in clothing, furniture, ropes, nets, and cages, was found in the highest quantities across all months and stations. This update on microplastic contamination in natural environments near household areas could lead the idea of the microplastic status around Ko Yo and provide vital insights into the environmental and health implications of microplastics. © 2025, Walailak University. All rights reserved.",
+          "authors": [
+            "Rodcharoen, E.",
+            "Pat-Iam, S.",
+            "Chotikarn, P.",
+            "Sinutok, S.",
+            "Wichachucherd, B."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/448071",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "Anthropogenic",
+            "Coastal pollution",
+            "FTIR analysis",
+            "Global issues",
+            "Microplastics",
+            "Urban community",
+            "Water quality"
+          ],
+          "search_keyword": "microplastic",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:03:31.159Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "9RjoyZ4B882ltYvqOo48",
+        "_score": 3.7192783,
+        "_source": {
+          "source": "KUKR",
+          "title": "Optimizing cultivation conditions for enhanced productivity Limnothrix planctonica through pH variation and light quality",
+          "abstract": "The survival and growth of cyanobacteria in diverse environments are influenced by several critical factors when cultivating them for research or industrial purposes. Ensuring their optimal growth necessitates consideration of these factors that potentially impede pigment and biomass production. Therefore, optimizing light conditions and pH levels enhances biomass and pigment yield productivity in cyanobacterial cultivation. This study investigates the cultivation conditions of Limnothrix planctonica (KU.B3) in a BG-11 liquid medium, focusing on pigment production, growth response to light and pH variations, and photosynthetic efficiency assessment. Results demonstrated efficient growth of L. planctonica (KU.B3) under white, orange, and red light within the pH range of 7.4–9.0. Cultivation at pH 7.4, yielded the highest biomass (3.59 ± 0.35 μg ml−1) and phycocyanin content (0.016 ± 0.01 mg g−1 dry weight). Red light-induced significant phycocyanin yield (5.49 ± 1.21 mg g−1 dry weight), while white light promoted substantial biomass production (10.03 ± 1.28 μg ml−1). Conversely, exposure to blue light reduced biomass but exhibited the highest photosynthetic efficiency (F<inf>v</inf>/ F<inf>m</inf> = 0.48 ± 0.06). The study underscores the tradeoff between productivity and photosynthetic efficiency, emphasizing the need for further research to optimize conditions for both parameters, especially for industrial-scale applications. © 2025 Prachaya Chamarat and Nuttha Sanevas.",
+          "authors": [
+            "Chamarat, P.",
+            "Sanevas, N."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/448200",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Cyanobacteria",
+            "light LED",
+            "pH condition",
+            "photosynthetic efficiency",
+            "phycocyanin",
+            "chlorophyll a",
+            "chlorophyll b",
+            "pigment",
+            "Article",
+            "bacterial growth",
+            "biomass production",
+            "blue light",
+            "Chlorella",
+            "controlled study",
+            "cyanobacterium",
+            "growth rate",
+            "light",
+            "light quality",
+            "Limnothrix planctonica",
+            "nonhuman",
+            "orange light",
+            "pH",
+            "photosynthesis",
+            "productivity",
+            "red light",
+            "Synechocystis",
+            "white light"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "VxjoyZ4B882ltYvqOo88",
+        "_score": 3.7192783,
+        "_source": {
+          "source": "KUKR",
+          "title": "Influence of maturity and chitosan concentration on growth and quality of 'canadice seedless' grape",
+          "authors": [
+            "Kittipong Kittiwatsopon",
+            "Narongchai Pipatanawong",
+            "Tassanart Kajangwooti",
+            "กิตติพงศ์ กิตติวัฒน์โสภณ",
+            "ณรงค์ชัย พิพัฒน์ธนวงศ์",
+            "ทัศนารถ กระจ่างวุฒิ"
+          ],
+          "year": "2015",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/375325",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Grapes",
+            "Vitis",
+            "Maturity",
+            "Chitosan",
+            "Growth",
+            "Quality",
+            "องุ่น",
+            "การสุกแก่",
+            "ไคโตแซน",
+            "การเติบโต",
+            "คุณภาพ",
+            "Grape",
+            "Canadice seedless",
+            "Berry maturity",
+            "Concentration",
+            "Number of berries",
+            "Berry size",
+            "Fruit quality",
+            "Total soluble solids",
+            "TSS",
+            "Total acidity",
+            "Sugar content",
+            "องุุ่น",
+            "ความแก่ของผล",
+            "สารไคโตซาน",
+            "ระดับความเข้มข้น",
+            "การเจริญเติบโต",
+            "น้ำหนักช่อผล",
+            "ขนาดของผล",
+            "คุณภาพของผล",
+            "ปริมาณของแข็งละลายน้ำได้",
+            "เปอร์เซ็นต์กรด",
+            "น้ำคั้นองุ่น"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "aBjoyZ4B882ltYvqOo88",
+        "_score": 3.7192783,
+        "_source": {
+          "source": "KUKR",
+          "title": "Diversity of caddisflies (Trichoptera), water quality factors, and microplastics in a northern Thai stream",
+          "abstract": "The larvae of various caddisfly species are used to assess water quality at various levels of pollution. The purpose of this study was to determine the species composition and seasonal distribution of Trichoptera larvae in a northern Thai mountain stream, as well as their relationship to physicochemical parameters. Seasonally collected benthic macroinvertebrates were sampled between October 2024 and April 2025. A total of 2748 individual caddisfly larvae, distributed across 13 families and 24 genera were found. The most abundant larvae were Hydropsychidae, followed by Odontoceridae and Philopotamidae. The most prevalent species in this study were Marilia sumatrana, Chimarra sp., Cheumatopsyche dubitants, and Potamyia phaidra. The results from applying the indices of caddisfly biodiversity in the seven streams indicated that the Shannon index (H') ranged from 2.393 to 2.901, the Simpson index (D) ranged from 0.8763 to 0.9374, and the Evenness index (E) ranged from 0.835 to 0.943, respectively. Pearson correlation analysis showed that environmental factors such as water pH, temperature, dissolved oxygen, ammonia-nitrogen, nitrate-nitrogen, and total dissolved solids were significantly associated with caddisfly larvae (p < 0.05, p < 0.01). Polyplectropus sp. was significantly related to dissolved oxygen. Amphipsyche meridiana, Hydropsyche askalaphos, and Oecetis sp. were significantly related to ammonia-nitrogen content. Ganonema sp. and Leptocerus sp. were significantly related to nitrate-nitrogen content. Marilia sumatrana was significantly related to water pH. Triaenodes sp. was significantly related to water temperature. The larvae of Chimarra akkaorum, Cheumatopsyche dubitants, Macrostemum sp., and Leptocerus sp. were all significantly associated with total dissolved solids. All individuals tested contained microplastics. Small MPs (less than 100 to 250 μm) were found in the largest concentrations, in the shape of fibers, and primarily in the color blue. A total of seven types of polymers have been identified, of which cellulose acetate butyrate (CAB) and polyethylene terephthalate (PET) are the most common. © 2025 The Author(s). This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.",
+          "authors": [
+            "Prommi, T. O.",
+            "Seetapan, K.",
+            "Vitheepradit, A."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/448011",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "biodiversity",
+            "Caddisfly larvae",
+            "environmental variables",
+            "plastic particles",
+            "streams"
+          ],
+          "search_keyword": "microplastic",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:03:31.159Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "dRjoyZ4B882ltYvqOo88",
+        "_score": 3.7192783,
+        "_source": {
+          "source": "KUKR",
+          "title": "Aquatic insect biodiversity, water quality variables, and microplastics in the living weir freshwater ecosystem",
+          "abstract": "Most Thai rivers have not yet reached “good” ecological status. Furthermore, the scientific community is deeply concerned about the existence and abundance of microplastics (MPs) in freshwater. The live weirs’ river health status was assessed using water quality and a variety of aquatic insect species. The research was conducted along Khlong-La, which was compared in the absence (R1, R2) and presence of living weirs (LWs) (M71, M62, M4, and M2). In 2023, aquatic insects and water samples were gathered during two months: January (rainy season) and July (dry season). The results revealed that the six sampling sites had similar physical and chemical properties, with the exception of total dissolved solids, which varied significantly. A total of 658 aquatic insects from 25 families and 6 orders were identified. The Hydropsychidae dominated the aquatic insect fauna at the LWs locations, followed by Chironomidae, Naucoridae, and Caenidae. Ten genera were discovered at the reference site (R1), whereas 16, 21, 24, and 19 were discovered at LWs (M71, M62, M4, M2), and 16 at the reference site (R2). The results of CCA ordination revealed that the most important factors influencing aquatic insect diversity were dissolved oxygen, water temperature, pH, electrical conductivity, and ammonia nitrogen. This study suggests that because of their significant responses to environmental factors, the species richness of aquatic insects may indicate the conservation value of habitats. The BMWPTHAI score was 41, 51, 57, 58, 73, 54, and the ASPTTHAI score was 5.12, 5.10, 5.18, 5.27, 4.86, and 5.40, respectively. Shannon-Weiner diversity index (H’) values were 2.059, 2.461, 2.839, 2.777, and 2.587, respectively. The results showed that the water quality was average. The physicochemical data, as well as the BMWP and ASPT, revealed that the water at the living well was slightly polluted. Furthermore, larger MPs (>500 µm) were found in the largest concentrations, in the shape of fibers, and primarily in the color violet. © 2024 The Author(s).",
+          "authors": [
+            "Vitheepradit, A.",
+            "Mitpuangchon, N.",
+            "Prommi, T. O."
+          ],
+          "year": "2024",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/439689",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "Benthic macroinvertebrate",
+            "check dam",
+            "physicochemical parameters",
+            "small plastic particles"
+          ],
+          "search_keyword": "microplastic",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:03:31.159Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "XBjoyZ4B882ltYvqOo88",
+        "_score": 3.6277528,
+        "_source": {
+          "source": "KUKR",
+          "title": "Antioxidative activity of chitosan on quality of giant perch (Lates calcarifer) meat during cold storage",
+          "authors": [
+            "Vilailak Klompong",
+            "Alisa Sothorn",
+            "Suraida D-ning"
+          ],
+          "year": "2014",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/22851",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Lates calcarifer",
+            "Fish",
+            "Cold storage",
+            "Chitosan",
+            "Antioxidants",
+            "Keeping quality",
+            "Chemicophysical properties",
+            "Organoleptic properties",
+            "ปลา (ผลิตภัณฑ์)",
+            "การเก็บรักษาในสภาพเย็น",
+            "ไคโตแซน",
+            "สารยับยั้งการรวมตัวของออกซิเจน",
+            "คุณภาพการเก็บ",
+            "คุณสมบัติทางเคมีกายภาพ",
+            "คุณสมบัติทางประสาทสัมผัส",
+            "Giant perch",
+            "Antioxidative activity",
+            "Quality",
+            "Natural antioxidant",
+            "ปลากะพงขาว",
+            "เนื้อปลากะพงขาว",
+            "ไคโตซาน",
+            "ฤทธิ์ต้านอนุมูลอิสระ",
+            "คุณภาพเนื้อปลา",
+            "คุณภาพทางประสาทสัมผัส",
+            "คุณสมบัติทางเคมีและกายภาพ"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "thjoyZ4B882ltYvqOo48",
+        "_score": 3.5406237,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of seed size on growth, yield and seed quality of jack bean (Canavalia ensiformis (L.))",
+          "authors": [
+            "Chunjit Kaewkunya",
+            "Nicharee Weerasing",
+            "Sukanda Aunchai",
+            "ชื่นจิต แก้วกัญญา",
+            "ณิชารีย์ วีระสิงห์",
+            "สุกานดา อุ่นชัย"
+          ],
+          "year": "2024",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/437570",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Canavalia ensiformis",
+            "Seed size",
+            "Growth",
+            "Biomass",
+            "Grain",
+            "Yields",
+            "Seed",
+            "Quality",
+            "Seedlings",
+            "ขนาดของเมล็ดพันธุ์",
+            "การเติบโต",
+            "มวลชีวภาพ",
+            "เมล็ดธัญพืช",
+            "ผลผลิต",
+            "เมล็ดพันธุ์",
+            "คุณภาพ",
+            "ต้นกล้า",
+            "Jack bean",
+            "Seed quality",
+            "Germination",
+            "Seedling weight",
+            "ถั่วพร้า",
+            "ขนาดเมล็ด",
+            "การเจริญเติบโต",
+            "ผลผลิตชีวมวล",
+            "ผลผลิตเมล็ด",
+            "คุณภาพเมล็ดพันธุ์",
+            "การงอก"
+          ],
+          "search_keyword": "ชีวมวล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:56:04.485Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "RxjoyZ4B882ltYvqOo88",
+        "_score": 3.5406237,
+        "_source": {
+          "source": "KUKR",
+          "title": "Foliar application of chitosan and different temperature storage on postharvest quality of Edaw longan (Dimocarpus longan)",
+          "authors": [
+            "Kanokporn Thongrod",
+            "กนกพร ทองรอด"
+          ],
+          "year": "2017",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/372920",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Dimocarpus longan",
+            "Biopolymers",
+            "Chitosan",
+            "Spraying",
+            "Storage",
+            "Temperature",
+            "Keeping quality",
+            "Weight losses",
+            "Peel",
+            "Colour",
+            "Respiration",
+            "Ethylene production",
+            "Browning",
+            "Morbidity",
+            "ไบโอโพลีเมอร์",
+            "ไคโตแซน",
+            "การพ่น",
+            "การเก็บรักษา",
+            "อุณหภูมิ",
+            "คุณภาพการเก็บ",
+            "การสูญเสียน้ำหนัก",
+            "เปลือก",
+            "สี",
+            "การหายใจ",
+            "การผลิตเอธิลีน",
+            "การเกิดสีน้ำตาล",
+            "สภาวะการเกิดโรค",
+            "Longan",
+            "Edaw longan",
+            "Biopolymer",
+            "Foliar application",
+            "Prolong storage life",
+            "Temperatures",
+            "Postharvest quality",
+            "Weight loss",
+            "Peel color change",
+            "Softening",
+            "Browning index",
+            "Disease index",
+            "ลำไย",
+            "ไบโอพอลิเมอร์",
+            "การยืดอายุ",
+            "ไคโตซาน",
+            "การฉีดพ่น",
+            "อายุการเก็บรักษา",
+            "คุณภาพหลังการเก็บเกี่ยว",
+            "พันธุ์อีดอ",
+            "การชะลอการสูญเสียน้ำหนัก",
+            "ค่าสีเปลือก",
+            "ความอ่อนนุ่ม",
+            "การผลิตเอทิลีน",
+            "ดัชนีการเกิดสีน้ำตาล",
+            "ดัชนีการเกิดโรค"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "1xjoyZ4B882ltYvqOo89",
+        "_score": 3.5406237,
+        "_source": {
+          "source": "KUKR",
+          "title": "A study on the physical quality and nutrients of nile tilapia fish by moist heat treatment",
+          "authors": [
+            "Onnalin Inkaew",
+            "Marisa Phupinyokul",
+            "Witcha Treesuwan",
+            "อรนลิน อินทร์แก้ว",
+            "มาริษา ภู่ภิญโญกุล",
+            "วิชชา ตรีสุวรรณ"
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/389095",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Tilapia",
+            "Oreochromis niloticus",
+            "Fish",
+            "Heat treatment",
+            "Food processing",
+            "Boiling",
+            "Steaming",
+            "Organoleptic properties",
+            "Discoloration",
+            "Texture",
+            "Firmness",
+            "Nutritive value",
+            "Quality",
+            "ปลานิล",
+            "ปลา (ผลิตภัณฑ์)",
+            "การปฏิบัติโดยใช้ความร้อน",
+            "กรรมวิธีการผลิตอาหาร",
+            "การต้ม",
+            "การอบไอน้ำ",
+            "คุณสมบัติทางประสาทสัมผัส",
+            "การเปลี่ยนสี",
+            "เนื้อสัมผัส",
+            "ความแน่นเนื้อ",
+            "คุณค่าทางโภชนาการ",
+            "คุณภาพ",
+            "Nile tilapia fish",
+            "Fish meat",
+            "Cooking",
+            "Moist heat treatment",
+            "Heated process",
+            "Sous vide",
+            "Colour",
+            "Nutritional value",
+            "Amino acid",
+            "Total phosphorus",
+            "Calcium",
+            "Iron",
+            "เนื้อปลานิล",
+            "กระบวนการปรุงสุก",
+            "การปรุงด้วยความร้อนชื้น",
+            "การนึ่ง",
+            "การซูวิด",
+            "คุณภาพทางกายภาพ",
+            "น้ำหนัก",
+            "ความหนาของชิ้นเนื้อปลา",
+            "การเปลี่ยนแปลงของสี",
+            "คุณค่าทางอาหาร",
+            "กรดอะมิโน",
+            "ฟอสฟอรัสทั้งหมด",
+            "แคลเซียม",
+            "ธาตุเหล็ก"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "LhjoyZ4B882ltYvqOo88",
+        "_score": 3.5126586,
+        "_source": {
+          "source": "KUKR",
+          "title": "Monitoring the quality of fresh-cut Kimju guava in packages using intelligent chitosan film incorporated with AMP and anthocyanin",
+          "abstract": "This research was conducted to study the use of 0.5 percent chitosan film mixed with 10 percent aminomethyl propanol (AMP) and 1 percent anthocyanin from butterfly pea flowers that coated on filter papers for monitoring the quality of fresh-cut Kimju guava stored at 10 and 37 deg C. The results found that Kimju guava packages had increases of CO2 concentration and decreases of O2 concentration. Fresh-cut guava showed increases of pH, total soluble solid, and total bacterial counts. Moreover, the browning and spoilage of guava flesh increased as the storage temperature increased. On the 7th day of storage at 10 and 37 deg C, CO2 concentrations in the packages were increased from 0 to 0.5 and 5 percent. The pH values were increased from 4.2 to 4.5 and 5.9. Total soluble solids increased from 24.6 to 28.4 and 28.2 Brix. Total bacteria, yeasts, and molds were increased from 5.6, 4.8, and 2.5 log CFU/g to 17, 8.7, and 15 log CFU/g and 20.5, 9.7, and 19.5 log CFU/g, respectively. Escherichia coli and Salmonella spp. were not detected in fresh-cut guava stored at 10 deg C, but E. coli (8.1 log CFU/g) was detected when stored at 37 deg C. The chitosan film color was changed from blue to blue-green and blue-yellow according to the loss of guava quality during storage. Therefore, the intelligent chitosan film could be used as an index indicator for monitoring the quality of fresh-cut guava.",
+          "authors": [
+            "Jutatip Poubol",
+            "Papitchaya Sujaritji",
+            "Pharima Phiriyangkul",
+            "จุฑาทิพย์ โพธิ์อุบล",
+            "ปพิชญา สุจริตจิตร",
+            "พริมา พิริยางกูร"
+          ],
+          "year": "2024",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20021684",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Guava",
+            "Packages",
+            "Chitosan film",
+            "Aminomethyl propanol",
+            "AMP",
+            "Anthocyanin",
+            "Butterfly pea flowers",
+            "Quality loss",
+            "Microbial contamination",
+            "Escherichia coli",
+            "Salmonella",
+            "Shelf life",
+            "ฝรั่ง",
+            "พันธุ์กิมจู",
+            "ผลไม้ตัดแต่งพร้อมบริโภค",
+            "บรรจุภัณฑ์",
+            "ไคโตซาน",
+            "อะมิโนเมทิลโพรพานอล",
+            "เอเอ็มพี",
+            "แอนโทไซยานิน",
+            "ดอกอัญชัน",
+            "การสูญเสียคุณภาพ",
+            "การปนเปื้อนของจุลินทรีย์",
+            "การปนเปื้อนเชื้อก่อโรค",
+            "อายุการเก็บรักษา",
+            "Guavas",
+            "Psidium guajava",
+            "Fruits",
+            "Packaging",
+            "Packaging materials",
+            "Chitosan",
+            "Anthocyanins",
+            "Deterioration",
+            "Storage losses",
+            "Nutritional losses",
+            "Quality",
+            "Biological contamination",
+            "Bacteria",
+            "ผลไม้",
+            "การบรรจุหีบห่อ",
+            "ไคโตแซน",
+            "การเสื่อมสภาพ",
+            "การสูญเสียเนื่องจากการเก็บรักษา",
+            "การสูญเสียทางโภชนาการ",
+            "คุณภาพ",
+            "การปนเปื้อนทางชีววิทยา",
+            "แบคทีเรีย"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "PRjoyZ4B882ltYvqOo88",
+        "_score": 3.30266,
+        "_source": {
+          "source": "KUKR",
+          "title": "Use of chitosan and carbon dioxide adsorption for the quality monitor of fresh-cut cherry tomatoes contaminated with Escherichia coli",
+          "authors": [
+            "Poubol, J.",
+            "Srithi, P.",
+            "Phiriyangkul, P.",
+            "จุฑาทิพย์ โพธิ์อุบล",
+            "พิมพ์วิภา ศรีธิ",
+            "พริมา พิริยางกูร"
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/407872",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Tomatoes",
+            "Cutting",
+            "Prepared foods",
+            "Chitosan",
+            "Carbon dioxide",
+            "Adsorption",
+            "Adsorbents",
+            "Packaging",
+            "Storage",
+            "Quality",
+            "Escherichia coli",
+            "Contamination",
+            "มะเขือเทศ",
+            "การตัด",
+            "อาหารพร้อมปรุง",
+            "ไคโตแซน",
+            "คาร์บอนไดออกไซด์",
+            "การดูดซับ",
+            "ตัวดูดซับ",
+            "การบรรจุหีบห่อ",
+            "การเก็บรักษา",
+            "คุณภาพ",
+            "การปนเปื้อน",
+            "Cherry tomatoes",
+            "Fresh-cut tomatoes",
+            "Carbon dioxide adsorption",
+            "2-Amino 2-methyl 1-propanol",
+            "AMP",
+            "มะเขือเทศราชินี",
+            "มะเขือเทศตัดแต่ง",
+            "ไคโตซาน",
+            "สารดูดซับคาร์บอนไดออกไซด์",
+            "2-อะมิโน 2-เมทิล 1-โพรพานอล",
+            "เอเอ็มพี",
+            "การบรรจุ",
+            "เอสเชอริเชีย โคไล"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "5hjoyZ4B882ltYvqOo48",
+        "_score": 3.110039,
+        "_source": {
+          "source": "KUKR",
+          "title": "Wastewater treatment in the brewing industry using Chlorella vulgaris",
+          "authors": [
+            "Worakai Wichanuchit",
+            "Thitiya Pung",
+            "Thanawan Panich-pat"
+          ],
+          "year": "2021",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/433954",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Wastewater",
+            "Brewing industry",
+            "Wastewater treatment",
+            "Chlorella vulgaris",
+            "Algae",
+            "Water quality",
+            "Growth",
+            "Biomass",
+            "Biofuels",
+            "Plant oils",
+            "Byproducts",
+            "น้ำเสีย",
+            "อุตสาหกรรมเบียร์",
+            "การบำบัดน้ำเสีย",
+            "สาหร่าย",
+            "คุณภาพน้ำ",
+            "การเติบโต",
+            "มวลชีวภาพ",
+            "เชื้อเพลิงชีวภาพ",
+            "น้ำมันพืช",
+            "ผลพลอยได้",
+            "Effluent",
+            "Brewery wastewater",
+            "Microalgae",
+            "Wastewater quality",
+            "Physico-chemical parameters",
+            "Biomass yields",
+            "Algae oil biofuel",
+            "สาหร่ายขนาดเล็ก",
+            "คลอเรลล่า วัลการิส",
+            "คุณภาพน้ำเสีย",
+            "อุตสาหกรรมการผลิตเบียร์",
+            "การเจริญเติบโต",
+            "ผลผลิตชีวมวล",
+            "น้ำมันสาหร่าย"
+          ],
+          "search_keyword": "ชีวมวล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:56:31.093Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "JBjoyZ4B882ltYvqOpA9",
+        "_score": 3.0699773,
+        "_source": {
+          "source": "KUKR",
+          "title": "Nutritional composition and ruminant feed potential of black pod by-products from tree bean (Parkia timoriana (DC.) Merr.) in Southern Thailand",
+          "abstract": "Parkia timoriana (DC.) Merr., or tree bean, is a forest tree commonly cultivated in southern Thailand as an intercrop in rubber plantations, agroforestry systems, and home gardens, mainly for seed production. However, its black pod by-products are often discarded despite possible nutritional value. This research analyzed the chemical composition, energy values, and mineral content of three size-based types of black pod by-products: small-type (<2.0 mm), medium-type (2.0–10.0 mm), and large-type (>10.0 mm). The small-type was superior in terms of nutritional quality, having significantly higher levels of moisture, crude protein, ether extract, crude ash, nitrogen-free extract, non-structural carbohydrates, digestible energy, metabolizable energy, net energy for maintenance, net energy for gain, net energy for lactation, and key minerals, including calcium, phosphorus, potassium, and sodium, qualifying them as Prime forage. Medium-type showed a higher percentage of fiber constituents (neutral detergent fiber, acid detergent fiber, and lignin), gross energy and was rated as Fair quality. Large-type exhibited the highest amount of structural carbohydrates (crude fiber, hemicellulose, cellulose, total carbohydrates) earning a Good forage rating. Dry matter content was not statistically significantly different among medium to large-types. This is the first report highlighting the nutritional potential of tree bean black pod by-products, particularly the small type, as a promising ruminant feed resource. For future research, we recommend to investigate in vivo or in vitro digestibility assessments for a more accurate determination of nutrient bioavailability and the practical nutritional value of the black pod by-products. © 2025",
+          "authors": [
+            "Ruangrak, E.",
+            "Jeanmas, A.",
+            "Kraiprom, T.",
+            "Longnapa, K.",
+            "Sornnok, S.",
+            "Htwe, N. M. P. S."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446967",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Energy values",
+            "Mineral contents",
+            "Nutritional composition",
+            "Relative feeding values",
+            "Ruminant feed potential",
+            "Southern Thailand agriculture",
+            "Tree bean by-products",
+            "agroforestry",
+            "bioavailability",
+            "byproduct",
+            "chemical composition",
+            "forage",
+            "home garden",
+            "legume",
+            "plantation",
+            "rubber",
+            "ruminant",
+            "Thailand"
+          ],
+          "search_keyword": "agroforestry",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:09:50.086Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "EBjoyZ4B882ltYvqOpA9",
+        "_score": 3.0438836,
+        "_source": {
+          "source": "KUKR",
+          "title": "Identity of pomelo cv. Taiwan Khao Nam Phueng grown in Nakhon Pathom province",
+          "abstract": "The objective of this study was to identify and evaluate characteristics of ‘Taiwan Khao Nam Phueng’ pomelo comparing with ‘Khao Nam Phueng’. Pomelo cv. ‘Taiwan Khao Nam Phueng’ was introduced to pomelo orchard in Nakhon Pathom province. A fruit shape of both ‘Taiwan Khao Nam Phueng’ and ‘Khao Nam Phueng’ was similar but flavor and fruit texture were different. Three orchards/cultivar (3 trees/orchard and 5 fruit/tree) were selected to evaluate. The result showed the cultivar classification between ‘Taiwan Khao Nam Phueng’ and ‘Khao Nam Phueng’ using morphological characters was difficult. There were a few differences such as ‘Taiwan Khao Nam Phueng’ had a longer leaf (more than 1.1 centimeter) and more yellowish green of peel color than ‘Khao Nam Phueng’. There were 3 types of fruit shape found in ‘Taiwan Khao Nam Phueng’ including spheroid, obovoid, and oblate. All except oblate shape were found in ‘Khao Nam Phueng’. TSS and TA value of both cultivars were not significantly different. However, ‘Taiwan Khao Nam Phueng’ had unique smell that not familiar to the consumers.",
+          "authors": [
+            "Saowanee Kongsri",
+            "Pongnart Nartvaranant",
+            "เสาวณี คงศรี",
+            "พงษ์นาถ นาถวรานันต์"
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20009784",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Citrus maxima",
+            "Pomelo",
+            "Varieties",
+            "Taiwan Khao Nam Phueng",
+            "Cultivar classification",
+            "Morphological characteristics",
+            "Fruit quality",
+            "Fruit shape",
+            "Peel color",
+            "Flavor",
+            "Texture",
+            "Nakhon Pathom province",
+            "ส้มโอ",
+            "พันธุ์ขาวน้ำผึ้งไต้หวัน",
+            "ลักษณะประจำพันธุ์",
+            "การจำแนกพันธุ์",
+            "ผลผลิต",
+            "คุณภาพ",
+            "สัณฐานวิทยา",
+            "ทรงผล",
+            "สีผิวผล",
+            "รสชาติ",
+            "เนื้อสัมผัส",
+            "จ.นครปฐม",
+            "Citrus grandis",
+            "Pummelos",
+            "Identification",
+            "Yields",
+            "Quality",
+            "Plant anatomy",
+            "Fruit",
+            "Peel",
+            "Flavour",
+            "Organoleptic analysis",
+            "Thailand",
+            "พันธุ์",
+            "การจัดจำแนก",
+            "กายวิภาคของพืช",
+            "ผล",
+            "เปลือก",
+            "กลิ่นรส",
+            "การวิเคราะห์ทางประสาทสัมผัส",
+            "ประเทศไทย"
+          ],
+          "search_keyword": "วนเกษตร",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:07:10.006Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "9hjoyZ4B882ltYvqOo48",
+        "_score": 3.0310402,
+        "_source": {
+          "source": "KUKR",
+          "title": "Utilizing spent mushroom substrate for rearing black soldier fly (Hermetia illucens) larvae: enhancing fertilizer efficiency and improving animal feed quality for sustainable agriculture",
+          "abstract": "Spent mushroom substrate (SMS), a byproduct of mushroom cultivation, has high potential as a substrate for rearing animals, including black soldier fly larvae (BSFL). However, due to its low nutrient content, mixing it with other organic waste is necessary to enhance its efficiency and effectiveness. We evaluated three types of SMS—Agrocybe cylindracea, Lentinus polychrous, and Pleurotus pulmonarius—supplemented with mixed vegetables at three different levels (0% (VEG or control), 15%, and 30% (w/w)) and subjected to two pre-treatment processes (non-fermented and fermented). The SMS from three different mushroom types did not differ much in their influences upon BSFL growth performance at a 15% (w/w) SMS supplement, and were similar to VEG. Increasing the SMS level to 30% resulted in smaller larval, prepupal, and pupal weights. Self-fermentation of SMS for two months neither significantly altered its nutrient composition nor affected larval growth. However, it resulted in a better nutrient quality of the BSFL biomass and its frass, which was associated with the nutrient composition in SMS. Accordingly, BSFL decomposition significantly enhanced the efficiency of low-nutrient substrates, resulting in a 6- to 10-fold increased protein content in the larval biomass and higher total nitrogen, phosphorous, and potassium (NPK) levels in their frass compared to raw SMS. Nevertheless, further optimizing the substrate formulation would likely enhance the benefits from available waste materials and so support sustainable agriculture. © 2025 Kanjanarat et al. Distributed under Creative Commons CC-BY 4.0",
+          "authors": [
+            "Kanjanarat, K.",
+            "Laksanawimol, P.",
+            "Lersawhanwaree, J.",
+            "Khan, S.",
+            "Thancharoen, A."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/448210",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Agricultural product",
+            "BSFL decomposition",
+            "Fermentation",
+            "Frass",
+            "Growth performance",
+            "Nutrient contents",
+            "Protein",
+            "Supplementation",
+            "Survival",
+            "fertilizer",
+            "nitrogen",
+            "agriculture",
+            "animal food",
+            "aquaculture",
+            "Article",
+            "biomass",
+            "chemical composition",
+            "controlled study",
+            "decomposition",
+            "diet supplementation",
+            "Diptera",
+            "DNA extraction",
+            "enzyme activity",
+            "larva",
+            "mushroom",
+            "nonhuman",
+            "nutrient content",
+            "pH",
+            "protein content",
+            "sustainable agriculture"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "JhjoyZ4B882ltYvqOo88",
+        "_score": 3.0310402,
+        "_source": {
+          "source": "KUKR",
+          "title": "Enhancing Digestate-Based Bioponics through Ceramsite Addition with and without Biochar: Effects on Water Quality, Nutrient Recovery, Heavy Metal Removal, and Microbial Community Composition",
+          "abstract": "Digestate is a nutrient-rich substrate for bioponics, and ceramsite is a natural adsorbent for heavy metal (e.g., Cu and Zn) removal. This study primarily examined the potential of incorporating ceramsite with and without biochar into a digestate-based bioponic system for growing Green Oak lettuce. The amendment of digestate enhanced initial total nitrogen and phosphorus levels and organic matter while increasing the Cu and Zn levels in the bioponic water and plant biomass. The incorporation of ceramsite reduced organic matter and Cu and Zn levels in both water and plants, achieving higher efficiency when combined with biochar. The combination of ceramsite and biochar reduced Cu and Zn concentrations in bioponic water by 40.3% and 64.6%, respectively, compared to the digestate-only system, while ceramsite alone achieved 13.5% and 10.5% reductions, indicating a synergistic effect. Nitrogen and phosphorus recovery did not differ significantly among all conditions. Plant roots, digestate, ceramsite, and biochar harbored different microbial communities. In digestate-based bioponics, keystone microbes were identified in each medium, such as Bacillus (digestate), SH-PL14 (ceramsite), Prosthecobacter (biochar), and Ideonella (plant roots), indicating their key roles in organic degradation, heavy metal removal, and nutrient recovery. Microbial functional profiling using FAPROTAX revealed distinct roles, including aerobic ammonia oxidation in ceramsite and nitrate respiration and fermentation in biochar, supporting nitrogen cycling and organic degradation. Therefore, the use of ceramsite, with and without biochar, as an adsorbent offers a sustainable, nature-based solution for maintaining water quality and enhancing nutrient recovery in bioponics, leveraging digestate as a nutrient source. © 2025 The Authors. Published by American Chemical Society",
+          "authors": [
+            "Wongkiew, S.",
+            "Amnuaychaichana, S.",
+            "Srithadindang, K.",
+            "Paisuwan, W.",
+            "Ajavakom, A.",
+            "Polprasert, C.",
+            "Noophan, P. L.",
+            "Supakata, N.",
+            "Koottatep, T.",
+            "Surendra, K. C.",
+            "Khanal, S. K."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/447017",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "digestate",
+            "heavy metal",
+            "hydroponic",
+            "media filter",
+            "nutrient"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:00:11.772Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "8RjoyZ4B882ltYvqOo89",
+        "_score": 2.9539447,
+        "_source": {
+          "source": "KUKR",
+          "title": "Prediction of land use changes for the Mae Soi river sub-basin, Lampang province, using a neural network model",
+          "abstract": "The purpose of this research was to measure and forecast the land use changes in the Mae Soi river sub-basin, Lampang province. Landsat satellite imagery data during the years 2001, 2011, and 2021 were used to detect such changes and make future predictions. All three years of satellite imagery data have been geometrically revised for geographic compatibility. The image data was classified and the accuracy was determined using the kappa statistic, while the prediction of land use change was made using a neural network model combined with factors influencing the changes in land use. The study found that there was a change in land use between 2001 to 2011, with the most reduction of approximately 30,011 rai (4,801.76 ha) occurring in agricultural land, which was converted to forest land. Between 2011 and 2021, the watershed quality forests under class 1 and 2 in the Chae Son sub-district experienced the greatest reduction of approximately 2,762 rai (441.92 ha). A neural network model was used to predict the land use change by the 2031. The Jupyter Notebook platform provides the best estimate with an accuracy of 79.9 percent. Based on the predicted change between 2021 to 2031, it was observed that the forest land would decrease continuously, with approximately 13,268 rai (2,122.88 ha) being converted to agricultural land. The study area should be a defensive measure and allocate suitable areas for agriculture. In order to prevent the ingress of agricultural land into the watershed quality forests class 1 and 2, especially in the Chae Son subdistrict. Agroforestry systems can be promoted in the study area in order to promote sustainable use.",
+          "authors": [
+            "Niracha Sukyuang",
+            "Kankhajane Chuchip",
+            "Piyapong Tongdeenok",
+            "นิรชา สุขยวง",
+            "กาญจน์เขจร ชูชีพ",
+            "ปิยพงษ์ ทองดีนอก"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20018707",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Agricultural land",
+            "Forest land",
+            "Communal lands",
+            "Land use change",
+            "Neural network model",
+            "Geographic compatibility",
+            "Prediction",
+            "Land use planning",
+            "Mae Soi river sub-basin",
+            "Lampang province",
+            "Thailand",
+            "พื้นที่การเกษตร",
+            "พื้นที่ป่าไม้",
+            "พื้นที่ชุมชน",
+            "ทรัพยากรที่ดิน",
+            "การใช้ที่ดิน",
+            "การเปลี่ยนแปลงการใช้ที่ดิน",
+            "แบบจำลองโครงข่ายประสาทเทียม",
+            "แบบจำลองเชิงพื้นที่",
+            "การคาดการณ์",
+            "การวางแผนการใช้ที่ดิน",
+            "พื้นที่ลุ่มน้ำ",
+            "จ.ลำปาง",
+            "ประเทศไทย",
+            "Farmland",
+            "Woodlands",
+            "Land resources",
+            "Land",
+            "Land use",
+            "Land management",
+            "Models",
+            "Computer applications",
+            "Remote sensing",
+            "Geographical information systems",
+            "Satellites",
+            "Forecasting",
+            "Site factors",
+            "Watersheds",
+            "พื้นที่เกษตรกรรม",
+            "พื้นที่ป่า",
+            "ที่ดิน",
+            "การจัดการที่ดิน",
+            "แบบจำลอง",
+            "การประยุกต์ใช้คอมพิวเตอร์",
+            "การสำรวจข้อมูลระยะไกล",
+            "ระบบสารสนเทศภูมิศาสตร์",
+            "ดาวเทียม",
+            "การพยากรณ์",
+            "ปัจจัยทางพื้นที่",
+            "ลุ่มน้ำ"
+          ],
+          "search_keyword": "วนเกษตร",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:07:10.006Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "FRjoyZ4B882ltYvqOo88",
+        "_score": 2.948356,
+        "_source": {
+          "source": "KUKR",
+          "title": "Assessment of bio-methanol and electricity co-production via the integration of biomass-to-methanol process, solid oxide electrolyzer, and power generator",
+          "abstract": "The performance assessment of an integrated biomass to methanol and solid oxide electrolyzer with and without a power generation unit (BtM-SOEC-PG and BtM-SOEC), utilizing purge gas from BtM for production of bio-methanol and electricity, is performed. For BtM-SOEC-PG, two utilization routes of low pressure (LP) steam leaving the power generation system (case 1: LP steam is exported to external users (BtM-SOEC-PG-LPEX) and case 2: LP steam is utilized in the process (BtM-SOEC-PG-LPUT)) are examined to determine the impact on process performance of recycling purge gas from BtM to either the methanol reactor or the power generation unit. In all cases, the bio-methanol production increases with increased purge gas recycling, whereas the power generation decreases. The direct CO<inf>2</inf> emissions are also improved with increased recycling. Two BtM-SOEC-PG cases are an exothermic process, and the degree of exothermicity increased with purge gas recycling. However, the BtM-SOEC-PG-LPUT with 90 % purge gas recycling offers a maximum methanol production rate of 15.99 kg/h, and under these conditions, 3.17 kW of electricity is generated and 56.18 % energy efficiency is obtained. The energy efficiency of the BtM-SOEC-PG-LPUT, with 90 % purge gas recycling, could potentially be enhanced by 10.42 % due to pinch analysis and heat exchanger network (HEN) design. Exergy analysis indicates that the gasifier is the primary unit of exergy destruction, followed by the combustion unit and the autothermal reformer (ATR) in the second and third positions, respectively. Furthermore, the BtM-SOEC-PG-LPUT with 90 % purge gas recycling offers a competitive cost of bio-methanol (824.37 USD/ton) compared to BtM-SOEC. © 2025 Elsevier Ltd",
+          "authors": [
+            "Detchusananard, T.",
+            "Wiranarongkorn, K.",
+            "Im-Orb, K."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446628",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Biomass to methanol",
+            "Energy saving",
+            "Power generator",
+            "Process analysis",
+            "SOEC",
+            "Biomass",
+            "Energy efficiency",
+            "Gas emissions",
+            "Power quality",
+            "Recycling",
+            "Energy savings",
+            "Energy-savings",
+            "Gas recycling",
+            "Low pressures",
+            "Power",
+            "Purge gas",
+            "Exergy",
+            "combustion",
+            "electricity generation",
+            "low pressure",
+            "performance assessment"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "LRjoyZ4B882ltYvqOo88",
+        "_score": 2.8549418,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effects of seed coating with chitosan along with ginger and galangal essential oils on inhibiting Callosobruchus maculatus (F.) infestation on mung bean seeds quality during storage",
+          "authors": [
+            "Choeratphatchra Khieowichai",
+            "Sureerat Thongkam",
+            "เฌอรัชด์พัชร เขียววิชัย",
+            "สุรีรัตน์ ทองคำ"
+          ],
+          "year": "2024",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20022447",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Mung bean",
+            "Seed storage",
+            "Seed coating",
+            "Chitosan",
+            "Galangal",
+            "Ginger",
+            "Essential oil",
+            "Callosobruchus maculatus",
+            "Infestation inhibition",
+            "Seed quality",
+            "Botanical insecticide",
+            "ถั่วเขียว",
+            "การเก็บรักษาเมล็ดพันธุ์",
+            "การเคลือบเมล็ดพันธุ์",
+            "ไคโตซาน",
+            "น้ำมันหอมระเหย",
+            "ข่า",
+            "ขิง",
+            "ด้วงถั่วเขียว",
+            "การยับยั้งการเข้าทำลาย",
+            "คุณภาพเมล็ดพันธุ์",
+            "ชีวภัณฑ์ป้องกันแมลง",
+            "Mung beans",
+            "Seed pelleting",
+            "Essential oils",
+            "Alpinia galanga",
+            "Stored products pests",
+            "Stored products pest control",
+            "Inhibition",
+            "Quality",
+            "Seed",
+            "Biopesticides",
+            "Biological control agents",
+            "การเคลือบเมล็ด",
+            "ไคโตแซน",
+            "ศัตรูในโรงเก็บ",
+            "การควบคุมศัตรูในโรงเก็บ",
+            "การยับยั้ง",
+            "คุณภาพ",
+            "เมล็ดพันธุ์",
+            "สารป้องกันกำจัดศัตรูพืชชีวภาพ",
+            "สิ่งที่นำมาใช้ในการควบคุมโดยชีววิธี"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "SBjoyZ4B882ltYvqOo88",
+        "_score": 2.805199,
+        "_source": {
+          "source": "KUKR",
+          "title": "14. National Seed Conference 2017",
+          "authors": [
+            "Parinee Jeammuangpuk",
+            "Wanchai Chanprasert",
+            "Tanapon Chaisan",
+            "Juangjun Duangpatra",
+            "ภาริณี เจียมเมืองปักษ์",
+            "วันชัย จันทร์ประเสริฐ",
+            "ธนพล ไชยแสน",
+            "จวงจันทร์ ดวงพัตรา"
+          ],
+          "year": "2017",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/381220",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Peanuts",
+            "Seed treatments",
+            "Chemical priming",
+            "Stress condition",
+            "Salicylic acid",
+            "Chitosan",
+            "Ascorbate",
+            "CaCl2",
+            "Seed quality",
+            "Germination",
+            "Seedling",
+            "Growth",
+            "Low temperature regime",
+            "ถั่วลิสง",
+            "การเตรียมพร้อมเมล็��พันธุ์",
+            "สารเคมี",
+            "กรดซาลิไซลิก",
+            "แอสคอเบท",
+            "แคลเซียมคลอไรด์",
+            "ไคโตซาน",
+            "คุณภาพของเมล็ดพันธุ์",
+            "การงอก",
+            "ต้นกล้า",
+            "การเจริญเติบโต",
+            "สภาวะอุณหภูมิต่ำ",
+            "Groundnuts",
+            "Arachis hypogaea",
+            "Seed treatment",
+            "Pregermination",
+            "Salicylic acids",
+            "Calcium chloride",
+            "Quality",
+            "Seed",
+            "Seeds",
+            "Seedlings",
+            "Temperature",
+            "ซีดทรีทเมนท์",
+            "การปรับสภาพก่อนเมล็ดงอก",
+            "กรดซาลิไซลิค",
+            "ไคโตแซน",
+            "คุณภาพ",
+            "เมล็ดพันธุ์",
+            "เมล็ด",
+            "การเติบโต",
+            "อุณหภูมิ"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "ShjoyZ4B882ltYvqOo88",
+        "_score": 2.805199,
+        "_source": {
+          "source": "KUKR",
+          "title": "Efficacy of rice bran wax and chitosan based coating on enhancing the shelf life of eggs",
+          "authors": [
+            "Niparat Sritharet",
+            "Kannikar Charoensuk",
+            "Wanida Innok",
+            "นิภารัตน์ ศรีธเรศ",
+            "กรรณิการ์ เจริญสุข",
+            "วนิดา อินทร์นอก"
+          ],
+          "year": "2017",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20003008",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Egg",
+            "Rice bran wax",
+            "Chitosan",
+            "Shelf life",
+            "Egg quality",
+            "Eggshell strength",
+            "Weight",
+            "Thick albumen",
+            "Yolk color",
+            "Haugh unit",
+            "ไข่ไก่สด",
+            "ไขรำข้าว",
+            "กรดโอเลอิค",
+            "ไตรเอทานอลเอมีน",
+            "ไคโตซาน",
+            "สารเคลือบผิว",
+            "อายุการเก็บรักษา",
+            "คุณภาพไข่",
+            "ความหนาเปลือกไข่",
+            "น้ำหนักไข่",
+            "สีของไข่แดง",
+            "ค่าฮอกยูนิต",
+            "Layer chickens",
+            "Eggs",
+            "Bran",
+            "Albumins",
+            "Oleic acid",
+            "Waxing",
+            "Keeping quality",
+            "Egg characters",
+            "Egg shell",
+            "Egg white",
+            "Egg yolk",
+            "ไก่ไข่",
+            "ไข่",
+            "รำข้าว",
+            "แอลบูมิน",
+            "ไคโตแซน",
+            "การเคลือบไข",
+            "คุณภาพการเก็บ",
+            "ลักษณะของไข่",
+            "เปลือกไข่",
+            "ไข่ขาว",
+            "ไข่แดง"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "5RjoyZ4B882ltYvqOo89",
+        "_score": 2.6993644,
+        "_source": {
+          "source": "KUKR",
+          "title": "Change of inorganic nitrogen and suspended solid in biofloc nursing system for red tilapia",
+          "authors": [
+            "Ratchamongkol Khajornwuttisak",
+            "Phongchate Pichitkul",
+            "Chumpol Srithong",
+            "Idsariya Wudtisin",
+            "ราชมงคล ขจรวุฒิศักดิ์",
+            "พงศ์เชฏฐ์ พิชิตกุล",
+            "ชุมพล ศรีทอง",
+            "อิสริยา วุฒิสินธุ์"
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20008937",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Oreochromis",
+            "Tilapia (genus)",
+            "Fish larvae",
+            "Fish culture",
+            "Aquaculture",
+            "Fish feeding",
+            "Water analysis",
+            "Water quality",
+            "Degradation",
+            "Inorganic compounds",
+            "Nitrogen",
+            "Nitrites",
+            "Ammonium nitrogen",
+            "Sediment",
+            "ลูกปลา",
+            "การเพาะเลี้ยงปลา",
+            "การเพาะเลี้ยงสัตว์น้ำ",
+            "การให้อาหารปลา",
+            "การวิเคราะห์น้ำ",
+            "คุณภาพน้ำ",
+            "การย่อยสลาย",
+            "สารประกอบอนินทรีย์",
+            "ไนโตรเจน",
+            "ไนไตรต์",
+            "แอมโมเนียมไนโตรเจน",
+            "ตะกอน",
+            "Red tilapia",
+            "Biofloc technology",
+            "BFT",
+            "Water quality analysis",
+            "Inorganic nitrogen",
+            "Nitrite",
+            "Ammonia",
+            "Suspended solid",
+            "ปลานิลแดง",
+            "การอนุบาลลูกปลา",
+            "ระบบแบบไบโอฟลอค",
+            "เทคโนโลยีไบโอฟลอค",
+            "การให้อาหารสัตว์น้ำ",
+            "การวิเคราะห์คุณภาพน้ำ",
+            "การย่อยสลายสารอินทรีย์",
+            "สารอนินทรีย์",
+            "แอมโมเนียม",
+            "ไนไตรท์",
+            "ตะกอนแขวนลอย"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "vBjoyZ4B882ltYvqOo48",
+        "_score": 2.6873293,
+        "_source": {
+          "source": "KUKR",
+          "title": "Preliminary study on protein hydrolysates from Spirulina using enzymatic hydrolysis",
+          "abstract": "Spirulina is classified as microalgae and is composed of high quality protein. It contains trace amounts of essential amino acids and bioactive peptides, including important biological active substances such as phenolic compounds. Therefore, it helps to promote the consumer's health. Protein hydrolysates are a source of a variety of bioactive peptides. Protein hydrolysates were obtained from Spirulina biomass using various conditions of enzymatic hydrolysis. The results found that the concentration of protein hydrolyses with alkaline protease was 6.33 mg/ml. However, hydrolysis with alcalase enzyme (Alcalase) resulted in the highest protein concentration of 0.58 mg/ml. Total phenolic contents obtained from alcalase hydrolysis were greater than that of alkaline protease enzyme. Although different types of enzymes showed an effect on hydrolysis yield, protein yields were similar when the enzyme concentration and the hydrolysis time were varied.",
+          "authors": [
+            "Supannee Bachaku",
+            "Wanida Pan-utai",
+            "สุพรรณี เบเชกู่",
+            "วนิดา ปานอุทัย"
+          ],
+          "year": "2024",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20020536",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Spirulina",
+            "Extraction",
+            "Enzymatic hydrolysis",
+            "Protein hydrolysates",
+            "Alkaline protease",
+            "Alcalase enzyme",
+            "Phenolic compounds",
+            "สาหร่ายสไปรูลิน่า",
+            "การสกัด",
+            "การย่อยด้วยเอนไซม์",
+            "เอนไซม์อัลคาไลน์โปรตีเอส",
+            "เอนไซม์อัลคาเลส",
+            "สารประกอบฟีนอลิก",
+            "โปรตีนไฮโดรไลเสต",
+            "Cyanobacteria",
+            "Hydrolases",
+            "Proteases",
+            "Phenolic content",
+            "การสลายตัวด้วยเอนไซม์",
+            "ไฮโดรเลส",
+            "โปรตีเอส",
+            "สารประกอบฟีโนลิค",
+            "ปริมาณสารฟีนอลิค"
+          ],
+          "search_keyword": "ชีวมวล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:56:04.486Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "VBjoyZ4B882ltYvqOo88",
+        "_score": 2.5767198,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of chitosan coating combined with ultraviolet C irradiation on the changing of lignin and chlorophyll of asparagus spear",
+          "authors": [
+            "Poubol, J.",
+            "Phiriyangkul, P.",
+            "Boonyaritthongchai, P.",
+            "จุฑาทิพย์ โพธิ์อุบล",
+            "พริมา พิริยางกูร",
+            "พนิดา บุญฤทธิ์ธงไชย"
+          ],
+          "year": "2016",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/423173",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Asparagus spears",
+            "Ultraviolet radiation",
+            "Irradiation",
+            "Chitosan",
+            "Postharvest control",
+            "Keeping quality",
+            "Lignins",
+            "Chlorophylls",
+            "หน่อไม้ฝรั่ง",
+            "รังสีอัลตราไวโอเลต",
+            "การฉายรังสี",
+            "ไคโตแซน",
+            "การควบคุมหลังการเก็บเกี่ยว",
+            "คุณภาพการเก็บ",
+            "ลิกนิน",
+            "คลอโรฟิลล์",
+            "UV-C",
+            "Lignin",
+            "Coating",
+            "Chlorophyll",
+            "รังสียูวีซี",
+            "สารเคลือบผิว",
+            "ไคโตซาน"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "2hjoyZ4B882ltYvqOo89",
+        "_score": 2.5767198,
+        "_source": {
+          "source": "KUKR",
+          "title": "Oxygen consumption rates of hybrid red tilapia at different sizes during challenge to water velocity",
+          "authors": [
+            "Jesada Is-haak",
+            "Methee Kaewnern",
+            "Ruangvit Yoonpundh",
+            "Wara Taparhudee"
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20007460",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Hybrid red tilapia",
+            "Fish size",
+            "Oxygen consumption rate",
+            "OC rates",
+            "Water velocity",
+            "Tilapia",
+            "Oreochromis",
+            "Body measurements",
+            "Animal physiology",
+            "Physiological functions",
+            "Oxygen consumption",
+            "Water quality",
+            "ปลานิล",
+            "การวัดขนาดร่างกาย",
+            "สรีรวิทยาของสัตว์",
+            "หน้าที่ทางสรีรวิทยา",
+            "การใช้ออกซิเจน",
+            "คุณภาพน้ำ",
+            "ปลานิลแดงลูกผสม",
+            "ขนาดตัว",
+            "ความเร็วของกระแสน้ำ"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "DxjoyZ4B882ltYvqOo88",
+        "_score": 2.4446573,
+        "_source": {
+          "source": "KUKR",
+          "title": "Machine learning and thermodynamic modeling for optimizing hydrogen production via algae-biomass co-gasification",
+          "abstract": "Global energy transition demands sustainable hydrogen (H<inf>2</inf>) production technologies to replace fossil fuels and mitigate climate change impacts. Although biomass gasification presents a promising pathway, conventional single-feedstock approaches suffer from low H<inf>2</inf> yields and process inefficiencies. Current biomass gasification research lacks integration of advanced algae co-feedstocks with intelligent process optimization. Existing studies rely on either experimental trials or simulation modeling in isolation, missing opportunities for comprehensive optimization through machine learning (ML)-enhanced thermodynamic analysis. This study pioneers the integration of algae-biomass co-gasification with six ML algorithms to optimize H<inf>2</inf> production and syngas quality through comprehensive thermodynamic modeling and artificial intelligence (AI). Three microalgae species (Chlorella vulgaris, Nannochloropsis oculata, Fucus serratus) were co-gasified with biomass feedstocks (Fir Pellet (FP), Palm Empty Fruit Bunch (PEFB), Pellet Pine Wood (PPW)) using Aspen Plus® simulation based on Gibbs free energy minimization. Six ML algorithms (XGB, RF, SVR, KNN, ANN, DT) with Shapley additive explanations (SHAP) analysis predicted H<inf>2</inf> yield and syngas lower heating value (LHV) from 3609 data points across 24 input parameters. C. vulgaris emerged as the superior algae species, with C. vulgaris-FP combinations achieving maximum H<inf>2</inf> yield (9.87 %) and exergy efficiency (84.84 %), while C. vulgaris-PPW delivered peak energy efficiency (87.73 %). C. vulgaris consistently produced the highest LHV syngas regardless of biomass type. XGB demonstrated superior predictive accuracy (R2 > 0.96, RMSE = 0.327) for H<inf>2</inf> yield, while RF excelled in LHV prediction (R2 = 0.951). SHAP analysis identified gasification temperature (GT), steam-to-fuel ratio (S/F), equivalence ratio (ER), and blend percentage (BF) as critical optimization parameters. This methodology establishes new benchmarks for algae-biomass co-gasification, outperforming conventional approaches. The framework enables real-time optimization and industrial scalability for sustainable energy systems. © 2025 The Authors",
+          "authors": [
+            "Tuntiwongwat, T.",
+            "Yukawa, T.",
+            "Srinophakun, T. R.",
+            "Manatura, K.",
+            "Sukpancharoen, S.",
+            "Mirjalili, S."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446560",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Artificial intelligence",
+            "Bioenergy",
+            "Gasification",
+            "Optimization",
+            "Process simulation",
+            "Regression",
+            "Supervised learning",
+            "Algae",
+            "Benchmarking",
+            "Biomass",
+            "Blending",
+            "Ecology",
+            "Exergy",
+            "Feedstocks",
+            "Forestry",
+            "Fossil fuels",
+            "Gibbs free energy",
+            "Hydrogen fuels",
+            "Learning algorithms",
+            "Learning systems",
+            "Pelletizing",
+            "Photobiological hydrogen production",
+            "Quality control",
+            "Syngas production",
+            "Synthesis gas",
+            "Uncertainty analysis",
+            "Algae biomass",
+            "Bio-energy",
+            "Co-gasification",
+            "Low heating values",
+            "Optimisations",
+            "Process simulations",
+            "Syn gas",
+            "Thermodynamic modelling",
+            "Vulgaris"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "ERjoyZ4B882ltYvqOo88",
+        "_score": 2.436042,
+        "_source": {
+          "source": "KUKR",
+          "title": "Hydrophobicity and performance analysis of beverage and agricultural waste torrefaction for high-grade bio-circular solid fuel",
+          "abstract": "Torrefaction is recognized as a high-performance technology for converting raw biomass into high-grade solid biofuel. In this study, hydrophobic and ANOVA analyses were employed to investigate torrefied brewery waste, palm kernel shell, and water hyacinth residue. Herein, the torrefaction experiments were conducted at four temperatures (180, 230, 280, and 330 °C) for a residence time of 30 min. The biomass type and temperature were crucial in determining the optimum conditions for three response parameters: energy yield (EY), specific energy consumption (SEC), and hygroscopic reduction equilibrium (HRE). Hydrophobicity was assessed by measuring the contact angle (CA), and equilibrium moisture content (EMC) to represent hygroscopic behavior. The ANOVA results indicated that temperature had the most significant impact on the response parameters. Optimal torrefaction of brewery waste at 180 °C yielded an EY of 82.05 %, SEC of 81.88 kWh/kg, and HRE of 23.2 %. These findings highlight the advantages of biomass-derived torrefaction products in waste utilization, transport, and storage of biomass-derived torrefaction products. Furthermore, this study demonstrates an efficient method for enhancing the fuel quality of biomass, contributing significantly to the bio-circular green economy concept. © 2024",
+          "authors": [
+            "Kaewtrakulchai, N.",
+            "Wongrerkdee, S.",
+            "Chalermsinsuwan, B.",
+            "Samsalee, N.",
+            "Huang, C. W.",
+            "Manatura, K."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446578",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "ANOVA",
+            "Biochar",
+            "Brewery waste",
+            "Hydrophobicity",
+            "Optimization",
+            "Torrefaction",
+            "Agricultural wastes",
+            "Analysis of variance (ANOVA)",
+            "Contact angle",
+            "Energy utilization",
+            "Fuel economy",
+            "% reductions",
+            "Energy yields",
+            "High grades",
+            "Optimisations",
+            "Performances analysis",
+            "Response parameters",
+            "Specific energy consumption",
+            "Biomass"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "uhjoyZ4B882ltYvqOo89",
+        "_score": 2.3638878,
+        "_source": {
+          "source": "KUKR",
+          "title": "Preliminary study on algae utilization to decrease nitrogen compound in water during marine red tilapia (Oreochromis niloticus x O. mossambicus) rearing",
+          "authors": [
+            "Phattaraporn Manaprempree",
+            "Rungtiwa Konsantad",
+            "Wasana Arkronrat",
+            "Chonlada Leearam",
+            "Kritchavat Songdum",
+            "Sorasak Chueabokha",
+            "Pimpakan Matha",
+            "ภัทราพร มานะเปรมปรีย์",
+            "รุ่งทิวา คนสันทัด",
+            "วาสนา อากรรัตน์",
+            "ชลดา ลีอร่าม",
+            "กริชวัชร์ สงค์ดำ",
+            "สรศักดิ์ เชื้อบ่อคา",
+            "พิมพกานต์ มาถา"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20019967",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Marine red tilapia",
+            "Oreochromis niloticus",
+            "Oreochromis mossambicus",
+            "Fish culture",
+            "Algae",
+            "Seaweed",
+            "Caulerpa",
+            "Seaweed treatment",
+            "Wastewater treatment",
+            "Water quality",
+            "Nitrogen compound",
+            "Ammonia content",
+            "ปลานิลแดง",
+            "สายพันธุ์ทนเค็ม",
+            "การเลี้ยงปลา",
+            "การเพาะเลี้ยงสัตว์น้ำ",
+            "สาหร่ายทะเล",
+            "สาหร่ายพวงองุ่น",
+            "การบำบัดน้ำเสีย",
+            "คุณภาพน้ำ",
+            "สารประกอบไนโตรเจน",
+            "ปริมาณแอมโมเนีย",
+            "Tilapia (genus)",
+            "Nitrogen",
+            "Ammonia",
+            "การเพาะเลี้ยงปลา",
+            "สาหร่าย",
+            "ไนโตรเจน",
+            "แอมโมเนีย"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "ZxjoyZ4B882ltYvqOo88",
+        "_score": 2.3624074,
+        "_source": {
+          "source": "KUKR",
+          "title": "The Contamination of Microplastic Debris in Blue Swimming Crab Portunus pelagicus (Linnaeus, 1758) from Artisanal Fisheries in the Eastern Gulf of Thailand",
+          "abstract": "Microplastics have become a significant concern for human health, primarily because aquatic animals can ingest these particles, which then enter the human food chain. Crabs (Portunus pelagicus) were collected along the coastline of Rayong Province in January, April, and August 2024. Crabs were then examined for MP contamination. Our results revealed that MPs were present at all sampling sites, with a detection rate of 62.5% in external body parts and 72.2% in internal body parts. The gut was the most contaminated tissue, followed by the gills, while no MPs were found in the hepatopancreas or muscle tissues. Although overall MP detection and contamination levels were similar across sites, significant differences in abundance were observed between seasons (p < 0.05), with August showing the highest contamination levels. Polyethylene terephthalate glycol was the most common polymer detected, followed by nylon, polypropylene, polyethylene, polystyrene, and polyester. Anthropogenic and fishing activities contribute significantly to MP pollution in these crabs. Fibers from household laundry, followed by damaged fishing gear, are major sources of MP pollution. Enhancing the quality and durability of fishing equipment is crucial to reducing the amount of abandoned fishing gear that may be ingested by marine organisms, while the proper collection and management of discarded gear in the ocean should also be emphasized. © 2025 by the authors.",
+          "authors": [
+            "Jendanklang, P.",
+            "Ruengsorn, C.",
+            "Meksumpun, S.",
+            "Kasamesiri, P."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/447939",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "crab gillnet",
+            "fishing gear",
+            "microplastic migration",
+            "microplastic pollution",
+            "nylon",
+            "polyester",
+            "polyethylene",
+            "polyethylene terephthalate",
+            "polypropylene",
+            "polystyrene",
+            "animal experiment",
+            "animal tissue",
+            "Article",
+            "body regions",
+            "controlled study",
+            "female",
+            "fishing",
+            "gill",
+            "Gulf of Thailand",
+            "hepatopancreas",
+            "household",
+            "male",
+            "marine species",
+            "muscle tissue",
+            "nonhuman",
+            "plastic pollution",
+            "Portunus pelagicus"
+          ],
+          "search_keyword": "microplastic",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:03:31.159Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "BhjoyZ4B882ltYvqOo88",
+        "_score": 2.2277312,
+        "_source": {
+          "source": "KUKR",
+          "title": "Mechanical and Environmental Performance of Cement-Eucalyptus Ash Stabilized Dam Sediments for Sustainable Road Construction",
+          "abstract": "This study investigates the potential of dam sediments, typically considered waste, as a sustainable material for road construction by stabilizing them with eucalyptus ash (EA) and cement. EA, recognized for its pozzolanic activity, was blended with cement to enhance both the mechanical strength and environmental performance of the sediments. Destructive tests—namely unconfined compressive strength and California bearing ratio—revealed that a 10% EA-cement blend significantly improved mechanical properties, with the unconfined compressive strength reaching 2.25 MPa—nearly five times higher than that of untreated sediments. Nondestructive free-free resonance tests supported these findings, showing increased wave velocities that reflect greater material stiffness and strength. The microstructural analysis confirmed the formation of calcium silicate hydrate gels, contributing to matrix densification and stronger interparticle bonding. Leaching tests demonstrated that all heavy metal concentrations in the stabilized samples were well below the regulatory thresholds, with some metals below detection limits. Groundwater quality assessment further confirmed that the leachate was chemically and microbiologically safe, with all parameters meeting the standards set by the Pollution Control Department of Thailand. These results affirm the environmental compatibility of the stabilized sediments. Additionally, cost analysis indicated that using EA-cement-stabilized sediments could be 5.7 times more cost-effective than conventional materials due to reduced material and transportation costs. Collectively, the mechanical, microstructural, environmental, and economic outcomes support the use of EA-cement-stabilized dam sediments as a sustainable and viable alternative in road construction. © The Author(s), under exclusive licence to Springer Nature Switzerland AG 2025.",
+          "authors": [
+            "Jamnongwong, M.",
+            "Wongvatana, N.",
+            "Noorak, A.",
+            "Jongpradist, P.",
+            "Chaiprakaikeow, S.",
+            "Jamsawang, P."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446435",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Biomass",
+            "Reuse",
+            "Stabilization",
+            "Sustainability",
+            "Waste",
+            "Damage detection",
+            "Emission control",
+            "Fume control",
+            "Groundwater pollution",
+            "Portland cement",
+            "Revegetation",
+            "Soil conservation",
+            "Water conservation",
+            "Water pollution control",
+            "Cement stabilized",
+            "Environmental performance",
+            "Mechanical",
+            "Mechanical performance",
+            "Performance of cement",
+            "Pozzolanic activity",
+            "Strength performance",
+            "Sustainable materials",
+            "Unconfined compressive strength",
+            "Bioremediation"
+          ],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "qBjoyZ4B882ltYvqOo89",
+        "_score": 2.2173676,
+        "_source": {
+          "source": "KUKR",
+          "title": "Carbon footprint",
+          "authors": "รัตนาวรรณ มั่งคั่ง",
+          "year": "2015",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/328323",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "Carbon",
+            "Carbon dioxide",
+            "Greenhouse gases",
+            "Quality labels",
+            "Consumer behaviour",
+            "Climatic change",
+            "Greenhouse effect",
+            "Trade",
+            "คาร์บอน",
+            "คาร์บอนไดออกไซด์",
+            "ก๊าซเรือนกระจก",
+            "ฉลากแสดงคุณภาพ",
+            "พฤติกรรมผู้บริโภค",
+            "การเปลี่ยนแปลงภูมิอากาศ",
+            "สภาพเรือนกระจก",
+            "การค้า",
+            "Products",
+            "Green business",
+            "Carbon footprint label",
+            "Standard",
+            "Carbon credits",
+            "Consumer behavior",
+            "Strategic management",
+            "ผลิตภัณฑ์",
+            "ธุรกิจสีเขียว",
+            "ฉลากคาร์บอนฟุตพริ้นท์",
+            "มาตรฐาน",
+            "การประเมินการปล่อยก๊าซ",
+            "คาร์บอนเครดิต",
+            "พฤติกรรมการบริโภค",
+            "กลยุทธ์บริหารธุรกิจ"
+          ],
+          "search_keyword": "คาร์บอนฟุตพริ้นท์",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:03.331Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "xRjoyZ4B882ltYvqOo89",
+        "_score": 2.2011044,
+        "_source": {
+          "source": "KUKR",
+          "title": "Synthesis of reservoir management system for aquatic resource conservation and sustainable utilization: A case study of Ubolratana Reservoir: [Final research report]",
+          "authors": [
+            "Charumas Meksumpun",
+            "Sansanee Wangvoralak",
+            "Monnissa Srisomwong",
+            "Urairathr Nedtharnn",
+            "Jirarpast Adjimangkunl",
+            "Pichasit Sangmek",
+            "Santi Poungcharean",
+            "Kanyanat Soontornprasit",
+            "Pattira Kasamesiri",
+            "Shettapong Meksumpun",
+            "จารุมาศ เมฆสัมพันธ์",
+            "ศันสนีย์ หวังวรลักษณ์",
+            "มณช์นิศาษ์ ศรีสมวงศ์",
+            "อุไรรัฒท์ เนตรหาญ",
+            "จิราภัษ อัจจิมางกูร",
+            "พิชาศิษฐ์ แสงเมฆ",
+            "สันติ พ่วงเจริญ",
+            "กัญญาณัฐ สุนทรประสิทธิ์",
+            "ภัททิรา เกษมศิริ",
+            "เชษฐพงษ์ เมฆสัมพันธ์"
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/402634",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Water reservoirs",
+            "Water resources",
+            "Water management",
+            "Fishery resources",
+            "Resource conservation",
+            "Water quality",
+            "Freshwater ecology",
+            "Aquatic environment",
+            "Biodiversity",
+            "Sustainability",
+            "Uses",
+            "Oreochromis niloticus",
+            "Cage culture",
+            "Traditional fishing",
+            "Socioeconomic environment",
+            "Quality of life",
+            "Fishery management",
+            "Community involvement",
+            "Thailand",
+            "อ่างเก็บกักน้ำ",
+            "ทรัพยากรน้ำ",
+            "การจัดการน้ำ",
+            "ทรัพยากรประมง",
+            "การอนุรักษ์ทรัพยากร",
+            "คุณภาพน้ำ",
+            "นิเวศวิทยาในน้ำจืด",
+            "สภาพแวดล้อมทางน้ำ",
+            "ความหลากหลายทางชีวภาพ",
+            "ความยั่งยืน",
+            "การใช้",
+            "การเลี้ยงสัตว์น้ำในกระชัง",
+            "การประมงพื้นบ้าน",
+            "สภาพแวดล้อมทางเศรษฐกิจและสังคม",
+            "คุณภาพชีวิต",
+            "การจัดการประมง",
+            "การมีส่วนร่วมของชุมชน",
+            "ประเทศไทย",
+            "Water reservoir",
+            "Management system",
+            "Aquatic resource conservation",
+            "Ecology",
+            "Diversity",
+            "Nile tilapia",
+            "Fish culture",
+            "Fishery utilization",
+            "Sustainable utilization",
+            "Fishery communities",
+            "Socio-economic environment",
+            "Ubolratana Reservoir",
+            "อ่างเก็บน้ำ",
+            "ระบบการบริหารจัดการ",
+            "แหล่งน้ำ",
+            "นิเวศวิทยา",
+            "ความหลากหลาย",
+            "การใช้ประโยชน์อย่างยั่งยืน",
+            "ปลานิล",
+            "การเลี้ยงปลาในกระชัง",
+            "ชุมชนประมง",
+            "สภาพเศรษฐกิจและสังคม",
+            "การจัดการประมงร่วม",
+            "มาตรการทางการประมง",
+            "สมรรถนะชุมชน",
+            "อ่างเก็บน้ำเขื่อนอุบลรัตน์"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "xhjoyZ4B882ltYvqOo89",
+        "_score": 2.2011044,
+        "_source": {
+          "source": "KUKR",
+          "title": "Executive summary and the research program synthesis: Synthesis of reservoir management system for aquatic resource conservation and sustainable utilization: A case study of Ubolratana Reservoir",
+          "authors": [
+            "Charumas Meksumpun",
+            "Sansanee Wangvoralak",
+            "Monnissa Srisomwong",
+            "Urairathr Nedtharnn",
+            "Jirarpast Adjimangkunl",
+            "Shettapong Meksumpun",
+            "Santi Poungcharean",
+            "Kanyanat Soontornprasit",
+            "Pattira Kasamesiri",
+            "Pichasit Sangmek",
+            "จารุมาศ เมฆสัมพันธ์",
+            "ศันสนีย์ หวังวรลักษณ์",
+            "มณช์นิศาษ์ ศรีสมวงศ์",
+            "อุไรรัฒท์ เนตรหาญ",
+            "จิราภัษ อัจจิมางกูร",
+            "เชษฐพงษ์ เมฆสัมพันธ์",
+            "สันติ พ่วงเจริญ",
+            "กัญญาณัฐ สุนทรประสิทธิ์",
+            "ภัททิรา เกษมศิริ",
+            "พิชาศิษฐ์ แสงเมฆ"
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/402635",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Water reservoirs",
+            "Water resources",
+            "Water management",
+            "Fishery resources",
+            "Resource conservation",
+            "Water quality",
+            "Freshwater ecology",
+            "Aquatic environment",
+            "Biodiversity",
+            "Sustainability",
+            "Uses",
+            "Oreochromis niloticus",
+            "Cage culture",
+            "Traditional fishing",
+            "Socioeconomic environment",
+            "Quality of life",
+            "Fishery management",
+            "Community involvement",
+            "Thailand",
+            "อ่างเก็บกักน้ำ",
+            "ทรัพยากรน้ำ",
+            "การจัดการน้ำ",
+            "ทรัพยากรประมง",
+            "การอนุรักษ์ทรัพยากร",
+            "คุณภาพน้ำ",
+            "นิเวศวิทยาในน้ำจืด",
+            "สภาพแวดล้อมทางน้ำ",
+            "ความหลากหลายทางชีวภาพ",
+            "ความยั่งยืน",
+            "การใช้",
+            "การเลี้ยงสัตว์น้ำในกระชัง",
+            "การประมงพื้นบ้าน",
+            "สภาพแวดล้อมทางเศรษฐกิจและสังคม",
+            "คุณภาพชีวิต",
+            "การจัดการประมง",
+            "การมีส่วนร่วมของชุมชน",
+            "ประเทศไทย",
+            "Water reservoir",
+            "Management system",
+            "Aquatic resource conservation",
+            "Ecology",
+            "Diversity",
+            "Nile tilapia",
+            "Fish culture",
+            "Fishery utilization",
+            "Sustainable utilization",
+            "Fishery communities",
+            "Socio-economic environment",
+            "Ubolratana Reservoir",
+            "อ่างเก็บน้ำ",
+            "ระบบการบริหารจัดการ",
+            "แหล่งน้ำ",
+            "นิเวศวิทยา",
+            "ความหลากหลาย",
+            "การใช้ประโยชน์อย่างยั่งยืน",
+            "ปลานิล",
+            "การเลี้ยงปลาในกระชัง",
+            "ชุมชนประมง",
+            "สภาพเศรษฐกิจและสังคม",
+            "การจัดการประมงร่วม",
+            "มาตรการทางการประมง",
+            "สมรรถนะชุมชน",
+            "อ่างเก็บน้ำเขื่อนอุบลรัตน์"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "-RjoyZ4B882ltYvqOo48",
+        "_score": 2.1659918,
+        "_source": {
+          "source": "KUKR",
+          "title": "Charcoal Production from Macadamia Shells Using Super Sun Retort and Kon-Tiki Kiln",
+          "abstract": "Crop residues in Thailand are abundant but underutilized, creating a need for better valorization methods, such as charcoal production. This research aims to utilize agricultural waste by studying the production of high-quality charcoal briquettes from macadamia shells using a Super Sun retort, utilizing heat generated from the Kon-Tiki kiln. This method adds value to surplus agricultural residues and can help reduce air pollution caused by the open-field burning of biomass. In each experimental run. 53-79 kg of firewood and 25 kg of macadamia shells were used. Data on pyrolysis temperature and charcoal yield were collected over a carbonization period of approximately 7 - 8.5 h. The resulting charcoal was then processed into charcoal briquettes. The quality of the charcoal briquettes was tested according to the Thai community production standard (TCPS 238/2004). The results showed that the Super Sun retort produced charcoal at high temperatures (>600 C), while the temperature above the Kon-Tiki kiln reached 745 C. The macadamia shells were completely converted into charcoal, with the highest charcoal yield reaching 32%. The charcoal briquettes from macadamia shells had a high calorific value of 7,257 cal/g and a low moisture content of 2.62%. both of which were better than the requirements of the standard. These findings indicate that the macadamia shell charcoal produced in this study has strong potential for use in high-quality charcoal briquette production. The results also suggest that the combination of the Super Sun retort and Kon-Tiki kiln could offer a sustainable and cost-effective solution for charcoal production in developing countries. © 2025 The Authors, published by EDP Sciences.",
+          "authors": [
+            "Swatdee, J.",
+            "Intani, K.",
+            "Jaisut, D.",
+            "Matthayatthaworn, W.",
+            "Roengjittree, S.",
+            "Thuwapanichayanan, R."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446217",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "UBjoyZ4B882ltYvqOo88",
+        "_score": 2.1507142,
+        "_source": {
+          "source": "KUKR",
+          "title": "Synthesis of silver particles using white sugar for shelf-life extension of banana and tomato",
+          "abstract": "Silver particle was prepared with green method using white sugar as a reducing agent and coated on paper packaging for shelf-life extension of vegetable and fruit.The disinfection efficiency against E. coli was investigated with initial concentration of E. coli bacteria of 2*10**(3) CFU/ml.The result showed that paper coated with chitosan and silver nitrates synthesized by white sugar inhibit 100 percent of E. coli for 10 minutes. In addition, shelf-life extension of banana and tomato using paper coated with chitosan and silver nitrates synthesized by white sugar at room temperature (25 deg C) for 7 and 14 days, respectively. The result found that the shelf-life extension of banana and tomato could be increased by packing with paper packing coated with chitosan and silver nitrates synthesized by white sugar.",
+          "authors": [
+            "Kornkanok Ubolchollakhat",
+            "Phatthira Samakphong",
+            "กรกนก อุบลชลเขต",
+            "ภัททิรา สมัครพงศ์"
+          ],
+          "year": "2016",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20002454",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Banana",
+            "Tomato",
+            "Vegetables",
+            "Fruits",
+            "Silver particles",
+            "White sugar",
+            "Synthesis",
+            "Green method",
+            "Paper packaging",
+            "Shelf-life extension",
+            "กล้วย",
+            "มะเขือเทศ",
+            "ผักและผลไม้",
+            "อนุภาคเงิน",
+            "น้ำตาลทรายขาว",
+            "การสังเคราะห์",
+            "กรรมวิธีสีเขียว",
+            "บรรจุภัณฑ์กระดาษ",
+            "การเคลือบ",
+            "การยืดอายุการเก็บรักษา",
+            "เอสเชอริเชีย โคไล",
+            "การยับยั้งเชื้อแบคทีเรีย",
+            "Bananas",
+            "Tomatoes",
+            "Silver",
+            "Sugar",
+            "Coating",
+            "Packaging materials",
+            "Keeping quality",
+            "Escherichia coli",
+            "Inhibition",
+            "ผลไม้",
+            "ผัก",
+            "เงิน",
+            "น้ำตาล",
+            "บรรจุภัณฑ์",
+            "คุณภาพการเก็บ",
+            "การยับยั้ง"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "dBjoyZ4B882ltYvqOo88",
+        "_score": 2.0879507,
+        "_source": {
+          "source": "KUKR",
+          "title": "Using feces to indicate plastic pollution in terrestrial vertebrate species in western Thailand",
+          "abstract": "Plastic pollution is a widespread and growing concern due to its transformation into microplastics (MPs), which can harm organisms and ecosystems. This study, aimed to identify plastic pollution in the feces of terrestrial vertebrates using convenience sampling both inside and outside protected areas in Western Thailand. We hypothesized that MPs are likely to be detectable in the feces of all vertebrate species, primarily in the form of small black fragments. We predicted varying quantities of MPs in the feces of the same species across different protected areas. Furthermore, we expected that factors indicating human presence, landscape characteristics, scat weight, and the MP abundance in water, soils, and sediments would influence the presence of plastics in feces. Among 12 terrestrial species studied, potential MPs were found in 41.11% of 90 samples, totaling 83 pieces across eight species including the Asian elephant (Elephas maximus), Eld’s deer (Rucervus eldii), Dhole (Cuon alpinus), Gaur (Bos gaurus), Sambar deer (Rusa unicolor), Wild boar (Sus scrofa), Northern red muntjac (Muntiacus vaginalis), and Butterfly lizard (Leiolepis belliana). Specifically, 3.61% of all potential MPs (three pieces) were macroplastics, and the remaining 96.39% were considered potential MPs with the abundance of 0.92 ± 1.89 items.scat−1 or 8.69 ± 32.56 items.100 g−1 dw. There was an association between the numbers of feces with and without potential plastics and species (χ2 = 20.88, p = 0.012). Most potential plastics were fibers (95.18%), predominantly black (56.63%) or blue (26.51%), with 74.70% smaller than two millimeters. Although there were no significant associations between species and plastic morphologies, colors, and sizes, the abundance classified by these characteristics varied significantly. FTIR identified 52.38% as natural fibers, 38.10% as synthetic fibers (rayon, polyurethane (PUR), polyethylene terephthalate (PET), polypropylene (PP), and PUR blended with cotton), and 9.52% as fragments of PET and Polyvinyl Chloride (PVC). Human-related factors were linked to the occurrence of potential plastics found in the feces of land-dwelling wildlife. This study enhances the understanding of plastic pollution in tropical protected areas, revealing the widespread of MPs even in small numbers from the areas distant from human settlements. Monitoring plastics in feces offers a non-invasive method for assessing plastic pollution in threatened species, as it allows for easy collection and taxonomic identification without harming live animals. However, stringent measures to assure the quality are necessitated to prevent exogenous MP contamination. These findings underscore the importance of raising awareness about plastic pollution in terrestrial ecosystems, especially regarding plastic products from clothing and plastic materials used in agriculture and irrigation systems. Copyright 2024 Teampanpong and Duengkae.",
+          "authors": [
+            "Teampanpong, J.",
+            "Duengkae, P."
+          ],
+          "year": "2024",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/439790",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "Feces",
+            "Microplastics",
+            "Plastic pollution",
+            "Protected areas",
+            "Terrestrial vertebrates",
+            "Western Forest Complex",
+            "Western Thailand",
+            "docosahexaenoic acid",
+            "immunoglobulin G",
+            "macroplastic",
+            "microplastic",
+            "plastic",
+            "polyethylene terephthalate",
+            "polypropylene",
+            "polyurethan",
+            "polyvinylchloride",
+            "Agave",
+            "Article",
+            "biogeography",
+            "color",
+            "colorectal cancer",
+            "convenience sample",
+            "deer",
+            "elephant",
+            "Elephas maximus",
+            "endangered species",
+            "European wild boar",
+            "flax",
+            "foreign body",
+            "forest",
+            "Fourier transform infrared spectroscopy",
+            "gaur (cattle)",
+            "habitat",
+            "human",
+            "irrigation (agriculture)",
+            "landfill",
+            "lizard",
+            "Macaca fascicularis",
+            "muntjac",
+            "nonhuman",
+            "pig",
+            "pollution",
+            "quality control",
+            "ramie",
+            "river",
+            "sediment",
+            "soil pollution",
+            "taxonomic identification",
+            "terrestrial species",
+            "Thailand",
+            "wildlife"
+          ],
+          "search_keyword": "microplastic",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:03:31.159Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "txjoyZ4B882ltYvqOo89",
+        "_score": 1.9728084,
+        "_source": {
+          "source": "KUKR",
+          "title": "The study of amount of total coliform, fecal coliform, Escherichia coli, and Aeromonas hydrophila that isolated from tilapia farming in cages in the Aun river Pok Noi subdistrict, Panna Nikhom district, Sakon Nakhon province",
+          "authors": [
+            "Arun Butna",
+            "Nopparat Patchanee",
+            "Songsub Arungamol",
+            "Tharadol Jitjak",
+            "Jakkapat Pachachit",
+            "อรัญ บุตรนา",
+            "นพรัตน์ พัชณีย์",
+            "ทรงทรัพย์ อรุณกมล",
+            "ธราดล จิตจักร",
+            "จักรพรรดิ์ ประชาชิต"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20018103",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Tilapia",
+            "Fish culture",
+            "Cages",
+            "Bacterial contamination",
+            "Microbial contamination",
+            "Coliform bacteria",
+            "Fecal coliform",
+            "Escherichia coli",
+            "Aeromonas hydrophila",
+            "Water quality",
+            "Sakon Nakhon province",
+            "Thailand",
+            "ปลานิล",
+            "การเลี้ยงปลา",
+            "กระชัง",
+            "การปนเปื้อนของเชื้อแบคทีเรีย",
+            "การปนเปื้อนของจุลินทรีย์",
+            "โคลิฟอร์ม",
+            "ฟีคัลโคลิฟอร์ม",
+            "คุณภาพน้ำ",
+            "จ.สกลนคร อ.พรรณนานิคม ต.พอกน้อย",
+            "ประเทศไทย",
+            "Freshwater fishes",
+            "Cage culture",
+            "Biological contamination",
+            "Bacteria",
+            "ปลาน้ำจืด",
+            "การเพาะเลี้ยงปลา",
+            "การเลี้ยงสัตว์น้ำในกระชัง",
+            "การปนเปื้อนทางชีววิทยา",
+            "โคลิฟอร์มแบคทีเรีย",
+            "แบคทีเรีย"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "2xjoyZ4B882ltYvqOo89",
+        "_score": 1.9198709,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of different feed loading on sediment accumulation rate and carbon burial rate in the polyculture system of nile tilapia (Oreochromis niloticus) and pacific white shrimp (Litopenaeus vannamei)",
+          "authors": [
+            "Sawika Kunlapapuk",
+            "Idsariya Wudtisin",
+            "Ruangvit Yoonpundh",
+            "Soranut Sirisuay"
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20007465",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Nile tilapia",
+            "Pacific white shrimp",
+            "Polyculture",
+            "Feed loading",
+            "Feeding rate",
+            "Nutrient composition",
+            "Carbon burial rate",
+            "Sediment accumulation rate",
+            "Chonburi province",
+            "Oreochromis niloticus",
+            "Tilapia (genus)",
+            "Penaeidae",
+            "Prawns and shrimps",
+            "Aquaculture",
+            "Fish feeding",
+            "Feeding systems",
+            "Fish ponds",
+            "Water analysis",
+            "Water quality",
+            "Carbon",
+            "Sedimentation",
+            "Thailand",
+            "กุ้ง",
+            "การเพาะเลี้ยงสัตว์น้ำ",
+            "การให้อาหารปลา",
+            "ระบบการให้อาหารสัตว์",
+            "บ่อปลา",
+            "การวิเคราะห์น้ำ",
+            "คุณภาพน้ำ",
+            "คาร์บอน",
+            "การตกตะกอน",
+            "ประเทศไทย",
+            "ปลานิล",
+            "กุ้งขาว",
+            "ระบบการเลี้ยงแบบผสมผสาน",
+            "ปริมาณการให้อาหาร",
+            "อัตราการสะสมตะกอน",
+            "จ.ชลบุรี อ.พานทอง"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:04:45.569Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "6BjoyZ4B882ltYvqOo89",
+        "_score": 1.9198709,
+        "_source": {
+          "source": "KUKR",
+          "title": "55. Kasetsart University Annual Conference",
+          "authors": [
+            "Tinnawut Longprig",
+            "Chumpol Srithong",
+            "Ruangvit Yoonpundh",
+            "Phongchate Pichitkul",
+            "ทินวุฒิ ล่องพริก",
+            "ชุมพล ศรีทอง",
+            "เรืองวิชญ์ ยุ้นพันธ์",
+            "พงษ์เชษฎ์ พิชิตกุล"
+          ],
+          "year": "2017",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/367008",
+          "topic_ids": [
+            "5"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Green"
+          ],
+          "keywords": [
+            "Tilapia",
+            "Nursery grounds",
+            "Fish culture",
+            "Waste disposal",
+            "Wastewater treatment",
+            "Sediment",
+            "Ammonia",
+            "Water circulation",
+            "Efficiency",
+            "Water quality",
+            "ปลานิล",
+            "แหล่งอนุบาลสัตว์น้ำ",
+            "การเพาะเลี้ยงปลา",
+            "การกำจัดของเสีย",
+            "การบำบัดน้ำเสีย",
+            "ตะกอน",
+            "แอมโมเนีย",
+            "การหมุนเวียนของกระแสน้ำ",
+            "ประสิทธิภาพ",
+            "คุณภาพน้ำ",
+            "Red tilapia",
+            "Oreochromis niloticus x O. mossambicus",
+            "Water recirculation system",
+            "Tubular settler",
+            "Hydro clone",
+            "Moving bed",
+            "Recirculation aquaculture system",
+            "Suspended solid removal",
+            "ปลานิลแดง",
+            "การอนุบาลลูกปลา",
+            "การกำจัดของแข็งแขวนลอย",
+            "ระบบบำบัดน้ำ",
+            "ระบบการเลี้ยงสัตว์น้ำแบบหมุนเวียนน้ำ",
+            "ระบบกำจัดแอมโมเนีย",
+            "อัตราการหมุนเวียนน้ำ"
+          ],
+          "search_keyword": "ปลานิล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:05:31.108Z",
+          "topic_names_th": [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Sustainable Aquaculture & Probiotics"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "OxjoyZ4B882ltYvqOo88",
+        "_score": 1.8220859,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effects of seed treatment and coating on germination and vigor of peanut seed under low temperature regime",
+          "authors": [
+            "Parinee Jeammuangpuk",
+            "Tanapon Chaisan",
+            "Damrongvudhi Onwimol",
+            "Juangjun Duangpatra",
+            "ภาริณี เจียมเมืองปักษ์",
+            "ธนพล ไชยแสน",
+            "ดำรงวุฒิ อ่อนวิมล",
+            "จวงจันทร์ ดวงพัตรา"
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/390618",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Arachis hypogaea",
+            "Groundnuts",
+            "Seed",
+            "Seed pelleting",
+            "Salicylic acids",
+            "Calcium chloride",
+            "Chitosan",
+            "Quality",
+            "Germination",
+            "Seeds",
+            "Seed characteristics",
+            "Vigour",
+            "ถั่วลิสง",
+            "เมล็ดพันธุ์",
+            "การเคลือบเมล็ด",
+            "กรดซาลิไซลิค",
+            "แคลเซียมคลอไรด์",
+            "ไคโตแซน",
+            "คุณภาพ",
+            "การงอก",
+            "เมล็ด",
+            "ลักษณะของเมล็ดพันธุ์",
+            "ความแข็งแรง",
+            "Peanut seed",
+            "Seed enhancement",
+            "Seed treatment",
+            "Seed coating",
+            "Salicylic acid",
+            "Ascorbate",
+            "CaCl2",
+            "Seed germination",
+            "Seed vigor",
+            "Low temperature regime",
+            "การคลุกเมล็ดพันธุ์",
+            "การเคลือบเมล็ดพันธุ์",
+            "สารเคมี",
+            "กรดซาลิไซลิก",
+            "แอสคอเบท",
+            "ไคโตซาน",
+            "คุณภาพเมล็ดพันธุ์",
+            "ความแข็งแรงของเมล็ดพันธุ์",
+            "สภาวะอุณหภูมิต่ำ"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "ihjoyZ4B882ltYvqOo89",
+        "_score": 1.8220859,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of anthropogenic activities on microplastic contamination in Phetchaburi river",
+          "authors": [
+            "Thitisuda Na Songkla",
+            "Watcharaphong Wararum",
+            "Onanong Phewnil",
+            "Narouchit Dumpin",
+            "ธิติสุดา ณ สงขลา",
+            "วัชรพงษ์ วาระรัมย์",
+            "อรอนงค์ ผิวนิล",
+            "นฤชิต ดำปิน"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20020037",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "Agriculture area",
+            "Mining area",
+            "Community area",
+            "Aquaculture area",
+            "Anthropogenic activities",
+            "Microplastic contamination",
+            "Water quality",
+            "Surface waters",
+            "Phetchaburi river",
+            "Phetchaburi province",
+            "Thailand",
+            "พื้นที่เกษตรกรรม",
+            "พื้นที่เหมืองแร่",
+            "พื้นที่ชุมชน",
+            "พื้นที่เพาะเลี้ยงสัตว์น้ำ",
+            "ไมโครพลาสติก",
+            "พอลิเมอร์",
+            "การปนเปื้อนสารเคมี",
+            "คุณภาพน้ำ",
+            "น้ำผิวดิน",
+            "แม่น้ำเพชรบุรี",
+            "จ.เพชรบุรี",
+            "ประเทศไทย",
+            "Farmland",
+            "Communes",
+            "Aquaculture",
+            "Water pollution",
+            "Chemical contamination",
+            "Polymers",
+            "Environmental impact",
+            "Surface water",
+            "Water conservation",
+            "Rivers",
+            "ชุมชน",
+            "การเพาะเลี้ยงสัตว์น้ำ",
+            "มลพิษทางน้ำ",
+            "การปนเปื้อนของสารเคมี",
+            "โพลีเมอร์",
+            "ผลกระทบสิ่งแวดล้อม",
+            "การอนุรักษ์น้ำ",
+            "แม่น้ำ"
+          ],
+          "search_keyword": "microplastic",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:03:31.159Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "YBjoyZ4B882ltYvqOo88",
+        "_score": 1.688756,
+        "_source": {
+          "source": "KUKR",
+          "title": "Abundance and Characteristics of Microplastics in Gastropods and Lotus Basin Water at Kasetsart University, Kamphaeng Saen Campus, Thailand",
+          "abstract": "Microplastics (MPs) are widely distributed in nature due to the proliferation of plastic waste. However, their presence in lotus basins remains largely unknown compared to other aquatic bodies. This study investigates MP contamination in water and gastropods from 33 lotus basins at Kasetsart University, Kamphaeng Saen Campus, Thailand. Water and snail tissue samples were digested using 30% hydrogen peroxide. A total of 5,047 and 1,650 MP items were identified in water and snail tissue, respectively. The majority of MPs were smaller than 100 µm. The most common shapes and colors were fragments and violet. A two-way ANOVA revealed a significant difference (p<0.01) in MP levels between basins and snail species. Fourier transform infrared spectroscopy identified 38 polymer types, with cellulose acetate and styrene acrylonitrile being the most prevalent. No correlation (p>0.05) was found between snail tissue weight and MP abundance. These findings suggest that MPs in lotus basins may serve as a bioindicator of microplastic pollution in freshwater ecosystems, particularly surface water. © 2025, Research and Development Institute Suan Dusit University. All rights reserved.",
+          "authors": [
+            "Kanchanaketu, T.",
+            "Nongrak, N.",
+            "Prommi, T. O."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/448215",
+          "topic_ids": [
+            "3"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Circular"
+          ],
+          "keywords": [
+            "Bioindicator",
+            "Freshwater",
+            "Gastropods",
+            "Microplastic"
+          ],
+          "search_keyword": "microplastic",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:03:31.159Z",
+          "topic_names_th": [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Microplastics & Water Quality"
+          ]
+        }
+      }
+    ]
+  }
+}

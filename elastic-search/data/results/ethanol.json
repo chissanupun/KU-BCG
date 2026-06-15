@@ -1,0 +1,306 @@
+{
+  "took": 7,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 8,
+      "relation": "eq"
+    },
+    "max_score": 4.278299,
+    "hits": [
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "hRgzyp4B882ltYvqGpAA",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การปรับปรุงสายพันธุ์ยีสต์เพื่อเพิ่มประสิทธิภาพในการผลิตเอทานอลในสภาวะที่มีแรงดันออสโมซิสและความเข้มข้นของเอทานอลสูง",
+          "authors": [
+            "ดร.สุทธิชา ณ ระนอง ธรรมสิทธิรงค์, รองศาสตราจารย์",
+            "ดร.มาลี ศรีสดสุข",
+            "อาจารย์",
+            "ดร.กล้าณรงค์ ศรีรอต",
+            "รองศาสตราจารย์"
+          ],
+          "year": 2011,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Ethanol",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Ethanol"
+          ],
+          "search_keyword": "Ethanol",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:31:23.730Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "hhgzyp4B882ltYvqGpAA",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การหมักเอทานอลจากน้ำอ้อยสายพันธุ์พลังงานโดยยีสต์ทนเอทานอล",
+          "authors": [
+            "ดร.สุทธิชา ณ ระนอง ธรรมสิทธิรงค์, รองศาสตราจารย์",
+            "ดร.ประเสริฐ ฉัตรวชิระวงษ์",
+            "รองศาสตราจารย์"
+          ],
+          "year": 2012,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Ethanol",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Ethanol"
+          ],
+          "search_keyword": "Ethanol",
+          "doc_type": "งานวิจัย",
+          "indexed_at": "2026-06-15T07:31:23.730Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "hxgzyp4B882ltYvqGpAA",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การปรับปรุงการผลิตเอทานอลจากกากน้ำตาลโดยยีสต์สายพันธุ์กลายทนเอทานอล",
+          "authors": [
+            "ดร.สุทธิชา ณ ระนอง ธรรมสิทธิรงค์, รองศาสตราจารย์"
+          ],
+          "year": 2013,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Ethanol",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Ethanol"
+          ],
+          "search_keyword": "Ethanol",
+          "doc_type": "งานวิจัย",
+          "funding": "ศูนย์ส่งเสริมการวิจัยและถ่ายทอดเทคโนโลยี คณะศิลปศาสตร์และวิทยาศาสตร์ มหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตกำแพงแสน",
+          "indexed_at": "2026-06-15T07:31:23.730Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "iBgzyp4B882ltYvqGpAA",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การปรับปรุงกระบวนการผลิตพลังงานเอธานอลจากลิกโนเซลลูโลสโดยการพัฒนาและ/หรือคัดเลือกสายพันธุ์ยีสต์ที่เจริญในอุณหภูมิและเอธานอลความเข้มข้นสูง",
+          "authors": [
+            "ดร.วราภรณ์ อภิวัฒนาภิวัต"
+          ],
+          "year": 2011,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Ethanol",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Ethanol"
+          ],
+          "search_keyword": "Ethanol",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:31:23.730Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "iRgzyp4B882ltYvqGpAA",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "แผนงานวิจัย: การพัฒนาแถบชี้วัดปริมาณเอทานอลสำหรับติดตามการเสื่อมเสียของผลไม้ที่เก็บรักษาในบรรจุภัณฑ์ดัดแปลงบรรยากาศ: กรณีศึกษา มะม่วงน้ำดอกไม้โครงการวิจัย: การพัฒนาแถบชี้วัดเอทานอล",
+          "authors": [
+            "รศ.ดร.พัชรินทร์ ระวียัน",
+            "ดร.ภาณุวัฒน์ สรรพกุล",
+            "ศาสตราจารย์",
+            "รศ.ดร.พัชรินทร์ ระวียัน"
+          ],
+          "year": 2012,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Ethanol",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Ethanol"
+          ],
+          "search_keyword": "Ethanol",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานคณะกรรมการวิจัยแห่งชาติ",
+          "indexed_at": "2026-06-15T07:31:23.730Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "ihgzyp4B882ltYvqGpAA",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การใช้ประโยชน์จากเชื้อรา Monascus spp. เพื่อการผลิตเอทานอลด้วยกระบวนการทางชีวะจากทรัพยากรสาหร่าย: Characterization of ethanol processing by Monascus sp.",
+          "authors": [
+            "ดร.กังสดาลย์ บุญปราบ, รองศาสตราจารย์",
+            "Kenji Matsui"
+          ],
+          "year": 2015,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Ethanol",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Ethanol"
+          ],
+          "search_keyword": "Ethanol",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนแลกเปลี่ยนนักวิจัยโดยความร่วมมือของ JSPS-NRCT program",
+          "indexed_at": "2026-06-15T07:31:23.730Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "ixgzyp4B882ltYvqGpAA",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "ต้นแบบเซลล์เชื้อเพลิงที่ใช้เชื้อเพลิงทดแทนเอทานอล",
+          "authors": [
+            "ดร.สุนันท์ ลิ้มตระกูล, ศาสตราจารย์"
+          ],
+          "year": 2015,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Ethanol",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Ethanol"
+          ],
+          "search_keyword": "Ethanol",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:31:23.730Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "jBgzyp4B882ltYvqGpAA",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การพัฒนาอิเล็คโทรดประสิทธิภาพสูงโดยเทคโนโลยีการเคลือบระดับนาโนเมตรสำหรับเซลล์เชื้อเพลิงเอทานอล",
+          "authors": [],
+          "year": 2013,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Ethanol",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Ethanol"
+          ],
+          "search_keyword": "Ethanol",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:31:23.730Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      }
+    ]
+  }
+}

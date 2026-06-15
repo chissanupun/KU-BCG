@@ -1,0 +1,3542 @@
+{
+  "took": 15,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 63,
+      "relation": "eq"
+    },
+    "max_score": 2.267325,
+    "hits": [
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "LBjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of chemical fertilizer with organic fertilizer coated by chito-oligosaccharide on growth, yield and soil properties of rice grown in pot condition with Nakhon Pathom soil series",
+          "abstract": "",
+          "authors": [
+            "ธนัฐวัสส์ ชัยประเสริฐ",
+            "พรชิตา กอพิพัฒน์สวัสดิ์",
+            "ณัฐฏพร วันสา",
+            "อรกัญญา ศาสนกิจ",
+            "ศุภชัย อำคา",
+            "Thanatthawat Chaiprasert",
+            "Phonchita Korphiphatsawat",
+            "Nattaporn Wansa",
+            "Onkanya Satsanakit",
+            "Suphachai Amkha"
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/441797",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "ข้าว",
+            "ปุ๋ยเคมี",
+            "ปุ๋ยอินทรีย์",
+            "มูลไก่",
+            "ปุ๋ยมูลไก่อัดเม็ด",
+            "ไคโตโอลิโกแซคคาไรด์",
+            "ไคโตซาน",
+            "การเคลือบ",
+            "ชุดดินนครปฐม",
+            "การเจริญเติบโต",
+            "ผลผลิต",
+            "คุณสมบัติของดิน",
+            "พันธุ์ปทุมธานี 1",
+            "Oryza sativa",
+            "Rice",
+            "Chemical fertilizer",
+            "Organic fertilizer",
+            "Chicken manure pellet",
+            "Chito-oligosaccharide",
+            "Chitosan",
+            "Coating",
+            "Nakhon Pathom soil series",
+            "Growth",
+            "Yields",
+            "Soil properties",
+            "Pathum Thani 1 variety",
+            "ปุ๋ยอนินทรีย์",
+            "ปุ๋ยคอก",
+            "การทำเป็นเม็ด",
+            "โอลิโกแซคคาไรด์",
+            "ไคโตแซน",
+            "ชนิดดิน",
+            "การเติบโต",
+            "คุณสมบัติทางกายภาพเคมีของดิน",
+            "Inorganic fertilizers",
+            "Organic fertilizers",
+            "Farmyard manure",
+            "Pelleting",
+            "Oligosaccharides",
+            "Soil types",
+            "Soil chemicophysical properties"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "LRjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effects of seed coating with chitosan along with ginger and galangal essential oils on inhibiting Callosobruchus maculatus (F.) infestation on mung bean seeds quality during storage",
+          "authors": [
+            "Choeratphatchra Khieowichai",
+            "Sureerat Thongkam",
+            "เฌอรัชด์พัชร เขียววิชัย",
+            "สุรีรัตน์ ทองคำ"
+          ],
+          "year": "2024",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20022447",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Mung bean",
+            "Seed storage",
+            "Seed coating",
+            "Chitosan",
+            "Galangal",
+            "Ginger",
+            "Essential oil",
+            "Callosobruchus maculatus",
+            "Infestation inhibition",
+            "Seed quality",
+            "Botanical insecticide",
+            "ถั่วเขียว",
+            "การเก็บรักษาเมล็ดพันธุ์",
+            "การเคลือบเมล็ดพันธุ์",
+            "ไคโตซาน",
+            "น้ำมันหอมระเหย",
+            "ข่า",
+            "ขิง",
+            "ด้วงถั่วเขียว",
+            "การยับยั้งการเข้าทำลาย",
+            "คุณภาพเมล็ดพันธุ์",
+            "ชีวภัณฑ์ป้องกันแมลง",
+            "Mung beans",
+            "Seed pelleting",
+            "Essential oils",
+            "Alpinia galanga",
+            "Stored products pests",
+            "Stored products pest control",
+            "Inhibition",
+            "Quality",
+            "Seed",
+            "Biopesticides",
+            "Biological control agents",
+            "การเคลือบเมล็ด",
+            "ไคโตแซน",
+            "ศัตรูในโรงเก็บ",
+            "การควบคุมศัตรูในโรงเก็บ",
+            "การยับยั้ง",
+            "คุณภาพ",
+            "เมล็ดพันธุ์",
+            "สารป้องกันกำจัดศัตรูพืชชีวภาพ",
+            "สิ่งที่นำมาใช้ในการควบคุมโดยชีววิธี"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "LhjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Monitoring the quality of fresh-cut Kimju guava in packages using intelligent chitosan film incorporated with AMP and anthocyanin",
+          "abstract": "This research was conducted to study the use of 0.5 percent chitosan film mixed with 10 percent aminomethyl propanol (AMP) and 1 percent anthocyanin from butterfly pea flowers that coated on filter papers for monitoring the quality of fresh-cut Kimju guava stored at 10 and 37 deg C. The results found that Kimju guava packages had increases of CO2 concentration and decreases of O2 concentration. Fresh-cut guava showed increases of pH, total soluble solid, and total bacterial counts. Moreover, the browning and spoilage of guava flesh increased as the storage temperature increased. On the 7th day of storage at 10 and 37 deg C, CO2 concentrations in the packages were increased from 0 to 0.5 and 5 percent. The pH values were increased from 4.2 to 4.5 and 5.9. Total soluble solids increased from 24.6 to 28.4 and 28.2 Brix. Total bacteria, yeasts, and molds were increased from 5.6, 4.8, and 2.5 log CFU/g to 17, 8.7, and 15 log CFU/g and 20.5, 9.7, and 19.5 log CFU/g, respectively. Escherichia coli and Salmonella spp. were not detected in fresh-cut guava stored at 10 deg C, but E. coli (8.1 log CFU/g) was detected when stored at 37 deg C. The chitosan film color was changed from blue to blue-green and blue-yellow according to the loss of guava quality during storage. Therefore, the intelligent chitosan film could be used as an index indicator for monitoring the quality of fresh-cut guava.",
+          "authors": [
+            "Jutatip Poubol",
+            "Papitchaya Sujaritji",
+            "Pharima Phiriyangkul",
+            "จุฑาทิพย์ โพธิ์อุบล",
+            "ปพิชญา สุจริตจิตร",
+            "พริมา พิริยางกูร"
+          ],
+          "year": "2024",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20021684",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Guava",
+            "Packages",
+            "Chitosan film",
+            "Aminomethyl propanol",
+            "AMP",
+            "Anthocyanin",
+            "Butterfly pea flowers",
+            "Quality loss",
+            "Microbial contamination",
+            "Escherichia coli",
+            "Salmonella",
+            "Shelf life",
+            "ฝรั่ง",
+            "พันธุ์กิมจู",
+            "ผลไม้ตัดแต่งพร้อมบริโภค",
+            "บรรจุภัณฑ์",
+            "ไคโตซาน",
+            "อะมิโนเมทิลโพรพานอล",
+            "เอเอ็มพี",
+            "แอนโทไซยานิน",
+            "ดอกอัญชัน",
+            "การสูญเสียคุณภาพ",
+            "การปนเปื้อนของจุลินทรีย์",
+            "การปนเปื้อนเชื้อก่อโรค",
+            "อายุการเก็บรักษา",
+            "Guavas",
+            "Psidium guajava",
+            "Fruits",
+            "Packaging",
+            "Packaging materials",
+            "Chitosan",
+            "Anthocyanins",
+            "Deterioration",
+            "Storage losses",
+            "Nutritional losses",
+            "Quality",
+            "Biological contamination",
+            "Bacteria",
+            "ผลไม้",
+            "การบรรจุหีบห่อ",
+            "ไคโตแซน",
+            "การเสื่อมสภาพ",
+            "การสูญเสียเนื่องจากการเก็บรักษา",
+            "การสูญเสียทางโภชนาการ",
+            "คุณภาพ",
+            "การปนเปื้อนทางชีววิทยา",
+            "แบคทีเรีย"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "LxjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of divinyl sulfone crosslinker on the release of nicotinamide adenine dinucleotide (NAD) from synthesized quaternary ammonium chitosan",
+          "authors": [
+            "Morakot Thabpho",
+            "Natthana Thitichayaphong",
+            "Manakorn Sukmak",
+            "Natthaya Srathongthean",
+            "Siriluk Jala",
+            "มรกต ทับโพธิ์",
+            "ณัฏฐ์ธน ธิติชญาพงษ์",
+            "มานะกร สุขมาก",
+            "ณัฐธยาน์ สระทองเทียน",
+            "สิริลักษณ์ จาละ"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20020090",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Chitosan",
+            "Natural polymer",
+            "Biomedical",
+            "Quaternary ammonium chitosan",
+            "Divinyl sulfone crosslinker",
+            "Nicotinamide adenine dinucleotide",
+            "NAD",
+            "Biological process",
+            "DNA repairing process",
+            "ไคโตซาน",
+            "พอลีเมอร์ธรรมชาติ",
+            "ชีวการแพทย์",
+            "ควอเทอร์นารีแอมโมเนียมไคโตซาน",
+            "ควอเทอร์นารีเอมีน",
+            "การละลายน้ำ",
+            "กระบวนการทางชีววิทยา",
+            "การซ่อมแซมดีเอ็นเอ",
+            "Polysaccharides",
+            "Biopolymers",
+            "Quaternary ammonium compounds",
+            "Nicotinamide",
+            "Biotechnology",
+            "Medical sciences",
+            "ไคโตแซน",
+            "โพลีแซคคาไรด์",
+            "ไบโอโพลีเมอร์",
+            "สารประกอบควอเทอร์นารีแอมโมเนียม",
+            "นิโคทินาไมด์",
+            "เทคโนโลยีชีวภาพ",
+            "วิทยาศาสตร์การแพทย์"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "MBjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Utilization of Litopenaeus vannamei shell waste as a potential chitosan source for biodegradable packaging",
+          "authors": [
+            "Potchanee Kaewkumsan",
+            "Kanokkan Worawut",
+            "Baramee Phungpis",
+            "Onanong Poungchompu",
+            "พจนีย์ แก้วคำแสน",
+            "กนกกาญจน์ วรวุฒิ",
+            "บารมี พ่วงพิศ",
+            "อรอนงค์ พวงชมภู"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20020390",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "White shrimp",
+            "Litopenaeus vannamei",
+            "Crustacean shell waste",
+            "Chitosan",
+            "Chitin",
+            "Natural polymers",
+            "Biodegradable packaging",
+            "Rumen microorganisms",
+            "กุ้งขาว",
+            "เปลือกกุ้ง",
+            "เปลือกสัตว์น้ำ",
+            "ไคติน",
+            "ไคโตซาน",
+            "พอลิเมอร์ธรรมชาติ",
+            "บรรจุภัณฑ์",
+            "อาหารสัตว์เคี้ยวเอื้อง",
+            "การย่อยสลายทางชีวภาพ",
+            "จุลินทรีย์รูเมน",
+            "Penaeus vannamei",
+            "Exoskeleton",
+            "Fishery byproducts",
+            "Agricultural wastes",
+            "Packaging materials",
+            "Feeds",
+            "Ruminants",
+            "Biodegradation",
+            "Biodegradability",
+            "สิ่งห่อหุ้มภายนอก",
+            "ผลพลอยได้จากการประมง",
+            "ของเสียจากการเกษตร",
+            "ไคโตแซน",
+            "อาหารสัตว์",
+            "สัตว์เคี้ยวเอื้อง",
+            "ความสามารถย่อยสลายทางชีวภาพ",
+            "จุลชีพในกระเพาะรูเมน"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "MRjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Extraction of chitosan from mussel shells for application in biodegradable film production",
+          "abstract": "In this research study, a facile chemical extraction method to obtain chitosan from mussel shells was employed, achieving high yields of the product. Subsequently, we proceeded to fabricate films using the extracted chitosan. The results demonstrated the successful production of good-quality films. These films exhibited translucency and displayed improved properties compared to films produced without the incorporation of chitosan.",
+          "authors": [
+            "Kanokkan Warawut",
+            "Baramee Phungpis",
+            "Potchanee Kaewkumsan",
+            "Onanong Poungchompu",
+            "กนกกาญจน์ วรวุฒิ",
+            "บารมี พ่วงพิศ",
+            "พจนีย์ แก้วคำแสน",
+            "อรอนงค์ พวงชมภู"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20020747",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Mussel shell",
+            "Chitosan",
+            "Biodegradable film",
+            "Chemical extraction",
+            "Biodegradable packaging film",
+            "Film properties",
+            "Biopolymer packaging material",
+            "Food processing waste",
+            "Value addition",
+            "Industrial waste reduction",
+            "Byproducts",
+            "Utilization",
+            "หอยแมลงภู่",
+            "เปลือกหอยแมลงภู่",
+            "ไคโตซาน",
+            "ฟิล์มที่ย่อยสลายได้",
+            "การสกัดทางเคมี",
+            "ฟิล์มบรรจุภัณฑ์ย่อยสลายได้",
+            "คุณสมบัติของฟิล์ม",
+            "วัสดุบรรจุภัณฑ์ชีวภาพ",
+            "เศษเหลือการแปรรูปอาหาร",
+            "การสร้างมูลค่าเพิ่ม",
+            "การลดของเสียอุตสาหกรรม",
+            "วัสดุเหลือทิ้ง",
+            "การใช้ประโยชน์",
+            "Mussels",
+            "Shell",
+            "Edible films",
+            "Packaging materials",
+            "Processing",
+            "Extraction",
+            "Biodegradation",
+            "Food wastes",
+            "Waste utilization",
+            "Waste management",
+            "หอย",
+            "เปลือกหอย",
+            "ไคโตแซน",
+            "ฟิล์มรับประทานได้",
+            "บรรจุภัณฑ์",
+            "กระบวนการผลิต",
+            "การสกัด",
+            "การย่อยสลายทางชีวภาพ",
+            "ของเสียจากอาหาร",
+            "ผลพลอยได้",
+            "การใช้ประโยชน์จากของเสีย",
+            "การจัดการของเสีย"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "MhjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Stimulation of growth and secondary metabolite of Fang 60 wheatgrass seedling by chitosan",
+          "authors": [
+            "Preuk Chutimanukul",
+            "Pakin Piew-ondee",
+            "Atichart Kamun",
+            "Ornprapa Thepsilvisut",
+            "Vorapat Vachirayagorn",
+            "พฤกษ์ ชุติมานุกูล",
+            "ภาคิน ผิวอ่อนดี",
+            "อติชาติ ขมุน",
+            "อรประภา เทพศิลปวิสุทธิ์",
+            "วรภัทร วชิรยากรณ์"
+          ],
+          "year": "2022",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20018730",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Wheat",
+            "Fang 60 variety",
+            "Seedlings",
+            "Growth stimulation",
+            "Chitosan",
+            "Chlorophyll",
+            "Phenolic compounds",
+            "Flavonoids",
+            "Secondary metabolites",
+            "Antioxidant activity",
+            "Wheatgrass juice",
+            "ข้าวสาลี",
+            "พันธุ์ฝาง 60",
+            "ต้นอ่อน",
+            "การกระตุ้นการเจริญเติบโต",
+            "สารไคโตซาน",
+            "คลอโรฟิลล์",
+            "ฟีนอลลิก",
+            "ฟลาโวนอยด์",
+            "ฤทธิ์ต้านอนุมูลอิสระ",
+            "น้ำคั้นต้นอ่อน",
+            "Wheats",
+            "Plant growth substances",
+            "Chemical composition",
+            "Chlorophylls",
+            "Antioxidants",
+            "Vegetable juices",
+            "Beverages",
+            "ต้นกล้า",
+            "สารควบคุมการเจริญเติบโตของพืช",
+            "ไคโตแซน",
+            "องค์ประกอบทางเคมี",
+            "สารประกอบฟีโนลิค",
+            "สารยับยั้งการรวมตัวของออกซิเจน",
+            "น้ำผัก",
+            "เครื่องดื่ม"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "MxjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Preliminary study of mannose binding protein (MBP) for coating in shrimp feed",
+          "authors": [
+            "Nutjwa Juntheera",
+            "Prapansak Srisapoome",
+            "Ratree Wongpanya"
+          ],
+          "year": "2022",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20019215",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Litopenaeus vannamei",
+            "Pacific white shrimp",
+            "Shrimp feed",
+            "Supplement",
+            "Immune enhancement",
+            "Mannose binding protein",
+            "MBP protein",
+            "Coating",
+            "Chitosan",
+            "Vegetable oil",
+            "กุ้งขาว",
+            "อาหารกุ้ง",
+            "อาหารเสริม",
+            "การเสริมภูมิคุ้มกัน",
+            "โปรตีนแมนโนสบายน์ดิ้ง",
+            "โปรตีน MBP",
+            "การเคลือบ",
+            "ไคโตซาน",
+            "น้ำมันพืช",
+            "Prawns and shrimps",
+            "Feeds",
+            "Supplements",
+            "Immunization",
+            "Antigens",
+            "Animal protein",
+            "Plant oils",
+            "กุ้ง",
+            "อาหารสัตว์",
+            "สารเสริม",
+            "การก่อภูมิคุ้มกัน",
+            "สารก่อภูมิต้านทาน",
+            "โปรตีนจากสัตว์",
+            "ไคโตแซน"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "NBjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Feasibility study of coating solution of chitosan mixed with AMP and anthocyanin for\r\ninvestigation of anaerobic conditions in fresh produce container model",
+          "authors": [
+            "Poubol, J.",
+            "Netpraphai, K.",
+            "Phiriyangkul, P.",
+            "จุฑาทิพย์ โพธิ์อุบล",
+            "กฤษญา เนตรประไพ",
+            "พริมา พิริยางกูร"
+          ],
+          "year": "2021",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/414104",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Chitosan",
+            "Protective coatings",
+            "Adsorption",
+            "Adsorbents",
+            "Carbon dioxide",
+            "Anaerobiosis",
+            "Models",
+            "Packaging materials",
+            "Fresh products",
+            "ไคโตแซน",
+            "การเคลือบป้องกัน",
+            "การดูดซับ",
+            "ตัวดูดซับ",
+            "คาร์บอนไดออกไซด์",
+            "การไม่ใช้ออกซิเจน",
+            "แบบจำลอง",
+            "บรรจุภัณฑ์",
+            "ผลิตภัณฑ์สด",
+            "Coating solution",
+            "AMP",
+            "Aminomethyl propanol",
+            "Anthocyanin",
+            "CO2",
+            "Anaerobic conditions",
+            "Fresh products container",
+            "Model",
+            "ไคโตซาน",
+            "สารเคลือบ",
+            "เอเอ็มพี",
+            "อะมิโนเมทิลโพรพานอล",
+            "แอนโทไซยานิน",
+            "สารดูดซับ",
+            "สภาวะที่ไม่ใช้ออกซิเจน",
+            "ภาชนะบรรจุ",
+            "ผลิตผลสด"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "NRjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Physical and biochemical properties of chitosan film combined with gallic acid for fresh produce packaging",
+          "authors": [
+            "Phiriyangkul, P.",
+            "Sangthong, C.",
+            "Poubol, J.",
+            "พริมา พิริยางกูร",
+            "ชลิตา แสงทอง",
+            "จุฑาทิพย์ โพธิ์อุบล"
+          ],
+          "year": "2021",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/414105",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Chitosan",
+            "Edible films",
+            "Tannins",
+            "Chemicophysical properties",
+            "Biochemistry",
+            "Antioxidants",
+            "Packaging materials",
+            "Fresh products",
+            "ไคโตแซน",
+            "ฟิล์มรับประทานได้",
+            "แทนนิน",
+            "คุณสมบัติทางเคมีกายภาพ",
+            "ชีวเคมี",
+            "สารยับยั้งการรวมตัวของออกซิเจน",
+            "บรรจุภัณฑ์",
+            "ผลิตภัณฑ์สด",
+            "Chitosan film",
+            "Gallic acid",
+            "Physical properties",
+            "Biochemical properties",
+            "Fresh produce packaging",
+            "ฟิล์มไคโตซาน",
+            "ฟิล์มที่บริโภคได้",
+            "กรดแกลลิก",
+            "คุณสมบัติทางกายภาพ",
+            "คุณสมบัติทางชีวเคมี",
+            "สารต้านอนุมูลอิสระ",
+            "ผลิตผลสด"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "NhjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Antimicrobial activity of spent coffee ground extract-incorporated chitosan film",
+          "authors": [
+            "Sirapat Mahapol",
+            "Paranee Sripreechasak",
+            "Niramol Punbusayakul",
+            "สิรพัฒน์ มหาผล",
+            "ภรณี ศรีปรีชาศักดิ์",
+            "นิรมล ปัญญ์บุศยกุล"
+          ],
+          "year": "2021",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20017145",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Chitosan film",
+            "Food packaging",
+            "Spent coffee ground extract",
+            "SCGE",
+            "Antimicrobial activity",
+            "Disc diffusion method",
+            "Drop test method",
+            "ฟิล์มไคโตซาน",
+            "บรรจุภัณฑ์อาหาร",
+            "สารสกัดกากกาแฟ",
+            "ฤทธิ์ต้านจุลินทรีย์",
+            "วิธีการแพร่บนอาหารแข็ง",
+            "วิธีหยดลงบนฟิล์ม",
+            "Packaging materials",
+            "Chitosan",
+            "Extracts",
+            "Coffee pulp",
+            "Byproducts",
+            "Antimicrobial properties",
+            "บรรจุภัณฑ์",
+            "ไคโตแซน",
+            "สารสกัด",
+            "กากกาแฟ",
+            "ผลพลอยได้",
+            "คุณสมบัติของยาต้านจุลชีพ"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "NxjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of cross-linker, molecular weight chitosan, and surfactant use on synthesis of Chitosan beads using water-in-oil emulsion technique",
+          "authors": [
+            "Pitipak Boonmee",
+            "Nanthiya Hansupalak",
+            "ปิติภาคย์ บุญมี",
+            "นันทิยา หาญศุภลักษณ์"
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/400972",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Chitosan beads",
+            "Water-in-oil emulsion",
+            "Cross-linker",
+            "Surfactant",
+            "ไคโตซาน",
+            "สารเชื่อมขวาง",
+            "มวลโมเลกุล",
+            "สารลดแรงตึงผิว",
+            "การสังเคราะห์อนุภาคไคโตซาน",
+            "อิมัลชั่นชนิดน้ำในน้ำมัน"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "OBjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effects of culture media, sucrose and chitosan concentrations on Dendrobium palpebrae Lindl. micropropagation",
+          "authors": [
+            "Soontreeya Kalawong",
+            "Panuwat Yimyong",
+            "Suphat Rittirat",
+            "Sakulrat Suwanno",
+            "Apiradee Siangsuepchart",
+            "สุนทรียา กาละวงศ์",
+            "ภาณุวัฒน์ ยิ้มย่อง",
+            "สุพัตร ฤทธิรัตน์",
+            "สกุลรัตน์ สุวรรณโณ",
+            "อภิรดี เสียงสืบชาติ"
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/401396",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Dendrobium",
+            "Micropropagation",
+            "In vitro culture",
+            "Culture media",
+            "Sucrose",
+            "Chitosan",
+            "Growth",
+            "Survival",
+            "การขยายพันธุ์โดยวิธีจุลภาค",
+            "การเพาะเลี้ยงในสภาพห้องปฏิบัติการ",
+            "อาหารเพาะเลี้ยง",
+            "ซูโครส",
+            "ไคโตแซน",
+            "การเติบโต",
+            "การอยู่รอด",
+            "Dendrobium palpebrae",
+            "กล้วยไม้เอื้องมัจฉา",
+            "โปรโตคอร์ม",
+            "การเพาะเลี้ยง",
+            "การขยายพันธุ์",
+            "การเพิ่มปริมาณ",
+            "หลอดทดลอง",
+            "สูตรอาหาร",
+            "น้ำตาลซูโครส",
+            "ไคโตซาน",
+            "การเจริญเติบโต",
+            "การรอดชีวิต"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "ORjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Encapsulation of lactic acid bacteria as starter culture in fermented foods",
+          "authors": [
+            "Kanokwan Yodin",
+            "กนกวรรณ ยอดอินทร์"
+          ],
+          "year": "2020",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20009930",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Lactic acid bacteria",
+            "Bacteria",
+            "Microbial flora",
+            "Fermented food",
+            "Lactic fermentation",
+            "Processing",
+            "Starter culture",
+            "Encapsulation",
+            "Extrusion",
+            "Emulsion",
+            "Spray drying",
+            "Coating material",
+            "Starch",
+            "Alginate",
+            "Gellan",
+            "Xanthan gum",
+            "Carrageenan",
+            "Chitosan",
+            "Gelatin",
+            "Cellulose acetate phthalate",
+            "Milk proteins",
+            "Prebiotics",
+            "เชื้อแลคติกแอซิด",
+            "เชื้อแบคทีเรีย",
+            "จุลินทรีย์ประจำถิ่น",
+            "อาหารหมัก",
+            "การหมักกรดแลคติก",
+            "กระบวนการหมัก",
+            "กล้าเชื้อ",
+            "เซลล์ห่อหุ้ม",
+            "เอ็นแคปซูเลชัน",
+            "วิธีการห่อหุ้ม",
+            "วิธีเอ็กซ์ทรูชัน",
+            "วิธีอิมัลชัน",
+            "วัสดุห่อหุ้ม",
+            "สตาร์ช",
+            "อัลจิเนต",
+            "เจลแลน",
+            "แซนแทนกัม",
+            "คาราจีแนน",
+            "ไคโตซาน",
+            "เจลาติน",
+            "เซลลูโลสอะซิเตทพธาเลท",
+            "โปรตีนนม",
+            "พรีไบโอติก",
+            "การรอดชีวิต"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "OhjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Fabrication of chitosan-coated ascorbyl dipalmitate nanoparticles by rapid expansion of subcritical solutions coupled with ionic gelation",
+          "authors": [
+            "Yuntia Astutisari",
+            "Rangrong Yoksan",
+            "Amporn Sane"
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/396036",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Chitosan",
+            "Coating",
+            "Ionization",
+            "Gelatin",
+            "Particle size",
+            "Agroindustry",
+            "ไคโตแซน",
+            "การเคลือบ",
+            "การแตกตัวเป็นไอออน",
+            "เจลาติน",
+            "ขนาดอนุภาค",
+            "อุตสาหกรรมเกษตร",
+            "Ascorbyl dipalmitate",
+            "Nanoparticles",
+            "Encapsulation",
+            "RESOLV",
+            "ไคโตซาน",
+            "อนุภาคนาโน",
+            "สภาวะไอออนิกเจล",
+            "กำลังการผลิต",
+            "อุตสาหกรรมเครื่องสำอางค์ ",
+            "อุตสาหกรรมยา"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "OxjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effects of seed treatment and coating on germination and vigor of peanut seed under low temperature regime",
+          "authors": [
+            "Parinee Jeammuangpuk",
+            "Tanapon Chaisan",
+            "Damrongvudhi Onwimol",
+            "Juangjun Duangpatra",
+            "ภาริณี เจียมเมืองปักษ์",
+            "ธนพล ไชยแสน",
+            "ดำรงวุฒิ อ่อนวิมล",
+            "จวงจันทร์ ดวงพัตรา"
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/390618",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Arachis hypogaea",
+            "Groundnuts",
+            "Seed",
+            "Seed pelleting",
+            "Salicylic acids",
+            "Calcium chloride",
+            "Chitosan",
+            "Quality",
+            "Germination",
+            "Seeds",
+            "Seed characteristics",
+            "Vigour",
+            "ถั่วลิสง",
+            "เมล็ดพันธุ์",
+            "การเคลือบเมล็ด",
+            "กรดซาลิไซลิค",
+            "แคลเซียมคลอไรด์",
+            "ไคโตแซน",
+            "คุณภาพ",
+            "การงอก",
+            "เมล็ด",
+            "ลักษณะของเมล็ดพันธุ์",
+            "ความแข็งแรง",
+            "Peanut seed",
+            "Seed enhancement",
+            "Seed treatment",
+            "Seed coating",
+            "Salicylic acid",
+            "Ascorbate",
+            "CaCl2",
+            "Seed germination",
+            "Seed vigor",
+            "Low temperature regime",
+            "การคลุกเมล็ดพันธุ์",
+            "การเคลือบเมล็ดพันธุ์",
+            "สารเคมี",
+            "กรดซาลิไซลิก",
+            "แอสคอเบท",
+            "ไคโตซาน",
+            "คุณภาพเมล็ดพันธุ์",
+            "ความแข็งแรงของเมล็ดพันธุ์",
+            "สภาวะอุณหภูมิต่ำ"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "PBjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Development of paper from oil palm empty fruit bunch and mesocarp, and paper mulberry fibers, with chitosan coating",
+          "authors": [
+            "Praphapan Tumthongkhum",
+            "Nitchakarn Buataengtansakul",
+            "Rungsima Chollakup",
+            "Amnat Jarerat",
+            "Siriyupa Netramai",
+            "Wuttinant Kongtud",
+            "ประภาพรรณ ตุ้มทองคำ",
+            "ณิชกานต์ บัวแต่งตันสกุล",
+            "รังสิมา ชลคุป",
+            "อำนาจ เจรีรัตน์",
+            "สิริยุภา เนตรมัย",
+            "วุฒินันท์ คงทัด"
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/416354",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Paper",
+            "Papermaking",
+            "Plant fibres",
+            "Oil palms",
+            "Fruit",
+            "Inflorescences",
+            "Pericarp",
+            "Agricultural wastes",
+            "Broussonetia papyrifera",
+            "Bark",
+            "Chitosan",
+            "Protective coatings",
+            "Chemicophysical properties",
+            "Mechanical properties",
+            "Sacks",
+            "Packaging materials",
+            "กระดาษ",
+            "การทำกระดาษ",
+            "เส้นใยพืช",
+            "ปาล์มที่ให้น้ำมัน",
+            "ผล",
+            "ช่อดอก",
+            "เพอริคาร์บ",
+            "ของเสียจากการเกษตร",
+            "เปลือกไม้",
+            "ไคโตแซน",
+            "การเคลือบป้องกัน",
+            "คุณสมบัติทางเคมีกายภาพ",
+            "สมบัติเชิงกล",
+            "กระสอบ",
+            "บรรจุภัณฑ์",
+            "Oil palm empty fruit bunch",
+            "Oil palm mesocarp",
+            "Paper mulberry",
+            "Coating",
+            "Paper bags",
+            "การผลิตกระดาษ",
+            "ทะลายปาล์มน้ำมัน",
+            "เปลือกหุ้มผลปาล์มน้ำมัน",
+            "ของเหลือทิ้งจากอุตสาหกรรมปาล์มน้ำมัน",
+            "เปลือกปอสา",
+            "สารเคลือบไคโตซาน",
+            "คุณสมบัติทางเคมีและกายภาพ",
+            "บรรจุภัณฑ์ถุงกระดาษ"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "PRjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Use of chitosan and carbon dioxide adsorption for the quality monitor of fresh-cut cherry tomatoes contaminated with Escherichia coli",
+          "authors": [
+            "Poubol, J.",
+            "Srithi, P.",
+            "Phiriyangkul, P.",
+            "จุฑาทิพย์ โพธิ์อุบล",
+            "พิมพ์วิภา ศรีธิ",
+            "พริมา พิริยางกูร"
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/407872",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Tomatoes",
+            "Cutting",
+            "Prepared foods",
+            "Chitosan",
+            "Carbon dioxide",
+            "Adsorption",
+            "Adsorbents",
+            "Packaging",
+            "Storage",
+            "Quality",
+            "Escherichia coli",
+            "Contamination",
+            "มะเขือเทศ",
+            "การตัด",
+            "อาหารพร้อมปรุง",
+            "ไคโตแซน",
+            "คาร์บอนไดออกไซด์",
+            "การดูดซับ",
+            "ตัวดูดซับ",
+            "การบรรจุหีบห่อ",
+            "การเก็บรักษา",
+            "คุณภาพ",
+            "การปนเปื้อน",
+            "Cherry tomatoes",
+            "Fresh-cut tomatoes",
+            "Carbon dioxide adsorption",
+            "2-Amino 2-methyl 1-propanol",
+            "AMP",
+            "มะเขือเทศราชินี",
+            "มะเขือเทศตัดแต่ง",
+            "ไคโตซาน",
+            "สารดูดซับคาร์บอนไดออกไซด์",
+            "2-อะมิโน 2-เมทิล 1-โพรพานอล",
+            "เอเอ็มพี",
+            "การบรรจุ",
+            "เอสเชอริเชีย โคไล"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "PhjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Inhibition of Escherichia coli and Salmonella sp. using chitosan-gallic acid films",
+          "authors": [
+            "Poubol, J.",
+            "Phiriyangkul, P.",
+            "จุฑาทิพย์ โพธิ์อุบล",
+            "พริมา พิริยางกูร"
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/427852",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Vegetables",
+            "Fruits",
+            "Chitosan",
+            "Packaging materials",
+            "Tannins",
+            "Escherichia coli",
+            "Salmonella",
+            "Contamination",
+            "Microorganisms",
+            "Inhibition",
+            "Postharvest control",
+            "ผัก",
+            "ผลไม้",
+            "ไคโตแซน",
+            "บรรจุภัณฑ์",
+            "แทนนิน",
+            "การปนเปื้อน",
+            "จุลินทรีย์",
+            "การยับยั้ง",
+            "การควบคุมหลังการเก็บเกี่ยว",
+            "Chitosan film",
+            "Gallic acid",
+            "Salmonella sp.",
+            "ฟิล์มไคโตซาน",
+            "กรดแกลลิก",
+            "เอสเชอริเคีย โคไล",
+            "ซัลโมเนลลา",
+            "การยับยั้งจุลินทรีย์"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "PxjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Synthesis and characterization of poly(ethylene glycol) methyl ether-grafted chitosan",
+          "authors": [
+            "Pawika Towongphaichayonte",
+            "Rangrong Yoksan"
+          ],
+          "year": "2019",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/395860",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Chitosan",
+            "Edible films",
+            "Contamination",
+            "Food safety",
+            "Pseudomonas aeruginosa",
+            "Staphylococcus aureus",
+            "ไคโตแซน",
+            "ฟิล์มรับประทานได้",
+            "การปนเปื้อน",
+            "ความปลอดภัยทางอาหาร",
+            "Poly(ethylene glycol) methyl ether",
+            "mPEG",
+            "Thickening agent",
+            "Viscosity",
+            "ฟิล์มชีวภาพ",
+            "ไคโตซาน",
+            "การสังเคราะห์",
+            "คุณสมบัติการละลายน้ำ",
+            "สารเพิ่มความหนา",
+            "พอลิเอธิลีนไกลคอลเมธิลอีเธอร์",
+            "การปยเปื้อนจุลินทรีย์"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "QBjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effects of seed coating with chitosan and jatropha oil on germination and shoot length of single-cross hybrid field corn, KSX 5402",
+          "authors": [
+            "Supranee Ngamprasith",
+            "Rojanapong Chiyasit",
+            "Waraporn Wongpila",
+            "Yuwadee Injan",
+            "สุปราณี งามประสิทธิ์",
+            "โรจนพงศ์ ไชยศิษย์",
+            "วราภรณ์ วงศ์พิลา",
+            "ยุวดี อินจันทร์"
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/387902",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Zea mays",
+            "Maize",
+            "Hybrids",
+            "Varieties",
+            "Seed pelleting",
+            "Chitosan",
+            "Jatropha curcas",
+            "Plant oils",
+            "Germination",
+            "Seeds",
+            "Shoots",
+            "Length",
+            "ข้าวโพด",
+            "ลูกผสม",
+            "พันธุ์",
+            "การเคลือบเมล็ด",
+            "ไคโตแซน",
+            "น้ำมันพืช",
+            "การงอก",
+            "เมล็ด",
+            "ส่วนยอดเหนือดิน",
+            "ความยาว",
+            "Corn",
+            "Field corn",
+            "Single-cross hybrid",
+            "KSX 5402",
+            "Seed coating",
+            "Jatropha oil",
+            "Shoot length",
+            "ข้าวโพดไร่",
+            "พันธุ์ลูกผสมเดี่ยว",
+            "พันธุ์ KSX 5402",
+            "การเคลือบเมล็ดพันธุ์",
+            "ไคโตซาน",
+            "น้ำมันสบู่ดำ",
+            "ความงอก",
+            "ความยาวยอดอ่อน"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "QRjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of chitosan mixed with nanoscale clay solution on inhibition of Escherichia coli and Salmonella sp. contamination of fruits and vegetables",
+          "authors": [
+            "Poubol, J.",
+            "Boonyarithongchai, P.",
+            "Phiriyangkul, P.",
+            "จุฑาทิพย์ โพธิ์อุบล",
+            "พนิดา บุญฤทธิ์ธงไชย",
+            "พริมา พิริยางกูร"
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/420369",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Vegetables",
+            "Fruits",
+            "Escherichia coli",
+            "Salmonella",
+            "Contamination",
+            "Chitosan",
+            "Solutions",
+            "Polymers",
+            "Inhibition",
+            "Microorganisms",
+            "ผัก",
+            "ผลไม้",
+            "การปนเปื้อน",
+            "ไคโตแซน",
+            "สารละลาย",
+            "โพลีเมอร์",
+            "การยับยั้ง",
+            "จุลินทรีย์",
+            "Salmonella sp.",
+            "Nanoscale clay",
+            "Microbial inhibition",
+            "เอสเชอริเชีย โคไล",
+            "ซัลโมเนลลา",
+            "ไคโตซาน",
+            "โพลีเมอร์เคลย์ระดับนาโน",
+            "การยับยั้งเชื้อ"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "QhjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Seed coating on quality of sorghum seed",
+          "authors": [
+            "Ngamprasitthi, S.",
+            "Wongpila, W.",
+            "Inchan, Y.",
+            "Panitnok, K.",
+            "Chaisri, S.",
+            "สุปราณี งามประสิทธิ์",
+            "วราภรณ์ วงศ์พิลา",
+            "ยุวดี อินจันทร์",
+            "กิ่งกานท์ พานิชนอก",
+            "สกล ฉายศรี"
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/387893",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Sorghum bicolor",
+            "Seed",
+            "Seed pelleting",
+            "Chemicals",
+            "Chitosan",
+            "Bacteria",
+            "Quality",
+            "Seed characteristics",
+            "Vigour",
+            "Germination",
+            "Seeds",
+            "เมล็ดพันธุ์",
+            "การเคลือบเมล็ด",
+            "สารเคมี",
+            "ไคโตแซน",
+            "แบคทีเรีย",
+            "คุณภาพ",
+            "ลักษณะของเมล็ดพันธุ์",
+            "ความแข็งแรง",
+            "การงอก",
+            "เมล็ด",
+            "Sorghum",
+            "Seed coating",
+            "Chemical substances",
+            "Bacteria KPS46",
+            "Seed vigor",
+            "Seed germination",
+            "ข้าวฟ่าง",
+            "การเคลือบเมล็ดพันธุ์",
+            "ไคโตซาน",
+            "แบคทีเรีย KPS46",
+            "คุณภาพเมล็ดพันธุ์",
+            "ความแข็งแรงของเมล็ด",
+            "ความงอก"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "QxjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effects of chitosan coating on prolonging of shelf life, egg quality and antimicrobial of chicken eggs",
+          "abstract": "The objective of this study was to evaluate the efficiency of chitosan coating on prolonging shelf life, egg quality and antimicrobial of chicken eggs. The experiment was randomly allotted into a completely randomized design. Chitosan coatings eggs were divided into 5 treatments according to the concentration of chitosan coated eggs with 0, 0.5, 1, 1.5 and 2%, respectively. Chicken eggs were storage at 25 deg C and 50% relative humidity for 33 days. The results showed that haugh unit (HU) of eggs decreased when the storage period increased. The quality of uncoated egg decreased from haugh unit = 72.06 to 68.62 after 6 days of storage. While, all chitosan coated eggs could be maintain the quality of eggs (haugh unit 72) in AA grade for 9 days. However, egg weight, egg yolk color, weight loss and antimicrobial were no significant difference (P more than 0.05) between treatments. After 33 days of storage, non-coated eggs had 8.89% of weight loss higher than the weight loss of 1 and 1.5 % of chitosan coated eggs 7.86 and 8.23%. The quality of chicken egg coated with chitosan had significantly better quality than non-coated eggs and room temperature storage at 25 deg C for at least 33 days. In conclusion, the application showed of chitosan coated eggs the effectively extended the shelf life of fresh eggs at 0, 0.5, 1, 1.5 and 2 % of chitosan concentration. The quality of chitosan coated eggs in haugh unit 72 can be preserved for up to 9 days at 25 deg C.",
+          "authors": [
+            "Pongthorn Suksanong",
+            "Niparat Sritharet",
+            "Awanwee Petchkongkaew",
+            "พงศ์ธร สุขสนอง",
+            "นิภารัตน์ ศรีธเรศ",
+            "อวันวี เพชรคงแก้ว"
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20009804",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Chicken eggs",
+            "Chitosan",
+            "Concentration",
+            "Coating",
+            "Shelf life extension",
+            "Egg quality",
+            "Haugh unit",
+            "Egg weight",
+            "Yolk color",
+            "Weight loss",
+            "Antimicrobial activity",
+            "ไข่ไก่",
+            "ไคโตซาน",
+            "ความเข้มข้น",
+            "การเคลือบไข่",
+            "การเก็บรักษา",
+            "อายุการเก็บรักษา",
+            "คุณภาพไข่",
+            "ฮอกยูนิต",
+            "น้ำหนักไข่",
+            "สีไข่แดง",
+            "การสูญเสียน้ำหนัก",
+            "การต้านเชื้อจุลินทรีย์",
+            "Eggs",
+            "Layer chickens",
+            "Protective coatings",
+            "Storage",
+            "Keeping quality",
+            "Egg characters",
+            "Antimicrobial properties",
+            "ไข่",
+            "ไก่ไข่",
+            "ไคโตแซน",
+            "การเคลือบป้องกัน",
+            "คุณภาพการเก็บ",
+            "ลักษณะของไข่",
+            "คุณสมบัติของยาต้านจุลชีพ"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "RBjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of vitamin c and chitosan film coating on storability of sunflower seeds",
+          "abstract": "Sunflower seeds have a high fat content that causes rapid seed deterioration. The objective of this experiment was to determine the effects of coating of sunflower seeds with polymer (Flare-2, Centor Thai) mixing with vitamin c and chitosan at the concentrations of 0 (control) 2 4 and 6 ppm (120 ml/100g seed). The coated seeds were stored in plastic bag for 6 months at 10 deg C. The results showed that the seed germination of coated seeds for all treatments after 4 months of storage was not significantly different from the initial value. However, after 5 and 6 months of storage, the control treatment had the lowest germination percentage of 76 percent and it was lower than the coated seeds with polymer mixing with vitamin C and chitosan treatments (87-95 percent). Seed vigor of coated seeds decreased with the longer storage time in every treatment. Germination index (GI) and seedling growth",
+          "authors": [
+            "Piyanath Pagamas",
+            "ปิยะณัฎฐ์ ผกามาศ",
+            "มัณฑนา ปานศรีทอง",
+            "Manthana Pansrithong"
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20012931",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Sunflower seeds",
+            "Storability",
+            "Coating",
+            "Vitamin c",
+            "Chitosan",
+            "Seed germination",
+            "Germination index",
+            "GI",
+            "Seedling growth",
+            "เมล็ดทานตะวัน",
+            "การเก็บรักษาเมล็ดพันธุ์",
+            "การเคลือบเมล็ดพันธุ์",
+            "วิตามินซี",
+            "ไคโตซาน",
+            "ความงอกของเมล็ด",
+            "การเจริญเติบโต",
+            "อายุการเก็บรักษา",
+            "Helianthus annuus",
+            "Sunflower seed",
+            "Seed",
+            "Seed storage",
+            "Seed pelleting",
+            "Ascorbic acid",
+            "Chitin",
+            "Polymers",
+            "Germination",
+            "Germinability",
+            "Developmental stages",
+            "Growth rate",
+            "Seed testing",
+            "เมล็ดพันธุ์",
+            "การเคลือบเมล็ด",
+            "กรดแอสคอร์บิค",
+            "ไคโตแซน",
+            "ไคติน",
+            "โพลีเมอร์",
+            "การงอก",
+            "ความสามารถในการงอก",
+            "ระยะการพัฒนา",
+            "อัตราการเติบโต",
+            "การตรวจสอบคุณภาพเมล็ดพันธุ์"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "RRjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of nano chitosan solution in combination with gamma irradiation on postharvest physiology of mangoes cv. Nam Dok Mai No. 4 with gamma irradiation",
+          "authors": [
+            "Aiamla-or, S.",
+            "Uthairatanakij, A.",
+            "Jitareerat, P.",
+            "Pasanphan, W.",
+            "Chonmaitree, C.",
+            "สุกัญญา เอี่ยมลออ",
+            "อภิรดี อุทัยรัตนกิจ",
+            "ผ่องเพ็ญ จิตอารีย์รัตน์",
+            "วรรณวิมล ปาสาณพันธ์",
+            "ชลิดา ชลไมตรี"
+          ],
+          "year": "2018",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/420292",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Mangoes",
+            "Gamma irradiation",
+            "Chitosan",
+            "Solutions",
+            "Postharvest control",
+            "Postharvest physiology",
+            "Respiration rate",
+            "Ethylene production",
+            "Chlorophylls",
+            "Enzyme activity",
+            "มะม่วง",
+            "การฉายรังสีแกมมา",
+            "ไคโตแซน",
+            "สารละลาย",
+            "การควบคุมหลังการเก็บเกี่ยว",
+            "สรีรวิทยาหลังการเก็บเกี่ยว",
+            "อัตราการหายใจ",
+            "การผลิตเอธิลีน",
+            "คลอโรฟิลล์",
+            "กิจกรรมของเอนไซม์",
+            "Nano chitosan",
+            "Solution",
+            "Chlorophyll contents",
+            "Chlorophyllase activity",
+            "Peel colour",
+            "Nam Dok Mai No. 4",
+            "รังสีแกมมา",
+            "นาโน ไคโตซาน",
+            "สรีรวิทยาภายหลังการเก็บเกี่ยว",
+            "การผลิตเอทิลีน",
+            "ปริมาณคลอโรฟิลล์",
+            "กิจกรรมเอนไซม์",
+            "พันธุ์น้ำดอกไม้เบอร์ 4"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "RhjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "KU สร้างสรรค์ข้าวไทย ศาสตร์แห่งแผ่นดิน เพื่อความกินดีอยู่ดี",
+          "authors": [
+            "วุฒินันท์ คงทัด",
+            "สุธีรา วิทยากาญจน์"
+          ],
+          "year": "2017",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/367811",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Rice straw",
+            "Agricultural wastes",
+            "Waste utilization",
+            "Paper",
+            "Papermaking",
+            "ฟางข้าว",
+            "ของเสียจากการเกษตร",
+            "การใช้ประโยชน์จากของเสีย",
+            "กระดาษ",
+            "การทำกระดาษ",
+            "Fibers",
+            "Waste materials",
+            "Paper production",
+            "Filter paper",
+            "Cost reduction",
+            "เส้นใย",
+            "วัสดุเหลือทิ้ง",
+            "กระดาษกรองน้ำมันพืช",
+            "กระดาษหัตถกรรม",
+            "การผลิตกระดาษ",
+            "การเคลือบกระดาษ",
+            "ไคโตซาน",
+            "กลูโคแมนแนน",
+            "การกรองแยกกาก",
+            "การลดต้นทุน"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "RxjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Foliar application of chitosan and different temperature storage on postharvest quality of Edaw longan (Dimocarpus longan)",
+          "authors": [
+            "Kanokporn Thongrod",
+            "กนกพร ทองรอด"
+          ],
+          "year": "2017",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/372920",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Dimocarpus longan",
+            "Biopolymers",
+            "Chitosan",
+            "Spraying",
+            "Storage",
+            "Temperature",
+            "Keeping quality",
+            "Weight losses",
+            "Peel",
+            "Colour",
+            "Respiration",
+            "Ethylene production",
+            "Browning",
+            "Morbidity",
+            "ไบโอโพลีเมอร์",
+            "ไคโตแซน",
+            "การพ่น",
+            "การเก็บรักษา",
+            "อุณหภูมิ",
+            "คุณภาพการเก็บ",
+            "การสูญเสียน้ำหนัก",
+            "เปลือก",
+            "สี",
+            "การหายใจ",
+            "การผลิตเอธิลีน",
+            "การเกิดสีน้ำตาล",
+            "สภาวะการเกิดโรค",
+            "Longan",
+            "Edaw longan",
+            "Biopolymer",
+            "Foliar application",
+            "Prolong storage life",
+            "Temperatures",
+            "Postharvest quality",
+            "Weight loss",
+            "Peel color change",
+            "Softening",
+            "Browning index",
+            "Disease index",
+            "ลำไย",
+            "ไบโอพอลิเมอร์",
+            "การยืดอายุ",
+            "ไคโตซาน",
+            "การฉีดพ่น",
+            "อายุการเก็บรักษา",
+            "คุณภาพหลังการเก็บเกี่ยว",
+            "พันธุ์อีดอ",
+            "การชะลอการสูญเสียน้ำหนัก",
+            "ค่าสีเปลือก",
+            "ความอ่อนนุ่ม",
+            "การผลิตเอทิลีน",
+            "ดัชนีการเกิดสีน้ำตาล",
+            "ดัชนีการเกิดโรค"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "SBjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "14. National Seed Conference 2017",
+          "authors": [
+            "Parinee Jeammuangpuk",
+            "Wanchai Chanprasert",
+            "Tanapon Chaisan",
+            "Juangjun Duangpatra",
+            "ภาริณี เจียมเมืองปักษ์",
+            "วันชัย จันทร์ประเสริฐ",
+            "ธนพล ไชยแสน",
+            "จวงจันทร์ ดวงพัตรา"
+          ],
+          "year": "2017",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/381220",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Peanuts",
+            "Seed treatments",
+            "Chemical priming",
+            "Stress condition",
+            "Salicylic acid",
+            "Chitosan",
+            "Ascorbate",
+            "CaCl2",
+            "Seed quality",
+            "Germination",
+            "Seedling",
+            "Growth",
+            "Low temperature regime",
+            "ถั่วลิสง",
+            "การเตรียมพร้อมเมล็ดพันธุ์",
+            "สารเคมี",
+            "กรดซาลิไซลิก",
+            "แอสคอเบท",
+            "แคลเซียมคลอไรด์",
+            "ไคโตซาน",
+            "คุณภาพของเมล็ดพันธุ์",
+            "การงอก",
+            "ต้นกล้า",
+            "การเจริญเติบโต",
+            "สภาวะอุณหภูมิต่ำ",
+            "Groundnuts",
+            "Arachis hypogaea",
+            "Seed treatment",
+            "Pregermination",
+            "Salicylic acids",
+            "Calcium chloride",
+            "Quality",
+            "Seed",
+            "Seeds",
+            "Seedlings",
+            "Temperature",
+            "ซีดทรีทเมนท์",
+            "การปรับสภาพก่อนเมล็ดงอก",
+            "กรดซาลิไซลิค",
+            "ไคโตแซน",
+            "คุณภาพ",
+            "เมล็ดพันธุ์",
+            "เมล็ด",
+            "การเติบโต",
+            "อุณหภูมิ"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "SRjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of chitosan on yield and quality of cucumber (Cucumis sativus l.)",
+          "abstract": "The study on effects of chitosan on yield and quality of cucumber were investigated. The experiment was used with a Completely Randomized Design (CRD) with 20 replications and 7 treatments as by chosen concentration levels of 0, 0.5, 1, 1.5, 2, 2.5 and 3 ml/L. Chitosan was applied every 2 weeks. The number of fruit per plant, fruit weight, fruit length, diameter, firmness and sweetness of the cucumber were recorded. The results showed that the T7 chitosan at 3 ml/L significantly increased the highest yield of 15 fruits per plant. However, while the T7 had a significantly lower sweetness of the cucumber than the T4, T5 and T6 chitosan applied at 1.5, 2 and 2.5 ml/L respectively. In addition, the application of chitosan at 0.5 and 1 ml/L both T2 and T3 was significantly higher fruit weight per fruit of the cucumber when compared to T7 treatment",
+          "authors": [
+            "Vipharat Yodphomma",
+            "Paiboon Muymas",
+            "Suttinee Srijisatan",
+            "วิภารัตน์ ยอดพรมมา",
+            "ไพบูลย์ หมุ่ยมาศ",
+            "ศุทธินี ศรีใจสถาน"
+          ],
+          "year": "2017",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20003000",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Cucumber",
+            "Chitosan",
+            "Chitosan application",
+            "Concentration levels",
+            "Fruit weight",
+            "Fruit length",
+            "Firmness",
+            "Sweetness",
+            "แตงกวา",
+            "ไคโตซาน",
+            "อัตราความเข้มข้น",
+            "การฉีดพ่น",
+            "การใส่ปุ๋ยคอก",
+            "น้ำหนักสด",
+            "จำนวนผลผลิต",
+            "ความยาวผล",
+            "ความแน่นเนื้อ",
+            "ความหวาน",
+            "Cucumis sativus",
+            "Fertilizer application",
+            "Biofertilizers",
+            "Weight",
+            "Growth",
+            "ไคโตแซน",
+            "การใส่ปุ๋ย",
+            "ปุ๋ยชีวภาพ",
+            "น้ำหนัก",
+            "การเติบโต"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "ShjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Efficacy of rice bran wax and chitosan based coating on enhancing the shelf life of eggs",
+          "authors": [
+            "Niparat Sritharet",
+            "Kannikar Charoensuk",
+            "Wanida Innok",
+            "นิภารัตน์ ศรีธเรศ",
+            "กรรณิการ์ เจริญสุข",
+            "วนิดา อินทร์นอก"
+          ],
+          "year": "2017",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20003008",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Egg",
+            "Rice bran wax",
+            "Chitosan",
+            "Shelf life",
+            "Egg quality",
+            "Eggshell strength",
+            "Weight",
+            "Thick albumen",
+            "Yolk color",
+            "Haugh unit",
+            "ไข่ไก่สด",
+            "ไขรำข้าว",
+            "กรดโอเลอิค",
+            "ไตรเอทานอลเอมีน",
+            "ไคโตซาน",
+            "สารเคลือบผิว",
+            "อายุการเก็บรักษา",
+            "คุณภาพไข่",
+            "ความหนาเปลือกไข่",
+            "น้ำหนักไข่",
+            "สีของไข่แดง",
+            "ค่าฮอกยูนิต",
+            "Layer chickens",
+            "Eggs",
+            "Bran",
+            "Albumins",
+            "Oleic acid",
+            "Waxing",
+            "Keeping quality",
+            "Egg characters",
+            "Egg shell",
+            "Egg white",
+            "Egg yolk",
+            "ไก่ไข่",
+            "ไข่",
+            "รำข้าว",
+            "แอลบูมิน",
+            "ไคโตแซน",
+            "การเคลือบไข",
+            "คุณภาพการเก็บ",
+            "ลักษณะของไข่",
+            "เปลือกไข่",
+            "ไข่ขาว",
+            "ไข่แดง"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "SxjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effects of seed coating with chitosan and jatropha oil on germination and vigor of field corn single cross hybrid KSX 5402",
+          "authors": [
+            "Supranee Ngamprasitthi",
+            "Yuwadee Inchan",
+            "Chadamas Jitleka",
+            "Rojanapong Chiyasit",
+            "Waraporn Wongpila",
+            "Paweena Thongluang",
+            "Kingkan Panichnok",
+            "Sakol Chaisri",
+            "สุปราณี งามประสิทธิ์",
+            "ยุวดี อินจันทร์",
+            "ชฎามาศ จิตต์เลขา",
+            "โรจนพงศ์ ไชยศิษย์",
+            "วราภรณ์ วงศ์พิลา",
+            "ปวีณา ทองเหลือง",
+            "กิ่งกานท์ พานิชนอก",
+            "สกล ฉายศรี"
+          ],
+          "year": "2017",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/387913",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Maize",
+            "Zea mays",
+            "Seed pelleting",
+            "Hybrids",
+            "Chitosan",
+            "Jatropha curcas",
+            "Plant oils",
+            "Seed storage",
+            "Temperature",
+            "Germination",
+            "Seeds",
+            "Seed characteristics",
+            "Vigour",
+            "Shoots",
+            "Length",
+            "ข้าวโพด",
+            "การเคลือบเมล็ด",
+            "ลูกผสม",
+            "ไคโตแซน",
+            "น้ำมันพืช",
+            "การเก็บรักษาเมล็ดพันธุ์",
+            "อุณหภูมิ",
+            "การงอก",
+            "เมล็ด",
+            "ลักษณะของเมล็ดพันธุ์",
+            "ความแข็งแรง",
+            "ส่วนยอดเหนือดิน",
+            "ความยาว",
+            "Corn",
+            "Field corn",
+            "Single-cross hybrid",
+            "KSX 5402",
+            "Seed coating",
+            "Jatropha oil",
+            "Vigor",
+            "ข้าวโพดไร่",
+            "พันธุ์ลูกผสมเดี่ยว",
+            "พันธุ์ KSX 5402",
+            "การเคลือบเมล็ดพันธุ์",
+            "ไคโตซาน",
+            "น้ำมันสบู่ดำ",
+            "การเก็บรักษา",
+            "ความงอก",
+            "ความยาวยอด"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "TBjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "ผลของไคโตซานจากปูน้ำจืดสกุล Thaipotamon ต่อการเจริญเติบโตและลดปัญหาโรครากเน่าจากเชื้อ Sclerotium sp. ของข้าว",
+          "authors": [
+            "พวงผกา แก้วกรม",
+            "สุรางค์รัตน์ พันแสง",
+            "นุชจรินทร์ แกล้วกล้า",
+            "สุรีย์พร ธรรมิกพงษ์",
+            "ปอแก้ว พรมเพชร",
+            "สมเพียร ฟักทอง",
+            "แสงจันทร์ สอนสว่าง",
+            "Puangpaka Kaewkeom",
+            "Surangrat Punsaeng",
+            "Nutcharin Kaewkla",
+            "Sureeporn Thummikapong",
+            "Porkaew Pomphet",
+            "Sompian Fungthong",
+            "Sangjun Sonsawang"
+          ],
+          "year": "2017",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20010551",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Oryza sativa",
+            "Chitosan",
+            "Freshwater crab",
+            "Thaipotamon",
+            "Growth regulator",
+            "Growth",
+            "Sclerotium sp.",
+            "Root rot disease",
+            "Disease control",
+            "ข้าว",
+            "ไคโตซาน",
+            "ปูน้ำจืด",
+            "สกุล Thaipotamon",
+            "สารส่งเสริมการเจริญเติบโต",
+            "การเจริญเติบโต",
+            "โรครากเน่า",
+            "สเคลอโรเทียม",
+            "เชื้อรา",
+            "การป้องกันโรค",
+            "Crabs",
+            "Freshwater crustaceans",
+            "Growth control",
+            "Plant growth substances",
+            "Sclerotium (deuteromycotina)",
+            "Root rots",
+            "ไคโตแซน",
+            "ปู",
+            "ครัสตาเซียนน้ำจืด",
+            "การควบคุมการเจริญเติบโต",
+            "สารควบคุมการเจริญเติบโตของพืช",
+            "การเติบโต",
+            "การควบคุมโรค"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "TRjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of chitosan on postharvest quality of Xichu persimmon",
+          "authors": [
+            "Adisak Chirasukon",
+            "อดิศักดิ์ จิราสุคนธ์"
+          ],
+          "year": "2016",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/355384",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Persimmon",
+            "Xichu",
+            "Chitosan coating",
+            "Postharvest quality",
+            "Prolong storage life",
+            "Weight loss",
+            "Firmness",
+            "Postharvest technology",
+            "พลับ",
+            "พันธุ์ซิชู",
+            "การเคลือบผิว",
+            "ไคโตซาน",
+            "คุณภาพหลังการเก็บเกี่ยว",
+            "การยืดอายุการเก็บรักษา",
+            "การเก็บรักษาคุณภาพ",
+            "การสูญเสียน้ำหนัก",
+            "ความแน่นเนื้อ",
+            "การยอมรับของผู้บริโภค",
+            "เทคโนโลยีหลังการเก็บเกี่ยว",
+            "Diospyros virginiana",
+            "American persimmon",
+            "Coating",
+            "Chitosan",
+            "Storage",
+            "Quality",
+            "Weight losses",
+            "การเคลือบ",
+            "ไคโตแซน",
+            "การเก็บรักษา",
+            "คุณภาพ"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "ThjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Magic of materials",
+          "authors": [
+            "Kuakoon Piyachomkwan",
+            "Prakit Sukyai",
+            "Klanarong Sriroth",
+            "Pornanong Aramwit",
+            "Chaikarn Liewhiran",
+            "Pilanee Vaithanomsat",
+            "Toempong Phetchakul",
+            "Rangrong Yoksan",
+            "Nanticha Kalapat",
+            "Naiyasit Yingkamhaeng",
+            "Wanchai Yodsudjai",
+            "Wirasak Smitthipong",
+            "Sukuntaros Tadakittisarn",
+            "Sakprayut Sintupinyo",
+            "Seksak Asavavisithchai",
+            "Sukasem Watcharamaisakul",
+            "Amporn Poyai",
+            "เกื้อกูล ปิยะจอมขวัญ",
+            "ประกิต สุขใย",
+            "กล้าณรงค์ ศรีรอต",
+            "พรอนงค์ อร่ามวิทย์",
+            "ชัยกานต์ เลียวหิรัญ",
+            "พิลาณี ไวถนอมสัตย์",
+            "เติมพงษ์ เพ็ชรกูล",
+            "รังรอง ยกส้าน",
+            "นันทิชา กาละปัตย์",
+            "นัยสิทธิ์ ยิ่งกำแหง",
+            "วันชัย ยอดสุดใจ",
+            "วีรศักดิ์ สมิทธิพงศ์",
+            "สุคันธรส ธาดากิตติสาร",
+            "ศักดิ์ประยุทธ สินธุภิญโญ",
+            "เสกศักดิ์ อัสวะวิสิทธิ์ชัย",
+            "สุขเกษม วัชรมัยสกุล",
+            "อัมพร โพธิ์ใย"
+          ],
+          "year": "2016",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/377358",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Natural rubber",
+            "Polyisoprene",
+            "Biomaterials",
+            "Collagen",
+            "Chitosan",
+            "Silk protein",
+            "Starch",
+            "Cellulose",
+            "Metal",
+            "Ceramic",
+            "Nanomaterials",
+            "Cement",
+            "ยางธรรมชาติ",
+            "ยางพารา",
+            "พอลิไลโอโซพรีน",
+            "ชีววัสดุ",
+            "คอลลาเจน",
+            "ไคโตซาน",
+            "โปรตีนไหม",
+            "แป้ง",
+            "เซลลูโลส",
+            "โลหะ",
+            "เซรามิก",
+            "วัสดุชีวภาพ",
+            "วัสดุนาโน",
+            "ปูนซีเมนต์",
+            "การแปรรูป",
+            "กระบวนการผลิต",
+            "การนำไปใช้ประโยชน์",
+            "สมบัติของแป้ง"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "TxjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of chitosan on seed germination and yield in rice",
+          "authors": [
+            "Senaphan, C.",
+            "Amkha, S.",
+            "Rungcharoenthong, P.",
+            "ชลธิชา เสนาพันธ์",
+            "ศุภชัย อำคา",
+            "พรไพรินทร์ รุ่งเจริญทอง"
+          ],
+          "year": "2016",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/423521",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Rice",
+            "Oryza sativa",
+            "Chitosan",
+            "Seed treatment",
+            "Soaking",
+            "Germination",
+            "Seeds",
+            "Growth",
+            "Yields",
+            "ข้าว",
+            "ไคโตแซน",
+            "ซีดทรีทเมนท์",
+            "การแช่",
+            "การงอก",
+            "เมล็ด",
+            "การเติบโต",
+            "ผลผลิต",
+            "Seed germination",
+            "ไคโตซาน",
+            "การแช่เมล็ดพันธุ์",
+            "ความงอก",
+            "การเจริญเติบโต"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "UBjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Synthesis of silver particles using white sugar for shelf-life extension of banana and tomato",
+          "abstract": "Silver particle was prepared with green method using white sugar as a reducing agent and coated on paper packaging for shelf-life extension of vegetable and fruit.The disinfection efficiency against E. coli was investigated with initial concentration of E. coli bacteria of 2*10**(3) CFU/ml.The result showed that paper coated with chitosan and silver nitrates synthesized by white sugar inhibit 100 percent of E. coli for 10 minutes. In addition, shelf-life extension of banana and tomato using paper coated with chitosan and silver nitrates synthesized by white sugar at room temperature (25 deg C) for 7 and 14 days, respectively. The result found that the shelf-life extension of banana and tomato could be increased by packing with paper packing coated with chitosan and silver nitrates synthesized by white sugar.",
+          "authors": [
+            "Kornkanok Ubolchollakhat",
+            "Phatthira Samakphong",
+            "กรกนก อุบลชลเขต",
+            "ภัททิรา สมัครพงศ์"
+          ],
+          "year": "2016",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20002454",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Banana",
+            "Tomato",
+            "Vegetables",
+            "Fruits",
+            "Silver particles",
+            "White sugar",
+            "Synthesis",
+            "Green method",
+            "Paper packaging",
+            "Shelf-life extension",
+            "กล้วย",
+            "มะเขือเทศ",
+            "ผักและผลไม้",
+            "อนุภาคเงิน",
+            "น้ำตาลทรายขาว",
+            "การสังเคราะห์",
+            "กรรมวิธีสีเขียว",
+            "บรรจุภัณฑ์กระดาษ",
+            "การเคลือบ",
+            "การยืดอายุการเก็บรักษา",
+            "เอสเชอริเชีย โคไล",
+            "การยับยั้งเชื้อแบคทีเรีย",
+            "Bananas",
+            "Tomatoes",
+            "Silver",
+            "Sugar",
+            "Coating",
+            "Packaging materials",
+            "Keeping quality",
+            "Escherichia coli",
+            "Inhibition",
+            "ผลไม้",
+            "ผัก",
+            "เงิน",
+            "น้ำตาล",
+            "บรรจุภัณฑ์",
+            "คุณภาพการเก็บ",
+            "การยับยั้ง"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "URjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Immobilization of cellulase on media by cross linking enzyme aggregate for reducing sugar production",
+          "authors": [
+            "Kamonchanok Trakuljaidee",
+            "Prapaipid Chairattanamanokorn",
+            "กมลชนก ตระกูลใจดี",
+            "ประไพพิศ ชัยรัตนมโนกร"
+          ],
+          "year": "2016",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20003968",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "เซลลูเลส",
+            "การย่อยสลายเซลลูโลส",
+            "ซิลิกาเจล",
+            "ไคโตซาน",
+            "เปลือกไข่",
+            "อะซิโตไนไตรล์",
+            "การไฮโดรไลซิส",
+            "เอนไซม์แบบเชื่อมขวาง",
+            "สารละลายกลูตาราลดีไฮด์",
+            "การเชื่อมโมเลกุล",
+            "การตรึงของโปรตีน",
+            "ปริมาณโปรตีน",
+            "ปริมาณน้ำตาลรีดิวซ์",
+            "กระบวนการผลิตเอทานอล",
+            "Cellulase",
+            "Silica gel",
+            "Cross linking enzyme aggregate",
+            "Hydrolysis",
+            "Immobilization of protein",
+            "Reducing sugar production",
+            "Agricultural wastes",
+            "Silica",
+            "Chitosan",
+            "Egg shell",
+            "Cellulolysis",
+            "Enzyme activity",
+            "Solvolysis",
+            "Proteins",
+            "Reducing sugars",
+            "Energy generation",
+            "ของเสียจากการเกษตร",
+            "ซิลิกา",
+            "ไคโตแซน",
+            "กระบวนการย่อยเซลลูโลส",
+            "กิจกรรมของเอนไซม์",
+            "การแยกสลายด้วยตัวทำละลาย",
+            "โปรตีน",
+            "น้ำตาลรีดิวส์",
+            "การผลิตพลังงาน"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "UhjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of seed coating with chitosan and bacterial suspension, KPS46 on growth and fresh ear yield of sweet corn",
+          "authors": [
+            "Ngamprasitthi, S.",
+            "Inchan, Y.",
+            "Panichnok, K.",
+            "Chaisri, S.",
+            "สุปราณี งามประสิทธิ์",
+            "ยุวดี อินจันทร์",
+            "กิ่งกานท์ พานิชนอก",
+            "สกล ฉายศรี"
+          ],
+          "year": "2016",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/387891",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Sweet corn",
+            "Zea mays",
+            "Seed pelleting",
+            "Chitosan",
+            "Bacteria",
+            "Growth",
+            "Yields",
+            "ข้าวโพดหวาน",
+            "การเคลือบเมล็ด",
+            "ไคโตแซน",
+            "แบคทีเรีย",
+            "การเติบโต",
+            "ผลผลิต",
+            "Seed coating",
+            "Bacterial suspension",
+            "KPS46",
+            "Fresh ear yield",
+            "การเคลือบเมล็ดพันธุ์",
+            "ไคโตซาน",
+            "แบคทีเรีย KPS46",
+            "การเจริญเติบโต",
+            "ผลผลิตฝักสด"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "UxjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of seed coating with chitosan and bacterial suspension, KPS46 on growth and\r\nfresh ear yield of sweet corn",
+          "authors": [
+            "Ngamprasitthi, S.",
+            "Inchan, Y.",
+            "Panichnok, K.",
+            "Chaisri, S.",
+            "สุปราณี งามประสิทธิ์",
+            "ยุวดี อินจันทร์",
+            "กิ่งกานท์ พานิชนอก",
+            "สกล ฉายศรี"
+          ],
+          "year": "2016",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/423488",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Zea mays",
+            "Sweet corn",
+            "Seed pelleting",
+            "Chitosan",
+            "Bacteria",
+            "Growth",
+            "Yields",
+            "ข้าวโพดหวาน",
+            "การเคลือบเมล็ด",
+            "ไคโตแซน",
+            "แบคทีเรีย",
+            "การเติบโต",
+            "ผลผลิต",
+            "Seed coating",
+            "Bacterial suspension",
+            "KPS46",
+            "Fresh ear yields",
+            "การเคลือบเมล็ดพันธุ์",
+            "ไคโตซาน",
+            "แบคทีเรีย KPS46",
+            "การเจริญเติบโต",
+            "ผลผลิตฝักสด"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "VBjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of chitosan coating combined with ultraviolet C irradiation on the changing of lignin and chlorophyll of asparagus spear",
+          "authors": [
+            "Poubol, J.",
+            "Phiriyangkul, P.",
+            "Boonyaritthongchai, P.",
+            "จุฑาทิพย์ โพธิ์อุบล",
+            "พริมา พิริยางกูร",
+            "พนิดา บุญฤทธิ์ธงไชย"
+          ],
+          "year": "2016",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/423173",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Asparagus spears",
+            "Ultraviolet radiation",
+            "Irradiation",
+            "Chitosan",
+            "Postharvest control",
+            "Keeping quality",
+            "Lignins",
+            "Chlorophylls",
+            "หน่อไม้ฝรั่ง",
+            "รังสีอัลตราไวโอเลต",
+            "การฉายรังสี",
+            "ไคโตแซน",
+            "การควบคุมหลังการเก็บเกี่ยว",
+            "คุณภาพการเก็บ",
+            "ลิกนิน",
+            "คลอโรฟิลล์",
+            "UV-C",
+            "Lignin",
+            "Coating",
+            "Chlorophyll",
+            "รังสียูวีซี",
+            "สารเคลือบผิว",
+            "ไคโตซาน"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "VRjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "รายการเกษตรน่ารู้",
+          "authors": [
+            "วสันต์ ชุณห์วิจิตรา",
+            "วรวีร์ รายา"
+          ],
+          "year": "2015",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/354223",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "กุ้งกล้ามแดง",
+            "การเลี้ยงกุ้งก้ามแดงกุ้งเครฟิช",
+            "อาหารเสริม",
+            "ไคโตซาน",
+            "วิตามินน้ำ",
+            "แคลเซียมน้ำ",
+            "ลิ้นทะเล",
+            "หินแร่",
+            "เคลือบผิว",
+            "สีสวย",
+            "สร้างเนื้อเยื่อ",
+            "การลอกคราบ",
+            "การขยายพันธุ์การจำหน่าย",
+            "การเลือกกุ้ง",
+            "แหล่งผลิต",
+            "Crayfish",
+            "Supplements",
+            "Chitosan",
+            "Vitamin water",
+            "Calcium water",
+            "Cuttlebone",
+            "Mineral",
+            "Coating",
+            "Beautiful colors",
+            " Tissue regeneration",
+            "Molting",
+            "Reproduction",
+            "Sales",
+            "Selection lobster",
+            "Manufacturer"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "VhjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effects of chitosan and thidiazuron on tissue culture of Khao Dawk Mali 105 rice for enhancement of nutritious substances",
+          "authors": [
+            "Rongrong Homhual",
+            "Surak Jamjumrus",
+            "Monthar Wongmaneeroj",
+            "Rattana Agarum",
+            "Peerapong Sangwanangkul",
+            "Choosak Kunuthai",
+            "Sontichai Chanprame",
+            "รงรอง หอมหวล",
+            "สุลักษณ์ แจ่มจำรัส",
+            "มณฑา วงศ์มณีโรจน์",
+            "รัตนา เอการมย์",
+            "พีรพงษ์ แสงวนางค์กูล",
+            "ชูศักดิ์ คุณุไทย",
+            "สนธิชัย จันทร์เปรม"
+          ],
+          "year": "2015",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/311330",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Rice",
+            "Shoot tip",
+            "Tissue culture",
+            "Chitosan",
+            "Growth regulator",
+            "Antioxidant",
+            "Chlorophyll",
+            "Oryza sativa",
+            "Culture media",
+            "Thidiazuron",
+            "Growth",
+            "Antioxidants",
+            "Chlorophylls",
+            "ข้าว",
+            "การเพาะเลี้ยงเนื้อเยื่อ",
+            "อาหารเพาะเลี้ยง",
+            "ไคโตแซน",
+            "ไทไดอะซูรอน",
+            "การเติบโต",
+            "สารยับยั้งการรวมตัวของออกซิเจน",
+            "คลอโรฟิลล์",
+            "พันธุ์ขาวดอกมะลิ 105",
+            "สูตรอาหาร",
+            "ไคโตซาน",
+            "ไธไดอะซูรอน",
+            "การแตกกอ",
+            "สารสำคัญทางโภชนาการ",
+            "สารต้านอนุมูลอิสระ",
+            "คลอโรฟิลล์ เอ",
+            "คลอโรฟิลล์ บี"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "VxjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Influence of maturity and chitosan concentration on growth and quality of 'canadice seedless' grape",
+          "authors": [
+            "Kittipong Kittiwatsopon",
+            "Narongchai Pipatanawong",
+            "Tassanart Kajangwooti",
+            "กิตติพงศ์ กิตติวัฒน์โสภณ",
+            "ณรงค์ชัย พิพัฒน์ธนวงศ์",
+            "ทัศนารถ กระจ่างวุฒิ"
+          ],
+          "year": "2015",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/375325",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Grapes",
+            "Vitis",
+            "Maturity",
+            "Chitosan",
+            "Growth",
+            "Quality",
+            "องุ่น",
+            "การสุกแก่",
+            "ไคโตแซน",
+            "การเติบโต",
+            "คุณภาพ",
+            "Grape",
+            "Canadice seedless",
+            "Berry maturity",
+            "Concentration",
+            "Number of berries",
+            "Berry size",
+            "Fruit quality",
+            "Total soluble solids",
+            "TSS",
+            "Total acidity",
+            "Sugar content",
+            "องุุ่น",
+            "ความแก่ของผล",
+            "สารไคโตซาน",
+            "ระดับความเข้มข้น",
+            "การเจริญเติบโต",
+            "น้ำหนักช่อผล",
+            "ขนาดของผล",
+            "คุณภาพของผล",
+            "ปริมาณของแข็งละลายน้ำได้",
+            "เปอร์เซ็นต์กรด",
+            "น้ำคั้นองุ่น"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "WBjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "14. National Horticultural Congress 2015",
+          "authors": [
+            "Wannisa Pattamapusit",
+            "Pornpairin Rungcharoenthong",
+            "วรรณิศา ปัทมะภูษิต",
+            "พรไพรินทร์ รุ่งเจริญทอง"
+          ],
+          "year": "2015",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/375326",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Bird pepper",
+            "Bactrocera latifrons",
+            "Solanum fruit fly",
+            "Infestation",
+            "Chitosan",
+            "Pest control methods",
+            "พริกขี้หนู",
+            "แมลงวันพริก",
+            "การเข้าทำลายพืชปลูก",
+            "ไคโตซาน",
+            "ระดับความเข้มข้น",
+            "การป้องกันกำจัดแมลงศัตรู",
+            "Chillies",
+            "Bactrocera",
+            "Pest insects",
+            "Insect control",
+            "Biological control",
+            "Efficiency",
+            "พริก",
+            "แมลงศัตรู",
+            "การป้องกันกำจัดแมลง",
+            "การควบคุมโดยชีววิธี",
+            "ไคโตแซน",
+            "ประสิทธิภาพ"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "WRjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effects of chitosan on growth and level of leaves brown spot disease in Hom-nin rice",
+          "abstract": "Chitosan foliar application on growth and level of leaves brown spot disease incidencein Homnin rice.The experiment was 2x6 factorial in CRD5 replications including 2 factors. Factor 1) concentrations of chitosan with 1.2 and 2.4 percent, factor 2) volumes of chitosan at 0, 2, 4, 8, 10 and 16 ml/l. The results showed that chitosan improved rice growth and positively related with chlorophyll content. The application of chitosan at 2.4 percent increased chlorophyll content higher than that at 1.2 percent. The application of chitosan at 10 ml/l by volume provided maximum chlorophyll content. The increase in the volume of chitosan resulted in lower chlorophyll content. Furthermore, chitosan application reduced severity of leaves brown spot disease and disease index in Hom-nin rice. The application of chitosan at 1.2 percent and 2.4 percent with 10 ml/L by volume showed the lowerse verity of brown spot disease in leaves, related to increasing salicylic acid content in leaves. Thus, this alleviated leaves brown spot disease symptoms in Hom-nin rice",
+          "authors": [
+            "Kanokwan Wattanakorn",
+            "Pornpairin Rungcharoenthong",
+            "กนกวรรณ วัฒนากร",
+            "พรไพรินทร์ รุ่งเจริญทอง"
+          ],
+          "year": "2015",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20003392",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Hom-nin rice",
+            "Leaves brown spot disease",
+            "Chitosan foliar application",
+            "Plant growth",
+            "Chlorophyll content",
+            "ข้าวเจ้า",
+            "พันธุ์หอมนิล",
+            "โรคใบจุดสีน้ำตาล",
+            "โรคพืช",
+            "การป้องกันกำจัดโรค",
+            "ไคโตซาน",
+            "อัตราความเข้มข้น",
+            "การเจริญเติบโตของพืช",
+            "เปอร์เซ็นต์ดัชนีการเกิดโรค",
+            "ปริมาณคลอโรฟิลล์",
+            "การลดความรุนแรงของโรค",
+            "Oryza sativa",
+            "Spots",
+            "Plant diseases",
+            "Disease control",
+            "Chitosan",
+            "Foliar application",
+            "Application rates",
+            "Growth rate",
+            "Chlorophylls",
+            "โรคใบจุด",
+            "การควบคุมโรค",
+            "ไคโตแซน",
+            "การให้ทางใบ",
+            "อัตราการใช้",
+            "อัตราการเติบโต",
+            "คลอโรฟิลล์"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "WhjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Effect of nano-chitosan coating on physical and chemical changes of gamma ray irradiated mango cv. Nam Dok Mai No.4",
+          "authors": [
+            "Sukanya Aiamla-or",
+            "Apiradee Uthairatanakij",
+            "Pongphen Jitareerat",
+            "Wanvimon Pasanphan",
+            "สุกัญญา เอี่ยมลออ",
+            "อภิรดี อุทัยรัตนกิจ",
+            "ผ่องเพ็ญ จิตอารีย์รัตน์",
+            "วรรณวิมล ปาสาณพันธ์"
+          ],
+          "year": "2015",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/390335",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Mangoes",
+            "Gamma irradiation",
+            "Chitosan",
+            "Protective coatings",
+            "Storage",
+            "Chemicophysical properties",
+            "มะม่วง",
+            "การฉายรังสีแกมมา",
+            "ไคโตแซน",
+            "การเคลือบป้องกัน",
+            "การเก็บรักษา",
+            "คุณสมบัติทางเคมีกายภาพ",
+            "Mango fruits",
+            "Irradiated mangoes",
+            "Gamma rays",
+            "Nano-chitosan",
+            "Coating",
+            "Physical and chemical changes",
+            "Nam Dok Mai No.4",
+            "มะม่วงฉายรังสีแกมมา",
+            "นาโน-ไคโตซาน",
+            "ขนาดโมเลกุล",
+            "การเคลือบผิว",
+            "พันธุ์น้ำดอกไม้เบอร์ 4",
+            "การเปลี่ยนแปลงทางกายภาพและเคมี"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "WxjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Production and secretion of Bacillus subtillis chitosanase using a food-grade expression system",
+          "authors": [
+            "Peenida Namvijitr",
+            "Haltrich, Dietmar",
+            "Phornsiri Pechsrichuang",
+            "Montarop Yamabhai"
+          ],
+          "year": "2014",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/22802",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Bacillus subtilis",
+            "Foods",
+            "Enzymes",
+            "Secretion",
+            "Peptides",
+            "DNA",
+            "Biotechnology",
+            "อาหาร",
+            "เอนไซม์",
+            "การคัดหลั่ง",
+            "เปปไทด์",
+            "ดีเอ็นเอ",
+            "เทคโนโลยีชีวภาพ",
+            "Chitosanase",
+            "Food-grade expression system",
+            "Signal peptide",
+            "DNA technology",
+            "บาซิลลัส",
+            "แบคทีเรีย",
+            "เอนไซม์ไคโตซาน",
+            "เทคโนโลยีดีเอ็นเอ"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "XBjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "Antioxidative activity of chitosan on quality of giant perch (Lates calcarifer) meat during cold storage",
+          "authors": [
+            "Vilailak Klompong",
+            "Alisa Sothorn",
+            "Suraida D-ning"
+          ],
+          "year": "2014",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/22851",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Lates calcarifer",
+            "Fish",
+            "Cold storage",
+            "Chitosan",
+            "Antioxidants",
+            "Keeping quality",
+            "Chemicophysical properties",
+            "Organoleptic properties",
+            "ปลา (ผลิตภัณฑ์)",
+            "การเก็บรักษาในสภาพเย็น",
+            "ไคโตแซน",
+            "สารยับยั้งการรวมตัวของออกซิเจน",
+            "คุณภาพการเก็บ",
+            "คุณสมบัติทางเคมีกายภาพ",
+            "คุณสมบัติทางประสาทสัมผัส",
+            "Giant perch",
+            "Antioxidative activity",
+            "Quality",
+            "Natural antioxidant",
+            "ปลากะพงขาว",
+            "เนื้อปลากะพงขาว",
+            "ไคโตซาน",
+            "ฤทธิ์ต้านอนุมูลอิสระ",
+            "คุณภาพเนื้อปลา",
+            "คุณภาพทางประสาทสัมผัส",
+            "คุณสมบัติทางเคมีและกายภาพ"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "XRjoyZ4B882ltYvqOo88",
+        "_score": 2.267325,
+        "_source": {
+          "source": "KUKR",
+          "title": "The 6th AG-BIO/PERDO graduate conference on agricultural biotechnology and KU-UT joint seminar III",
+          "authors": [
+            "Punyokun, K.",
+            "Hongprayoon, R.",
+            "Srisapoome, P.",
+            "Sirinarumitre. T."
+          ],
+          "year": "2014",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/312772",
+          "topic_ids": [
+            "2"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular"
+          ],
+          "keywords": [
+            "Chitosan-alginate",
+            "Microencapsulation",
+            "Vibrio harveyi",
+            "Egg yolk immunoglobulin",
+            "Egg yolk",
+            "Immunoglobulins",
+            "Chitosan",
+            "Alginates",
+            "ไมโครเอนแคปซูเลชั่น",
+            "ไข่แดง",
+            "อิมมิวโนโกลบูลิน",
+            "ไคโตแซน",
+            "อัลจิเนต",
+            "ไมโครเอนแคปซูเลชัน",
+            "ไคโตซานอัลจิเนต",
+            "เชื้อวิบริโอ ฮาวีอาย",
+            "อิมมูโนโกลบูลินในไข่แดง"
+          ],
+          "search_keyword": "ไคโตซาน",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:02:50.642Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging"
+          ]
+        }
+      }
+    ]
+  }
+}

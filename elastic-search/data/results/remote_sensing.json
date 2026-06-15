@@ -1,0 +1,1011 @@
+{
+  "took": 27,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 22,
+      "relation": "eq"
+    },
+    "max_score": 5.527411,
+    "hits": [
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "-Rgzyp4B882ltYvqGpAC",
+        "_score": 5.527411,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การประเมินผลผลิตข้าวจากข้อมูลการรับรู้ระยะไกล",
+          "authors": [],
+          "year": 2019,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Remote+Sensing",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "Remote Sensing"
+          ],
+          "search_keyword": "Remote Sensing",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนสนับสนุนการวิจัยเพื่อการตีพิมพ์ของคณาจารย์ภาควิชา",
+          "indexed_at": "2026-06-15T07:32:34.801Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "-hgzyp4B882ltYvqGpAC",
+        "_score": 5.527411,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การตรวจวัดความชื้นในดินโดยเทคนิคการรับรู้จากระยะไกล",
+          "authors": [
+            "ดร.นุชนารถ ศรีวงศิตานนท์, ศาสตราจารย์"
+          ],
+          "year": 2015,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Remote+Sensing",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "Remote Sensing"
+          ],
+          "search_keyword": "Remote Sensing",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:32:34.801Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "-xgzyp4B882ltYvqGpAC",
+        "_score": 5.527411,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการพัฒนาอากาศยานไร้คนอเนกประสงค์ขนาดเล็กสำหรับการถ่ายภาพระยะไกล",
+          "authors": [
+            "นายกีรติ แสงแจ่ม, อาจารย์"
+          ],
+          "year": 2008,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Remote+Sensing",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "Remote Sensing"
+          ],
+          "search_keyword": "Remote Sensing",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:32:34.801Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "_Bgzyp4B882ltYvqGpAC",
+        "_score": 5.527411,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การประยุกต์ใช้เทคนิคการสำรวจระยะไกล และระบบสารสนเทศทางภูมิศาสตร์เพื่อประมาณค่าการคายระเหยน้ำและสมดุลของพลังงานในพื้นที่ที่มีการใช้ประโยชน์ที่ดินที่แตกต่างกัน",
+          "authors": [
+            "ดร.ปิยพงษ์ ทองดีนอก, รองศาสตราจารย์",
+            "ดร.ยุทธพงษ์ คีรีมังคละ",
+            "ผู้ช่วยศาสตราจารย์"
+          ],
+          "year": 2008,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Remote+Sensing",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "Remote Sensing"
+          ],
+          "search_keyword": "Remote Sensing",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:32:34.801Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "_Rgzyp4B882ltYvqGpAC",
+        "_score": 5.527411,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การศึกษาพื้นที่น้ำท่วมบ่อเพาะลี้ยงสัตว์น้ำในบริเวณที่ราบลุ่มภาคกลางของประเทศไทยโดยการประยุกต์ใช้การสำรวจระยะไกลและระบบสารสนเทศภูมิศาสตร์ กรณีศึกษาจังหวัดพระนครศรีอยุธยา",
+          "authors": [
+            "ญาดา โกธรรม"
+          ],
+          "year": 2009,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Remote+Sensing",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "Remote Sensing"
+          ],
+          "search_keyword": "Remote Sensing",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนส่วนตัว",
+          "indexed_at": "2026-06-15T07:32:34.801Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "_hgzyp4B882ltYvqGpAC",
+        "_score": 5.527411,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การศึกษาขั้นต้นเกี่ยวกับแบบจำลองคุณภาพการขับขี่บนทางหลวงโดยใช้การรับรู้ระยะไกลในย่านไมโครเวฟ",
+          "authors": [
+            "ดร.วาทินี สวนผกา",
+            "ผู้ช่วยศาสตราจารย์"
+          ],
+          "year": 2009,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Remote+Sensing",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "Remote Sensing"
+          ],
+          "search_keyword": "Remote Sensing",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนส่วนตัว",
+          "indexed_at": "2026-06-15T07:32:34.801Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "_xgzyp4B882ltYvqGpAC",
+        "_score": 5.527411,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การติดตามการเปลี่ยนแปลงมวลชีวภาพและการกักเก็บคาร์บอนของป่าชายเลนที่ปลูกฟื้นฟูภายหลังการทำนากุ้งด้วยการรับรู้ระยะไกลที่อำเภอดอนสัก จังหวัดสุราษฎร์ธานี",
+          "authors": [
+            "ดร.วาทินี สวนผกา",
+            "ผู้ช่วยศาสตราจารย์"
+          ],
+          "year": 2017,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Remote+Sensing",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "Remote Sensing"
+          ],
+          "search_keyword": "Remote Sensing",
+          "doc_type": "งานวิจัย",
+          "funding": "โครงการบัณฑิตศึกษา สาขาวิชาการใช้ที่ดินและการจัดการทรัพยากรธรรมชาติอย่างยั่งยืน (ภาคพิเศษ)",
+          "indexed_at": "2026-06-15T07:32:34.801Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "ABgzyp4B882ltYvqGpEC",
+        "_score": 5.527411,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "ประยุกต์ใช้การสำรวจข้อมูลระยะไกลเพื่อสำรวจลักษณะการเปลี่ยนแปลงชายฝั่งบริเวณชายฝั่งจังหวัดประจวบคีรีขันธ์",
+          "authors": [
+            "นายลิขิต ชูชิต",
+            "ดร.ภูวดล โดยดี",
+            "รองศาสตราจารย์"
+          ],
+          "year": 2010,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Remote+Sensing",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "Remote Sensing"
+          ],
+          "search_keyword": "Remote Sensing",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนส่วนตัว",
+          "indexed_at": "2026-06-15T07:32:34.801Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "ARgzyp4B882ltYvqGpEC",
+        "_score": 5.527411,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การเพิ่มประสิทธิภาพการใช้น้ำสำหรับการปลูกข้าวในพื้นที่ราบลุ่มน้ำน่านตอนล่างโดยใช้แบบจำลองเชิงพื้นที่และเทคนิคการสำรวจระยะไกล",
+          "authors": [
+            "ดร.เอกสิทธิ์ โฆสิตสกุลชัย, รองศาสตราจารย์"
+          ],
+          "year": 2018,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Remote+Sensing",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "Remote Sensing"
+          ],
+          "search_keyword": "Remote Sensing",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:32:34.801Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Ahgzyp4B882ltYvqGpEC",
+        "_score": 5.527411,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การประเมินปริมาณก๊าซเรือนกระจกในชั้นบรรยากาศด้วยเทคโนโลยีการสำรวจข้อมูลระยะไกล (Remote Sensing) ในพื้นที่ประเทศไทย",
+          "authors": [
+            "ผศ.ดร.สุจิตรา เจริญหิรัญยิ่งยศ",
+            "อ.ดร.วาสินี วรรณศิริ"
+          ],
+          "year": 2016,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Remote+Sensing",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "Remote Sensing"
+          ],
+          "search_keyword": "Remote Sensing",
+          "doc_type": "งานวิจัย",
+          "funding": "องค์การบริหารจัดการก๊าซเรือนกระจก (องค์การมหาชน)",
+          "indexed_at": "2026-06-15T07:32:34.801Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Axgzyp4B882ltYvqGpEC",
+        "_score": 5.527411,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การปรับปรุงภาพถ่ายระยะไกล และการสร้างแผนที่จำแนกชนิดจากภาพที่มีเมฆปกคลุม ด้วยการรวมภาพจากหลายรูปแบบและเวลา",
+          "authors": [
+            "ดร.ธีรสิทธิ์ เกษตรเกษม, รองศาสตราจารย์"
+          ],
+          "year": 2011,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Remote+Sensing",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "Remote Sensing"
+          ],
+          "search_keyword": "Remote Sensing",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานกองทุนสนับสนุนการวิจัย",
+          "indexed_at": "2026-06-15T07:32:34.801Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "BBgzyp4B882ltYvqGpEC",
+        "_score": 5.527411,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "ระบบคาดการณ์สถานการณ์ภัยแล้งด้านการเกษตรระดับแปลงด้วยการรับรู้ระยะไกลและเทคโนโลยีการเรียนรู้ของเครื่อง",
+          "authors": [
+            "ดร.มงคล รักษาพัชรวงศ์, รองศาสตราจารย์",
+            "นางวัชรี วีรคเชนทร์",
+            "รองศาสตราจารย์",
+            "นายชินพจน์ วงศ์ศรีพิสันต์",
+            "นายพีรพล พรหมพิทักษ์พร"
+          ],
+          "year": 2021,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Remote+Sensing",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "Remote Sensing"
+          ],
+          "search_keyword": "Remote Sensing",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานพัฒนาการวิจัยการเกษตร (สวก.)",
+          "indexed_at": "2026-06-15T07:32:34.801Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "BRgzyp4B882ltYvqGpEC",
+        "_score": 5.527411,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การใช้การรับรู้ระยะไกลเพื่อประเมินคลอโรฟิลล์ เอ ในแหล่งน้ำหนองหาร จังหวัดสกลนคร",
+          "authors": [
+            "ดร.ชุติพงศ์ ร่มสนธิ์, อาจารย์"
+          ],
+          "year": 2020,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Remote+Sensing",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "Remote Sensing"
+          ],
+          "search_keyword": "Remote Sensing",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนสนับสนุนการวิจัยเพื่อการตีพิมพ์ของคณาจารย์ภาควิชาภูมิศาสตร์ คณะสังคมศาสตร์ มหาวิทยาลัยเกษตรศาสตร์ ประจำปีงบประมาณ พ.ศ.2563",
+          "indexed_at": "2026-06-15T07:32:34.801Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Bhgzyp4B882ltYvqGpEC",
+        "_score": 5.527411,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การพัฒนาต้นแบบ Smart Agriculture Platform ด้วยการบูรณาการเทคโนโลยีการรับรู้ระยะไกลร่วมกับแบบจำลอง AquaCrop",
+          "authors": [
+            "นางวัชรี วีรคเชนทร์, รองศาสตราจารย์",
+            "ดร.มงคล รักษาพัชรวงศ์",
+            "รองศาสตราจารย์"
+          ],
+          "year": 2019,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Remote+Sensing",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "Remote Sensing"
+          ],
+          "search_keyword": "Remote Sensing",
+          "doc_type": "งานวิจัย",
+          "funding": "กองทุนวิจัยและพัฒนา กิจการกระจายเสียง กิจการโทรทัศน์ และกิจการโทรคมนาคม เพื่อประโยชน์สาธารณะ",
+          "indexed_at": "2026-06-15T07:32:34.801Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Bxgzyp4B882ltYvqGpEC",
+        "_score": 5.527411,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การประเมินพื้นที่เสี่ยงภัยต่อการเกิดไฟป่าด้วยการสำรวจระยะไกล และระบบสารสนเทศภูมิศาสตร์ ณ สถานีฝึกนิสิตวนศาสตร์วังน้าเขียว จังหวัดนครราชสีมา",
+          "authors": [
+            "ดร.นันทชัย พงศ์พัฒนานุรักษ์",
+            "รองศาสตราจารย์"
+          ],
+          "year": 2013,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=Remote+Sensing",
+          "topic_ids": [
+            "4"
+          ],
+          "bcg_pillars": [
+            "Green"
+          ],
+          "keywords": [
+            "Remote Sensing"
+          ],
+          "search_keyword": "Remote Sensing",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:32:34.801Z",
+          "topic_names_th": [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en": [
+            "Carbon Footprint & Carbon Neutrality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "MBjoyZ4B882ltYvqOpA9",
+        "_score": 4.159754,
+        "_source": {
+          "source": "KUKR",
+          "title": "A study of land use changes using geographic information system in Doi Luang National Park",
+          "abstract": "This study aimed to analyze the land use patterns and land use change in\r\nDoi Luang National Park by using geographic information system (GIS) remote sensing (RS) and global positioning system (GPS) during 2015 2019 and 2023. Markov Chain Model was applied to predict the land use patterns in 2027. The results showed that Doi Luang National Park has an area of 1204.85 square kilometers. The land use was classified in 6 patterns: agricultural areas, deciduous forest areas evergreen forest areas, water areas , community areas and buildings and miscellaneous areas. From 2015 to 2019, there was a total change of 1.62 square kilometers, representing 0.13 percent of the total area. The evergreen forest areas the most decreasing change of land use about 0.75 square kilometers, representing 46.30 percent, and\r\nthe agricultural area increased by 0.56 square kilometers, accounting for 32.72 percent. From 2019 to 2023, there was a total change of 9.69 square kilometers, representing 0.80 percent of the total area. The deciduous forest areas the most decreasing change of land use about 2.99 square kilometers, representing 30.02 percent, and the agricultural area increased by 4.25 square kilometers, accounting for 42.65 percent. The study tested the accuracy of the model and found that it was 90.95 percent accurate. The prediction of land use in 2027 showed that agricultural areas, deciduous forest areas, evergreen forest areas, water areas, community areas and buildings and miscellaneous areas: 221.40, 41.35, 931.22, 2.18, 4.01and 4.68 square kilometers.",
+          "authors": [
+            "Kittipong Promjak",
+            "Kamonporn Panngom",
+            "Thanyarat Chuesaard",
+            "Torlarp Kamyo",
+            "กิตติพงษ์ พรมจักร์",
+            "กมลพร ปานง่อม",
+            "ธัญญรัตน์ เชื้อสะอาด",
+            "ต่อลาภ คำโย"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20020229",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Land use",
+            "Geographic information",
+            "Geography",
+            "Doi Luang National Park",
+            "การใช้ประโยชน์ที่ดิน",
+            "ภูมิสารสนเทศ",
+            "ภูมิศาสตร์",
+            "อุทยานแห่งชาติดอยหลวง",
+            "Nature reserves",
+            "Geographical information systems",
+            "การใช้ที่ดิน",
+            "แหล่งสงวนทางธรรมชาติ",
+            "ระบบสารสนเทศภูมิศาสตร์"
+          ],
+          "search_keyword": "agroforestry",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:09:50.086Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "-hjoyZ4B882ltYvqOo48",
+        "_score": 3.9354043,
+        "_source": {
+          "source": "KUKR",
+          "title": "Correlation of yield and vegetation indices from unmanned aerial vehicle multispectral imagery in Thailand rice production systems",
+          "abstract": "Unmanned aerial vehicles (UAVs) equipped with cameras are used for collecting vegetation indices (VIs) for health monitoring of field crops such as rice (Oryza sativa). This study evaluated the relationship of VIs derived from multispectral UAV images at different buffer zones around the sampling points with rice biomass and grain yield from 20 nonirrigated and irrigated fields in Sakhon Nakhon, Thailand, in 2021. Varying nitrogen (N) rates (21.8–98.7 kg ha−1) were applied in splits, at 14 days after transplanting and panicle initiation (PI) stage. One week after PI, multispectral images were captured by a DJI Phantom 4 Multispectral UAV before taking biomass samples at four 1-m2 sampling points for the three plots in each field. At harvest, whole plant samples were collected from nearby these sampling points for grain yield estimation. For each sampling point at buffer zones 5, 10, and 20 m, the average of four VIs (normalized difference vegetation index [NDVI], green NDVI [GNDVI], normalized difference red-edge [NDRE], and optimized soil adjusted vegetation index [OSAVI]) was computed. Correlation analysis showed NDRE had the highest correlation with grain yield in nonirrigated systems (r = 0.575–0.613) and pooled data (r = 0.523–0.539). NDVI moderately correlated with biomass (r = 0.224–0.233). Images within the 10-m buffer zone produced NDRE values most strongly linked to yield, both unadjusted and normalized by planting to sensing days and growing degree days. There is a potential to use NDRE as predictor of rice biomass yield in rice systems. © 2025 The Author(s). Agrosystems, Geosciences & Environment published by Wiley Periodicals LLC on behalf of Crop Science Society of America and American Society of Agronomy.",
+          "authors": [
+            "Asawapaisankul, R.",
+            "Rattanapichai, W.",
+            "Sajjaphan, K.",
+            "Pitakdantham, R.",
+            "Sermsak, R.",
+            "Lukas, V.",
+            "Klem, K.",
+            "Tubana, B."
+          ],
+          "year": "2025",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/446233",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [],
+          "search_keyword": "biomass",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:59:52.493Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "vhjoyZ4B882ltYvqOo48",
+        "_score": 2.7873125,
+        "_source": {
+          "source": "KUKR",
+          "title": "Efficiency study on estimation of yield of Eucalyptus clone K58 trees using canopy cover variable from unmanned aerial vehicle",
+          "abstract": "Forest inventory is the collection and analysis to know yields of forest resource. There are various forms and methods of forest inventory. Estimation models were created of the yield from eucalypt clone K58 (volume, biomass and fresh weight) at age 5 years, using field data variables (tree height, diameter at breast height, tree position, canopy cover) and compared with using a canopy cover variable from an unmanned aerial vehicle. Based on the results of the study, several models were developed to estimate the yield of eucalypt clone K58: volume (V) = 0.000128(DBH2.236)(Ht0.392), with R2 =0.978: biomass ( Bm) = 0.0590(DBH2.220)(Ht0.609), with R2 =0.9763) and fresh weight (W) = 0.0785(DBH2.202)(Ht0.651), with R2 =0.9767. In addition, the same yield estimates using a canopy cover variable (Ap) from an unmanned aerial vehicle generated equations: V = 0.017(Ap0.944), with R2 = 0.869: Bm = 13.489(Ap0.968), with R2 = 0.845 and W = 19.396(Ap0.969), with R2 = 0.845.",
+          "authors": [
+            "Somrak Chatthai",
+            "Pichit Lumyai",
+            "Weeraphart Khunrattanasiri",
+            "สมรักษ์ ชาติไทย",
+            "พิชิต ลำใย",
+            "วีระภาส คุณรัตนสิริ"
+          ],
+          "year": "2024",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20021473",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Eucalyptus",
+            "Canopy cover",
+            "Remote sensing",
+            "Unmanned aerial vehicle",
+            "Aerial photography",
+            "Tree yields",
+            "ยูคาลิปตัส",
+            "เรือนยอด",
+            "การสำรวจข้อมูลระยะไกล",
+            "อากาศยานไร้คนขับ",
+            "การถ่ายภาพทางอากาศ",
+            "ภาพถ่ายทางอากาศ",
+            "การรับรู้ระยะไกล",
+            "การประเมินผลผลิต",
+            "ผลผลิตของไม้",
+            "Trees",
+            "Crown",
+            "Aerial surveying",
+            "Forest inventories",
+            "Yields",
+            "ไม้ยืนต้น",
+            "การสำรวจทางอากาศ",
+            "การสำรวจทางป่าไม้",
+            "ผลผลิต"
+          ],
+          "search_keyword": "ชีวมวล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:56:04.486Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "xBjoyZ4B882ltYvqOo48",
+        "_score": 2.5432897,
+        "_source": {
+          "source": "KUKR",
+          "title": "Evaluation of SAR data for mapping and monitoring forest biomass",
+          "authors": [
+            "Piyawan Werapaiboon",
+            "Anuphao Aobpaet",
+            "Soravis Supavetch",
+            "ปิยะวรรณ วีระไพบูลย์",
+            "อนุเผ่า อบแพทย์",
+            "สรวิศ สุภเวชย์"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/426624",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Forests",
+            "Biomass",
+            "Aerial parts",
+            "Carbon",
+            "Synthetic aperture radar",
+            "Remote sensing",
+            "Cartography",
+            "ป่า",
+            "มวลชีวภาพ",
+            "ส่วนเหนือดิน",
+            "คาร์บอน",
+            "เรดาร์ช่องเปิดสังเคราะห์",
+            "การสำรวจข้อมูลระยะไกล",
+            "แผนที่วิทยา",
+            "Forest biomass",
+            "Above ground biomass",
+            "Carbon storage",
+            "Allometric equations",
+            "SAR data",
+            "Mapping",
+            "ป่าไม้",
+            "ชีวมวลป่าไม้",
+            "ค่ามวลชีวภาพ",
+            "ค่าชีวมวลบนดิน",
+            "การกักเก็บคาร์บอน",
+            "ระบบเรดาร์ช่องเปิดสังเคราะห์",
+            "ข้อมูล SAR",
+            "การทำแผนที่",
+            "การสำรวจระยะไกล"
+          ],
+          "search_keyword": "ชีวมวล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:56:04.486Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "yhjoyZ4B882ltYvqOo48",
+        "_score": 2.0142593,
+        "_source": {
+          "source": "KUKR",
+          "title": "Biomass mapping and analysis using sentinel-1 SAR and sentinel-2 satellite images",
+          "authors": [
+            "Kittikun Raungrangsri",
+            "Anuphao Aobpaet",
+            "Soravis Supavetch",
+            "กิตติคุณ เรืองรังษี",
+            "อนุเผ่า อบแพทย์",
+            "สรวิศ สุภเวชย์"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20019896",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Miang tea garden",
+            "Dry evergreen fores",
+            "Remote sensing",
+            "Satellite images",
+            "Mapping",
+            "Carbon sinks",
+            "Carbon storage",
+            "Carbon dioxide",
+            "Polarization",
+            "Normalized difference vegetation",
+            "NDVI",
+            "Biomass",
+            "Nan province",
+            "Thailand",
+            "สวนชาเมี่ยง",
+            "ป่าดิบแล้ง",
+            "เทคโนโลยีภูมิสารสนเทศ",
+            "การสำรวจข้อมูลระยะไกล",
+            "ภาพถ่ายดาวเทียม",
+            "การทำแผนที่",
+            "แหล่งกักเก็บคาร์บอน",
+            "ก๊าซคาร์บอนไดออกไซด์",
+            "ค่าโพลาไรเซชัน",
+            "ค่าดรรชนีพืชพรรณ",
+            "ค่าชีวมวล",
+            "จ.น่าน ต.เรือง อ.เมือง",
+            "ประเทศไทย",
+            "Forest resources",
+            "Gardens",
+            "Forest plantations",
+            "Geographical information systems",
+            "Photogrammetry",
+            "Satellites",
+            "Imagery",
+            "Carbon cycle",
+            "ทรัพยากรป่าไม้",
+            "สวน",
+            "การปลูกสร้างสวนป่า",
+            "ระบบสารสนเทศภูมิศาสตร์",
+            "การถ่ายภาพทำแผนที่",
+            "ดาวเทียม",
+            "จินตนาการ",
+            "คาร์บอนไดออกไซด์",
+            "วัฏจักรของคาร์บอน",
+            "มวลชีวภาพ"
+          ],
+          "search_keyword": "ชีวมวล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:56:04.486Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "zRjoyZ4B882ltYvqOo48",
+        "_score": 2.0142593,
+        "_source": {
+          "source": "KUKR",
+          "title": "Above-ground carbon storage estimation of a reforestation site at Mae Moh mine, Lampang province, using sentinel-2 satellite data",
+          "abstract": "This research aimed to determine the relationship between above-ground carbon sequestration and vegetation index derived from Sentinel-2 satellite data to estimate the above-ground carbon sequestration of a reforestation site at Mae Moh mine in the Lampang province. Twenty five permanent plots of size 40 m*40 m were selected and tree data, including diameter at breast height (DBH) and total height (H), were collected. An allometric equation was developed to determine the relationship between the above-ground carbon sequestration and vegetation index through linear regression. The results showed that the above-ground carbon sequestration estimated through RVI (ratio vegetation index) was sufficiently accurate. The model was of the form y = - 65.57 + 57.57x (R2 = 0.75), with an RMSE of 11.14 tons of carbon dioxide equivalent per hectare. The average estimated above-ground carbon sequestration was 41.56 tons of carbon per hectare, while the total above-ground carbon sequestered at the reforestation site was 81,843.28 tons of carbon. The average carbon dioxide adsorption was 152.53 tons of carbon dioxide equivalent per hectare, while the total carbon dioxide adsorbed by the reforestation site being 300,374.28 tons of carbon dioxide equivalent.",
+          "authors": [
+            "Weeraphart Khunrattanasiri",
+            "Alongkorn Amarakul",
+            "Laddawan Rianthakool",
+            "Thitinan Hutayanon",
+            "วีระภาส คุณรัตนสิริ",
+            "อลงกรณ์ อะมะระกุล",
+            "ลัดดาวรรณ เหรียญตระกูล",
+            "ฐิตินันท์ หุตะยานนท์"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20020122",
+          "topic_ids": [
+            "1"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "Forests",
+            "Trees",
+            "Reforestation areas",
+            "Greenhouse gas emissions",
+            "Vegetation index",
+            "Remote sensing",
+            "Sentinel-2 satellites",
+            "Above ground carbon",
+            "Carbon storage",
+            "Carbon sequestration",
+            "Carbon dioxide absorption",
+            "Biomass",
+            "Mae Moh mine",
+            "Lampang province",
+            "Thailand",
+            "ป่าไม้",
+            "ต้นไม้",
+            "พื้นที่ปลูกป่าทดแทน",
+            "การปล่อยก๊าซเรือนกระจก",
+            "ดัชนีพืชพรรณ",
+            "ดาวเทียม",
+            "การกักเก็บคาร์บอน",
+            "คาร์บอนเหนือพื้นดิน",
+            "การดูดซับ",
+            "ก๊าซคาร์บอนไดออกไซด์",
+            "มวลชีวภาพ",
+            "เหมืองแม่เมาะ",
+            "จ.ลำปาง",
+            "ประเทศไทย",
+            "Woodlands",
+            "Forestation",
+            "Reforestation",
+            "Greenhouse gases",
+            "Greenhouse effect",
+            "Forest surveys",
+            "Satellites",
+            "Vegetation",
+            "Carbon cycle",
+            "Carbon dioxide",
+            "พื้นที่ป่า",
+            "การปลูกป่า",
+            "การปลูกสร้างป่าใหม่",
+            "ไม้ยืนต้น",
+            "ก๊าซเรือนกระจก",
+            "สภาพเรือนกระจก",
+            "การสำรวจป่า",
+            "การสำรวจข้อมูลระยะไกล",
+            "พืชพรรณ",
+            "วัฏจักรของคาร์บอน",
+            "คาร์บอนไดออกไซด์"
+          ],
+          "search_keyword": "ชีวมวล",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T05:56:04.486Z",
+          "topic_names_th": [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en": [
+            "Biomass & Bioenergy"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "8RjoyZ4B882ltYvqOo89",
+        "_score": 2.0142593,
+        "_source": {
+          "source": "KUKR",
+          "title": "Prediction of land use changes for the Mae Soi river sub-basin, Lampang province, using a neural network model",
+          "abstract": "The purpose of this research was to measure and forecast the land use changes in the Mae Soi river sub-basin, Lampang province. Landsat satellite imagery data during the years 2001, 2011, and 2021 were used to detect such changes and make future predictions. All three years of satellite imagery data have been geometrically revised for geographic compatibility. The image data was classified and the accuracy was determined using the kappa statistic, while the prediction of land use change was made using a neural network model combined with factors influencing the changes in land use. The study found that there was a change in land use between 2001 to 2011, with the most reduction of approximately 30,011 rai (4,801.76 ha) occurring in agricultural land, which was converted to forest land. Between 2011 and 2021, the watershed quality forests under class 1 and 2 in the Chae Son sub-district experienced the greatest reduction of approximately 2,762 rai (441.92 ha). A neural network model was used to predict the land use change by the 2031. The Jupyter Notebook platform provides the best estimate with an accuracy of 79.9 percent. Based on the predicted change between 2021 to 2031, it was observed that the forest land would decrease continuously, with approximately 13,268 rai (2,122.88 ha) being converted to agricultural land. The study area should be a defensive measure and allocate suitable areas for agriculture. In order to prevent the ingress of agricultural land into the watershed quality forests class 1 and 2, especially in the Chae Son subdistrict. Agroforestry systems can be promoted in the study area in order to promote sustainable use.",
+          "authors": [
+            "Niracha Sukyuang",
+            "Kankhajane Chuchip",
+            "Piyapong Tongdeenok",
+            "นิรชา สุขยวง",
+            "กาญจน์เขจร ชูชีพ",
+            "ปิยพงษ์ ทองดีนอก"
+          ],
+          "year": "2023",
+          "url": "https://kukr.lib.ku.ac.th/KUKR/Search/detail/20018707",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "Agricultural land",
+            "Forest land",
+            "Communal lands",
+            "Land use change",
+            "Neural network model",
+            "Geographic compatibility",
+            "Prediction",
+            "Land use planning",
+            "Mae Soi river sub-basin",
+            "Lampang province",
+            "Thailand",
+            "พื้นที่การเกษตร",
+            "พื้นที่ป่าไม้",
+            "พื้นที่ชุมชน",
+            "ทรัพยากรที่ดิน",
+            "การใช้ที่ดิน",
+            "การเปลี่ยนแปลงการใช้ที่ดิน",
+            "แบบจำลองโครงข่ายประสาทเทียม",
+            "แบบจำลองเชิงพื้นที่",
+            "การคาดการณ์",
+            "การวางแผนการใช้ที่ดิน",
+            "พื้นที่ลุ่มน้ำ",
+            "จ.ลำปาง",
+            "ประเทศไทย",
+            "Farmland",
+            "Woodlands",
+            "Land resources",
+            "Land",
+            "Land use",
+            "Land management",
+            "Models",
+            "Computer applications",
+            "Remote sensing",
+            "Geographical information systems",
+            "Satellites",
+            "Forecasting",
+            "Site factors",
+            "Watersheds",
+            "พื้นที่เกษตรกรรม",
+            "พื้นที่ป่า",
+            "ที่ดิน",
+            "การจัดการที่ดิน",
+            "แบบจำลอง",
+            "การประยุกต์ใช้คอมพิวเตอร์",
+            "การสำรวจข้อมูลระยะไกล",
+            "ระบบสารสนเทศภูมิศาสตร์",
+            "ดาวเทียม",
+            "การพยากรณ์",
+            "ปัจจัยทางพื้นที่",
+            "ลุ่มน้ำ"
+          ],
+          "search_keyword": "วนเกษตร",
+          "doc_type": "research",
+          "indexed_at": "2026-06-15T06:07:10.006Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      }
+    ]
+  }
+}

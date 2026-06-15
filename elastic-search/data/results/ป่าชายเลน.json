@@ -1,0 +1,368 @@
+{
+  "took": 7,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10,
+      "relation": "eq"
+    },
+    "max_score": 4.06699,
+    "hits": [
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "PBgzyp4B882ltYvqGpED",
+        "_score": 4.06699,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "Reversing Environmental Degradation Trends in the South China Sea and Gulf of Thailand (แผนธุรกิจ การพัฒนาแผนธุรกิจการสร้างความมั่นคงทางการเงินสำหรับการจัดการทรัพยากรป่าชายเลน ของโครงการพื้นที่สาธิตจังหวัดตราด ด้านป่าชายเลน)",
+          "authors": [],
+          "year": 2008,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%A5%E0%B8%99",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ป่าชายเลน"
+          ],
+          "search_keyword": "ป่าชายเลน",
+          "doc_type": "งานวิจัย",
+          "funding": "กรมทรัพยากรทางทะเลและชายฝั่ง กระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม",
+          "indexed_at": "2026-06-15T07:33:24.040Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "PRgzyp4B882ltYvqGpED",
+        "_score": 4.06699,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการศึกษาธรรมชาติป่าชายเลน",
+          "authors": [
+            "นางนภาวรรณ นพรัตนราภรณ์, รองศาสตราจารย์",
+            "ดร.ยนต์ มุสิก",
+            "รองศาสตราจารย์",
+            "นายสมโภชน์ นิ้มสันติเจริญ"
+          ],
+          "year": 1996,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%A5%E0%B8%99",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ป่าชายเลน"
+          ],
+          "search_keyword": "ป่าชายเลน",
+          "doc_type": "งานวิจัย",
+          "funding": "กรมส่งเสริมคุณภาพสิ่งแวดล้อม",
+          "indexed_at": "2026-06-15T07:33:24.040Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Phgzyp4B882ltYvqGpED",
+        "_score": 4.06699,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การศึกษาความหลากหลายทางชีวภาพของสาหร่ายทะเลในบริเวณป่าชายเลนและชายฝั่ง สถานีวิจัยทรัพยากรชายฝั่งระนอง",
+          "authors": [
+            "ดร.อนงค์ จีรภัทร์, ศาสตราจารย์",
+            "นางกาญจนภาชน์ ลิ่วมโนมนต์",
+            "ศาสตราจารย์"
+          ],
+          "year": 1997,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%A5%E0%B8%99",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ป่าชายเลน"
+          ],
+          "search_keyword": "ป่าชายเลน",
+          "doc_type": "งานวิจัย",
+          "funding": "สถาบันวิจัยและพัฒนา มหาวิทยาลัยเกษตรศาสตร์",
+          "indexed_at": "2026-06-15T07:33:24.040Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Pxgzyp4B882ltYvqGpED",
+        "_score": 4.06699,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การศึกษาพลวัตของสังคมพืชป่าชายเลนเพื่อการจัดการอย่างยั่งยืนในพื้นที่ชายฝั่งระนอง",
+          "authors": [
+            "นายเดชา ดวงนามล"
+          ],
+          "year": 2012,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%A5%E0%B8%99",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ป่าชายเลน"
+          ],
+          "search_keyword": "ป่าชายเลน",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:33:24.040Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "QBgzyp4B882ltYvqGpED",
+        "_score": 4.06699,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "ความหลากหลายของพืชและศักยภาพของทรัพยากรการท่องเที่ยวในป่าชายเลนเทศบาลตำบลคลองพน ต.คลองพน อ.คลองท่อมจ.กระบี่",
+          "authors": [
+            "ดร.สมบัติ ชิณะวงศ์",
+            "รองศาสตราจารย์",
+            "ดร.สุภัทรา ถึกสถิตย์",
+            "ผู้ช่วยศาสตราจารย์"
+          ],
+          "year": 2008,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%A5%E0%B8%99",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ป่าชายเลน"
+          ],
+          "search_keyword": "ป่าชายเลน",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:33:24.040Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "QRgzyp4B882ltYvqGpED",
+        "_score": 4.06699,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "ความหลากหลายของยีสต์ในป่าชายเลนบริเวณชายฝั่งทะเลอ่าวไทยตอนบน และการวิเคราะห์ผลเปรียบเทียบกับบริเวณชายฝั่งทะเลอันดามัน",
+          "authors": [
+            "ดร.สาวิตรี ลิ่มทอง, ศาสตราจารย์เกียรติคุณ",
+            "นางสาวชนิตา บุญมาก"
+          ],
+          "year": 2009,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%A5%E0%B8%99",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ป่าชายเลน"
+          ],
+          "search_keyword": "ป่าชายเลน",
+          "doc_type": "งานวิจัย",
+          "funding": "Biodiversity Research and Training Program - สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ",
+          "indexed_at": "2026-06-15T07:33:24.040Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Qhgzyp4B882ltYvqGpED",
+        "_score": 4.06699,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การฟื้นฟูและพัฒนาทรัพยากรป่าชายเลนเพื่อสังคมเศรษฐกิจอย่างยั่งยืนของประเทศไทย",
+          "authors": [
+            "ดร.สนิท อักษรแก้ว, ศาสตราจารย์"
+          ],
+          "year": 1996,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%A5%E0%B8%99",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ป่าชายเลน"
+          ],
+          "search_keyword": "ป่าชายเลน",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานกองทุนสนับสนุนการวิจัย",
+          "indexed_at": "2026-06-15T07:33:24.040Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Qxgzyp4B882ltYvqGpED",
+        "_score": 4.06699,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การศึกษาความหลากหลายทางชีวภาพในป่าชายเลน : กรณีแม่หอบ",
+          "authors": [
+            "ดร.เจษฎา วงค์พรหม"
+          ],
+          "year": 2016,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%A5%E0%B8%99",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ป่าชายเลน"
+          ],
+          "search_keyword": "ป่าชายเลน",
+          "doc_type": "งานวิจัย",
+          "funding": "มูลนิธิเจริญโภคภัณฑ์",
+          "indexed_at": "2026-06-15T07:33:24.040Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "RBgzyp4B882ltYvqGpED",
+        "_score": 4.06699,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การพัฒนาผลิตภัณฑ์แบคทีเรียแบบผงย่อยสลายไมโครพลาสติกเพื่อนำไปใช้ในบริเวณป่าชายเลน",
+          "authors": [
+            "นางสาวนภสร เผ่าชูศักดิ์",
+            "ดร.พรรณวิมล ตันหัน",
+            "รองศาสตราจารย์",
+            "ดร.วชิรญาณ์ ธงอาสา",
+            "รองศาสตราจารย์"
+          ],
+          "year": 2026,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%A5%E0%B8%99",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ป่าชายเลน"
+          ],
+          "search_keyword": "ป่าชายเลน",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานพัฒนาการวิจัยการเกษตร (สวก.)",
+          "indexed_at": "2026-06-15T07:33:24.041Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "RRgzyp4B882ltYvqGpED",
+        "_score": 4.06699,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "ความหลากหลายชนิดและพันธุกรรมของแมลงน้ำป่าชายเลนในอ่าวไทย ประเทศไทย",
+          "authors": [],
+          "year": 2020,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%A5%E0%B8%99",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ป่าชายเลน"
+          ],
+          "search_keyword": "ป่าชายเลน",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:33:24.041Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      }
+    ]
+  }
+}

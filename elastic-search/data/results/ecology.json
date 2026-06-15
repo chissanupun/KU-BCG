@@ -1,0 +1,149 @@
+{
+  "took": 8,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 4,
+      "relation": "eq"
+    },
+    "max_score": 4.9142876,
+    "hits": [
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "LBgzyp4B882ltYvqGpED",
+        "_score": 4.9142876,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการศึกษาชีววิทยาและนิเวศวิทยาของนกเงือก",
+          "authors": [
+            "ศ.ดร.พิไล พูลสวัสดิ์",
+            "ดร.วิจักขณ์ ฉิมโฉม",
+            "ผู้ช่วยศาสตราจารย์",
+            "ศ.ดร.พิไล พูลสวัสดิ์"
+          ],
+          "year": 2012,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=ecology",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ecology"
+          ],
+          "search_keyword": "ecology",
+          "doc_type": "งานวิจัย",
+          "indexed_at": "2026-06-15T07:33:12.020Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "LRgzyp4B882ltYvqGpED",
+        "_score": 4.9142876,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "Strengthening Capacity on Bat Ecology Study",
+          "authors": [
+            "ดร.ประทีป ด้วงแค, รองศาสตราจารย์"
+          ],
+          "year": 2013,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=ecology",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ecology"
+          ],
+          "search_keyword": "ecology",
+          "doc_type": "งานวิจัย",
+          "funding": "The Food and Agriculture Organization of the United Nations (FAO)",
+          "indexed_at": "2026-06-15T07:33:12.020Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Lhgzyp4B882ltYvqGpED",
+        "_score": 4.9142876,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "หนังสืออิเล็กทรอนิกส์แบบโต้ตอบได้ (Interactive E-Book) เรื่อง นกเงือก ผู้ให้แห่งผืนป่า: รู้จักนิเวศวิทยาและการอนุรักษ์กับนกเงือกไทย (2018) นักวิจัย: Dr.Jiraporn Teampanpong, Associate Professor , Dr.Vijak Chimchome, Assistant Professor , พิไล พูลสวัสดิ์ , จงดี โตอิ้ม , ประเภท:",
+          "authors": [],
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=ecology",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ecology"
+          ],
+          "search_keyword": "ecology",
+          "doc_type": "ทรัพย์สินทางปัญญา",
+          "indexed_at": "2026-06-15T07:33:12.020Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "Lxgzyp4B882ltYvqGpED",
+        "_score": 4.9142876,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "(ประกาศเกียรติคุณ) Editorial Board of International Journal of Ecology and Conservation (2013) นักวิจัย: ดร.ภูวดล โดยดี, รองศาสตราจารย์ Doner:THOMSAN REUTERS, CROSS ref, AJA:ISO 9001:2008 certified Print ISSN 2244-1573 * Online ISSN 2244-1581",
+          "authors": [],
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=ecology",
+          "topic_ids": [
+            "6"
+          ],
+          "bcg_pillars": [
+            "Green",
+            "Bio"
+          ],
+          "keywords": [
+            "ecology"
+          ],
+          "search_keyword": "ecology",
+          "doc_type": "รางวัล",
+          "indexed_at": "2026-06-15T07:33:12.020Z",
+          "topic_names_th": [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en": [
+            "Agroforestry & Biodiversity"
+          ]
+        }
+      }
+    ]
+  }
+}

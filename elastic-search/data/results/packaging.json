@@ -1,0 +1,327 @@
+{
+  "took": 7,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 8,
+      "relation": "eq"
+    },
+    "max_score": 4.278299,
+    "hits": [
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "nRgzyp4B882ltYvqGpAB",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "Plastic Packaging and Related Packaging materials Technology",
+          "authors": [
+            "ดร.ธัญญารัตน์ จิญกาญจน์, รองศาสตราจารย์"
+          ],
+          "year": 2010,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=packaging",
+          "topic_ids": [
+            "2",
+            "3"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "packaging"
+          ],
+          "search_keyword": "packaging",
+          "doc_type": "งานวิจัย",
+          "funding": "บริษัท ปตท.เคมิคอล จำกัด (มหาชน)",
+          "indexed_at": "2026-06-15T07:31:41.820Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้",
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging",
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "nhgzyp4B882ltYvqGpAB",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "(วิจัย/สิ่งประดิษฐ์) Thai Star Packaging Award 2006/รางวัล Good Packaging ประเภทบรรจุภัณฑ์สร้างสรรค์ ในการประกวดบรรจุภัณฑ์ไทยประจำปี 2549 (2006) ผลงาน:\"Plub Thai/บรรจุภัณฑ์เพื่อการขายปลีกพลับสด\" นักวิจัย: นายโอฬาร ตัณฑวิรุฬห์ นางวีระศรี เมฆตรง นายสักขี แสนสุภา นางศิริวรรณ ตั้งแสงประทีป นางสาวพัชรา มณีสินธุ์ นางรัชนีวรรณ กุลจันทร์ นายวสันต์ ตุ่นคำ Doner:กรมส่งเสริมอุตสาหกรรม",
+          "authors": [],
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=packaging",
+          "topic_ids": [
+            "2",
+            "3"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "packaging"
+          ],
+          "search_keyword": "packaging",
+          "doc_type": "รางวัล",
+          "indexed_at": "2026-06-15T07:31:41.820Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้",
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging",
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "nxgzyp4B882ltYvqGpAB",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การพัฒนาวัสดุบรรจุภัณฑ์แอกทิฟชีวภาพจากวัสดุเหลือใช้ทางการเกษตรเพื่อนวัตกรรมการบรรจุอาหาร",
+          "authors": [
+            "ดร.วาณี ชนเห็นชอบ, รองศาสตราจารย์",
+            "ดร.ภัทรินทร์ ลีลาภิวัฒน์",
+            "รองศาสตราจารย์",
+            "ดร.กาญจนา บุญเรือง",
+            "ผู้ช่วยศาสตราจารย์"
+          ],
+          "year": 2025,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=packaging",
+          "topic_ids": [
+            "2",
+            "3"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "packaging"
+          ],
+          "search_keyword": "packaging",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:31:41.820Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้",
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging",
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "oBgzyp4B882ltYvqGpAB",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "โครงการพัฒนาวัสดุและบรรจุภัณฑ์ห่อหุ้มไข่เค็มเพื่อการขนส่งจากวัสดุเหลือทิ้งทางการเกษตร",
+          "authors": [],
+          "year": 2019,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=packaging",
+          "topic_ids": [
+            "2",
+            "3"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "packaging"
+          ],
+          "search_keyword": "packaging",
+          "doc_type": "งานวิจัย",
+          "funding": "บริษัท ไปรษณีย์ไทย จำกัด",
+          "indexed_at": "2026-06-15T07:31:41.820Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้",
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging",
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "oRgzyp4B882ltYvqGpAB",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การออกแบบและพัฒนาบรรจุภัณฑ์เชิงยั่งยืน : กรณีศึกษาบรรจุภัณฑ์ผลไม้ไทย",
+          "authors": [
+            "ดร.เจนณัช สดไสย์, อาจารย์",
+            "ดร.เลอพงศ์ จารุพันธ์",
+            "รองศาสตราจารย์"
+          ],
+          "year": 2023,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=packaging",
+          "topic_ids": [
+            "2",
+            "3"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "packaging"
+          ],
+          "search_keyword": "packaging",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:31:41.820Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้",
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging",
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "ohgzyp4B882ltYvqGpAB",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "บรรจุภัณฑ์พลาสติกชีวภาพต้านจุลินทรีย์จากวัสดุฐานเทอร์โมพลาสติกสตาร์ชมันสำปะหลังเพื่อการประยุกต์ใช้งานด้านบรรจุภัณฑ์",
+          "authors": [
+            "ดร.นัฏพร ขนุนก้อน"
+          ],
+          "year": 2020,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=packaging",
+          "topic_ids": [
+            "2",
+            "3"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "packaging"
+          ],
+          "search_keyword": "packaging",
+          "doc_type": "งานวิจัย",
+          "funding": "สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ (สวทช.)",
+          "indexed_at": "2026-06-15T07:31:41.820Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้",
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging",
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "oxgzyp4B882ltYvqGpAB",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "การพัฒนาบรรจุภัณฑ์กระดาษประกบฟิล์มฐานพอลิแลคติกแอซิดเพื่อใช้บรรจุอาหาร",
+          "authors": [
+            "ดร.ธัญญารัตน์ จิญกาญจน์, รองศาสตราจารย์",
+            "ดร.จิตศิริ ทองสอน ราชตนะพันธุ์",
+            "รองศาสตราจารย์",
+            "ดร.สาวิตรี รัตนสุมาวงศ์",
+            "รองศาสตราจารย์"
+          ],
+          "year": 2026,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=packaging",
+          "topic_ids": [
+            "2",
+            "3"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "packaging"
+          ],
+          "search_keyword": "packaging",
+          "doc_type": "งานวิจัย",
+          "funding": "ทุนอุดหนุนวิจัยมก.",
+          "indexed_at": "2026-06-15T07:31:41.820Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้",
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging",
+            "Microplastics & Water Quality"
+          ]
+        }
+      },
+      {
+        "_index": "ku_bcg_documents",
+        "_id": "pBgzyp4B882ltYvqGpAB",
+        "_score": 4.278299,
+        "_source": {
+          "source": "KU_Forest",
+          "title": "ระบบบรรจุและบรรจุภัณฑ์มาตรฐานสำหรับขนส่งและกระจายผลิตผลเกษตรมูลค่าสูงในโซ่ความเย็นระดับภูมิภาคและนานาชาติ",
+          "authors": [
+            "ดร.เลอพงศ์ จารุพันธ์, รองศาสตราจารย์"
+          ],
+          "year": 2022,
+          "url": "https://research.ku.ac.th/forest/Search.aspx?keyword=packaging",
+          "topic_ids": [
+            "2",
+            "3"
+          ],
+          "bcg_pillars": [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "keywords": [
+            "packaging"
+          ],
+          "search_keyword": "packaging",
+          "doc_type": "งานวิจัย",
+          "funding": "หน่วยบริหารและจัดการทุนด้านการเพิ่มความสามารถในการแข่งขันของประเทศ (บพข)",
+          "indexed_at": "2026-06-15T07:31:41.820Z",
+          "topic_names_th": [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้",
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง"
+          ],
+          "topic_names_en": [
+            "Chitosan & Bio-packaging",
+            "Microplastics & Water Quality"
+          ]
+        }
+      }
+    ]
+  }
+}
