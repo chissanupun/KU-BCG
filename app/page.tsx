@@ -8,7 +8,7 @@ import Image from "next/image";
 const PRIMARY = "#3b6347";
 
 const SUGGESTIONS = [
-  { display: "การวิเคราะห์\nคาร์บอน นาโนทิวบ์", query: "การวิเคราะห์คาร์บอนนาโนทิวบ์" },
+  { display: "การวิเคราะห์ คาร์บอน นาโนทิวบ์", query: "การวิเคราะห์คาร์บอนนาโนทิวบ์" },
   { display: "สรุปการเปลี่ยนแปลงสภาพภูมิอากาศ 2024", query: "สรุปการเปลี่ยนแปลงสภาพภูมิอากาศ 2024" },
   { display: "ผลการวิจัยสำคัญ\nด้านโครงข่าย ประสาท", query: "ผลการวิจัยสำคัญด้านโครงข่ายประสาท" },
 ];
@@ -20,7 +20,7 @@ export default function Home() {
 
   const handleSearch = () => {
     if (!query.trim()) return;
-    router.push(`/api/search?q=${encodeURIComponent(query)}`);
+    router.push(`/learn?q=${encodeURIComponent(query)}`);
   };
 
   return (
@@ -28,20 +28,16 @@ export default function Home() {
 
       {/* Logo — absolute top-right of full page */}
       <div
-        className="absolute flex flex-col items-center"
+        className="absolute"
         style={{ top: 12, right: 27, zIndex: 10 }}
       >
         <Image
-          src="/logo.png"
+          src="/ku-bcg.png"
           alt="KU Phumpanya"
-          width={80}
-          height={80}
+          width={114}
+          height={124}
           className="object-contain"
         />
-        <p className="text-[10px] mt-1 tracking-widest font-bold">
-          <span style={{ color: PRIMARY }}>KU</span>{" "}
-          <span style={{ color: "#9ca3af" }}>Phumpanya</span>
-        </p>
       </div>
 
       {/* ── Sidebar 195px ─────────────────────────────── */}
@@ -104,27 +100,59 @@ export default function Home() {
           >
             หลัก
           </p>
+          {/* ค้นหา — active when logged in */}
           <button
-            className="flex items-center w-full rounded-[9px] hover:bg-gray-50 transition-colors"
-            style={{ gap: 12, paddingLeft: 15, paddingRight: 3, paddingTop: 12, paddingBottom: 12 }}
+            className={`flex items-center w-full rounded-[9px] transition-colors relative overflow-hidden ${
+              session ? "" : "hover:bg-gray-50"
+            }`}
+            style={{
+              gap: 12,
+              paddingLeft: 15,
+              paddingRight: 3,
+              paddingTop: 12,
+              paddingBottom: 12,
+              ...(session && {
+                background: "rgba(36,34,32,0.04)",
+                border: "0.38px solid #3b6347",
+              }),
+            }}
           >
             <svg
               style={{ width: 16, height: 16, flexShrink: 0 }}
               fill="none"
-              stroke="rgba(36,34,32,0.56)"
+              stroke={session ? "#3b6347" : "rgba(36,34,32,0.56)"}
               strokeWidth={2}
               viewBox="0 0 24 24"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M21 21l-4.35-4.35M17 11A6 6 0 115 11a6 6 0 0112 0z"
-              />
+              <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M17 11A6 6 0 115 11a6 6 0 0112 0z" />
             </svg>
-            <span className="text-[12px] leading-[16px]" style={{ color: "rgba(36,34,32,0.56)" }}>
+            <span
+              className="flex-1 text-[12px] leading-[16px] text-left"
+              style={{ color: session ? "#242220" : "rgba(36,34,32,0.56)", fontWeight: session ? 500 : 400 }}
+            >
               ค้นหา
             </span>
+            {session && (
+              <svg style={{ width: 16, height: 16, flexShrink: 0, color: "rgba(36,34,32,0.4)" }} fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+              </svg>
+            )}
           </button>
+
+          {/* แนะนำอัจฉริยะ — logged in only */}
+          {session && (
+            <button
+              className="flex items-center w-full rounded-[9px] hover:bg-gray-50 transition-colors"
+              style={{ gap: 12, paddingLeft: 15, paddingRight: 3, paddingTop: 12, paddingBottom: 12 }}
+            >
+              <svg style={{ width: 16, height: 16, flexShrink: 0 }} fill="none" stroke="rgba(36,34,32,0.56)" strokeWidth={1.8} viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z" />
+              </svg>
+              <span className="text-[12px] leading-[16px]" style={{ color: "rgba(36,34,32,0.56)" }}>
+                แนะนำอัจฉริยะ
+              </span>
+            </button>
+          )}
         </div>
 
         {/* Divider 2 */}
@@ -144,6 +172,30 @@ export default function Home() {
             +
           </span>
         </div>
+
+        {/* Recent Items — logged in only */}
+        {session && (
+          <div className="shrink-0" style={{ paddingLeft: 18.5, paddingRight: 18.5 }}>
+            {[
+              "สำรวจบทความ\nคอมพิวเตอร์ควอนตัม",
+              "สรุปการเปลี่ยนแปลง\nสภาพภูมิอากาศ 2024",
+              "ผลการวิจัยสำคัญ\nด้านโครงข่ายประสาท",
+            ].map((item, i) => (
+              <button
+                key={i}
+                className="flex w-full rounded-[9px] hover:bg-gray-50 transition-colors text-left"
+                style={{ paddingLeft: 15, paddingRight: 3, paddingTop: 12, paddingBottom: 12 }}
+              >
+                <span
+                  className="text-[12px] leading-[16px] whitespace-pre-line"
+                  style={{ color: "rgba(36,34,32,0.56)", width: 128 }}
+                >
+                  {item}
+                </span>
+              </button>
+            ))}
+          </div>
+        )}
 
         {/* Spacer */}
         <div className="flex-1" />
@@ -204,18 +256,55 @@ export default function Home() {
         )}
 
         {session && (
-          <button
-            onClick={() => signOut()}
-            className="text-[12px] leading-[16px] hover:opacity-70 transition-opacity text-left"
-            style={{ color: "rgba(36,34,32,0.4)", padding: "0 18.5px 20px" }}
-          >
-            ออกจากระบบ
-          </button>
+          <div style={{ padding: "0 18.5px 20px" }}>
+            <div
+              className="flex flex-col rounded-[21px]"
+              style={{
+                border: `1px solid ${PRIMARY}`,
+                background: "rgba(255,255,255,0.12)",
+                paddingLeft: 12,
+                paddingRight: 12,
+                paddingTop: 18,
+                paddingBottom: 12,
+                gap: 11,
+              }}
+            >
+              <div className="flex flex-col" style={{ gap: 4.5 }}>
+                <p className="text-[12px] leading-[16px] font-medium" style={{ color: "#242220" }}>
+                  เริ่มต้นกันเลย!
+                </p>
+                <p className="text-[12px] leading-[16px]" style={{ color: "rgba(36,34,32,0.56)" }}>
+                  การค้นหาหรือ
+                  <br />
+                  จัดระเบียบงานวิจัย
+                </p>
+              </div>
+              <button
+                className="flex items-center justify-center font-medium text-[14px] leading-[20px] text-white rounded-[9px] w-full hover:opacity-90 transition-opacity"
+                style={{
+                  background: `linear-gradient(90deg, ${PRIMARY} 0%, ${PRIMARY} 100%)`,
+                  boxShadow: "0px 3px 9px rgba(59,99,71,0.3)",
+                  height: 36.5,
+                  gap: 4.5,
+                }}
+              >
+                <span>+</span>
+                <span>แชทใหม่</span>
+              </button>
+              <button
+                onClick={() => signOut()}
+                className="text-[12px] leading-[16px] hover:opacity-70 transition-opacity text-center w-full"
+                style={{ color: "rgba(36,34,32,0.4)" }}
+              >
+                ออกจากระบบ
+              </button>
+            </div>
+          </div>
         )}
       </aside>
 
       {/* ── Main Content ──────────────────────────────── */}
-      <main className="flex-1 flex flex-col items-center justify-center">
+      <main className="flex-1 flex flex-col items-center justify-center" style={{ paddingBottom: 80 }}>
         {/* 928px content column */}
         <div style={{ width: 928 }} className="flex flex-col">
           {/* Hero */}
@@ -274,7 +363,7 @@ export default function Home() {
           </div>
 
           {/* Suggestion Cards */}
-          <div className="flex" style={{ marginTop: 31, gap: 22 }}>
+          <div className="flex" style={{ marginTop: 52, gap: 22 }}>
             {SUGGESTIONS.map((s, i) => (
               <button
                 key={i}
@@ -292,8 +381,8 @@ export default function Home() {
                 }}
               >
                 <span
-                  className="text-[14px] leading-[20px] group-hover:text-[#3b6347] transition-colors block whitespace-pre-line"
-                  style={{ color: "#a1a1a1" }}
+                  className="text-[14px] leading-[20px] group-hover:text-[#3b6347] transition-colors block"
+                  style={{ color: "#a1a1a1", wordBreak: "keep-all", overflowWrap: "break-word" }}
                 >
                   {s.display}
                 </span>

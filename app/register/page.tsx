@@ -4,50 +4,150 @@ import { signIn } from "next-auth/react";
 import Image from "next/image";
 import { useState } from "react";
 
+const PRIMARY = "#3b6347";
+
 export default function RegisterPage() {
   const [remember, setRemember] = useState(false);
 
   return (
-    <div className="flex min-h-screen">
-      {/* Left panel */}
-      <div className="flex flex-col w-1/2 px-16 py-10">
-        <div className="flex items-center gap-2 mb-16">
-          <Image src="/ku-logo.png" alt="KU Phumpanya" width={48} height={48} />
-          <span className="text-sm font-semibold text-[#2D5A27]">KU Phumpanya</span>
-        </div>
+    <div style={{ width: 1440, height: 900, background: "white", overflow: "hidden", position: "relative" }}>
 
-        <h1 className="text-3xl font-bold text-gray-900 mb-2">Register</h1>
-        <p className="text-gray-500 mb-24">ตั้งค่าข้อมูลของคุณ</p>
-
-        <div className="max-w-md">
-          <button
-            onClick={() => signIn("google", { callbackUrl: "/" })}
-            className="w-full bg-[#2D5A27] text-white py-4 rounded-lg text-sm font-medium hover:bg-[#234820] transition-colors mb-4"
-          >
-            Register
-          </button>
-
-          <div className="flex items-center justify-center gap-3">
-            <button
-              onClick={() => setRemember(!remember)}
-              className={`relative inline-flex h-5 w-9 items-center rounded-full transition-colors ${
-                remember ? "bg-[#2D5A27]" : "bg-gray-200"
-              }`}
-            >
-              <span
-                className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${
-                  remember ? "translate-x-4" : "translate-x-0.5"
-                }`}
-              />
-            </button>
-            <span className="text-sm text-gray-600">Remember me</span>
-          </div>
-        </div>
+      {/* Logo — top-left */}
+      <div style={{ position: "absolute", left: 0, top: 0, width: 95, height: 93 }}>
+        <Image src="/ku-bcg.png" alt="KU Phumpanya" width={95} height={93} className="object-contain" />
       </div>
 
       {/* Right panel */}
-      <div className="w-1/2 bg-[#8FAF7E] flex items-center justify-center">
-        <div className="text-9xl select-none">💻</div>
+      <div
+        style={{
+          position: "absolute",
+          left: 688,
+          top: 0,
+          width: 752,
+          height: 900,
+          background: "#8a9e72",
+          overflow: "hidden",
+        }}
+      >
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/laptop-3d.png"
+          alt=""
+          style={{ position: "absolute", left: 29, top: 21, width: 723, height: 738, objectFit: "contain", filter: "grayscale(1)" }}
+        />
+      </div>
+
+      {/* Register heading */}
+      <p
+        style={{
+          position: "absolute",
+          left: 139,
+          top: 193,
+          fontFamily: "Poppins, sans-serif",
+          fontSize: 20,
+          fontWeight: 600,
+          lineHeight: "28px",
+          color: "#1a1a1a",
+          margin: 0,
+        }}
+      >
+        Register
+      </p>
+
+      {/* Subtitle */}
+      <p
+        style={{
+          position: "absolute",
+          left: 139,
+          top: 217,
+          width: 448,
+          fontFamily: "Poppins, sans-serif",
+          fontSize: 16,
+          fontWeight: 400,
+          lineHeight: "24px",
+          color: "#737373",
+          margin: 0,
+        }}
+      >
+        ตั้งค่าข้อมูลของคุณ
+      </p>
+
+      {/* Register button */}
+      <button
+        onClick={() => signIn("google", { callbackUrl: "/" })}
+        style={{
+          position: "absolute",
+          left: 188,
+          top: 648,
+          width: 511,
+          height: 40,
+          background: PRIMARY,
+          borderRadius: 4,
+          color: "white",
+          fontFamily: "Poppins, sans-serif",
+          fontSize: 16,
+          fontWeight: 500,
+          lineHeight: "24px",
+          border: "none",
+          cursor: "pointer",
+        }}
+      >
+        Register
+      </button>
+
+      {/* Remember me */}
+      <div
+        style={{
+          position: "absolute",
+          left: 521,
+          top: 710,
+          display: "flex",
+          alignItems: "center",
+          gap: 16,
+        }}
+      >
+        <button
+          onClick={() => setRemember((r) => !r)}
+          style={{
+            width: 32,
+            height: 16,
+            borderRadius: 16,
+            background: remember ? PRIMARY : "#ebebec",
+            border: "none",
+            cursor: "pointer",
+            padding: 2,
+            display: "flex",
+            alignItems: "center",
+            flexShrink: 0,
+            transition: "background 0.15s",
+          }}
+        >
+          <span
+            style={{
+              display: "block",
+              width: 12,
+              height: 12,
+              borderRadius: "50%",
+              background: "white",
+              transform: remember ? "translateX(16px)" : "translateX(0)",
+              transition: "transform 0.15s",
+              boxShadow:
+                "0px 1px 2px rgba(0,0,0,0.06), 0px 1px 1px rgba(0,0,0,0.06), 0px 0px 0.5px rgba(0,0,0,0.06)",
+            }}
+          />
+        </button>
+        <span
+          style={{
+            fontFamily: "Poppins, sans-serif",
+            fontSize: 16,
+            fontWeight: 400,
+            lineHeight: "24px",
+            color: "#18181b",
+            whiteSpace: "nowrap",
+          }}
+        >
+          Remember me
+        </span>
       </div>
     </div>
   );
