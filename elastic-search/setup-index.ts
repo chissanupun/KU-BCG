@@ -36,6 +36,7 @@ async function setupIndices() {
         search_keyword:   { type: 'keyword' },
         doc_type:         { type: 'keyword' },
         indexed_at:       { type: 'date' },
+        embedding:        { type: 'dense_vector', dims: 384, index: true, similarity: 'cosine' },
       },
     },
   });
