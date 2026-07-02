@@ -1,9 +1,12 @@
 "use client";
 
+import { Suspense } from "react";
+import { useSearchParams } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Sidebar from "../components/Sidebar";
+import SearchResults from "./SearchResults";
 
 const PRIMARY = "#3b6347";
 const FONT = "Poppins, sans-serif";
@@ -48,7 +51,7 @@ const fadeIn = (delay: number) => ({
   transition: { duration: 0.35, ease: "easeOut" as const, delay },
 });
 
-export default function LearnPage() {
+function Roadmap() {
   return (
     <div style={{ width: 1440, height: 900, background: "var(--ku-bg)", overflow: "hidden", position: "relative" }}>
 
@@ -167,5 +170,31 @@ export default function LearnPage() {
         </div>
       ))}
     </div>
+  );
+}
+
+function LearnPageInner() {
+  const searchParams = useSearchParams();
+  const q = searchParams.get("q")?.trim();
+
+  if (q) {
+    return (
+      <div className="flex" style={{ minHeight: "100vh", background: "var(--ku-bg)" }}>
+        <Sidebar />
+        <main className="flex-1" style={{ paddingLeft: 40, paddingRight: 40 }}>
+          <SearchResults query={q} />
+        </main>
+      </div>
+    );
+  }
+
+  return <Roadmap />;
+}
+
+export default function LearnPage() {
+  return (
+    <Suspense fallback={null}>
+      <LearnPageInner />
+    </Suspense>
   );
 }
