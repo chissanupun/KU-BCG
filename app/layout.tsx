@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { SessionProvider } from "next-auth/react";
+import { UserProvider } from "@/lib/UserContext";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -16,7 +16,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             __html: `(function(){var t=localStorage.getItem('ku-theme')||'dark';document.documentElement.setAttribute('data-theme',t);})()`,
           }}
         />
-        <SessionProvider>{children}</SessionProvider>
+        <UserProvider>{children}</UserProvider>
       </body>
     </html>
   );
