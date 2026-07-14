@@ -1,8 +1,9 @@
 "use client";
 
-import { useSession, signIn, signOut } from "next-auth/react";
 import Link from "next/link";
 import { ThemeToggle } from "./ThemeProvider";
+import { useUser } from "@/lib/UserContext";
+import { apiFetch, googleLoginUrl } from "@/lib/api";
 
 const PRIMARY = "#3b6347";
 
@@ -13,7 +14,21 @@ export default function Sidebar({
   height?: number | string;
   activeNav?: "search" | "recommend" | "admin";
 }) {
-  const { data: session } = useSession();
+  const { user, refetch } = useUser();
+
+  const handleLogin = () => {
+    window.location.href = googleLoginUrl();
+  };
+
+  const handleLogout = async () => {
+    try {
+      await apiFetch("/logout", { method: "POST" });
+    } catch {
+      // best effort — Laravel /logout is SSR-only today, response may not be JSON
+    } finally {
+      await refetch();
+    }
+  };
 
   return (
     <aside
@@ -30,8 +45,8 @@ export default function Sidebar({
           className="rounded-full flex items-center justify-center overflow-hidden shrink-0"
           style={{ width: 36.5, height: 36.5, background: "var(--ku-avatar-bg)", border: "0.5px solid var(--ku-avatar-border)" }}
         >
-          {session?.user?.image ? (
-            <img src={session.user.image} className="w-full h-full object-cover" alt="avatar" />
+          {user?.avatar_url ? (
+            <img src={user.avatar_url} className="w-full h-full object-cover" alt="avatar" />
           ) : (
             <svg style={{ width: 16, height: 16, color: "var(--ku-text-muted)" }} fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
@@ -40,7 +55,7 @@ export default function Sidebar({
         </div>
         <div className="min-w-0">
           <p className="text-[12px] leading-[16px] truncate" style={{ color: "var(--ku-text-faint)" }}>แผนฟรี</p>
-          <p className="text-[12px] leading-[16px] truncate" style={{ color: "var(--ku-text)" }}>{session?.user?.name || "ผู้เยี่ยมชม"}</p>
+          <p className="text-[12px] leading-[16px] truncate" style={{ color: "var(--ku-text)" }}>{user?.name || "ผู้เยี่ยมชม"}</p>
         </div>
       </div>
 
@@ -134,7 +149,7 @@ export default function Sidebar({
         <span className="text-[12px]" style={{ color: "var(--ku-text-faint)" }}>+</span>
       </div>
 
-      {session && (
+      {user && (
         <div className="shrink-0" style={{ paddingLeft: 18.5, paddingRight: 18.5 }}>
           {[
             "สำรวจบทความ\nคอมพิวเตอร์ควอนตัม",
@@ -154,7 +169,7 @@ export default function Sidebar({
 
       <div className="flex-1" />
 
-      {!session && (
+      {!user && (
         <div style={{ padding: "0 18.5px 20px" }}>
           <div
             className="flex flex-col rounded-[21px]"
@@ -165,7 +180,7 @@ export default function Sidebar({
               <p className="text-[12px] leading-[16px]" style={{ color: "var(--ku-text-muted)" }}>การค้นหาหรือ<br />จัดระเบียบงานวิจัย</p>
             </div>
             <button
-              onClick={() => signIn("google", { callbackUrl: "/" })}
+              onClick={handleLogin}
               className="flex items-center justify-center font-medium text-[14px] leading-[20px] text-white rounded-[9px] w-full hover:opacity-90 transition-opacity"
               style={{ background: PRIMARY, boxShadow: "0px 3px 9px rgba(59,99,71,0.3)", height: 44, gap: 4.5 }}
             >
@@ -182,7 +197,7 @@ export default function Sidebar({
         </div>
       )}
 
-      {session && (
+      {user && (
         <div style={{ padding: "0 18.5px 20px" }}>
           <div
             className="flex flex-col rounded-[21px]"
@@ -199,7 +214,7 @@ export default function Sidebar({
               <span>+</span><span>แชทใหม่</span>
             </button>
             <button
-              onClick={() => signOut()}
+              onClick={handleLogout}
               className="text-[12px] leading-[16px] hover:opacity-70 transition-opacity text-center w-full"
               style={{ color: "var(--ku-text-faint)" }}
             >
