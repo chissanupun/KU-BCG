@@ -1,6 +1,11 @@
 "use client";
 
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
+import { apiFetch, ApiError, googleLoginUrl } from "@/lib/api";
+import { useUser } from "@/lib/UserContext";
+import type { SmartPick, SmartPicks } from "@/lib/types";
 import Sidebar from "../components/Sidebar";
 
 const PRIMARY = "#3b6347";
@@ -12,44 +17,9 @@ const fadeIn = (delay: number) => ({
   transition: { duration: 0.35, ease: "easeOut" as const, delay },
 });
 
-const PICKS = [
-  {
-    title: "เว็บเทคโนโลยีเชิงโต้ตอบด้วย JavaScript",
-    info: "~60 ชม. · 4 ระยะ · ระดับเริ่มต้น",
-    source: "KU MOCC",
-    match: "87%",
-    top: true,
-  },
-  {
-    title: "ทฤษฎีสี",
-    info: "~60 ชม. · 4 ระยะ · ระดับเริ่มต้น",
-    source: "KU MOCC",
-    match: "74%",
-    top: false,
-  },
-  {
-    title: "ทฤษฎีสี",
-    info: "~60 ชม. · 4 ระยะ · ระดับเริ่มต้น",
-    source: "KU MOCC",
-    match: "68%",
-    top: false,
-  },
-  {
-    title: "ทฤษฎีสี",
-    info: "~60 ชม. · 4 ระยะ · ระดับเริ่มต้น",
-    source: "KU MOCC",
-    match: "61%",
-    top: false,
-  },
-];
-
-function PickCard({ pick, index }: { pick: typeof PICKS[0]; index: number }) {
-  const isTop = pick.top;
+function PickCard({ pick, index, isTop, onOpen }: { pick: SmartPick; index: number; isTop: boolean; onOpen: () => void }) {
   return (
-    <motion.div
-      {...fadeIn(0.22 + index * 0.07)}
-      style={{ position: "relative", marginBottom: 16 }}
-    >
+    <motion.div {...fadeIn(0.22 + index * 0.07)} style={{ position: "relative", marginBottom: 16 }}>
       {isTop && (
         <div style={{
           position: "absolute", top: -13, left: 22, zIndex: 1,
@@ -60,7 +30,7 @@ function PickCard({ pick, index }: { pick: typeof PICKS[0]; index: number }) {
           display: "flex", alignItems: "center",
           fontFamily: FONT,
         }}>
-          ตรงที่สุด {pick.match}
+          ตรงที่สุด {pick.match}%
         </div>
       )}
       <motion.div
@@ -84,6 +54,7 @@ function PickCard({ pick, index }: { pick: typeof PICKS[0]; index: number }) {
             {pick.title}
           </p>
           <button
+            onClick={onOpen}
             style={{
               flexShrink: 0,
               height: 26, paddingLeft: 16, paddingRight: 16, borderRadius: 6,
@@ -97,10 +68,18 @@ function PickCard({ pick, index }: { pick: typeof PICKS[0]; index: number }) {
           </button>
         </div>
 
-        {/* Hours info */}
+        {/* Document facts */}
         <p style={{ fontSize: 15, color: "var(--ku-text-muted)", fontFamily: FONT, lineHeight: "22px" }}>
           {pick.info}
+          {!isTop && pick.match > 0 && ` · ตรงกับคุณ ${pick.match}%`}
         </p>
+
+        {/* Why this was picked — the signals that actually fired */}
+        {pick.reasons.map((reason, i) => (
+          <p key={i} style={{ fontSize: 13, color: "var(--ku-text-muted)", fontFamily: FONT, lineHeight: "20px" }}>
+            {reason}
+          </p>
+        ))}
 
         {/* Source tag */}
         <div style={{ display: "inline-flex" }}>
@@ -119,6 +98,49 @@ function PickCard({ pick, index }: { pick: typeof PICKS[0]; index: number }) {
 }
 
 export default function SmartPicksPage() {
+  const router = useRouter();
+  const { user, loading: userLoading } = useUser();
+  const [picks, setPicks] = useState<SmartPicks | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<{ status?: number; message: string } | null>(null);
+
+  useEffect(() => {
+    if (userLoading) return;
+    if (!user) {
+      setLoading(false);
+      setError({ status: 401, message: "กรุณาเข้าสู่ระบบเพื่อดูคำแนะนำ" });
+      return;
+    }
+
+    let cancelled = false;
+    setLoading(true);
+    setError(null);
+
+    apiFetch<{ smart_picks: SmartPicks }>("/api/smart-picks")
+      .then((json) => {
+        if (!cancelled) setPicks(json.smart_picks);
+      })
+      .catch((err: unknown) => {
+        if (cancelled) return;
+        if (err instanceof ApiError && err.status === 403) {
+          setError({ status: 403, message: "กรุณากรอกข้อมูลโปรไฟล์ให้ครบก่อน" });
+        } else if (err instanceof ApiError && err.status === 401) {
+          setError({ status: 401, message: "กรุณาเข้าสู่ระบบเพื่อดูคำแนะนำ" });
+        } else {
+          setError({ message: "ไม่สามารถโหลดคำแนะนำได้" });
+        }
+      })
+      .finally(() => {
+        if (!cancelled) setLoading(false);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [user, userLoading]);
+
+  const items = picks?.items ?? [];
+
   return (
     <div style={{ width: 1440, height: 900, display: "flex", overflow: "hidden", background: "var(--ku-bg)" }}>
       {/* Sidebar */}
@@ -159,7 +181,7 @@ export default function SmartPicksPage() {
           สำรวจคอร์สที่คัดสรรมาเพื่อเส้นทางการเรียนรู้ของคุณโดยเฉพาะ
         </motion.p>
 
-        {/* Info box */}
+        {/* Info box — carries the actual derivation, not a fixed sentence */}
         <motion.div
           {...fadeIn(0.12)}
           style={{
@@ -171,7 +193,9 @@ export default function SmartPicksPage() {
         >
           <p style={{ fontSize: 15, fontWeight: 700, color: PRIMARY, fontFamily: FONT }}>
             ทำไมถึงแนะนำสิ่งเหล่านี้?{" "}
-            <span style={{ fontWeight: 400 }}>คำแนะนำขึ้นอยู่กับประวัติการเรียนและทักษะของคุณ</span>
+            <span style={{ fontWeight: 400 }}>
+              {picks?.reason ?? "คำแนะนำขึ้นอยู่กับประวัติการเรียนและทักษะของคุณ"}
+            </span>
           </p>
         </motion.div>
 
@@ -183,10 +207,47 @@ export default function SmartPicksPage() {
           TOP PICKS
         </motion.p>
 
-        {/* Cards */}
-        {PICKS.map((pick, i) => (
-          <PickCard key={`${pick.title}-${i}`} pick={pick} index={i} />
-        ))}
+        {loading || userLoading ? (
+          <p style={{ fontSize: 15, color: "var(--ku-text-muted)", fontFamily: FONT }}>กำลังวิเคราะห์ความสนใจของคุณ...</p>
+        ) : error ? (
+          <div>
+            <p style={{ fontSize: 15, color: "#dc2626", fontFamily: FONT }}>{error.message}</p>
+            {error.status === 401 && (
+              <button
+                onClick={() => {
+                  window.location.href = googleLoginUrl();
+                }}
+                className="hover:opacity-90 active:scale-[0.98] transition-all"
+                style={{ marginTop: 12, background: PRIMARY, color: "white", fontSize: 14, borderRadius: 8, padding: "10px 20px", fontFamily: FONT }}
+              >
+                เข้าสู่ระบบด้วย Google
+              </button>
+            )}
+            {error.status === 403 && (
+              <button
+                onClick={() => router.push("/register")}
+                className="hover:opacity-90 active:scale-[0.98] transition-all"
+                style={{ marginTop: 12, background: PRIMARY, color: "white", fontSize: 14, borderRadius: 8, padding: "10px 20px", fontFamily: FONT }}
+              >
+                ไปกรอกโปรไฟล์
+              </button>
+            )}
+          </div>
+        ) : items.length === 0 ? (
+          <p style={{ fontSize: 15, color: "var(--ku-text-muted)", fontFamily: FONT }}>
+            ยังไม่มีคำแนะนำ — ลองค้นหาหัวข้อที่สนใจสักครั้งแล้วกลับมาดูใหม่
+          </p>
+        ) : (
+          items.map((pick, i) => (
+            <PickCard
+              key={`${pick.url || pick.title}-${i}`}
+              pick={pick}
+              index={i}
+              isTop={i === 0}
+              onOpen={() => router.push(`/learn?q=${encodeURIComponent(pick.query)}`)}
+            />
+          ))
+        )}
         </div>
       </div>
     </div>
