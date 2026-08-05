@@ -85,19 +85,16 @@ export default function SearchResults({ query }: { query: string }) {
   }, [query, user, userLoading]);
 
   const geminiActive = (result?._meta?.calls ?? 0) > 0;
+  const activeTabLabel = TABS.find((t) => t.key === tab)!.label;
 
   return (
-    <div style={{ width: 928, margin: "0 auto", paddingTop: 40, paddingBottom: 80 }}>
-      <motion.h1 {...fadeIn(0)} style={{ fontFamily: FONT, fontSize: 22, fontWeight: 600, color: "var(--ku-text)" }}>
-        {result?.title ? result.title : `ผลการค้นหา: “${query}”`}
-      </motion.h1>
-
+    <div style={{ maxWidth: 928, position: "relative" }}>
       {(loading || userLoading) && (
-        <p style={{ fontFamily: FONT, fontSize: 14, color: "var(--ku-text-muted)", marginTop: 16 }}>กำลังค้นหา...</p>
+        <p style={{ fontFamily: FONT, fontSize: 14, color: "var(--ku-text-muted)" }}>กำลังค้นหา...</p>
       )}
 
       {error && !loading && !userLoading && (
-        <div style={{ marginTop: 16 }}>
+        <div>
           <p style={{ fontFamily: FONT, fontSize: 14, color: "#dc2626" }}>{error.message}</p>
           {error.status === 401 && (
             <button
@@ -123,80 +120,98 @@ export default function SearchResults({ query }: { query: string }) {
 
       {!loading && !userLoading && !error && result && (
         <>
-          {/* Badges */}
-          <div className="flex items-center flex-wrap" style={{ gap: 8, marginTop: 12 }}>
+          {/* Topic tag — single small badge in the top-right corner, matching the "HTML Semantics" tag slot in the reference frames */}
+          <div
+            style={{
+              position: "absolute", top: 0, right: 0,
+              background: "#eee", borderRadius: 5, padding: "8px 14px",
+              display: "flex", alignItems: "center", gap: 6,
+            }}
+          >
             {result.tier && (
-              <span
-                style={{
-                  fontFamily: FONT, fontSize: 12, fontWeight: 600, color: "white",
-                  background: TIER_COLOR[result.tier] ?? "#6b7280", borderRadius: 6, padding: "3px 10px",
-                }}
-              >
+              <span style={{ fontFamily: FONT, fontSize: 11, fontWeight: 600, color: TIER_COLOR[result.tier] ?? "#6b7280" }}>
                 {result.tier}
               </span>
             )}
-            <span
-              style={{
-                fontFamily: FONT, fontSize: 12, color: "var(--ku-text-muted)",
-                background: "var(--ku-tag-bg)", border: "0.5px solid var(--ku-tag-border)", borderRadius: 6, padding: "3px 10px",
-              }}
-            >
+            {result.tier && <span style={{ color: "var(--ku-text-faint)", fontSize: 11 }}>·</span>}
+            <span style={{ fontFamily: FONT, fontSize: 13, color: "var(--ku-text)" }}>
               {geminiActive ? "AI synthesis" : "heuristic fallback"}
             </span>
           </div>
 
-          {/* Tabs */}
-          <div className="flex" style={{ gap: 4, marginTop: 20, borderBottom: "0.5px solid var(--ku-card-border)" }}>
-            {TABS.map((t) => (
-              <button
-                key={t.key}
-                onClick={() => setTab(t.key)}
-                style={{
-                  fontFamily: FONT, fontSize: 13, fontWeight: tab === t.key ? 600 : 400,
-                  color: tab === t.key ? PRIMARY : "var(--ku-text-muted)",
-                  padding: "10px 16px",
-                  borderBottom: tab === t.key ? `2px solid ${PRIMARY}` : "2px solid transparent",
-                  marginBottom: -1,
-                }}
-              >
-                {t.label}
-              </button>
-            ))}
+          {/* Overview box — compact summary card, same chrome as the topic page's time/meter box */}
+          {result.overview.intro && (
+            <motion.div
+              {...fadeIn(0.03)}
+              style={{
+                background: "var(--ku-overview-bg)", border: "0.5px solid var(--ku-overview-border)",
+                borderRadius: 5, padding: "16px 24px", maxWidth: 569, marginTop: 44,
+              }}
+            >
+              <p style={{ fontFamily: FONT, fontSize: 16, lineHeight: "24px", color: "var(--ku-text)" }}>{result.overview.intro}</p>
+            </motion.div>
+          )}
+
+          {/* Tab pill + adjacent title, mirroring the "Overview / Introduction" pill next to the topic title */}
+          <div className="flex items-center" style={{ gap: 14, marginTop: 20 }}>
+            {TABS.map((t) => {
+              const active = tab === t.key;
+              return (
+                <button
+                  key={t.key}
+                  onClick={() => setTab(t.key)}
+                  style={{
+                    fontFamily: FONT, fontSize: 13, fontWeight: 600,
+                    height: 29, padding: "0 14px", borderRadius: 6,
+                    background: active ? PRIMARY : "transparent",
+                    color: active ? "#ffffff" : "var(--ku-text-muted)",
+                    boxShadow: active ? "var(--ku-badge-shadow)" : "none",
+                    flexShrink: 0,
+                  }}
+                >
+                  {t.label}
+                </button>
+              );
+            })}
+            <motion.p
+              key={result.title ?? query}
+              {...fadeIn(0.05)}
+              style={{ fontFamily: FONT, fontSize: 16, fontWeight: 600, color: "var(--ku-text)" }}
+            >
+              {result.title ?? query}
+            </motion.p>
           </div>
 
           {/* Overview tab */}
           {tab === "overview" && (
-            <div style={{ marginTop: 24 }}>
-              <motion.div
-                {...fadeIn(0.03)}
-                style={{
-                  background: "var(--ku-overview-bg)", border: "0.5px solid var(--ku-overview-border)",
-                  borderRadius: 10, padding: "16px 20px",
-                }}
-              >
-                {result.overview.intro && (
-                  <p style={{ fontFamily: FONT, fontSize: 14, lineHeight: "22px", color: "var(--ku-text)" }}>{result.overview.intro}</p>
-                )}
-                {result.overview.analogy && (
-                  <p style={{ fontFamily: FONT, fontSize: 13, lineHeight: "20px", color: "var(--ku-text-muted)", marginTop: 10 }}>
-                    {result.overview.analogy}
-                  </p>
-                )}
-                {result.overview.research_basis && (
-                  <p style={{ fontFamily: FONT, fontSize: 12, lineHeight: "18px", color: "var(--ku-text-faint)", marginTop: 10 }}>
+            <div style={{ marginTop: 20 }}>
+              {result.overview.analogy && (
+                <motion.p {...fadeIn(0.08)} style={{ fontFamily: FONT, fontSize: 16, lineHeight: "24px", color: "var(--ku-text)", maxWidth: 620 }}>
+                  {result.overview.analogy}
+                </motion.p>
+              )}
+
+              {result.overview.research_basis && (
+                <>
+                  <div style={{ width: "100%", maxWidth: 562, height: 1, background: "var(--ku-divider-line)", opacity: 0.5, margin: "22px 0" }} />
+                  <motion.p {...fadeIn(0.1)} style={{ fontFamily: FONT, fontSize: 13, lineHeight: "21px", color: "var(--ku-text-muted)", maxWidth: 500 }}>
                     {result.overview.research_basis}
-                  </p>
-                )}
-                {result.overview.expert && (
-                  <p style={{ fontFamily: FONT, fontSize: 12, lineHeight: "18px", color: "var(--ku-text-faint)", marginTop: 4 }}>
+                  </motion.p>
+                </>
+              )}
+
+              {result.overview.expert && (
+                <>
+                  <div style={{ width: "100%", maxWidth: 562, height: 1, background: "var(--ku-divider-line)", opacity: 0.5, margin: "22px 0" }} />
+                  <motion.p {...fadeIn(0.12)} style={{ fontFamily: FONT, fontSize: 14, lineHeight: "24px", color: "var(--ku-text)", maxWidth: 500 }}>
                     {result.overview.expert}
-                  </p>
-                )}
-              </motion.div>
+                  </motion.p>
+                </>
+              )}
 
               {result.evidence.length > 0 && (
-                <div style={{ marginTop: 28 }}>
-                  <motion.h2 {...fadeIn(0.05)} style={{ fontFamily: FONT, fontSize: 15, fontWeight: 600, color: PRIMARY, marginBottom: 12 }}>
+                <div style={{ marginTop: 32 }}>
+                  <motion.h2 {...fadeIn(0.14)} style={{ fontFamily: FONT, fontSize: 15, fontWeight: 600, color: PRIMARY, marginBottom: 12 }}>
                     หลักฐานอ้างอิง ({result.evidence.length})
                   </motion.h2>
                   <div className="flex flex-col" style={{ gap: 12 }}>
@@ -206,7 +221,7 @@ export default function SearchResults({ query }: { query: string }) {
                         href={item.url}
                         target="_blank"
                         rel="noreferrer"
-                        {...fadeIn(0.07 + i * 0.02)}
+                        {...fadeIn(0.16 + i * 0.02)}
                         className="block"
                         style={{
                           background: "var(--ku-card-bg)", border: "0.5px solid var(--ku-card-border)",
@@ -248,19 +263,39 @@ export default function SearchResults({ query }: { query: string }) {
 
           {/* Graph tab */}
           {tab === "graph" && (
-            <div style={{ marginTop: 24 }}>
+            <div style={{ marginTop: 20 }}>
               {result.knowledge_graph.description && (
-                <p style={{ fontFamily: FONT, fontSize: 13, color: "var(--ku-text-muted)", marginBottom: 12 }}>
+                <p style={{ fontFamily: FONT, fontSize: 16, lineHeight: "24px", color: "var(--ku-text)", marginBottom: 20, maxWidth: 620 }}>
                   {result.knowledge_graph.description}
                 </p>
               )}
-              <KnowledgeGraphView graph={result.knowledge_graph} />
+              <div style={{
+                borderRadius: 20, overflow: "hidden",
+                border: "0.5px solid var(--ku-card-border)", background: "var(--ku-card-bg)",
+                padding: "16px 0 10px", position: "relative",
+              }}>
+                <div style={{ position: "absolute", top: 12, right: 12, display: "flex", gap: 6, zIndex: 1 }}>
+                  {["ตัวกรอง", "ขยาย"].map((label) => (
+                    <button
+                      key={label}
+                      style={{
+                        height: 28, paddingLeft: 10, paddingRight: 10, borderRadius: 6,
+                        border: "0.5px solid var(--ku-card-border)", background: "var(--ku-bg)",
+                        fontSize: 11, color: "var(--ku-text-muted)", cursor: "pointer", fontFamily: FONT,
+                      }}
+                    >
+                      {label}
+                    </button>
+                  ))}
+                </div>
+                <KnowledgeGraphView graph={result.knowledge_graph} />
+              </div>
             </div>
           )}
 
           {/* Learning tab */}
           {tab === "learning" && (
-            <div style={{ marginTop: 24 }}>
+            <div style={{ marginTop: 20 }}>
               <p style={{ fontFamily: FONT, fontSize: 13, color: "var(--ku-text-muted)" }}>
                 ประมาณ {result.learning_path.estimated_hours} ชั่วโมง
                 {result.learning_path.subtitle ? ` · ${result.learning_path.subtitle}` : ""}

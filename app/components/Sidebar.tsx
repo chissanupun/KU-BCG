@@ -1,8 +1,10 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { ThemeToggle } from "./ThemeProvider";
 import { useUser } from "@/lib/UserContext";
+import { useSearchHistory } from "@/lib/SearchHistoryContext";
 import { apiFetch, googleLoginUrl } from "@/lib/api";
 
 const PRIMARY = "#3b6347";
@@ -15,6 +17,16 @@ export default function Sidebar({
   activeNav?: "search" | "recommend" | "admin";
 }) {
   const { user, refetch } = useUser();
+  const { items: recentSearches } = useSearchHistory();
+
+  /**
+   * Google avatar URLs intermittently fail to load in-browser (hotlink throttling
+   * on lh3.googleusercontent.com). The broken-image glyph escapes the 36.5px
+   * circle, so a failed load falls back to the placeholder instead.
+   */
+  const [avatarFailed, setAvatarFailed] = useState(false);
+  useEffect(() => setAvatarFailed(false), [user?.avatar_url]);
+  const showAvatar = Boolean(user?.avatar_url) && !avatarFailed;
 
   const handleLogin = () => {
     window.location.href = googleLoginUrl();
@@ -45,8 +57,18 @@ export default function Sidebar({
           className="rounded-full flex items-center justify-center overflow-hidden shrink-0"
           style={{ width: 36.5, height: 36.5, background: "var(--ku-avatar-bg)", border: "0.5px solid var(--ku-avatar-border)" }}
         >
-          {user?.avatar_url ? (
-            <img src={user.avatar_url} className="w-full h-full object-cover" alt="avatar" />
+          {showAvatar ? (
+            <img
+              src={user!.avatar_url!}
+              width={36.5}
+              height={36.5}
+              // Google rejects hotlinks carrying a localhost referrer.
+              referrerPolicy="no-referrer"
+              onError={() => setAvatarFailed(true)}
+              className="w-full h-full object-cover"
+              style={{ display: "block", maxWidth: "100%" }}
+              alt=""
+            />
           ) : (
             <svg style={{ width: 16, height: 16, color: "var(--ku-text-muted)" }} fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
@@ -146,28 +168,36 @@ export default function Sidebar({
         style={{ paddingLeft: 18.5 + 15, paddingRight: 18.5 + 3, paddingTop: 12, paddingBottom: 12 }}
       >
         <p className="flex-1 text-[12px] leading-[16px]" style={{ color: "var(--ku-text-faint)" }}>ล่าสุด</p>
-        <span className="text-[12px]" style={{ color: "var(--ku-text-faint)" }}>+</span>
+        <Link href="/" aria-label="ค้นหาใหม่" className="text-[12px] hover:opacity-70 transition-opacity" style={{ color: "var(--ku-text-faint)", textDecoration: "none" }}>+</Link>
       </div>
 
-      {user && (
-        <div className="shrink-0" style={{ paddingLeft: 18.5, paddingRight: 18.5 }}>
-          {[
-            "สำรวจบทความ\nคอมพิวเตอร์ควอนตัม",
-            "สรุปการเปลี่ยนแปลง\nสภาพภูมิอากาศ 2024",
-            "ผลการวิจัยสำคัญ\nด้านโครงข่ายประสาท",
-          ].map((item, i) => (
-            <button
-              key={i}
+      {user ? (
+        <div style={{ flex: "1 1 auto", minHeight: 0, overflowY: "auto", paddingLeft: 18.5, paddingRight: 18.5 }}>
+          {recentSearches.map((item) => (
+            <Link
+              key={item.id}
+              href={`/learn?h=${item.id}`}
+              title={item.query}
               className="flex w-full rounded-[9px] transition-all text-left hover:bg-[var(--ku-hover-bg)]"
-              style={{ paddingLeft: 15, paddingRight: 3, paddingTop: 12, paddingBottom: 12 }}
+              style={{ paddingLeft: 15, paddingRight: 3, paddingTop: 12, paddingBottom: 12, textDecoration: "none" }}
             >
-              <span className="text-[12px] leading-[16px] whitespace-pre-line" style={{ color: "var(--ku-text-muted)", width: 128 }}>{item}</span>
-            </button>
+              {/* Queries are free text, so clamp to the two lines the fixed 195px rail allows. */}
+              <span
+                className="text-[12px] leading-[16px]"
+                style={{
+                  color: "var(--ku-text-muted)", width: 128,
+                  display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical",
+                  overflow: "hidden", overflowWrap: "anywhere",
+                }}
+              >
+                {item.query}
+              </span>
+            </Link>
           ))}
         </div>
+      ) : (
+        <div className="flex-1" />
       )}
-
-      <div className="flex-1" />
 
       {!user && (
         <div style={{ padding: "0 18.5px 20px" }}>
@@ -207,12 +237,13 @@ export default function Sidebar({
               <p className="text-[12px] leading-[16px] font-medium" style={{ color: "var(--ku-text)" }}>เริ่มต้นกันเลย!</p>
               <p className="text-[12px] leading-[16px]" style={{ color: "var(--ku-text-muted)" }}>การค้นหาหรือ<br />จัดระเบียบงานวิจัย</p>
             </div>
-            <button
+            <Link
+              href="/"
               className="flex items-center justify-center font-medium text-[14px] leading-[20px] text-white rounded-[9px] w-full hover:opacity-90 transition-opacity"
-              style={{ background: PRIMARY, boxShadow: "0px 3px 9px rgba(59,99,71,0.3)", height: 44, gap: 4.5 }}
+              style={{ background: PRIMARY, boxShadow: "0px 3px 9px rgba(59,99,71,0.3)", height: 44, gap: 4.5, textDecoration: "none" }}
             >
               <span>+</span><span>แชทใหม่</span>
-            </button>
+            </Link>
             <button
               onClick={handleLogout}
               className="text-[12px] leading-[16px] hover:opacity-70 transition-opacity text-center w-full"
