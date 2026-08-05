@@ -46,6 +46,14 @@ export type LearningModule = {
   title: string;
   hours: string;
   desc: string;
+  /** Source document link. Absent on LLM-synthesized modules, which have no single source. */
+  url?: string;
+  /** Per-document fields the topic detail page renders. Absent on synthesized modules. */
+  abstract?: string;
+  authors?: string[];
+  year?: string;
+  source?: string;
+  keywords?: string[];
 };
 
 export type LearningPhase = {
@@ -92,4 +100,20 @@ export type SearchHistory = {
   result: GraphRagResult | null;
   created_at: string;
   updated_at: string;
+};
+
+/** GET /api/search/recent — sidebar list. Max 10, newest first. */
+export type RecentSearch = {
+  id: number;
+  query: string;
+  created_at: string;
+};
+
+/** GET /api/search/history/{id} — replays a cached result without re-running the pipeline. */
+export type SearchHistoryDetail = {
+  id: number;
+  query: string;
+  tab: "overview" | "graph" | "learning";
+  result: GraphRagResult | null;
+  created_at: string;
 };

@@ -236,7 +236,7 @@ export default function KnowledgeGraphView({ graph }: { graph: KnowledgeGraph })
   return (
     <svg
       ref={svgRef}
-      style={{ width: "100%", height: 360, background: "var(--ku-card-bg)", border: "0.5px solid var(--ku-card-border)", borderRadius: 10 }}
+      style={{ width: "100%", height: 360, display: "block" }}
     />
   );
 }

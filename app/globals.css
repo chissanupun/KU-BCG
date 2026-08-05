@@ -96,6 +96,12 @@ input::placeholder {
   border-radius: 4px;
 }
 
+/* The caret is the focus indicator for the search field — a ring on top of it
+   reads as a second box around an already-outlined bar. */
+.search-input:focus-visible {
+  outline: none;
+}
+
 button, a, input {
   -webkit-tap-highlight-color: transparent;
 }

@@ -15,6 +15,17 @@ export function ensureCsrfCookie(): Promise<void> {
   return csrfReady;
 }
 
+/**
+ * Drops the memoized token so the next state-changing request re-fetches it.
+ *
+ * Laravel expires sessions after `SESSION_LIFETIME` (120 min) and issues a fresh
+ * one; a long-lived SPA tab would otherwise keep sending the retired token and
+ * get 419 on every write until a full reload.
+ */
+export function resetCsrfCookie(): void {
+  csrfReady = null;
+}
+
 export class ApiError extends Error {
   status: number;
   body: unknown;
@@ -30,7 +41,7 @@ type ApiFetchOptions = {
   body?: unknown;
 };
 
-export async function apiFetch<T>(path: string, options: ApiFetchOptions = {}): Promise<T> {
+export async function apiFetch<T>(path: string, options: ApiFetchOptions = {}, retriedCsrf = false): Promise<T> {
   const method = options.method ?? "GET";
 
   if (method !== "GET") {
@@ -54,6 +65,14 @@ export async function apiFetch<T>(path: string, options: ApiFetchOptions = {}): 
     headers,
     body: options.body !== undefined ? JSON.stringify(options.body) : undefined,
   });
+
+  // 419 means the session rotated under us. Re-fetch the token and replay once —
+  // the request never reached the controller, so there is nothing to duplicate.
+  if (res.status === 419 && method !== "GET" && !retriedCsrf) {
+    resetCsrfCookie();
+    await ensureCsrfCookie();
+    return apiFetch<T>(path, options, true);
+  }
 
   if (res.status === 204) return undefined as T;
 

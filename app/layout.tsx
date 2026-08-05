@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { UserProvider } from "@/lib/UserContext";
+import { SearchHistoryProvider } from "@/lib/SearchHistoryContext";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -16,7 +17,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             __html: `(function(){var t=localStorage.getItem('ku-theme')||'dark';document.documentElement.setAttribute('data-theme',t);})()`,
           }}
         />
-        <UserProvider>{children}</UserProvider>
+        <UserProvider>
+          <SearchHistoryProvider>{children}</SearchHistoryProvider>
+        </UserProvider>
       </body>
     </html>
   );
