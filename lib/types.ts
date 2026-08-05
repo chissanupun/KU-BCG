@@ -102,6 +102,30 @@ export type SearchHistory = {
   updated_at: string;
 };
 
+/** One personalized recommendation from GET /api/smart-picks. */
+export type SmartPick = {
+  title: string;
+  /** Real document facts — year · topic · keyword count. */
+  info: string;
+  source: string;
+  /** 0–100, relative to the strongest candidate in this response. */
+  match: number;
+  /** Why this was recommended, citing the signal that fired. */
+  reasons: string[];
+  keywords: string[];
+  url: string;
+  /** Search term that re-runs this pick as a roadmap. */
+  query: string;
+};
+
+export type SmartPicks = {
+  headline: string;
+  /** How the whole set was derived — shown in the info box. */
+  reason: string;
+  generated_at: string;
+  items: SmartPick[];
+};
+
 /** GET /api/search/recent — sidebar list. Max 10, newest first. */
 export type RecentSearch = {
   id: number;
