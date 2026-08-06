@@ -2,11 +2,23 @@
 
 import { motion } from "framer-motion";
 import type { RoadmapPhase } from "@/lib/roadmap";
+import type { RoadmapProgress } from "@/lib/useLearningProgress";
 import { PRIMARY, FONT, CARD_GAP, fadeIn } from "./tokens";
 import BubbleCard from "./BubbleCard";
 
-export default function PhaseSection({ phase, index }: { phase: RoadmapPhase; index: number }) {
+export default function PhaseSection({
+  phase,
+  index,
+  progress,
+}: {
+  phase: RoadmapPhase;
+  index: number;
+  /** Absent on the curated roadmap, which records no progress. */
+  progress?: RoadmapProgress;
+}) {
   const base = 0.14 + index * 0.07;
+  const phaseIndex = phase.phaseIndex;
+  const trackable = progress !== undefined && phaseIndex !== undefined;
 
   return (
     <div style={{ marginTop: index === 0 ? 37 : 35 }}>
@@ -45,9 +57,18 @@ export default function PhaseSection({ phase, index }: { phase: RoadmapPhase; in
       )}
 
       <div className="flex flex-wrap items-stretch" style={{ gap: CARD_GAP, marginTop: 32 }}>
-        {phase.cards.map((card, ci) => (
-          <BubbleCard key={`${card.title}-${ci}`} card={card} delay={base + 0.06 + ci * 0.055} />
-        ))}
+        {phase.cards.map((card, ci) => {
+          const cardIndex = card.cardIndex ?? ci;
+          return (
+            <BubbleCard
+              key={`${card.title}-${ci}`}
+              card={card}
+              delay={base + 0.06 + ci * 0.055}
+              completed={trackable ? progress!.done(phaseIndex!, cardIndex) : false}
+              onToggle={trackable ? () => progress!.toggle(phaseIndex!, cardIndex) : undefined}
+            />
+          );
+        })}
       </div>
     </div>
   );

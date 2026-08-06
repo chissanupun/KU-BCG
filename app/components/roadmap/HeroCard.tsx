@@ -8,11 +8,17 @@ export default function HeroCard({
   estimatedHours,
   description,
   progress,
+  completedCount,
+  total,
 }: {
   estimatedHours: string;
   description: string;
   progress?: number;
+  /** Shown under the track once progress is trackable, i.e. `total` > 0. */
+  completedCount?: number;
+  total?: number;
 }) {
+  const countable = typeof total === "number" && total > 0;
   return (
     <motion.div
       {...fadeIn(0.06)}
@@ -35,6 +41,11 @@ export default function HeroCard({
       )}
       <div style={{ marginTop: "auto", paddingTop: 20 }}>
         <ProgressBar progress={progress} />
+        {countable && (
+          <p style={{ fontFamily: FONT, fontSize: 12, lineHeight: "18px", color: "var(--ku-text-muted)", marginTop: 8 }}>
+            {`เรียนจบแล้ว ${completedCount ?? 0}/${total} หัวข้อ · ${progress ?? 0}%`}
+          </p>
+        )}
       </div>
     </motion.div>
   );

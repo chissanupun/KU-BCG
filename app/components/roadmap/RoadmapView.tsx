@@ -4,6 +4,7 @@ import type { ReactNode } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import type { Roadmap } from "@/lib/roadmap";
+import type { RoadmapProgress } from "@/lib/useLearningProgress";
 import Sidebar from "../Sidebar";
 import { FONT, COLUMN_LEFT, COLUMN_WIDTH, COLUMN_TOP, fadeIn } from "./tokens";
 import HeroCard from "./HeroCard";
@@ -15,14 +16,30 @@ import PhaseSection from "./PhaseSection";
  * body for a loading/error message while keeping the chrome identical, so a
  * pending search never looks like a different page.
  */
-export default function RoadmapView({ roadmap, notice }: { roadmap?: Roadmap | null; notice?: ReactNode }) {
+export default function RoadmapView({
+  roadmap,
+  notice,
+  progress,
+}: {
+  roadmap?: Roadmap | null;
+  notice?: ReactNode;
+  /**
+   * Live completion state. Absent for the curated roadmap, which has no stored
+   * row — that one keeps whatever static `roadmap.progress` it declares.
+   */
+  progress?: RoadmapProgress;
+}) {
+  // The shell tracks the viewport rather than the 900px design canvas: on a
+  // shorter window the fixed height pushed the sidebar's footer below the fold
+  // and left the document itself scrollable, so clicking anything scrolled the
+  // whole page. The right column scrolls its own content instead.
   return (
-    <div style={{ width: 1440, height: 900, display: "flex", overflow: "hidden", background: "var(--ku-bg)" }}>
-      <div style={{ width: 195, height: 900, flexShrink: 0 }}>
-        <Sidebar height={900} />
+    <div style={{ width: 1440, height: "100dvh", display: "flex", overflow: "hidden", background: "var(--ku-bg)" }}>
+      <div style={{ width: 195, height: "100dvh", flexShrink: 0 }}>
+        <Sidebar height="100dvh" />
       </div>
 
-      <div style={{ flex: 1, height: 900, overflowY: "auto", position: "relative" }}>
+      <div style={{ flex: 1, height: "100dvh", overflowY: "auto", position: "relative" }}>
         <div style={{ position: "absolute", right: 13, top: 11, width: 114, height: 124, zIndex: 10 }}>
           <Image src="/ku-bcg.png" alt="KU Phumpanya" width={114} height={124} className="object-contain ku-logo" unoptimized />
         </div>
@@ -50,12 +67,14 @@ export default function RoadmapView({ roadmap, notice }: { roadmap?: Roadmap | n
               <HeroCard
                 estimatedHours={roadmap.estimatedHours}
                 description={roadmap.description}
-                progress={roadmap.progress}
+                progress={progress ? progress.percent : roadmap.progress}
+                completedCount={progress?.completedCount}
+                total={progress?.total}
               />
 
               {roadmap.phases.length > 0 ? (
                 roadmap.phases.map((phase, i) => (
-                  <PhaseSection key={`${phase.title}-${i}`} phase={phase} index={i} />
+                  <PhaseSection key={`${phase.title}-${i}`} phase={phase} index={i} progress={progress} />
                 ))
               ) : (
                 <p style={{ fontFamily: FONT, fontSize: 14, color: "var(--ku-text-muted)", marginTop: 37 }}>

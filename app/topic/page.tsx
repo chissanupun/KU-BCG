@@ -4,6 +4,7 @@ import { Suspense, useMemo } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { googleLoginUrl } from "@/lib/api";
 import { useSearchResult } from "@/lib/useSearchResult";
+import { useLearningProgress } from "@/lib/useLearningProgress";
 import { DEFAULT_TOPICS, DEFAULT_TOPIC_SLUG, topicFromGraphRag } from "@/lib/topic";
 import TopicView from "../components/topic/TopicView";
 
@@ -32,6 +33,18 @@ function TopicPageInner() {
     () => (result ? topicFromGraphRag(result, phaseIndex, cardIndex) : null),
     [result, phaseIndex, cardIndex],
   );
+
+  // Same rows the roadmap reads, so ticking here moves the bar on /learn too.
+  const { percent, completedCount, total, done, toggle, enabled } = useLearningProgress(historyId);
+  const progress = enabled
+    ? {
+        percent,
+        completedCount,
+        total,
+        completed: done(phaseIndex, cardIndex),
+        onToggle: () => toggle(phaseIndex, cardIndex),
+      }
+    : undefined;
 
   if (historyId === undefined) {
     return <TopicView detail={DEFAULT_TOPICS[slug] ?? DEFAULT_TOPICS[DEFAULT_TOPIC_SLUG]} />;
@@ -77,7 +90,7 @@ function TopicPageInner() {
     return <TopicView notice={<span style={{ color: "var(--ku-text-muted)" }}>ไม่พบหัวข้อนี้ในเส้นทางการเรียนรู้</span>} />;
   }
 
-  return <TopicView detail={detail} />;
+  return <TopicView detail={detail} progress={progress} />;
 }
 
 export default function TopicPage() {

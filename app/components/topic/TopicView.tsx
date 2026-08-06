@@ -1,12 +1,26 @@
 "use client";
 
-import type { ReactNode } from "react";
+import { useState, type ReactNode } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import type { TopicDetail } from "@/lib/topic";
 import Sidebar from "../Sidebar";
 import { PRIMARY, FONT, fadeIn } from "../roadmap/tokens";
+import CompleteToggle from "../roadmap/CompleteToggle";
 import MindMap from "./MindMap";
+
+/**
+ * Progress for the roadmap this card belongs to. `completed` is this card alone;
+ * the percentage and counts cover the whole roadmap, so the bar here reads the
+ * same as the one on /learn.
+ */
+export type TopicProgress = {
+  percent?: number;
+  completedCount: number;
+  total: number;
+  completed: boolean;
+  onToggle: () => void;
+};
 
 /**
  * The single topic-detail renderer. The curated default and any GraphRAG card
@@ -16,14 +30,27 @@ import MindMap from "./MindMap";
  * Blocks with no data (research, expert, tags, mind map) are omitted rather than
  * rendered empty, the same rule the roadmap's progress track follows.
  */
-export default function TopicView({ detail, notice }: { detail?: TopicDetail | null; notice?: ReactNode }) {
+export default function TopicView({
+  detail,
+  notice,
+  progress,
+}: {
+  detail?: TopicDetail | null;
+  notice?: ReactNode;
+  /** Absent on curated topics, which have no stored roadmap to record against. */
+  progress?: TopicProgress;
+}) {
+  // Collapsed by default: the shortened body is the point, and a card that opens
+  // already expanded would be the wall of text it replaced.
+  const [showFull, setShowFull] = useState(false);
+  const paragraphs = (showFull && detail?.bodyFull ? detail.bodyFull : detail?.body) ?? [];
   return (
-    <div style={{ width: 1440, height: 900, display: "flex", overflow: "hidden", background: "var(--ku-bg)" }}>
-      <div style={{ width: 195, height: 900, flexShrink: 0 }}>
-        <Sidebar height={900} />
+    <div style={{ width: 1440, height: "100dvh", display: "flex", overflow: "hidden", background: "var(--ku-bg)" }}>
+      <div style={{ width: 195, height: "100dvh", flexShrink: 0 }}>
+        <Sidebar height="100dvh" />
       </div>
 
-      <div style={{ flex: 1, height: 900, overflowY: "auto", position: "relative", fontFamily: FONT }}>
+      <div style={{ flex: 1, height: "100dvh", overflowY: "auto", position: "relative", fontFamily: FONT }}>
         <div style={{ position: "absolute", right: 18, top: 10, width: 114, height: 124, zIndex: 10 }}>
           <Image src="/ku-bcg.png" alt="KU Phumpanya" width={114} height={124} className="object-contain ku-logo" unoptimized />
         </div>
@@ -72,11 +99,24 @@ export default function TopicView({ detail, notice }: { detail?: TopicDetail | n
                 <div style={{ marginTop: 16, width: 375, height: 4, background: "var(--ku-progress-track)", borderRadius: 12 }}>
                   <div
                     style={{
-                      width: `${Math.max(0, Math.min(100, detail.progress ?? 0))}%`,
+                      width: `${Math.max(0, Math.min(100, progress?.percent ?? detail.progress ?? 0))}%`,
                       height: "100%", background: "var(--ku-progress-fill)", borderRadius: 12,
                     }}
                   />
                 </div>
+                {progress && progress.total > 0 && (
+                  <div style={{ marginTop: 12, display: "flex", alignItems: "center", justifyContent: "space-between", width: 375 }}>
+                    <CompleteToggle
+                      completed={progress.completed}
+                      onToggle={progress.onToggle}
+                      label={progress.completed ? "เรียนจบแล้ว" : "ทำเครื่องหมายว่าเรียนจบ"}
+                      size={20}
+                    />
+                    <span style={{ fontFamily: FONT, fontSize: 12, lineHeight: "18px", color: "var(--ku-text-muted)" }}>
+                      {`${progress.completedCount}/${progress.total} หัวข้อ · ${progress.percent ?? 0}%`}
+                    </span>
+                  </div>
+                )}
               </motion.div>
 
               {detail.tags.length > 0 && (
@@ -123,25 +163,43 @@ export default function TopicView({ detail, notice }: { detail?: TopicDetail | n
               {detail.summary && (
                 <motion.p
                   {...fadeIn(0.18)}
-                  style={{ fontFamily: FONT, fontSize: 13, lineHeight: "21px", color: "var(--ku-text-muted)", marginBottom: 20, maxWidth: 448 }}
+                  style={{
+                    fontFamily: FONT, fontSize: 13, lineHeight: "21px", color: "var(--ku-text-muted)",
+                    marginBottom: 20, maxWidth: 448,
+                    // The gist is built as two lines: what the record is, then what it measured.
+                    whiteSpace: "pre-line",
+                  }}
                 >
                   {detail.summary}
                 </motion.p>
               )}
 
-              {detail.body.length > 0 && (
+              {paragraphs.length > 0 && (
                 <motion.div {...fadeIn(0.2)} style={{ maxWidth: 507, marginBottom: 32 }}>
-                  {detail.body.map((paragraph, i) => (
+                  {paragraphs.map((paragraph, i) => (
                     <p
                       key={i}
                       style={{
                         fontFamily: FONT, fontSize: 14, lineHeight: "24px", color: "var(--ku-text)",
-                        marginBottom: i === detail.body.length - 1 ? 0 : 8,
+                        marginBottom: i === paragraphs.length - 1 ? 0 : 8,
                       }}
                     >
                       {paragraph}
                     </p>
                   ))}
+                  {detail.bodyFull && (
+                    <button
+                      type="button"
+                      onClick={() => setShowFull((open) => !open)}
+                      style={{
+                        marginTop: 10, background: "transparent", border: "none", padding: 0,
+                        cursor: "pointer", fontFamily: FONT, fontSize: 13, lineHeight: "21px",
+                        color: "var(--ku-text-muted)", textDecoration: "underline",
+                      }}
+                    >
+                      {showFull ? "ย่อบทคัดย่อ" : "ดูบทคัดย่อเต็ม"}
+                    </button>
+                  )}
                 </motion.div>
               )}
 

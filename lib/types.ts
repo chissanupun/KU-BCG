@@ -54,6 +54,15 @@ export type LearningModule = {
   year?: string;
   source?: string;
   keywords?: string[];
+  /**
+   * KU Forest project details, all Thai. That source publishes no abstract, so
+   * these are the only body content its documents have. Absent elsewhere.
+   */
+  category?: string;
+  project_nature?: string;
+  budget_year?: string;
+  funding?: string;
+  department?: string;
 };
 
 export type LearningPhase = {
@@ -124,6 +133,20 @@ export type SmartPicks = {
   reason: string;
   generated_at: string;
   items: SmartPick[];
+};
+
+/** One completed module, addressed the same way a card links to its detail page. */
+export type CompletedModule = { phase: number; card: number };
+
+/**
+ * GET/PUT /api/search/history/{id}/progress — completion state of one roadmap.
+ * `total` counts the modules in the stored result, so `percent` is server-derived.
+ */
+export type LearningProgressState = {
+  completed: CompletedModule[];
+  completed_count: number;
+  total: number;
+  percent: number;
 };
 
 /** GET /api/search/recent — sidebar list. Max 10, newest first. */

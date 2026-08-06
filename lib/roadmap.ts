@@ -6,12 +6,16 @@ export type RoadmapCard = {
   description: string;
   /** Every card opens the shared topic detail page; the source link lives in there. */
   href?: string;
+  /** Position in the stored result — how progress addresses this module. */
+  cardIndex?: number;
 };
 
 export type RoadmapPhase = {
   title: string;
   description: string;
   cards: RoadmapCard[];
+  /** Position in the stored result. Undefined on the curated roadmap. */
+  phaseIndex?: number;
 };
 
 export type Roadmap = {
@@ -109,15 +113,18 @@ export function fromGraphRag(result: GraphRagResult, query?: string, historyId?:
     topic: query?.trim() || result.title,
     estimatedHours: formatHours(path?.estimated_hours),
     description: path?.subtitle ?? result.overview?.intro ?? "",
-    // No progress signal exists in GraphRagResult — left undefined rather than invented.
+    // The result itself carries no progress — it comes from the user's completions,
+    // which RoadmapView reads separately and passes to the track.
     progress: undefined,
     phases: (path?.phases ?? []).map((phase, phaseIndex) => ({
       title: stripPhasePrefix(phase.name),
       description: phase.intro ?? "",
+      phaseIndex,
       cards: (phase.modules ?? []).map((mod, cardIndex) => ({
         title: mod.title,
         hours: formatHours(mod.hours),
         description: mod.desc ?? "",
+        cardIndex,
         href:
           historyId !== undefined
             ? `/topic?h=${historyId}&p=${phaseIndex}&c=${cardIndex}`

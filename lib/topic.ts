@@ -1,4 +1,5 @@
 import type { GraphRagResult } from "./types";
+import { condenseAbstract, projectFacts, thaiGist } from "./summarize";
 
 export type TopicMapNode = {
   label: string;
@@ -33,6 +34,8 @@ export type TopicDetail = {
   title: string;
   summary: string;
   body: string[];
+  /** The untouched source prose, when `body` is a shortened form of it. */
+  bodyFull?: string[];
   research?: { heading: string; paragraphs: string[] };
   expert?: { heading: string; value: string };
   /** Source document, shown as a link under the expert line. */
@@ -55,6 +58,14 @@ const MAP_TITLE = "แผนที่ความรู้";
 
 /** Ring colours for GraphRAG nodes that arrive without one. */
 const NODE_PALETTE = ["#eab308", "#ec4899", "#84cc16", "#a855f7", "#22c55e", "#06b6d4", "#f97316"];
+
+/**
+ * Backend phase names arrive as "Phase: Foundation"; the Thai gist reads the
+ * subject out of them, so the pipeline's own prefix has to come off first.
+ */
+function stripPhasePrefix(name: string): string {
+  return name.replace(/^phase\s*\d*\s*[:\-–]\s*/i, "").trim() || name;
+}
 
 /**
  * Fills in coordinates for nodes that have none, on the ellipse the curated map
@@ -205,7 +216,18 @@ export function topicFromGraphRag(
   // every card in a phase render the same prose, since 441 of 612 corpus records
   // carry no abstract. The research/expert blocks below are per-document too, so
   // an abstract-less card still differs from its neighbours.
-  const body = mod.abstract?.trim() ? [mod.abstract.trim()] : [];
+  //
+  // What survives is often several hundred words of English, which is the entire
+  // page. `body` therefore holds the shortened form and `bodyFull` the original,
+  // so the reader chooses when to see all of it.
+  const abstract = mod.abstract?.trim() ?? "";
+  const condensed = condenseAbstract(abstract, mod.keywords ?? []);
+  // KU Forest documents never have an abstract, so their body is the Thai project
+  // detail instead of an empty block.
+  const body =
+    condensed.length > 0 ? condensed : abstract ? [abstract] : projectFacts(mod);
+  const bodyFull =
+    abstract && condensed.join(" ").length < abstract.length - 40 ? [abstract] : undefined;
 
   const attribution = [authors.join(", "), mod.year].filter(Boolean).join(" · ");
   const research = attribution
@@ -268,9 +290,11 @@ export function topicFromGraphRag(
     title: mod.title,
     // The card's `desc` is a truncation of whichever field already appears below —
     // the abstract as body, or the keywords as tags — so repeating it here would
-    // print the same text twice.
-    summary: "",
+    // print the same text twice. The Thai gist goes here instead: it is the one
+    // line a Thai reader can act on when the body below is English.
+    summary: thaiGist(mod, stripPhasePrefix(phase.name)),
     body,
+    bodyFull,
     research,
     expert: expertValue ? { heading: "ผู้เชี่ยวชาญ / ศาสตราจารย์: ", value: expertValue } : undefined,
     sourceUrl: mod.url || undefined,

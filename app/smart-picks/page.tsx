@@ -142,14 +142,14 @@ export default function SmartPicksPage() {
   const items = picks?.items ?? [];
 
   return (
-    <div style={{ width: 1440, height: 900, display: "flex", overflow: "hidden", background: "var(--ku-bg)" }}>
+    <div style={{ width: 1440, height: "100dvh", display: "flex", overflow: "hidden", background: "var(--ku-bg)" }}>
       {/* Sidebar */}
-      <div style={{ width: 195, height: 900, flexShrink: 0 }}>
-        <Sidebar height={900} activeNav="recommend" />
+      <div style={{ width: 195, height: "100dvh", flexShrink: 0 }}>
+        <Sidebar height="100dvh" activeNav="recommend" />
       </div>
 
       {/* Scrollable content */}
-      <div style={{ flex: 1, height: 900, overflowY: "auto", paddingTop: 44, paddingBottom: 60, fontFamily: FONT, display: "flex", flexDirection: "column", alignItems: "center" }}>
+      <div style={{ flex: 1, height: "100dvh", overflowY: "auto", paddingTop: 44, paddingBottom: 60, fontFamily: FONT, display: "flex", flexDirection: "column", alignItems: "center" }}>
 
         <div style={{ width: 600 }}>
         {/* Header row */}

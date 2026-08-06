@@ -10,12 +10,15 @@ type SearchHistoryContextValue = {
   loading: boolean;
   /** Re-reads /api/search/recent. Stable identity — safe in effect dep arrays. */
   refresh: () => Promise<void>;
+  /** Deletes every stored search. Not undoable — callers must confirm first. */
+  clear: () => Promise<void>;
 };
 
 const SearchHistoryContext = createContext<SearchHistoryContextValue>({
   items: [],
   loading: false,
   refresh: async () => {},
+  clear: async () => {},
 });
 
 /**
@@ -41,6 +44,13 @@ export function SearchHistoryProvider({ children }: { children: React.ReactNode 
     }
   }, []);
 
+  const clear = useCallback(async () => {
+    // The list is emptied only after the server confirms, so a failed request
+    // leaves the sidebar showing what still exists rather than lying about it.
+    await apiFetch<{ deleted: number }>("/api/search/recent", { method: "DELETE" });
+    setItems([]);
+  }, []);
+
   useEffect(() => {
     if (userLoading) return;
     if (!user) {
@@ -51,7 +61,7 @@ export function SearchHistoryProvider({ children }: { children: React.ReactNode 
   }, [user, userLoading, refresh]);
 
   return (
-    <SearchHistoryContext.Provider value={{ items, loading, refresh }}>
+    <SearchHistoryContext.Provider value={{ items, loading, refresh, clear }}>
       {children}
     </SearchHistoryContext.Provider>
   );

@@ -4,13 +4,14 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import type { RoadmapCard } from "@/lib/roadmap";
 import { FONT, fadeIn } from "./tokens";
+import CompleteToggle from "./CompleteToggle";
 
 const hoverOn = (el: HTMLElement) => {
   el.style.borderColor = "rgba(59,99,71,0.6)";
   el.style.boxShadow = "0 0 24px rgba(59,99,71,0.15)";
 };
-const hoverOff = (el: HTMLElement) => {
-  el.style.borderColor = "var(--ku-card-border)";
+const hoverOff = (el: HTMLElement, completed: boolean) => {
+  el.style.borderColor = completed ? "rgba(59,99,71,0.55)" : "var(--ku-card-border)";
   el.style.boxShadow = "none";
 };
 
@@ -32,10 +33,27 @@ function linkLabel(url: string): string {
   }
 }
 
-export default function BubbleCard({ card, delay }: { card: RoadmapCard; delay: number }) {
+export default function BubbleCard({
+  card,
+  delay,
+  completed = false,
+  onToggle,
+}: {
+  card: RoadmapCard;
+  delay: number;
+  completed?: boolean;
+  /** Absent on the curated roadmap, which has no stored row to record progress against. */
+  onToggle?: () => void;
+}) {
   const inner = (
     <>
-      <p style={{ fontFamily: FONT, fontSize: 14, fontWeight: 600, lineHeight: "22px", color: "var(--ku-text)" }}>
+      <p
+        style={{
+          fontFamily: FONT, fontSize: 14, fontWeight: 600, lineHeight: "22px", color: "var(--ku-text)",
+          // Keeps the title clear of the tick in the corner.
+          paddingRight: onToggle ? 28 : 0,
+        }}
+      >
         {card.title}
       </p>
       {card.hours && (
@@ -71,9 +89,13 @@ export default function BubbleCard({ card, delay }: { card: RoadmapCard; delay: 
 
   const style = {
     width: 250, minHeight: 150,
-    background: "var(--ku-card-bg)", border: "0.5px solid var(--ku-card-border)",
+    background: "var(--ku-card-bg)",
+    // A completed card keeps its shape and only shifts its border to the brand
+    // green, so a finished phase reads at a glance without a second treatment.
+    border: `0.5px solid ${completed ? "rgba(59,99,71,0.55)" : "var(--ku-card-border)"}`,
     borderRadius: 10, padding: "18px 20px",
     transition: "border-color 0.2s, box-shadow 0.2s",
+    position: "relative" as const,
   };
 
   const wrapperStyle = { display: "block", width: "100%", height: "100%", textDecoration: "none" } as const;
@@ -89,8 +111,13 @@ export default function BubbleCard({ card, delay }: { card: RoadmapCard; delay: 
       style={style}
       {...motionProps}
       onMouseEnter={(e) => hoverOn(e.currentTarget as HTMLElement)}
-      onMouseLeave={(e) => hoverOff(e.currentTarget as HTMLElement)}
+      onMouseLeave={(e) => hoverOff(e.currentTarget as HTMLElement, completed)}
     >
+      {onToggle && (
+        <div style={{ position: "absolute", top: 14, right: 14, zIndex: 1, lineHeight: 0 }}>
+          <CompleteToggle completed={completed} onToggle={onToggle} size={20} />
+        </div>
+      )}
       {card.href ? (
         <Link href={card.href} style={wrapperStyle}>
           {inner}

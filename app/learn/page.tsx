@@ -4,6 +4,7 @@ import { Suspense, useMemo } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { googleLoginUrl } from "@/lib/api";
 import { useSearchResult } from "@/lib/useSearchResult";
+import { useLearningProgress } from "@/lib/useLearningProgress";
 import { DEFAULT_ROADMAP, fromGraphRag } from "@/lib/roadmap";
 import RoadmapView from "../components/roadmap/RoadmapView";
 
@@ -26,6 +27,11 @@ function LearnPageInner() {
     () => (result ? fromGraphRag(result, query, historyId) : null),
     [result, query, historyId],
   );
+
+  // The URL rewrite from POST /api/search lands on `?h={id}`, so a fresh search
+  // starts tracking as soon as its row exists.
+  const { percent, completedCount, total, done, toggle, enabled } = useLearningProgress(historyId);
+  const progress = enabled ? { percent, completedCount, total, done, toggle } : undefined;
 
   if (!q && historyId === undefined) return <RoadmapView roadmap={DEFAULT_ROADMAP} />;
 
@@ -65,7 +71,7 @@ function LearnPageInner() {
     );
   }
 
-  return <RoadmapView roadmap={roadmap} />;
+  return <RoadmapView roadmap={roadmap} progress={progress} />;
 }
 
 export default function LearnPage() {

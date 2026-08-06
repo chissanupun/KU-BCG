@@ -17,7 +17,28 @@ export default function Sidebar({
   activeNav?: "search" | "recommend" | "admin";
 }) {
   const { user, refetch } = useUser();
-  const { items: recentSearches } = useSearchHistory();
+  const { items: recentSearches, clear: clearHistory } = useSearchHistory();
+
+  /**
+   * Clearing is irreversible and cascades to the completion ticks recorded
+   * against those roadmaps, so the button asks once before it fires.
+   */
+  const [confirmingClear, setConfirmingClear] = useState(false);
+  const [clearing, setClearing] = useState(false);
+
+  const handleClear = async () => {
+    setClearing(true);
+    try {
+      await clearHistory();
+      setConfirmingClear(false);
+    } catch {
+      // Nothing was deleted, so the list still stands — drop back to the plain
+      // header rather than leaving the user stuck on a confirm that failed.
+      setConfirmingClear(false);
+    } finally {
+      setClearing(false);
+    }
+  };
 
   /**
    * Google avatar URLs intermittently fail to load in-browser (hotlink throttling
@@ -85,9 +106,12 @@ export default function Sidebar({
       <div style={{ height: 0.38, background: "var(--ku-divider)", flexShrink: 0 }} />
 
       {/* Main Nav */}
-      <div className="shrink-0" style={{ paddingLeft: 18.5, paddingRight: 18.5, paddingTop: 12 }}>
-        <p className="text-[12px] leading-[16px] mb-[7px]" style={{ color: "var(--ku-text-faint)", paddingLeft: 15 }}>หลัก</p>
+      <div className="shrink-0" style={{ paddingLeft: 18.5, paddingRight: 18.5, paddingTop: 18, paddingBottom: 6 }}>
+        <p className="text-[12px] leading-[16px] mb-[12px]" style={{ color: "var(--ku-text-faint)", paddingLeft: 15 }}>หลัก</p>
 
+        {/* The rows sit flush against each other at 44px tall, which reads as one
+            block; a small gap separates them without changing their height. */}
+        <div className="flex flex-col" style={{ gap: 3 }}>
         {/* ค้นหา */}
         <Link href="/" style={{ display: "block", textDecoration: "none" }}>
           <div
@@ -157,18 +181,75 @@ export default function Sidebar({
 
         {/* Theme toggle */}
         <ThemeToggle />
+        </div>
       </div>
 
       {/* Divider 2 */}
-      <div style={{ height: 0.38, background: "var(--ku-divider)", flexShrink: 0, marginTop: 4 }} />
+      <div style={{ height: 0.38, background: "var(--ku-divider)", flexShrink: 0, marginTop: 8 }} />
 
       {/* Recent Section */}
       <div
         className="flex items-center shrink-0"
-        style={{ paddingLeft: 18.5 + 15, paddingRight: 18.5 + 3, paddingTop: 12, paddingBottom: 12 }}
+        style={{ paddingLeft: 18.5 + 15, paddingRight: 18.5 + 3, paddingTop: 16, paddingBottom: 10 }}
       >
-        <p className="flex-1 text-[12px] leading-[16px]" style={{ color: "var(--ku-text-faint)" }}>ล่าสุด</p>
-        <Link href="/" aria-label="ค้นหาใหม่" className="text-[12px] hover:opacity-70 transition-opacity" style={{ color: "var(--ku-text-faint)", textDecoration: "none" }}>+</Link>
+        {confirmingClear ? (
+          <>
+            {/* Confirmation replaces the header rather than opening a dialog, so the
+                rail keeps its width and the list stays visible behind the choice. */}
+            <p className="flex-1 text-[12px] leading-[16px]" style={{ color: "var(--ku-text-faint)" }}>ลบทั้งหมด?</p>
+            <button
+              type="button"
+              onClick={handleClear}
+              disabled={clearing}
+              aria-label="ยืนยันลบประวัติทั้งหมด"
+              className="text-[12px] hover:opacity-70 transition-opacity"
+              style={{ background: "none", border: "none", padding: 0, cursor: clearing ? "wait" : "pointer", color: "#dc2626" }}
+            >
+              {clearing ? "..." : "ลบ"}
+            </button>
+            <button
+              type="button"
+              onClick={() => setConfirmingClear(false)}
+              disabled={clearing}
+              aria-label="ยกเลิก"
+              className="text-[12px] hover:opacity-70 transition-opacity"
+              style={{ background: "none", border: "none", padding: 0, marginLeft: 10, cursor: "pointer", color: "var(--ku-text-faint)" }}
+            >
+              ยกเลิก
+            </button>
+          </>
+        ) : (
+          <>
+            <p className="flex-1 text-[12px] leading-[16px]" style={{ color: "var(--ku-text-faint)" }}>ล่าสุด</p>
+            {user && recentSearches.length > 0 && (
+              <button
+                type="button"
+                onClick={() => setConfirmingClear(true)}
+                aria-label="ลบประวัติการค้นหาทั้งหมด"
+                title="ลบประวัติการค้นหาทั้งหมด"
+                className="hover:opacity-70 transition-opacity"
+                style={{
+                  background: "none", border: "none", cursor: "pointer",
+                  color: "var(--ku-text-faint)", lineHeight: 0,
+                  // Padding rather than a bigger glyph: the icon stays proportional
+                  // to the "+" beside it while the tap target reaches a usable size.
+                  padding: 4, margin: "-4px 6px -4px -4px",
+                }}
+              >
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden>
+                  <path
+                    d="M2.6 3.8h8.8M5.6 3.8V2.6h2.8v1.2M3.8 3.8l.5 7.2h5.4l.5-7.2M6 6.2v3M8 6.2v3"
+                    stroke="currentColor"
+                    strokeWidth="1.2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+            )}
+            <Link href="/" aria-label="ค้นหาใหม่" className="text-[12px] hover:opacity-70 transition-opacity" style={{ color: "var(--ku-text-faint)", textDecoration: "none" }}>+</Link>
+          </>
+        )}
       </div>
 
       {user ? (
