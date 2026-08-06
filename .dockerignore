@@ -1,0 +1,14 @@
+.git
+.github
+.next
+out
+node_modules
+elastic-search/.venv
+**/__pycache__
+*.pyc
+.env*
+.DS_Store
+README.md
+docker-compose.qdrant.yml
+playwright*
+**/agent-transcripts

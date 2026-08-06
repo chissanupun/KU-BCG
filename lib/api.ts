@@ -1,4 +1,9 @@
-export const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
+// Empty / unset at build = same-origin (Hostinger). Local default only when Node env truly unset.
+const rawApiUrl = process.env.NEXT_PUBLIC_API_URL;
+export const API_URL =
+  rawApiUrl === undefined
+    ? "http://localhost:8000"
+    : rawApiUrl.replace(/\/$/, "");
 
 function readCookie(name: string): string | null {
   const match = document.cookie.match(new RegExp(`(?:^|; )${name}=([^;]*)`));

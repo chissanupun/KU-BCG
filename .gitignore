@@ -20,6 +20,12 @@
 # production
 /build
 
+# python / elasticsearch tooling
+elastic-search/.venv/
+elastic-search/**/__pycache__/
+**/__pycache__/
+*.py[cod]
+
 # misc
 .DS_Store
 *.pem

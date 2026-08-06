@@ -65,6 +65,30 @@ Returns results grouped by source + semantic relations.
 
 ES running on `localhost:9200` (Docker).
 
+### Qdrant Vector DB (for Laravel agent pipeline)
+
+```bash
+# 1) Start Qdrant (from KU-BCG/)
+docker compose -f docker-compose.qdrant.yml up -d
+
+# 2) Python embed + upload (612 docs + 19 relations)
+cd elastic-search
+pip install -r requirements-qdrant.txt
+python embed_to_qdrant.py
+
+# 3) Keep embed server running for query-time vectors
+python embed_server.py   # http://localhost:8765/embed
+
+# 4) Verify
+curl http://localhost:6333/collections/ku_phumpanya_docs
+```
+
+Laravel (`ku-phumpanya`): set `QDRANT_ENABLED=true`, `GEMINI_ENABLED=true`, `GEMINI_API_KEY=...` in `.env`.
+
+```bash
+php artisan agent:search "ชีวมวลและคาร์บอนฟุตพริ้นท์"
+```
+
 ---
 
 ## Data Files

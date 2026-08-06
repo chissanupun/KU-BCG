@@ -1,0 +1,96 @@
+name: Deploy frontend to Hostinger VPS
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: phumpanya-vps-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  packages: write
+
+env:
+  REGISTRY: ghcr.io
+  FRONTEND_IMAGE: ghcr.io/chissanupun/ku-bcg-frontend
+  SEARCH_INIT_IMAGE: ghcr.io/chissanupun/ku-bcg-search-init
+
+jobs:
+  build-and-deploy:
+    name: Build and deploy
+    runs-on: ubuntu-latest
+    environment: production
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install and lint
+        run: |
+          npm ci --ignore-scripts
+          npm run lint || true
+
+      - name: Static export smoke
+        run: |
+          NEXT_PUBLIC_API_URL= npm run build
+          test -d out
+          if grep -R "localhost:8000" out/_next/static >/dev/null 2>&1; then
+            echo "ERROR: localhost:8000 leaked into static build"
+            exit 1
+          fi
+
+      - name: Log in to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and push frontend
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: Dockerfile
+          push: true
+          tags: |
+            ${{ env.FRONTEND_IMAGE }}:latest
+            ${{ env.FRONTEND_IMAGE }}:${{ github.sha }}
+
+      - name: Build and push search-init
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: Dockerfile.search-init
+          push: true
+          tags: |
+            ${{ env.SEARCH_INIT_IMAGE }}:latest
+            ${{ env.SEARCH_INIT_IMAGE }}:${{ github.sha }}
+
+      - name: Deploy frontend to VPS
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          port: ${{ secrets.VPS_PORT || 22 }}
+          script: |
+            set -euo pipefail
+            cd "${{ secrets.VPS_APP_DIR || '/opt/phumpanya' }}"
+            if [ -n "${{ secrets.GHCR_PULL_TOKEN }}" ]; then
+              echo "${{ secrets.GHCR_PULL_TOKEN }}" | docker login ghcr.io -u "${{ secrets.GHCR_PULL_USER }}" --password-stdin
+            fi
+            export FRONTEND_IMAGE="${{ env.FRONTEND_IMAGE }}:${{ github.sha }}"
+            export SEARCH_INIT_IMAGE="${{ env.SEARCH_INIT_IMAGE }}:${{ github.sha }}"
+            ./deploy-service.sh frontend "$FRONTEND_IMAGE"
+            ./deploy-service.sh search-init "$SEARCH_INIT_IMAGE" || true
+            curl -fsS -o /dev/null "https://${{ secrets.APP_HOST || 'plenglnw1.tech' }}/" || curl -fsS -o /dev/null http://127.0.0.1:18080/
+            curl -fsS -o /dev/null "https://${{ secrets.APP_HOST || 'plenglnw1.tech' }}/learn/" || curl -fsS -o /dev/null http://127.0.0.1:18080/learn/
