@@ -199,14 +199,14 @@ export default function AdminPage() {
 
   return (
     <>
-      <div style={{ width: 1440, height: 900, display: "flex", overflow: "hidden", background: "var(--ku-bg)" }}>
+      <div style={{ width: "100%", height: "100vh", display: "flex", overflow: "hidden", background: "var(--ku-bg)" }}>
         {/* Sidebar */}
-        <div style={{ width: 195, height: 900, flexShrink: 0 }}>
-          <Sidebar height={900} activeNav="admin" />
+        <div style={{ flexShrink: 0, height: "100%" }}>
+          <Sidebar activeNav="admin" />
         </div>
 
         {/* Scrollable content */}
-        <div style={{ flex: 1, height: 900, overflowY: "auto", paddingLeft: 36, paddingRight: 36, paddingTop: 44, paddingBottom: 44, fontFamily: FONT }}>
+        <div style={{ flex: 1, height: "100%", overflowY: "auto", paddingLeft: 36, paddingRight: 36, paddingTop: 44, paddingBottom: 44, fontFamily: FONT }}>
 
           {/* Page title */}
           <motion.h1 {...fadeIn(0)} style={{ fontSize: 22, fontWeight: 700, color: "var(--ku-text)", marginBottom: 28 }}>

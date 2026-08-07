@@ -2,16 +2,18 @@
 
 import { useRouter } from "next/navigation";
 import { useState } from "react";
-import Image from "next/image";
 import { motion } from "framer-motion";
-import Sidebar from "./components/Sidebar";
+import AppShell from "./components/AppShell";
 
 const PRIMARY = "#3b6347";
+const FONT = "Poppins, sans-serif";
 
 const SUGGESTIONS = [
-  { display: "การวิเคราะห์ คาร์บอน นาโนทิวบ์", query: "การวิเคราะห์คาร์บอนนาโนทิวบ์" },
+  { display: "การวิเคราะห์คาร์บอนนาโนทิวบ์", query: "การวิเคราะห์คาร์บอนนาโนทิวบ์" },
   { display: "สรุปการเปลี่ยนแปลงสภาพภูมิอากาศ 2024", query: "สรุปการเปลี่ยนแปลงสภาพภูมิอากาศ 2024" },
-  { display: "ผลการวิจัยสำคัญ\nด้านโครงข่าย ประสาท", query: "ผลการวิจัยสำคัญด้านโครงข่ายประสาท" },
+  { display: "ผลการวิจัยสำคัญด้านโครงข่ายประสาท", query: "ผลการวิจัยสำคัญด้านโครงข่ายประสาท" },
+  { display: "Carbon footprint", query: "Carbon footprint" },
+  { display: "การจัดการขยะแปรรูปเป็นพลังงาน", query: "การจัดการขยะแปรรูปเป็นพลังงาน" },
 ];
 
 const fadeUp = {
@@ -19,7 +21,7 @@ const fadeUp = {
   visible: (i: number) => ({
     opacity: 1,
     y: 0,
-    transition: { delay: i * 0.055, duration: 0.35, ease: "easeOut" as const },
+    transition: { delay: i * 0.05, duration: 0.35, ease: "easeOut" as const },
   }),
 };
 
@@ -27,73 +29,61 @@ export default function Home() {
   const router = useRouter();
   const [query, setQuery] = useState("");
 
-  const handleSearch = () => {
-    if (!query.trim()) return;
-    router.push(`/learn?q=${encodeURIComponent(query)}`);
+  const handleSearch = (value?: string) => {
+    const q = (value ?? query).trim();
+    if (!q) return;
+    router.push(`/learn?q=${encodeURIComponent(q)}`);
   };
 
   return (
-    <div className="flex h-screen overflow-hidden relative" style={{ background: "var(--ku-bg)" }}>
-
-      {/* Logo */}
-      <div className="absolute" style={{ top: 20, right: 27, zIndex: 10 }}>
-        <Image src="/ku-bcg.png" alt="KU Phumpanya" width={114} height={124} className="object-contain ku-logo" unoptimized />
-      </div>
-
-      {/* Sidebar */}
-      <Sidebar />
-
-      {/* Main */}
-      <main className="flex-1 flex flex-col items-center justify-center" style={{ paddingBottom: 48 }}>
-        <div style={{ width: 928 }} className="flex flex-col">
-
-          {/* Hero */}
+    <AppShell activeNav="search" breadcrumb="หน้าแรก > ค้นหา">
+      <div
+        className="flex flex-col items-center justify-center"
+        style={{ minHeight: "100%", padding: "48px 24px 80px", fontFamily: FONT }}
+      >
+        <div style={{ width: "100%", maxWidth: 720 }}>
           <motion.div
-            className="flex items-center justify-center"
-            style={{ gap: 10 }}
             initial="hidden"
             animate="visible"
             custom={0}
             variants={fadeUp}
+            style={{ textAlign: "center", marginBottom: 28 }}
           >
-            <motion.div
-              animate={{ rotate: 360 }}
-              transition={{ duration: 24, repeat: Infinity, ease: "linear" }}
-            >
-              <Image
-                src="/star.svg"
-                alt=""
-                width={60}
-                height={60}
-              />
-            </motion.div>
             <h1
               style={{
                 fontFamily: "var(--font-abhaya), serif",
-                fontSize: 36,
+                fontSize: 40,
                 fontWeight: 400,
-                lineHeight: "80px",
+                lineHeight: "48px",
                 color: "var(--ku-text)",
-                whiteSpace: "nowrap",
+                marginBottom: 10,
               }}
             >
-              Start your next discovery.
+              ค้นหาหัวข้อ
             </h1>
+            <p
+              style={{
+                fontSize: 15,
+                lineHeight: "22px",
+                color: "var(--ku-text-muted)",
+              }}
+            >
+              เจาะลึกงานวิจัย KU BCG เพื่อดึงหัวข้อและเส้นทางเรียนรู้ที่เกี่ยวเนื่อง
+            </p>
           </motion.div>
 
-          {/* Search Bar */}
           <motion.div
             initial="hidden"
             animate="visible"
             custom={1}
             variants={fadeUp}
-            className="flex items-center w-full rounded-[4px] overflow-hidden"
+            className="flex items-center w-full overflow-hidden"
             style={{
               background: "var(--ku-search-bg)",
               boxShadow: "var(--ku-search-shadow)",
-              paddingRight: 8,
-              paddingTop: 8,
-              paddingBottom: 8,
+              borderRadius: 999,
+              border: "0.5px solid var(--ku-card-border)",
+              padding: "6px 6px 6px 20px",
               gap: 8,
             }}
           >
@@ -101,76 +91,75 @@ export default function Home() {
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               onKeyDown={(e) => e.key === "Enter" && handleSearch()}
-              placeholder="วันนี้อยากสำรวจเรื่องอะไร?"
-              className="search-input flex-1 outline-none bg-transparent text-[16px]"
-              style={{ paddingLeft: 16, paddingRight: 16, paddingTop: 14, paddingBottom: 14, color: "var(--ku-text)" }}
+              placeholder="ค้นหาหัวข้อจากงานวิจัย..."
+              className="search-input flex-1 outline-none bg-transparent text-[15px]"
+              style={{ padding: "12px 8px", color: "var(--ku-text)" }}
             />
             <button
-              onClick={handleSearch}
-              className="shrink-0 text-[16px] text-white whitespace-nowrap rounded-[4px] hover:opacity-90 active:scale-[0.98] transition-all"
+              onClick={() => handleSearch()}
+              className="shrink-0 flex items-center justify-center rounded-full hover:opacity-90 active:scale-[0.98] transition-all"
               aria-label="เริ่มค้นหา"
               style={{
+                width: 44,
+                height: 44,
                 background: PRIMARY,
-                paddingLeft: 74,
-                paddingRight: 76,
-                paddingTop: 14,
-                paddingBottom: 14,
-                boxShadow: "0px 1px 3px 0px rgba(0,0,0,0.1), 0px 1px 2px -1px rgba(0,0,0,0.1)",
+                color: "#fff",
               }}
             >
-              เริ่มต้น
+              <svg width="18" height="18" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M17 11A6 6 0 115 11a6 6 0 0112 0z" />
+              </svg>
             </button>
           </motion.div>
 
-          {/* Suggestion Cards */}
-          <div className="flex" style={{ marginTop: 32, gap: 22 }}>
+          <motion.p
+            initial="hidden"
+            animate="visible"
+            custom={2}
+            variants={fadeUp}
+            style={{
+              fontSize: 13,
+              color: "var(--ku-text-faint)",
+              marginTop: 28,
+              marginBottom: 12,
+            }}
+          >
+            ลองค้นหา:
+          </motion.p>
+
+          <div className="flex flex-col" style={{ gap: 10 }}>
             {SUGGESTIONS.map((s, i) => (
               <motion.button
-                key={i}
-                onClick={() => setQuery(s.query)}
+                key={s.query}
+                onClick={() => handleSearch(s.query)}
                 initial="hidden"
                 animate="visible"
-                custom={i + 2}
+                custom={i + 3}
                 variants={fadeUp}
-                whileHover={{ scale: 1.03, transition: { duration: 0.15 } }}
-                whileTap={{ scale: 0.97, transition: { duration: 0.1 } }}
-                className="text-left"
+                whileHover={{ x: 4, transition: { duration: 0.15 } }}
+                whileTap={{ scale: 0.99 }}
+                className="text-left flex items-center gap-3"
                 style={{
-                  width: 114,
-                  height: 100,
-                  background: "var(--ku-card-bg)",
+                  background: "transparent",
                   border: "0.5px solid var(--ku-card-border)",
-                  borderRadius: 10,
-                  paddingLeft: 12,
-                  paddingRight: 12,
-                  paddingTop: 15,
-                  paddingBottom: 14,
+                  borderRadius: 999,
+                  padding: "12px 18px",
                   cursor: "pointer",
-                  transition: "border-color 0.2s, box-shadow 0.2s",
-                }}
-                onMouseEnter={(e) => {
-                  const el = e.currentTarget as HTMLElement;
-                  el.style.borderColor = "rgba(59,99,71,0.6)";
-                  el.style.boxShadow = "0 0 20px rgba(59,99,71,0.15)";
-                }}
-                onMouseLeave={(e) => {
-                  const el = e.currentTarget as HTMLElement;
-                  el.style.borderColor = "var(--ku-card-border)";
-                  el.style.boxShadow = "none";
+                  color: "var(--ku-text)",
+                  fontFamily: FONT,
+                  fontSize: 14,
+                  lineHeight: "20px",
                 }}
               >
-                <span
-                  className="text-[13px] leading-[19px] block whitespace-pre-line"
-                  style={{ color: "var(--ku-text-muted)", wordBreak: "keep-all", overflowWrap: "break-word" }}
-                >
-                  {s.display}
-                </span>
+                <svg width="14" height="14" fill="none" stroke="var(--ku-text-faint)" strokeWidth={2} viewBox="0 0 24 24" style={{ flexShrink: 0 }}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M17 11A6 6 0 115 11a6 6 0 0112 0z" />
+                </svg>
+                <span>{s.display}</span>
               </motion.button>
             ))}
           </div>
-
         </div>
-      </main>
-    </div>
+      </div>
+    </AppShell>
   );
 }
