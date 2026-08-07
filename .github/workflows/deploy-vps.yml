@@ -22,7 +22,6 @@ jobs:
   build-and-deploy:
     name: Build and deploy
     runs-on: ubuntu-latest
-    environment: production
 
     steps:
       - name: Checkout
@@ -84,13 +83,25 @@ jobs:
           port: ${{ secrets.VPS_PORT || 22 }}
           script: |
             set -euo pipefail
-            cd "${{ secrets.VPS_APP_DIR || '/opt/phumpanya' }}"
+            APP_DIR="${{ secrets.VPS_APP_DIR }}"
+            APP_DIR="${APP_DIR:-/docker/phumpanya}"
+            cd "$APP_DIR"
             if [ -n "${{ secrets.GHCR_PULL_TOKEN }}" ]; then
               echo "${{ secrets.GHCR_PULL_TOKEN }}" | docker login ghcr.io -u "${{ secrets.GHCR_PULL_USER }}" --password-stdin
             fi
             export FRONTEND_IMAGE="${{ env.FRONTEND_IMAGE }}:${{ github.sha }}"
             export SEARCH_INIT_IMAGE="${{ env.SEARCH_INIT_IMAGE }}:${{ github.sha }}"
-            ./deploy-service.sh frontend "$FRONTEND_IMAGE"
-            ./deploy-service.sh search-init "$SEARCH_INIT_IMAGE" || true
-            curl -fsS -o /dev/null "https://${{ secrets.APP_HOST || 'plenglnw1.tech' }}/" || curl -fsS -o /dev/null http://127.0.0.1:18080/
-            curl -fsS -o /dev/null "https://${{ secrets.APP_HOST || 'plenglnw1.tech' }}/learn/" || curl -fsS -o /dev/null http://127.0.0.1:18080/learn/
+            if [ -x ./deploy-service.sh ]; then
+              ./deploy-service.sh frontend "$FRONTEND_IMAGE"
+              ./deploy-service.sh search-init "$SEARCH_INIT_IMAGE" || true
+            else
+              if [ -f .env ]; then
+                grep -q '^FRONTEND_IMAGE=' .env && sed -i "s|^FRONTEND_IMAGE=.*|FRONTEND_IMAGE=${FRONTEND_IMAGE}|" .env || echo "FRONTEND_IMAGE=${FRONTEND_IMAGE}" >> .env
+              fi
+              COMPOSE=docker-compose.yml
+              [ -f "$COMPOSE" ] || COMPOSE=compose.production.yml
+              docker compose -f "$COMPOSE" pull frontend
+              docker compose -f "$COMPOSE" up -d --no-deps --force-recreate frontend
+            fi
+            curl -fsS -o /dev/null "https://${{ secrets.APP_HOST || 'plenglnw1.tech' }}/" || true
+            curl -fsS -o /dev/null "https://${{ secrets.APP_HOST || 'plenglnw1.tech' }}/learn/" || true
