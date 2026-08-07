@@ -40,8 +40,8 @@ export default function RoadmapView({
       </div>
 
       <div style={{ flex: 1, height: "100dvh", overflowY: "auto", position: "relative" }}>
-        <div style={{ position: "absolute", right: 13, top: 11, width: 114, height: 124, zIndex: 10 }}>
-          <Image src="/ku-bcg.png" alt="KU Phumpanya" width={114} height={124} className="object-contain ku-logo" unoptimized />
+        <div style={{ position: "absolute", right: 32, top: 30, width: 60, height: 57, zIndex: 10 }}>
+          <Image src="/ku-bcg.png" alt="KU Phumpanya" width={60} height={57} className="object-contain ku-logo" unoptimized />
         </div>
 
         {roadmap?.topic && (

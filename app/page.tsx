@@ -36,8 +36,8 @@ export default function Home() {
     <div className="flex h-screen overflow-hidden relative" style={{ background: "var(--ku-bg)" }}>
 
       {/* Logo */}
-      <div className="absolute" style={{ top: 20, right: 27, zIndex: 10 }}>
-        <Image src="/ku-bcg.png" alt="KU Phumpanya" width={114} height={124} className="object-contain ku-logo" unoptimized />
+      <div className="absolute" style={{ top: 40, right: 40, zIndex: 10 }}>
+        <Image src="/ku-bcg.png" alt="KU Phumpanya" width={60} height={57} className="object-contain ku-logo" unoptimized />
       </div>
 
       {/* Sidebar */}

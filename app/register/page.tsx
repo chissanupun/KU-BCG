@@ -248,8 +248,8 @@ export default function RegisterPage() {
     <div style={{ width: 1440, height: 900, background: "white", overflow: "hidden", position: "relative" }}>
 
       {/* Logo — top-left */}
-      <div style={{ position: "absolute", left: 0, top: 0, width: 95, height: 93 }}>
-        <Image src="/ku-bcg.png" alt="KU Phumpanya" width={95} height={93} className="object-contain" unoptimized />
+      <div style={{ position: "absolute", left: 30, top: 28, width: 34, height: 33 }}>
+        <Image src="/ku-bcg.png" alt="KU Phumpanya" width={34} height={33} className="object-contain" unoptimized />
       </div>
 
       {/* Green panel */}
