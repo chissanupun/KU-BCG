@@ -136,7 +136,7 @@ export default function Sidebar({
 
         {/* ผู้ดูแล — visible only for admin role */}
         {user?.role === "admin" && (
-          <Link href="/admin" style={{ display: "block", textDecoration: "none" }}>
+          <Link href="/admin/" style={{ display: "block", textDecoration: "none" }}>
             <div
               className="flex items-center w-full rounded-[9px] transition-all relative overflow-hidden hover:bg-[var(--ku-hover-bg)]"
               style={{

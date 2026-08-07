@@ -24,7 +24,7 @@ export default function LoginPage() {
 
   useEffect(() => {
     if (userLoading || !user) return;
-    router.replace(user.role === "admin" ? "/admin" : "/learn");
+    router.replace(user.role === "admin" ? "/admin/" : "/learn/");
   }, [user, userLoading, router]);
 
   async function handleSubmit(e: React.FormEvent) {
@@ -39,7 +39,7 @@ export default function LoginPage() {
         body: { email, password },
       });
       await refetch();
-      router.push(loggedIn.role === "admin" ? "/admin" : "/learn");
+      router.push(loggedIn.role === "admin" ? "/admin/" : "/learn/");
     } catch (err) {
       if (err instanceof ApiError && err.status === 422) {
         const body = err.body as { message?: string; errors?: Record<string, string[]> };
