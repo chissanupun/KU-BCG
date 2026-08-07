@@ -250,12 +250,16 @@ export default function Sidebar({
           </svg>
         </NavRow>
 
-        {activeNav === "admin" && (
-          <NavRow href="/admin" active label="ผู้ดูแล">
+        {user?.role === "admin" && (
+          <NavRow href="/admin" active={activeNav === "admin"} label="ผู้ดูแล">
             <svg
               style={{ width: 16, height: 16, flexShrink: 0 }}
               fill="none"
-              stroke="var(--ku-icon-active)"
+              stroke={
+                activeNav === "admin"
+                  ? "var(--ku-icon-active)"
+                  : "var(--ku-text-muted)"
+              }
               strokeWidth={1.8}
               viewBox="0 0 24 24"
             >
@@ -355,10 +359,10 @@ export default function Sidebar({
                 boxShadow: "0px 3px 9px rgba(59,99,71,0.3)",
               }}
             >
-              เข้าสู่ระบบ
+              เข้าสู่ระบบด้วย Google
             </button>
             <Link
-              href="/register"
+              href="/login"
               className="flex items-center justify-center font-medium text-[13px] rounded-[9px] w-full hover:opacity-90 transition-opacity"
               style={{
                 border: "1px solid var(--ku-promo-secondary-border)",
@@ -367,7 +371,18 @@ export default function Sidebar({
                 textDecoration: "none",
               }}
             >
-              ลงทะเบียน
+              เข้าสู่ระบบด้วยอีเมล
+            </Link>
+            <Link
+              href="/register"
+              className="flex items-center justify-center font-medium text-[12px] w-full hover:opacity-70 transition-opacity"
+              style={{
+                color: "var(--ku-text-faint)",
+                height: 28,
+                textDecoration: "none",
+              }}
+            >
+              ลงทะเบียนโปรไฟล์
             </Link>
           </div>
         ) : (

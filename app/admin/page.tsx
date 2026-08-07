@@ -1,395 +1,905 @@
 "use client";
 
-import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import Sidebar from "../components/Sidebar";
+import { useCallback, useEffect, useMemo, useState } from "react";
+import { useRouter } from "next/navigation";
+import {
+  Bar,
+  BarChart,
+  CartesianGrid,
+  Cell,
+  Line,
+  LineChart,
+  Pie,
+  PieChart,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts";
+import AppShell from "../components/AppShell";
+import {
+  adminSearchLogsExportUrl,
+  createAdminUser,
+  fetchAdminAnalytics,
+  fetchAdminSearchLogs,
+  fetchAdminStats,
+} from "@/lib/adminApi";
+import { apiFetch, ApiError } from "@/lib/api";
+import { useUser } from "@/lib/UserContext";
+import type {
+  AdminAnalytics,
+  AdminSearchLogPage,
+  AdminStats,
+  CreateUserPayload,
+} from "@/lib/types";
 
 const PRIMARY = "#3b6347";
 const FONT = "Poppins, sans-serif";
+const ROLE_COLORS = ["#3b6347", "#8a9e72", "#c4b5a0", "#5b8a72", "#a3b18a"];
 
-const fadeIn = (delay: number) => ({
-  initial: { opacity: 0, y: 10 },
-  animate: { opacity: 1, y: 0 },
-  transition: { duration: 0.35, ease: "easeOut" as const, delay },
-});
+type PeriodMode = "7d" | "30d" | "custom";
 
-const LOG_ROWS = [
-  { id: "4586932", user: "Kate Moore", action: "SELECT Query", component: "Database", avatar: "KM" },
-  { id: "4586931", user: "John Smith", action: "UPDATE Record", component: "User API", avatar: "JS" },
-  { id: "4586930", user: "Sarah Chen", action: "DELETE Entry", component: "Auth Service", avatar: "SC" },
-  { id: "4586929", user: "Mike Davis", action: "INSERT Row", component: "Database", avatar: "MD" },
-  { id: "4586928", user: "Lisa Park", action: "GET Request", component: "REST API", avatar: "LP" },
-  { id: "4586927", user: "Tom Wilson", action: "POST Submit", component: "Form Handler", avatar: "TW" },
-  { id: "4586926", user: "Anna Lee", action: "PATCH Update", component: "User API", avatar: "AL" },
-  { id: "4586925", user: "Chris Brown", action: "SELECT Query", component: "Database", avatar: "CB" },
-];
+function formatDelta(delta: number | null): string {
+  if (delta === null) return "—";
+  const sign = delta > 0 ? "+" : "";
+  return `${sign}${delta}% vs ช่วงก่อน`;
+}
 
-/* SVG line chart — Jan–Jul, two lines */
-function LineChart() {
-  const W = 685, H = 200;
-  const padL = 48, padR = 16, padT = 16, padB = 32;
-  const chartW = W - padL - padR;
-  const chartH = H - padT - padB;
-
-  const months = ["ม.ค.", "ก.พ.", "มี.ค.", "เม.ย.", "พ.ค.", "มิ.ย.", "ก.ค."];
-  const yLabels = ["30K", "20K", "10K", "0"];
-  const maxY = 30000;
-
-  const line1 = [8000, 12000, 9500, 18000, 15000, 22000, 27000];
-  const line2 = [3000, 5000, 4000, 8000, 6000, 10000, 13000];
-
-  const xPos = (i: number) => padL + (i / (months.length - 1)) * chartW;
-  const yPos = (v: number) => padT + chartH - (v / maxY) * chartH;
-
-  const toPath = (vals: number[]) =>
-    vals.map((v, i) => `${i === 0 ? "M" : "L"}${xPos(i)},${yPos(v)}`).join(" ");
-
-  const areaPath =
-    toPath(line1) +
-    ` L${xPos(line1.length - 1)},${padT + chartH} L${xPos(0)},${padT + chartH} Z`;
-
+function KpiCard({
+  label,
+  value,
+  delta,
+  accent,
+}: {
+  label: string;
+  value: string;
+  delta: number | null;
+  accent?: boolean;
+}) {
   return (
-    <svg width={W} height={H} style={{ display: "block" }}>
-      {/* Y grid lines */}
-      {yLabels.map((_, i) => {
-        const y = padT + (i / (yLabels.length - 1)) * chartH;
-        return <line key={i} x1={padL} y1={y} x2={W - padR} y2={y} stroke="rgba(0,0,0,0.06)" strokeWidth={1} />;
-      })}
-      {/* Y labels */}
-      {yLabels.map((label, i) => {
-        const y = padT + (i / (yLabels.length - 1)) * chartH;
-        return (
-          <text key={i} x={padL - 6} y={y + 4} textAnchor="end" fontSize={10} fill="rgba(36,34,32,0.4)" fontFamily={FONT}>
-            {label}
-          </text>
-        );
-      })}
-      {/* X labels */}
-      {months.map((m, i) => (
-        <text key={i} x={xPos(i)} y={H - 6} textAnchor="middle" fontSize={10} fill="rgba(36,34,32,0.4)" fontFamily={FONT}>
-          {m}
-        </text>
-      ))}
-      {/* Area fill */}
-      <path d={areaPath} fill="rgba(59,99,71,0.08)" />
-      {/* Line 1 (solid green) */}
-      <path d={toPath(line1)} fill="none" stroke={PRIMARY} strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
-      {/* Line 2 (dashed muted) */}
-      <path d={toPath(line2)} fill="none" stroke="rgba(59,99,71,0.35)" strokeWidth={1.5} strokeDasharray="5,4" strokeLinecap="round" strokeLinejoin="round" />
-      {/* Dots line1 */}
-      {line1.map((v, i) => (
-        <circle key={i} cx={xPos(i)} cy={yPos(v)} r={3} fill={PRIMARY} />
-      ))}
-    </svg>
+    <div
+      style={{
+        flex: 1,
+        minWidth: 160,
+        borderRadius: 16,
+        background: accent ? PRIMARY : "var(--ku-card-bg)",
+        border: accent ? "none" : "0.5px solid var(--ku-card-border)",
+        padding: "20px 22px",
+        display: "flex",
+        flexDirection: "column",
+        gap: 6,
+      }}
+    >
+      <p style={{ margin: 0, fontSize: 13, color: accent ? "rgba(255,255,255,0.7)" : "var(--ku-text-muted)" }}>
+        {label}
+      </p>
+      <p style={{ margin: 0, fontSize: 28, fontWeight: 700, color: accent ? "#fff" : "var(--ku-text)" }}>
+        {value}
+      </p>
+      <p style={{ margin: 0, fontSize: 11, color: accent ? "rgba(255,255,255,0.55)" : "var(--ku-text-faint)" }}>
+        {formatDelta(delta)}
+      </p>
+    </div>
   );
 }
 
-/* Modal */
-function LogModal({ row, onClose }: { row: typeof LOG_ROWS[0]; onClose: () => void }) {
+function CreateUserModal({
+  open,
+  onClose,
+  onCreated,
+}: {
+  open: boolean;
+  onClose: () => void;
+  onCreated: () => void;
+}) {
+  const [faculties, setFaculties] = useState<string[]>([]);
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    password: "",
+    role: "student" as CreateUserPayload["role"],
+    faculty: "",
+    department: "",
+    student_id: "",
+    employee_id: "",
+    research_affiliation: "",
+  });
+  const [errors, setErrors] = useState<Record<string, string>>({});
+  const [submitting, setSubmitting] = useState(false);
+  const [formError, setFormError] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!open) return;
+    apiFetch<{ faculties: string[] }>("/api/reference/faculties")
+      .then((r) => setFaculties(r.faculties))
+      .catch(() => setFaculties([]));
+  }, [open]);
+
+  if (!open) return null;
+
+  const isStudent = form.role === "student";
+  const isStaff = form.role === "researcher" || form.role === "teacher" || form.role === "admin";
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    setSubmitting(true);
+    setErrors({});
+    setFormError(null);
+
+    const payload: CreateUserPayload = {
+      name: form.name,
+      email: form.email,
+      password: form.password,
+      role: form.role,
+      faculty: form.faculty,
+      department: form.department,
+      student_id: isStudent ? form.student_id : undefined,
+      employee_id: isStaff ? form.employee_id : undefined,
+      research_affiliation: form.role === "researcher" ? form.research_affiliation || undefined : undefined,
+    };
+
+    try {
+      await createAdminUser(payload);
+      onCreated();
+      onClose();
+      setForm({
+        name: "",
+        email: "",
+        password: "",
+        role: "student",
+        faculty: "",
+        department: "",
+        student_id: "",
+        employee_id: "",
+        research_affiliation: "",
+      });
+    } catch (err) {
+      if (err instanceof ApiError && err.status === 422) {
+        const body = err.body as { errors?: Record<string, string[]> };
+        const fieldErrors: Record<string, string> = {};
+        for (const [field, messages] of Object.entries(body.errors ?? {})) {
+          fieldErrors[field] = messages[0];
+        }
+        setErrors(fieldErrors);
+      } else {
+        setFormError("สร้างผู้ใช้ไม่สำเร็จ");
+      }
+    } finally {
+      setSubmitting(false);
+    }
+  }
+
+  const fieldStyle: React.CSSProperties = {
+    width: "100%",
+    height: 36,
+    borderRadius: 8,
+    border: "0.5px solid var(--ku-card-border)",
+    padding: "6px 10px",
+    fontFamily: FONT,
+    fontSize: 13,
+    outline: "none",
+    boxSizing: "border-box",
+  };
+
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      transition={{ duration: 0.18 }}
+    <div
       style={{
-        position: "fixed", inset: 0, zIndex: 100,
-        background: "rgba(0,0,0,0.45)", display: "flex", alignItems: "center", justifyContent: "center",
+        position: "fixed",
+        inset: 0,
+        zIndex: 100,
+        background: "rgba(0,0,0,0.45)",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
       }}
       onClick={onClose}
     >
-      <motion.div
-        initial={{ opacity: 0, scale: 0.94, y: 12 }}
-        animate={{ opacity: 1, scale: 1, y: 0 }}
-        exit={{ opacity: 0, scale: 0.94, y: 12 }}
-        transition={{ duration: 0.22, ease: "easeOut" as const }}
+      <form
         onClick={(e) => e.stopPropagation()}
+        onSubmit={handleSubmit}
         style={{
-          width: 520, background: "#fff", borderRadius: 16, padding: "28px 32px 24px",
+          width: 520,
+          maxHeight: "90vh",
+          overflowY: "auto",
+          background: "#fff",
+          borderRadius: 16,
+          padding: "28px 32px 24px",
           boxShadow: "0 20px 60px rgba(0,0,0,0.18)",
           fontFamily: FONT,
+          display: "flex",
+          flexDirection: "column",
+          gap: 12,
         }}
       >
-        {/* Header */}
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 20 }}>
-          <h2 style={{ fontSize: 16, fontWeight: 600, color: "#242220" }}>
-            รายละเอียดกิจกรรม — Log #{row.id}
-          </h2>
-          <button
-            onClick={onClose}
-            aria-label="ปิด"
-            style={{ width: 28, height: 28, borderRadius: 6, border: "none", background: "rgba(0,0,0,0.06)", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}
+        <h2 style={{ margin: 0, fontSize: 16, fontWeight: 600 }}>สร้างผู้ใช้</h2>
+
+        {(
+          [
+            ["name", "ชื่อ", "text"],
+            ["email", "อีเมล", "email"],
+            ["password", "รหัสผ่าน", "password"],
+          ] as const
+        ).map(([key, label, type]) => (
+          <label key={key} style={{ display: "flex", flexDirection: "column", gap: 4 }}>
+            <span style={{ fontSize: 12, color: "var(--ku-text-muted)" }}>{label}</span>
+            <input
+              type={type}
+              required
+              value={form[key]}
+              onChange={(e) => setForm((f) => ({ ...f, [key]: e.target.value }))}
+              style={fieldStyle}
+            />
+            {errors[key] && <span style={{ fontSize: 12, color: "#ff383c" }}>{errors[key]}</span>}
+          </label>
+        ))}
+
+        <label style={{ display: "flex", flexDirection: "column", gap: 4 }}>
+          <span style={{ fontSize: 12, color: "var(--ku-text-muted)" }}>บทบาท</span>
+          <select
+            value={form.role}
+            onChange={(e) =>
+              setForm((f) => ({ ...f, role: e.target.value as CreateUserPayload["role"] }))
+            }
+            style={fieldStyle}
           >
-            <svg width={14} height={14} fill="none" stroke="#737373" strokeWidth={2} viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-        </div>
+            <option value="student">Student</option>
+            <option value="researcher">Researcher</option>
+            <option value="teacher">Teacher</option>
+            <option value="admin">Admin</option>
+          </select>
+        </label>
 
-        {/* Body */}
-        <div style={{ display: "flex", flexDirection: "column", gap: 12, marginBottom: 24 }}>
-          <Row label="ผู้ใช้" value={row.user} />
-          <Row label="การกระทำ" value={row.action} />
-          <Row label="ส่วนประกอบ" value={row.component} />
-          <div style={{ background: "#f4f4f4", borderRadius: 8, padding: "10px 14px" }}>
-            <p style={{ fontSize: 11, color: "rgba(36,34,32,0.45)", marginBottom: 4 }}>Raw Query</p>
-            <code style={{ fontSize: 12, color: "#242220", fontFamily: "monospace" }}>
-              {`SELECT * FROM users WHERE id = '${row.id}' LIMIT 1`}
-            </code>
-          </div>
-          <Row label="ผลลัพธ์" value="1 แถว · 0.42ms" />
-          <Row label="เวลา" value="2024-07-15 14:32:08 UTC" />
-        </div>
+        <label style={{ display: "flex", flexDirection: "column", gap: 4 }}>
+          <span style={{ fontSize: 12, color: "var(--ku-text-muted)" }}>คณะ</span>
+          <select
+            required
+            value={form.faculty}
+            onChange={(e) => setForm((f) => ({ ...f, faculty: e.target.value }))}
+            style={fieldStyle}
+          >
+            <option value="">เลือกคณะ</option>
+            {faculties.map((f) => (
+              <option key={f} value={f}>
+                {f}
+              </option>
+            ))}
+          </select>
+          {errors.faculty && <span style={{ fontSize: 12, color: "#ff383c" }}>{errors.faculty}</span>}
+        </label>
 
-        {/* Actions */}
-        <div style={{ display: "flex", gap: 10, justifyContent: "flex-end" }}>
+        <label style={{ display: "flex", flexDirection: "column", gap: 4 }}>
+          <span style={{ fontSize: 12, color: "var(--ku-text-muted)" }}>สาขา / ภาควิชา</span>
+          <input
+            required
+            value={form.department}
+            onChange={(e) => setForm((f) => ({ ...f, department: e.target.value }))}
+            style={fieldStyle}
+          />
+        </label>
+
+        {isStudent && (
+          <label style={{ display: "flex", flexDirection: "column", gap: 4 }}>
+            <span style={{ fontSize: 12, color: "var(--ku-text-muted)" }}>รหัสนิสิต</span>
+            <input
+              required
+              value={form.student_id}
+              onChange={(e) => setForm((f) => ({ ...f, student_id: e.target.value }))}
+              style={fieldStyle}
+            />
+            {errors.student_id && (
+              <span style={{ fontSize: 12, color: "#ff383c" }}>{errors.student_id}</span>
+            )}
+          </label>
+        )}
+
+        {isStaff && (
+          <label style={{ display: "flex", flexDirection: "column", gap: 4 }}>
+            <span style={{ fontSize: 12, color: "var(--ku-text-muted)" }}>รหัสพนักงาน</span>
+            <input
+              required
+              value={form.employee_id}
+              onChange={(e) => setForm((f) => ({ ...f, employee_id: e.target.value }))}
+              style={fieldStyle}
+            />
+            {errors.employee_id && (
+              <span style={{ fontSize: 12, color: "#ff383c" }}>{errors.employee_id}</span>
+            )}
+          </label>
+        )}
+
+        {form.role === "researcher" && (
+          <label style={{ display: "flex", flexDirection: "column", gap: 4 }}>
+            <span style={{ fontSize: 12, color: "var(--ku-text-muted)" }}>สังกัดวิจัย</span>
+            <input
+              value={form.research_affiliation}
+              onChange={(e) => setForm((f) => ({ ...f, research_affiliation: e.target.value }))}
+              style={fieldStyle}
+            />
+          </label>
+        )}
+
+        {formError && <p style={{ margin: 0, fontSize: 13, color: "#ff383c" }}>{formError}</p>}
+
+        <div style={{ display: "flex", gap: 10, justifyContent: "flex-end", marginTop: 8 }}>
           <button
+            type="button"
             onClick={onClose}
             style={{
-              height: 38, paddingLeft: 20, paddingRight: 20, borderRadius: 8,
-              border: "0.5px solid #737373", background: "transparent",
-              fontSize: 13, fontWeight: 500, color: "#242220", cursor: "pointer", fontFamily: FONT,
+              height: 38,
+              padding: "0 18px",
+              borderRadius: 8,
+              border: "0.5px solid #737373",
+              background: "transparent",
+              cursor: "pointer",
+              fontFamily: FONT,
             }}
           >
             ยกเลิก
           </button>
           <button
+            type="submit"
+            disabled={submitting}
             style={{
-              height: 38, paddingLeft: 20, paddingRight: 20, borderRadius: 8,
-              border: "none", background: "#0485f7",
-              fontSize: 13, fontWeight: 500, color: "#fff", cursor: "pointer", fontFamily: FONT,
+              height: 38,
+              padding: "0 18px",
+              borderRadius: 8,
+              border: "none",
+              background: PRIMARY,
+              color: "#fff",
+              cursor: submitting ? "not-allowed" : "pointer",
+              fontFamily: FONT,
+              opacity: submitting ? 0.7 : 1,
             }}
           >
-            ยืนยัน
+            {submitting ? "กำลังสร้าง..." : "สร้างผู้ใช้"}
           </button>
         </div>
-      </motion.div>
-    </motion.div>
-  );
-}
-
-function Row({ label, value }: { label: string; value: string }) {
-  return (
-    <div style={{ display: "flex", gap: 12, alignItems: "flex-start" }}>
-      <span style={{ width: 100, fontSize: 12, color: "rgba(36,34,32,0.45)", flexShrink: 0, paddingTop: 1 }}>{label}</span>
-      <span style={{ fontSize: 13, color: "#242220" }}>{value}</span>
+      </form>
     </div>
   );
 }
 
 export default function AdminPage() {
-  const [selectedRow, setSelectedRow] = useState<typeof LOG_ROWS[0] | null>(null);
-  const [search, setSearch] = useState("");
-  const [statusFilter, setStatusFilter] = useState("ทั้งหมด");
-  const [checked, setChecked] = useState<Set<string>>(new Set());
+  const router = useRouter();
+  const { user, loading: userLoading } = useUser();
 
-  const filteredRows = LOG_ROWS.filter((r) =>
-    r.user.toLowerCase().includes(search.toLowerCase()) ||
-    r.action.toLowerCase().includes(search.toLowerCase()) ||
-    r.component.toLowerCase().includes(search.toLowerCase())
-  );
+  const [periodMode, setPeriodMode] = useState<PeriodMode>("7d");
+  const [customFrom, setCustomFrom] = useState("");
+  const [customTo, setCustomTo] = useState("");
 
-  const toggleCheck = (id: string) => {
-    setChecked((prev) => {
-      const next = new Set(prev);
-      next.has(id) ? next.delete(id) : next.add(id);
-      return next;
-    });
+  const [stats, setStats] = useState<AdminStats | null>(null);
+  const [analytics, setAnalytics] = useState<AdminAnalytics | null>(null);
+  const [logs, setLogs] = useState<AdminSearchLogPage | null>(null);
+  const [loadingData, setLoadingData] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  const [roleFilter, setRoleFilter] = useState("all");
+  const [statusFilter, setStatusFilter] = useState("all");
+  const [queryFilter, setQueryFilter] = useState("");
+  const [page, setPage] = useState(1);
+  const [createOpen, setCreateOpen] = useState(false);
+
+  const periodParams = useMemo(() => {
+    if (periodMode === "custom") {
+      return { period: "custom" as const, from: customFrom, to: customTo };
+    }
+    return { period: periodMode };
+  }, [periodMode, customFrom, customTo]);
+
+  useEffect(() => {
+    if (userLoading) return;
+    if (!user || user.role !== "admin") {
+      router.replace("/");
+    }
+  }, [user, userLoading, router]);
+
+  const loadDashboard = useCallback(async () => {
+    if (periodMode === "custom" && (!customFrom || !customTo)) return;
+
+    setLoadingData(true);
+    setError(null);
+    try {
+      const [s, a] = await Promise.all([
+        fetchAdminStats(periodParams),
+        fetchAdminAnalytics(periodParams),
+      ]);
+      setStats(s);
+      setAnalytics(a);
+    } catch (err) {
+      if (err instanceof ApiError && err.status === 403) {
+        router.replace("/");
+        return;
+      }
+      setError("โหลดข้อมูลแดชบอร์ดไม่สำเร็จ");
+    } finally {
+      setLoadingData(false);
+    }
+  }, [periodParams, periodMode, customFrom, customTo, router]);
+
+  const loadLogs = useCallback(async () => {
+    if (periodMode === "custom" && (!customFrom || !customTo)) return;
+    try {
+      const data = await fetchAdminSearchLogs({
+        ...periodParams,
+        role: roleFilter,
+        status: statusFilter,
+        q: queryFilter || undefined,
+        page,
+      });
+      setLogs(data);
+    } catch {
+      // keep previous table on soft failure
+    }
+  }, [periodParams, periodMode, customFrom, customTo, roleFilter, statusFilter, queryFilter, page]);
+
+  useEffect(() => {
+    if (!user || user.role !== "admin") return;
+    loadDashboard();
+  }, [user, loadDashboard]);
+
+  useEffect(() => {
+    if (!user || user.role !== "admin") return;
+    loadLogs();
+  }, [user, loadLogs]);
+
+  if (userLoading || !user || user.role !== "admin") {
+    return (
+      <div
+        style={{
+          height: "100vh",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          fontFamily: FONT,
+          color: "var(--ku-text-muted)",
+        }}
+      >
+        กำลังตรวจสอบสิทธิ์...
+      </div>
+    );
+  }
+
+  const exportUrl = adminSearchLogsExportUrl({
+    ...periodParams,
+    role: roleFilter,
+    status: statusFilter,
+    q: queryFilter || undefined,
+  });
+
+  const cardStyle: React.CSSProperties = {
+    borderRadius: 16,
+    background: "var(--ku-card-bg)",
+    border: "0.5px solid var(--ku-card-border)",
+    padding: 20,
+    minHeight: 260,
   };
 
   return (
-    <>
-      <div style={{ width: "100%", height: "100vh", display: "flex", overflow: "hidden", background: "var(--ku-bg)" }}>
-        {/* Sidebar */}
-        <div style={{ flexShrink: 0, height: "100%" }}>
-          <Sidebar activeNav="admin" />
+    <AppShell activeNav="admin" breadcrumb="แดชบอร์ดผู้ดูแล">
+      <div style={{ padding: "28px 36px 48px", fontFamily: FONT }}>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            gap: 16,
+            marginBottom: 24,
+            flexWrap: "wrap",
+          }}
+        >
+          <h1 style={{ margin: 0, fontSize: 22, fontWeight: 700, color: "var(--ku-text)" }}>
+            Admin Dashboard
+          </h1>
+          <div style={{ display: "flex", gap: 8, alignItems: "center", flexWrap: "wrap" }}>
+            {(["7d", "30d", "custom"] as PeriodMode[]).map((mode) => (
+              <button
+                key={mode}
+                type="button"
+                onClick={() => setPeriodMode(mode)}
+                style={{
+                  height: 34,
+                  padding: "0 14px",
+                  borderRadius: 8,
+                  border: periodMode === mode ? "none" : "0.5px solid var(--ku-card-border)",
+                  background: periodMode === mode ? PRIMARY : "var(--ku-card-bg)",
+                  color: periodMode === mode ? "#fff" : "var(--ku-text)",
+                  fontSize: 12,
+                  cursor: "pointer",
+                  fontFamily: FONT,
+                }}
+              >
+                {mode === "7d" ? "7 วัน" : mode === "30d" ? "30 วัน" : "กำหนดเอง"}
+              </button>
+            ))}
+            {periodMode === "custom" && (
+              <>
+                <input
+                  type="date"
+                  value={customFrom}
+                  onChange={(e) => setCustomFrom(e.target.value)}
+                  style={{ height: 34, borderRadius: 8, border: "0.5px solid var(--ku-card-border)", padding: "0 8px" }}
+                />
+                <input
+                  type="date"
+                  value={customTo}
+                  onChange={(e) => setCustomTo(e.target.value)}
+                  style={{ height: 34, borderRadius: 8, border: "0.5px solid var(--ku-card-border)", padding: "0 8px" }}
+                />
+              </>
+            )}
+            <button
+              type="button"
+              onClick={() => setCreateOpen(true)}
+              style={{
+                height: 34,
+                padding: "0 14px",
+                borderRadius: 8,
+                border: "none",
+                background: PRIMARY,
+                color: "#fff",
+                fontSize: 12,
+                cursor: "pointer",
+                fontFamily: FONT,
+              }}
+            >
+              สร้างผู้ใช้
+            </button>
+          </div>
         </div>
 
-        {/* Scrollable content */}
-        <div style={{ flex: 1, height: "100%", overflowY: "auto", paddingLeft: 36, paddingRight: 36, paddingTop: 44, paddingBottom: 44, fontFamily: FONT }}>
+        {error && (
+          <p style={{ color: "#ff383c", marginBottom: 16, fontSize: 13 }}>{error}</p>
+        )}
 
-          {/* Page title */}
-          <motion.h1 {...fadeIn(0)} style={{ fontSize: 22, fontWeight: 700, color: "var(--ku-text)", marginBottom: 28 }}>
-            แดชบอร์ดผู้ดูแล
-          </motion.h1>
+        <div style={{ display: "flex", gap: 14, marginBottom: 28, flexWrap: "wrap" }}>
+          <KpiCard
+            label="Total Searches"
+            value={loadingData ? "…" : String(stats?.total_searches.value ?? 0)}
+            delta={stats?.total_searches.delta_pct ?? null}
+            accent
+          />
+          <KpiCard
+            label="Active Users"
+            value={loadingData ? "…" : String(stats?.active_users.value ?? 0)}
+            delta={stats?.active_users.delta_pct ?? null}
+          />
+          <KpiCard
+            label="Avg. Latency"
+            value={loadingData ? "…" : `${Math.round(stats?.avg_latency_ms.value ?? 0)} ms`}
+            delta={stats?.avg_latency_ms.delta_pct ?? null}
+          />
+          <KpiCard
+            label="Zero-Result Rate"
+            value={loadingData ? "…" : `${stats?.zero_result_rate.value ?? 0}%`}
+            delta={stats?.zero_result_rate.delta_pct ?? null}
+          />
+        </div>
 
-          {/* Stat cards */}
-          <div style={{ display: "flex", gap: 16, marginBottom: 32 }}>
-            {/* Card 1 — dark green */}
-            <motion.div
-              {...fadeIn(0.06)}
-              style={{
-                flex: 1, borderRadius: 20, background: PRIMARY, padding: "22px 24px",
-                display: "flex", flexDirection: "column", gap: 6,
-              }}
-            >
-              <p style={{ fontSize: 13, color: "rgba(255,255,255,0.65)" }}>การเข้าชม</p>
-              <p style={{ fontSize: 28, fontWeight: 700, color: "#fff" }}>7,265</p>
-              <p style={{ fontSize: 11, color: "rgba(255,255,255,0.5)" }}>+11.01% เดือนนี้</p>
-            </motion.div>
-
-            {/* Card 2 — white */}
-            <motion.div
-              {...fadeIn(0.1)}
-              style={{
-                flex: 1, borderRadius: 20, background: "var(--ku-card-bg)", border: "0.5px solid #737373",
-                padding: "22px 24px", display: "flex", flexDirection: "column", gap: 6,
-              }}
-            >
-              <p style={{ fontSize: 13, color: "var(--ku-text-muted)" }}>ผู้ใช้</p>
-              <p style={{ fontSize: 28, fontWeight: 700, color: "var(--ku-text)" }}>342</p>
-              <p style={{ fontSize: 11, color: "var(--ku-text-muted)" }}>+8.3% เดือนนี้</p>
-            </motion.div>
-
-            {/* Card 3 — light green */}
-            <motion.div
-              {...fadeIn(0.14)}
-              style={{
-                flex: 1, borderRadius: 20, background: "#eaf0e4", border: "none",
-                padding: "22px 24px", display: "flex", flexDirection: "column", gap: 6,
-              }}
-            >
-              <p style={{ fontSize: 13, color: "rgba(59,99,71,0.65)" }}>ผู้ใช้งานอยู่</p>
-              <p style={{ fontSize: 28, fontWeight: 700, color: PRIMARY }}>120</p>
-              <p style={{ fontSize: 11, color: "rgba(59,99,71,0.5)" }}>ขณะนี้</p>
-            </motion.div>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
+            gap: 16,
+            marginBottom: 32,
+          }}
+        >
+          <div style={cardStyle}>
+            <p style={{ margin: "0 0 12px", fontSize: 14, fontWeight: 600 }}>Search Volume Trend</p>
+            <ResponsiveContainer width="100%" height={200}>
+              <LineChart data={analytics?.search_volume_trend ?? []}>
+                <CartesianGrid strokeDasharray="3 3" stroke="rgba(0,0,0,0.06)" />
+                <XAxis dataKey="date" tick={{ fontSize: 10 }} />
+                <YAxis tick={{ fontSize: 10 }} allowDecimals={false} />
+                <Tooltip />
+                <Line type="monotone" dataKey="count" stroke={PRIMARY} strokeWidth={2} dot={{ r: 3 }} />
+              </LineChart>
+            </ResponsiveContainer>
           </div>
 
-          {/* Chart */}
-          <motion.div
-            {...fadeIn(0.18)}
-            style={{
-              borderRadius: 16, background: "#f9f9fa", border: "0.5px solid rgba(161,161,161,0.3)",
-              padding: "20px 20px 12px", marginBottom: 32,
-            }}
-          >
-            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 12 }}>
-              <p style={{ fontSize: 14, fontWeight: 600, color: "var(--ku-text)" }}>ผู้ใช้ทั้งหมด</p>
-              <div style={{ display: "flex", gap: 16 }}>
-                <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
-                  <div style={{ width: 20, height: 2, background: PRIMARY, borderRadius: 1 }} />
-                  <span style={{ fontSize: 11, color: "var(--ku-text-muted)" }}>ผู้ใช้ใหม่</span>
-                </div>
-                <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
-                  <div style={{ width: 20, height: 0, border: `1.5px dashed rgba(59,99,71,0.4)`, borderRadius: 1 }} />
-                  <span style={{ fontSize: 11, color: "var(--ku-text-muted)" }}>ผู้ใช้กลับมา</span>
-                </div>
-              </div>
-            </div>
-            <LineChart />
-          </motion.div>
+          <div style={cardStyle}>
+            <p style={{ margin: "0 0 12px", fontSize: 14, fontWeight: 600 }}>Top Searched Topics</p>
+            <ResponsiveContainer width="100%" height={200}>
+              <BarChart
+                data={(analytics?.top_topics ?? []).map((t) => ({
+                  ...t,
+                  short: t.query.length > 24 ? `${t.query.slice(0, 24)}…` : t.query,
+                }))}
+                layout="vertical"
+                margin={{ left: 8 }}
+              >
+                <CartesianGrid strokeDasharray="3 3" stroke="rgba(0,0,0,0.06)" />
+                <XAxis type="number" tick={{ fontSize: 10 }} allowDecimals={false} />
+                <YAxis type="category" dataKey="short" width={110} tick={{ fontSize: 10 }} />
+                <Tooltip />
+                <Bar dataKey="count" fill={PRIMARY} radius={[0, 4, 4, 0]} />
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
 
-          {/* Activity log */}
-          <motion.div {...fadeIn(0.22)}>
-            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 14 }}>
-              <p style={{ fontSize: 15, fontWeight: 600, color: "var(--ku-text)" }}>บันทึกกิจกรรมล่าสุด</p>
-              <div style={{ display: "flex", gap: 10 }}>
-                {/* Search */}
-                <div style={{
-                  display: "flex", alignItems: "center", gap: 8,
-                  background: "var(--ku-card-bg)", border: "0.5px solid var(--ku-card-border)",
-                  borderRadius: 8, paddingLeft: 10, paddingRight: 10, height: 36,
-                }}>
-                  <svg width={14} height={14} fill="none" stroke="var(--ku-text-muted)" strokeWidth={2} viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M17 11A6 6 0 115 11a6 6 0 0112 0z" />
-                  </svg>
-                  <input
-                    value={search}
-                    onChange={(e) => setSearch(e.target.value)}
-                    placeholder="ค้นหา..."
-                    style={{ border: "none", outline: "none", background: "transparent", fontSize: 12, color: "var(--ku-text)", width: 130 }}
-                  />
-                </div>
-                {/* Status filter */}
-                <select
-                  value={statusFilter}
-                  onChange={(e) => setStatusFilter(e.target.value)}
-                  style={{
-                    height: 36, paddingLeft: 10, paddingRight: 10, borderRadius: 8,
-                    border: "0.5px solid var(--ku-card-border)", background: "var(--ku-card-bg)",
-                    fontSize: 12, color: "var(--ku-text)", cursor: "pointer", outline: "none", fontFamily: FONT,
-                  }}
+          <div style={cardStyle}>
+            <p style={{ margin: "0 0 12px", fontSize: 14, fontWeight: 600 }}>User Roles Breakdown</p>
+            <ResponsiveContainer width="100%" height={200}>
+              <PieChart>
+                <Pie
+                  data={analytics?.role_breakdown ?? []}
+                  dataKey="count"
+                  nameKey="role"
+                  innerRadius={50}
+                  outerRadius={80}
+                  paddingAngle={2}
                 >
-                  <option>ทั้งหมด</option>
-                  <option>Database</option>
-                  <option>User API</option>
-                  <option>Auth Service</option>
-                </select>
-              </div>
-            </div>
-
-            {/* Table */}
-            <div style={{ borderRadius: 12, border: "0.5px solid var(--ku-card-border)", overflow: "hidden" }}>
-              {/* Header */}
-              <div style={{
-                display: "grid", gridTemplateColumns: "36px 100px 1fr 1fr 1fr 44px",
-                background: "var(--ku-surface)", padding: "10px 16px", gap: 12,
-                borderBottom: "0.5px solid var(--ku-card-border)",
-              }}>
-                {["", "ID", "ผู้ใช้", "การกระทำ", "ส่วนประกอบ", ""].map((h, i) => (
-                  <span key={i} style={{ fontSize: 11, fontWeight: 600, color: "var(--ku-text-muted)", textTransform: "uppercase" as const }}>{h}</span>
-                ))}
-              </div>
-              {/* Rows */}
-              {filteredRows.map((row, i) => (
-                <motion.div
-                  key={row.id}
-                  initial={{ opacity: 0, y: 4 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.24 + i * 0.04, duration: 0.25, ease: "easeOut" as const }}
-                  style={{
-                    display: "grid", gridTemplateColumns: "36px 100px 1fr 1fr 1fr 44px",
-                    alignItems: "center", padding: "12px 16px", gap: 12,
-                    borderBottom: i < filteredRows.length - 1 ? "0.5px solid var(--ku-card-border)" : "none",
-                    background: "var(--ku-card-bg)", transition: "background 0.15s",
-                  }}
-                  onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.background = "var(--ku-surface)"; }}
-                  onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.background = "var(--ku-card-bg)"; }}
-                >
-                  <input
-                    type="checkbox"
-                    checked={checked.has(row.id)}
-                    onChange={() => toggleCheck(row.id)}
-                    style={{ width: 14, height: 14, accentColor: PRIMARY, cursor: "pointer" }}
-                  />
-                  <span style={{ fontSize: 12, color: "var(--ku-text-muted)", fontFamily: "monospace" }}>#{row.id}</span>
-                  <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-                    <div style={{
-                      width: 26, height: 26, borderRadius: "50%", background: "rgba(59,99,71,0.15)",
-                      display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0,
-                    }}>
-                      <span style={{ fontSize: 9, fontWeight: 700, color: PRIMARY }}>{row.avatar}</span>
-                    </div>
-                    <span style={{ fontSize: 13, color: "var(--ku-text)" }}>{row.user}</span>
-                  </div>
-                  <span style={{ fontSize: 12, color: "var(--ku-text-muted)" }}>{row.action}</span>
-                  <span style={{ fontSize: 12, color: "var(--ku-text-muted)" }}>{row.component}</span>
-                  <button
-                    onClick={() => setSelectedRow(row)}
-                    aria-label={`ดูรายละเอียด log ${row.id}`}
+                  {(analytics?.role_breakdown ?? []).map((_, i) => (
+                    <Cell key={i} fill={ROLE_COLORS[i % ROLE_COLORS.length]} />
+                  ))}
+                </Pie>
+                <Tooltip />
+              </PieChart>
+            </ResponsiveContainer>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: 10, marginTop: 4 }}>
+              {(analytics?.role_breakdown ?? []).map((r, i) => (
+                <span key={r.role} style={{ fontSize: 11, color: "var(--ku-text-muted)" }}>
+                  <span
                     style={{
-                      width: 28, height: 28, borderRadius: 6, border: "0.5px solid var(--ku-card-border)",
-                      background: "transparent", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center",
+                      display: "inline-block",
+                      width: 8,
+                      height: 8,
+                      borderRadius: 2,
+                      background: ROLE_COLORS[i % ROLE_COLORS.length],
+                      marginRight: 4,
                     }}
-                  >
-                    <svg width={14} height={14} fill="none" stroke="var(--ku-text-muted)" strokeWidth={1.8} viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
-                  </button>
-                </motion.div>
+                  />
+                  {r.role} ({r.count})
+                </span>
               ))}
             </div>
-          </motion.div>
+          </div>
+
+          <div style={cardStyle}>
+            <p style={{ margin: "0 0 12px", fontSize: 14, fontWeight: 600 }}>Top Retrieved Nodes</p>
+            <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+              {(analytics?.top_nodes ?? []).length === 0 && (
+                <p style={{ margin: 0, fontSize: 13, color: "var(--ku-text-muted)" }}>ยังไม่มีข้อมูล</p>
+              )}
+              {(analytics?.top_nodes ?? []).map((node, i) => (
+                <div
+                  key={node.label}
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    padding: "8px 10px",
+                    borderRadius: 8,
+                    background: "var(--ku-surface)",
+                  }}
+                >
+                  <span style={{ fontSize: 13, color: "var(--ku-text)" }}>
+                    {i + 1}. {node.label}
+                  </span>
+                  <span style={{ fontSize: 12, color: "var(--ku-text-muted)" }}>{node.count} hits</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+              gap: 12,
+              marginBottom: 14,
+              flexWrap: "wrap",
+            }}
+          >
+            <p style={{ margin: 0, fontSize: 15, fontWeight: 600 }}>Search Logs</p>
+            <div style={{ display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center" }}>
+              <input
+                value={queryFilter}
+                onChange={(e) => {
+                  setPage(1);
+                  setQueryFilter(e.target.value);
+                }}
+                placeholder="ค้นหา query..."
+                style={{
+                  height: 34,
+                  width: 160,
+                  borderRadius: 8,
+                  border: "0.5px solid var(--ku-card-border)",
+                  padding: "0 10px",
+                  fontSize: 12,
+                  fontFamily: FONT,
+                }}
+              />
+              <select
+                value={roleFilter}
+                onChange={(e) => {
+                  setPage(1);
+                  setRoleFilter(e.target.value);
+                }}
+                style={{
+                  height: 34,
+                  borderRadius: 8,
+                  border: "0.5px solid var(--ku-card-border)",
+                  padding: "0 8px",
+                  fontSize: 12,
+                  fontFamily: FONT,
+                }}
+              >
+                <option value="all">Role: All</option>
+                <option value="student">Student</option>
+                <option value="researcher">Researcher</option>
+                <option value="teacher">Teacher</option>
+                <option value="admin">Admin</option>
+              </select>
+              <select
+                value={statusFilter}
+                onChange={(e) => {
+                  setPage(1);
+                  setStatusFilter(e.target.value);
+                }}
+                style={{
+                  height: 34,
+                  borderRadius: 8,
+                  border: "0.5px solid var(--ku-card-border)",
+                  padding: "0 8px",
+                  fontSize: 12,
+                  fontFamily: FONT,
+                }}
+              >
+                <option value="all">Status: All</option>
+                <option value="success">Success</option>
+                <option value="zero_results">Zero Results</option>
+                <option value="error">Error</option>
+              </select>
+              <a
+                href={exportUrl}
+                style={{
+                  height: 34,
+                  display: "inline-flex",
+                  alignItems: "center",
+                  padding: "0 14px",
+                  borderRadius: 8,
+                  background: PRIMARY,
+                  color: "#fff",
+                  fontSize: 12,
+                  textDecoration: "none",
+                  fontFamily: FONT,
+                }}
+              >
+                Export CSV
+              </a>
+            </div>
+          </div>
+
+          <div style={{ borderRadius: 12, border: "0.5px solid var(--ku-card-border)", overflow: "hidden" }}>
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "120px 100px 1fr 90px 80px 100px",
+                gap: 12,
+                padding: "10px 16px",
+                background: "var(--ku-surface)",
+                borderBottom: "0.5px solid var(--ku-card-border)",
+              }}
+            >
+              {["Timestamp", "Role", "Query", "Nodes", "Latency", "Status"].map((h) => (
+                <span key={h} style={{ fontSize: 11, fontWeight: 600, color: "var(--ku-text-muted)" }}>
+                  {h}
+                </span>
+              ))}
+            </div>
+            {(logs?.data ?? []).map((row, i) => (
+              <div
+                key={row.id}
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "120px 100px 1fr 90px 80px 100px",
+                  gap: 12,
+                  padding: "12px 16px",
+                  borderBottom:
+                    i < (logs?.data.length ?? 0) - 1 ? "0.5px solid var(--ku-card-border)" : "none",
+                  background: "var(--ku-card-bg)",
+                  fontSize: 12,
+                  color: "var(--ku-text)",
+                }}
+              >
+                <span style={{ color: "var(--ku-text-muted)", fontFamily: "monospace" }}>
+                  {new Date(row.created_at).toLocaleString("th-TH", {
+                    hour: "2-digit",
+                    minute: "2-digit",
+                    day: "2-digit",
+                    month: "2-digit",
+                  })}
+                </span>
+                <span>{row.role_snapshot ?? "—"}</span>
+                <span
+                  style={{
+                    overflow: "hidden",
+                    textOverflow: "ellipsis",
+                    whiteSpace: "nowrap",
+                  }}
+                  title={row.query}
+                >
+                  {row.query}
+                </span>
+                <span>{row.total_nodes_found ?? 0}</span>
+                <span>{row.total_latency_ms != null ? `${row.total_latency_ms}ms` : "—"}</span>
+                <span
+                  style={{
+                    color:
+                      row.status === "success"
+                        ? PRIMARY
+                        : row.status === "zero_results"
+                          ? "#b45309"
+                          : "#dc2626",
+                    fontWeight: 500,
+                  }}
+                >
+                  {row.status}
+                </span>
+              </div>
+            ))}
+            {(logs?.data.length ?? 0) === 0 && (
+              <p style={{ margin: 0, padding: 24, textAlign: "center", color: "var(--ku-text-muted)", fontSize: 13 }}>
+                ไม่มี search logs ในช่วงนี้
+              </p>
+            )}
+          </div>
+
+          {logs && logs.last_page > 1 && (
+            <div style={{ display: "flex", justifyContent: "center", gap: 8, marginTop: 16 }}>
+              <button
+                type="button"
+                disabled={page <= 1}
+                onClick={() => setPage((p) => Math.max(1, p - 1))}
+                style={{
+                  height: 32,
+                  padding: "0 12px",
+                  borderRadius: 8,
+                  border: "0.5px solid var(--ku-card-border)",
+                  background: "var(--ku-card-bg)",
+                  cursor: page <= 1 ? "not-allowed" : "pointer",
+                  fontFamily: FONT,
+                  fontSize: 12,
+                }}
+              >
+                Prev
+              </button>
+              <span style={{ fontSize: 12, color: "var(--ku-text-muted)", lineHeight: "32px" }}>
+                {logs.current_page} / {logs.last_page}
+              </span>
+              <button
+                type="button"
+                disabled={page >= logs.last_page}
+                onClick={() => setPage((p) => p + 1)}
+                style={{
+                  height: 32,
+                  padding: "0 12px",
+                  borderRadius: 8,
+                  border: "0.5px solid var(--ku-card-border)",
+                  background: "var(--ku-card-bg)",
+                  cursor: page >= logs.last_page ? "not-allowed" : "pointer",
+                  fontFamily: FONT,
+                  fontSize: 12,
+                }}
+              >
+                Next
+              </button>
+            </div>
+          )}
         </div>
       </div>
 
-      {/* Modal */}
-      <AnimatePresence>
-        {selectedRow && (
-          <LogModal row={selectedRow} onClose={() => setSelectedRow(null)} />
-        )}
-      </AnimatePresence>
-    </>
+      <CreateUserModal
+        open={createOpen}
+        onClose={() => setCreateOpen(false)}
+        onCreated={() => {
+          loadDashboard();
+          loadLogs();
+        }}
+      />
+    </AppShell>
   );
 }

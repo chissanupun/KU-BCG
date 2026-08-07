@@ -81,6 +81,8 @@ export type GraphRagMeta = {
   models?: { router?: string; sub?: string; synth?: string };
   docs_retrieved?: number;
   relations_retrieved?: number;
+  sub_queries?: string[];
+  timing?: { retrieval_ms?: number; synthesis_ms?: number };
 };
 
 export type GraphRagResult = {
@@ -140,4 +142,65 @@ export type SearchHistoryDetail = {
   tab: "overview" | "graph" | "learning";
   result: GraphRagResult | null;
   created_at: string;
+};
+
+export type AdminMetric = {
+  value: number;
+  delta_pct: number | null;
+};
+
+export type AdminStats = {
+  period: { from: string; to: string };
+  total_searches: AdminMetric;
+  active_users: AdminMetric;
+  avg_latency_ms: AdminMetric;
+  zero_result_rate: AdminMetric;
+};
+
+export type AdminAnalytics = {
+  period: { from: string; to: string };
+  search_volume_trend: { date: string; count: number }[];
+  top_topics: { query: string; count: number }[];
+  role_breakdown: { role: string; count: number }[];
+  top_nodes: { label: string; count: number }[];
+};
+
+export type AdminSearchLog = {
+  id: number;
+  user_id: number;
+  query: string;
+  status: "success" | "zero_results" | "error";
+  query_type: string | null;
+  role_snapshot: string | null;
+  faculty_snapshot: string | null;
+  total_latency_ms: number | null;
+  total_nodes_found: number | null;
+  metrics: {
+    top_node_labels?: string[];
+    decomposed_queries?: string[];
+    nodes_breakdown?: Record<string, number>;
+    error_message?: string | null;
+  } | null;
+  created_at: string;
+  user?: { id: number; name: string; email: string; role: string } | null;
+};
+
+export type AdminSearchLogPage = {
+  data: AdminSearchLog[];
+  current_page: number;
+  last_page: number;
+  per_page: number;
+  total: number;
+};
+
+export type CreateUserPayload = {
+  name: string;
+  email: string;
+  password: string;
+  role: "admin" | "student" | "researcher" | "teacher";
+  faculty: string;
+  department: string;
+  student_id?: string;
+  employee_id?: string;
+  research_affiliation?: string;
 };
