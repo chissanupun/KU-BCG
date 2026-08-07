@@ -34,7 +34,7 @@ function truncate(text: string | undefined, max = 14): string {
   return `${text.slice(0, max - 1)}…`;
 }
 
-function buildSimulationNodes(graph: KnowledgeGraph, width: number, height: number) {
+function buildSimulationNodes(graph: KnowledgeGraph) {
   const center = graph.center ?? { label: "Topic", color: TYPE_COLORS.topic, type: "topic" };
   const nodes = graph.nodes ?? [];
   const edges = graph.edges ?? [];
@@ -75,9 +75,10 @@ function buildSimulationNodes(graph: KnowledgeGraph, width: number, height: numb
     .map((edge) => ({ from: byLabel.get(edge.from), to: byLabel.get(edge.to), type: edge.type ?? "relatedTo" }))
     .filter((edge): edge is SimEdge => Boolean(edge.from && edge.to));
 
+  const width = 480;
+  const height = 360;
   const cx = width / 2;
   const cy = height / 2;
-  const radius = Math.min(width, height) * 0.28;
 
   simNodes.forEach((node, index) => {
     if (node.fixed) {
@@ -86,8 +87,8 @@ function buildSimulationNodes(graph: KnowledgeGraph, width: number, height: numb
       return;
     }
     const angle = (2 * Math.PI * index) / Math.max(simNodes.length, 1);
-    node.x = cx + Math.cos(angle) * radius;
-    node.y = cy + Math.sin(angle) * radius;
+    node.x = cx + Math.cos(angle) * 90;
+    node.y = cy + Math.sin(angle) * 90;
   });
 
   return { simNodes, simEdges, width, height, cx, cy };
@@ -123,24 +124,31 @@ function tickSimulation(simNodes: SimNode[], simEdges: SimEdge[], cx: number, cy
   }
 
   simEdges.forEach((edge) => {
-    let dx = edge.to.x - edge.from.x;
-    let dy = edge.to.y - edge.from.y;
-    const dist = Math.sqrt(dx * dx + dy * dy) + 0.01;
-    const force = (dist - idealLength) * spring;
+    const a = edge.from;
+    const b = edge.to;
+    let dx = b.x - a.x;
+    let dy = b.y - a.y;
+    const dist = Math.sqrt(dx * dx + dy * dy) || 0.01;
+    const delta = dist - idealLength;
+    const force = spring * delta;
     dx = (dx / dist) * force;
     dy = (dy / dist) * force;
-    if (!edge.from.fixed) {
-      edge.from.vx += dx;
-      edge.from.vy += dy;
+    if (!a.fixed) {
+      a.vx += dx;
+      a.vy += dy;
     }
-    if (!edge.to.fixed) {
-      edge.to.vx -= dx;
-      edge.to.vy -= dy;
+    if (!b.fixed) {
+      b.vx -= dx;
+      b.vy -= dy;
     }
   });
 
   simNodes.forEach((node) => {
-    if (node.fixed) return;
+    if (node.fixed) {
+      node.vx = 0;
+      node.vy = 0;
+      return;
+    }
     node.vx += (cx - node.x) * centerPull;
     node.vy += (cy - node.y) * centerPull;
     node.vx *= damping;
@@ -150,15 +158,10 @@ function tickSimulation(simNodes: SimNode[], simEdges: SimEdge[], cx: number, cy
   });
 }
 
-function renderGraph(
-  svg: SVGSVGElement,
-  simNodes: SimNode[],
-  simEdges: SimEdge[],
-  width: number,
-  height: number,
-) {
-  const ns = "http://www.w3.org/2000/svg";
+function renderGraph(svg: SVGSVGElement, simNodes: SimNode[], simEdges: SimEdge[], width: number, height: number) {
   while (svg.firstChild) svg.removeChild(svg.firstChild);
+
+  const ns = "http://www.w3.org/2000/svg";
 
   simEdges.forEach((edge) => {
     const line = document.createElementNS(ns, "line");
@@ -166,17 +169,21 @@ function renderGraph(
     line.setAttribute("y1", String(edge.from.y));
     line.setAttribute("x2", String(edge.to.x));
     line.setAttribute("y2", String(edge.to.y));
-    line.setAttribute("stroke", "#94a3b8");
-    line.setAttribute("stroke-width", "1.2");
-    line.setAttribute("stroke-opacity", "0.55");
+    line.setAttribute("stroke", "#9ca3af");
+    line.setAttribute("stroke-width", "1.5");
+    line.setAttribute("opacity", "0.85");
+    const title = document.createElementNS(ns, "title");
+    title.textContent = `${edge.from.label} --[${edge.type}]--> ${edge.to.label}`;
+    line.appendChild(title);
     svg.appendChild(line);
   });
 
   simNodes.forEach((node) => {
+    const radius = node.fixed ? 30 : 24;
     const circle = document.createElementNS(ns, "circle");
     circle.setAttribute("cx", String(node.x));
     circle.setAttribute("cy", String(node.y));
-    circle.setAttribute("r", node.fixed ? "22" : "16");
+    circle.setAttribute("r", String(radius));
     circle.setAttribute("fill", node.color);
     circle.setAttribute("stroke", "#ffffff");
     circle.setAttribute("stroke-width", "2");
@@ -201,26 +208,14 @@ function renderGraph(
   svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
 }
 
-export default function KnowledgeGraphView({
-  graph,
-  width = 720,
-  height = 420,
-}: {
-  graph: KnowledgeGraph;
-  width?: number;
-  height?: number;
-}) {
+export default function KnowledgeGraphView({ graph }: { graph: KnowledgeGraph }) {
   const svgRef = useRef<SVGSVGElement>(null);
 
   useEffect(() => {
     const svg = svgRef.current;
     if (!svg) return;
 
-    const { simNodes, simEdges, width: w, height: h, cx, cy } = buildSimulationNodes(
-      graph,
-      width,
-      height,
-    );
+    const { simNodes, simEdges, width, height, cx, cy } = buildSimulationNodes(graph);
     if (simNodes.length === 0) return;
 
     let frame = 0;
@@ -229,19 +224,19 @@ export default function KnowledgeGraphView({
 
     const animate = () => {
       tickSimulation(simNodes, simEdges, cx, cy);
-      renderGraph(svg, simNodes, simEdges, w, h);
+      renderGraph(svg, simNodes, simEdges, width, height);
       frame += 1;
       if (frame < maxFrames) raf = requestAnimationFrame(animate);
     };
 
     raf = requestAnimationFrame(animate);
     return () => cancelAnimationFrame(raf);
-  }, [graph, width, height]);
+  }, [graph]);
 
   return (
     <svg
       ref={svgRef}
-      style={{ width: "100%", height, display: "block" }}
+      style={{ width: "100%", height: 360, display: "block" }}
     />
   );
 }

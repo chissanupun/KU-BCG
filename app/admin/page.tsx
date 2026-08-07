@@ -16,7 +16,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import AppShell from "../components/AppShell";
+import Sidebar from "../components/Sidebar";
 import {
   adminSearchLogsExportUrl,
   createAdminUser,
@@ -475,8 +475,11 @@ export default function AdminPage() {
   };
 
   return (
-    <AppShell activeNav="admin" breadcrumb="แดชบอร์ดผู้ดูแล">
-      <div style={{ padding: "28px 36px 48px", fontFamily: FONT }}>
+    <div style={{ width: "100%", height: "100vh", display: "flex", overflow: "hidden", background: "var(--ku-bg)" }}>
+      <div style={{ flexShrink: 0, height: "100%" }}>
+        <Sidebar activeNav="admin" />
+      </div>
+      <div style={{ flex: 1, height: "100%", overflowY: "auto", padding: "28px 36px 48px", fontFamily: FONT }}>
         <div
           style={{
             display: "flex",
@@ -900,6 +903,6 @@ export default function AdminPage() {
           loadLogs();
         }}
       />
-    </AppShell>
+    </div>
   );
 }
