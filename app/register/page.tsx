@@ -185,7 +185,7 @@ export default function RegisterPage() {
   useEffect(() => {
     if (userLoading) return;
     if (user?.profile_completed_at) {
-      router.replace("/learn");
+      router.replace("/");
     }
   }, [user, userLoading, router]);
 
@@ -211,7 +211,7 @@ export default function RegisterPage() {
         },
       });
       await refetch();
-      router.push("/learn");
+      router.push("/");
     } catch (err) {
       if (err instanceof ApiError && err.status === 422) {
         const body = err.body as { errors?: Record<string, string[]> };
