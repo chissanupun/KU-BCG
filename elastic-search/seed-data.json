@@ -144,8 +144,15 @@
     "proceedings": "https://kukr.lib.ku.ac.th/KUKR/Html/index/246?type=1",
     "datasets": "https://kukr.lib.ku.ac.th/KUKR/Html/index/247?type=1",
     "bang_khen": "https://kukr.lib.ku.ac.th/KUKR/Html/index/2454",
-    "top20": "https://kukr.lib.ku.ac.th/KUKR/Analysis/top10"
+    "top20": "https://kukr.lib.ku.ac.th/KUKR/Analysis/top10",
+    "kamphaeng_saen": "https://kukr.lib.ku.ac.th/KUKR/Html/index/2455",
+    "sakon_nakhon": "https://kukr.lib.ku.ac.th/KUKR/Html/index/2457",
+    "all_stats": "https://kukr.lib.ku.ac.th/KUKR/Analysis/all"
   },
+  "kukr_sample_docs": [
+    { "bibid": "50001526", "url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/50001526", "title": "การเปรียบเทียบผลของปุ๋ยเคมีสูตรต่าง ๆ ต่อการเจริญเติบโตของสาหร่ายผักกาดทะเล (Ulva rigida) ภายใต้ระบบเพาะเลี้ยงควบคุม", "file": "KU-INP2--50001526-c-001", "downloadable": true },
+    { "bibid": "443776", "url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/443776", "title": "ปริมาณคาร์บอนของซากพืชร่วงหล่นในป่าชายเลนบริเวณโครงการศึกษาวิจัยและพัฒนาสิ่งแวดล้อมแหลมผักเบี้ยอันเนื่องมาจากพระราชดำริ จังหวัดเพชรบุรี", "file": "KUCON443776-c-001", "downloadable": true }
+  ],
   "ku_mooc_courses": [
     { "code": "kumooc005", "name": "การคำนวณคาร์บอนฟุตพริ้นท์รายบุคคล", "url": "https://kumooc.ku.th/courses/6/info", "topic_ids": ["1", "4"], "category": "เกษตรและสิ่งแวดล้อม" },
     { "code": "kumooc016", "name": "พื้นฐานความรู้การทำฟาร์มป่าไม้", "url": "https://kumooc.ku.th/courses/73/info", "topic_ids": ["4", "6"], "category": "เกษตรและสิ่งแวดล้อม" },
