@@ -26,7 +26,6 @@ const fadeUp = {
 export default function Home() {
   const router = useRouter();
   const [query, setQuery] = useState("");
-  const [focused, setFocused] = useState(false);
 
   const handleSearch = () => {
     if (!query.trim()) return;
@@ -37,8 +36,8 @@ export default function Home() {
     <div className="flex h-screen overflow-hidden relative" style={{ background: "var(--ku-bg)" }}>
 
       {/* Logo */}
-      <div className="absolute" style={{ top: 20, right: 27, zIndex: 10 }}>
-        <Image src="/ku-bcg.png" alt="KU Phumpanya" width={114} height={124} className="object-contain ku-logo" unoptimized />
+      <div className="absolute" style={{ top: 40, right: 40, zIndex: 10 }}>
+        <Image src="/ku-bcg.png" alt="KU Phumpanya" width={60} height={57} className="object-contain ku-logo" unoptimized />
       </div>
 
       {/* Sidebar */}
@@ -91,22 +90,19 @@ export default function Home() {
             className="flex items-center w-full rounded-[4px] overflow-hidden"
             style={{
               background: "var(--ku-search-bg)",
-              boxShadow: focused ? "var(--ku-search-shadow-focus)" : "var(--ku-search-shadow)",
+              boxShadow: "var(--ku-search-shadow)",
               paddingRight: 8,
               paddingTop: 8,
               paddingBottom: 8,
               gap: 8,
-              transition: "box-shadow 0.25s ease",
             }}
           >
             <input
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               onKeyDown={(e) => e.key === "Enter" && handleSearch()}
-              onFocus={() => setFocused(true)}
-              onBlur={() => setFocused(false)}
               placeholder="วันนี้อยากสำรวจเรื่องอะไร?"
-              className="flex-1 outline-none bg-transparent text-[16px]"
+              className="search-input flex-1 outline-none bg-transparent text-[16px]"
               style={{ paddingLeft: 16, paddingRight: 16, paddingTop: 14, paddingBottom: 14, color: "var(--ku-text)" }}
             />
             <button

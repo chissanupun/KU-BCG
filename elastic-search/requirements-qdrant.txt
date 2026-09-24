@@ -1,0 +1,8 @@
+qdrant-client>=1.9.0
+sentence-transformers>=3.0.0
+torch>=2.2.0,<2.7.0
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+
+# Use Python 3.11 or 3.12 in a dedicated venv — NOT conda base on 3.13.
+# Run: ./setup-embed-env.sh

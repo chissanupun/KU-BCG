@@ -1,0 +1,12 @@
+# One-shot Elasticsearch index setup + snapshot restore.
+FROM node:22-alpine
+WORKDIR /app
+
+COPY package.json package-lock.json ./
+RUN npm ci --ignore-scripts
+
+COPY tsconfig.json ./
+COPY elastic-search ./elastic-search
+
+ENV ES_NODE=http://elasticsearch:9200
+CMD ["sh", "-c", "npx tsx elastic-search/setup-index.ts && npx tsx elastic-search/restore-snapshot.ts"]

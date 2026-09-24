@@ -20,6 +20,12 @@
 # production
 /build
 
+# python / elasticsearch tooling
+elastic-search/.venv/
+elastic-search/**/__pycache__/
+**/__pycache__/
+*.py[cod]
+
 # misc
 .DS_Store
 *.pem
@@ -41,3 +47,6 @@ yarn-error.log*
 next-env.d.ts
 
 /app/generated/prisma
+
+# contract / internal KU docs — names, salaries, budget. never commit (repo goes open-source ก.ค. 2570)
+docs/contract/
