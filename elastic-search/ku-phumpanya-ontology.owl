@@ -1,0 +1,474 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="https://kuphumpanya.ku.ac.th/ontology/ske-sdl.owl"
+         xmlns="https://kuphumpanya.ku.ac.th/ontology/ske-sdl.owl#">
+
+<owl:Ontology rdf:about="https://kuphumpanya.ku.ac.th/ontology/ske-sdl.owl"/>
+
+<owl:ObjectProperty rdf:about="#hasBCGPillar">
+  <rdfs:domain rdf:resource="#Topic"/>
+  <rdfs:range rdf:resource="#BCGPillar"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasFaculty">
+  <rdfs:domain rdf:resource="#Topic"/>
+  <rdfs:range rdf:resource="#Faculty"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasKeyword">
+  <rdfs:domain rdf:resource="#Topic"/>
+  <rdfs:range rdf:resource="#Keyword"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#offersCourse">
+  <rdfs:domain rdf:resource="#Topic"/>
+  <rdfs:range rdf:resource="#MOOCCourse"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#isKeywordOf">
+  <rdfs:domain rdf:resource="#Keyword"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#isEntryPointFor">
+  <rdfs:domain rdf:resource="#MOOCCourse"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:ObjectProperty>
+
+<owl:Class rdf:about="#Topic">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#BCGPillar">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Faculty">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#MOOCCourse">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Keyword">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:NamedIndividual rdf:about="#course_kumooc005">
+  <rdf:type rdf:resource="#MOOCCourse"/>
+  <isEntryPointFor rdf:resource="#concept_carbon_footprint_learners"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">การคำนวณคาร์บอนฟุตพริ้นท์รายบุคคล</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#course_kumooc016">
+  <rdf:type rdf:resource="#MOOCCourse"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">พื้นฐานความรู้การทำฟาร์มป่าไม้</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#course_kumooc017">
+  <rdf:type rdf:resource="#MOOCCourse"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">การใช้งานเลื่อยโซ่ขั้นพื้นฐาน</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#course_kumooc025">
+  <rdf:type rdf:resource="#MOOCCourse"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microplastics 101</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#course_kumooc026">
+  <rdf:type rdf:resource="#MOOCCourse"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">เศรษฐศาสตร์การจัดการมลพิษและของเสีย</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#course_kumooc039">
+  <rdf:type rdf:resource="#MOOCCourse"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">การปลูกเลี้ยงและดูแลแคคตัส</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#topic_1">
+  <rdf:type rdf:resource="#Topic"/>
+  <hasBCGPillar rdf:resource="#pillar_Bio"/>
+  <hasBCGPillar rdf:resource="#pillar_Circular"/>
+  <hasBCGPillar rdf:resource="#pillar_Green"/>
+  <hasFaculty rdf:resource="#faculty"/>
+  <hasKeyword rdf:resource="#keyword_Ethanol"/>
+  <hasKeyword rdf:resource="#keyword"/>
+  <hasKeyword rdf:resource="#keyword_biodiesel"/>
+  <hasKeyword rdf:resource="#keyword_bioenergy"/>
+  <hasKeyword rdf:resource="#keyword_Biomass"/>
+  <hasKeyword rdf:resource="#keyword_palm_oil"/>
+  <hasKeyword rdf:resource="#keyword_sugarcane"/>
+  <offersCourse rdf:resource="#course_kumooc005"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biomass &amp; Bioenergy</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#pillar_Bio">
+  <rdf:type rdf:resource="#BCGPillar"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bio</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#pillar_Circular">
+  <rdf:type rdf:resource="#BCGPillar"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#pillar_Green">
+  <rdf:type rdf:resource="#BCGPillar"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#faculty">
+  <rdf:type rdf:resource="#Faculty"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ประมง</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_Ethanol">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ethanol</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">วนเกษตร</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_biodiesel">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biodiesel</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_bioenergy">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bioenergy</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_Biomass">
+  <rdf:type rdf:resource="#Keyword"/>
+  <isKeywordOf rdf:resource="#concept_AGRIS_Q"/>
+  <isKeywordOf rdf:resource="#concept_AGRIS_N"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biomass</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_palm_oil">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">palm oil</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_sugarcane">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sugarcane</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#topic_2">
+  <rdf:type rdf:resource="#Topic"/>
+  <hasBCGPillar rdf:resource="#pillar_Bio"/>
+  <hasBCGPillar rdf:resource="#pillar_Circular"/>
+  <hasFaculty rdf:resource="#faculty"/>
+  <hasKeyword rdf:resource="#keyword_packaging"/>
+  <hasKeyword rdf:resource="#keyword_biodegradable"/>
+  <hasKeyword rdf:resource="#keyword"/>
+  <hasKeyword rdf:resource="#keyword_shrimp"/>
+  <hasKeyword rdf:resource="#keyword_chitosan"/>
+  <hasKeyword rdf:resource="#keyword_biopolymer"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chitosan &amp; Bio-packaging</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_packaging">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">packaging</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_biodegradable">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biodegradable</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_shrimp">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shrimp</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_chitosan">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chitosan</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_biopolymer">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biopolymer</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#topic_3">
+  <rdf:type rdf:resource="#Topic"/>
+  <hasBCGPillar rdf:resource="#pillar_Green"/>
+  <hasBCGPillar rdf:resource="#pillar_Circular"/>
+  <hasFaculty rdf:resource="#faculty"/>
+  <hasKeyword rdf:resource="#keyword_packaging"/>
+  <hasKeyword rdf:resource="#keyword_FISH"/>
+  <hasKeyword rdf:resource="#keyword_microplastic"/>
+  <hasKeyword rdf:resource="#keyword"/>
+  <hasKeyword rdf:resource="#keyword_water_quality"/>
+  <hasKeyword rdf:resource="#keyword_aquaculture"/>
+  <offersCourse rdf:resource="#course_kumooc025"/>
+  <offersCourse rdf:resource="#course_kumooc026"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microplastics &amp; Water Quality</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_FISH">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FISH</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_microplastic">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microplastic</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_water_quality">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water quality</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_aquaculture">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aquaculture</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#topic_4">
+  <rdf:type rdf:resource="#Topic"/>
+  <hasBCGPillar rdf:resource="#pillar_Green"/>
+  <hasFaculty rdf:resource="#faculty"/>
+  <hasKeyword rdf:resource="#keyword_climate_change"/>
+  <hasKeyword rdf:resource="#keyword_sustainability"/>
+  <hasKeyword rdf:resource="#keyword_carbon_footprint"/>
+  <hasKeyword rdf:resource="#keyword_LCA"/>
+  <hasKeyword rdf:resource="#keyword"/>
+  <hasKeyword rdf:resource="#keyword_Remote_Sensing"/>
+  <hasKeyword rdf:resource="#keyword_carbon_stock"/>
+  <offersCourse rdf:resource="#course_kumooc005"/>
+  <offersCourse rdf:resource="#course_kumooc016"/>
+  <offersCourse rdf:resource="#course_kumooc026"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carbon Footprint &amp; Carbon Neutrality</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_climate_change">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">climate change</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_sustainability">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sustainability</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_carbon_footprint">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon footprint</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_LCA">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LCA</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_Remote_Sensing">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Remote Sensing</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_carbon_stock">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon stock</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#topic_5">
+  <rdf:type rdf:resource="#Topic"/>
+  <hasBCGPillar rdf:resource="#pillar_Bio"/>
+  <hasBCGPillar rdf:resource="#pillar_Green"/>
+  <hasFaculty rdf:resource="#faculty"/>
+  <hasKeyword rdf:resource="#keyword_probiotic"/>
+  <hasKeyword rdf:resource="#keyword_FISH"/>
+  <hasKeyword rdf:resource="#keyword"/>
+  <hasKeyword rdf:resource="#keyword_tilapia"/>
+  <hasKeyword rdf:resource="#keyword_Genetic_diversity"/>
+  <hasKeyword rdf:resource="#keyword_lactic_acid_bacteria"/>
+  <hasKeyword rdf:resource="#keyword_aquaculture"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sustainable Aquaculture &amp; Probiotics</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_probiotic">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">probiotic</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_tilapia">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tilapia</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_Genetic_diversity">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic diversity</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_lactic_acid_bacteria">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lactic acid bacteria</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#topic_6">
+  <rdf:type rdf:resource="#Topic"/>
+  <hasBCGPillar rdf:resource="#pillar_Green"/>
+  <hasBCGPillar rdf:resource="#pillar_Bio"/>
+  <hasFaculty rdf:resource="#faculty"/>
+  <hasKeyword rdf:resource="#keyword_mangrove"/>
+  <hasKeyword rdf:resource="#keyword_ecology"/>
+  <hasKeyword rdf:resource="#keyword"/>
+  <hasKeyword rdf:resource="#keyword_Biodiversity"/>
+  <hasKeyword rdf:resource="#keyword_agroforestry"/>
+  <offersCourse rdf:resource="#course_kumooc016"/>
+  <offersCourse rdf:resource="#course_kumooc017"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agroforestry &amp; Biodiversity</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_mangrove">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mangrove</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_ecology">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ecology</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_Biodiversity">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biodiversity</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#keyword_agroforestry">
+  <rdf:type rdf:resource="#Keyword"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agroforestry</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#concept_AGRIS_Q">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGRIS_Q</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#concept_AGRIS_N">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGRIS_N</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#concept_carbon_footprint_learners">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon_footprint_learners</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#concept_Chitosan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chitosan</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#concept_biodegradable_packaging">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biodegradable_packaging</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#concept_Faculty">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Faculty_อุตสาหกรรมเกษตร</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#concept_water_quality">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water_quality</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#concept_agricultural_plastic">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agricultural_plastic</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#concept_microplastics_learners">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microplastics_learners</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#concept_microplastics_problem">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microplastics_problem</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#concept_forest">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forest</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#concept_carbon_stock">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon_stock</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#concept_agriculture">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agriculture</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#concept_emission_reduction">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emission_reduction</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#concept_industry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">industry</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#concept_fishery">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fishery</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#concept_blue_carbon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blue_carbon</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#concept_Probiotic">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Probiotic</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#concept">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ระบบเพาะเลี้ยง</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#concept_Agroforestry">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agroforestry</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#concept_tree_species">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree_species</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#concept_crop_species">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crop_species</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#concept_aquatic_species_mangrove">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aquatic_species_mangrove</rdfs:label>
+</owl:NamedIndividual>
+
+
+</rdf:RDF>
