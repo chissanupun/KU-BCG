@@ -69,16 +69,27 @@ export default function BubbleCard({
           }}
         >
           {isUrl(card.description) ? (
-            <a
-              href={card.description}
-              target="_blank"
-              rel="noreferrer"
-              onClick={(e) => e.stopPropagation()}
+            // Can't be an <a>: the card itself is wrapped in a Link when card.href is
+            // set, and nested <a> tags are invalid HTML (React hydration error).
+            <span
+              role="link"
+              tabIndex={0}
+              onClick={(e) => {
+                e.stopPropagation();
+                window.open(card.description, "_blank", "noopener,noreferrer");
+              }}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  window.open(card.description, "_blank", "noopener,noreferrer");
+                }
+              }}
               title={card.description}
-              style={{ color: "var(--ku-text-muted)", textDecoration: "underline" }}
+              style={{ color: "var(--ku-text-muted)", textDecoration: "underline", cursor: "pointer" }}
             >
               {linkLabel(card.description)}
-            </a>
+            </span>
           ) : (
             card.description
           )}
