@@ -1,9 +1,44 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useReducer, useRef, useState } from "react";
+import dynamic from "next/dynamic";
+import { useMemo, useRef, useState } from "react";
+import type { default as ForceGraph2DType, ForceGraphMethods, NodeObject } from "react-force-graph-2d";
 import { layoutMapNodes, type TopicMapEdge, type TopicMapNode } from "@/lib/topic";
 import { FONT } from "../roadmap/tokens";
-import { buildGraph, seedPositions, tick, CANVAS, TYPE_LABELS, type SimNode } from "./graphSim";
+
+// react-force-graph touches `window` at import time (canvas/d3), so it can only
+// run client-side — ssr:false is required, not just the "use client" directive.
+// next/dynamic erases the component's generics, so it's cast back to the real
+// (generic) type here rather than everywhere it's used below.
+const ForceGraph2D = dynamic(() => import("react-force-graph-2d"), {
+  ssr: false,
+}) as unknown as typeof ForceGraph2DType;
+
+export const TYPE_LABELS: Record<string, string> = {
+  topic: "หัวข้อ",
+  faculty: "คณะ",
+  course: "รายวิชา",
+  bcg_pillar: "เสาหลัก BCG",
+};
+
+const CANVAS = { w: 606, h: 420 };
+
+type GNode = NodeObject<{
+  label: string;
+  color: string;
+  textColor?: string;
+  type: string;
+  degree: number;
+  isCenter: boolean;
+}>;
+type GLink = { source: string; target: string; type: string };
+
+/** Degree drives radius so hubs read as hubs; orphans stay small and recede. */
+function radiusFor(degree: number, isCenter: boolean): number {
+  if (isCenter) return 20;
+  if (degree === 0) return 6;
+  return Math.min(15, 9 + degree * 2);
+}
 
 /**
  * Curated labels carry their own line breaks. GraphRAG labels are free text —
@@ -13,10 +48,8 @@ import { buildGraph, seedPositions, tick, CANVAS, TYPE_LABELS, type SimNode } fr
 function toLines(label: string, radius: number): string[] {
   if (label.includes("\n")) return label.split("\n");
 
-  const perLine = Math.max(8, Math.round(radius / 3.2));
-  const maxLines = radius > 45 ? 3 : 2;
-  // Relation entities are snake_case ("water_quality"), so underscores are word
-  // breaks — splitting on whitespace alone chopped them mid-word.
+  const perLine = Math.max(8, Math.round(radius / 1.6));
+  const maxLines = radius > 22 ? 3 : 2;
   const words = label.split(/[\s_]+/).filter(Boolean);
   const lines: string[] = [];
 
@@ -37,17 +70,6 @@ function toLines(label: string, radius: number): string[] {
   return kept;
 }
 
-const ZOOM_STEP = 1.25;
-const ZOOM_MIN = 0.35;
-const ZOOM_MAX = 3;
-const SETTLE_ENERGY = 0.5;
-const MAX_FRAMES = 150;
-/** Physics steps per painted frame — see the note in the animation loop. */
-const STEPS_PER_FRAME = 4;
-
-type Viewport = { x: number; y: number; w: number; h: number };
-const INITIAL_VIEW: Viewport = { x: 0, y: 0, w: CANVAS.w, h: CANVAS.h };
-
 export default function MindMap({
   title,
   nodes,
@@ -57,160 +79,98 @@ export default function MindMap({
   nodes: TopicMapNode[];
   edges?: TopicMapEdge[];
 }) {
-  /** Curated maps ship complete Figma coordinates — those render verbatim, unsimulated. */
+  /** Curated maps ship complete Figma coordinates — those render pinned, unsimulated. */
   const isStatic = nodes.length > 0 && nodes.every((n) => n.cx !== undefined && n.cy !== undefined);
 
-  const graph = useMemo(() => {
-    if (isStatic) {
-      const placed = layoutMapNodes(nodes);
-      // The curated map is a mind map, not a relation graph: its spokes are the
-      // design. Real graphs draw only their own edges, so nothing is fabricated
-      // where actual relations exist.
-      const spokes =
-        edges.length > 0
-          ? edges
-          : placed.slice(1).map((n) => ({ from: placed[0].label, to: n.label, type: "" }));
-      return buildGraph(placed, spokes);
-    }
-    const built = buildGraph(nodes, edges);
-    seedPositions(built.connected, built.orphans);
-    return built;
-  }, [nodes, edges, isStatic]);
-
-  const [, rerender] = useReducer((n: number) => n + 1, 0);
-  const [view, setView] = useState<Viewport>(INITIAL_VIEW);
+  const fgRef = useRef<ForceGraphMethods<GNode, GLink>>(undefined);
   const [hovered, setHovered] = useState<string | null>(null);
   const [focused, setFocused] = useState<string | null>(null);
   const [hiddenTypes, setHiddenTypes] = useState<Set<string>>(new Set());
   const [filterOpen, setFilterOpen] = useState(false);
 
-  const svgRef = useRef<SVGSVGElement>(null);
-  const rafRef = useRef(0);
-  const framesRef = useRef(0);
-  const dragRef = useRef<{ id: string } | null>(null);
-  const panRef = useRef<{ x: number; y: number; view: Viewport } | null>(null);
+  const { graphData, edgeList } = useMemo(() => {
+    const source = isStatic ? layoutMapNodes(nodes) : nodes;
+    // The curated map is a mind map, not a relation graph: its spokes are the
+    // design. Real graphs draw only their own edges, so nothing is fabricated
+    // where actual relations exist.
+    const links: TopicMapEdge[] =
+      isStatic && edges.length === 0
+        ? source.slice(1).map((n) => ({ from: source[0].label, to: n.label, type: "" }))
+        : edges;
 
-  /** Runs the simulation until kinetic energy settles; restarted by any interaction. */
-  const kick = useCallback(() => {
-    if (isStatic) return;
-    framesRef.current = 0;
-    if (rafRef.current) return;
+    const degree = new Map<string, number>();
+    links.forEach((e) => {
+      degree.set(e.from, (degree.get(e.from) ?? 0) + 1);
+      degree.set(e.to, (degree.get(e.to) ?? 0) + 1);
+    });
 
-    const step = () => {
-      // Integration is O(n²) over a few dozen nodes and costs far less than the
-      // React commit, so several steps per painted frame converge in a fraction
-      // of the wall time without dropping the animation.
-      let energy = 0;
-      for (let i = 0; i < STEPS_PER_FRAME; i++) energy = tick(graph.nodes, graph.edges);
-      framesRef.current += 1;
-      rerender();
-      if (energy > SETTLE_ENERGY && framesRef.current < MAX_FRAMES) {
-        rafRef.current = requestAnimationFrame(step);
-      } else {
-        rafRef.current = 0;
-      }
-    };
-    rafRef.current = requestAnimationFrame(step);
-  }, [graph, isStatic]);
+    const seen = new Set<string>();
+    const gNodes: GNode[] = [];
+    source.forEach((n, i) => {
+      if (seen.has(n.label)) return;
+      seen.add(n.label);
+      const isCenter = i === 0;
+      const deg = degree.get(n.label) ?? 0;
+      const placed = n as ReturnType<typeof layoutMapNodes>[number];
+      gNodes.push({
+        id: n.label,
+        label: n.label,
+        color: n.color,
+        textColor: n.textColor,
+        type: n.type ?? "topic",
+        degree: deg,
+        isCenter,
+        val: radiusFor(deg, isCenter),
+        // Curated coordinates are fixed (fx/fy) so the design renders verbatim
+        // instead of being pulled around by the force simulation.
+        ...(isStatic ? { fx: placed.cx, fy: placed.cy, x: placed.cx, y: placed.cy } : {}),
+      });
+    });
 
-  useEffect(() => {
-    setView(INITIAL_VIEW);
-    setHovered(null);
-    setFocused(null);
-    kick();
-    return () => {
-      if (rafRef.current) cancelAnimationFrame(rafRef.current);
-      rafRef.current = 0;
-    };
-  }, [kick]);
+    const gLinks: GLink[] = links
+      .filter((e) => seen.has(e.from) && seen.has(e.to))
+      .map((e) => ({ source: e.from, target: e.to, type: e.type }));
+
+    return { graphData: { nodes: gNodes, links: gLinks }, edgeList: links };
+  }, [nodes, edges, isStatic]);
 
   const types = useMemo(() => {
     const set = new Set<string>();
-    graph.nodes.forEach((n) => set.add(n.type));
+    graphData.nodes.forEach((n) => set.add(n.type));
     return Array.from(set);
-  }, [graph]);
+  }, [graphData]);
 
-  const visible = useCallback((n: SimNode) => !hiddenTypes.has(n.type), [hiddenTypes]);
-
-  /** Neighbourhood of the active node — drives the dim-everything-else highlight. */
   const active = focused ?? hovered;
   const neighbourhood = useMemo(() => {
     if (!active) return null;
     const ids = new Set<string>([active]);
-    graph.edges.forEach((e) => {
-      if (e.from.id === active) ids.add(e.to.id);
-      if (e.to.id === active) ids.add(e.from.id);
+    edgeList.forEach((e) => {
+      if (e.from === active) ids.add(e.to);
+      if (e.to === active) ids.add(e.from);
     });
     return ids;
-  }, [active, graph]);
+  }, [active, edgeList]);
 
-  const focusedNode = focused ? graph.nodes.find((n) => n.id === focused) : undefined;
-  const focusedEdges = useMemo(
-    () => (focused ? graph.edges.filter((e) => e.from.id === focused || e.to.id === focused) : []),
-    [focused, graph],
-  );
+  const focusedNode = focused ? graphData.nodes.find((n) => n.id === focused) : undefined;
+  const focusedEdges = focused ? edgeList.filter((e) => e.from === focused || e.to === focused) : [];
 
-  const toSvgPoint = (clientX: number, clientY: number) => {
-    const rect = svgRef.current?.getBoundingClientRect();
-    if (!rect) return { x: 0, y: 0 };
-    return {
-      x: view.x + ((clientX - rect.left) / rect.width) * view.w,
-      y: view.y + ((clientY - rect.top) / rect.height) * view.h,
-    };
-  };
-
-  const zoom = (factor: number, originX?: number, originY?: number) => {
-    setView((v) => {
-      // A larger factor means zooming in, i.e. a *smaller* viewBox.
-      const scale = Math.min(Math.max((CANVAS.w / v.w) * factor, ZOOM_MIN), ZOOM_MAX);
-      const w = CANVAS.w / scale;
-      const h = CANVAS.h / scale;
-      const ox = originX ?? v.x + v.w / 2;
-      const oy = originY ?? v.y + v.h / 2;
-      return { x: ox - ((ox - v.x) * w) / v.w, y: oy - ((oy - v.y) * h) / v.h, w, h };
-    });
-  };
-
-  const onPointerDownNode = (e: React.PointerEvent, id: string) => {
-    e.stopPropagation();
-    (e.target as Element).setPointerCapture(e.pointerId);
-    dragRef.current = { id };
-    const node = graph.nodes.find((n) => n.id === id);
-    if (node && !isStatic) node.pinned = true;
-  };
-
-  const onPointerMove = (e: React.PointerEvent) => {
-    if (dragRef.current) {
-      const node = graph.nodes.find((n) => n.id === dragRef.current!.id);
-      if (node) {
-        const p = toSvgPoint(e.clientX, e.clientY);
-        node.x = p.x;
-        node.y = p.y;
-        node.vx = 0;
-        node.vy = 0;
-        kick();
-        rerender();
-      }
-      return;
-    }
-    if (panRef.current) {
-      const start = panRef.current;
-      const rect = svgRef.current?.getBoundingClientRect();
-      if (!rect) return;
-      const dx = ((e.clientX - start.x) / rect.width) * start.view.w;
-      const dy = ((e.clientY - start.y) / rect.height) * start.view.h;
-      setView({ ...start.view, x: start.view.x - dx, y: start.view.y - dy });
-    }
-  };
-
-  const endPointer = () => {
-    dragRef.current = null;
-    panRef.current = null;
-  };
-
-  const nodeOpacity = (n: SimNode) => {
+  const nodeOpacity = (n: GNode): number => {
+    if (hiddenTypes.has(n.type)) return 0;
     if (!neighbourhood) return n.degree === 0 && !n.isCenter ? 0.45 : 1;
-    return neighbourhood.has(n.id) ? 1 : 0.12;
+    return neighbourhood.has(n.id as string) ? 1 : 0.12;
+  };
+
+  const linkOpacity = (l: GLink): number => {
+    const from = typeof l.source === "object" ? (l.source as GNode).id : l.source;
+    const to = typeof l.target === "object" ? (l.target as GNode).id : l.target;
+    if (hiddenTypes.size > 0) {
+      const fromNode = graphData.nodes.find((n) => n.id === from);
+      const toNode = graphData.nodes.find((n) => n.id === to);
+      if (fromNode && hiddenTypes.has(fromNode.type)) return 0;
+      if (toNode && hiddenTypes.has(toNode.type)) return 0;
+    }
+    if (!neighbourhood) return 1;
+    return neighbourhood.has(from as string) && neighbourhood.has(to as string) ? 1 : 0.08;
   };
 
   return (
@@ -220,7 +180,7 @@ export default function MindMap({
       </p>
       <div
         style={{
-          width: 606, borderRadius: 12, overflow: "hidden",
+          width: CANVAS.w, borderRadius: 12, overflow: "hidden",
           border: "0.5px solid var(--ku-card-border)", background: "var(--ku-card-bg)",
           padding: "16px 0 10px", position: "relative",
         }}
@@ -239,7 +199,7 @@ export default function MindMap({
             กรอง{hiddenTypes.size > 0 ? ` (${types.length - hiddenTypes.size}/${types.length})` : ""}
           </button>
           <button
-            onClick={() => zoom(ZOOM_STEP)}
+            onClick={() => fgRef.current?.zoom((fgRef.current?.zoom() ?? 1) * 1.4, 200)}
             aria-label="ซูมเข้า"
             style={{
               height: 28, paddingLeft: 10, paddingRight: 10, borderRadius: 6,
@@ -250,7 +210,7 @@ export default function MindMap({
             ซูมเข้า
           </button>
           <button
-            onClick={() => zoom(1 / ZOOM_STEP)}
+            onClick={() => fgRef.current?.zoom((fgRef.current?.zoom() ?? 1) / 1.4, 200)}
             aria-label="ซูมออก"
             style={{
               height: 28, paddingLeft: 10, paddingRight: 10, borderRadius: 6,
@@ -290,111 +250,82 @@ export default function MindMap({
                 {TYPE_LABELS[type] ?? type}
               </label>
             ))}
-            {view !== INITIAL_VIEW && (
-              <button
-                onClick={() => setView(INITIAL_VIEW)}
-                style={{ fontSize: 11, fontFamily: FONT, color: "var(--ku-text-muted)", background: "none", border: "none", padding: 0, cursor: "pointer", textAlign: "left" }}
-              >
-                รีเซ็ตมุมมอง
-              </button>
-            )}
+            <button
+              onClick={() => fgRef.current?.zoomToFit(300, 30)}
+              style={{ fontSize: 11, fontFamily: FONT, color: "var(--ku-text-muted)", background: "none", border: "none", padding: 0, cursor: "pointer", textAlign: "left" }}
+            >
+              รีเซ็ตมุมมอง
+            </button>
           </div>
         )}
 
-        <svg
-          ref={svgRef}
+        <ForceGraph2D
+          ref={fgRef}
           width={CANVAS.w}
           height={CANVAS.h}
-          viewBox={`${view.x} ${view.y} ${view.w} ${view.h}`}
-          style={{ display: "block", touchAction: "none", cursor: isStatic ? "default" : "grab" }}
-          onPointerDown={(e) => {
-            panRef.current = { x: e.clientX, y: e.clientY, view };
+          graphData={graphData}
+          backgroundColor="rgba(0,0,0,0)"
+          enableNodeDrag={!isStatic}
+          cooldownTicks={isStatic ? 0 : 200}
+          onEngineStop={() => fgRef.current?.zoomToFit(300, 30)}
+          onNodeHover={(n) => setHovered((n as GNode | null)?.id as string | null)}
+          onNodeClick={(n) => setFocused((prev) => (prev === n.id ? null : (n.id as string)))}
+          onBackgroundClick={() => setFocused(null)}
+          nodeVisibility={(n) => !hiddenTypes.has((n as GNode).type)}
+          linkVisibility={(l) => linkOpacity(l as unknown as GLink) > 0}
+          linkColor={(l) => {
+            const lit = linkOpacity(l as unknown as GLink) === 1;
+            return lit && neighbourhood ? "var(--ku-progress-fill)" : "rgba(59,99,71,0.3)";
           }}
-          onPointerMove={onPointerMove}
-          onPointerUp={endPointer}
-          onPointerLeave={() => {
-            endPointer();
-            setHovered(null);
-          }}
-          onWheel={(e) => {
-            const p = toSvgPoint(e.clientX, e.clientY);
-            zoom(e.deltaY < 0 ? ZOOM_STEP : 1 / ZOOM_STEP, p.x, p.y);
-          }}
-          onClick={() => setFocused(null)}
-        >
-          {graph.edges.map((edge, i) => {
-            if (!visible(edge.from) || !visible(edge.to)) return null;
-            const lit = !neighbourhood || (neighbourhood.has(edge.from.id) && neighbourhood.has(edge.to.id));
-            const mx = (edge.from.x + edge.to.x) / 2;
-            const my = (edge.from.y + edge.to.y) / 2;
-            return (
-              <g key={`${edge.from.id}-${edge.to.id}-${i}`} opacity={lit ? 1 : 0.08}>
-                <line
-                  x1={edge.from.x} y1={edge.from.y}
-                  x2={edge.to.x} y2={edge.to.y}
-                  stroke={lit && neighbourhood ? "var(--ku-progress-fill)" : "rgba(59,99,71,0.3)"}
-                  strokeWidth={lit && neighbourhood ? 2 : 1.5}
-                  strokeDasharray="6,4"
-                />
-                {neighbourhood && lit && (
-                  <text
-                    x={mx} y={my - 4}
-                    textAnchor="middle"
-                    fontSize={8.5}
-                    fontFamily={FONT}
-                    fill="var(--ku-text-muted)"
-                  >
-                    {edge.type}
-                  </text>
-                )}
-              </g>
-            );
-          })}
+          linkWidth={(l) => (linkOpacity(l as unknown as GLink) === 1 && neighbourhood ? 2 : 1.2)}
+          linkLineDash={() => [6, 4]}
+          linkLabel={(l) => (l as unknown as GLink).type}
+          nodeCanvasObject={(node, ctx, globalScale) => {
+            const n = node as GNode;
+            const opacity = nodeOpacity(n);
+            if (opacity === 0) return;
+            const r = radiusFor(n.degree, n.isCenter);
+            const x = n.x ?? 0;
+            const y = n.y ?? 0;
 
-          {graph.nodes.map((node) => {
-            if (!visible(node)) return null;
-            const isActive = active === node.id;
-            const showLabel = node.r >= 18 || isActive;
-            const lines = toLines(node.label, Math.max(node.r, 18));
-            return (
-              <g
-                key={node.id}
-                opacity={nodeOpacity(node)}
-                style={{ cursor: "pointer", transition: "opacity 0.18s ease" }}
-                onPointerDown={(e) => onPointerDownNode(e, node.id)}
-                onPointerEnter={() => setHovered(node.id)}
-                onPointerLeave={() => setHovered(null)}
-                onClick={(e) => {
-                  e.stopPropagation();
-                  setFocused((prev) => (prev === node.id ? null : node.id));
-                }}
-              >
-                <title>{`${node.label}${node.type ? ` (${TYPE_LABELS[node.type] ?? node.type})` : ""} · ${node.degree} ความสัมพันธ์`}</title>
-                {isActive && (
-                  <circle cx={node.x} cy={node.y} r={node.r + 5} fill="none" stroke={node.color} strokeWidth={1.5} opacity={0.5} />
-                )}
-                <circle cx={node.x} cy={node.y} r={node.r} fill={node.color} />
-                {showLabel &&
-                  lines.map((line, li) => (
-                    <text
-                      key={li}
-                      x={node.x}
-                      y={node.y + (li - (lines.length - 1) / 2) * 14}
-                      textAnchor="middle"
-                      dominantBaseline="middle"
-                      fontSize={node.r > 45 ? 11 : 9.5}
-                      fontWeight={600}
-                      fill={node.textColor}
-                      fontFamily={FONT}
-                      style={{ pointerEvents: "none" }}
-                    >
-                      {line}
-                    </text>
-                  ))}
-              </g>
-            );
-          })}
-        </svg>
+            ctx.globalAlpha = opacity;
+            if (active === n.id) {
+              ctx.beginPath();
+              ctx.arc(x, y, r + 2.5, 0, 2 * Math.PI);
+              ctx.strokeStyle = n.color;
+              ctx.globalAlpha = opacity * 0.5;
+              ctx.lineWidth = 1.5 / globalScale;
+              ctx.stroke();
+              ctx.globalAlpha = opacity;
+            }
+
+            ctx.beginPath();
+            ctx.arc(x, y, r, 0, 2 * Math.PI);
+            ctx.fillStyle = n.color;
+            ctx.fill();
+
+            if (r * globalScale >= 9 || active === n.id) {
+              const lines = toLines(n.label, Math.max(r, 9));
+              const fontSize = Math.max((n.isCenter ? 5.5 : 4.5), r > 15 ? 5.5 : 4.5);
+              ctx.font = `600 ${fontSize}px ${FONT}`;
+              ctx.textAlign = "center";
+              ctx.textBaseline = "middle";
+              ctx.fillStyle = n.textColor ?? "#fff";
+              lines.forEach((line, li) => {
+                ctx.fillText(line, x, y + (li - (lines.length - 1) / 2) * (fontSize + 1.5));
+              });
+            }
+            ctx.globalAlpha = 1;
+          }}
+          nodePointerAreaPaint={(node, color, ctx) => {
+            const n = node as GNode;
+            const r = radiusFor(n.degree, n.isCenter);
+            ctx.fillStyle = color;
+            ctx.beginPath();
+            ctx.arc(n.x ?? 0, n.y ?? 0, r, 0, 2 * Math.PI);
+            ctx.fill();
+          }}
+        />
 
         {focusedNode && (
           <div
@@ -412,9 +343,9 @@ export default function MindMap({
             </p>
             {focusedEdges.slice(0, 4).map((edge, i) => (
               <p key={i} style={{ fontSize: 11, color: "var(--ku-text-muted)", marginTop: 3 }}>
-                {edge.from.id === focusedNode.id ? "→ " : "← "}
+                {edge.from === focusedNode.id ? "→ " : "← "}
                 <span style={{ color: "var(--ku-text)" }}>{edge.type}</span>{" "}
-                {edge.from.id === focusedNode.id ? edge.to.label : edge.from.label}
+                {edge.from === focusedNode.id ? edge.to : edge.from}
               </p>
             ))}
           </div>
