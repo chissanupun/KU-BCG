@@ -210,7 +210,7 @@ export async function scrapeKUKR(): Promise<KUKRDoc[]> {
           abstract: item.abstract_en || item.abstract_th,
           authors: item.author || [],
           year: item.pubyear || (item.pubyear_text ? parseInt(item.pubyear_text) : undefined),
-          url: `${KUKR_BASE}/KUKR/Search/detail/${item.bibid}`,
+          url: `${KUKR_BASE}/KUKR/Detail/info/${item.bibid}`,
           topic_ids: uniqueTopicIds,
           bcg_pillars: bcgPillars,
           keywords: item.keyword || [],
