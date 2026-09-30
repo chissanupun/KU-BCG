@@ -1,0 +1,6848 @@
+[
+  {
+    "subject": "อัศเลข รัตนวรรณี",
+    "predicate": "belongsTo",
+    "object": "ภาควิชากีฏวิทยา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภาควิชากีฏวิทยา",
+    "predicate": "partOf",
+    "object": "คณะเกษตร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัศเลข รัตนวรรณี",
+    "predicate": "hasExpertise",
+    "object": "16S rRNA",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัศเลข รัตนวรรณี",
+    "predicate": "hasExpertise",
+    "object": "28S rRNA",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัศเลข รัตนวรรณี",
+    "predicate": "hasExpertise",
+    "object": "Aedes aegypti",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัศเลข รัตนวรรณี",
+    "predicate": "hasExpertise",
+    "object": "amino acid",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัศเลข รัตนวรรณี",
+    "predicate": "hasExpertise",
+    "object": "Aphis craccivora",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัศเลข รัตนวรรณี",
+    "predicate": "authored",
+    "object": "อัศเลข รัตนวรรณี",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัศเลข รัตนวรรณี",
+    "predicate": "authored",
+    "object": "ภาควิชากีฏวิทยา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัศเลข รัตนวรรณี",
+    "predicate": "authored",
+    "object": "fagralr@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัศเลข รัตนวรรณี",
+    "predicate": "authored",
+    "object": "ดร.พิสิษฐ์ พูลประเสริฐ, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัศเลข รัตนวรรณี",
+    "predicate": "authored",
+    "object": "ดร.ศรีหรรษา มลิจารย์, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัศเลข รัตนวรรณี",
+    "predicate": "authored",
+    "object": "ดร.อัศเลข รัตนวรรณี, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัศเลข รัตนวรรณี",
+    "predicate": "authored",
+    "object": "The Complete Mitochondrial Genome of Geniotrigona thoracica (Apidae: Meliponini): Phylogenomic Impli",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัศเลข รัตนวรรณี",
+    "predicate": "authored",
+    "object": "ดร.ประกาย ราชณุวงษ์, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัศเลข รัตนวรรณี",
+    "predicate": "participatesIn",
+    "object": "วิทยาศาสตรมหาบัณฑิต, จุฬาลงกรณ์มหาวิทยาลัย, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัศเลข รัตนวรรณี",
+    "predicate": "participatesIn",
+    "object": "วิทยาศาสตรบัณฑิต, จุฬาลงกรณ์มหาวิทยาลัย, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัศเลข รัตนวรรณี",
+    "predicate": "participatesIn",
+    "object": "โครงการวิจัย 5 ปีที่ผ่านมา หน้าที่ในโครงการ 5 ปีที่ผ่านมา Internal Active Project Year Project Title",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัศเลข รัตนวรรณี",
+    "predicate": "participatesIn",
+    "object": "หน่วยปฏิบัติการวิจัยเชี่ยวชาญเฉพาะด้านแมลงศัตรูชุมชนและแมลงอนุรักษ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัศเลข รัตนวรรณี",
+    "predicate": "participatesIn",
+    "object": "ความหลากหลายของแมลงในพื้นที่อนุรักษ์ในประเทศไทย",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัศเลข รัตนวรรณี",
+    "predicate": "leadsProject",
+    "object": "เทคนิคขั้นสูงของการเพาะนางพญาชันโรง Heterotrigona itama ในหลอดทดลอง: เพื่อการขยายจำนวนรังและการคัดเล",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัศเลข รัตนวรรณี",
+    "predicate": "leadsProject",
+    "object": "โครงสร้างทางพันธุกรรมระดับชีวโมเลกุลและความหลากหลายของแบคทีเรียร่วมอาศัยแบบทุติยภูมิของเพลี้ยอ่อนถั่",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัศเลข รัตนวรรณี",
+    "predicate": "participatesIn",
+    "object": "ความหลากหลายและสายวิวัฒนาการเชิงภูมิศาสตร์ของมวนน้ำ (Hemiptera: Heteroptera) ในป่าชายเลนในเขตภาคตะวั",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัญชนา ท่านเจริญ",
+    "predicate": "belongsTo",
+    "object": "ภาควิชากีฏวิทยา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัญชนา ท่านเจริญ",
+    "predicate": "hasExpertise",
+    "object": "Cassava mosaic disease",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัญชนา ท่านเจริญ",
+    "predicate": "hasExpertise",
+    "object": "Chiang Mai Thailand",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัญชนา ท่านเจริญ",
+    "predicate": "hasExpertise",
+    "object": "CMD",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัญชนา ท่านเจริญ",
+    "predicate": "hasExpertise",
+    "object": "Coleoptera",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัญชนา ท่านเจริญ",
+    "predicate": "hasExpertise",
+    "object": "conservation",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัญชนา ท่านเจริญ",
+    "predicate": "authored",
+    "object": "อัญชนา ท่านเจริญ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัญชนา ท่านเจริญ",
+    "predicate": "authored",
+    "object": "agrant@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัญชนา ท่านเจริญ",
+    "predicate": "authored",
+    "object": "Laksanawimol, P.",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัญชนา ท่านเจริญ",
+    "predicate": "authored",
+    "object": "ดร.สรญา ใจกล้า, อาจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัญชนา ท่านเจริญ",
+    "predicate": "authored",
+    "object": "ดร.อัญชนา ท่านเจริญ, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัญชนา ท่านเจริญ",
+    "predicate": "authored",
+    "object": "Comparative larval morphology of four Pteroptyx (Coleoptera, Lampyridae, Luciolinae) species in Thai",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัญชนา ท่านเจริญ",
+    "predicate": "authored",
+    "object": "Kanokkan Kanjanarat",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัญชนา ท่านเจริญ",
+    "predicate": "leadsProject",
+    "object": "การใช้แมลงวันลายกำจัดขยะอินทรีย์ในมหาวิทยาลัยเกษตรศาสตร์ เพื่อเข้าสู่ความเป็นกลางทางคาร์บอนของมหาวิท",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัญชนา ท่านเจริญ",
+    "predicate": "participatesIn",
+    "object": "นวัตกรรมที่เป็นมิตรกับสิ่งแวดล้อมและสารสนเทศทางภูมิศาสตร์ในการศึกษาแมลงและสัตว์ขาข้อที่รบกวนชุมชน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัญชนา ท่านเจริญ",
+    "predicate": "participatesIn",
+    "object": "การวิเคราะห์การแสดงออกของยีนในกลไกการเจริญเติบโต การพัฒนาการ การเปล่งแสง และการกระพริบแสงของหิ่งห้อย",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัญชนา ท่านเจริญ",
+    "predicate": "leadsProject",
+    "object": "ผลกระทบของไกลโฟเซตต่อชีววิทยา พฤติกรรมและเนื้อเยื่อวิทยาของตัวหนอนหิ่งห้อยน้ำจืด Luciola aquatilis",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัญชนา ท่านเจริญ",
+    "predicate": "leadsProject",
+    "object": "การประเมินความแตกต่างด้านพันธุกรรมและพฤติกรรมของประชากรหิ่งห้อย Luciola aquatilis บริเวณภาคกลางของปร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อัญชนา ท่านเจริญ",
+    "predicate": "leadsProject",
+    "object": "การฟื้นฟูประชากรหิ่งห้อยน้ำจืดในพื้นที่วัน-ชี-จรรย์ เขาชีจรรย์ พัทยา จ.ชลบุรี",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ประกาย ราชณุวงษ์",
+    "predicate": "belongsTo",
+    "object": "ภาควิชากีฏวิทยา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ประกาย ราชณุวงษ์",
+    "predicate": "hasExpertise",
+    "object": "28S rRNA",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ประกาย ราชณุวงษ์",
+    "predicate": "hasExpertise",
+    "object": "adult",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ประกาย ราชณุวงษ์",
+    "predicate": "hasExpertise",
+    "object": "Aedes aegypti",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ประกาย ราชณุวงษ์",
+    "predicate": "hasExpertise",
+    "object": "Agarwood",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ประกาย ราชณุวงษ์",
+    "predicate": "hasExpertise",
+    "object": "Agarwood Leafeating Caterpilla",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ประกาย ราชณุวงษ์",
+    "predicate": "authored",
+    "object": "ประกาย ราชณุวงษ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ประกาย ราชณุวงษ์",
+    "predicate": "authored",
+    "object": "fagrpkt@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ประกาย ราชณุวงษ์",
+    "predicate": "authored",
+    "object": "ดร.รัชฎาวรรณ เงินกลั่น, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ประกาย ราชณุวงษ์",
+    "predicate": "authored",
+    "object": "ดร.อธิราช หนูสีดำ, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ประกาย ราชณุวงษ์",
+    "predicate": "authored",
+    "object": "ดร.จริยา จันทร์ไพแสง, ศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ประกาย ราชณุวงษ์",
+    "predicate": "participatesIn",
+    "object": "วท.ม.(กีฏวิทยา), มหาวิทยาลัยเกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ประกาย ราชณุวงษ์",
+    "predicate": "participatesIn",
+    "object": "วท.ด.(กีฏวิทยา), มหาวิทยาลัยเกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ประกาย ราชณุวงษ์",
+    "predicate": "leadsProject",
+    "object": "การยกระดับจุลินทรีย์ก่อโรคแมลงสู่ความพร้อมด้านการขึ้นทะเบียนชีวภัณฑ์สำหรับการควบคุมแมลงศัตรูพืชในการ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ประกาย ราชณุวงษ์",
+    "predicate": "participatesIn",
+    "object": "การพัฒนาเทคโนโลยีการผลิตถั่วลิสงฝักสดและการผลิตเมล็ดพันธุ์ถั่วลิสงฝักสดในพื้นที่ภาคกลางของประเทศไทย ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ประกาย ราชณุวงษ์",
+    "predicate": "participatesIn",
+    "object": "ศูนย์รวมผู้เชี่ยวชาญด้านเทคโนโลยีชีวภาพจุลินทรีย์เพื่อการเกษตรและอุตสาหกรรมเกษตร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ประกาย ราชณุวงษ์",
+    "predicate": "participatesIn",
+    "object": "ศูนย์ข้อมูลและความหลากหลายของจุลินทรีย์เพื่อการใช้ประโยชน์ทางการเกษตร (ปีที่ 2)",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ประกาย ราชณุวงษ์",
+    "predicate": "participatesIn",
+    "object": "หน่วยความหลากหลายทางชีวภาพของจุลินทรีย์และการใช้ประโยชน์เพื่อการจัดการศัตรูพืช วิทยาเขตบางเขน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "รติยา ธุวพาณิชยานันท์",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาเกษตรกลวิธาน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภาควิชาเกษตรกลวิธาน",
+    "predicate": "partOf",
+    "object": "คณะเกษตร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "รติยา ธุวพาณิชยานันท์",
+    "predicate": "hasExpertise",
+    "object": "Allicin",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "รติยา ธุวพาณิชยานันท์",
+    "predicate": "hasExpertise",
+    "object": "Antioxidant activities",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "รติยา ธุวพาณิชยานันท์",
+    "predicate": "hasExpertise",
+    "object": "Antioxidant activity",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "รติยา ธุวพาณิชยานันท์",
+    "predicate": "hasExpertise",
+    "object": "Antioxidants",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "รติยา ธุวพาณิชยานันท์",
+    "predicate": "hasExpertise",
+    "object": "Bagasse",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "รติยา ธุวพาณิชยานันท์",
+    "predicate": "authored",
+    "object": "รติยา ธุวพาณิชยานันท์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "รติยา ธุวพาณิชยานันท์",
+    "predicate": "authored",
+    "object": "ภาควิชาเกษตรกลวิธาน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "รติยา ธุวพาณิชยานันท์",
+    "predicate": "authored",
+    "object": "agrrty@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "รติยา ธุวพาณิชยานันท์",
+    "predicate": "authored",
+    "object": "Prachayawarakorn, S.",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "รติยา ธุวพาณิชยานันท์",
+    "predicate": "authored",
+    "object": "ดร.รติยา ธุวพาณิชยานันท์, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "รติยา ธุวพาณิชยานันท์",
+    "predicate": "authored",
+    "object": "Changes in mango foam morphology and its effects on texture and selected phenolics during foam mat d",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "รติยา ธุวพาณิชยานันท์",
+    "predicate": "authored",
+    "object": "กิตตินันท์ ถนอมงาม",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "รติยา ธุวพาณิชยานันท์",
+    "predicate": "authored",
+    "object": "ดร.เกียรติกำจร อินตานิ, อาจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "รติยา ธุวพาณิชยานันท์",
+    "predicate": "participatesIn",
+    "object": "วศ.ม.(เทคโนโลยีพลังงาน), มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "รติยา ธุวพาณิชยานันท์",
+    "predicate": "participatesIn",
+    "object": "ปร.ด.(เทคโนโลยีพลังงาน), มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "รติยา ธุวพาณิชยานันท์",
+    "predicate": "participatesIn",
+    "object": "การพัฒนาประสิทธิภาพเครื่องปลูกอ้อยแบบข้อตาอ้อยที่ผ่านกระบวนการบ่มเพื่อการปลูกอ้อยแบบปลอดโรคใบขาว",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "รติยา ธุวพาณิชยานันท์",
+    "predicate": "participatesIn",
+    "object": "การพัฒนาออกแบบเครื่องปอกมะม่วงดอกเพื่อเพิ่มมูลค่าผลิตภัณฑ์จากการแปรรูปมะม่วงดอง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "รติยา ธุวพาณิชยานันท์",
+    "predicate": "participatesIn",
+    "object": "นวัตกรรมการยืดอายุการเก็บรักษามะพร้าวน้ำหอมเจียด้วยเทคโนโลยีการอบแห้งและการบรรจุ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "รติยา ธุวพาณิชยานันท์",
+    "predicate": "leadsProject",
+    "object": "นวัตกรรมกระบวนการผลิตมะพร้าวน้ำหอมเจียด้วยเทคโนโลยีการอบแห้ง (ขอยุติสัญญาฯ)",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "รติยา ธุวพาณิชยานันท์",
+    "predicate": "leadsProject",
+    "object": "เทคโนโลยีการผลิตผลิตภัณฑ์กระเทียมอัลลิซินสูง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปิยะพงษ์ ศรีวงษ์ราช",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาเกษตรกลวิธาน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปิยะพงษ์ ศรีวงษ์ราช",
+    "predicate": "hasExpertise",
+    "object": "2-spotted cricket",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปิยะพงษ์ ศรีวงษ์ราช",
+    "predicate": "hasExpertise",
+    "object": "acoustic emission",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปิยะพงษ์ ศรีวงษ์ราช",
+    "predicate": "hasExpertise",
+    "object": "Agricultural machinery",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปิยะพงษ์ ศรีวงษ์ราช",
+    "predicate": "hasExpertise",
+    "object": "Banana",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปิยะพงษ์ ศรีวงษ์ราช",
+    "predicate": "hasExpertise",
+    "object": "Biochar",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปิยะพงษ์ ศรีวงษ์ราช",
+    "predicate": "authored",
+    "object": "ปิยะพงษ์ ศรีวงษ์ราช",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปิยะพงษ์ ศรีวงษ์ราช",
+    "predicate": "authored",
+    "object": "agrpyp@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปิยะพงษ์ ศรีวงษ์ราช",
+    "predicate": "authored",
+    "object": "ดร.ชาญวิทย์ แก้วตาปี, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปิยะพงษ์ ศรีวงษ์ราช",
+    "predicate": "authored",
+    "object": "พลูศักดิ์ ตรีวัย",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปิยะพงษ์ ศรีวงษ์ราช",
+    "predicate": "authored",
+    "object": "ดร.ชามา อินซอน, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปิยะพงษ์ ศรีวงษ์ราช",
+    "predicate": "authored",
+    "object": "ดร.รุ่งทิพย์ มาศเมธาทิพย์, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปิยะพงษ์ ศรีวงษ์ราช",
+    "predicate": "authored",
+    "object": "ดร.ปิยะพงษ์ ศรีวงษ์ราช, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปิยะพงษ์ ศรีวงษ์ราช",
+    "predicate": "participatesIn",
+    "object": "วศ.ม.(วิศวกรรมเครื่องกล), มหาวิทยาลัยเกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปิยะพงษ์ ศรีวงษ์ราช",
+    "predicate": "participatesIn",
+    "object": "Ph.D. (Agricultural Technology and Machinery), Mendel University in Brno, Czech Republic,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปิยะพงษ์ ศรีวงษ์ราช",
+    "predicate": "leadsProject",
+    "object": "การขยายผลเทคโนโลยีการผลิตถั่วลิสงเพื่อการบริโภคเชิงอุตสาหกรรมด้วยเครื่องจักรกลเกษตรในภาคตะวันออกเฉีย",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปิยะพงษ์ ศรีวงษ์ราช",
+    "predicate": "participatesIn",
+    "object": "การขยายผลเทคโนโลยีการผลิตไหมวัยอ่อนด้วยอาหารเทียมและโรงเรือนอัจฉริยะให้ได้ผลผลิตสูงและคุณภาพดี จังหว",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปิยะพงษ์ ศรีวงษ์ราช",
+    "predicate": "participatesIn",
+    "object": "นวัตกรรมระบบฟาร์มเลี้ยงและพัฒนาอาหารจากจิ้งหรีดเพื่อเป็นอาหารแห่งอนาคต",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อนุสรณ์ เชื้อสามารถ",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาเกษตรกลวิธาน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อนุสรณ์ เชื้อสามารถ",
+    "predicate": "hasExpertise",
+    "object": "acoustic emission",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อนุสรณ์ เชื้อสามารถ",
+    "predicate": "hasExpertise",
+    "object": "cross-section of logs",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อนุสรณ์ เชื้อสามารถ",
+    "predicate": "hasExpertise",
+    "object": "Cushioning material",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อนุสรณ์ เชื้อสามารถ",
+    "predicate": "hasExpertise",
+    "object": "durian seed borer",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อนุสรณ์ เชื้อสามารถ",
+    "predicate": "hasExpertise",
+    "object": "Embankment",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อนุสรณ์ เชื้อสามารถ",
+    "predicate": "authored",
+    "object": "อนุสรณ์ เชื้อสามารถ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อนุสรณ์ เชื้อสามารถ",
+    "predicate": "authored",
+    "object": "anusron.c@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อนุสรณ์ เชื้อสามารถ",
+    "predicate": "authored",
+    "object": "ดร.อรุณี วงษ์แก้ว, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อนุสรณ์ เชื้อสามารถ",
+    "predicate": "authored",
+    "object": "ดร.อนุสรณ์ เชื้อสามารถ, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อนุสรณ์ เชื้อสามารถ",
+    "predicate": "authored",
+    "object": "ดร.สุรเชษฎ์ อร่ามรักษ์, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อนุสรณ์ เชื้อสามารถ",
+    "predicate": "authored",
+    "object": "ดร.สุตเขตต์ นาคะเสถียร, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อนุสรณ์ เชื้อสามารถ",
+    "predicate": "authored",
+    "object": "ดร.ธานี ศรีวงศ์ชัย, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อนุสรณ์ เชื้อสามารถ",
+    "predicate": "participatesIn",
+    "object": "Master of Agriculture, Tokyo University of Agriculture and Technology, ญี่ปุ่น,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อนุสรณ์ เชื้อสามารถ",
+    "predicate": "participatesIn",
+    "object": "วิศวกรรมศาสตรบัณฑิต เกียรตินิยมอันดับ1 (วิศวกรรมโยธา), มหาวิทยาลัยเทคโนโลยีสุรนารี, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อนุสรณ์ เชื้อสามารถ",
+    "predicate": "participatesIn",
+    "object": "การพัฒนาแพลตฟอร์มดิจิทัลเชิงพื้นที่แบบมีส่วนร่วม เพื่อการเฝ้าระวังและจัดการหนอนเจาะเมล็ดทุเรียนในพื้",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อนุสรณ์ เชื้อสามารถ",
+    "predicate": "participatesIn",
+    "object": "หน่วยบ่มเพาะการวิจัยเฉพาะทางด้านการจำลองสภาพอากาศสำหรับการผลิตพืชเศรษฐกิจแบบแม่นยำ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อนุสรณ์ เชื้อสามารถ",
+    "predicate": "participatesIn",
+    "object": "การผลิตผักมูลค่าสูงในพื้นที่ภาคใต้ของประเทศไทยด้วยโรงเรือนอัจฉริยะ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อนุสรณ์ เชื้อสามารถ",
+    "predicate": "participatesIn",
+    "object": "การออกแบบและพัฒนานวัตกรรมเครื่องลำเลียงทะลายมะพร้าวสำหรับรวบรวมผลผลิตในสวนมะพร้าว",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทวีศักดิ์ เตชะเกรียงไกร",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาคหกรรมศาสตร์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภาควิชาคหกรรมศาสตร์",
+    "predicate": "partOf",
+    "object": "คณะเกษตร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทวีศักดิ์ เตชะเกรียงไกร",
+    "predicate": "hasExpertise",
+    "object": "food insecurity",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทวีศักดิ์ เตชะเกรียงไกร",
+    "predicate": "hasExpertise",
+    "object": "Nutritional status",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทวีศักดิ์ เตชะเกรียงไกร",
+    "predicate": "hasExpertise",
+    "object": "undergraduate students",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทวีศักดิ์ เตชะเกรียงไกร",
+    "predicate": "hasExpertise",
+    "object": "ก้างปลาทูน่า",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทวีศักดิ์ เตชะเกรียงไกร",
+    "predicate": "hasExpertise",
+    "object": "ข้าวไร่",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทวีศักดิ์ เตชะเกรียงไกร",
+    "predicate": "authored",
+    "object": "ทวีศักดิ์ เตชะเกรียงไกร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทวีศักดิ์ เตชะเกรียงไกร",
+    "predicate": "authored",
+    "object": "ภาควิชาคหกรรมศาสตร์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทวีศักดิ์ เตชะเกรียงไกร",
+    "predicate": "authored",
+    "object": "fagrtst@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทวีศักดิ์ เตชะเกรียงไกร",
+    "predicate": "authored",
+    "object": "นางสาวกันยาภรณ์ ไพยรัตน์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทวีศักดิ์ เตชะเกรียงไกร",
+    "predicate": "authored",
+    "object": "ดร.ทวีศักดิ์ เตชะเกรียงไกร, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทวีศักดิ์ เตชะเกรียงไกร",
+    "predicate": "authored",
+    "object": "ดร.อำพร แจ่มผล, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทวีศักดิ์ เตชะเกรียงไกร",
+    "predicate": "authored",
+    "object": "ดร.ณัฐิกา เพ็งลี, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทวีศักดิ์ เตชะเกรียงไกร",
+    "predicate": "authored",
+    "object": "ดร.นาทรพี ผลใหญ่, อาจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทวีศักดิ์ เตชะเกรียงไกร",
+    "predicate": "participatesIn",
+    "object": "วิทยาศาสตรมหาบัณฑิต (เกษตรศาสตร์) , มหาวิทยาลัยเกษตรศาสตร์ , ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทวีศักดิ์ เตชะเกรียงไกร",
+    "predicate": "participatesIn",
+    "object": "วิทยาศาสตรบัณฑิต (เกษตรศาสตร์) , สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทวีศักดิ์ เตชะเกรียงไกร",
+    "predicate": "participatesIn",
+    "object": "ผลของการเสริมอาหารว่าง (ถั่วลิสง) และโภชนศึกษา ต่อภาวะความไม่มั่นคงทางอาหาร และตัวชี้วัดความเสี่ยงต่",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทวีศักดิ์ เตชะเกรียงไกร",
+    "predicate": "participatesIn",
+    "object": "อาหารจากป่าชุมชนสำหรับผู้สูงอายุ: การศึกษาวัฒนธรรมการบริโภคและคุณค่าทางโภชนาการ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทวีศักดิ์ เตชะเกรียงไกร",
+    "predicate": "leadsProject",
+    "object": "การพัฒนาตำรับอาหารไทยเพื่อสุขภาพด้วยคีนัวสายพันธุ์ไทย เพื่ออาหารเป็นยาตามแนวทางเศรษฐกิจสู่การพัฒนาที",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทวีศักดิ์ เตชะเกรียงไกร",
+    "predicate": "participatesIn",
+    "object": "การศึกษากระบวนการผลิตโปรตีนควินัวเข้มข้นจากควินัวสายพันธุ์ไทย (Chenopodium quinoa Willd.) และการปรับ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทวีศักดิ์ เตชะเกรียงไกร",
+    "predicate": "leadsProject",
+    "object": "Quinoa4MedFoods: การพัฒนาเทคโนโลยีการผลิตอาหารสุขภาพจากคีนัว เพื่อขยายขนาดกระบวนการผลิตตลอดห่วงโซ่อุ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศรันยา เผือกผ่อง",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาคหกรรมศาสตร์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศรันยา เผือกผ่อง",
+    "predicate": "hasExpertise",
+    "object": "Agricultural Careers",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศรันยา เผือกผ่อง",
+    "predicate": "hasExpertise",
+    "object": "Alkalines",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศรันยา เผือกผ่อง",
+    "predicate": "hasExpertise",
+    "object": "Antibacterial activity",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศรันยา เผือกผ่อง",
+    "predicate": "hasExpertise",
+    "object": "Anti-bacterial activity",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศรันยา เผือกผ่อง",
+    "predicate": "hasExpertise",
+    "object": "Blue dyes",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศรันยา เผือกผ่อง",
+    "predicate": "authored",
+    "object": "ศรันยา เผือกผ่อง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศรันยา เผือกผ่อง",
+    "predicate": "authored",
+    "object": "agrsyp@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศรันยา เผือกผ่อง",
+    "predicate": "authored",
+    "object": "ดร.ศรันยา เผือกผ่อง, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศรันยา เผือกผ่อง",
+    "predicate": "authored",
+    "object": "ดร.จุฑามณี แสงสว่าง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศรันยา เผือกผ่อง",
+    "predicate": "authored",
+    "object": "Phattarakunamorn, K.",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศรันยา เผือกผ่อง",
+    "predicate": "authored",
+    "object": "Antibacterial Activity Against Staphylococcus aureus and Colorfastness of Siam Weed (Chromolaena odo",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศรันยา เผือกผ่อง",
+    "predicate": "authored",
+    "object": "Sermsri Songnearm",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศรันยา เผือกผ่อง",
+    "predicate": "participatesIn",
+    "object": "-5514 Education วท.บ.(คหกรรมศาสตร์), มหาวิทยาลัยเกษตรศาสตร์, ไทย, 2536 คศ.ม.(คหกรรมศาสตร์), มหาวิทยา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศรันยา เผือกผ่อง",
+    "predicate": "participatesIn",
+    "object": "Ph.D.(Tropical Agriculture), มหาวิทยาลัยเกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศรันยา เผือกผ่อง",
+    "predicate": "participatesIn",
+    "object": "สภาวะที่เหมาะสมสำหรับการย้อมไหมด้วยสีแวตธรรมชาติ: สีคราม",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศรันยา เผือกผ่อง",
+    "predicate": "participatesIn",
+    "object": "ความคิดเห็น ความพร้อมและแนวโน้มที่เป็นไปได้ในการส่งเสริมอาชีพด้านการเกษตรให้เป็นทางเลือกแก้ปัญหาภาวะ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศรันยา เผือกผ่อง",
+    "predicate": "leadsProject",
+    "object": "สิ่งทอและผลิตภัณฑ์ดูแลรักษายับยั้งเชื้อแบคทีเรียสำหรับผู้สูงอายุ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศรันยา เผือกผ่อง",
+    "predicate": "participatesIn",
+    "object": "นวัตกรรมเพื่อสุขภาวะของผู้สูงอายุชาวไทย",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ขจีจรัส ภิรมย์ธรรมศิริ",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาคหกรรมศาสตร์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ขจีจรัส ภิรมย์ธรรมศิริ",
+    "predicate": "hasExpertise",
+    "object": "Fabric",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ขจีจรัส ภิรมย์ธรรมศิริ",
+    "predicate": "hasExpertise",
+    "object": "Native Textiles",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ขจีจรัส ภิรมย์ธรรมศิริ",
+    "predicate": "hasExpertise",
+    "object": "Paper Mulberry",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ขจีจรัส ภิรมย์ธรรมศิริ",
+    "predicate": "hasExpertise",
+    "object": "physical properties",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ขจีจรัส ภิรมย์ธรรมศิริ",
+    "predicate": "hasExpertise",
+    "object": "Textile",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ขจีจรัส ภิรมย์ธรรมศิริ",
+    "predicate": "authored",
+    "object": "ขจีจรัส ภิรมย์ธรรมศิริ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ขจีจรัส ภิรมย์ธรรมศิริ",
+    "predicate": "authored",
+    "object": "agrkap@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ขจีจรัส ภิรมย์ธรรมศิริ",
+    "predicate": "authored",
+    "object": "ดร.ขจีจรัส ภิรมย์ธรรมศิริ, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ขจีจรัส ภิรมย์ธรรมศิริ",
+    "predicate": "authored",
+    "object": "Sirikasemlert, C.",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ขจีจรัส ภิรมย์ธรรมศิริ",
+    "predicate": "authored",
+    "object": "Physical properties of woven fabric from paper mulberry yarn",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ขจีจรัส ภิรมย์ธรรมศิริ",
+    "predicate": "authored",
+    "object": "Physical properties of yarn from paper mulberry",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ขจีจรัส ภิรมย์ธรรมศิริ",
+    "predicate": "authored",
+    "object": "ดร.สุธีลักษณ์ ไกรสุวรรณ, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ขจีจรัส ภิรมย์ธรรมศิริ",
+    "predicate": "participatesIn",
+    "object": "-5514 ต่อ 110 Education วท.บ.(คหกรรมศาสตร์), มหาวิทยาลัยเกษตรศาสตร์, ไทย, 2515 M.S. (Textiles and Cl",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ขจีจรัส ภิรมย์ธรรมศิริ",
+    "predicate": "participatesIn",
+    "object": "ผลิตภัณฑ์กระเป๋าจากผ้าไหมอีรี่",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ขจีจรัส ภิรมย์ธรรมศิริ",
+    "predicate": "participatesIn",
+    "object": "การพัฒนารูปแบบผลิตภัณฑ์ไหมอีรี่",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ขจีจรัส ภิรมย์ธรรมศิริ",
+    "predicate": "participatesIn",
+    "object": "กระบวนการคิดและองค์ความรู้ของครูภูมิปัญญาไทยเพื่อการอนุรักษ์อย่างยั่งยืน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ขจีจรัส ภิรมย์ธรรมศิริ",
+    "predicate": "participatesIn",
+    "object": "กระบวนการคิดและองค์ความรู้ด้านสิ่งทอพื้นเมืองของครูภูมิปัญญาเพื่อการอนุรักษ์อย่างยั่งยืน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ขจีจรัส ภิรมย์ธรรมศิริ",
+    "predicate": "participatesIn",
+    "object": "การพัฒนารูปแบบผลิตภัณฑ์ผ้ามัดย้อม",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ขจีจรัส ภิรมย์ธรรมศิริ",
+    "predicate": "participatesIn",
+    "object": "เทคนิคและลวดลายการตกแต่งเสื้อผ้าไทดำ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ขจีจรัส ภิรมย์ธรรมศิริ",
+    "predicate": "participatesIn",
+    "object": "-0113, 0-2942-8500-11 โทรสาร 0-2942-8998 ©",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เสาวนุช ถาวรพฤกษ์",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาปฐพีวิทยา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภาควิชาปฐพีวิทยา",
+    "predicate": "partOf",
+    "object": "คณะเกษตร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เสาวนุช ถาวรพฤกษ์",
+    "predicate": "hasExpertise",
+    "object": "acid sulfate soil",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เสาวนุช ถาวรพฤกษ์",
+    "predicate": "hasExpertise",
+    "object": "ash",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เสาวนุช ถาวรพฤกษ์",
+    "predicate": "hasExpertise",
+    "object": "biochar",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เสาวนุช ถาวรพฤกษ์",
+    "predicate": "hasExpertise",
+    "object": "Drilling mud",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เสาวนุช ถาวรพฤกษ์",
+    "predicate": "hasExpertise",
+    "object": "DSSAT",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เสาวนุช ถาวรพฤกษ์",
+    "predicate": "authored",
+    "object": "เสาวนุช ถาวรพฤกษ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เสาวนุช ถาวรพฤกษ์",
+    "predicate": "authored",
+    "object": "ภาควิชาปฐพีวิทยา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เสาวนุช ถาวรพฤกษ์",
+    "predicate": "authored",
+    "object": "agrsnt@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เสาวนุช ถาวรพฤกษ์",
+    "predicate": "authored",
+    "object": "Kamonrat Khontiang",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เสาวนุช ถาวรพฤกษ์",
+    "predicate": "authored",
+    "object": "ดร.ดาวจรัส เกตุโรจน์, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เสาวนุช ถาวรพฤกษ์",
+    "predicate": "authored",
+    "object": "ดร.เสาวนุช ถาวรพฤกษ์, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เสาวนุช ถาวรพฤกษ์",
+    "predicate": "authored",
+    "object": "ดร.เฉลิมชาติ วงศ์ลี้เจริญ, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เสาวนุช ถาวรพฤกษ์",
+    "predicate": "authored",
+    "object": "ดร.ธวัชชัย อินทร์บุญช่วย, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เสาวนุช ถาวรพฤกษ์",
+    "predicate": "participatesIn",
+    "object": "ปรัชญาดุษฎีบัณฑิต (ปฐพีวิทยา), มหาวิทยาลัยเกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เสาวนุช ถาวรพฤกษ์",
+    "predicate": "leadsProject",
+    "object": "การฟื้นฟูดินและลดการปล่อยคาร์บอนจากการผลิตข้าวในพื้นที่ที่มีการเผาตอซังเป็นระยะ เวลานาน: แนวทางเพื่อ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เสาวนุช ถาวรพฤกษ์",
+    "predicate": "leadsProject",
+    "object": "การเพิ่มประสิทธิภาพการเกษตรยั่งยืนและลดการเผา ด้วยการใช้ประโยชน์จากเศษวัสดุหลังนาข้าวและข้าวโพด เพื่",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เสาวนุช ถาวรพฤกษ์",
+    "predicate": "participatesIn",
+    "object": "อิทธิพลความถี่ของไฟป่าต่อดินและการกักเก็บคาร์บอนในดินในพื้นที่ป่าเต็งรัง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เสาวนุช ถาวรพฤกษ์",
+    "predicate": "participatesIn",
+    "object": "ผลของรูปแบบการปลูกพืชเชิงอนุรักษ์ต่อการหมุนเวียน การเก็บกัก และคุณภาพของคาร์บอนอินทรีย์ในดินบริเวณพื",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เสาวนุช ถาวรพฤกษ์",
+    "predicate": "participatesIn",
+    "object": "การปรับปรุงหน่วยการจำแนกดินระดับกลุ่มดินย่อยของดิน Paleustults เพื่อการแปลความหมายข้อมูลดินอย่างมีปร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เสาวนุช ถาวรพฤกษ์",
+    "predicate": "leadsProject",
+    "object": "การเพิ่มประสิทธิภาพการเกษตรอย่างยั่งยืน: การจัดการแปลงแบบไม่เผาและการเพิ่มมูลค่าผ่านการปลูกถั่วลิสงห",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "กรรณิการ์ สัจจาพันธ์",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาปฐพีวิทยา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "กรรณิการ์ สัจจาพันธ์",
+    "predicate": "hasExpertise",
+    "object": "Co-inertia analysis",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "กรรณิการ์ สัจจาพันธ์",
+    "predicate": "hasExpertise",
+    "object": "N-acyl-homoserine lactones",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "กรรณิการ์ สัจจาพันธ์",
+    "predicate": "hasExpertise",
+    "object": "(Biopesticide)",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "กรรณิการ์ สัจจาพันธ์",
+    "predicate": "hasExpertise",
+    "object": "(endophytic bacteria)",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "กรรณิการ์ สัจจาพันธ์",
+    "predicate": "hasExpertise",
+    "object": "(iron deficiency)",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "กรรณิการ์ สัจจาพันธ์",
+    "predicate": "authored",
+    "object": "กรรณิการ์ สัจจาพันธ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "กรรณิการ์ สัจจาพันธ์",
+    "predicate": "authored",
+    "object": "agrkks@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "กรรณิการ์ สัจจาพันธ์",
+    "predicate": "authored",
+    "object": "ดร.กรรณิการ์ สัจจาพันธ์, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "กรรณิการ์ สัจจาพันธ์",
+    "predicate": "authored",
+    "object": "นางสาวอรวรรณ คำดี",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "กรรณิการ์ สัจจาพันธ์",
+    "predicate": "authored",
+    "object": "ดร.อภิเดช รักเป็นไทย, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "กรรณิการ์ สัจจาพันธ์",
+    "predicate": "participatesIn",
+    "object": "M.S. (Soil Science), University of Minnesota, สหรัฐอเมริกา,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "กรรณิการ์ สัจจาพันธ์",
+    "predicate": "participatesIn",
+    "object": "วท.บ. (เกษตรศาสตร์) เกียรตินิยมอันดับ 1, มหาวิทยาลัยเกษตรศาสตร์, ไทย, 2536 โครงการวิจัย 5 ปีที่ผ่านม",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "กรรณิการ์ สัจจาพันธ์",
+    "predicate": "participatesIn",
+    "object": "เครื่องมือวิเคราะห์คาร์บอนอินทรีย์และธาตุอาหารในดินแบบพกพาด้วยเทคนิค NIR Spectroscopy",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "กรรณิการ์ สัจจาพันธ์",
+    "predicate": "leadsProject",
+    "object": "การจัดการธาตุอาหารพืชและการใช้สารเร่งเอทธิฟอนต่อผลผลิตและคุณภาพของยางธรรมชาติ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "กรรณิการ์ สัจจาพันธ์",
+    "predicate": "participatesIn",
+    "object": "กระบวนการกำจัดไนโตรเจนด้วยกระบวนการพาร์เชี่ยนไนตริฟิเคชันและอนาม็อก ด้วยระบบบำบัดน้ำเสียแบบบึงประดิษ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "กรรณิการ์ สัจจาพันธ์",
+    "predicate": "leadsProject",
+    "object": "การเพิ่มความสามารถในการสะสมแคดเมียมของพืชที่สะสมโลหะหนักในปริมาณสูงโดยการใช้จุลินทรีย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "กรรณิการ์ สัจจาพันธ์",
+    "predicate": "participatesIn",
+    "object": "ประสิทธิภาพการแปลงสารหนูของแบคทีเรียที่แยกได้จากดินประเทศไทย",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "กรรณิการ์ สัจจาพันธ์",
+    "predicate": "participatesIn",
+    "object": "โครงการวิจัยนวัตกรรมการตรวจวัดธาตุอาหารพืชและการสำรวจระยะไกลด้วยดาวเทียม เพื่อการจัดการปุ๋ยยางพาราแบ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วุฒิดา รัตนพิไชย",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาปฐพีวิทยา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วุฒิดา รัตนพิไชย",
+    "predicate": "hasExpertise",
+    "object": "(Biopesticide)",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วุฒิดา รัตนพิไชย",
+    "predicate": "hasExpertise",
+    "object": "(endophytic bacteria)",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วุฒิดา รัตนพิไชย",
+    "predicate": "hasExpertise",
+    "object": "(iron deficiency)",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วุฒิดา รัตนพิไชย",
+    "predicate": "hasExpertise",
+    "object": "(N2-fixing bacteria)",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วุฒิดา รัตนพิไชย",
+    "predicate": "hasExpertise",
+    "object": "Bacterial community structure",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วุฒิดา รัตนพิไชย",
+    "predicate": "authored",
+    "object": "วุฒิดา รัตนพิไชย",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วุฒิดา รัตนพิไชย",
+    "predicate": "authored",
+    "object": "agrwtd@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วุฒิดา รัตนพิไชย",
+    "predicate": "authored",
+    "object": "Asawapaisankul, R.",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วุฒิดา รัตนพิไชย",
+    "predicate": "authored",
+    "object": "ดร.วุฒิดา รัตนพิไชย, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วุฒิดา รัตนพิไชย",
+    "predicate": "authored",
+    "object": "ดร.รุ่งโรจน์ พิทักษ์ด่านธรรม, อาจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วุฒิดา รัตนพิไชย",
+    "predicate": "authored",
+    "object": "ดร.รักศักดิ์ เสริมศักดิ์, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วุฒิดา รัตนพิไชย",
+    "predicate": "participatesIn",
+    "object": "วท.บ.(เกษตรศาสตร์), มหาวิทยาลัย เชียงใหม่, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วุฒิดา รัตนพิไชย",
+    "predicate": "participatesIn",
+    "object": "Ph.D.(Plant Production), Mendel University in Brno, สาธารณรัฐเช็ก,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วุฒิดา รัตนพิไชย",
+    "predicate": "participatesIn",
+    "object": "นวัตกรรมช่วยตัดสินใจการใช้ปุ๋ยสำหรับมันสำปะหลัง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วุฒิดา รัตนพิไชย",
+    "predicate": "participatesIn",
+    "object": "การใช้เนียร์อินฟาเรดสเปกโตรสโคปีและการสะท้อนเชิงสเปกตรัมเพื่อเพิ่มประสิทธิภาพการจัดการธาตุอาหารเฉพาะ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุจินต์ เจนวีรวัฒน์",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาพืชไร่นา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภาควิชาพืชไร่นา",
+    "predicate": "partOf",
+    "object": "คณะเกษตร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุจินต์ เจนวีรวัฒน์",
+    "predicate": "hasExpertise",
+    "object": "Amylopectin",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุจินต์ เจนวีรวัฒน์",
+    "predicate": "hasExpertise",
+    "object": "cassava",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุจินต์ เจนวีรวัฒน์",
+    "predicate": "hasExpertise",
+    "object": "cassava breeding",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุจินต์ เจนวีรวัฒน์",
+    "predicate": "hasExpertise",
+    "object": "cassava production",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุจินต์ เจนวีรวัฒน์",
+    "predicate": "hasExpertise",
+    "object": "field corn",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุจินต์ เจนวีรวัฒน์",
+    "predicate": "authored",
+    "object": "สุจินต์ เจนวีรวัฒน์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุจินต์ เจนวีรวัฒน์",
+    "predicate": "authored",
+    "object": "ภาควิชาพืชไร่นา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุจินต์ เจนวีรวัฒน์",
+    "predicate": "authored",
+    "object": "agrsjj@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุจินต์ เจนวีรวัฒน์",
+    "predicate": "authored",
+    "object": "Phongnapha Phanthanong",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุจินต์ เจนวีรวัฒน์",
+    "predicate": "authored",
+    "object": "Kanokporn Promnikorn",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุจินต์ เจนวีรวัฒน์",
+    "predicate": "authored",
+    "object": "ดร.ภัศจี คงศีล, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุจินต์ เจนวีรวัฒน์",
+    "predicate": "authored",
+    "object": "ดร.เอกพันธ์ ไกรจักร์, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุจินต์ เจนวีรวัฒน์",
+    "predicate": "authored",
+    "object": "ดร.สุจินต์ เจนวีรวัฒน์, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุจินต์ เจนวีรวัฒน์",
+    "predicate": "participatesIn",
+    "object": "-3130 ต่อ 114 Education วท.บ.(เทคโนโลยีการผลิตพืช), มหาวิทยาลัยเทคโนโลยีสุรนารี, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุจินต์ เจนวีรวัฒน์",
+    "predicate": "participatesIn",
+    "object": "วท.ด.(เทคโนโลยีการผลิตพืช), มหาวิทยาลัยเทคโนโลยีสุรนารี, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุจินต์ เจนวีรวัฒน์",
+    "predicate": "participatesIn",
+    "object": "การพัฒนาสายพันธุ์แท้ข้าวโพดเลี้ยงสัตว์เพื่อผลิตพันธุ์ลูกผสมที่มีอายุเก็บเกี่ยวสั้น ให้ผลผลิตเมล็ดสูง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุจินต์ เจนวีรวัฒน์",
+    "predicate": "leadsProject",
+    "object": "การปรับปรุงพันธุ์ข้าวโพดข้าวเหนียวพันธุ์ลูกผสมเดี่ยวเพื่อการบริโภค ฝักสด โดยการประเมินคุณภาพการบริโภ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุจินต์ เจนวีรวัฒน์",
+    "predicate": "participatesIn",
+    "object": "การเพิ่มผลผลิตและคุณภาพของข้าวโพดภายใต้สภาพแวดล้อมที่เปลี่ยนแปลง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุจินต์ เจนวีรวัฒน์",
+    "predicate": "participatesIn",
+    "object": "การคัดเลือกพันธุ์มันสำปะหลังที่เหมาะสมเพื่อผลิตในพื้นที่เขตฝนทิ้งช่วงในภาคตะวันตกของประเทศไทย",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุจินต์ เจนวีรวัฒน์",
+    "predicate": "participatesIn",
+    "object": "การปรับปรุงพันธุ์ข้าวโพดไร่ลูกผสมสำหรับอุตสาหกรรมอาหารและอาหารสัตว์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภัศจี คงศีล",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาพืชไร่นา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภัศจี คงศีล",
+    "predicate": "hasExpertise",
+    "object": "Acidity",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภัศจี คงศีล",
+    "predicate": "hasExpertise",
+    "object": "animal feed",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภัศจี คงศีล",
+    "predicate": "hasExpertise",
+    "object": "biomass yield",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภัศจี คงศีล",
+    "predicate": "hasExpertise",
+    "object": "Breeding",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภัศจี คงศีล",
+    "predicate": "hasExpertise",
+    "object": "Cassava",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภัศจี คงศีล",
+    "predicate": "authored",
+    "object": "fagrpjk@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภัศจี คงศีล",
+    "predicate": "authored",
+    "object": "Sunvittayakul, P.",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภัศจี คงศีล",
+    "predicate": "authored",
+    "object": "ดร.ภัสสร วรรณพินิจ, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภัศจี คงศีล",
+    "predicate": "authored",
+    "object": "Phanthanong, P.",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภัศจี คงศีล",
+    "predicate": "authored",
+    "object": "Changwitchukarn, K.",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภัศจี คงศีล",
+    "predicate": "authored",
+    "object": "ดร.อนงค์ภัทร สุทธางคกูล, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภัศจี คงศีล",
+    "predicate": "participatesIn",
+    "object": "-3130 Education วท.บ. (เทคโนโลยีชีวภาพ) เกียรตินิยมอันดับ 1, มหาวิทยาลัยมหิดล, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภัศจี คงศีล",
+    "predicate": "participatesIn",
+    "object": "Ph.D. (Agronomy), Purdue University, USA,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภัศจี คงศีล",
+    "predicate": "leadsProject",
+    "object": "โครงการพัฒนาศักยภาพนักวิจัยรุ่นใหม่ด้านการปรับปรุงพันธุ์พืชด้วยจีโนมิกส์ และการแก้ไขยีน ภายใต้เครือข",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภัศจี คงศีล",
+    "predicate": "participatesIn",
+    "object": "การบ่งชี้ตำแหน่งยีนลักษณะผลผลิต ทรงหัว 3 มิติ และคุณสมบัติแป้งในมันสำปะหลังด้วยเทคโนโลยีจีโนมิกส์ แล",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภัศจี คงศีล",
+    "predicate": "participatesIn",
+    "object": "ศูนย์กลางความรู้และเทคโนโลยีด้านมันสำปะหลัง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภัศจี คงศีล",
+    "predicate": "participatesIn",
+    "object": "หน่วยบ่มเพาะการวิจัยเฉพาะทางด้านชีววิทยาสังเคราะห์แห่งมหาวิทยาลัยเกษตรศาสตร์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ดำรงวุฒิ อ่อนวิมล",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาพืชไร่นา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ดำรงวุฒิ อ่อนวิมล",
+    "predicate": "hasExpertise",
+    "object": "Artificial neural network",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ดำรงวุฒิ อ่อนวิมล",
+    "predicate": "hasExpertise",
+    "object": "Crop Physiology",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ดำรงวุฒิ อ่อนวิมล",
+    "predicate": "hasExpertise",
+    "object": "Deep learning",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ดำรงวุฒิ อ่อนวิมล",
+    "predicate": "hasExpertise",
+    "object": "Defenses Mechanism",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ดำรงวุฒิ อ่อนวิมล",
+    "predicate": "hasExpertise",
+    "object": "dehydration",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ดำรงวุฒิ อ่อนวิมล",
+    "predicate": "authored",
+    "object": "ดำรงวุฒิ อ่อนวิมล",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ดำรงวุฒิ อ่อนวิมล",
+    "predicate": "authored",
+    "object": "fagrdho@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ดำรงวุฒิ อ่อนวิมล",
+    "predicate": "authored",
+    "object": "วีระสิทธิ์ แก้วบัณฑิต",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ดำรงวุฒิ อ่อนวิมล",
+    "predicate": "authored",
+    "object": "ดร.ดำรงวุฒิ อ่อนวิมล, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ดำรงวุฒิ อ่อนวิมล",
+    "predicate": "authored",
+    "object": "ดร.พาพิศ วงศ์ชัยสุวัฒน์, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ดำรงวุฒิ อ่อนวิมล",
+    "predicate": "authored",
+    "object": "Rapid rice seed vigor assessment: A machine learning and deep learning framework with multi-time-poi",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ดำรงวุฒิ อ่อนวิมล",
+    "predicate": "authored",
+    "object": "ดร.กฤษ วงษ์เกษม, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ดำรงวุฒิ อ่อนวิมล",
+    "predicate": "participatesIn",
+    "object": "การประเมินความมีชีวิตของเมล็ดพันธุ์ข้าวขาวดอกมะลิ 105 แบบไม่ทำลายด้วยเทคนิคภาพถ่ายมัลติสเปกตรัม เพื่",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ดำรงวุฒิ อ่อนวิมล",
+    "predicate": "leadsProject",
+    "object": "การวิจัยชั้นแนวหน้าด้านเทคโนโลยีเมล็ดพันธุ์เพื่อยกระดับการผลิตพืชไร่อุตสาหกรรม",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ดำรงวุฒิ อ่อนวิมล",
+    "predicate": "leadsProject",
+    "object": "คุณภาพเมล็ดพันธุ์หลังกระบวนการลดความชื้นและการเก็บรักษา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ดำรงวุฒิ อ่อนวิมล",
+    "predicate": "leadsProject",
+    "object": "นวัตกรรมการลดความชื้นและการเก็บรักษาข้าวเปลือกเพื่อชะลอการจำหน่ายในช่วงราคาตกต่ำสำหรับเกษตรกร 4.0",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ดำรงวุฒิ อ่อนวิมล",
+    "predicate": "participatesIn",
+    "object": "การขยายผลเครื่องนวัตกรรมลดความชื้นและเก็บรักษาข้าวเมล็ดพันธุ์ข้าวเปลือกขนาด 5 ตันไปสู่ชุมชนเพื่อการใ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ดำรงวุฒิ อ่อนวิมล",
+    "predicate": "participatesIn",
+    "object": "การพัฒนาสารเคลือบเมล็ดพันธุ์พอลิเมอร์ชีวภาพเพื่อบรรเทาความเสียหายของต้นกล้าข้าวโพดเลี้ยงสัตว์ภายใต้ส",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ดำรงวุฒิ อ่อนวิมล",
+    "predicate": "leadsProject",
+    "object": "นวัตกรรมการตรวจสอบคุณภาพเมล็ดพันธุ์พืชไร่ด้วยโครงข่ายประสาทเทียมแบบลึก",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ดำรงวุฒิ อ่อนวิมล",
+    "predicate": "participatesIn",
+    "object": "การพัฒนานวัตกรรมลดความชื้นและเก็บรักษาข้าวเปลือกเพื่อการพาณิชย์ (ปีที่ 2)",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริยานุช จุลกะ",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาพืชสวน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภาควิชาพืชสวน",
+    "predicate": "partOf",
+    "object": "คณะเกษตร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริยานุช จุลกะ",
+    "predicate": "hasExpertise",
+    "object": "Air humidity",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริยานุช จุลกะ",
+    "predicate": "hasExpertise",
+    "object": "ascorbic acid",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริยานุช จุลกะ",
+    "predicate": "hasExpertise",
+    "object": "bio-extract",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริยานุช จุลกะ",
+    "predicate": "hasExpertise",
+    "object": "Cherry tomato",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริยานุช จุลกะ",
+    "predicate": "hasExpertise",
+    "object": "chili",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริยานุช จุลกะ",
+    "predicate": "authored",
+    "object": "agrpnc@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริยานุช จุลกะ",
+    "predicate": "authored",
+    "object": "ธนิษฐ์ เรืองแสงอร่าม",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริยานุช จุลกะ",
+    "predicate": "authored",
+    "object": "ดร.ปริยานุช จุลกะ, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริยานุช จุลกะ",
+    "predicate": "authored",
+    "object": "ดร.เกรียงไกร โมสาลียานนท์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริยานุช จุลกะ",
+    "predicate": "authored",
+    "object": "Panita Chutimanukul",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริยานุช จุลกะ",
+    "predicate": "authored",
+    "object": "Michiko Takagaki",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริยานุช จุลกะ",
+    "predicate": "authored",
+    "object": "Effects of Light Intensity and Irrigation Method on Growth, Quality, and Anthocyanin Content of Red ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริยานุช จุลกะ",
+    "predicate": "authored",
+    "object": "เปรมกมล จิตรพงษ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริยานุช จุลกะ",
+    "predicate": "participatesIn",
+    "object": "วท.ม.(เกษตรศาสตร์), มหาวิทยาลัยเกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริยานุช จุลกะ",
+    "predicate": "participatesIn",
+    "object": "วท.บ.(เกษตรศาสตร์), มหาวิทยาลัยเกษตรศาสตร์, ไทย, 2536 โครงการวิจัย 5 ปีที่ผ่านมา หน้าที่ในโครงการ 5 ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริยานุช จุลกะ",
+    "predicate": "participatesIn",
+    "object": "ศูนย์รวมผู้เชี่ยวชาญด้านเมล็ดพันธุ์ผักของประเทศไทย",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริยานุช จุลกะ",
+    "predicate": "participatesIn",
+    "object": "ระบบสนับสนุนการตัดสินใจสำหรับการจัดการมะเขือเทศเชอรี่และหญ้าหวานในโรงเรือนด้วย Digital Growth Profil",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริยานุช จุลกะ",
+    "predicate": "participatesIn",
+    "object": "ฟาร์มผักกาดหอมไฮโดรโปนิกส์อัจฉริยะและการพยากรณ์คุณภาพผลผลิตด้วยอินเทอร์เน็ตออฟธิงส์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริยานุช จุลกะ",
+    "predicate": "participatesIn",
+    "object": "การผลิตเมล็ดพันธุ์พริกคุณภาพสูงภายใต้สภาวะโลกร้อน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริยานุช จุลกะ",
+    "predicate": "participatesIn",
+    "object": "การศึกษาการพัฒนาของเมล็ด การจัดการทรงพุ่มและประชากร และการพรางแสงเพื่อการผลิตเมล็ดพันธุ์พริกภายใต้สภ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริยานุช จุลกะ",
+    "predicate": "participatesIn",
+    "object": "การจัดการน้ำและธาตุอาหารเพื่อการผลิตเมล็ดพันธุ์พริกภายใต้สภาวะอุณหภูมิสูง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เบญญา มะโนชัย",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาพืชสวน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เบญญา มะโนชัย",
+    "predicate": "hasExpertise",
+    "object": "antioxidant",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เบญญา มะโนชัย",
+    "predicate": "hasExpertise",
+    "object": "Antioxidant activity",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เบญญา มะโนชัย",
+    "predicate": "hasExpertise",
+    "object": "Colchicine",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เบญญา มะโนชัย",
+    "predicate": "hasExpertise",
+    "object": "flavonoids",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เบญญา มะโนชัย",
+    "predicate": "hasExpertise",
+    "object": "free radical",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เบญญา มะโนชัย",
+    "predicate": "authored",
+    "object": "agrbym@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เบญญา มะโนชัย",
+    "predicate": "authored",
+    "object": "ดร.จุติภรณ์ ทัสสกุลพนิช, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เบญญา มะโนชัย",
+    "predicate": "authored",
+    "object": "วันทนีย์ เทวธรรมนาถ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เบญญา มะโนชัย",
+    "predicate": "authored",
+    "object": "ดร.เบญญา มะโนชัย, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เบญญา มะโนชัย",
+    "predicate": "authored",
+    "object": "Identification of water stress in tomato based on spectral indices and physiological parameters",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เบญญา มะโนชัย",
+    "predicate": "authored",
+    "object": "Abdelrahman, M.",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เบญญา มะโนชัย",
+    "predicate": "authored",
+    "object": "Comparative Studies of Bioactivities and Chemical Components in Fresh and Black Garlics",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เบญญา มะโนชัย",
+    "predicate": "participatesIn",
+    "object": "วท.ม.(พืชสวน), มหาวิทยาลัยเกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เบญญา มะโนชัย",
+    "predicate": "participatesIn",
+    "object": "วท.ด. (พืชสวน), มหาวิทยาลัยเกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เบญญา มะโนชัย",
+    "predicate": "leadsProject",
+    "object": "หน่วยบ่มเพาะการวิจัยเฉพาะทาง นวัตกรรมการผลิตพืชสมุนไพร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เบญญา มะโนชัย",
+    "predicate": "participatesIn",
+    "object": "การอนุรักษ์และฟื้นฟูพลับพลึงธารในแหล่งธรรมชาติโดยใช้เทคนิคต่าง ๆ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เบญญา มะโนชัย",
+    "predicate": "participatesIn",
+    "object": "การเพิ่มประสิทธิภาพในการขยายพันธุ์กล้วยไม้ในสภาพปลอดเชื้อ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เบญญา มะโนชัย",
+    "predicate": "participatesIn",
+    "object": "การสำรวจและอนุรักษ์ทรัพยากรพืชวงศ์ขิงตามโครงการอนุรักษ์พันธุกรรมพืชอันเนื่องจากพระราชดำริ สมเด็จพระเ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทัศไนย จารุวัฒนพันธ์",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาพืชสวน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทัศไนย จารุวัฒนพันธ์",
+    "predicate": "hasExpertise",
+    "object": "Banana",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทัศไนย จารุวัฒนพันธ์",
+    "predicate": "hasExpertise",
+    "object": "chromosome",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทัศไนย จารุวัฒนพันธ์",
+    "predicate": "hasExpertise",
+    "object": "fern",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทัศไนย จารุวัฒนพันธ์",
+    "predicate": "hasExpertise",
+    "object": "gametophyte",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทัศไนย จารุวัฒนพันธ์",
+    "predicate": "hasExpertise",
+    "object": "gamma radiation",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทัศไนย จารุวัฒนพันธ์",
+    "predicate": "authored",
+    "object": "ทัศไนย จารุวัฒนพันธ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทัศไนย จารุวัฒนพันธ์",
+    "predicate": "authored",
+    "object": "fagrtnj@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทัศไนย จารุวัฒนพันธ์",
+    "predicate": "authored",
+    "object": "ศิวกร โชครัศมีหิรัญ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทัศไนย จารุวัฒนพันธ์",
+    "predicate": "authored",
+    "object": "ดร.ทัศไนย จารุวัฒนพันธ์, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทัศไนย จารุวัฒนพันธ์",
+    "predicate": "authored",
+    "object": "A new species, Didymoglossum radiatum (Hymenophyllaceae), and two new records with note to the genus",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทัศไนย จารุวัฒนพันธ์",
+    "predicate": "authored",
+    "object": "นายศิวกร โชครัศมีหิรัญ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทัศไนย จารุวัฒนพันธ์",
+    "predicate": "authored",
+    "object": "Chromosome number of some species of Hymenophyllaceae from Thailand",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทัศไนย จารุวัฒนพันธ์",
+    "predicate": "participatesIn",
+    "object": "วิทยาศาสตร์บัณฑิต เกียรตินิยมอันดับ2 (วิทยาศาสตร์เกษตร), มหาวิทยาลัยเกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทัศไนย จารุวัฒนพันธ์",
+    "predicate": "participatesIn",
+    "object": "M.S. (Biology), Chiba University, JAPAN,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทัศไนย จารุวัฒนพันธ์",
+    "predicate": "participatesIn",
+    "object": "การถ่ายทอดเทคโนโลยีการเกษตรเพื่อลดการสูญเสียอาหารในห่วงโซ่การผลิตกล้วยหอม",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทัศไนย จารุวัฒนพันธ์",
+    "predicate": "participatesIn",
+    "object": "การใช้ปุ๋ยอินทรีย์เคมีและวัสดุปรับโครงสร้างดิน ต่อการเจริญเติบโต ความรุนแรงของโรค และคุณภาพผลผลิตทุเ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทัศไนย จารุวัฒนพันธ์",
+    "predicate": "leadsProject",
+    "object": "การศึกษาความหลากชนิดและเซลล์วิทยาของเฟินวงศ์ Hymenophyllaceae ในประเทศไทย",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทัศไนย จารุวัฒนพันธ์",
+    "predicate": "leadsProject",
+    "object": "การขยายพันธุ์และการอนุรักษ์นอกถิ่นกำเนิดกระเทียมน้ำ (Isoetes coromandelina L.f.):ไลโคไฟท์หายากของประ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ทัศไนย จารุวัฒนพันธ์",
+    "predicate": "leadsProject",
+    "object": "การรวบรวมข้อมูลพรรณพืชที่มีความสำคัญทางเศรษฐกิจของมหาวิทยาลัยเกษตรศาสตร์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุพจน์ กาเซ็ม",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาโรคพืช",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภาควิชาโรคพืช",
+    "predicate": "partOf",
+    "object": "คณะเกษตร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุพจน์ กาเซ็ม",
+    "predicate": "hasExpertise",
+    "object": "aflatoxin",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุพจน์ กาเซ็ม",
+    "predicate": "hasExpertise",
+    "object": "antagonist colonization",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุพจน์ กาเซ็ม",
+    "predicate": "hasExpertise",
+    "object": "Bacillus spp.",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุพจน์ กาเซ็ม",
+    "predicate": "hasExpertise",
+    "object": "bacterial disease of sweet corn",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุพจน์ กาเซ็ม",
+    "predicate": "hasExpertise",
+    "object": "biocontrol",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุพจน์ กาเซ็ม",
+    "predicate": "authored",
+    "object": "agrsupot@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุพจน์ กาเซ็ม",
+    "predicate": "authored",
+    "object": "ดร.วิภาวี ลี้สุทธิพรชัย, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุพจน์ กาเซ็ม",
+    "predicate": "authored",
+    "object": "ดร.ณัฐกร คุณเจริญ, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุพจน์ กาเซ็ม",
+    "predicate": "authored",
+    "object": "ดร.สุพจน์ กาเซ็ม, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุพจน์ กาเซ็ม",
+    "predicate": "authored",
+    "object": "ดร.ติยากร ฉัตรนภารัตน์, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุพจน์ กาเซ็ม",
+    "predicate": "authored",
+    "object": "Association of bacterial leaf blight with seed-associated bacterial communities in Thai fragrant ric",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุพจน์ กาเซ็ม",
+    "predicate": "authored",
+    "object": "Choosak Khaengraeng",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุพจน์ กาเซ็ม",
+    "predicate": "authored",
+    "object": "Wuttichai Mhuantong",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุพจน์ กาเซ็ม",
+    "predicate": "participatesIn",
+    "object": "หน่วยบ่มเพาะการวิจัยเฉพาะด้านโรคพืชอุบัติใหม่และนวัตกรรมการวินิจฉัยโรค",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุพจน์ กาเซ็ม",
+    "predicate": "participatesIn",
+    "object": "การยกระดับมาตรฐานผลิตภัณฑ์อาหารทะเลแปรรูปของชุมชนประมงพื้นบ้าน อำเภอสุขสำราญ จังหวัดระนอง สู่รายได้ท",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุพจน์ กาเซ็ม",
+    "predicate": "participatesIn",
+    "object": "บทบาทของ small molecules ในการยับยั้งระบบ type III secretion ของเชื้อแบคทีเรียสาเหตุโรคพืช Xanthomon",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุพจน์ กาเซ็ม",
+    "predicate": "participatesIn",
+    "object": "การระบาดของโรคราที่สำคัญของข้าวโพดและการจัดการสารพิษจากราที่เกี่ยวข้อง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุพจน์ กาเซ็ม",
+    "predicate": "leadsProject",
+    "object": "(ไม่จัดสรร) การส่งเสริมการเจริญเติบโตของข้าวโพดภายใต้สภาวะเครียดเนื่องจากโรคติดเชื้อและไม่ติดเชื้อ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธิดา เดชฮวบ",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาโรคพืช",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธิดา เดชฮวบ",
+    "predicate": "hasExpertise",
+    "object": "22 tetraen 3 one",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธิดา เดชฮวบ",
+    "predicate": "hasExpertise",
+    "object": "animal",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธิดา เดชฮวบ",
+    "predicate": "hasExpertise",
+    "object": "animal experiment",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธิดา เดชฮวบ",
+    "predicate": "hasExpertise",
+    "object": "Animal performance",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธิดา เดชฮวบ",
+    "predicate": "hasExpertise",
+    "object": "Animals",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธิดา เดชฮวบ",
+    "predicate": "authored",
+    "object": "agrtdd@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธิดา เดชฮวบ",
+    "predicate": "authored",
+    "object": "Pinho, Diana I. C.",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธิดา เดชฮวบ",
+    "predicate": "authored",
+    "object": "ดร.ธิดา เดชฮวบ, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธิดา เดชฮวบ",
+    "predicate": "authored",
+    "object": "Rattarom, Ruchiluk",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธิดา เดชฮวบ",
+    "predicate": "authored",
+    "object": "Hafez-Ghoran, Salar",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธิดา เดชฮวบ",
+    "predicate": "authored",
+    "object": "Silva, Artur M. S.",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธิดา เดชฮวบ",
+    "predicate": "authored",
+    "object": "New Bicyclic Sesquiterpene and Labdane Diterpenes from the Culture Extract of the Sea Grass-Derived ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธิดา เดชฮวบ",
+    "predicate": "authored",
+    "object": "Akphumkitanun, R.",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธิดา เดชฮวบ",
+    "predicate": "participatesIn",
+    "object": "-1026 Education ปร.ด. (โรคพืช), ภาควิชาโรคพืช คณะเกษตร มหาวิทยาลัยเกษตรศาสตร์ บางเขน, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธิดา เดชฮวบ",
+    "predicate": "participatesIn",
+    "object": "วท.บ. (เคมีเกษตร), คณะเกษตร มหาวิทยาลัยเกษตรศาสตร์ บางเขน, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธิดา เดชฮวบ",
+    "predicate": "leadsProject",
+    "object": "การศึกษาสารออกฤทธิ์ทางชีวภาพจากราปฏิปักษ์ในการพัฒนาผลิตภัณฑ์ควบคุมโรคพืชเศรษฐกิจ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธิดา เดชฮวบ",
+    "predicate": "participatesIn",
+    "object": "การใช้ประโยชน์จากราทะเลเพื่อการควบคุมศัตรูพืชทางการเกษตร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธิดา เดชฮวบ",
+    "predicate": "leadsProject",
+    "object": "การค้นหาสารออกฤทธิ์ทางชีวภาพจากราทะเล ในการควบคุมศัตรูพืชที่สำคัญ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปัฐวิภา สงกุมาร",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาโรคพืช",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปัฐวิภา สงกุมาร",
+    "predicate": "hasExpertise",
+    "object": "Bipolaris oryzae",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปัฐวิภา สงกุมาร",
+    "predicate": "hasExpertise",
+    "object": "effector",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปัฐวิภา สงกุมาร",
+    "predicate": "hasExpertise",
+    "object": "effector gene",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปัฐวิภา สงกุมาร",
+    "predicate": "hasExpertise",
+    "object": "Endogenous salicylic acid",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปัฐวิภา สงกุมาร",
+    "predicate": "hasExpertise",
+    "object": "Exserohilum rostratum",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปัฐวิภา สงกุมาร",
+    "predicate": "authored",
+    "object": "ปัฐวิภา สงกุมาร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปัฐวิภา สงกุมาร",
+    "predicate": "authored",
+    "object": "fagrpps@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปัฐวิภา สงกุมาร",
+    "predicate": "authored",
+    "object": "Boonkorn, Yatavee",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปัฐวิภา สงกุมาร",
+    "predicate": "authored",
+    "object": "ดร.วีระณีย์ ทองศรี, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปัฐวิภา สงกุมาร",
+    "predicate": "authored",
+    "object": "ดร.พัชรวิภา ใจจักรคำ, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปัฐวิภา สงกุมาร",
+    "predicate": "authored",
+    "object": "ดร.ปัฐวิภา สงกุมาร, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปัฐวิภา สงกุมาร",
+    "predicate": "authored",
+    "object": "Mitochondrial Marker-Based EvaGreen Real-Time PCR for Specific Detection and Quantification of Exser",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปัฐวิภา สงกุมาร",
+    "predicate": "authored",
+    "object": "Apithanasakulngeon, P.",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปัฐวิภา สงกุมาร",
+    "predicate": "participatesIn",
+    "object": "วท.ม.(จุลชีววิทยา), มหาวิทยาลัยเกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปัฐวิภา สงกุมาร",
+    "predicate": "participatesIn",
+    "object": "วท.บ.(จุลชีววิทยา), มหาวิทยาลัยสงขลานครินทร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปัฐวิภา สงกุมาร",
+    "predicate": "leadsProject",
+    "object": "ผลของอุณหภูมิโลกที่สูงขึ้นต่อการทำงานและประสิทธิภาพของยีนต้านทานโรคไหม้ข้าว",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปัฐวิภา สงกุมาร",
+    "predicate": "leadsProject",
+    "object": "การใช้โอมิกส์เทคโนโลยีในการศึกษาผลของอุณหภูมิโลกที่สูงขึ้นต่อการทำงานและประสิทธิภาพของยีนต้านทานโรคไ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปัฐวิภา สงกุมาร",
+    "predicate": "leadsProject",
+    "object": "การวิเคราะห์การแสดงออกของกลุ่มยีนที่กำหนดการสร้างเอนไซม์ย่อยสลายผนังเซลล์พืชจากเชื้อรา Magnaporthe o",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปัฐวิภา สงกุมาร",
+    "predicate": "participatesIn",
+    "object": "การปรับปรุงพันธุ์ข้าวไทยให้ต้านทานต่อโรคไหม้ และการศึกษาคุณสมบัติของเชื้อราโรคไหม้ทางด้านเอนไซม์และก",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุภาภรณ์ เลิศศิริ",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาส่งเสริมและนิเทศศาสตร์เกษตร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภาควิชาส่งเสริมและนิเทศศาสตร์เกษตร",
+    "predicate": "partOf",
+    "object": "คณะเกษตร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุภาภรณ์ เลิศศิริ",
+    "predicate": "hasExpertise",
+    "object": "Acceptance",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุภาภรณ์ เลิศศิริ",
+    "predicate": "hasExpertise",
+    "object": "agarwood formation",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุภาภรณ์ เลิศศิริ",
+    "predicate": "hasExpertise",
+    "object": "agarwood oil",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุภาภรณ์ เลิศศิริ",
+    "predicate": "hasExpertise",
+    "object": "agricultural drone",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุภาภรณ์ เลิศศิริ",
+    "predicate": "hasExpertise",
+    "object": "Agriculture",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุภาภรณ์ เลิศศิริ",
+    "predicate": "authored",
+    "object": "สุภาภรณ์ เลิศศิริ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุภาภรณ์ เลิศศิริ",
+    "predicate": "authored",
+    "object": "ภาควิชาส่งเสริมและนิเทศศาสตร์เกษตร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุภาภรณ์ เลิศศิริ",
+    "predicate": "authored",
+    "object": "agrspl@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุภาภรณ์ เลิศศิริ",
+    "predicate": "authored",
+    "object": "หม่อมหลวงวุฒิพงษ์ ทวีวงศ์, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุภาภรณ์ เลิศศิริ",
+    "predicate": "authored",
+    "object": "สยาม ลววิโรจน์วงศ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุภาภรณ์ เลิศศิริ",
+    "predicate": "authored",
+    "object": "ดร.สุภาภรณ์ เลิศศิริ, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุภาภรณ์ เลิศศิริ",
+    "predicate": "authored",
+    "object": "ดร.โอฬาร เจริญชัย, อาจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุภาภรณ์ เลิศศิริ",
+    "predicate": "authored",
+    "object": "ดร.นัฐศิพร แสงเยือน, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุภาภรณ์ เลิศศิริ",
+    "predicate": "participatesIn",
+    "object": "วท.ม.(เศรษฐศาสตร์เกษตร), มหาวิทยาลัยเกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุภาภรณ์ เลิศศิริ",
+    "predicate": "participatesIn",
+    "object": "วท.บ.(เกษตรศาสตร์), มหาวิทยาลัยเกษตรศาสตร์, ไทย, 2537 โครงการวิจัย 5 ปีที่ผ่านมา หน้าที่ในโครงการ 5 ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุภาภรณ์ เลิศศิริ",
+    "predicate": "leadsProject",
+    "object": "การบริหารจัดการเครือข่ายวิจัยภูมิภาค : ภาคกลาง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุภาภรณ์ เลิศศิริ",
+    "predicate": "participatesIn",
+    "object": "การบูรณาการเทคโนโลยีภูมิสารสนเทศร่วมกับระบบไอโอทีเพื่อลดภัยแล้งระดับตำบล ผ่านเครือข่ายท้องถิ่นในจังห",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุภาภรณ์ เลิศศิริ",
+    "predicate": "participatesIn",
+    "object": "โครงการการจัดอบรมเยาวชนด้านการบริบาลผู้สูงอายุเพื่อสนับสนุนการท่องเที่ยวเชิงเกษตรและเสริมสร้างพฤฒพลั",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุภาภรณ์ เลิศศิริ",
+    "predicate": "participatesIn",
+    "object": "หน่วยบ่มเพาะการวิจัยเฉพาะทางด้านแผนที่เกษตรกรรมและอาหารเพื่อความยั่งยืนของเมือง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุภาภรณ์ เลิศศิริ",
+    "predicate": "participatesIn",
+    "object": "กลยุทธ์การสื่อสารเพิ่มส่งเสริมเกษตรในเมืองเชิงพหุภารกิจเขตบางขุนเทียน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุภาภรณ์ เลิศศิริ",
+    "predicate": "participatesIn",
+    "object": "ส่งเสริมการท่องเที่ยวเชิงเกษตรและวัฒนธรรมด้วยสื่อเทคโนโลยีอัจฉริยะตลาดน้ำบางขาม วัดคุ้งท่าเลา อำเภอบ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นริศรา อินทะสิริ",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาส่งเสริมและนิเทศศาสตร์เกษตร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นริศรา อินทะสิริ",
+    "predicate": "hasExpertise",
+    "object": "AEC",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นริศรา อินทะสิริ",
+    "predicate": "hasExpertise",
+    "object": "Agricultural Products",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นริศรา อินทะสิริ",
+    "predicate": "hasExpertise",
+    "object": "drought",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นริศรา อินทะสิริ",
+    "predicate": "hasExpertise",
+    "object": "educational choices",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นริศรา อินทะสิริ",
+    "predicate": "hasExpertise",
+    "object": "family background",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นริศรา อินทะสิริ",
+    "predicate": "authored",
+    "object": "นริศรา อินทะสิริ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นริศรา อินทะสิริ",
+    "predicate": "authored",
+    "object": "narisara.i@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นริศรา อินทะสิริ",
+    "predicate": "authored",
+    "object": "ดร.สุเมธ ชัยไธสง, อาจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นริศรา อินทะสิริ",
+    "predicate": "authored",
+    "object": "ดร.นริศรา อินทะสิริ, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นริศรา อินทะสิริ",
+    "predicate": "authored",
+    "object": "การสื่อสารความหมายเชิงสัญญะว่าด้วยปรัชญา “จิตนิยม” และ “สัจนิยม” ผ่านวิถีเกษตรในภาพยนตร์ไทยเรื่องวิม",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นริศรา อินทะสิริ",
+    "predicate": "authored",
+    "object": "นางสาวพิมพ์ฬดา ทับทัน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นริศรา อินทะสิริ",
+    "predicate": "authored",
+    "object": "การปรับตัวต่อวิกฤติภัยแล้งของเกษตรกรผู้ปลูกข้าว ตำบลปลายกลัด อำเภอบางซ้าย จังหวัดพระนครศรีอยุธยา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นริศรา อินทะสิริ",
+    "predicate": "participatesIn",
+    "object": "ศึกษาศาสตรดุษฎีบัณฑิต สาขาการศึกษาตลอดชีวิตและการพัฒนามนุษย์, มหาวิทยาลัยศิลปากร, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นริศรา อินทะสิริ",
+    "predicate": "participatesIn",
+    "object": "อิทธิพลของครอบครัวต่อการเลือกศึกษาต่อของเยาวชนในประเทศไทย กรณีศึกษา: ข้อมูลภาวะเศรษฐกิจและสังคมของคร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นริศรา อินทะสิริ",
+    "predicate": "leadsProject",
+    "object": "ความต้องการเทคโนโลยีการผลิตฝรั่งของเกษตรกร กรณีศึกษา เกษตรกร ตำบลหนองสองห้อง อำเภอบ้านแพ้ว จังหวัดสม",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นริศรา อินทะสิริ",
+    "predicate": "participatesIn",
+    "object": "ศาสตร์พระราชากับการพัฒนาชุมชนเกษตรอย่างยั่งยืน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ชัยภูมิ บัญชาศักดิ์",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาสัตวบาล",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภาควิชาสัตวบาล",
+    "predicate": "partOf",
+    "object": "คณะเกษตร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ชัยภูมิ บัญชาศักดิ์",
+    "predicate": "hasExpertise",
+    "object": "Amino acid",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ชัยภูมิ บัญชาศักดิ์",
+    "predicate": "hasExpertise",
+    "object": "animal experiment",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ชัยภูมิ บัญชาศักดิ์",
+    "predicate": "hasExpertise",
+    "object": "Antibiotics",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ชัยภูมิ บัญชาศักดิ์",
+    "predicate": "hasExpertise",
+    "object": "Apparent metabolizable energy",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ชัยภูมิ บัญชาศักดิ์",
+    "predicate": "hasExpertise",
+    "object": "Article",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ชัยภูมิ บัญชาศักดิ์",
+    "predicate": "authored",
+    "object": "ชัยภูมิ บัญชาศักดิ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ชัยภูมิ บัญชาศักดิ์",
+    "predicate": "authored",
+    "object": "agrchb@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ชัยภูมิ บัญชาศักดิ์",
+    "predicate": "authored",
+    "object": "Phonphan Watthanarat",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ชัยภูมิ บัญชาศักดิ์",
+    "predicate": "authored",
+    "object": "ดร.ชัยภูมิ บัญชาศักดิ์, ศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ชัยภูมิ บัญชาศักดิ์",
+    "predicate": "authored",
+    "object": "ดร.วรรณรัตน์ ผลเพิ่ม, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ชัยภูมิ บัญชาศักดิ์",
+    "predicate": "authored",
+    "object": "Amornrat Promboon",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ชัยภูมิ บัญชาศักดิ์",
+    "predicate": "authored",
+    "object": "Uraiwan Ninpetch",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ชัยภูมิ บัญชาศักดิ์",
+    "predicate": "authored",
+    "object": "Samrit Kiewwong",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ชัยภูมิ บัญชาศักดิ์",
+    "predicate": "participatesIn",
+    "object": "M.S.(Animal Science), Gifu University, ญี่ปุ่น, 2538 วท.บ.(เกษตรศาสตร์), มหาวิทยาลัยขอนแก่น , ไทย, 2",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ชัยภูมิ บัญชาศักดิ์",
+    "predicate": "leadsProject",
+    "object": "การจัดการประชุมวิชาการสัตวศาสตร์แห่งชาติ ครั้งที่ 14 และการประชุมภาคีสัตวศาสตร์แห่งประเทศไทย ครั้งที",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ชัยภูมิ บัญชาศักดิ์",
+    "predicate": "participatesIn",
+    "object": "การใช้ประโยชน์จากข้าวโพดสุวรรณ 5 และการถ่ายทอดเทคโนโลยีการผลิตและการใช้ประโยชน์จากข้าวฟ่างอาหารสัตว์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ชัยภูมิ บัญชาศักดิ์",
+    "predicate": "participatesIn",
+    "object": "การประยุกต์ใช้น้ำมันหอมระเหยจากกานพลูและใบพลูในลูกสุกรก่อนและหลังหย่านม",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ชัยภูมิ บัญชาศักดิ์",
+    "predicate": "leadsProject",
+    "object": "การใช้ฟรุคโตโอลิโกแซคคาไรด์เพื่อพัฒนาโครงสร้างจุลินทรีย์ สมรรถภาพการผลิต และลดยีนดื้อยาปฏิชีวนะในแม่",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ชัยภูมิ บัญชาศักดิ์",
+    "predicate": "participatesIn",
+    "object": "การเพิ่มประสิทธิภาพของจุลินทรีย์และความสามารถในการย่อยได้ในกระเพาะรูเมนจากการใช้ข้าวโพดหมักด้วยจุลิน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ชัยภูมิ บัญชาศักดิ์",
+    "predicate": "participatesIn",
+    "object": "การพัฒนาอาหารเทียมไหมปลอดยาปฏิชีวนะสำหรับผลิตดักแด้เพื่อใช้ในอุตสาหกรรมอาหาร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ชัยภูมิ บัญชาศักดิ์",
+    "predicate": "participatesIn",
+    "object": "ผลของอาหารโปรตีนต่ำและความต้องการ total sulfur amino acid (TSAA) ต่อสมรรถนะการผลิต ค่าทางชีวเคมีในเล",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีรวิทย์ เป่ยคำภา",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาสัตวบาล",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีรวิทย์ เป่ยคำภา",
+    "predicate": "hasExpertise",
+    "object": "amino acid",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีรวิทย์ เป่ยคำภา",
+    "predicate": "hasExpertise",
+    "object": "animal experiment",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีรวิทย์ เป่ยคำภา",
+    "predicate": "hasExpertise",
+    "object": "Article",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีรวิทย์ เป่ยคำภา",
+    "predicate": "hasExpertise",
+    "object": "body weight",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีรวิทย์ เป่ยคำภา",
+    "predicate": "hasExpertise",
+    "object": "body weight gain",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีรวิทย์ เป่ยคำภา",
+    "predicate": "authored",
+    "object": "ธีรวิทย์ เป่ยคำภา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีรวิทย์ เป่ยคำภา",
+    "predicate": "authored",
+    "object": "agrtrw@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีรวิทย์ เป่ยคำภา",
+    "predicate": "authored",
+    "object": "Thamteerasathian, L.",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีรวิทย์ เป่ยคำภา",
+    "predicate": "authored",
+    "object": "Chaiworakul, V.",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีรวิทย์ เป่ยคำภา",
+    "predicate": "authored",
+    "object": "ดร.ธีรวิทย์ เป่ยคำภา, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีรวิทย์ เป่ยคำภา",
+    "predicate": "authored",
+    "object": "Tungkijanansin, N.",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีรวิทย์ เป่ยคำภา",
+    "predicate": "authored",
+    "object": "Vitamin D enrichment of eggs and its effects on performance and intestinal health in late-stage layi",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีรวิทย์ เป่ยคำภา",
+    "predicate": "participatesIn",
+    "object": "-1120 Education วท.ด. (สัตวศาสตร์), มหาวิทยาลัยเกษตรศาสตร์, ไทย โครงการวิจัย 5 ปีที่ผ่านมา หน้าที่ใน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีรวิทย์ เป่ยคำภา",
+    "predicate": "leadsProject",
+    "object": "เปรียบเทียบค่าพารามิเตอร์ของโภชนะที่ใช้ในการคำนวณสูตรอาหารต่อต้นทุนอาหารและการให้ผลผลิตของไก่เนื้อแล",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีรวิทย์ เป่ยคำภา",
+    "predicate": "leadsProject",
+    "object": "การผลิตเอนไซม์รวมเพื่อเพิ่มประสิทธิภาพการใช้ประโยชน์จากอาหารและลดต้นทุนอาหารของสัตว์กระเพาะเดี่ยว",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีรวิทย์ เป่ยคำภา",
+    "predicate": "participatesIn",
+    "object": "โครงการการวิจัยพัฒนาไก่เคยูเบตงให้เป็นธุรกิจ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีรวิทย์ เป่ยคำภา",
+    "predicate": "participatesIn",
+    "object": "การทดสอบผลิตภัณฑ์นวัตกรรมน้ำเชื่อมพรีไบโอติกเป็นสารเสริมอาหารเพื่อเพิ่มปริมาณน้ำนมสุกรแม่พันธุ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีรวิทย์ เป่ยคำภา",
+    "predicate": "participatesIn",
+    "object": "โครงการจัดทำตัวชี้วัดสมรรถนะด้านพลังงานเพื่อเพิ่มประสิทธิภาพการใช้พลังงานในโรงงานควบคุม",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีรวิทย์ เป่ยคำภา",
+    "predicate": "leadsProject",
+    "object": "ผลของการเสริมวิตามินและกรดอินทรีย์ในน้ำดื่มต่อการเติบโต ระบบภูมิคุ้มกัน ปริมาณซาก และคุณภาพเนื้อ ของ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์ธร คงมั่น",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาสัตวบาล",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์ธร คงมั่น",
+    "predicate": "hasExpertise",
+    "object": "Bacillus subtilis",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์ธร คงมั่น",
+    "predicate": "hasExpertise",
+    "object": "broiler",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์ธร คงมั่น",
+    "predicate": "hasExpertise",
+    "object": "Carcass quality",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์ธร คงมั่น",
+    "predicate": "hasExpertise",
+    "object": "Corn",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์ธร คงมั่น",
+    "predicate": "hasExpertise",
+    "object": "corn (Zea mays)",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์ธร คงมั่น",
+    "predicate": "authored",
+    "object": "fagrptk@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์ธร คงมั่น",
+    "predicate": "authored",
+    "object": "Andaman Chankhao",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์ธร คงมั่น",
+    "predicate": "authored",
+    "object": "ดร.พงศ์ธร คงมั่น, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์ธร คงมั่น",
+    "predicate": "authored",
+    "object": "ดร.แสงสรรค์ ภูมิสถาน, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์ธร คงมั่น",
+    "predicate": "authored",
+    "object": "ดร.นันทชัย พงศ์พัฒนานุรักษ์, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์ธร คงมั่น",
+    "predicate": "authored",
+    "object": "Time-dependence of forage quality for large herbivores in seasonally dry tropical forests, Western T",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์ธร คงมั่น",
+    "predicate": "authored",
+    "object": "Sineenart Polyorach",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์ธร คงมั่น",
+    "predicate": "participatesIn",
+    "object": "-1120 Education ปร.ด.( สัตวศาสตร์), มหาวิทยาลัยขอนแก่น, ไทย โครงการวิจัย 5 ปีที่ผ่านมา หน้าที่ในโครง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์ธร คงมั่น",
+    "predicate": "leadsProject",
+    "object": "ผลของการใช้อาหารหยาบที่แตกต่างกันในการขุนแพะเนื้อต่ออัตราการเจริญเติบโตและคุณภาพซาก",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์ธร คงมั่น",
+    "predicate": "participatesIn",
+    "object": "การประเมินคุณค่าทางโภชนะของข้าวโพดหมัก สายพันธุ์ลูกผสมสุวรรณ 4452 องค์ประกอบทางเคมี และ ความสามารถใน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์ธร คงมั่น",
+    "predicate": "leadsProject",
+    "object": "การศึกษากระบวนการผลิตและการใช้ประโยชน์ของโปรตีนจากกากผงชูรสหมักยีสต์ในสัตว์เคี้ยวเอื้อง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์ธร คงมั่น",
+    "predicate": "leadsProject",
+    "object": "การเปรียบเทียบการใช้ประโยชน์ของไขมันและการผลิตกรดไขมัน คอนจูเกตลิโนเลอิกในกระบวนการหมักของรูเมนกระบื",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์ธร คงมั่น",
+    "predicate": "participatesIn",
+    "object": "Evaluation of nutrient utilization and rumen digestibility of Taiwan brittle rice straw",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์ธร คงมั่น",
+    "predicate": "leadsProject",
+    "object": "การศึกษาการใช้ประโยชน์จากกากกาแฟใช้แล้วเป็นแหล่งโปรตีนในอาหารข้นสำหรับแพะ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์ธร คงมั่น",
+    "predicate": "leadsProject",
+    "object": "การศึกษาความสามารถในการย่อยได้ในกระเพาะรูเมนของวัตถุดิบผสมน้ำกากผงชูรสโดยวิธี in sacco ในโคเนื้อ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว สดใส ช่างสลัก",
+    "predicate": "belongsTo",
+    "object": "ศูนย์วิจัยข้าวโพดและข้าวฟ่างแห่งชาติ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศูนย์วิจัยข้าวโพดและข้าวฟ่างแห่งชาติ",
+    "predicate": "partOf",
+    "object": "คณะเกษตร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว สดใส ช่างสลัก",
+    "predicate": "hasExpertise",
+    "object": "baby corn",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว สดใส ช่างสลัก",
+    "predicate": "hasExpertise",
+    "object": "Commercial corn hybrid",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว สดใส ช่างสลัก",
+    "predicate": "hasExpertise",
+    "object": "competition",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว สดใส ช่างสลัก",
+    "predicate": "hasExpertise",
+    "object": "density",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว สดใส ช่างสลัก",
+    "predicate": "hasExpertise",
+    "object": "ELISA",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว สดใส ช่างสลัก",
+    "predicate": "authored",
+    "object": "ศูนย์วิจัยข้าวโพดและข้าวฟ่างแห่งชาติ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว สดใส ช่างสลัก",
+    "predicate": "authored",
+    "object": "ijsssc@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว สดใส ช่างสลัก",
+    "predicate": "authored",
+    "object": "ดร.สราวุธ รุ่งเมฆารัตน์, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว สดใส ช่างสลัก",
+    "predicate": "authored",
+    "object": "ประกายรัตน์ โภคาเดช",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว สดใส ช่างสลัก",
+    "predicate": "authored",
+    "object": "ดร.อุดมศักดิ์ เลิศสุชาตวนิช, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว สดใส ช่างสลัก",
+    "predicate": "authored",
+    "object": "นางสาวสดใส ช่างสลัก",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว สดใส ช่างสลัก",
+    "predicate": "authored",
+    "object": "ดร.จุฑามาศ ร่มแก้ว, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว สดใส ช่างสลัก",
+    "predicate": "authored",
+    "object": "ประสิทธิภาพของสารกำจัดวัชพืชก่อนงอกร่วมกับหลังงอกที่มีต่อการควบคุมวัชพืชในข้าวโพด",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว สดใส ช่างสลัก",
+    "predicate": "leadsProject",
+    "object": "การทดลองข้าวโพดในระดับไร่กสิกร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว สดใส ช่างสลัก",
+    "predicate": "participatesIn",
+    "object": "การพัฒนาเทคโนโลยีการผลิตข้าวโพดหวานเอนกประสงค์เพื่อฝักสด อาหารสัตว์ และเชื้อเพลิงชีวภาพ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว สดใส ช่างสลัก",
+    "predicate": "participatesIn",
+    "object": "การจัดการระบบนิเวศน์เพื่อลดปัญหาแมลงศัตรูข้าวโพดอย่างยั่งยืน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว สดใส ช่างสลัก",
+    "predicate": "participatesIn",
+    "object": "การเพิ่มปริมาณโปรวิตามินเอและสารต้านอนุมูลอิสระในข้าวโพดข้าวเหนียว",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว สดใส ช่างสลัก",
+    "predicate": "participatesIn",
+    "object": "การจัดการวัชพืชแบบผสมผสานในข้าวโพด",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย นพพงศ์ จุลจอหอ",
+    "predicate": "belongsTo",
+    "object": "ศูนย์วิจัยข้าวโพดและข้าวฟ่างแห่งชาติ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย นพพงศ์ จุลจอหอ",
+    "predicate": "hasExpertise",
+    "object": "-   การปรับปรุงพันธุ์ข้าวโพดฝักอ่อน  (ba",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย นพพงศ์ จุลจอหอ",
+    "predicate": "hasExpertise",
+    "object": "-   การปรับปรุงพันธุ์ข้าวโพดหวาน  (sweet",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย นพพงศ์ จุลจอหอ",
+    "predicate": "hasExpertise",
+    "object": "ข้าวโพดลูกผสมน้ำมันสูง (high-oil corn hybrid)",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย นพพงศ์ จุลจอหอ",
+    "predicate": "hasExpertise",
+    "object": "ลูกผสมเดี่ยว (single-cross hybrid)",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย นพพงศ์ จุลจอหอ",
+    "predicate": "hasExpertise",
+    "object": "\" เมล็ดพันธุ์ข้าวโพด\"   \n\"Organic Substances\"",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย นพพงศ์ จุลจอหอ",
+    "predicate": "authored",
+    "object": "ijsnpc@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย นพพงศ์ จุลจอหอ",
+    "predicate": "authored",
+    "object": "ดร.กิ่งกานท์ พานิชนอก",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย นพพงศ์ จุลจอหอ",
+    "predicate": "authored",
+    "object": "ดร.เอ็จ สโรบล, ศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย นพพงศ์ จุลจอหอ",
+    "predicate": "authored",
+    "object": "นางสาวกฤษณา  ทิวาตรี",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย นพพงศ์ จุลจอหอ",
+    "predicate": "authored",
+    "object": "นางสุปราณี งามประสิทธิ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย นพพงศ์ จุลจอหอ",
+    "predicate": "authored",
+    "object": "ดร.พรรณญาฎา ฉายศรีสุริยศ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย นพพงศ์ จุลจอหอ",
+    "predicate": "authored",
+    "object": "นายประภาส ช่างเหล็ก",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย นพพงศ์ จุลจอหอ",
+    "predicate": "participatesIn",
+    "object": "การปรับปรุงพันธุ์ข้าวโพดหวานและข้าวโพดฝักอ่อนสำหรับตลาดฝักสดและอุตสาหกรรมแปรรูปภายใต้สภาพแวดล้อมที่เ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย นพพงศ์ จุลจอหอ",
+    "predicate": "participatesIn",
+    "object": "การรวบรวม ประเมิน และใช้ประโยชน์จากเชื้อพันธุกรรมข้าวโพดฝักสด",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย นพพงศ์ จุลจอหอ",
+    "predicate": "participatesIn",
+    "object": "ผลของการเคลือบเมล็ดด้วยสารอินทรีย์ต่อคุณภาพและการเก็บรักษาของเมล็ดพันธุ์ข้าวโพดและข้าวฟ่าง ผู้ประสาน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย นพพงศ์ จุลจอหอ",
+    "predicate": "participatesIn",
+    "object": "การทดสอบพันธุ์และการผลิตเมล็ดพันธุ์ข้าวโพดลูกผสมแอนโธไซยานินสูง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย นพพงศ์ จุลจอหอ",
+    "predicate": "participatesIn",
+    "object": "การปรับปรุงพันธุ์ข้าวโพดลูกผสมน้ำมันสูงสำหรับอุตสาหกรรมอาหาร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย นพพงศ์ จุลจอหอ",
+    "predicate": "participatesIn",
+    "object": "การสร้างมูลค่าและการใช้ประโยชน์อย่างครบวงจรจากข้าวโพดลูกผสมแอนโธไซยานินสูง / การทดสอบพันธุ์และการผลิ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง พิทยาภรณ์ สุภรพัฒน์",
+    "predicate": "belongsTo",
+    "object": "ศูนย์วิจัยข้าวโพดและข้าวฟ่างแห่งชาติ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง พิทยาภรณ์ สุภรพัฒน์",
+    "predicate": "hasExpertise",
+    "object": "agronomy",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง พิทยาภรณ์ สุภรพัฒน์",
+    "predicate": "hasExpertise",
+    "object": "Asian Corn Borer",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง พิทยาภรณ์ สุภรพัฒน์",
+    "predicate": "hasExpertise",
+    "object": "breeding program.\nIntroduction",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง พิทยาภรณ์ สุภรพัฒน์",
+    "predicate": "hasExpertise",
+    "object": "brittle-1",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง พิทยาภรณ์ สุภรพัฒน์",
+    "predicate": "hasExpertise",
+    "object": "cassava",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง พิทยาภรณ์ สุภรพัฒน์",
+    "predicate": "authored",
+    "object": "พิทยาภรณ์ สุภรพัฒน์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง พิทยาภรณ์ สุภรพัฒน์",
+    "predicate": "authored",
+    "object": "ijspps@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง พิทยาภรณ์ สุภรพัฒน์",
+    "predicate": "authored",
+    "object": "นางสาวชฎามาศ จิตต์เลขา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง พิทยาภรณ์ สุภรพัฒน์",
+    "predicate": "authored",
+    "object": "นางวราภรณ์ วงค์พิลา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง พิทยาภรณ์ สุภรพัฒน์",
+    "predicate": "authored",
+    "object": "นางพิทยาภรณ์ สุภรพัฒน์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง พิทยาภรณ์ สุภรพัฒน์",
+    "predicate": "authored",
+    "object": "นางสาวศุภรา จันทร์คืน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง พิทยาภรณ์ สุภรพัฒน์",
+    "predicate": "participatesIn",
+    "object": "ศักยภาพการให้ผลผลิตและเสถียรภาพของข้าวฟ่างไม้กวาดสายพันธุ์แท้",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง พิทยาภรณ์ สุภรพัฒน์",
+    "predicate": "participatesIn",
+    "object": "การวิเคราะห์ปัจจัยหลักของแมลงศัตรูข้าวโพดที่สำคัญ และการจัดการระบบนิเวศเพื่อลดปัญหาแมลงศัตรูพืชในข้า",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง พิทยาภรณ์ สุภรพัฒน์",
+    "predicate": "participatesIn",
+    "object": "การจัดการแมลงศัตรูข้าวโพดหวานอย่างยั่งยืน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย วิสิฐ กิจสมพร",
+    "predicate": "belongsTo",
+    "object": "ศูนย์วิจัยและถ่ายทอดเทคโนโลยีการเกษตร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศูนย์วิจัยและถ่ายทอดเทคโนโลยีการเกษตร",
+    "predicate": "partOf",
+    "object": "คณะเกษตร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย วิสิฐ กิจสมพร",
+    "predicate": "hasExpertise",
+    "object": "intermediate rootstock",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย วิสิฐ กิจสมพร",
+    "predicate": "hasExpertise",
+    "object": "“Tausue” (Diospyros lotus) rootstock",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย วิสิฐ กิจสมพร",
+    "predicate": "hasExpertise",
+    "object": "Agrotourism",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย วิสิฐ กิจสมพร",
+    "predicate": "hasExpertise",
+    "object": "alley or avenue cropping",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย วิสิฐ กิจสมพร",
+    "predicate": "hasExpertise",
+    "object": "astringent persimmon",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย วิสิฐ กิจสมพร",
+    "predicate": "authored",
+    "object": "ศูนย์วิจัยและถ่ายทอดเทคโนโลยีการเกษตร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย วิสิฐ กิจสมพร",
+    "predicate": "authored",
+    "object": "rdgwsk@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย วิสิฐ กิจสมพร",
+    "predicate": "authored",
+    "object": "ดร.ณรงค์ชัย พิพัฒน์ธนวงศ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย วิสิฐ กิจสมพร",
+    "predicate": "authored",
+    "object": "นายวิสิฐ กิจสมพร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย วิสิฐ กิจสมพร",
+    "predicate": "authored",
+    "object": "Factors affecting strawberry practice of highland farmers in the Royal Project Foundation",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย วิสิฐ กิจสมพร",
+    "predicate": "authored",
+    "object": "ดร.ชัยสิทธิ์ ทองจู, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย วิสิฐ กิจสมพร",
+    "predicate": "authored",
+    "object": "นางวีระศรี เมฆตรง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย วิสิฐ กิจสมพร",
+    "predicate": "authored",
+    "object": "นางสาวบัวบาง ยะอูป",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย วิสิฐ กิจสมพร",
+    "predicate": "participatesIn",
+    "object": "ทษ.บ.(ส่งเสริมการเกษตร), สถาบันเทคโนโลยีการเกษตรแม่โจ้, ไทย โครงการวิจัย 5 ปีที่ผ่านมา หน้าที่ในโครง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย วิสิฐ กิจสมพร",
+    "predicate": "participatesIn",
+    "object": "การใช้เทคโนโลยีที่เหมาะสมบางประการสำหรับพัฒนาการผลิตพลับในประเทศไทย",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย วิสิฐ กิจสมพร",
+    "predicate": "participatesIn",
+    "object": "ผลของ Micro-Climate ที่มีต่อการพัฒนาและคุณภาพของพลับพันธุ์ซิชู ( Diospyros kaki L. cv Xichu)",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย วิสิฐ กิจสมพร",
+    "predicate": "participatesIn",
+    "object": "ศักยภาพของการปลูกพลับหวาน ( Diospyros kaki L., non-astringent persimmon )ในพื้นที่สูงของจังหวัดเพชรบ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย วิสิฐ กิจสมพร",
+    "predicate": "leadsProject",
+    "object": "การใช้ต้นตอกลางเพื่อการพัฒนาปรับปรุงคุณภาพพลับ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย วิสิฐ กิจสมพร",
+    "predicate": "participatesIn",
+    "object": "การจัดการธาตุอาหารพืชสำหรับพลับพันธุ์ซิชู ( Diospyros kaki L., cv Xichu)",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย วิสิฐ กิจสมพร",
+    "predicate": "participatesIn",
+    "object": "การใช้เทคโนโลยีที่เหมาะสมบางประการสำหรับ พัฒนาการผลิตพลับในประเทศไทย",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย วิสิฐ กิจสมพร",
+    "predicate": "participatesIn",
+    "object": "ผลของ Micro-Climate ที่มีต่อการพัฒนาและคุณภาพ ของพลับพันธุ์ซิชู ( Diospyros kaki L. cv Xichu)",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว นิภา เขื่อนควบ",
+    "predicate": "belongsTo",
+    "object": "ศูนย์วิจัยและถ่ายทอดเทคโนโลยีการเกษตร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว นิภา เขื่อนควบ",
+    "predicate": "hasExpertise",
+    "object": "‘ Num Hom’ coconut",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว นิภา เขื่อนควบ",
+    "predicate": "hasExpertise",
+    "object": "1-MCP",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว นิภา เขื่อนควบ",
+    "predicate": "hasExpertise",
+    "object": "Agricultural   \nSystems",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว นิภา เขื่อนควบ",
+    "predicate": "hasExpertise",
+    "object": "Antioxidant activity",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว นิภา เขื่อนควบ",
+    "predicate": "hasExpertise",
+    "object": "azuki bean",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว นิภา เขื่อนควบ",
+    "predicate": "authored",
+    "object": "rdgnpk@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว นิภา เขื่อนควบ",
+    "predicate": "authored",
+    "object": "นางอัมรา หล้าวงษา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว นิภา เขื่อนควบ",
+    "predicate": "authored",
+    "object": "นางสาวนิภา เขื่อนควบ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว นิภา เขื่อนควบ",
+    "predicate": "authored",
+    "object": "นางนวลปรางค์ ไชยตะขบ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว นิภา เขื่อนควบ",
+    "predicate": "authored",
+    "object": "นายสมศักดิ์ รุ่งอรุณ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว นิภา เขื่อนควบ",
+    "predicate": "authored",
+    "object": "ผลของสารควบคุมการเจริญเติบโตของพืชต่อการเจริญเติบโต ผลผลิตและคุณภาพผลของสตรอว์เบอร์รีพันธุ์พระราชทาน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว นิภา เขื่อนควบ",
+    "predicate": "participatesIn",
+    "object": "การยกระดับขีดความสามารถด้านการจัดการการท่องเที่ยวคาร์บอนต่ำของชุมชนบ้านม่วงคำ ตำบลโป่งแยง อำเภอแม่ริ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว นิภา เขื่อนควบ",
+    "predicate": "leadsProject",
+    "object": "การถ่ายทอดเทคโนโลยีระบบการผลิตพลับในเขตพื้นที่สูงภาคเหนือตอนบน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว นิภา เขื่อนควบ",
+    "predicate": "participatesIn",
+    "object": "การพัฒนาพันธุ์พลับที่มีศักยภาพเชิงพาณิชย์ ในเขตพื้นที่สูงภาคเหนือตอนบน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว นิภา เขื่อนควบ",
+    "predicate": "participatesIn",
+    "object": "การเพิ่มประสิทธิภาพการถ่ายละอองเกสรเพื่อการผลิตพลับพันธุ์ ‘HYAKUME’ เป็นพลับหวานเชิงพาณิชย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว นิภา เขื่อนควบ",
+    "predicate": "participatesIn",
+    "object": "การจัดการธาตุอาหารหลักและธาตุอาหารรอง เพื่อเพิ่มผลผลิตและคุณภาพของผลพลับพันธุ์ ‘FUYU’",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว นิภา เขื่อนควบ",
+    "predicate": "leadsProject",
+    "object": "การวิจัยและพัฒนาพันธุ์ และระบบการผลิตพลับในเขตพื้นที่สูง ภาคเหนือตอนบน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว นิภา เขื่อนควบ",
+    "predicate": "leadsProject",
+    "object": "โครงการวิจัยย่อยที่ 4 : การใช้ GA3 และ CPPU เพื่อเพิ่มการเจริญเติบโต ผลผลิต และคุณภาพผลของพลับ (Dios",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว นิภา เขื่อนควบ",
+    "predicate": "leadsProject",
+    "object": "โครงการวิจัยย่อยที่ 7 : การถ่ายทอดเทคโนโลยีระบบการผลิตพลับในเขตพื้นที่สูงภาคเหนือตอนบน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว บัวบาง ยะอูป",
+    "predicate": "belongsTo",
+    "object": "ศูนย์วิจัยและถ่ายทอดเทคโนโลยีการเกษตร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว บัวบาง ยะอูป",
+    "predicate": "hasExpertise",
+    "object": "intermediate rootstock",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว บัวบาง ยะอูป",
+    "predicate": "hasExpertise",
+    "object": "“Tausue” (Diospyros lotus) rootstock",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว บัวบาง ยะอูป",
+    "predicate": "hasExpertise",
+    "object": "1-MCP",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว บัวบาง ยะอูป",
+    "predicate": "hasExpertise",
+    "object": "1-Methylcyclopropene",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว บัวบาง ยะอูป",
+    "predicate": "hasExpertise",
+    "object": "Agricultural System",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว บัวบาง ยะอูป",
+    "predicate": "authored",
+    "object": "rdgbby@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว บัวบาง ยะอูป",
+    "predicate": "authored",
+    "object": "นายฐาปกรณ์ ใจสุวรรณ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว บัวบาง ยะอูป",
+    "predicate": "authored",
+    "object": "ผลของพันธุ์ที่ให้เกสรเพศผู้ เวลาเก็บเกสรเพศผู้ และเวลาผสมเกสรด้วยมือต่อคุณภาพของผลพลับพันธุ์ไฮยาคัม",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว บัวบาง ยะอูป",
+    "predicate": "leadsProject",
+    "object": "โครงการวิจัยย่อยที่ 1 : การพัฒนาพันธุ์พลับที่มีศักยภาพเชิงพาณิชย์ ในเขตพื้นที่สูงภาคเหนือตอนบน (Deve",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว บัวบาง ยะอูป",
+    "predicate": "leadsProject",
+    "object": "โครงการวิจัยย่อยที่ 2 : การเพิ่มประสิทธิภาพการผสมเกสร เพื่อการผลิตพลับพันธุ์ ‘HYAKUME’ เป็นพลับหวานเ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นางสาว บัวบาง ยะอูป",
+    "predicate": "participatesIn",
+    "object": "การศึกษาลักษณะทางสัณฐานวิทยาบางลักษณะและการสร้างตาดอกของรองเท้านารีอินทนนท์สายพันธุ์ลูกผสม",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุริยัน ธัญกิจจานุกิจ",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาการจัดการประมง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภาควิชาการจัดการประมง",
+    "predicate": "partOf",
+    "object": "คณะประมง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุริยัน ธัญกิจจานุกิจ",
+    "predicate": "hasExpertise",
+    "object": "accuracy assessment",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุริยัน ธัญกิจจานุกิจ",
+    "predicate": "hasExpertise",
+    "object": "antifouling",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุริยัน ธัญกิจจานุกิจ",
+    "predicate": "hasExpertise",
+    "object": "Bacteria",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุริยัน ธัญกิจจานุกิจ",
+    "predicate": "hasExpertise",
+    "object": "Blue swimming crab",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุริยัน ธัญกิจจานุกิจ",
+    "predicate": "hasExpertise",
+    "object": "Carotenoids",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุริยัน ธัญกิจจานุกิจ",
+    "predicate": "authored",
+    "object": "สุริยัน ธัญกิจจานุกิจ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุริยัน ธัญกิจจานุกิจ",
+    "predicate": "authored",
+    "object": "ภาควิชาเพาะเลี้ยงสัตว์น้ำ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุริยัน ธัญกิจจานุกิจ",
+    "predicate": "authored",
+    "object": "ffissrt@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุริยัน ธัญกิจจานุกิจ",
+    "predicate": "authored",
+    "object": "ดร.สิลา สุขวัจน์, อาจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุริยัน ธัญกิจจานุกิจ",
+    "predicate": "authored",
+    "object": "นางสาวนฤชล ภัทราปัญญาวงศ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุริยัน ธัญกิจจานุกิจ",
+    "predicate": "authored",
+    "object": "ดร.สุริยัน ธัญกิจจานุกิจ, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุริยัน ธัญกิจจานุกิจ",
+    "predicate": "authored",
+    "object": "ดร.ชลธิดา ภูถาวร, อาจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุริยัน ธัญกิจจานุกิจ",
+    "predicate": "authored",
+    "object": "ดร.สุภาวดี พุ่มพวง, ศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุริยัน ธัญกิจจานุกิจ",
+    "predicate": "participatesIn",
+    "object": "วท.ม.(ประมง), มหาวิทยาลัยเกษตรศาสตร์, ไทย, 2532 วท.บ.(ประมง), มหาวิทยาลัยเกษตรศาสตร์, ไทย, 2529 โครง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุริยัน ธัญกิจจานุกิจ",
+    "predicate": "participatesIn",
+    "object": "การพัฒนาและประยุกต์ใช้โปรไบโอติกส์ศักยภาพสูงสำหรับอุตสาหกรรมการเพาะเลี้ยงกุ้งก้ามกราม",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุริยัน ธัญกิจจานุกิจ",
+    "predicate": "participatesIn",
+    "object": "การถ่ายทอดต้นแบบระบบคาดการณ์เพื่อเตือนภัยด้านคุณภาพน้ำสำหรับการเพาะเลี้ยงสัตว์น้ำบริเวณอ่าวศรีราชา จ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุริยัน ธัญกิจจานุกิจ",
+    "predicate": "participatesIn",
+    "object": "การส่งเสริมความสามารถในการผลิตพันธุ์กุ้งก้ามกรามเพศผู้ การจัดการ การแปรรูปและการตลาดกุ้งครบวงจรเพื่อ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุริยัน ธัญกิจจานุกิจ",
+    "predicate": "participatesIn",
+    "object": "นิเวศวิทยาระดับประชากรของหอยลาย (Paphia undulata (Born, 1778)) ชายฝั่งอ่าวไทยตอนบน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุริยัน ธัญกิจจานุกิจ",
+    "predicate": "participatesIn",
+    "object": "การพัฒนาศักยภาพการเพาะเลี้ยงปลากะพงแดง (Lutjanus argentimaculatus) เพื่อผลิตเป็นสินค้าสัตว์น้ำเศรษฐก",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุริยัน ธัญกิจจานุกิจ",
+    "predicate": "participatesIn",
+    "object": "การพัฒนาสูตรอาหารและสภาพแวดล้อมเพื่อส่งเสริมคุณภาพของพ่อ-แม่พันธุ์ปลิงทะเลขาว (Holothuria scabra)",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุริยัน ธัญกิจจานุกิจ",
+    "predicate": "participatesIn",
+    "object": "การเลี้ยงสัตว์น้ำแบบผสมผสานเชิงบูรณาการบริเวณอ่าวศรีราชา จังหวัดชลบุรี",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศิริสุดา จำนงทรง",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาการจัดการประมง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศิริสุดา จำนงทรง",
+    "predicate": "hasExpertise",
+    "object": "ASEAN Economic Community",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศิริสุดา จำนงทรง",
+    "predicate": "hasExpertise",
+    "object": "Caulerpa lentillifer",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศิริสุดา จำนงทรง",
+    "predicate": "hasExpertise",
+    "object": "CITES",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศิริสุดา จำนงทรง",
+    "predicate": "hasExpertise",
+    "object": "consumer",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศิริสุดา จำนงทรง",
+    "predicate": "hasExpertise",
+    "object": "database of fisheries law",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศิริสุดา จำนงทรง",
+    "predicate": "authored",
+    "object": "ศิริสุดา จำนงทรง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศิริสุดา จำนงทรง",
+    "predicate": "authored",
+    "object": "ภาควิชาการจัดการประมง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศิริสุดา จำนงทรง",
+    "predicate": "authored",
+    "object": "ffissdj@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศิริสุดา จำนงทรง",
+    "predicate": "authored",
+    "object": "ดร.จันทนา ไพรบูรณ์, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศิริสุดา จำนงทรง",
+    "predicate": "authored",
+    "object": "ดร.ศิริสุดา จำนงทรง, อาจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศิริสุดา จำนงทรง",
+    "predicate": "authored",
+    "object": "นางภัสสรา รัตนพิศิฏฐ์, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศิริสุดา จำนงทรง",
+    "predicate": "authored",
+    "object": "Prapat Kosawatpat",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศิริสุดา จำนงทรง",
+    "predicate": "authored",
+    "object": "ระพีพร เรืองช่วย",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศิริสุดา จำนงทรง",
+    "predicate": "participatesIn",
+    "object": "M.Sc. (Aquaculture and Aquatic Resources Management), Asian Institute of Technology, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศิริสุดา จำนงทรง",
+    "predicate": "participatesIn",
+    "object": "B.Sc. (Fisheries) with First Class Honours, Kasetsart University, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศิริสุดา จำนงทรง",
+    "predicate": "leadsProject",
+    "object": "การวิเคราะห์ความเป็นไปได้ในการเลี้ยงสาหร่ายทะเลเชิงพาณิชย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศิริสุดา จำนงทรง",
+    "predicate": "leadsProject",
+    "object": "การวิเคราะห์ความเป็นไปได้ของการเลี้ยงสาหร่ายทะเลเชิงพาณิชย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศิริสุดา จำนงทรง",
+    "predicate": "leadsProject",
+    "object": "นวัตกรรมในการผลิตสาหร่ายทะเลเพื่อพัฒนาและใช้ประโยชน์เป็นผลิตภัณฑ์อาหารสุขภาพ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศิริสุดา จำนงทรง",
+    "predicate": "participatesIn",
+    "object": "การพัฒนาระบบฐานข้อมูลกฎหมายและระเบียบเกี่ยวกับการประมงและระบบสืบค้นบนอินเตอร์เน็ต",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศิริสุดา จำนงทรง",
+    "predicate": "leadsProject",
+    "object": "สภาพเศรษฐกิจและสังคมของชาวประมงบริเวณจังหวัดตราด ประเทศไทย",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง ภัสสรา รัตนพิศิฏฐ์",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาการจัดการประมง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง ภัสสรา รัตนพิศิฏฐ์",
+    "predicate": "hasExpertise",
+    "object": "Aquatic vegetation",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง ภัสสรา รัตนพิศิฏฐ์",
+    "predicate": "hasExpertise",
+    "object": "Caulerpa lentillifer",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง ภัสสรา รัตนพิศิฏฐ์",
+    "predicate": "hasExpertise",
+    "object": "Database",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง ภัสสรา รัตนพิศิฏฐ์",
+    "predicate": "hasExpertise",
+    "object": "database of fisheries law",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง ภัสสรา รัตนพิศิฏฐ์",
+    "predicate": "hasExpertise",
+    "object": "fisheries law",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง ภัสสรา รัตนพิศิฏฐ์",
+    "predicate": "authored",
+    "object": "ภัสสรา รัตนพิศิฏฐ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง ภัสสรา รัตนพิศิฏฐ์",
+    "predicate": "authored",
+    "object": "ffispsr@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง ภัสสรา รัตนพิศิฏฐ์",
+    "predicate": "participatesIn",
+    "object": "-7642 ext. 16 Education B.A.(Economics), Thammasat University, ไทย, 2530 M.S.(Applied Statistics), N",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง ภัสสรา รัตนพิศิฏฐ์",
+    "predicate": "participatesIn",
+    "object": "การจัดทำฐานข้อมูลและระบบสืบค้นครุภัณฑ์วิทยาศาสตร์ คณะประมง มหาวิทยาลัยเกษตรศาสตร์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง ภัสสรา รัตนพิศิฏฐ์",
+    "predicate": "participatesIn",
+    "object": "การประเมินรูปแบบและคุณลักษณะของกองสนุ่นเพื่อบริหารจัดการเขตอนุรักษ์พันธุ์สัตว์น้ำในระบบนิเวศหนองหารห",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง ภัสสรา รัตนพิศิฏฐ์",
+    "predicate": "leadsProject",
+    "object": "ระบบการจัดเก็บเอกสารออนไลน์ภายในคณะประมง ระบบการจัดเก็บเอกสารออนไลน์ภายในคณะประมง กรณีศึกษา : ภาควิช",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง ภัสสรา รัตนพิศิฏฐ์",
+    "predicate": "participatesIn",
+    "object": "โครงการจัดเตรียมข้อมูลด้านเศรษฐกิจสังคม โดยวิธีเฉพาะเจาะจง ประจำปีงบประมาณ พ.ศ.",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พัชรี ครูขยัน",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาชีววิทยาประมง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภาควิชาชีววิทยาประมง",
+    "predicate": "partOf",
+    "object": "คณะประมง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พัชรี ครูขยัน",
+    "predicate": "hasExpertise",
+    "object": "Arius maculatus",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พัชรี ครูขยัน",
+    "predicate": "hasExpertise",
+    "object": "cage culture",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พัชรี ครูขยัน",
+    "predicate": "hasExpertise",
+    "object": "chaetoceros",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พัชรี ครูขยัน",
+    "predicate": "hasExpertise",
+    "object": "chlorella",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พัชรี ครูขยัน",
+    "predicate": "hasExpertise",
+    "object": "cultural",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พัชรี ครูขยัน",
+    "predicate": "authored",
+    "object": "ภาควิชาชีววิทยาประมง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พัชรี ครูขยัน",
+    "predicate": "authored",
+    "object": "ffisprk@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พัชรี ครูขยัน",
+    "predicate": "authored",
+    "object": "นิติธร จันทร์เพ็ญ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พัชรี ครูขยัน",
+    "predicate": "authored",
+    "object": "ดร.พัชรี ครูขยัน, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พัชรี ครูขยัน",
+    "predicate": "authored",
+    "object": "ดร.พงศ์เชฏฐ์ พิชิตกุล, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พัชรี ครูขยัน",
+    "predicate": "authored",
+    "object": "ผศ.ดร.พรเทพ เนียมพิทักษ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พัชรี ครูขยัน",
+    "predicate": "authored",
+    "object": "ความหลากชนิดและการแพร่กระจายของสัตว์พื้นท้องน้ำ ในอ่างเก็บน้ำห้วยไม้เต็ง จังหวัดราชบุรี",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พัชรี ครูขยัน",
+    "predicate": "authored",
+    "object": "นางสาวอารีรัตน์ พิจิตร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พัชรี ครูขยัน",
+    "predicate": "participatesIn",
+    "object": "วท.ม. (วิทยาศาสตร์การประมง), ม.เกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พัชรี ครูขยัน",
+    "predicate": "participatesIn",
+    "object": "ปร.ด. (วิทยาศาสตร์การประมง), ม.เกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พัชรี ครูขยัน",
+    "predicate": "leadsProject",
+    "object": "การติดเชื้อของตัวอ่อนของพยาธิใบไม้ระยะเมตาเซอร์คาเรียในปลาในหนองหาร จังหวัดสกลนคร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พัชรี ครูขยัน",
+    "predicate": "participatesIn",
+    "object": "งานจ้างติดตามตรวจสอบคุณภาพน้ำ และนิเวศทางน้ำ โรงไฟฟ้าพระนครเหนือ ปี",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พัชรี ครูขยัน",
+    "predicate": "participatesIn",
+    "object": "งานติดตามตรวจสอบคุณภาพสิ่งแวดล้อมด้านนิเวศวิทยาแหล่งน้ำและการประมง โรงไฟฟ้าแม่เมาะ และเหมืองลิกไนต์แ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พัชรี ครูขยัน",
+    "predicate": "participatesIn",
+    "object": "งานติดตามตรวจสอบคุณภาพสิ่งแวดล้อมด้านคุณภาพน้ำและนิเวศวิทยาทางน้ำ โครงการกังหันลมผลิตไฟฟ้าลำตะคอง ระ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พัชรี ครูขยัน",
+    "predicate": "participatesIn",
+    "object": "งานติดตามตรวจสอบคุณภาพสิ่งแวดล้อมด้านคุณภาพน้ำ นิเวศวิทยาแหล่งน้ำ และการประมง โรงไฟฟ้าลำตะคองชลภาวัฒ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จันทนา ไพรบูรณ์",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาชีววิทยาประมง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จันทนา ไพรบูรณ์",
+    "predicate": "hasExpertise",
+    "object": "adelphoparasite",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จันทนา ไพรบูรณ์",
+    "predicate": "hasExpertise",
+    "object": "Agar property",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จันทนา ไพรบูรณ์",
+    "predicate": "hasExpertise",
+    "object": "agarophyte",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จันทนา ไพรบูรณ์",
+    "predicate": "hasExpertise",
+    "object": "Andaman sea",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จันทนา ไพรบูรณ์",
+    "predicate": "hasExpertise",
+    "object": "Antibacterial activity",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จันทนา ไพรบูรณ์",
+    "predicate": "authored",
+    "object": "จันทนา ไพรบูรณ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จันทนา ไพรบูรณ์",
+    "predicate": "authored",
+    "object": "ffisjtn@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จันทนา ไพรบูรณ์",
+    "predicate": "authored",
+    "object": "Krangkratok, W.",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จันทนา ไพรบูรณ์",
+    "predicate": "authored",
+    "object": "ดร.อรวรรณ ละอองคำ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จันทนา ไพรบูรณ์",
+    "predicate": "authored",
+    "object": "Enzyme-assisted production of prebiotic sugars from Ulva rigida: A sustainable approach",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จันทนา ไพรบูรณ์",
+    "predicate": "authored",
+    "object": "Stefano G. A. Draisma",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จันทนา ไพรบูรณ์",
+    "predicate": "participatesIn",
+    "object": "วิทยาศาสตร์มหาบัณฑิต (เทคโนโลยีชีวภาพ), คณะอุตสาหกรรมเกษตร มหาวิทยาลัยเกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จันทนา ไพรบูรณ์",
+    "predicate": "participatesIn",
+    "object": "ปรัชญาดุษฎีบัณฎิต (เทคโนโลยีชีวภาพ), คณะอุตสาหกรรมเกษตร มหาวิทยาลัยเกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จันทนา ไพรบูรณ์",
+    "predicate": "participatesIn",
+    "object": "ปทุมธานีโมเดล ยกระดับแพปลาดุกสู่ Social Integrated Enterprise เพื่อเศรษฐกิจฐานรากที่ยั่งยืน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จันทนา ไพรบูรณ์",
+    "predicate": "participatesIn",
+    "object": "การประเมินสถานภาพทางพันธุกรรมในปัจจุบันและคุณภาพวุ้นของประชากรสาหร่ายผมนาง (Gracilaria fisheri) ที่ม",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จันทนา ไพรบูรณ์",
+    "predicate": "leadsProject",
+    "object": "การคัดเลือกและเก็บสายพันธุ์แพลงก์ตอนพืชทะเลที่มีศักยภาพในการใช้ ประโยชน์ในอนาคต",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จันทนา ไพรบูรณ์",
+    "predicate": "participatesIn",
+    "object": "การสำรวจทรัพยาการชีวภาพในระบบนิเวศทางทะเล บริเวณสถานีวิจัยเพื่อการพัฒนาชายฝั่งอันดามัน จังหวัดระนอง ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จันทนา ไพรบูรณ์",
+    "predicate": "participatesIn",
+    "object": "เสริมสร้างองค์ความรู้และการใช้ประโยชน์จากทรัพยากรชีวภาพในระบบนิเวศทางทะเล บริเวณสถานีวิจัยเพื่อการพั",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย สมหมาย เจนกิจการ",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาชีววิทยาประมง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย สมหมาย เจนกิจการ",
+    "predicate": "hasExpertise",
+    "object": "Betta",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย สมหมาย เจนกิจการ",
+    "predicate": "hasExpertise",
+    "object": "biogeography",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย สมหมาย เจนกิจการ",
+    "predicate": "hasExpertise",
+    "object": "Blue shrimp",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย สมหมาย เจนกิจการ",
+    "predicate": "hasExpertise",
+    "object": "bubble-nesting fighting fish",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย สมหมาย เจนกิจการ",
+    "predicate": "hasExpertise",
+    "object": "carbon sequestration",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย สมหมาย เจนกิจการ",
+    "predicate": "authored",
+    "object": "สมหมาย เจนกิจการ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย สมหมาย เจนกิจการ",
+    "predicate": "authored",
+    "object": "ffissoj@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย สมหมาย เจนกิจการ",
+    "predicate": "authored",
+    "object": "นายสมหมาย เจนกิจการ, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย สมหมาย เจนกิจการ",
+    "predicate": "authored",
+    "object": "ดร.ณรงค์ฤทธิ์ เมืองใหม่, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย สมหมาย เจนกิจการ",
+    "predicate": "authored",
+    "object": "ดร.ประพันธ์ศักดิ์ ศีรษะภูมิ, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย สมหมาย เจนกิจการ",
+    "predicate": "authored",
+    "object": "ดร.ครศร ศรีกุลนาถ, ศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย สมหมาย เจนกิจการ",
+    "predicate": "authored",
+    "object": "ดร.อุทัยรัตน์ ณ นคร, ศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นันทิภา พันธุ์สวัสดิ์",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาผลิตภัณฑ์ประมง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภาควิชาผลิตภัณฑ์ประมง",
+    "predicate": "partOf",
+    "object": "คณะประมง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นันทิภา พันธุ์สวัสดิ์",
+    "predicate": "hasExpertise",
+    "object": "conveyor oven",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นันทิภา พันธุ์สวัสดิ์",
+    "predicate": "hasExpertise",
+    "object": "Egg white",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นันทิภา พันธุ์สวัสดิ์",
+    "predicate": "hasExpertise",
+    "object": "Fish chip",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นันทิภา พันธุ์สวัสดิ์",
+    "predicate": "hasExpertise",
+    "object": "Frying",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นันทิภา พันธุ์สวัสดิ์",
+    "predicate": "hasExpertise",
+    "object": "low sodium",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นันทิภา พันธุ์สวัสดิ์",
+    "predicate": "authored",
+    "object": "นันทิภา พันธุ์สวัสดิ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นันทิภา พันธุ์สวัสดิ์",
+    "predicate": "authored",
+    "object": "ภาควิชาผลิตภัณฑ์ประมง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นันทิภา พันธุ์สวัสดิ์",
+    "predicate": "authored",
+    "object": "ffisntp@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นันทิภา พันธุ์สวัสดิ์",
+    "predicate": "authored",
+    "object": "Rattanawongwiboon, T.",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นันทิภา พันธุ์สวัสดิ์",
+    "predicate": "authored",
+    "object": "นายณัฐพงษ์ ปานขาว",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นันทิภา พันธุ์สวัสดิ์",
+    "predicate": "authored",
+    "object": "ดร.นันทิภา พันธุ์สวัสดิ์, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นันทิภา พันธุ์สวัสดิ์",
+    "predicate": "authored",
+    "object": "Meachasompop, P.",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นันทิภา พันธุ์สวัสดิ์",
+    "predicate": "authored",
+    "object": "ว่าที่ร้อยตรีพูนสิน กันทา, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นันทิภา พันธุ์สวัสดิ์",
+    "predicate": "participatesIn",
+    "object": "วท.ม.(ผลิตภัณฑ์ประมง), มหาวิทยาลัยเกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นันทิภา พันธุ์สวัสดิ์",
+    "predicate": "participatesIn",
+    "object": "วท.บ.(ผลิตภัณฑ์ประมง), มหาวิทยาลัยเกษตรศาสตร์, ไทย, 2538 โครงการวิจัย 5 ปีที่ผ่านมา หน้าที่ในโครงการ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นันทิภา พันธุ์สวัสดิ์",
+    "predicate": "participatesIn",
+    "object": "การสร้างมูลค่าเพิ่มผลิตภัณฑ์หมึกเพื่อยกระดับเศรษฐกิจของชุมชนคลองวาฬ เขตพื้นที่สถานีวิจัยประมงคลองวาฬ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นันทิภา พันธุ์สวัสดิ์",
+    "predicate": "participatesIn",
+    "object": "หน่วยบ่มเพาะการวิจัยเฉพาะทางด้านผลิตภัณฑ์อาหารอนาคตจากวัตถุดิบสัตว์น้ำ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นันทิภา พันธุ์สวัสดิ์",
+    "predicate": "leadsProject",
+    "object": "การพัฒนาผลิตภัณฑ์เส้นบะหมี่หมึกดำที่มีฤทธิ์ทางชีวภาพจากส่วนเหลือการตัดแต่งปลาหมึก",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นันทิภา พันธุ์สวัสดิ์",
+    "predicate": "leadsProject",
+    "object": "การใช้ประโยชน์ทรัพยากรปลาหมึกเพื่อยกระดับเศรษฐกิจฐานรากของชุมชนประมงพื้นบ้านคลองวาฬด้วยโมเดลเศรษฐกิจ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นันทิภา พันธุ์สวัสดิ์",
+    "predicate": "participatesIn",
+    "object": "แอปพลิเคชั่นจำแนกเกรดกุ้งต้มสุกตามระดับสีอย่างอัตโนมัติด้วยเทคนิคการประมวลภาพและปัญญาประดิษฐ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นันทิภา พันธุ์สวัสดิ์",
+    "predicate": "participatesIn",
+    "object": "การบริหารจัดการ RAINS for Central Food Valley by KU (Innovative Process, Healthy Foods and Waste Uti",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นวพร วรรณวิศาล",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาผลิตภัณฑ์ประมง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นวพร วรรณวิศาล",
+    "predicate": "hasExpertise",
+    "object": "Asian seabass",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นวพร วรรณวิศาล",
+    "predicate": "hasExpertise",
+    "object": "Beetroot",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นวพร วรรณวิศาล",
+    "predicate": "hasExpertise",
+    "object": "Biodegradable film",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นวพร วรรณวิศาล",
+    "predicate": "hasExpertise",
+    "object": "Biodegradable films",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นวพร วรรณวิศาล",
+    "predicate": "hasExpertise",
+    "object": "Cha-Kram (Suaeda maritima (L.) Dumort)",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นวพร วรรณวิศาล",
+    "predicate": "authored",
+    "object": "ffisnpw@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นวพร วรรณวิศาล",
+    "predicate": "authored",
+    "object": "Pudthaya Kumnerdsiri",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นวพร วรรณวิศาล",
+    "predicate": "authored",
+    "object": "ดร.นวพร วรรณวิศาล, อาจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นวพร วรรณวิศาล",
+    "predicate": "authored",
+    "object": "ดร.อนุสรณ์ สืบสาย, ศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นวพร วรรณวิศาล",
+    "predicate": "authored",
+    "object": "Nutdanai Harnkarnsukarit",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นวพร วรรณวิศาล",
+    "predicate": "authored",
+    "object": "ดร.วันฉัตร ศิริสาร, อาจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นวพร วรรณวิศาล",
+    "predicate": "authored",
+    "object": "Jaksuma Pongsetkul",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นวพร วรรณวิศาล",
+    "predicate": "leadsProject",
+    "object": "ผลของโพลิออลพลาสติไซเซอร์ที่มีต่อสมบัติเชิงกลของฟิล์มไคโตแซน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นวพร วรรณวิศาล",
+    "predicate": "leadsProject",
+    "object": "การศึกษาผลของความเข้มข้นของเจลาติน-ไคโตแซนต่อสมบัติทางกลของฟิล์มเคลือบบริโภคได้",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นวพร วรรณวิศาล",
+    "predicate": "participatesIn",
+    "object": "นวัตกรรมเทคโนโลยีการยืดอายุการเก็บรักษาและการขนส่งของสาหร่ายพวงองุ่นในเชิงการค้า",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เปรมวดี เทพวงค์",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาผลิตภัณฑ์ประมง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เปรมวดี เทพวงค์",
+    "predicate": "hasExpertise",
+    "object": "Thermotolerant",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เปรมวดี เทพวงค์",
+    "predicate": "hasExpertise",
+    "object": "ACE inhibitory activity",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เปรมวดี เทพวงค์",
+    "predicate": "hasExpertise",
+    "object": "Acetic acid",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เปรมวดี เทพวงค์",
+    "predicate": "hasExpertise",
+    "object": "Alkaline pH shift process",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เปรมวดี เทพวงค์",
+    "predicate": "hasExpertise",
+    "object": "Amides",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เปรมวดี เทพวงค์",
+    "predicate": "authored",
+    "object": "เปรมวดี เทพวงค์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เปรมวดี เทพวงค์",
+    "predicate": "authored",
+    "object": "ffispdt@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เปรมวดี เทพวงค์",
+    "predicate": "authored",
+    "object": "Thithi Phetchthumrongchai",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เปรมวดี เทพวงค์",
+    "predicate": "authored",
+    "object": "Parinda Meeparn",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เปรมวดี เทพวงค์",
+    "predicate": "authored",
+    "object": "ดร.เปรมวดี เทพวงค์, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เปรมวดี เทพวงค์",
+    "predicate": "authored",
+    "object": "ดร.สุธาสินี ชิ้นทอง, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เปรมวดี เทพวงค์",
+    "predicate": "authored",
+    "object": "ดร.มัณฑิรา ฮะวังจู",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เปรมวดี เทพวงค์",
+    "predicate": "participatesIn",
+    "object": "วท.ม. (ผลิตภัณฑ์ประมง), มหาวิทยาลัยเกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เปรมวดี เทพวงค์",
+    "predicate": "participatesIn",
+    "object": "วท.บ. (ประมง) เกียรตินิยมอันดับ 2, มหาวิทยาลัยเกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เปรมวดี เทพวงค์",
+    "predicate": "leadsProject",
+    "object": "การพัฒนาผงตับปลาทูน่าเพื่อเป็นแหล่งโปรตีนทางเลือก",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "เปรมวดี เทพวงค์",
+    "predicate": "participatesIn",
+    "object": "การพัฒนาส่วนประกอบฟังก์ชันที่มีสมบัติเชิงหน้าที่เฉพาะจากส่วนเหลือของอุตสาหกรรมแปรรูปปลาทูน่าบรรจุกระ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อิสริยา วุฒิสินธุ์",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาเพาะเลี้ยงสัตว์น้ำ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภาควิชาเพาะเลี้ยงสัตว์น้ำ",
+    "predicate": "partOf",
+    "object": "คณะประมง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อิสริยา วุฒิสินธุ์",
+    "predicate": "hasExpertise",
+    "object": "1918)",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อิสริยา วุฒิสินธุ์",
+    "predicate": "hasExpertise",
+    "object": "Acid sulfate soil",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อิสริยา วุฒิสินธุ์",
+    "predicate": "hasExpertise",
+    "object": "acoustic effect",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อิสริยา วุฒิสินธุ์",
+    "predicate": "hasExpertise",
+    "object": "Alkalinity",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อิสริยา วุฒิสินธุ์",
+    "predicate": "hasExpertise",
+    "object": "Ammonia nitrogen",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อิสริยา วุฒิสินธุ์",
+    "predicate": "authored",
+    "object": "อิสริยา วุฒิสินธุ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อิสริยา วุฒิสินธุ์",
+    "predicate": "authored",
+    "object": "ffisiyw@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อิสริยา วุฒิสินธุ์",
+    "predicate": "authored",
+    "object": "ดร.สันติ พ่วงเจริญ, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อิสริยา วุฒิสินธุ์",
+    "predicate": "authored",
+    "object": "ดร.อิสริยา วุฒิสินธุ์, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อิสริยา วุฒิสินธุ์",
+    "predicate": "authored",
+    "object": "นายสรณัฏฐ์ ศิริสวย, อาจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อิสริยา วุฒิสินธุ์",
+    "predicate": "participatesIn",
+    "object": "วท.ม (วิทยาศาสตร์สิ่งแวดล้อม), มหาวิทยาลัยบูรพา, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อิสริยา วุฒิสินธุ์",
+    "predicate": "participatesIn",
+    "object": "Ph.D (Fisheries and Allied Aquaculture), Auburn University, usa,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อิสริยา วุฒิสินธุ์",
+    "predicate": "participatesIn",
+    "object": "การประเมินศักยภาพการกักเก็บคาร์บอนสีน้ำเงิน และการฝังตัวของอินทรีย์คาร์บอนในตะกอนบริเวณแหล่งเพาะเลี้",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อิสริยา วุฒิสินธุ์",
+    "predicate": "participatesIn",
+    "object": "การพัฒนาทางสัณฐานวิทยาและคู่มือการจำแนกชนิดของปลากัดป่าที่พบในประเทศไทย",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อิสริยา วุฒิสินธุ์",
+    "predicate": "leadsProject",
+    "object": "การประเมินผลกระทบสิ่งแวดล้อมของการเลี้ยงปลานิลกระชังในบ่อดิน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "อิสริยา วุฒิสินธุ์",
+    "predicate": "participatesIn",
+    "object": "การสำรวจความหลากชนิดของปลาในพื้นที่ศูนย์พัฒนาโครงการหลวงเลอตอ จังหวัดตาก",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์เชฏฐ์ พิชิตกุล",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาเพาะเลี้ยงสัตว์น้ำ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์เชฏฐ์ พิชิตกุล",
+    "predicate": "hasExpertise",
+    "object": "Vibrio parahaemolyticus",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์เชฏฐ์ พิชิตกุล",
+    "predicate": "hasExpertise",
+    "object": "Moving bed",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์เชฏฐ์ พิชิตกุล",
+    "predicate": "hasExpertise",
+    "object": "1918)",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์เชฏฐ์ พิชิตกุล",
+    "predicate": "hasExpertise",
+    "object": "acoustic effect",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์เชฏฐ์ พิชิตกุล",
+    "predicate": "hasExpertise",
+    "object": "aeration",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์เชฏฐ์ พิชิตกุล",
+    "predicate": "authored",
+    "object": "พงศ์เชฏฐ์ พิชิตกุล",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์เชฏฐ์ พิชิตกุล",
+    "predicate": "authored",
+    "object": "ffispcp@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์เชฏฐ์ พิชิตกุล",
+    "predicate": "authored",
+    "object": "Dietary incorporation of gut-derived probiotics from fast-growing white shrimp, Penaeus vannamei to ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์เชฏฐ์ พิชิตกุล",
+    "predicate": "participatesIn",
+    "object": "-2924 Education วท.บ.(ประมง), มหาวิทยาลัยเกษตรศาสตร์, ไทย, 2534 วท.ม.(วิทยาศาสตร์การประมง), มหาวิทยา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์เชฏฐ์ พิชิตกุล",
+    "predicate": "participatesIn",
+    "object": "การศึกษาอุบัติการณ์ของ semicarbazide (SEM) ในกุ้งก้ามกราม และสัตว์ กลุ่มครัสเตเชียนในพื้นที่ต่างๆของ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์เชฏฐ์ พิชิตกุล",
+    "predicate": "participatesIn",
+    "object": "การศึกษาความสัมพันธ์ทางห่วงโซ่อาหารของสิ่งมีชีวิตในพื้นที่ป่าชายเลน และหญ้าทะเลบริเวณสถานีวิจัยเพื่อ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงศ์เชฏฐ์ พิชิตกุล",
+    "predicate": "participatesIn",
+    "object": "ศึกษาการใช้ปลาสายพันธุ์ไทยเพื่อวารีบำบัด",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สหภพ ดอกแก้ว",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาเพาะเลี้ยงสัตว์น้ำ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สหภพ ดอกแก้ว",
+    "predicate": "hasExpertise",
+    "object": "Anatomy",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สหภพ ดอกแก้ว",
+    "predicate": "hasExpertise",
+    "object": "animal welfare",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สหภพ ดอกแก้ว",
+    "predicate": "hasExpertise",
+    "object": "Aquaculture",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สหภพ ดอกแก้ว",
+    "predicate": "hasExpertise",
+    "object": "Betta",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สหภพ ดอกแก้ว",
+    "predicate": "hasExpertise",
+    "object": "Betta splendens",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สหภพ ดอกแก้ว",
+    "predicate": "authored",
+    "object": "ffisspd@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สหภพ ดอกแก้ว",
+    "predicate": "authored",
+    "object": "ดร.วิราวรรณ นุชนารถ, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สหภพ ดอกแก้ว",
+    "predicate": "authored",
+    "object": "ดร.สหภพ ดอกแก้ว, อาจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สหภพ ดอกแก้ว",
+    "predicate": "authored",
+    "object": "ดร.จักร อรัณยกานนท์, อาจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สหภพ ดอกแก้ว",
+    "predicate": "authored",
+    "object": "นางสาวรวีวรรณ พลอยพันธ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สหภพ ดอกแก้ว",
+    "predicate": "authored",
+    "object": "Wongwaradechkul, R.",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สหภพ ดอกแก้ว",
+    "predicate": "authored",
+    "object": "ดร.สาทิต ฉัตรชัยพันธ์, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สหภพ ดอกแก้ว",
+    "predicate": "participatesIn",
+    "object": "วท.ม.(เพาะเลี้ยงสัตวน้ำ), มหาวิทยาลัยเกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สหภพ ดอกแก้ว",
+    "predicate": "participatesIn",
+    "object": "ปร.ด(เพาะเลี้ยงสัตว์น้ำ), มหาวิทยาลัยเกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สหภพ ดอกแก้ว",
+    "predicate": "leadsProject",
+    "object": "การเพิ่มมูลค่าและพัฒนาการผลิตลูกพันธุ์ปลาอีกง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สหภพ ดอกแก้ว",
+    "predicate": "participatesIn",
+    "object": "พัฒนาการเลี้ยงปลาอีกงสู่ความยั่งยืน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สหภพ ดอกแก้ว",
+    "predicate": "leadsProject",
+    "object": "เพิ่มโอกาสและศักย์ภาพการเพาะเลี้ยงปลาอีกง (Mystus gulio)เพื่อความยังยืนด้านอาหารเพื่อเป็นสัตว์น้ำเศร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีระพงศ์ ด้วงดี",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาวิทยาศาสตร์ทางทะเล",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภาควิชาวิทยาศาสตร์ทางทะเล",
+    "predicate": "partOf",
+    "object": "คณะประมง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีระพงศ์ ด้วงดี",
+    "predicate": "hasExpertise",
+    "object": "Andaman sea",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีระพงศ์ ด้วงดี",
+    "predicate": "hasExpertise",
+    "object": "antibacterial",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีระพงศ์ ด้วงดี",
+    "predicate": "hasExpertise",
+    "object": "antifeedant",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีระพงศ์ ด้วงดี",
+    "predicate": "hasExpertise",
+    "object": "Artificial reef",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีระพงศ์ ด้วงดี",
+    "predicate": "hasExpertise",
+    "object": "Artificial reefs",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีระพงศ์ ด้วงดี",
+    "predicate": "authored",
+    "object": "ธีระพงศ์ ด้วงดี",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีระพงศ์ ด้วงดี",
+    "predicate": "authored",
+    "object": "ภาควิชาวิทยาศาสตร์ทางทะเล",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีระพงศ์ ด้วงดี",
+    "predicate": "authored",
+    "object": "ffisted@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีระพงศ์ ด้วงดี",
+    "predicate": "authored",
+    "object": "ดร.ธีระพงศ์ ด้วงดี, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีระพงศ์ ด้วงดี",
+    "predicate": "authored",
+    "object": "Lukehurst, S.S.",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีระพงศ์ ด้วงดี",
+    "predicate": "authored",
+    "object": "Clarification of the identity of oysters in the genera Magallana and Saccostrea in the upper Gulf of",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีระพงศ์ ด้วงดี",
+    "predicate": "authored",
+    "object": "นายอรรถวุฒิ กันทะวงศ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีระพงศ์ ด้วงดี",
+    "predicate": "authored",
+    "object": "ดร.วชิระ ใจงาม, อาจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีระพงศ์ ด้วงดี",
+    "predicate": "participatesIn",
+    "object": "-3469 Education D.Sc. (Environmental and Symbiotic Sciences), Prefectural University of Kumamoto, ญี",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีระพงศ์ ด้วงดี",
+    "predicate": "participatesIn",
+    "object": "วท.ม.(วิทยาศาสตร์ทางทะเล), มหาวิทยาลัยเกษตรศาสตร์, ไทย, 2538 วท.บ.(ประมง), มหาวิทยาลัยเกษตรศาสตร์, ไ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีระพงศ์ ด้วงดี",
+    "predicate": "participatesIn",
+    "object": "การจัดทำฐานข้อมูลลายพิมพ์ดีเอ็นเอ (DNA barcoding) ของทรัพยกรชีวภาพทางทะเลและชายฝั่ง บริเวณจังหวัดระน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีระพงศ์ ด้วงดี",
+    "predicate": "participatesIn",
+    "object": "ผลของการเพิ่มพื้นที่ป่าชายเลนที่มีต่อทรัพยากรชีวภาพทางทะเลบริเวณอ่าวทุ่งคา-สวี จังหวัดชุมพร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ธีระพงศ์ ด้วงดี",
+    "predicate": "leadsProject",
+    "object": "ศึกษาสถานภาพความอุดมสมบูรณ์ของทรัพยากรประมงและสิ่งแวดล้อมบริเวณพื้นที่ชายฝั่ง ศรีราชา – บางละมุง จัง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริญญา ลิมป์วิริยะกุล",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาวิทยาศาสตร์ทางทะเล",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริญญา ลิมป์วิริยะกุล",
+    "predicate": "hasExpertise",
+    "object": "Acropora",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริญญา ลิมป์วิริยะกุล",
+    "predicate": "hasExpertise",
+    "object": "Acropora digitifera",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริญญา ลิมป์วิริยะกุล",
+    "predicate": "hasExpertise",
+    "object": "Acropora hyacinthus",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริญญา ลิมป์วิริยะกุล",
+    "predicate": "hasExpertise",
+    "object": "Alginate Bead",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริญญา ลิมป์วิริยะกุล",
+    "predicate": "hasExpertise",
+    "object": "Alpheidae",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริญญา ลิมป์วิริยะกุล",
+    "predicate": "authored",
+    "object": "ปริญญา ลิมป์วิริยะกุล",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริญญา ลิมป์วิริยะกุล",
+    "predicate": "authored",
+    "object": "ffispyl@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริญญา ลิมป์วิริยะกุล",
+    "predicate": "authored",
+    "object": "ดร.ปริญญา ลิมป์วิริยะกุล, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริญญา ลิมป์วิริยะกุล",
+    "predicate": "authored",
+    "object": "Macrosymbionts of starfish Echinaster luzonicus (Gray, 1840) in the waters of a volcanic western Pac",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริญญา ลิมป์วิริยะกุล",
+    "predicate": "authored",
+    "object": "Baseline diversity and host relationships of symbiotic caridean shrimps on the coast of northern Tai",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริญญา ลิมป์วิริยะกุล",
+    "predicate": "authored",
+    "object": "THE PRESENCE OF MACROMEDAEUS DISTINGUENDUS (DE HAAN, 1835) (BRACHYURA, XANTHIDAE) IN THE SHALLOW HYD",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริญญา ลิมป์วิริยะกุล",
+    "predicate": "authored",
+    "object": "Anomuran and brachyuran symbiotic crabs in coastal areas between the Southern Ryukyu arc and the cor",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริญญา ลิมป์วิริยะกุล",
+    "predicate": "participatesIn",
+    "object": "Ph.D. (Marine Biology), National Taiwan Ocean University, ไต้หวัน,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริญญา ลิมป์วิริยะกุล",
+    "predicate": "participatesIn",
+    "object": "การศึกษาความหลากหลายทางชีวภาพและการใช้ประโยชน์ในพื้นที่ทะเลและชายฝั่งบริเวณปากคลองไทยฝั่งอันดามัน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริญญา ลิมป์วิริยะกุล",
+    "predicate": "participatesIn",
+    "object": "โครงการพัฒนานวัตกรรมและเทคโนโลยีดิจิทัลเพื่อการสำรวจ การอนุรักษ์ และการใช้ประโยชน์อย่างยั่งยืนจากแนว",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริญญา ลิมป์วิริยะกุล",
+    "predicate": "participatesIn",
+    "object": "โครงการ Saving Nemo &amp; Information Center พีพีกำลังจะเปลี่ยนไป",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริญญา ลิมป์วิริยะกุล",
+    "predicate": "participatesIn",
+    "object": "โครงการศึกษาวิจัยความหลากหลายทางชีวภาพและการใช้ประโยชน์จากบ้านใหม่ใต้ทะเล (ปะการังเทียม) ปี",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริญญา ลิมป์วิริยะกุล",
+    "predicate": "participatesIn",
+    "object": "โครงการจัดทำสถานีชี้วัดความเปลี่ยนแปลงของระบบนิเวศทางทะเลและการใช้ประโยชน์จากการประมงพื้นบ้าน จังหวั",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ปริญญา ลิมป์วิริยะกุล",
+    "predicate": "participatesIn",
+    "object": "โครงการการพัฒนากระบวนการผลิตและบรรจุภัณฑ์ที่เหมาะสมสำหรับกะปิ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จินตนา สและน้อย",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาวิทยาศาสตร์ทางทะเล",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จินตนา สและน้อย",
+    "predicate": "hasExpertise",
+    "object": "Aeration",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จินตนา สและน้อย",
+    "predicate": "hasExpertise",
+    "object": "Astaxanthin",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จินตนา สและน้อย",
+    "predicate": "hasExpertise",
+    "object": "Bacteria",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จินตนา สและน้อย",
+    "predicate": "hasExpertise",
+    "object": "calcium",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จินตนา สและน้อย",
+    "predicate": "hasExpertise",
+    "object": "carotenoid",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จินตนา สและน้อย",
+    "predicate": "authored",
+    "object": "จินตนา สและน้อย",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จินตนา สและน้อย",
+    "predicate": "authored",
+    "object": "ffisjid@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จินตนา สและน้อย",
+    "predicate": "authored",
+    "object": "Nualprasertsuk, F.",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จินตนา สและน้อย",
+    "predicate": "authored",
+    "object": "ดร.จินตนา สและน้อย, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จินตนา สและน้อย",
+    "predicate": "authored",
+    "object": "Investigation of the effectiveness of sea purslane (Sesuvium portulacastrum) as phosphate adsorbent ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จินตนา สและน้อย",
+    "predicate": "authored",
+    "object": "นางสาวพิชญา เสวกวรรณ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จินตนา สและน้อย",
+    "predicate": "authored",
+    "object": "นางสาวเพชรลดา อินทนิล",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จินตนา สและน้อย",
+    "predicate": "participatesIn",
+    "object": "-4288 Education วท.ด.(วิทยาศาสตร์ชีวภาพ), มหาวิทยาลัยเกษตรศาสตร์ , ไทย วท.ม.(เทคโนโลยีชีวภาพ), จุฬาล",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จินตนา สและน้อย",
+    "predicate": "participatesIn",
+    "object": "ผลกระทบจากกิจกรรมมนุษย์ ต่อการเกิดสภาวะยูโทรฟิเคชัน สภาวะพร่องออกซิเจน และสภาวะทะเลกรด ในพื้นที่ชายฝ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จินตนา สและน้อย",
+    "predicate": "leadsProject",
+    "object": "การศึกษาและพัฒนาวัสดุดูดซับและสารออกฤทธิ์ทางชีวภาพจากพืช วัชพืช และวัสดุเหลือทิ้งทางการเกษตร เพื่อเพ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จินตนา สและน้อย",
+    "predicate": "leadsProject",
+    "object": "การพัฒนาและการประยุกต์ใช้วัสดุเหลือทิ้งทางการประมงเพื่อเพิ่มมูลค่าทางเศรษฐกิจและการจัดการขยะชีวภาพอย",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จินตนา สและน้อย",
+    "predicate": "leadsProject",
+    "object": "การพัฒนากระบวนการผลิตเซลลูโลสจากชีวมวลทางการเกษตร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จินตนา สและน้อย",
+    "predicate": "participatesIn",
+    "object": "การพัฒนากระบวนการผลิตพลาสติกชีวภาพพอลิแลกติกแอซิด (PLA) จากชีวมวลทางการเกษตรและการใช้ประโยชน์เป็นบรร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จินตนา สและน้อย",
+    "predicate": "participatesIn",
+    "object": "การพัฒนากระบวนการผลิตกรดแลคติกด้วยกระบวนการเฟอร์เมนเตชั่นและการโพลิเมอร์ไรซ์เซชั่นเพื่อพัฒนาพลาสติกช",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "จินตนา สและน้อย",
+    "predicate": "participatesIn",
+    "object": "บรรจุภัณฑ์พอลิแลกติกแอซิดปลดปล่อยสารระเหยจากชีวมวลไทยสำหรับยืดอายุผลิตภัณฑ์ประมง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย อลงกต อินทรชาติ",
+    "predicate": "belongsTo",
+    "object": "ศูนย์บริหารงานวิจัยและสนับสนุนวิชาการ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศูนย์บริหารงานวิจัยและสนับสนุนวิชาการ",
+    "predicate": "partOf",
+    "object": "คณะประมง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย อลงกต อินทรชาติ",
+    "predicate": "hasExpertise",
+    "object": "Aquatic plant",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย อลงกต อินทรชาติ",
+    "predicate": "hasExpertise",
+    "object": "Blue Swimming Crab",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย อลงกต อินทรชาติ",
+    "predicate": "hasExpertise",
+    "object": "Cancer cell",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย อลงกต อินทรชาติ",
+    "predicate": "hasExpertise",
+    "object": "centric diatom",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย อลงกต อินทรชาติ",
+    "predicate": "hasExpertise",
+    "object": "Chao Praya River",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย อลงกต อินทรชาติ",
+    "predicate": "authored",
+    "object": "อลงกต อินทรชาติ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย อลงกต อินทรชาติ",
+    "predicate": "authored",
+    "object": "ศูนย์บริหารงานวิจัยและสนับสนุนวิชาการ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย อลงกต อินทรชาติ",
+    "predicate": "authored",
+    "object": "ffisagi@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย อลงกต อินทรชาติ",
+    "predicate": "authored",
+    "object": "ดร.วราห์ เทพาหุดี, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย อลงกต อินทรชาติ",
+    "predicate": "authored",
+    "object": "ดร.ธนัสพงษ์ โภควนิช, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย อลงกต อินทรชาติ",
+    "predicate": "authored",
+    "object": "ดร.มานิต ชาญสุภาพ, อาจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย อลงกต อินทรชาติ",
+    "predicate": "authored",
+    "object": "นางสาวกนกวรรณ ขาวด่อน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย อลงกต อินทรชาติ",
+    "predicate": "authored",
+    "object": "นายสาโรจน์ เริ่มดำริห์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย อลงกต อินทรชาติ",
+    "predicate": "participatesIn",
+    "object": "วท.ม.(วิทยาศาสตร์ทางทะเล), มหาวิทยาลัยเกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย อลงกต อินทรชาติ",
+    "predicate": "participatesIn",
+    "object": "หน่วยบ่มเพาะการวิจัยเฉพาะทางด้านปัญญาประดิษฐ์สำหรับการประมง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย อลงกต อินทรชาติ",
+    "predicate": "participatesIn",
+    "object": "การพัฒนาวิธีการฟื้นฟูและการตัดสินใจย้ายปลูกหญ้าทะเลเพื่อการอนุรักษ์แหล่งหญ้าทะเล (ปีที่ 3)",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย อลงกต อินทรชาติ",
+    "predicate": "participatesIn",
+    "object": "การพัฒนาบรรจุภัณฑ์สำหรับจำหน่ายหอยแมลงภู่",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย อลงกต อินทรชาติ",
+    "predicate": "participatesIn",
+    "object": "การสร้างศูนย์เรียนรู้ธนาคารปูและเครือข่ายชุมชนปูม้าเพื่อเพิ่มผลผลิตปูม้า (Portunus pelagicus) ในพื้น",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง ฐิติญา อรชุน",
+    "predicate": "belongsTo",
+    "object": "ศูนย์บริหารงานวิจัยและสนับสนุนวิชาการ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง ฐิติญา อรชุน",
+    "predicate": "hasExpertise",
+    "object": "Aquaculture, Blue swimming crab",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง ฐิติญา อรชุน",
+    "predicate": "hasExpertise",
+    "object": "การเพาะเลี้ยง (Aquaculture)",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง ฐิติญา อรชุน",
+    "predicate": "hasExpertise",
+    "object": "ปูม้า",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง ฐิติญา อรชุน",
+    "predicate": "authored",
+    "object": "ffisrkh@kps.ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง ฐิติญา อรชุน",
+    "predicate": "authored",
+    "object": "Show all comment",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาง ฐิติญา อรชุน",
+    "predicate": "participatesIn",
+    "object": "สถาบันวิจัยและพัฒนาแห่ง มหาวิทยาลัยเกษตรศาสตร์ rdi.ku.ac.th // var gaJsHost = ((\"https:\" == document",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย สาโรจน์ เริ่มดำริห์",
+    "predicate": "belongsTo",
+    "object": "ศูนย์บริหารงานวิจัยและสนับสนุนวิชาการ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย สาโรจน์ เริ่มดำริห์",
+    "predicate": "hasExpertise",
+    "object": "Acid Volatile Sulfides",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย สาโรจน์ เริ่มดำริห์",
+    "predicate": "hasExpertise",
+    "object": "Amphiprion clakii",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย สาโรจน์ เริ่มดำริห์",
+    "predicate": "hasExpertise",
+    "object": "Ao Sri-Racha",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย สาโรจน์ เริ่มดำริห์",
+    "predicate": "hasExpertise",
+    "object": "ArUco marker",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย สาโรจน์ เริ่มดำริห์",
+    "predicate": "hasExpertise",
+    "object": "Asian seabass",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย สาโรจน์ เริ่มดำริห์",
+    "predicate": "authored",
+    "object": "สาโรจน์ เริ่มดำริห์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย สาโรจน์ เริ่มดำริห์",
+    "predicate": "authored",
+    "object": "ffissrr@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย สาโรจน์ เริ่มดำริห์",
+    "predicate": "participatesIn",
+    "object": "วท.ม. (เพาะเลี้ยงสัตว์น้ำ), มหาวิทยาลัยเกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย สาโรจน์ เริ่มดำริห์",
+    "predicate": "participatesIn",
+    "object": "การศึกษาชีวประวัติ พัฒนาการของตัวอ่อน และการเพาะเลี้ยงปูดาว",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย สาโรจน์ เริ่มดำริห์",
+    "predicate": "participatesIn",
+    "object": "ปรสิตในหอยเชลล์ (Mimachlamys nobilis) บริเวณเกาะแสมสาร จังหวัดชลบุรี",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นาย สาโรจน์ เริ่มดำริห์",
+    "predicate": "leadsProject",
+    "object": "การศึกษาช่วงเวลาและปัจจัยที่มีผลต่อการลงเกาะของหอยแมลงภู่ บริเวณอ่าวศรีราชา จังหวัดชลบุรี",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พสุธา สุนทรห้าว",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาการจัดการป่าไม้",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภาควิชาการจัดการป่าไม้",
+    "predicate": "partOf",
+    "object": "คณะวนศาสตร์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พสุธา สุนทรห้าว",
+    "predicate": "hasExpertise",
+    "object": "Biomass",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พสุธา สุนทรห้าว",
+    "predicate": "hasExpertise",
+    "object": "Carbon Credit",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พสุธา สุนทรห้าว",
+    "predicate": "hasExpertise",
+    "object": "Carbon Sequestration",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พสุธา สุนทรห้าว",
+    "predicate": "hasExpertise",
+    "object": "Carbon Stock",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พสุธา สุนทรห้าว",
+    "predicate": "hasExpertise",
+    "object": "Community Forest",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พสุธา สุนทรห้าว",
+    "predicate": "authored",
+    "object": "พสุธา สุนทรห้าว",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พสุธา สุนทรห้าว",
+    "predicate": "authored",
+    "object": "ภาควิชาการจัดการป่าไม้",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พสุธา สุนทรห้าว",
+    "predicate": "authored",
+    "object": "fforpts@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พสุธา สุนทรห้าว",
+    "predicate": "authored",
+    "object": "นายวริศ แก้วบ้านเหล่า",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พสุธา สุนทรห้าว",
+    "predicate": "authored",
+    "object": "ดร.พสุธา สุนทรห้าว, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พสุธา สุนทรห้าว",
+    "predicate": "authored",
+    "object": "ดร.พิชิต ลำใย, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พสุธา สุนทรห้าว",
+    "predicate": "authored",
+    "object": "Tree diversity and carbon sequestration assessment using multiple methods in a dry evergreen forest ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พสุธา สุนทรห้าว",
+    "predicate": "authored",
+    "object": "ดร.นิตยา เมี้ยนมิตร, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พสุธา สุนทรห้าว",
+    "predicate": "participatesIn",
+    "object": "การผลิตและการใช้ถ่านและน้ำส้มควันไม้คุณภาพสูงจากชีวมวลที่มีศักยภาพเพื่อยกระดับคุณภาพและความปลอดภัยให",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พสุธา สุนทรห้าว",
+    "predicate": "participatesIn",
+    "object": "การผลิตถ่านและน้ำสัมควันไม้คุณภาพสูงจากชีวมวลที่มีศักยภาพเพื่อใช้ในอุตสาหกรรมอาหาร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พสุธา สุนทรห้าว",
+    "predicate": "leadsProject",
+    "object": "ผลกระทบของไฟป่าต่อเศรษฐกิจสังคมและการใช้ประโยชน์ทรัพยากรป่าไม้ของชุมชนรอบพื้นที่อนุรักษ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พสุธา สุนทรห้าว",
+    "predicate": "participatesIn",
+    "object": "นิเวศวิทยาของไฟและการจัดการไฟในป่าผสมผลัดใบ ภายใต้สถานการณ์การเปลี่ยนแปลงสภาพภูมิอากาศ ณ เขตรักษาพัน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พสุธา สุนทรห้าว",
+    "predicate": "participatesIn",
+    "object": "การฟื้นฟูป่าด้วยกระบวนการเกษตรกรรมและมีส่วนร่วมของชุมชน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พสุธา สุนทรห้าว",
+    "predicate": "participatesIn",
+    "object": "การผลิตถ่านและน้ำส้มควันไม้คุณภาพสูงจากชีวมวลที่มีศักยภาพเพื่อใช้ในอุตสาหกรรมอาหาร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พสุธา สุนทรห้าว",
+    "predicate": "leadsProject",
+    "object": "ผลประโยชน์ร่วมทางด้านเศรษฐกิจและสังคมของการปลูกป่าบนพื้นที่สูงเพื่อการกักเก็บคาร์บอน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พสุธา สุนทรห้าว",
+    "predicate": "participatesIn",
+    "object": "การศึกษานิเวศวิทยา ประชากร การแพร่กระจายและสุขภาพเพื่อแก้ปัญหาช้างในประเทศไทย",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นิตยา เมี้ยนมิตร",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาการจัดการป่าไม้",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นิตยา เมี้ยนมิตร",
+    "predicate": "hasExpertise",
+    "object": "Climbing palms",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นิตยา เมี้ยนมิตร",
+    "predicate": "hasExpertise",
+    "object": "community forest",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นิตยา เมี้ยนมิตร",
+    "predicate": "hasExpertise",
+    "object": "Community Participation",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นิตยา เมี้ยนมิตร",
+    "predicate": "hasExpertise",
+    "object": "Community-based Ecotourism",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นิตยา เมี้ยนมิตร",
+    "predicate": "hasExpertise",
+    "object": "Community-Based Ecotourism Management Assessment",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นิตยา เมี้ยนมิตร",
+    "predicate": "authored",
+    "object": "นิตยา เมี้ยนมิตร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นิตยา เมี้ยนมิตร",
+    "predicate": "authored",
+    "object": "ffornym@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นิตยา เมี้ยนมิตร",
+    "predicate": "authored",
+    "object": "ดร.ฉัตรชัย เงินแสงสรวย, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นิตยา เมี้ยนมิตร",
+    "predicate": "authored",
+    "object": "ดร.สุวิมล อุทัยรัศมี, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นิตยา เมี้ยนมิตร",
+    "predicate": "authored",
+    "object": "TAMANAI PRAVINVONGVUTHI",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นิตยา เมี้ยนมิตร",
+    "predicate": "authored",
+    "object": "CHONLAWIT SAMART",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นิตยา เมี้ยนมิตร",
+    "predicate": "participatesIn",
+    "object": "ปร.ด.(เกษตรศาสตร์), มหาวิทยาลัยเกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นิตยา เมี้ยนมิตร",
+    "predicate": "participatesIn",
+    "object": "การพัฒนาระบบวนเกษตรเพื่อการจัดการที่ดินเกษตรกรรมบนพื้นที่สูงอย่างยั่งยืน ปีที่ 2",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นิตยา เมี้ยนมิตร",
+    "predicate": "participatesIn",
+    "object": "การศึกษานิเวศวิทยา ประชากร สุขภาพ และปัญหาความขัดแย้งระหว่างคนกับช้างป่า บริเวณเขตรักษาพันธุ์สัตว์ป่",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นิตยา เมี้ยนมิตร",
+    "predicate": "participatesIn",
+    "object": "การศึกษาด้านเศรษฐกิจสังคมของชุมชนรอบเขตรักษาพันธุ์สัตว์ป่าสลักพระ จังหวัดกาญจนบุรี เพื่อการจัดการควา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "นิตยา เมี้ยนมิตร",
+    "predicate": "participatesIn",
+    "object": "การศึกษาวิจัยหวายเพื่อการพัฒนาอย่างยั่งยืน กรณีศึกษาหวายสกุล Korthalsia",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศุภศิษย์ ศรีอักขรินทร์",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาการจัดการป่าไม้",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศุภศิษย์ ศรีอักขรินทร์",
+    "predicate": "hasExpertise",
+    "object": "Aboveground biomass",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศุภศิษย์ ศรีอักขรินทร์",
+    "predicate": "hasExpertise",
+    "object": "Allometric equation",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศุภศิษย์ ศรีอักขรินทร์",
+    "predicate": "hasExpertise",
+    "object": "Annual ring",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศุภศิษย์ ศรีอักขรินทร์",
+    "predicate": "hasExpertise",
+    "object": "Atmospheric humidity",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศุภศิษย์ ศรีอักขรินทร์",
+    "predicate": "hasExpertise",
+    "object": "Atmospheric temperature",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศุภศิษย์ ศรีอักขรินทร์",
+    "predicate": "authored",
+    "object": "ศุภศิษย์ ศรีอักขรินทร์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศุภศิษย์ ศรีอักขรินทร์",
+    "predicate": "authored",
+    "object": "fforsssr@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศุภศิษย์ ศรีอักขรินทร์",
+    "predicate": "authored",
+    "object": "ดร.พรเทพ เหมือนพงษ์, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศุภศิษย์ ศรีอักขรินทร์",
+    "predicate": "authored",
+    "object": "ดร.ชาคริต ณ ตะกั่วทุ่ง, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศุภศิษย์ ศรีอักขรินทร์",
+    "predicate": "authored",
+    "object": "ดร.ลัดดาวรรณ เหรียญตระกูล, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศุภศิษย์ ศรีอักขรินทร์",
+    "predicate": "authored",
+    "object": "นายจิรวัฒน์ ยิ่งดี",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศุภศิษย์ ศรีอักขรินทร์",
+    "predicate": "authored",
+    "object": "ดร.ธารรัตน์ แก้วกระจ่าง, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศุภศิษย์ ศรีอักขรินทร์",
+    "predicate": "participatesIn",
+    "object": "วท.ม.(การจัดการทรัพยากรป่าไม้) , มหาวิทยาลัยเกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศุภศิษย์ ศรีอักขรินทร์",
+    "predicate": "participatesIn",
+    "object": "Ph.D. (Natural Resources and Environmental Studies), National Dong Hwa University, Taiwan,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศุภศิษย์ ศรีอักขรินทร์",
+    "predicate": "participatesIn",
+    "object": "ประสิทธิภาพของเทคโนโลยีการประเมินมวลชีวภาพเหนือพื้นดิน และการกักเก็บคาร์บอนของสวนป่าไม้สัก",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศุภศิษย์ ศรีอักขรินทร์",
+    "predicate": "participatesIn",
+    "object": "การประยุกต์ใช้อากาศยานไร้คนขับในการประเมินมวลชีวภาพเหนือพื้นดิน และการกักเก็บคาร์บอนของสวนป่าไม้สัก",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ศุภศิษย์ ศรีอักขรินทร์",
+    "predicate": "participatesIn",
+    "object": "การประเมินมวลชีวภาพเหนือพื้นดิน และการกักเก็บคาร์บอนของสวนป่าไม้สักด้วยเครื่องสแกนเลเซอร์ภาคพื้นดิน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วัฒนชัย ตาเสน",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาชีววิทยาป่าไม้",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภาควิชาชีววิทยาป่าไม้",
+    "predicate": "partOf",
+    "object": "คณะวนศาสตร์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วัฒนชัย ตาเสน",
+    "predicate": "hasExpertise",
+    "object": "Ant",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วัฒนชัย ตาเสน",
+    "predicate": "hasExpertise",
+    "object": "ant nest",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วัฒนชัย ตาเสน",
+    "predicate": "hasExpertise",
+    "object": "Aquilaria crassna",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วัฒนชัย ตาเสน",
+    "predicate": "hasExpertise",
+    "object": "Asia",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วัฒนชัย ตาเสน",
+    "predicate": "hasExpertise",
+    "object": "Behavior",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วัฒนชัย ตาเสน",
+    "predicate": "authored",
+    "object": "ภาควิชาชีววิทยาป่าไม้",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วัฒนชัย ตาเสน",
+    "predicate": "authored",
+    "object": "fforwct@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วัฒนชัย ตาเสน",
+    "predicate": "authored",
+    "object": "Noppawit Chayakul",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วัฒนชัย ตาเสน",
+    "predicate": "authored",
+    "object": "ดร.วัฒนชัย ตาเสน, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วัฒนชัย ตาเสน",
+    "predicate": "authored",
+    "object": "Weeyawat Jaitrong",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วัฒนชัย ตาเสน",
+    "predicate": "authored",
+    "object": "Two new species of the ant genus Myrmecina Curtis, 1829 (Hymenoptera, Formicidae, Myrmicinae) from m",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วัฒนชัย ตาเสน",
+    "predicate": "authored",
+    "object": "Checklist of ants (Hymenoptera: Formicidae) collected from a wood-processing facility and foricultur",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วัฒนชัย ตาเสน",
+    "predicate": "authored",
+    "object": "Survey of ants (Hymenoptera: Formicidae) associated with wood products and ornamental plants in Thai",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วัฒนชัย ตาเสน",
+    "predicate": "leadsProject",
+    "object": "การใช้สังคมสัตว์ข้อปล้องในดินและการย่อยสลายในการประเมินสุขภาพสวนป่าบริเวณโครงการห้วยองคตอันเนื่องมาจ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วัฒนชัย ตาเสน",
+    "predicate": "participatesIn",
+    "object": "การเลี้ยงแมลงมันเพื่อสร้างรายได้บริเวณสถานีฝึกนิสิตวนศาสตร์ห้วยทาก จังหวัดลำปาง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วัฒนชัย ตาเสน",
+    "predicate": "participatesIn",
+    "object": "ลักษณะการเกิดชนิดใหม่ (Speciation) ของพรรณไม้ในสกุลโมก (Wrightia R. Br.) ในพื้นที่เขาหินปูนของไทย",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วัฒนชัย ตาเสน",
+    "predicate": "leadsProject",
+    "object": "ผลกระทบของความถี่ไฟต่อพลวัตรและความหลากหลายของแมลงในป่าผลัดใบ เขตรักษาพันธุ์สัตว์ป่าห้วยขาแข้ง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วัฒนชัย ตาเสน",
+    "predicate": "leadsProject",
+    "object": "การศึกษาบทบาทของแมลงผสมเกสรต่อการรักษาความหลากหลายทางชีวภาพพรรณพืชป่าดิบเขา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วัฒนชัย ตาเสน",
+    "predicate": "participatesIn",
+    "object": "การวิเคราะห์กลไกสำคัญต่อการรักษาความหลากหลายชีวภาพของป่าดิบเขา อุทยานแห่งชาติดอยสุเทพ-ปุย",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วัฒนชัย ตาเสน",
+    "predicate": "participatesIn",
+    "object": "การเกิดชนิดใหม่และลักษณะวิวัฒนาการของพืชเฉพาะถิ่นของเขาหินปูน: กรณีศึกษาในสกุลแคสันติสุข (Santisukia",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พฤทธิ์ ราชรักษ์",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาชีววิทยาป่าไม้",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พฤทธิ์ ราชรักษ์",
+    "predicate": "hasExpertise",
+    "object": "A-genome consisting edible cultivated banana",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พฤทธิ์ ราชรักษ์",
+    "predicate": "hasExpertise",
+    "object": "agroforestry systems",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พฤทธิ์ ราชรักษ์",
+    "predicate": "hasExpertise",
+    "object": "Anatomy",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พฤทธิ์ ราชรักษ์",
+    "predicate": "hasExpertise",
+    "object": "Antioxidant Agent",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พฤทธิ์ ราชรักษ์",
+    "predicate": "hasExpertise",
+    "object": "Banana",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พฤทธิ์ ราชรักษ์",
+    "predicate": "authored",
+    "object": "พฤทธิ์ ราชรักษ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พฤทธิ์ ราชรักษ์",
+    "predicate": "authored",
+    "object": "fforprr@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พฤทธิ์ ราชรักษ์",
+    "predicate": "authored",
+    "object": "Andriyas, Tushar",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พฤทธิ์ ราชรักษ์",
+    "predicate": "authored",
+    "object": "ดร.นิสา เหล็กสูงเนิน, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พฤทธิ์ ราชรักษ์",
+    "predicate": "authored",
+    "object": "Pungtambol, Nisachol",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พฤทธิ์ ราชรักษ์",
+    "predicate": "leadsProject",
+    "object": "ฤทธิ์ทางชีวภาพและคุณสมบัติเชิงหน้าที่ของสารสกัดจากแคลลัสพะยอม",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พฤทธิ์ ราชรักษ์",
+    "predicate": "leadsProject",
+    "object": "การหาลำดับนิวคลีโอไทด์ที่สมบูรณ์ในคลอโรพลาสต์จีโนมของพะยูง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พฤทธิ์ ราชรักษ์",
+    "predicate": "leadsProject",
+    "object": "การขยายพันธุ์และการเติบโตของไม้พะยูง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พฤทธิ์ ราชรักษ์",
+    "predicate": "leadsProject",
+    "object": "การขยายพันธุ์และการเติบโตของพรรณไม้ให้ยางรัก",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พฤทธิ์ ราชรักษ์",
+    "predicate": "participatesIn",
+    "object": "การพัฒนาแหล่งยางรักดิบเพื่อการใช้ประโยชน์อย่างยั่งยืน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พฤทธิ์ ราชรักษ์",
+    "predicate": "leadsProject",
+    "object": "ผลของสารควบคุมการเจริญเติบโตต่อการชักนำยอดของหวายบางชนิดในสกุล Korthalsia",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พฤทธิ์ ราชรักษ์",
+    "predicate": "participatesIn",
+    "object": "สัณฐานวิทยา การกระจายพันธุ์ และนิเวศวิทยาของหวายสกุล Korthalsia Blume (Arecaceae) ในประเทศไทย",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุวิมล อุทัยรัศมี",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาชีววิทยาป่าไม้",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุวิมล อุทัยรัศมี",
+    "predicate": "hasExpertise",
+    "object": "soil salinity",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุวิมล อุทัยรัศมี",
+    "predicate": "hasExpertise",
+    "object": "Acorus calamus",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุวิมล อุทัยรัศมี",
+    "predicate": "hasExpertise",
+    "object": "Antifungal activity",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุวิมล อุทัยรัศมี",
+    "predicate": "hasExpertise",
+    "object": "Buchanania siamensis",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุวิมล อุทัยรัศมี",
+    "predicate": "hasExpertise",
+    "object": "Camera trapping",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุวิมล อุทัยรัศมี",
+    "predicate": "participatesIn",
+    "object": "วท.ม. (วนศาสตร์), มหาวิทยาลัยเกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุวิมล อุทัยรัศมี",
+    "predicate": "participatesIn",
+    "object": "ปร.ด. (วนศาสตร์), มหาวิทยาลัยเกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุวิมล อุทัยรัศมี",
+    "predicate": "participatesIn",
+    "object": "การตรวจสอบความหลากหลายทางพันธุกรรมและแฮพโพลไทป์ของแม่ไม้ของไม้แดง (Xylia xylocarpa) ในแหล่งผลิตเมล็ด",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุวิมล อุทัยรัศมี",
+    "predicate": "participatesIn",
+    "object": "ความหลากหลายทางพันธุกรรมและแฮพโพลไทป์ของไม้ประดู่ (Pterocarpus macrocarpus) ของไทย",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุวิมล อุทัยรัศมี",
+    "predicate": "participatesIn",
+    "object": "ความหลากหลายทางพันธุกรรมของไม้หลุมพอ (Intsia palembanica) ของไทยและการประยุกต์ใช้เพื่อจัดการการใช้ปร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สุวิมล อุทัยรัศมี",
+    "predicate": "participatesIn",
+    "object": "ฐานข้อมูลความหลากหลายของแฮพโพลไทป์ (haplotype) ของแม่ไม้พะยูง (Dalbergia cochinchinensis) และของพะยู",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พิศุทธุ์ ศิริพันธุ์",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาวนผลิตภัณฑ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภาควิชาวนผลิตภัณฑ์",
+    "predicate": "partOf",
+    "object": "คณะวนศาสตร์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พิศุทธุ์ ศิริพันธุ์",
+    "predicate": "authored",
+    "object": "พิศุทธุ์ ศิริพันธุ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พิศุทธุ์ ศิริพันธุ์",
+    "predicate": "authored",
+    "object": "ภาควิชาวนผลิตภัณฑ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พิศุทธุ์ ศิริพันธุ์",
+    "predicate": "authored",
+    "object": "fforpssp@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พิศุทธุ์ ศิริพันธุ์",
+    "predicate": "authored",
+    "object": "ปิยะธิดา แสงแก้ว",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พิศุทธุ์ ศิริพันธุ์",
+    "predicate": "authored",
+    "object": "ดร.สราวุธ สังข์แก้ว, ศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พิศุทธุ์ ศิริพันธุ์",
+    "predicate": "authored",
+    "object": "ดร.กนกภรณ์ แก้วสง, อาจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พิศุทธุ์ ศิริพันธุ์",
+    "predicate": "authored",
+    "object": "ดร.พิศุทธุ์ ศิริพันธุ์, อาจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พิศุทธุ์ ศิริพันธุ์",
+    "predicate": "participatesIn",
+    "object": "ปรัชญาดุษฎีบัณฑิต (การออกแบบผลิตภัณฑ์), มหาวิทยาลัยอุบลราชธานี , ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พิศุทธุ์ ศิริพันธุ์",
+    "predicate": "participatesIn",
+    "object": "ศูนย์กลางการเรียนรู้ไม้เศรษฐกิจแบบครบวงจร : การปลูก การจัดการ การใช้ประโยชน์ และอุตสาหกรรม",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พิศุทธุ์ ศิริพันธุ์",
+    "predicate": "participatesIn",
+    "object": "โครงการฝึกอบรมถ่ายทอดความรู้การใช้ประโยชน์ไม้อย่างคุ้มค่าจากชุมชนไม้มีค่า",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พิศุทธุ์ ศิริพันธุ์",
+    "predicate": "leadsProject",
+    "object": "การออกแบบ และพัฒนาผลิตภัณฑ์ของตกแต่งบ้าน จากแผ่นอัดประสานกากขี้แป้งและผงไม้ยางพารา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พิศุทธุ์ ศิริพันธุ์",
+    "predicate": "participatesIn",
+    "object": "การพัฒนาระบบการแปรรูปไม้มีค่าระดับชุมชนโดยเลือกเทคโนโลยีที่เหมาะสมและเพิ่มมูลค่าเศษเหลือ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พิศุทธุ์ ศิริพันธุ์",
+    "predicate": "participatesIn",
+    "object": "การพัฒนาต้นแบบสถานีพลังงานไฟฟ้าชุมชนตำบลอุดมทรัพย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พิศุทธุ์ ศิริพันธุ์",
+    "predicate": "participatesIn",
+    "object": "โครงการความร่วมมือทางวิทยาศาสตร์ในการป้องกันปลวก",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงษ์ศักดิ์ เฮงนิรันดร์",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาวนผลิตภัณฑ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงษ์ศักดิ์ เฮงนิรันดร์",
+    "predicate": "hasExpertise",
+    "object": "wood pellet",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงษ์ศักดิ์ เฮงนิรันดร์",
+    "predicate": "hasExpertise",
+    "object": "activated charcoal",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงษ์ศักดิ์ เฮงนิรันดร์",
+    "predicate": "hasExpertise",
+    "object": "additives",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงษ์ศักดิ์ เฮงนิรันดร์",
+    "predicate": "hasExpertise",
+    "object": "Adsorption isotherms",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงษ์ศักดิ์ เฮงนิรันดร์",
+    "predicate": "hasExpertise",
+    "object": "appropriate technology",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงษ์ศักดิ์ เฮงนิรันดร์",
+    "predicate": "authored",
+    "object": "พงษ์ศักดิ์ เฮงนิรันดร์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงษ์ศักดิ์ เฮงนิรันดร์",
+    "predicate": "authored",
+    "object": "fforpsh@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงษ์ศักดิ์ เฮงนิรันดร์",
+    "predicate": "authored",
+    "object": "Huong Huynh, T.T.",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงษ์ศักดิ์ เฮงนิรันดร์",
+    "predicate": "authored",
+    "object": "ดร.กุลนาถ ทองขาว, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงษ์ศักดิ์ เฮงนิรันดร์",
+    "predicate": "authored",
+    "object": "ดร.พงษ์ศักดิ์ เฮงนิรันดร์, อาจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงษ์ศักดิ์ เฮงนิรันดร์",
+    "predicate": "authored",
+    "object": "ดร.กนิฐพร วังใน, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงษ์ศักดิ์ เฮงนิรันดร์",
+    "predicate": "authored",
+    "object": "Assessment of High-temperature Refined Charcoal to Improve the Safety of Grilled Meat Through the Re",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงษ์ศักดิ์ เฮงนิรันดร์",
+    "predicate": "participatesIn",
+    "object": "วศ.ม.(วิศวกรรมเคมี), มหาวิทยาลัยเกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงษ์ศักดิ์ เฮงนิรันดร์",
+    "predicate": "participatesIn",
+    "object": "Ph.D. (Wood Energy), The university of Hamburg, Germany,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงษ์ศักดิ์ เฮงนิรันดร์",
+    "predicate": "participatesIn",
+    "object": "การใช้ถ่านกัมมันต์จากวัสดุเหลือทิ้งทางการเกษตรทดแทนการใช้ถ่านกัมมันต์นำเข้าจากต่างประเทศในอาหารเลี้ย",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงษ์ศักดิ์ เฮงนิรันดร์",
+    "predicate": "participatesIn",
+    "object": "โครงการผลิตถ่านไม้คุณภาพสูงเชิงพาณิชย์ (เกรดส่งออก)",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "พงษ์ศักดิ์ เฮงนิรันดร์",
+    "predicate": "participatesIn",
+    "object": "การสกัดแทนนินจากเปลือกไม้โกงกางวัสดุเหลือทิ้งจากการผลิตถ่าน เพื่อใช้เป็นสารย่อยสลายฟอร์มัลดีไฮด์ในแผ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สาวิตรี พิสุทธิ์พิเชฎฐ์",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาวนผลิตภัณฑ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สาวิตรี พิสุทธิ์พิเชฎฐ์",
+    "predicate": "hasExpertise",
+    "object": "Strephylococus aureus",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สาวิตรี พิสุทธิ์พิเชฎฐ์",
+    "predicate": "hasExpertise",
+    "object": "6-Tetramethylpiperidine-1-oxyl (TEMPO)",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สาวิตรี พิสุทธิ์พิเชฎฐ์",
+    "predicate": "hasExpertise",
+    "object": "Article",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สาวิตรี พิสุทธิ์พิเชฎฐ์",
+    "predicate": "hasExpertise",
+    "object": "Cannabis sativa",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สาวิตรี พิสุทธิ์พิเชฎฐ์",
+    "predicate": "hasExpertise",
+    "object": "Carboxymethyl cellulose",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สาวิตรี พิสุทธิ์พิเชฎฐ์",
+    "predicate": "authored",
+    "object": "สาวิตรี พิสุทธิ์พิเชฎฐ์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สาวิตรี พิสุทธิ์พิเชฎฐ์",
+    "predicate": "authored",
+    "object": "fforsap@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สาวิตรี พิสุทธิ์พิเชฎฐ์",
+    "predicate": "authored",
+    "object": "Kapphapaphim Wanitpinyo",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สาวิตรี พิสุทธิ์พิเชฎฐ์",
+    "predicate": "authored",
+    "object": "Kawinthida Nanta",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สาวิตรี พิสุทธิ์พิเชฎฐ์",
+    "predicate": "authored",
+    "object": "ดร.กรวิทย์ จิตต์บรรยงค์, อาจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สาวิตรี พิสุทธิ์พิเชฎฐ์",
+    "predicate": "authored",
+    "object": "Piyawan Yimlamai",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สาวิตรี พิสุทธิ์พิเชฎฐ์",
+    "predicate": "authored",
+    "object": "ดร.ปิยังกูล เหลืองเจริญกิจ, รองศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สาวิตรี พิสุทธิ์พิเชฎฐ์",
+    "predicate": "participatesIn",
+    "object": "-0173 Education วท.บ.(วนศาสตร์), มหาวิทยาลัยเกษตรศาสตร์, ไทย, 2534 วท.ม.(วนศาสตร์), มหาวิทยาลัยเกษตร",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สาวิตรี พิสุทธิ์พิเชฎฐ์",
+    "predicate": "participatesIn",
+    "object": "'ความหลากหลายทางพันธุกรรมของพันธุ์กัญชงเพื่อสุขภาพและพัฒนาคุณภาพเส้นใยและสารสำคัญ",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สาวิตรี พิสุทธิ์พิเชฎฐ์",
+    "predicate": "participatesIn",
+    "object": "การพัฒนาคุณภาพเส้นใยและผลิตภัณฑ์ต้นแบบจากเส้นใยกัญชงเพื่อการใช้ประโยชน์ในอนาคต",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สาวิตรี พิสุทธิ์พิเชฎฐ์",
+    "predicate": "leadsProject",
+    "object": "องค์ประกอบทางเคมีของไผ่หกชนิดในประเทศไทย",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สาวิตรี พิสุทธิ์พิเชฎฐ์",
+    "predicate": "participatesIn",
+    "object": "การศึกษาคุณสมบัติพอลิเมอร์ชีวภาพที่ผลิตจากแป้งมันสำปะหลังเสริมแรงด้วยนาโนเซลลูโลสจากไผ่ตง",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สาวิตรี พิสุทธิ์พิเชฎฐ์",
+    "predicate": "participatesIn",
+    "object": "ลักษณะทางสัณฐานวิทยาของเส้นใยจากไผ่ตงและไผ่ซางนวล",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สาวิตรี พิสุทธิ์พิเชฎฐ์",
+    "predicate": "leadsProject",
+    "object": "การพัฒนาความแข็งแรงของกระดาษปะผิวกล่องด้วยแป้งประจุบวกและไคโตซาน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สมพร แม่ลิ่ม",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาวนวัฒนวิทยา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "ภาควิชาวนวัฒนวิทยา",
+    "predicate": "partOf",
+    "object": "คณะวนศาสตร์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สมพร แม่ลิ่ม",
+    "predicate": "hasExpertise",
+    "object": "abandoned mining area",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สมพร แม่ลิ่ม",
+    "predicate": "hasExpertise",
+    "object": "aboveground biomass",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สมพร แม่ลิ่ม",
+    "predicate": "hasExpertise",
+    "object": "Above-ground Carbon Sequestration",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สมพร แม่ลิ่ม",
+    "predicate": "hasExpertise",
+    "object": "Acacia crassicarpa",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สมพร แม่ลิ่ม",
+    "predicate": "hasExpertise",
+    "object": "Acacia mangium",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สมพร แม่ลิ่ม",
+    "predicate": "authored",
+    "object": "ภาควิชาวนวัฒนวิทยา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สมพร แม่ลิ่ม",
+    "predicate": "authored",
+    "object": "fforspm@ku.ac.th",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สมพร แม่ลิ่ม",
+    "predicate": "authored",
+    "object": "Takdanai Wongpinta",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สมพร แม่ลิ่ม",
+    "predicate": "authored",
+    "object": "นางรัชนี โพธิแท่น, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สมพร แม่ลิ่ม",
+    "predicate": "authored",
+    "object": "ดร.สมพร แม่ลิ่ม, ผู้ช่วยศาสตราจารย์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สมพร แม่ลิ่ม",
+    "predicate": "authored",
+    "object": "Forecasting model based on morphological characteristics for yield of konjac (Amorphophallus mueller",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สมพร แม่ลิ่ม",
+    "predicate": "participatesIn",
+    "object": "วท.ม. (วนศาสตร์) , มหาวิทยาลัยเกษตรศาสตร์, ไทย,",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สมพร แม่ลิ่ม",
+    "predicate": "participatesIn",
+    "object": "วท.บ. (วนศาสตร์), มหาวิทยาลัยเกษตรศาสตร์, ไทย, 2538 โครงการวิจัย 5 ปีที่ผ่านมา หน้าที่ในโครงการ 5 ปี",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สมพร แม่ลิ่ม",
+    "predicate": "leadsProject",
+    "object": "การปลูกไม้ 5 ชนิด เพื่อฟื้นฟูป่าในพื้นที่สถานีฝึกนิสิตวนศาสตร์วังน้ำเขียว จังหวัดนครราชสีมา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สมพร แม่ลิ่ม",
+    "predicate": "participatesIn",
+    "object": "คุณสมบัติของเมล็ดและการขยายพันธุ์ไม้ในป่าทดแทนเพื่อการผลิตกล้าไม้เชิงเศรษฐกิจฐานชุมชน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สมพร แม่ลิ่ม",
+    "predicate": "leadsProject",
+    "object": "การจัดการไม้กระถินเทพาเพื่อการฟื้นฟูระบบนิเวศในพื้นที่เหมืองแร่ร้าง ณ สถานีวิจัยวนศาสตร์พังงา จังหวั",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สมพร แม่ลิ่ม",
+    "predicate": "participatesIn",
+    "object": "การปลูกไม้สามอย่างเพื่อประโยชน์สี่อย่างในพื้นที่ศูนย์ภูฟ้าพัฒนา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สมพร แม่ลิ่ม",
+    "predicate": "participatesIn",
+    "object": "โครงการศึกษาชนิด/พันธุ์ไม้สนเพื่อปลูกเป็นสวนป่าและการอนุรักษ์ในพื้นที่โครงการหลวงวัดจันทร์",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สมพร แม่ลิ่ม",
+    "predicate": "participatesIn",
+    "object": "โครงการศึกษาชนิดไม้ท้องถิ่นและการใช้ประโยชน์เพื่อการปลูกป่าชาวบ้าน",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วาทินี สวนผกา",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาวนวัฒนวิทยา",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วาทินี สวนผกา",
+    "predicate": "hasExpertise",
+    "object": "Biomass",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วาทินี สวนผกา",
+    "predicate": "hasExpertise",
+    "object": "growth",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วาทินี สวนผกา",
+    "predicate": "hasExpertise",
+    "object": "Highland",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วาทินี สวนผกา",
+    "predicate": "hasExpertise",
+    "object": "IRI",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "วาทินี สวนผกา",
+    "predicate": "hasExpertise",
+    "object": "mangrove",
+    "source": "KU_Forest"
+  },
+  {
+    "subject": "สันต์ เกตุปราณีต",
+    "predicate": "belongsTo",
+    "object": "ภาควิชาวนวัฒนวิทยา",
+    "source": "KU_Forest"
+  }
+]
