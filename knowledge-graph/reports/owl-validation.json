@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-09-30T03:18:23+00:00",
+  "ontology": "ontology/bcg-education.ttl",
+  "tbox": {
+    "classes": 14,
+    "object_properties": 23,
+    "datatype_properties": 3,
+    "disjointness_axioms": 2,
+    "issues": [],
+    "pass": true
+  },
+  "conformance": {
+    "individuals": 3071,
+    "property_assertions": 4888,
+    "per_property": {
+      "about": 625,
+      "affiliatedWith": 62,
+      "authored": 3023,
+      "connectsViaValueChain": 1,
+      "enhancesGrowthOf": 1,
+      "expandsEconomicsPerspectiveOf": 1,
+      "hasExpertise": 34,
+      "hasKeyword": 999,
+      "hasPillar": 12,
+      "inDepartment": 62,
+      "integratesSpecies": 3,
+      "involvesFaculty": 18,
+      "isEntryPointFor": 1,
+      "isFeedstockOf": 1,
+      "isKeywordOf": 2,
+      "isLaunchingNodeFor": 1,
+      "mechanismOf": 4,
+      "mitigatesCarbonVia": 4,
+      "partOf": 21,
+      "pollutesVia": 2,
+      "providesRawMaterialTo": 1,
+      "requires": 1,
+      "teaches": 9
+    },
+    "multi_typed_nodes": [],
+    "violations": [],
+    "pass": true
+  },
+  "reasoner": {
+    "reasoner": "owlrl 7.6.2 (OWL 2 RL closure)",
+    "asserted_triples": 14913,
+    "closure_triples": 31704,
+    "inconsistencies": [],
+    "owl_nothing_members": [],
+    "pass": true
+  },
+  "pass": true
+}

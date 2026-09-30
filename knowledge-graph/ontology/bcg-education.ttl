@@ -1,0 +1,178 @@
+@prefix : <https://phumpanya.ku.ac.th/ontology/bcg-education#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://phumpanya.ku.ac.th/ontology/bcg-education>
+    a owl:Ontology ;
+    owl:versionIRI <https://phumpanya.ku.ac.th/ontology/bcg-education/1.0> ;
+    rdfs:label "BCG Education Ontology"@en , "ออนโทโลยีการศึกษาเศรษฐกิจ BCG"@th ;
+    rdfs:comment "Knowledge model linking KU Forest research, KUKR documents and KU MOOC courses to BCG topics, pilot faculties and BCG pillars."@en .
+
+# ---------------------------------------------------------------- classes
+
+:Topic a owl:Class ;
+    rdfs:label "Topic"@en , "หัวข้อองค์ความรู้"@th ;
+    rdfs:comment "Cross-disciplinary BCG knowledge topic (6 pilot topics)."@en .
+
+:Faculty a owl:Class ;
+    rdfs:label "Faculty"@en , "คณะ"@th ;
+    rdfs:comment "KU pilot faculty: Forestry, Agriculture, Agro-Industry, Fisheries."@en .
+
+:Department a owl:Class ;
+    rdfs:label "Department"@en , "ภาควิชา"@th .
+
+:BCGPillar a owl:Class ;
+    rdfs:label "BCG Pillar"@en , "เสาหลัก BCG"@th ;
+    rdfs:comment "Bio, Circular or Green economy pillar."@en .
+
+:Keyword a owl:Class ;
+    rdfs:label "Keyword"@en , "คำสำคัญ"@th .
+
+:Concept a owl:Class ;
+    rdfs:label "Concept"@en , "มโนทัศน์"@th ;
+    rdfs:comment "Domain concept that is neither a curated keyword nor an institution, e.g. carbon_stock, biodegradable_packaging."@en .
+
+:Author a owl:Class ;
+    rdfs:label "Author"@en , "ผู้แต่ง/นักวิจัย"@th .
+
+:KnowledgeResource a owl:Class ;
+    rdfs:label "Knowledge resource"@en , "แหล่งความรู้"@th .
+
+:Research a owl:Class ;
+    rdfs:subClassOf :KnowledgeResource ;
+    rdfs:label "Research"@en , "งานวิจัย (KU Forest)"@th .
+
+:Document a owl:Class ;
+    rdfs:subClassOf :KnowledgeResource ;
+    rdfs:label "Document"@en , "เอกสาร (KUKR)"@th .
+
+:Course a owl:Class ;
+    rdfs:subClassOf :KnowledgeResource ;
+    rdfs:label "Course"@en , "คอร์สเรียน (KU MOOC)"@th .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :Topic :Faculty :Department :BCGPillar :Keyword :Concept :Author :KnowledgeResource ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :Research :Document :Course ) .
+
+# Union classes used as property domains / ranges.
+
+:TopicOrResource a owl:Class ;
+    owl:equivalentClass [ a owl:Class ; owl:unionOf ( :Topic :KnowledgeResource ) ] .
+
+:ResearchOrDocument a owl:Class ;
+    owl:equivalentClass [ a owl:Class ; owl:unionOf ( :Research :Document ) ] .
+
+:KeywordOrConcept a owl:Class ;
+    owl:equivalentClass [ a owl:Class ; owl:unionOf ( :Keyword :Concept ) ] .
+
+# ------------------------------------------------------- structural properties
+
+:hasPillar a owl:ObjectProperty ;
+    rdfs:label "has BCG pillar"@en ;
+    rdfs:domain :Topic ; rdfs:range :BCGPillar .
+
+:involvesFaculty a owl:ObjectProperty ;
+    rdfs:label "involves faculty"@en ;
+    rdfs:domain :Topic ; rdfs:range :Faculty .
+
+:hasKeyword a owl:ObjectProperty ;
+    rdfs:label "has keyword"@en ;
+    rdfs:domain :TopicOrResource ; rdfs:range :Keyword .
+
+:about a owl:ObjectProperty ;
+    rdfs:label "is about topic"@en ;
+    rdfs:domain :ResearchOrDocument ; rdfs:range :Topic .
+
+:teaches a owl:ObjectProperty ;
+    rdfs:label "teaches topic"@en ;
+    rdfs:domain :Course ; rdfs:range :Topic .
+
+:authored a owl:ObjectProperty ;
+    rdfs:label "authored"@en ;
+    rdfs:domain :Author ; rdfs:range :ResearchOrDocument .
+
+:affiliatedWith a owl:ObjectProperty ;
+    rdfs:label "affiliated with faculty"@en ;
+    rdfs:domain :Author ; rdfs:range :Faculty .
+
+:inDepartment a owl:ObjectProperty ;
+    rdfs:label "in department"@en ;
+    rdfs:domain :Author ; rdfs:range :Department .
+
+:partOf a owl:ObjectProperty ;
+    rdfs:label "part of faculty"@en ;
+    rdfs:domain :Department ; rdfs:range :Faculty .
+
+:hasExpertise a owl:ObjectProperty ;
+    rdfs:label "has expertise"@en ;
+    rdfs:domain :Author ; rdfs:range :Keyword .
+
+:mechanismOf a owl:ObjectProperty ;
+    rdfs:label "is mechanism of topic"@en ;
+    rdfs:domain :KeywordOrConcept ; rdfs:range :Topic .
+
+# --------------------------------------- cross-disciplinary seed predicates
+
+:mitigatesCarbonVia a owl:ObjectProperty ;
+    rdfs:label "mitigates carbon via"@en ;
+    rdfs:comment "Faculty reduces carbon for a topic; the mechanism is kept on the relationship (via)."@en ;
+    rdfs:domain :Faculty ; rdfs:range :Topic .
+
+:providesRawMaterialTo a owl:ObjectProperty ;
+    rdfs:label "provides raw material to"@en ;
+    rdfs:domain :Faculty ; rdfs:range :Faculty .
+
+:connectsViaValueChain a owl:ObjectProperty ;
+    rdfs:label "connects via value chain"@en ;
+    rdfs:domain :Faculty ; rdfs:range :Faculty .
+
+:isFeedstockOf a owl:ObjectProperty ;
+    rdfs:label "is feedstock of"@en ;
+    rdfs:domain :KeywordOrConcept ; rdfs:range :KeywordOrConcept .
+
+:pollutesVia a owl:ObjectProperty ;
+    rdfs:label "pollutes via"@en ;
+    rdfs:domain :KeywordOrConcept ; rdfs:range :KeywordOrConcept .
+
+:enhancesGrowthOf a owl:ObjectProperty ;
+    rdfs:label "enhances growth of"@en ;
+    rdfs:domain :KeywordOrConcept ; rdfs:range :KeywordOrConcept .
+
+:integratesSpecies a owl:ObjectProperty ;
+    rdfs:label "integrates species"@en ;
+    rdfs:domain :KeywordOrConcept ; rdfs:range :KeywordOrConcept .
+
+:requires a owl:ObjectProperty ;
+    rdfs:label "requires"@en ;
+    rdfs:domain :KeywordOrConcept ; rdfs:range :KeywordOrConcept .
+
+:isKeywordOf a owl:ObjectProperty ;
+    rdfs:label "is keyword of"@en ;
+    rdfs:domain :KeywordOrConcept ; rdfs:range :KeywordOrConcept .
+
+:isEntryPointFor a owl:ObjectProperty ;
+    rdfs:label "is entry point for"@en ;
+    rdfs:domain :Course ; rdfs:range :Concept .
+
+:isLaunchingNodeFor a owl:ObjectProperty ;
+    rdfs:label "is launching node for"@en ;
+    rdfs:domain :Course ; rdfs:range :Concept .
+
+:expandsEconomicsPerspectiveOf a owl:ObjectProperty ;
+    rdfs:label "expands economics perspective of"@en ;
+    rdfs:domain :Course ; rdfs:range :Concept .
+
+# ---------------------------------------------------------- data properties
+
+:name a owl:DatatypeProperty , owl:FunctionalProperty ;
+    rdfs:label "name"@en ; rdfs:range xsd:string .
+
+:url a owl:DatatypeProperty ;
+    rdfs:label "url"@en ; rdfs:domain :KnowledgeResource ; rdfs:range xsd:anyURI .
+
+:source a owl:DatatypeProperty ;
+    rdfs:label "source"@en ; rdfs:domain :KnowledgeResource ; rdfs:range xsd:string .

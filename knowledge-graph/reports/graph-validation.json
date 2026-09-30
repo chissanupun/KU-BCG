@@ -1,0 +1,327 @@
+{
+  "generated_at": "2026-09-30T03:18:23+00:00",
+  "nodes": {
+    "counts": {
+      "Topic": 6,
+      "Faculty": 4,
+      "BCGPillar": 3,
+      "Course": 6,
+      "Keyword": 42,
+      "Concept": 13,
+      "Research": 203,
+      "Document": 403,
+      "Author": 2370,
+      "Department": 21
+    },
+    "rows": [
+      {
+        "label": "Topic",
+        "rule": "= 6",
+        "actual": 6,
+        "pass": true
+      },
+      {
+        "label": "Faculty",
+        "rule": "= 4",
+        "actual": 4,
+        "pass": true
+      },
+      {
+        "label": "BCGPillar",
+        "rule": "= 3",
+        "actual": 3,
+        "pass": true
+      },
+      {
+        "label": "Course",
+        "rule": "= 6",
+        "actual": 6,
+        "pass": true
+      },
+      {
+        "label": "Keyword",
+        "rule": ">= 23",
+        "actual": 42,
+        "pass": true
+      },
+      {
+        "label": "Research",
+        "rule": ">= 50",
+        "actual": 203,
+        "pass": true
+      },
+      {
+        "label": "Document",
+        "rule": ">= 5",
+        "actual": 403,
+        "pass": true
+      },
+      {
+        "label": "Author",
+        "rule": ">= 10",
+        "actual": 2370,
+        "pass": true
+      }
+    ],
+    "core_total": 19,
+    "wrong_source": {
+      "Research": 0,
+      "Document": 0,
+      "Course": 0
+    },
+    "pass": true
+  },
+  "predicates": {
+    "predicate_types": [
+      "connectsViaValueChain",
+      "enhancesGrowthOf",
+      "expandsEconomicsPerspectiveOf",
+      "integratesSpecies",
+      "isEntryPointFor",
+      "isFeedstockOf",
+      "isKeywordOf",
+      "isLaunchingNodeFor",
+      "mechanismOf",
+      "mitigatesCarbonVia",
+      "pollutesVia",
+      "providesRawMaterialTo",
+      "requires"
+    ],
+    "pair_rows": [
+      {
+        "topic_id": "1",
+        "predicate": "isEntryPointFor",
+        "triples": 1
+      },
+      {
+        "topic_id": "1",
+        "predicate": "isKeywordOf",
+        "triples": 2
+      },
+      {
+        "topic_id": "2",
+        "predicate": "isFeedstockOf",
+        "triples": 1
+      },
+      {
+        "topic_id": "2",
+        "predicate": "providesRawMaterialTo",
+        "triples": 1
+      },
+      {
+        "topic_id": "3",
+        "predicate": "expandsEconomicsPerspectiveOf",
+        "triples": 1
+      },
+      {
+        "topic_id": "3",
+        "predicate": "isLaunchingNodeFor",
+        "triples": 1
+      },
+      {
+        "topic_id": "3",
+        "predicate": "pollutesVia",
+        "triples": 2
+      },
+      {
+        "topic_id": "4",
+        "predicate": "mitigatesCarbonVia",
+        "triples": 4
+      },
+      {
+        "topic_id": "5",
+        "predicate": "connectsViaValueChain",
+        "triples": 1
+      },
+      {
+        "topic_id": "5",
+        "predicate": "enhancesGrowthOf",
+        "triples": 1
+      },
+      {
+        "topic_id": "5",
+        "predicate": "requires",
+        "triples": 1
+      },
+      {
+        "topic_id": "6",
+        "predicate": "integratesSpecies",
+        "triples": 3
+      }
+    ],
+    "seed_pairs_covered": 12,
+    "seed_pairs_total": 12,
+    "full_matrix_covered": 13,
+    "full_matrix_total": 78,
+    "missing_required": [],
+    "pass": true
+  },
+  "carbon_hub": {
+    "faculties_via_mitigatesCarbonVia": [
+      "ประมง",
+      "วนศาสตร์",
+      "อุตสาหกรรมเกษตร",
+      "เกษตร"
+    ],
+    "all_four_faculties": true,
+    "concept_layer": {
+      "top": [
+        {
+          "uid": "topic:4",
+          "name": "Carbon Footprint & Carbon Neutrality",
+          "label": "Topic",
+          "degree": 24
+        },
+        {
+          "uid": "topic:1",
+          "name": "Biomass & Bioenergy",
+          "label": "Topic",
+          "degree": 15
+        },
+        {
+          "uid": "topic:3",
+          "name": "Microplastics & Water Quality",
+          "label": "Topic",
+          "degree": 14
+        },
+        {
+          "uid": "topic:6",
+          "name": "Agroforestry & Biodiversity",
+          "label": "Topic",
+          "degree": 14
+        },
+        {
+          "uid": "topic:5",
+          "name": "Sustainable Aquaculture & Probiotics",
+          "label": "Topic",
+          "degree": 13
+        }
+      ],
+      "carbon_degree": 24,
+      "carbon_rank": 1,
+      "is_highest": true
+    },
+    "whole_graph": {
+      "top": [
+        {
+          "uid": "topic:1",
+          "name": "Biomass & Bioenergy",
+          "label": "Topic",
+          "degree": 170
+        },
+        {
+          "uid": "topic:6",
+          "name": "Agroforestry & Biodiversity",
+          "label": "Topic",
+          "degree": 133
+        },
+        {
+          "uid": "topic:3",
+          "name": "Microplastics & Water Quality",
+          "label": "Topic",
+          "degree": 118
+        },
+        {
+          "uid": "keyword:biomass",
+          "name": "Biomass",
+          "label": "Keyword",
+          "degree": 117
+        },
+        {
+          "uid": "topic:5",
+          "name": "Sustainable Aquaculture & Probiotics",
+          "label": "Topic",
+          "degree": 113
+        }
+      ],
+      "carbon_degree": 82,
+      "carbon_rank": 7,
+      "is_highest": false
+    },
+    "pass": true
+  },
+  "traversal": {
+    "rows": [
+      {
+        "source": "KUKR",
+        "target": "KU_Forest",
+        "total": 403,
+        "ok": 403,
+        "ok_topic": 403,
+        "ok_keyword": 239
+      },
+      {
+        "source": "KUKR",
+        "target": "KU_MOOC",
+        "total": 403,
+        "ok": 351,
+        "ok_topic": 351,
+        "ok_keyword": 0
+      },
+      {
+        "source": "KU_Forest",
+        "target": "KUKR",
+        "total": 203,
+        "ok": 203,
+        "ok_topic": 203,
+        "ok_keyword": 185
+      },
+      {
+        "source": "KU_Forest",
+        "target": "KU_MOOC",
+        "total": 203,
+        "ok": 174,
+        "ok_topic": 174,
+        "ok_keyword": 0
+      },
+      {
+        "source": "KU_MOOC",
+        "target": "KUKR",
+        "total": 6,
+        "ok": 6,
+        "ok_topic": 6,
+        "ok_keyword": 0
+      },
+      {
+        "source": "KU_MOOC",
+        "target": "KU_Forest",
+        "total": 6,
+        "ok": 6,
+        "ok_topic": 6,
+        "ok_keyword": 0
+      }
+    ],
+    "total": 1224,
+    "ok": 1143,
+    "rate": 0.9338235294117647,
+    "failures": [
+      {
+        "source": "KUKR",
+        "target": "KU_MOOC",
+        "topic_ids": [
+          "2"
+        ],
+        "n": 52
+      },
+      {
+        "source": "KU_Forest",
+        "target": "KU_MOOC",
+        "topic_ids": [
+          "2"
+        ],
+        "n": 29
+      }
+    ],
+    "author_bridges": 16,
+    "pass": true
+  },
+  "links": {
+    "unresolved_references": [],
+    "dangling_model_edges": [],
+    "model_edges": 4888,
+    "graph_edges": 4888,
+    "missing_url": [],
+    "http": null,
+    "pass": true
+  }
+}
