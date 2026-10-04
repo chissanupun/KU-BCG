@@ -37,7 +37,7 @@ export default function Home() {
 
       {/* Logo */}
       <div className="absolute" style={{ top: 40, right: 40, zIndex: 10 }}>
-        <Image src="/ku-bcg.png" alt="KU Phumpanya" width={60} height={57} className="object-contain ku-logo" unoptimized />
+        <Image src="/ku-bcg.png" alt="KU Phumpanya" width={100} height={95} className="object-contain ku-logo" unoptimized />
       </div>
 
       {/* Sidebar */}

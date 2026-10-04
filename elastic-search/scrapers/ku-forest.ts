@@ -17,10 +17,16 @@ export interface KUForestDoc {
   indexed_at: string;
 }
 
-function parseRows(html: string): { type: string; title: string; year?: number; pi: string[]; copi: string[]; funding: string }[] {
-  const results: { type: string; title: string; year?: number; pi: string[]; copi: string[]; funding: string }[] = [];
+const FOREST_BASE = 'https://research.ku.ac.th/forest/';
+
+type Row = { type: string; title: string; year?: number; pi: string[]; copi: string[]; funding: string; href?: string };
+
+export function parseRows(html: string): Row[] {
+  const results: Row[] = [];
   const tdMatches = html.matchAll(/<td[^>]*>([\s\S]*?)<\/td>/gi);
   for (const [, inner] of tdMatches) {
+    const hrefMatch = inner.match(/<h4>[^<]*<\/h4>\s*<a[^>]*href="([^"]+)"/i);
+    const href = hrefMatch ? new URL(hrefMatch[1].replace(/&amp;/g, '&'), FOREST_BASE).href : undefined;
     const text = inner.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
     if (!text.match(/^(งานวิจัย|วารสาร|ประชุม|บทความ|ทรัพย์สิน|รางวัล)/)) continue;
 
@@ -41,7 +47,7 @@ function parseRows(html: string): { type: string; title: string; year?: number; 
     const fundingMatch = text.match(/แหล่งทุน:\s*([^ผ]+?)(?:ผลลัพธ์:|$)/);
     const funding = fundingMatch?.[1]?.trim() || '';
 
-    if (title.length > 5) results.push({ type: docType, title, year, pi, copi, funding });
+    if (title.length > 5) results.push({ type: docType, title, year, pi, copi, funding, href });
   }
   return results;
 }
@@ -86,7 +92,7 @@ export async function scrapeKUForest(): Promise<KUForestDoc[]> {
             title: row.title,
             authors: [...row.pi, ...row.copi].slice(0, 5),
             year: row.year,
-            url,
+            url: row.href ?? url,
             topic_ids: uniqueTopicIds,
             bcg_pillars: bcgPillars,
             keywords: [keyword],
