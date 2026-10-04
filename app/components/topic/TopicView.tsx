@@ -51,8 +51,8 @@ export default function TopicView({
       </div>
 
       <div style={{ flex: 1, height: "100dvh", overflowY: "auto", position: "relative", fontFamily: FONT }}>
-        <div style={{ position: "absolute", right: 36, top: 30, width: 60, height: 57, zIndex: 10 }}>
-          <Image src="/ku-bcg.png" alt="KU Phumpanya" width={60} height={57} className="object-contain ku-logo" unoptimized />
+        <div style={{ position: "absolute", right: 36, top: 30, width: 100, height: 95, zIndex: 10 }}>
+          <Image src="/ku-bcg.png" alt="KU Phumpanya" width={100} height={95} className="object-contain ku-logo" unoptimized />
         </div>
 
         {detail?.badge && !notice && (
