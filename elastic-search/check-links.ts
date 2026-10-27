@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 
 type Item = { url: string; group: string; title?: string };
-const GROUPS = ['KU_Forest', 'KUKR', 'KU_MOOC'];
+const GROUPS = ['KU_Forest', 'KUKR', 'KU_MOOC', 'Laravel'];
 const UA = 'KU-Phumpanya-linkcheck/1.0';
 
 // dedupe by url, first source wins
@@ -38,13 +38,14 @@ const selftest = () => {
 };
 
 (async () => {
-  const arg = (n: string) => process.argv.find((a) => a.startsWith(`--${n}=`))?.split('=')[1];
+  const arg = (n: string) => process.argv.find((a) => a.startsWith(`--${n}=`))?.slice(n.length + 3);
   if (process.argv.includes('--selftest')) return selftest();
 
   const only = arg('only');
   if (only && !GROUPS.includes(only)) throw new Error(`--only must be one of ${GROUPS.join('|')}`);
-  const delay = Math.max(1000, Number(arg('delay') ?? 1000));
-  const from = Number(arg('from') ?? 0);
+  const num = (v: string | undefined, d: number) => (Number.isFinite(Number(v ?? d)) ? Number(v ?? d) : d);
+  const delay = Math.max(1000, num(arg('delay'), 1000)); // NaN would disable the politeness delay
+  const from = Math.max(0, num(arg('from'), 0));
   const lv = arg('laravel-seed');
   const read = (f: string) => JSON.parse(fs.readFileSync(path.join(__dirname, f), 'utf8'));
   const all = collect(read('data/all_docs.json'), read('seed-data.json'), lv ? fs.readFileSync(lv, 'utf8') : '');
@@ -59,10 +60,12 @@ const selftest = () => {
     checked++;
     try {
       const r = await fetch(url, { redirect: 'follow', signal: AbortSignal.timeout(20000), headers: { 'User-Agent': UA } });
-      const body = await r.text();
-      if (r.status !== 200) { failure = { url, reason: `HTTP ${r.status}` }; break; }
+      if (r.status !== 200) { await r.body?.cancel(); failure = { url, reason: `HTTP ${r.status}` }; break; }
       ok++;
-      if (group === 'KU_Forest' && /Project\.aspx/i.test(url) && title && !body.replace(/\s+/g, ' ').includes(title.replace(/\s+/g, ' ').slice(0, 30))) warnings.push(`${url}: title not found in page`);
+      if (group === 'KU_Forest' && /Project\.aspx/i.test(url) && title) {
+        const body = await r.text();
+        if (!body.replace(/\s+/g, ' ').includes(title.replace(/\s+/g, ' ').slice(0, 30))) warnings.push(`${url}: title not found in page`);
+      } else await r.body?.cancel();
     } catch (e) {
       failure = { url, reason: String(e) };
       break;
@@ -76,6 +79,7 @@ const selftest = () => {
     search_aspx_urls: items.filter((i) => /Search\.aspx/i.test(i.url)).length,
   };
   const base = path.join(__dirname, 'data/results', `link-report-${new Date().toISOString().slice(0, 10).replace(/-/g, '')}`);
+  fs.mkdirSync(path.dirname(base), { recursive: true });
   fs.writeFileSync(`${base}.json`, JSON.stringify(report, null, 2));
   fs.writeFileSync(`${base}.md`, [
     '# Link check report', '',
