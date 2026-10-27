@@ -20,6 +20,10 @@ WITH n, coalesce(n.url,'') AS u
 WHERE u = '' OR NOT u STARTS WITH 'http'
 RETURN labels(n)[0] AS label, count(*) AS broken;
 
+// 1.2.4c per-item links: distinct ids vs distinct urls, and remaining keyword-search urls
+MATCH (r:Research) RETURN count(r) AS research, count(DISTINCT r.id) AS ids, count(DISTINCT r.url) AS urls,
+       sum(CASE WHEN r.url CONTAINS 'Search.aspx' THEN 1 ELSE 0 END) AS search_urls;
+
 // 1.2.4b cross-source traversal: % of topics reachable from all 3 sources
 MATCH (t:Topic)
 OPTIONAL MATCH (t)<-[:BELONGS_TO_TOPIC]-(r:Research)
