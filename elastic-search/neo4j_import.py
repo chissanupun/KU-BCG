@@ -4,6 +4,9 @@ Reads seed-data.json (topics/faculties/pillars/courses) + data/all_docs.json
 (612 KUKR+KU_Forest+KU_MOOC docs, ES dump format) + data/all_relations.json
 (19 hand-curated triples), emits a single .cypher script.
 
+Research/Document nodes are keyed by the ES _id, so shared or search URLs
+no longer merge edges between docs.
+
 Node labels: Topic, Faculty, BcgPillar, Course, Keyword, Research (KU_Forest),
 Document (KUKR), Author.
 
@@ -27,7 +30,11 @@ def esc(s: str) -> str:
     return str(s).replace("\\", "\\\\").replace("'", "\\'")
 
 
-lines = ["MATCH (n) DETACH DELETE n;"]
+lines = [
+    "MATCH (n) DETACH DELETE n;",
+    "CREATE CONSTRAINT research_id IF NOT EXISTS FOR (n:Research) REQUIRE n.id IS UNIQUE;",
+    "CREATE CONSTRAINT document_id IF NOT EXISTS FOR (n:Document) REQUIRE n.id IS UNIQUE;",
+]
 
 # --- core nodes ---
 for t in seed["topics"]:
@@ -90,20 +97,21 @@ for hit in docs:
     label = SOURCE_LABEL.get(src.get("source"))
     if not label:
         continue  # KU_MOOC docs already covered by Course nodes
+    doc_id = hit["_id"]
     title = src.get("title", "")
     url = src.get("url", "")
     year = src.get("year", "")
     lines.append(
-        f"CREATE (:{label} {{title: '{esc(title)}', url: '{esc(url)}', year: '{esc(year)}'}});"
+        f"CREATE (:{label} {{id: '{esc(doc_id)}', title: '{esc(title)}', url: '{esc(url)}', year: '{esc(year)}'}});"
     )
     for tid in src.get("topic_ids", []):
         lines.append(
-            f"MATCH (d:{label} {{url:'{esc(url)}'}}), (t:Topic {{id:'{esc(tid)}'}}) "
+            f"MATCH (d:{label} {{id:'{esc(doc_id)}'}}), (t:Topic {{id:'{esc(tid)}'}}) "
             "MERGE (d)-[:BELONGS_TO_TOPIC]->(t);"
         )
     for p in src.get("bcg_pillars", []):
         lines.append(
-            f"MATCH (d:{label} {{url:'{esc(url)}'}}), (p:BcgPillar {{name:'{esc(p)}'}}) "
+            f"MATCH (d:{label} {{id:'{esc(doc_id)}'}}), (p:BcgPillar {{name:'{esc(p)}'}}) "
             "MERGE (d)-[:TAGGED_BCG]->(p);"
         )
     for kw in src.get("keywords", []):
@@ -111,13 +119,13 @@ for hit in docs:
             f"MERGE (k:Keyword {{name: '{esc(kw)}'}});"
         )
         lines.append(
-            f"MATCH (d:{label} {{url:'{esc(url)}'}}), (k:Keyword {{name:'{esc(kw)}'}}) "
+            f"MATCH (d:{label} {{id:'{esc(doc_id)}'}}), (k:Keyword {{name:'{esc(kw)}'}}) "
             "MERGE (d)-[:HAS_KEYWORD]->(k);"
         )
     for a in src.get("authors", []):
         authors.add(a)
         lines.append(
-            f"MATCH (d:{label} {{url:'{esc(url)}'}}) MERGE (a:Author {{name:'{esc(a)}'}}) "
+            f"MATCH (d:{label} {{id:'{esc(doc_id)}'}}) MERGE (a:Author {{name:'{esc(a)}'}}) "
             "MERGE (d)-[:WRITTEN_BY]->(a);"
         )
 
