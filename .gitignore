@@ -50,3 +50,7 @@ next-env.d.ts
 
 # contract / internal KU docs — names, salaries, budget. never commit (repo goes open-source ก.ค. 2570)
 docs/contract/
+
+# embed_server test venv
+elastic-search/.venv-test/
+.coverage
