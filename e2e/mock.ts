@@ -2,7 +2,7 @@ import type { Page } from "@playwright/test";
 import type { GraphRagResult } from "../lib/types";
 
 const user = {
-  id: 1, name: "E2E User", email: "e2e@example.com", email_verified_at: "2026-01-01", role: "student", google_id: null,
+  id: 1, name: "E2E User", email: "e2e@example.com", email_verified_at: "2026-01-01", role: "student", consent_required: false,
   avatar_url: null, profile_completed_at: "2026-01-01", faculty: "เกษตร", department: null, student_id: null,
   employee_id: null, research_affiliation: null, created_at: "", updated_at: "",
 };
@@ -51,15 +51,42 @@ function resultFor(query: string): GraphRagResult {
 }
 
 /** Stands in for the Laravel API when the suite runs against the local static export. */
-export async function mockApi(page: Page, opts: { seed?: string[]; profileIncomplete?: boolean } = {}) {
+export async function mockApi(
+  page: Page,
+  opts: { seed?: string[]; profileIncomplete?: boolean; consentRequired?: boolean; deleteFails?: boolean } = {},
+) {
   const stored: string[] = [...(opts.seed ?? [])]; // history id = index + 1
+  let signedIn = true;
+  let consentRequired = opts.consentRequired ?? false;
+  const calls: { method: string; path: string; body: unknown }[] = []; // for specs that assert on writes
   await page.route("**/sanctum/**", (route) => route.fulfill({ status: 204 }));
   await page.route("**/api/**", async (route) => {
     const request = route.request();
     const path = new URL(request.url()).pathname;
     const json = (body: unknown) => route.fulfill({ status: 200, contentType: "application/json", body: JSON.stringify(body) });
 
-    if (path === "/api/user") return json(opts.profileIncomplete ? { ...user, profile_completed_at: null } : user);
+    if (request.method() !== "GET") calls.push({ method: request.method(), path, body: request.postDataJSON() });
+
+    if (path === "/api/user") {
+      if (!signedIn) return route.fulfill({ status: 401, contentType: "application/json", body: JSON.stringify({ message: "Unauthenticated." }) });
+      return json({ ...user, consent_required: consentRequired, ...(opts.profileIncomplete && { profile_completed_at: null }) });
+    }
+    if (path === "/api/consent") {
+      consentRequired = false;
+      return json({ ...user, consent_required: false });
+    }
+    if (path === "/api/logout") {
+      signedIn = false;
+      return route.fulfill({ status: 204 });
+    }
+    if (path === "/api/profile" && request.method() === "DELETE") {
+      const { confirm_email } = request.postDataJSON() as { confirm_email: string };
+      if (opts.deleteFails || confirm_email.toLowerCase() !== user.email) {
+        return route.fulfill({ status: 422, contentType: "application/json", body: JSON.stringify({ message: "The given data was invalid.", errors: { confirm_email: ["อีเมลไม่ตรงกับบัญชีของคุณ"] } }) });
+      }
+      signedIn = false;
+      return route.fulfill({ status: 204 });
+    }
     if (path === "/api/reference/faculties") return json({ faculties: FACULTIES });
     if (path === "/api/reference/roles") return json({ roles: [{ value: "student", label: "นิสิต" }, { value: "teacher", label: "อาจารย์" }, { value: "researcher", label: "นักวิจัย" }] });
     if (path === "/api/smart-picks") {
@@ -86,4 +113,5 @@ export async function mockApi(page: Page, opts: { seed?: string[]; profileIncomp
     }
     return route.fulfill({ status: 404, body: "{}" });
   });
+  return { calls };
 }

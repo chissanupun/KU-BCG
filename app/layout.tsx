@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { UserProvider } from "@/lib/UserContext";
 import { SearchHistoryProvider } from "@/lib/SearchHistoryContext";
+import SessionGuard from "./components/SessionGuard";
+import ConsentModal from "./components/ConsentModal";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -18,7 +20,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
         <UserProvider>
-          <SearchHistoryProvider>{children}</SearchHistoryProvider>
+          <SearchHistoryProvider>
+            {children}
+            <SessionGuard />
+            <ConsentModal />
+          </SearchHistoryProvider>
         </UserProvider>
       </body>
     </html>

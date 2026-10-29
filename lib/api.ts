@@ -23,13 +23,16 @@ export function ensureCsrfCookie(): Promise<void> {
 /**
  * Drops the memoized token so the next state-changing request re-fetches it.
  *
- * Laravel expires sessions after `SESSION_LIFETIME` (120 min) and issues a fresh
+ * Laravel expires sessions after `SESSION_LIFETIME` (30 min idle) and issues a fresh
  * one; a long-lived SPA tab would otherwise keep sending the retired token and
  * get 419 on every write until a full reload.
  */
 export function resetCsrfCookie(): void {
   csrfReady = null;
 }
+
+/** Fired on any 401 from /api/* except /api/user (where 401 just means "not signed in"): contract C5. */
+export const UNAUTHORIZED_EVENT = "ku:unauthorized";
 
 export class ApiError extends Error {
   status: number;
@@ -85,6 +88,7 @@ export async function apiFetch<T>(path: string, options: ApiFetchOptions = {}, r
   const data = isJson ? await res.json() : undefined;
 
   if (!res.ok) {
+    if (res.status === 401 && path !== "/api/user") window.dispatchEvent(new Event(UNAUTHORIZED_EVENT));
     throw new ApiError(res.status, (data as { message?: string })?.message ?? res.statusText, data);
   }
 
