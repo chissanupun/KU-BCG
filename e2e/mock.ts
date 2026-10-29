@@ -8,19 +8,31 @@ const user = {
 };
 
 // Deliberately not imported from topics.ts: the spec must be able to fail when a faculty is missing.
+// Same per-topic mapping the backend returns; any other query gets all four.
 const FACULTIES = ["เกษตร", "อุตสาหกรรมเกษตร", "วนศาสตร์", "ประมง"];
+const FACULTIES_BY_TOPIC: Record<string, string[]> = {
+  "ชีวมวลและพลังงานทดแทน": ["เกษตร", "อุตสาหกรรมเกษตร", "วนศาสตร์"],
+  "ไคโตซานและบรรจุภัณฑ์ชีวภาพ": ["ประมง", "อุตสาหกรรมเกษตร", "เกษตร"],
+  "Microplastics": ["ประมง", "อุตสาหกรรมเกษตร", "เกษตร"],
+  "Carbon Footprint": ["วนศาสตร์", "เกษตร", "อุตสาหกรรมเกษตร", "ประมง"],
+  "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืน": ["ประมง", "อุตสาหกรรมเกษตร"],
+  "วนเกษตร": ["วนศาสตร์", "เกษตร", "ประมง"],
+};
 
 const node = (label: string, type: "topic" | "faculty" | "course" | "bcg_pillar") => ({ label, color: "#2D5A43", type });
 
 function resultFor(query: string): GraphRagResult {
+  const faculties = FACULTIES_BY_TOPIC[query] ?? FACULTIES;
   return {
+    // C1 as deployed: pillars are Bio / Circular / Green with no BCG_ prefix.
+    tags: { bcg_pillars: ["Green", "Bio"], faculties },
     title: query,
     overview: { intro: `${query}: ภาพรวมโดยย่อ`, analogy: "เปรียบเทียบให้เข้าใจง่าย", research_basis: "อ้างอิงงานวิจัย KU", expert: "ผู้เชี่ยวชาญตัวอย่าง" },
     knowledge_graph: {
       center: node(query, "topic"),
       description: `แผนที่ความรู้ของ ${query}`,
-      nodes: [node("BCG_Green", "bcg_pillar"), ...FACULTIES.map((f) => node(f, "faculty")), node("kumooc-1", "course")],
-      edges: [{ from: query, to: "BCG_Green", type: "relatedTo" }, ...FACULTIES.map((f) => ({ from: query, to: f, type: "studiedBy" }))],
+      nodes: [node("BCG_Green", "bcg_pillar"), ...faculties.map((f) => node(f, "faculty")), node("kumooc-1", "course")],
+      edges: [{ from: query, to: "BCG_Green", type: "relatedTo" }, ...faculties.map((f) => ({ from: query, to: f, type: "studiedBy" }))],
     },
     learning_path: {
       estimated_hours: "20 ชั่วโมง",

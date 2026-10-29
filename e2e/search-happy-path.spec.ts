@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
 import { mockApi } from "./mock";
-import { FACULTIES, TOPICS } from "./topics";
+import { TOPICS } from "./topics";
 
 const live = Boolean(process.env.E2E_BASE_URL);
 
@@ -8,9 +8,9 @@ test.beforeEach(async ({ page }) => {
   if (!live) await mockApi(page);
 });
 
-// One search per topic; the four faculties are checked inside it (a search per faculty would
-// quadruple the Gemini calls a live run spends without testing anything else).
-for (const topic of TOPICS) {
+// One search per topic; that topic's pilot faculties are checked inside it (a search per faculty would
+// multiply the Gemini calls a live run spends without testing anything else).
+for (const { query: topic, faculties } of TOPICS) {
   test(`search → overview → map → path → topic: ${topic}`, async ({ page }) => {
     const errors: string[] = [];
     page.on("console", (m) => m.type() === "error" && !/favicon/.test(m.text()) && errors.push(m.text()));
@@ -25,8 +25,8 @@ for (const topic of TOPICS) {
       await expect(page.getByRole("tab", { name: "ภาพรวม" })).toHaveAttribute("aria-selected", "true", { timeout: 60_000 });
       await expect(page.getByRole("heading", { name: "หลักฐานจากแหล่งข้อมูล KU", exact: false })).toBeVisible();
       await expect(page.getByRole("tabpanel").locator("article").first()).toBeVisible();
-      await expect(page.getByRole("tabpanel").getByText(/^BCG_/).first()).toBeVisible();
-      for (const faculty of FACULTIES) {
+      await expect(page.getByRole("tabpanel").getByText(/^(BCG_)?(Bio|Circular|Green)$/).first()).toBeVisible();
+      for (const faculty of faculties) {
         await test.step(`faculty chip: ${faculty}`, async () => {
           await expect(page.getByLabel("หมวด BCG และคณะที่เกี่ยวข้อง").getByText(faculty, { exact: true })).toBeVisible();
         });
