@@ -5,7 +5,8 @@ import { useRouter } from "next/navigation";
 import { apiFetch, ApiError } from "./api";
 import { useUser } from "./UserContext";
 import { useSearchHistory } from "./SearchHistoryContext";
-import type { GraphRagResult, SearchHistory, SearchHistoryDetail } from "./types";
+import { POLL_MS, pollStep } from "./searchPoll";
+import type { EvidenceItem, GraphRagResult, SearchHistory, SearchHistoryDetail } from "./types";
 
 export type SearchResultError = { status?: number; message: string };
 
@@ -68,6 +69,9 @@ export function useSearchResult({ historyId, query, rewriteTo }: Options) {
   const [resolvedQuery, setResolvedQuery] = useState<string | undefined>(undefined);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<SearchResultError | null>(null);
+  /** Contract C2: the backend answered early with evidence only and is still synthesizing. */
+  const [pending, setPending] = useState(false);
+  const [partialEvidence, setPartialEvidence] = useState<EvidenceItem[]>([]);
 
   /**
    * The request already served, e.g. "q:สาหร่าย" or "h:42". POST /api/search is a
@@ -98,6 +102,8 @@ export function useSearchResult({ historyId, query, rewriteTo }: Options) {
       setResolvedQuery(undefined);
       setError(null);
       setLoading(false);
+      setPending(false);
+      setPartialEvidence([]);
       servedKey.current = null;
       return;
     }
@@ -117,6 +123,37 @@ export function useSearchResult({ historyId, query, rewriteTo }: Options) {
     const seq = ++reqSeq.current;
     setLoading(true);
     setError(null);
+    setPending(false);
+    setPartialEvidence([]);
+
+    const startedAt = Date.now();
+    const poll = (id: number, pollSeq: number) => {
+      const tick = async () => {
+        // `alive` is checked rather than clearing a timer on cleanup: dev StrictMode
+        // runs cleanup then re-mounts, and the dedupe above would never restart the poll.
+        if (!alive.current || reqSeq.current !== pollSeq) return;
+        try {
+          const json = await apiFetch<{ data: SearchHistoryDetail }>(`/api/search/history/${id}`);
+          if (!alive.current || reqSeq.current !== pollSeq) return;
+          const step = pollStep(json.data.status, Date.now() - startedAt);
+          if (step === "done") {
+            if (json.data.result) setResult(json.data.result);
+            else setError({ message: "ไม่พบผลลัพธ์" });
+            setPending(false);
+          } else if (step === "timeout") {
+            setError({ message: "ใช้เวลาประมวลผลนานเกินไป กรุณาลองค้นหาอีกครั้ง" });
+            setPending(false);
+          } else {
+            setTimeout(tick, POLL_MS);
+          }
+        } catch (err: unknown) {
+          if (!alive.current || reqSeq.current !== pollSeq) return;
+          setError(describeError(err, true, Boolean(user.profile_completed_at)));
+          setPending(false);
+        }
+      };
+      setTimeout(tick, POLL_MS);
+    };
 
     const request =
       historyId !== undefined
@@ -124,24 +161,35 @@ export function useSearchResult({ historyId, query, rewriteTo }: Options) {
             id: json.data.id,
             query: json.data.query,
             result: json.data.result,
+            status: json.data.status,
             rewrite: false,
           }))
         : apiFetch<{ data: SearchHistory }>("/api/search", { method: "POST", body: { query } }).then((json) => ({
             id: json.data.id,
             query: json.data.query,
             result: json.data.result,
+            status: json.data.status,
             rewrite: true,
           }));
 
     request
-      .then(({ id, query: storedQuery, result: data, rewrite }) => {
+      .then(({ id, query: storedQuery, result: data, status, rewrite }) => {
         if (reqSeq.current !== seq) return;
-        if (!data) {
+        const isPending = status === "pending";
+        if (!data && !isPending) {
           setError({ message: "ไม่พบผลลัพธ์" });
           return;
         }
-        setResult(data);
         setResolvedQuery(storedQuery);
+        if (isPending) {
+          // Hold the partial result apart from `result`: pages read modules and the
+          // graph off `result` and would crash on a body that only has evidence.
+          setPending(true);
+          setPartialEvidence(Array.isArray(data?.evidence) ? data.evidence : []);
+          poll(id, seq);
+        } else {
+          setResult(data);
+        }
         if (rewrite && rewriteTo && alive.current) {
           // A new entry exists now, and `?h=` makes reload/back replay it instead of re-searching.
           servedKey.current = `h:${id}`;
@@ -158,5 +206,6 @@ export function useSearchResult({ historyId, query, rewriteTo }: Options) {
       });
   }, [query, historyId, rewriteTo, user, userLoading, router, refreshHistory]);
 
-  return { result, query: resolvedQuery, loading: loading || userLoading, error };
+  // A pending search still counts as loading: callers only see `result` once it is complete.
+  return { result, query: resolvedQuery, loading: loading || userLoading || pending, pending, partialEvidence, error };
 }
