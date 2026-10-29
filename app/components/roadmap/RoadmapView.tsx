@@ -19,10 +19,19 @@ import PhaseSection from "./PhaseSection";
 export default function RoadmapView({
   roadmap,
   notice,
+  header,
+  activeTab,
+  body,
   progress,
 }: {
   roadmap?: Roadmap | null;
   notice?: ReactNode;
+  /** Replaces the topic badge: the result page puts its title and tab bar here. */
+  header?: ReactNode;
+  /** Key of the selected tab in `header`, so the panel can name the tab that labels it. */
+  activeTab?: string;
+  /** Replaces the hero card and phases, e.g. the overview or map tab. */
+  body?: ReactNode;
   /**
    * Live completion state. Absent for the curated roadmap, which has no stored
    * row — that one keeps whatever static `roadmap.progress` it declares.
@@ -44,7 +53,7 @@ export default function RoadmapView({
           <Image src="/ku-bcg.png" alt="KU Phumpanya" width={100} height={95} className="object-contain ku-logo" unoptimized />
         </div>
 
-        {roadmap?.topic && (
+        {!header && roadmap?.topic && (
           <motion.div
             {...fadeIn(0)}
             className="flex items-center justify-center"
@@ -64,23 +73,30 @@ export default function RoadmapView({
             <div style={{ fontFamily: FONT, fontSize: 14, lineHeight: "22px" }}>{notice}</div>
           ) : roadmap ? (
             <>
-              <HeroCard
-                estimatedHours={roadmap.estimatedHours}
-                description={roadmap.description}
-                progress={progress ? progress.percent : roadmap.progress}
-                completedCount={progress?.completedCount}
-                total={progress?.total}
-              />
+              {header}
+              <div id={header ? "result-panel" : undefined} role={header ? "tabpanel" : undefined} aria-labelledby={header && activeTab ? `tab-${activeTab}` : undefined}>
+                {body ?? (
+                  <>
+                    <HeroCard
+                      estimatedHours={roadmap.estimatedHours}
+                      description={roadmap.description}
+                      progress={progress ? progress.percent : roadmap.progress}
+                      completedCount={progress?.completedCount}
+                      total={progress?.total}
+                    />
 
-              {roadmap.phases.length > 0 ? (
-                roadmap.phases.map((phase, i) => (
-                  <PhaseSection key={`${phase.title}-${i}`} phase={phase} index={i} progress={progress} />
-                ))
-              ) : (
-                <p style={{ fontFamily: FONT, fontSize: 14, color: "var(--ku-text-muted)", marginTop: 37 }}>
-                  ยังไม่มีเส้นทางการเรียนรู้สำหรับหัวข้อนี้
-                </p>
-              )}
+                    {roadmap.phases.length > 0 ? (
+                      roadmap.phases.map((phase, i) => (
+                        <PhaseSection key={`${phase.title}-${i}`} phase={phase} index={i} progress={progress} />
+                      ))
+                    ) : (
+                      <p style={{ fontFamily: FONT, fontSize: 14, color: "var(--ku-text-muted)", marginTop: 37 }}>
+                        ยังไม่มีเส้นทางการเรียนรู้สำหรับหัวข้อนี้
+                      </p>
+                    )}
+                  </>
+                )}
+              </div>
             </>
           ) : null}
         </div>

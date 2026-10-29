@@ -34,15 +34,17 @@ function truncate(text: string | undefined, max = 14): string {
   return `${text.slice(0, max - 1)}…`;
 }
 
-function buildSimulationNodes(graph: KnowledgeGraph) {
+function buildSimulationNodes(graph: KnowledgeGraph, hiddenTypes: ReadonlySet<string>) {
   const center = graph.center ?? { label: "Topic", color: TYPE_COLORS.topic, type: "topic" };
   const nodes = graph.nodes ?? [];
   const edges = graph.edges ?? [];
 
   const byLabel = new Map<string, SimNode>();
+  // Filtered-out nodes must stay out even when an edge names them; the center is never hidden.
+  const hidden = new Set(nodes.filter((n) => hiddenTypes.has(n.type) && n.label !== center.label).map((n) => n.label));
 
   const addNode = (label: string | undefined, meta: Partial<{ color: string; type: string }> = {}) => {
-    if (!label) return undefined;
+    if (!label || hidden.has(label)) return undefined;
     if (byLabel.has(label)) return byLabel.get(label);
     const node: SimNode = {
       id: label,
@@ -208,14 +210,24 @@ function renderGraph(svg: SVGSVGElement, simNodes: SimNode[], simEdges: SimEdge[
   svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
 }
 
-export default function KnowledgeGraphView({ graph }: { graph: KnowledgeGraph }) {
+const NO_HIDDEN: ReadonlySet<string> = new Set();
+
+export default function KnowledgeGraphView({
+  graph,
+  hiddenTypes = NO_HIDDEN,
+  height = 360,
+}: {
+  graph: KnowledgeGraph;
+  hiddenTypes?: ReadonlySet<string>;
+  height?: number | string;
+}) {
   const svgRef = useRef<SVGSVGElement>(null);
 
   useEffect(() => {
     const svg = svgRef.current;
     if (!svg) return;
 
-    const { simNodes, simEdges, width, height, cx, cy } = buildSimulationNodes(graph);
+    const { simNodes, simEdges, width, height, cx, cy } = buildSimulationNodes(graph, hiddenTypes);
     if (simNodes.length === 0) return;
 
     let frame = 0;
@@ -231,12 +243,12 @@ export default function KnowledgeGraphView({ graph }: { graph: KnowledgeGraph })
 
     raf = requestAnimationFrame(animate);
     return () => cancelAnimationFrame(raf);
-  }, [graph]);
+  }, [graph, hiddenTypes]);
 
   return (
     <svg
       ref={svgRef}
-      style={{ width: "100%", height: 360, display: "block" }}
+      style={{ width: "100%", height, display: "block" }}
     />
   );
 }

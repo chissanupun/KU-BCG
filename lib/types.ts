@@ -99,6 +99,8 @@ export type GraphRagResult = {
   learning_path: LearningPath;
   evidence: EvidenceItem[];
   tier?: "basic" | "intermediate" | "advanced";
+  /** Contract C1. Absent on results stored before the backend shipped it. */
+  tags?: { bcg_pillars: string[]; faculties: string[] };
   _meta?: GraphRagMeta;
 };
 

@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "test:unit": "tsx --test lib/*.test.ts",
     "es:setup": "tsx elastic-search/setup-index.ts",
     "es:ingest": "tsx elastic-search/ingest.ts",
     "es:restore": "tsx elastic-search/restore-snapshot.ts",

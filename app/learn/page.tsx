@@ -6,7 +6,11 @@ import { googleLoginUrl } from "@/lib/api";
 import { useSearchResult } from "@/lib/useSearchResult";
 import { useLearningProgress } from "@/lib/useLearningProgress";
 import { DEFAULT_ROADMAP, fromGraphRag } from "@/lib/roadmap";
+import { parseTab } from "@/lib/resultView";
 import RoadmapView from "../components/roadmap/RoadmapView";
+import ResultTabs from "./ResultTabs";
+import OverviewTab from "./OverviewTab";
+import MapTab from "./MapTab";
 
 const PRIMARY = "#3b6347";
 
@@ -22,6 +26,8 @@ function LearnPageInner() {
     query: historyId === undefined ? q : undefined,
     rewriteTo: "/learn",
   });
+
+  const tab = parseTab(searchParams.get("tab"));
 
   const roadmap = useMemo(
     () => (result ? fromGraphRag(result, query, historyId) : null),
@@ -71,7 +77,15 @@ function LearnPageInner() {
     );
   }
 
-  return <RoadmapView roadmap={roadmap} progress={progress} />;
+  return (
+    <RoadmapView
+      roadmap={roadmap}
+      progress={progress}
+      activeTab={tab}
+      header={result && <ResultTabs title={result.title || query || roadmap?.title || ""} active={tab} />}
+      body={result && tab === "overview" ? <OverviewTab result={result} /> : result && tab === "map" ? <MapTab key={historyId ?? query} result={result} /> : undefined}
+    />
+  );
 }
 
 export default function LearnPage() {
