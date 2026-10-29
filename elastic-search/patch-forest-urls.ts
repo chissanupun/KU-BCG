@@ -2,17 +2,9 @@ import fs from 'fs';
 import path from 'path';
 import { esClient, DOCS_INDEX } from './es-client';
 import { scrapeKUForest, parseRows } from './scrapers/ku-forest';
+import { pretty } from './snapshot-format';
 
 const key = (t: string) => t.slice(0, 80);
-const pretty = (v: unknown, ind = ''): string => {
-  if (Array.isArray(v)) return v.length ? `[\n${v.map((x) => `${ind}  ${pretty(x, ind + '  ')}`).join(',\n')}\n${ind}]` : '[ ]';
-  if (v && typeof v === 'object') {
-    const e = Object.entries(v);
-    return e.length ? `{\n${e.map(([k, x]) => `${ind}  ${JSON.stringify(k)} : ${typeof x === 'number' && /^(_score|max_score)$/.test(k) ? x.toFixed(1) : pretty(x, ind + '  ')}`).join(',\n')}\n${ind}}` : '{ }';
-  }
-  return JSON.stringify(v);
-};
-
 const lookup = async (title: string) => {
   await new Promise((r) => setTimeout(r, 1000));
   const r = await fetch(`https://research.ku.ac.th/forest/Search.aspx?keyword=${encodeURIComponent(title)}`, { signal: AbortSignal.timeout(15000) });

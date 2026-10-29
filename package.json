@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test:unit": "tsx --test lib/*.test.ts",
+    "test:unit": "tsx --test lib/*.test.ts elastic-search/*.test.ts",
     "e2e": "playwright test",
     "es:setup": "tsx elastic-search/setup-index.ts",
     "es:ingest": "tsx elastic-search/ingest.ts",

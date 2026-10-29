@@ -15,6 +15,7 @@ const docsBody = {
       title: { type: 'text', analyzer: 'thai_custom', fields: { keyword: { type: 'keyword' } } },
       title_en: { type: 'text', analyzer: 'mixed_analyzer' },
       abstract: { type: 'text', analyzer: 'thai_custom' },
+      abstract_en: { type: 'text', analyzer: 'mixed_analyzer' },
       authors: { type: 'keyword' },
       year: { type: 'integer' },
       url: { type: 'keyword' },
