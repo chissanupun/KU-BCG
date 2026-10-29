@@ -18,3 +18,9 @@ so one project already uses 6 of them. Use a paid key before running all four pr
 
 Live runs turn traces and screenshots off, because a trace records the session cookie.
 The HTML report is written to `docs/gates/1.5.1/report`. Mock runs write to `playwright-report/` instead. Commit the gate report (`git add -f`, the folder is ignored) only from a live run.
+
+## Layout (gate 1.4.6)
+
+`e2e/layout.spec.ts` loads every page at 1440×900, 1280×800, 1180×820, 1024×768 and 810×1080 and fails if any
+element is wider than its box, or if the hamburger is missing at ≤1024px / present above it. Mock mode only.
+`E2E_SHOTS=1 npx playwright test e2e/layout.spec.ts` also writes a screenshot per case to `docs/gates/1.4.6/<project>/`.

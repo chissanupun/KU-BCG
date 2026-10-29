@@ -1,7 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { default as ForceGraph2DType, ForceGraphMethods, NodeObject } from "react-force-graph-2d";
 import { layoutMapNodes, type TopicMapEdge, type TopicMapNode } from "@/lib/topic";
 import { FONT } from "../roadmap/tokens";
@@ -83,6 +83,16 @@ export default function MindMap({
   const isStatic = nodes.length > 0 && nodes.every((n) => n.cx !== undefined && n.cy !== undefined);
 
   const fgRef = useRef<ForceGraphMethods<GNode, GLink>>(undefined);
+// The canvas is a fixed-size <canvas>, so it follows its box instead of overflowing a narrow column.
+const boxRef = useRef<HTMLDivElement>(null);
+const [canvasW, setCanvasW] = useState(CANVAS.w);
+useEffect(() => {
+  const el = boxRef.current;
+  if (!el) return;
+  const ro = new ResizeObserver(() => setCanvasW(Math.min(CANVAS.w, Math.floor(el.clientWidth))));
+  ro.observe(el);
+  return () => ro.disconnect();
+}, []);
   const [hovered, setHovered] = useState<string | null>(null);
   const [focused, setFocused] = useState<string | null>(null);
   const [hiddenTypes, setHiddenTypes] = useState<Set<string>>(new Set());
@@ -179,8 +189,9 @@ export default function MindMap({
         {title}
       </p>
       <div
+        ref={boxRef}
         style={{
-          width: CANVAS.w, borderRadius: 12, overflow: "hidden",
+          width: "100%", maxWidth: CANVAS.w, borderRadius: 12, overflow: "hidden",
           border: "0.5px solid var(--ku-card-border)", background: "var(--ku-card-bg)",
           padding: "16px 0 10px", position: "relative",
         }}
@@ -261,7 +272,7 @@ export default function MindMap({
 
         <ForceGraph2D
           ref={fgRef}
-          width={CANVAS.w}
+          width={canvasW}
           height={CANVAS.h}
           graphData={graphData}
           backgroundColor="rgba(0,0,0,0)"

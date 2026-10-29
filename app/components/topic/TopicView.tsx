@@ -1,10 +1,9 @@
 "use client";
 
 import { useState, type ReactNode } from "react";
-import Image from "next/image";
 import { motion } from "framer-motion";
 import type { TopicDetail } from "@/lib/topic";
-import Sidebar from "../Sidebar";
+import AppShell from "../AppShell";
 import { PRIMARY, FONT, fadeIn } from "../roadmap/tokens";
 import CompleteToggle from "../roadmap/CompleteToggle";
 import MindMap from "./MindMap";
@@ -43,26 +42,20 @@ export default function TopicView({
   // Collapsed by default: the shortened body is the point, and a card that opens
   // already expanded would be the wall of text it replaced.
   const [showFull, setShowFull] = useState(false);
+  const hasBadge = Boolean(detail?.badge) && !notice;
   const paragraphs = (showFull && detail?.bodyFull ? detail.bodyFull : detail?.body) ?? [];
   return (
-    <div style={{ width: 1440, height: "100dvh", display: "flex", overflow: "hidden", background: "var(--ku-bg)" }}>
-      <div style={{ width: 195, height: "100dvh", flexShrink: 0 }}>
-        <Sidebar height="100dvh" />
-      </div>
-
-      <div style={{ flex: 1, height: "100dvh", overflowY: "auto", position: "relative", fontFamily: FONT }}>
-        <div style={{ position: "absolute", right: 36, top: 30, width: 100, height: 95, zIndex: 10 }}>
-          <Image src="/ku-bcg.png" alt="KU Phumpanya" width={100} height={95} className="object-contain ku-logo" unoptimized />
-        </div>
-
-        {detail?.badge && !notice && (
+    <AppShell>
+      <div style={{ fontFamily: FONT, paddingBottom: 60 }} className={hasBadge ? "pt-6! min-[1025px]:pt-[134px]!" : "pt-6! min-[1025px]:pt-[209px]!"}>
+        <div style={{ marginLeft: "clamp(24px, 16vw, 226px)", marginRight: 24, maxWidth: 606 }}>
+        {hasBadge && detail?.badge && (
           <motion.div
             {...fadeIn(0)}
             style={{
-              position: "absolute", left: 731, top: 134, minHeight: 44,
+              marginBottom: 20, marginLeft: "auto", minHeight: 44, maxWidth: "100%",
               ...(detail.badgeWidth
                 ? { width: detail.badgeWidth }
-                : { minWidth: 139, maxWidth: 420, padding: "0 16px" }),
+                : { minWidth: 139, padding: "0 16px", width: "fit-content" }),
               background: "var(--ku-tag-bg)", border: "0.5px solid var(--ku-tag-border)",
               borderRadius: 8, display: "flex", alignItems: "center", justifyContent: "center",
             }}
@@ -73,15 +66,14 @@ export default function TopicView({
           </motion.div>
         )}
 
-        <div style={{ paddingLeft: 226, paddingRight: 36, paddingTop: 44, paddingBottom: 60 }}>
           {notice ? (
-            <div style={{ marginTop: 165, fontFamily: FONT, fontSize: 14, lineHeight: "22px" }}>{notice}</div>
+            <div style={{ fontFamily: FONT, fontSize: 14, lineHeight: "22px" }}>{notice}</div>
           ) : detail ? (
             <>
               <motion.div
                 {...fadeIn(0.06)}
                 style={{
-                  width: 569, marginTop: 165, marginBottom: 20,
+                  width: "100%", maxWidth: 569, marginBottom: 20,
                   background: "var(--ku-overview-bg)", border: "0.5px solid var(--ku-overview-border)", borderRadius: 8,
                   padding: "25px 24px 16px", position: "relative",
                 }}
@@ -96,7 +88,7 @@ export default function TopicView({
                     {detail.hoursCaption}
                   </p>
                 )}
-                <div style={{ marginTop: 16, width: 375, height: 4, background: "var(--ku-progress-track)", borderRadius: 12 }}>
+                <div style={{ marginTop: 16, width: 375, maxWidth: "100%", height: 4, background: "var(--ku-progress-track)", borderRadius: 12 }}>
                   <div
                     style={{
                       width: `${Math.max(0, Math.min(100, progress?.percent ?? detail.progress ?? 0))}%`,
@@ -105,7 +97,7 @@ export default function TopicView({
                   />
                 </div>
                 {progress && progress.total > 0 && (
-                  <div style={{ marginTop: 12, display: "flex", alignItems: "center", justifyContent: "space-between", width: 375 }}>
+                  <div style={{ marginTop: 12, display: "flex", alignItems: "center", justifyContent: "space-between", width: 375, maxWidth: "100%" }}>
                     <CompleteToggle
                       completed={progress.completed}
                       onToggle={progress.onToggle}
@@ -205,7 +197,7 @@ export default function TopicView({
 
               {detail.research && (
                 <>
-                  <motion.div {...fadeIn(0.24)} style={{ width: 562, height: 1, background: "var(--ku-divider-line)", opacity: 0.5, marginBottom: 22 }} />
+                  <motion.div {...fadeIn(0.24)} style={{ width: "100%", maxWidth: 562, height: 1, background: "var(--ku-divider-line)", opacity: 0.5, marginBottom: 22 }} />
                   <motion.div {...fadeIn(0.26)} style={{ maxWidth: 507, marginBottom: 40 }}>
                     <p style={{ fontFamily: FONT, fontSize: 14, fontWeight: 600, lineHeight: "22px", color: "var(--ku-text)", marginBottom: 8 }}>
                       {detail.research.heading}
@@ -227,7 +219,7 @@ export default function TopicView({
 
               {(detail.expert || detail.sourceUrl) && (
                 <>
-                  <motion.div {...fadeIn(0.3)} style={{ width: 562, height: 1, background: "var(--ku-divider-line)", opacity: 0.5, marginBottom: 22 }} />
+                  <motion.div {...fadeIn(0.3)} style={{ width: "100%", maxWidth: 562, height: 1, background: "var(--ku-divider-line)", opacity: 0.5, marginBottom: 22 }} />
                   <motion.div {...fadeIn(0.32)} style={{ maxWidth: 477, marginBottom: 48 }}>
                     {detail.expert && (
                       <p style={{ fontFamily: FONT, fontSize: 14, lineHeight: "24px", color: "var(--ku-text)" }}>
@@ -263,6 +255,6 @@ export default function TopicView({
           ) : null}
         </div>
       </div>
-    </div>
+    </AppShell>
   );
 }

@@ -7,7 +7,7 @@ import { useSearchHistory } from "@/lib/SearchHistoryContext";
 import { useLearningProgress } from "@/lib/useLearningProgress";
 import { useUser } from "@/lib/UserContext";
 import type { RecentSearch } from "@/lib/types";
-import Sidebar from "../components/Sidebar";
+import AppShell from "../components/AppShell";
 import ProgressBar from "../components/roadmap/ProgressBar";
 import { FONT, PRIMARY, fadeIn } from "../components/roadmap/tokens";
 
@@ -41,10 +41,8 @@ export default function ProgressPage() {
   const { items, loading } = useSearchHistory();
 
   return (
-    <div className="flex h-screen overflow-hidden" style={{ background: "var(--ku-bg)", fontFamily: FONT }}>
-      <Sidebar height="100dvh" activeNav="progress" />
-
-      <main className="flex-1 flex flex-col items-center overflow-y-auto" style={{ paddingTop: 44, paddingBottom: 60 }}>
+    <AppShell activeNav="progress" logo={false}>
+      <main className="flex flex-col items-center pt-6! min-[1025px]:pt-11!" style={{ paddingBottom: 60, fontFamily: FONT }}>
         <div style={{ width: 600, maxWidth: "100%", padding: "0 16px" }}>
           <motion.div {...fadeIn(0)} className="flex items-center" style={{ gap: 16, marginBottom: 10 }}>
             <span style={{ background: PRIMARY, color: "#fff", fontSize: 15, fontWeight: 600, padding: "0 14px", height: 29, borderRadius: 6, display: "flex", alignItems: "center" }}>
@@ -83,6 +81,6 @@ export default function ProgressPage() {
           )}
         </div>
       </main>
-    </div>
+    </AppShell>
   );
 }

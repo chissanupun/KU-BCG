@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import Sidebar from "../components/Sidebar";
+import AppShell from "../components/AppShell";
 
 const PRIMARY = "#3b6347";
 const FONT = "Poppins, sans-serif";
@@ -49,7 +49,7 @@ function LineChart() {
     ` L${xPos(line1.length - 1)},${padT + chartH} L${xPos(0)},${padT + chartH} Z`;
 
   return (
-    <svg width={W} height={H} style={{ display: "block" }}>
+    <svg viewBox={`0 0 ${W} ${H}`} width="100%" style={{ display: "block", maxWidth: W }}>
       {/* Y grid lines */}
       {yLabels.map((_, i) => {
         const y = padT + (i / (yLabels.length - 1)) * chartH;
@@ -199,14 +199,8 @@ export default function AdminPage() {
 
   return (
     <>
-      <div style={{ width: 1440, height: "100dvh", display: "flex", overflow: "hidden", background: "var(--ku-bg)" }}>
-        {/* Sidebar */}
-        <div style={{ width: 195, height: "100dvh", flexShrink: 0 }}>
-          <Sidebar height="100dvh" activeNav="admin" />
-        </div>
-
-        {/* Scrollable content */}
-        <div style={{ flex: 1, height: "100dvh", overflowY: "auto", paddingLeft: 36, paddingRight: 36, paddingTop: 44, paddingBottom: 44, fontFamily: FONT }}>
+      <AppShell activeNav="admin" logo={false}>
+        <div className="px-6! pt-6! min-[1025px]:px-9! min-[1025px]:pt-11!" style={{ paddingBottom: 44, fontFamily: FONT }}>
 
           {/* Page title */}
           <motion.h1 {...fadeIn(0)} style={{ fontSize: 22, fontWeight: 700, color: "var(--ku-text)", marginBottom: 28 }}>
@@ -214,12 +208,12 @@ export default function AdminPage() {
           </motion.h1>
 
           {/* Stat cards */}
-          <div style={{ display: "flex", gap: 16, marginBottom: 32 }}>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 16, marginBottom: 32 }}>
             {/* Card 1 — dark green */}
             <motion.div
               {...fadeIn(0.06)}
               style={{
-                flex: 1, borderRadius: 20, background: PRIMARY, padding: "22px 24px",
+                flex: "1 1 160px", borderRadius: 20, background: PRIMARY, padding: "22px 24px",
                 display: "flex", flexDirection: "column", gap: 6,
               }}
             >
@@ -232,7 +226,7 @@ export default function AdminPage() {
             <motion.div
               {...fadeIn(0.1)}
               style={{
-                flex: 1, borderRadius: 20, background: "var(--ku-card-bg)", border: "0.5px solid #737373",
+                flex: "1 1 160px", borderRadius: 20, background: "var(--ku-card-bg)", border: "0.5px solid #737373",
                 padding: "22px 24px", display: "flex", flexDirection: "column", gap: 6,
               }}
             >
@@ -245,7 +239,7 @@ export default function AdminPage() {
             <motion.div
               {...fadeIn(0.14)}
               style={{
-                flex: 1, borderRadius: 20, background: "#eaf0e4", border: "none",
+                flex: "1 1 160px", borderRadius: 20, background: "#eaf0e4", border: "none",
                 padding: "22px 24px", display: "flex", flexDirection: "column", gap: 6,
               }}
             >
@@ -281,7 +275,7 @@ export default function AdminPage() {
 
           {/* Activity log */}
           <motion.div {...fadeIn(0.22)}>
-            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 14 }}>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: 10, alignItems: "center", justifyContent: "space-between", marginBottom: 14 }}>
               <p style={{ fontSize: 15, fontWeight: 600, color: "var(--ku-text)" }}>บันทึกกิจกรรมล่าสุด</p>
               <div style={{ display: "flex", gap: 10 }}>
                 {/* Search */}
@@ -382,7 +376,7 @@ export default function AdminPage() {
             </div>
           </motion.div>
         </div>
-      </div>
+      </AppShell>
 
       {/* Modal */}
       <AnimatePresence>

@@ -51,15 +51,25 @@ function resultFor(query: string): GraphRagResult {
 }
 
 /** Stands in for the Laravel API when the suite runs against the local static export. */
-export async function mockApi(page: Page) {
-  const stored: string[] = []; // history id = index + 1
+export async function mockApi(page: Page, opts: { seed?: string[]; profileIncomplete?: boolean } = {}) {
+  const stored: string[] = [...(opts.seed ?? [])]; // history id = index + 1
   await page.route("**/sanctum/**", (route) => route.fulfill({ status: 204 }));
   await page.route("**/api/**", async (route) => {
     const request = route.request();
     const path = new URL(request.url()).pathname;
     const json = (body: unknown) => route.fulfill({ status: 200, contentType: "application/json", body: JSON.stringify(body) });
 
-    if (path === "/api/user") return json(user);
+    if (path === "/api/user") return json(opts.profileIncomplete ? { ...user, profile_completed_at: null } : user);
+    if (path === "/api/reference/faculties") return json({ faculties: FACULTIES });
+    if (path === "/api/reference/roles") return json({ roles: [{ value: "student", label: "นิสิต" }, { value: "teacher", label: "อาจารย์" }, { value: "researcher", label: "นักวิจัย" }] });
+    if (path === "/api/smart-picks") {
+      return json({
+        smart_picks: {
+          headline: "คำแนะนำ", reason: "จากประวัติการค้นหาของคุณ", generated_at: "2026-10-29",
+          items: [{ title: "งานวิจัยตัวอย่างที่ชื่อยาวมากมากมากมากมากมากมากมากมากมากมากมากมาก", info: "2024 · หัวข้อ", source: "KUKR", match: 90, reasons: ["เหตุผล"], keywords: ["a", "b"], url: "https://example.com", query: "Carbon Footprint" }],
+        },
+      });
+    }
     if (path === "/api/search/recent") return json({ data: stored.map((query, i) => ({ id: i + 1, query, created_at: "2026-10-29" })).reverse() });
     if (path === "/api/search" && request.method() === "POST") {
       const { query } = request.postDataJSON() as { query: string };

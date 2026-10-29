@@ -48,7 +48,7 @@ export default function PhaseSection({
         <motion.p
           {...fadeIn(base + 0.04)}
           style={{
-            width: 448, marginTop: 15,
+            maxWidth: 448, marginTop: 15,
             fontFamily: FONT, fontSize: 13, lineHeight: "21px", color: "var(--ku-text-muted)",
           }}
         >

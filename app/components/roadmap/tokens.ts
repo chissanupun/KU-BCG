@@ -1,10 +1,8 @@
 export const PRIMARY = "#3b6347";
 export const FONT = "Poppins, sans-serif";
 
-/** Content column, calibrated to the original absolute coordinates (left 426, sidebar 195). */
-export const COLUMN_LEFT = 231;
+/** Content column cap, from the mockup. Pages inset it with clamp(24px, 16vw, 231px). */
 export const COLUMN_WIDTH = 569;
-export const COLUMN_TOP = 211;
 export const CARD_GAP = 30;
 
 export const fadeIn = (delay: number) => ({
