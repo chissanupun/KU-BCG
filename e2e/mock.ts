@@ -21,8 +21,17 @@ const FACULTIES_BY_TOPIC: Record<string, string[]> = {
 
 const node = (label: string, type: "topic" | "faculty" | "course" | "bcg_pillar") => ({ label, color: "#2D5A43", type });
 
+// The backend's real description string, which is English and must never reach the screen.
+const BACKEND_DESCRIPTION = "GraphRAG subgraph from KU BCG relations (KUKR + KU Forest + KU MOOC).";
+
 function resultFor(query: string): GraphRagResult {
   const faculties = FACULTIES_BY_TOPIC[query] ?? FACULTIES;
+  // Relations as ku_bcg_relations stores them: developer slugs and camelCase predicates.
+  const relations = [
+    { from: "forest", to: "carbon_stock", type: "mitigatesCarbonVia" },
+    { from: "kumooc005", to: "carbon_footprint_learners", type: "isEntryPointFor" },
+  ];
+  const many = query === "many-edges" ? Array.from({ length: 12 }, (_, i) => ({ from: query, to: `topic_${i + 1}`, type: "relatedTo" })) : [];
   return {
     // C1 as deployed: pillars are Bio / Circular / Green with no BCG_ prefix.
     tags: { bcg_pillars: ["Green", "Bio"], faculties },
@@ -30,9 +39,9 @@ function resultFor(query: string): GraphRagResult {
     overview: { intro: `${query}: ภาพรวมโดยย่อ`, analogy: "เปรียบเทียบให้เข้าใจง่าย", research_basis: "อ้างอิงงานวิจัย KU", expert: "ผู้เชี่ยวชาญตัวอย่าง" },
     knowledge_graph: {
       center: node(query, "topic"),
-      description: `แผนที่ความรู้ของ ${query}`,
+      description: query === "english-description" ? BACKEND_DESCRIPTION : `แผนที่ความรู้ของ ${query}`,
       nodes: [node("BCG_Green", "bcg_pillar"), ...faculties.map((f) => node(f, "faculty")), node("kumooc-1", "course")],
-      edges: [{ from: query, to: "BCG_Green", type: "relatedTo" }, ...faculties.map((f) => ({ from: query, to: f, type: "studiedBy" }))],
+      edges: [{ from: query, to: "BCG_Green", type: "relatedTo" }, ...faculties.map((f) => ({ from: query, to: f, type: "studiedBy" })), ...relations, ...many],
     },
     learning_path: {
       estimated_hours: "20 ชั่วโมง",
