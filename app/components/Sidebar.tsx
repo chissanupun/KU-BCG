@@ -9,12 +9,38 @@ import { apiFetch, googleLoginUrl } from "@/lib/api";
 
 const PRIMARY = "#3b6347";
 
+function NavItem({ href, label, active, d, strokeWidth = 1.8 }: { href: string; label: string; active: boolean; d: string; strokeWidth?: number }) {
+  return (
+    <Link href={href} aria-current={active ? "page" : undefined} style={{ display: "block", textDecoration: "none" }}>
+      <div
+        className="flex items-center w-full rounded-[9px] transition-all relative overflow-hidden hover:bg-[var(--ku-hover-bg)]"
+        style={{
+          gap: 12, paddingLeft: 15, paddingRight: 3, paddingTop: 12, paddingBottom: 12, minHeight: 44,
+          ...(active
+            ? { background: "var(--ku-nav-active-bg)", border: "0.38px solid var(--ku-nav-active-border)" }
+            : { border: "0.38px solid transparent" }),
+        }}
+      >
+        <svg style={{ width: 16, height: 16, flexShrink: 0 }} fill="none" stroke={active ? "var(--ku-icon-active)" : "var(--ku-text-muted)"} strokeWidth={strokeWidth} viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" d={d} />
+        </svg>
+        <span className="flex-1 text-[12px] leading-[16px] text-left" style={{ color: active ? "var(--ku-text)" : "var(--ku-text-muted)", fontWeight: active ? 500 : 400 }}>{label}</span>
+        {active && (
+          <svg style={{ width: 16, height: 16, flexShrink: 0, color: "var(--ku-text-faint)" }} fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        )}
+      </div>
+    </Link>
+  );
+}
+
 export default function Sidebar({
   height = "100%",
   activeNav = "search",
 }: {
   height?: number | string;
-  activeNav?: "search" | "recommend" | "admin";
+  activeNav?: "search" | "recommend" | "progress" | "admin";
 }) {
   const { user, refetch } = useUser();
   const { items: recentSearches, clear: clearHistory } = useSearchHistory();
@@ -112,71 +138,12 @@ export default function Sidebar({
         {/* The rows sit flush against each other at 44px tall, which reads as one
             block; a small gap separates them without changing their height. */}
         <div className="flex flex-col" style={{ gap: 3 }}>
-        {/* ค้นหา */}
-        <Link href="/" style={{ display: "block", textDecoration: "none" }}>
-          <div
-            className="flex items-center w-full rounded-[9px] transition-all relative overflow-hidden hover:bg-[var(--ku-hover-bg)]"
-            style={{
-              gap: 12, paddingLeft: 15, paddingRight: 3, paddingTop: 12, paddingBottom: 12, minHeight: 44,
-              ...(activeNav === "search"
-                ? { background: "var(--ku-nav-active-bg)", border: "0.38px solid var(--ku-nav-active-border)" }
-                : { border: "0.38px solid transparent" }),
-            }}
-          >
-            <svg style={{ width: 16, height: 16, flexShrink: 0 }} fill="none" stroke={activeNav === "search" ? "var(--ku-icon-active)" : "var(--ku-text-muted)"} strokeWidth={2} viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M17 11A6 6 0 115 11a6 6 0 0112 0z" />
-            </svg>
-            <span className="flex-1 text-[12px] leading-[16px] text-left" style={{ color: activeNav === "search" ? "var(--ku-text)" : "var(--ku-text-muted)", fontWeight: activeNav === "search" ? 500 : 400 }}>ค้นหา</span>
-            {activeNav === "search" && (
-              <svg style={{ width: 16, height: 16, flexShrink: 0, color: "var(--ku-text-faint)" }} fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-              </svg>
-            )}
-          </div>
-        </Link>
-
-        {/* แนะนำอัจฉริยะ */}
-        <Link href="/smart-picks" style={{ display: "block", textDecoration: "none" }}>
-          <div
-            className="flex items-center w-full rounded-[9px] transition-all relative overflow-hidden hover:bg-[var(--ku-hover-bg)]"
-            style={{
-              gap: 12, paddingLeft: 15, paddingRight: 3, paddingTop: 12, paddingBottom: 12, minHeight: 44,
-              ...(activeNav === "recommend"
-                ? { background: "var(--ku-nav-active-bg)", border: "0.38px solid var(--ku-nav-active-border)" }
-                : { border: "0.38px solid transparent" }),
-            }}
-          >
-            <svg style={{ width: 16, height: 16, flexShrink: 0 }} fill="none" stroke={activeNav === "recommend" ? "var(--ku-icon-active)" : "var(--ku-text-muted)"} strokeWidth={1.8} viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z" />
-            </svg>
-            <span className="text-[12px] leading-[16px]" style={{ color: activeNav === "recommend" ? "var(--ku-text)" : "var(--ku-text-muted)", fontWeight: activeNav === "recommend" ? 500 : 400 }}>แนะนำอัจฉริยะ</span>
-            {activeNav === "recommend" && (
-              <svg style={{ width: 16, height: 16, flexShrink: 0, color: "var(--ku-text-faint)" }} fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-              </svg>
-            )}
-          </div>
-        </Link>
-
+        <NavItem href="/" label="ค้นหา" active={activeNav === "search"} strokeWidth={2} d="M21 21l-4.35-4.35M17 11A6 6 0 115 11a6 6 0 0112 0z" />
+        <NavItem href="/smart-picks" label="Smart Picks" active={activeNav === "recommend"} d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z" />
+        <NavItem href="/progress" label="ความก้าวหน้า" active={activeNav === "progress"} d="M3 3v18h18M7 15l4-4 3 3 5-6" />
         {/* ผู้ดูแล (admin only) */}
         {activeNav === "admin" && (
-          <Link href="/admin" style={{ display: "block", textDecoration: "none" }}>
-            <div
-              className="flex items-center w-full rounded-[9px] transition-all relative overflow-hidden"
-              style={{
-                gap: 12, paddingLeft: 15, paddingRight: 3, paddingTop: 12, paddingBottom: 12, minHeight: 44,
-                background: "var(--ku-nav-active-bg)", border: "0.38px solid var(--ku-nav-active-border)",
-              }}
-            >
-              <svg style={{ width: 16, height: 16, flexShrink: 0 }} fill="none" stroke="var(--ku-icon-active)" strokeWidth={1.8} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zM16.862 4.487L19.5 7.125" />
-              </svg>
-              <span className="flex-1 text-[12px] leading-[16px] text-left" style={{ color: "var(--ku-text)", fontWeight: 500 }}>ผู้ดูแล</span>
-              <svg style={{ width: 16, height: 16, flexShrink: 0, color: "var(--ku-text-faint)" }} fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-              </svg>
-            </div>
-          </Link>
+          <NavItem href="/admin" label="ผู้ดูแล" active d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zM16.862 4.487L19.5 7.125" />
         )}
 
         {/* Theme toggle */}
@@ -220,7 +187,7 @@ export default function Sidebar({
           </>
         ) : (
           <>
-            <p className="flex-1 text-[12px] leading-[16px]" style={{ color: "var(--ku-text-faint)" }}>ล่าสุด</p>
+            <p className="flex-1 text-[12px] leading-[16px]" style={{ color: "var(--ku-text-faint)" }}>RECENTS</p>
             {user && recentSearches.length > 0 && (
               <button
                 type="button"
