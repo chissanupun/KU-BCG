@@ -8,11 +8,15 @@ import Sidebar from "./components/Sidebar";
 
 const PRIMARY = "#3b6347";
 
+/** The six pilot KG topics named in the Phase 1 acceptance criteria (gate 1.1.1). */
 const SUGGESTIONS = [
-  { display: "การวิเคราะห์ คาร์บอน นาโนทิวบ์", query: "การวิเคราะห์คาร์บอนนาโนทิวบ์" },
-  { display: "สรุปการเปลี่ยนแปลงสภาพภูมิอากาศ 2024", query: "สรุปการเปลี่ยนแปลงสภาพภูมิอากาศ 2024" },
-  { display: "ผลการวิจัยสำคัญ\nด้านโครงข่าย ประสาท", query: "ผลการวิจัยสำคัญด้านโครงข่ายประสาท" },
-];
+  "ชีวมวลและ\nพลังงานทดแทน",
+  "ไคโตซานและ\nบรรจุภัณฑ์ชีวภาพ",
+  "Microplastics",
+  "Carbon Footprint",
+  "การเพาะเลี้ยง\nสัตว์น้ำที่ยั่งยืน",
+  "วนเกษตร",
+].map((display) => ({ display, query: display.replace("\n", "") }));
 
 const fadeUp = {
   hidden: { opacity: 0, y: 14 },
@@ -27,10 +31,11 @@ export default function Home() {
   const router = useRouter();
   const [query, setQuery] = useState("");
 
-  const handleSearch = () => {
-    if (!query.trim()) return;
-    router.push(`/learn?q=${encodeURIComponent(query)}`);
+  const search = (text: string) => {
+    if (!text.trim()) return;
+    router.push(`/learn?q=${encodeURIComponent(text)}`);
   };
+  const handleSearch = () => search(query);
 
   return (
     <div className="flex h-screen overflow-hidden relative" style={{ background: "var(--ku-bg)" }}>
@@ -123,11 +128,11 @@ export default function Home() {
           </motion.div>
 
           {/* Suggestion Cards */}
-          <div className="flex" style={{ marginTop: 32, gap: 22 }}>
+          <div className="flex flex-wrap" style={{ marginTop: 32, gap: 22 }}>
             {SUGGESTIONS.map((s, i) => (
               <motion.button
                 key={i}
-                onClick={() => setQuery(s.query)}
+                onClick={() => search(s.query)}
                 initial="hidden"
                 animate="visible"
                 custom={i + 2}
