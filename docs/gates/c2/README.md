@@ -1,10 +1,9 @@
 # Contract C2 — pending search + polling
 
-Screenshots from the static export with `/api/**` **mocked** (Chromium, 1440×900). The real backend does
-not send `status` yet, so this only shows the frontend behaviour.
-
-Assumed shape (confirm with the backend owner): `POST /api/search` and `GET /api/search/history/{id}` carry
-`data.status` (`"pending"` | `"ready"`), and while pending `data.result` may hold only `evidence`.
+Screenshots from the static export with `/api/**` **mocked** (Chromium, 1440×900), using the shape the backend deploys
+(`ku-phumpanya/docs/gates/frontend-handoff-tigger.md`, C2): the state is `data.result.status` (`"pending"` | `"ready"`)
+on both `POST /api/search` and `GET /api/search/history/{id}`. `data.status` on POST is the DB column
+(`success` / `error` / `zero_results`) and is not read. Async synthesis is still off on prod.
 
 Checked:
 - No `status` field: result shows at once, no extra GET (`legacy-no-status`).

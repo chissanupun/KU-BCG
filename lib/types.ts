@@ -101,6 +101,8 @@ export type GraphRagResult = {
   tier?: "basic" | "intermediate" | "advanced";
   /** Contract C1. Absent on results stored before the backend shipped it. */
   tags?: { bcg_pillars: string[]; faculties: string[] };
+  /** Contract C2, on `data.result` of both POST /api/search and GET /api/search/history/{id}. Absent means ready. */
+  status?: "pending" | "ready";
   _meta?: GraphRagMeta;
 };
 
@@ -108,9 +110,6 @@ export type SearchHistory = {
   id: number;
   user_id: number;
   query: string;
-  /** Contract C2. Absent on a backend that predates it, which means ready. */
-  status?: "pending" | "ready";
-  /** While pending this may hold only `evidence`; do not read other fields until ready. */
   result: GraphRagResult | null;
   created_at: string;
   updated_at: string;
@@ -166,7 +165,6 @@ export type SearchHistoryDetail = {
   id: number;
   query: string;
   tab: "overview" | "graph" | "learning";
-  status?: "pending" | "ready";
   result: GraphRagResult | null;
   created_at: string;
 };

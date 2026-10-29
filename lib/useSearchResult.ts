@@ -135,7 +135,7 @@ export function useSearchResult({ historyId, query, rewriteTo }: Options) {
         try {
           const json = await apiFetch<{ data: SearchHistoryDetail }>(`/api/search/history/${id}`);
           if (!alive.current || reqSeq.current !== pollSeq) return;
-          const step = pollStep(json.data.status, Date.now() - startedAt);
+          const step = pollStep(json.data.result?.status, Date.now() - startedAt);
           if (step === "done") {
             if (json.data.result) setResult(json.data.result);
             else setError({ message: "ไม่พบผลลัพธ์" });
@@ -161,21 +161,20 @@ export function useSearchResult({ historyId, query, rewriteTo }: Options) {
             id: json.data.id,
             query: json.data.query,
             result: json.data.result,
-            status: json.data.status,
             rewrite: false,
           }))
         : apiFetch<{ data: SearchHistory }>("/api/search", { method: "POST", body: { query } }).then((json) => ({
             id: json.data.id,
             query: json.data.query,
             result: json.data.result,
-            status: json.data.status,
             rewrite: true,
           }));
 
     request
-      .then(({ id, query: storedQuery, result: data, status, rewrite }) => {
+      .then(({ id, query: storedQuery, result: data, rewrite }) => {
         if (reqSeq.current !== seq) return;
-        const isPending = status === "pending";
+        // `data.status` on POST is the DB column (success/error/zero_results); C2 lives in the result.
+        const isPending = data?.status === "pending";
         if (!data && !isPending) {
           setError({ message: "ไม่พบผลลัพธ์" });
           return;
