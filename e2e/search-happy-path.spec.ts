@@ -46,6 +46,7 @@ for (const topic of TOPICS) {
       const card = page.getByRole("tabpanel").locator('a[href^="/topic"]').first();
       await expect(card).toBeVisible();
       cardTitle = (await card.innerText()).split("\n")[0].trim();
+      expect(cardTitle).not.toBe(""); // getByText("") would match the whole page
       await card.click();
     });
 

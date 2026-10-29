@@ -19,22 +19,30 @@ if (live && !fs.existsSync(storageState)) {
 export default defineConfig({
   testDir: "e2e",
   // A live search runs the whole GraphRAG pipeline (seconds, and it spends Gemini quota).
-  timeout: live ? 120_000 : 30_000,
+  timeout: live ? 240_000 : 30_000,
   workers: live ? 1 : undefined,
   retries: 0,
-  reporter: [["list"], ["html", { outputFolder: "docs/gates/1.5.1/report", open: "never" }]],
+  // Only a live run may write to the gate folder, so a mock run cannot overwrite evidence.
+  reporter: [["list"], ["html", { outputFolder: live ? "docs/gates/1.5.1/report" : "playwright-report", open: "never" }]],
   use: {
     baseURL: baseURL ?? "http://localhost:3100",
     storageState: live ? storageState : undefined,
-    trace: "retain-on-failure",
+    // A trace records request headers, i.e. the session cookie; a live report may be committed.
+    trace: live ? "off" : "retain-on-failure",
+    screenshot: "off",
   },
   webServer: live
     ? undefined
     : { command: "python3 -m http.server 3100 --directory out", url: "http://localhost:3100/", reuseExistingServer: true },
+  // Each project is 6 live searches. A live run covers Chromium only unless E2E_ALL_PROJECTS=1.
   projects: [
     { name: "chromium", use: { ...devices["Desktop Chrome"] } },
-    { name: "firefox", use: { ...devices["Desktop Firefox"] } },
-    { name: "webkit", use: { ...devices["Desktop Safari"] } },
-    { name: "ipad", use: { ...devices["iPad (gen 7)"] } },
+    ...(live && !process.env.E2E_ALL_PROJECTS
+      ? []
+      : [
+          { name: "firefox", use: { ...devices["Desktop Firefox"] } },
+          { name: "webkit", use: { ...devices["Desktop Safari"] } },
+          { name: "ipad", use: { ...devices["iPad (gen 7)"] } },
+        ]),
   ],
 });
