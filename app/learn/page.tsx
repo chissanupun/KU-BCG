@@ -8,6 +8,7 @@ import { useLearningProgress } from "@/lib/useLearningProgress";
 import { DEFAULT_ROADMAP, fromGraphRag } from "@/lib/roadmap";
 import { parseTab } from "@/lib/resultView";
 import RoadmapView from "../components/roadmap/RoadmapView";
+import PendingView from "./PendingView";
 import ResultTabs from "./ResultTabs";
 import OverviewTab from "./OverviewTab";
 import MapTab from "./MapTab";
@@ -21,7 +22,7 @@ function LearnPageInner() {
   const rawHistoryId = searchParams.get("h")?.trim();
   const historyId = rawHistoryId && /^\d+$/.test(rawHistoryId) ? Number(rawHistoryId) : undefined;
 
-  const { result, query, loading, error } = useSearchResult({
+  const { result, query, loading, pending, partialEvidence, error } = useSearchResult({
     historyId,
     query: historyId === undefined ? q : undefined,
     rewriteTo: "/learn",
@@ -42,7 +43,7 @@ function LearnPageInner() {
   if (!q && historyId === undefined) return <RoadmapView roadmap={DEFAULT_ROADMAP} />;
 
   if (loading) {
-    return <RoadmapView notice={<span style={{ color: "var(--ku-text-muted)" }}>กำลังค้นหา...</span>} />;
+    return <RoadmapView notice={<PendingView pending={pending} evidence={partialEvidence} />} />;
   }
 
   if (error) {
