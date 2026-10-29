@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "test:unit": "tsx --test lib/*.test.ts",
+    "e2e": "playwright test",
     "es:setup": "tsx elastic-search/setup-index.ts",
     "es:ingest": "tsx elastic-search/ingest.ts",
     "es:restore": "tsx elastic-search/restore-snapshot.ts",

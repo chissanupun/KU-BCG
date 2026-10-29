@@ -54,3 +54,8 @@ docs/contract/
 # embed_server test venv
 elastic-search/.venv-test/
 .coverage
+
+# e2e: signed-in session, reports, traces
+e2e/.auth/
+test-results/
+docs/gates/1.5.1/report/
