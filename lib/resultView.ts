@@ -30,18 +30,18 @@ const unique = (xs: string[]) => [...new Set(xs.filter(Boolean))];
  * same lists from node types. Every field is optional — old rows must not throw.
  */
 export function resultTags(result: GraphRagResult): ResultTags {
-  if (Array.isArray(result.tags?.bcg_pillars) && Array.isArray(result.tags?.faculties)) {
-    return { bcgPillars: unique(result.tags.bcg_pillars), faculties: unique(result.tags.faculties) };
-  }
   const graph = result.knowledge_graph;
   const nodes = [...(graph?.center ? [graph.center] : []), ...(graph?.nodes ?? [])];
+  const fromGraph = (type: string) => nodes.filter((n) => n.type === type).map((n) => n.label);
+  // Each list falls back on its own, so a partial `tags` object loses nothing.
   return {
-    bcgPillars: unique(nodes.filter((n) => n.type === "bcg_pillar").map((n) => n.label)),
-    faculties: unique(nodes.filter((n) => n.type === "faculty").map((n) => n.label)),
+    bcgPillars: unique(Array.isArray(result.tags?.bcg_pillars) ? result.tags.bcg_pillars : fromGraph("bcg_pillar")),
+    faculties: unique(Array.isArray(result.tags?.faculties) ? result.tags.faculties : fromGraph("faculty")),
   };
 }
 
 /** Evidence URLs come from scraped data; only plain http(s) may become an href. */
 export function safeHref(url: string | undefined | null): string | undefined {
-  return url && /^https?:\/\//i.test(url) ? url : undefined;
+  const trimmed = url?.trim();
+  return trimmed && /^https?:\/\//i.test(trimmed) ? trimmed : undefined;
 }

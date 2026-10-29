@@ -37,10 +37,16 @@ test("resultTags prefers API tags (C1) and tolerates old results", () => {
   assert.deepEqual(resultTags(old), { bcgPillars: [], faculties: [] });
 });
 
+test("resultTags falls back per list when tags is partial", () => {
+  const partial = base({ tags: { bcg_pillars: ["BCG_Circular"] } as never });
+  assert.deepEqual(resultTags(partial), { bcgPillars: ["BCG_Circular"], faculties: ["วนศาสตร์", "เกษตร"] });
+});
+
 test("safeHref only passes http(s)", () => {
   assert.equal(safeHref("https://a.b/c"), "https://a.b/c");
   assert.equal(safeHref("HTTP://A.B"), "HTTP://A.B");
   assert.equal(safeHref("javascript:alert(1)"), undefined);
+  assert.equal(safeHref("  https://a.b "), "https://a.b");
   assert.equal(safeHref(""), undefined);
   assert.equal(safeHref(undefined), undefined);
 });
