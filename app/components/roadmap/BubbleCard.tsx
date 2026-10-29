@@ -99,7 +99,7 @@ export default function BubbleCard({
   );
 
   const style = {
-    width: 250, minHeight: 150,
+    width: 250, maxWidth: "100%", minHeight: 150,
     background: "var(--ku-card-bg)",
     // A completed card keeps its shape and only shifts its border to the brand
     // green, so a finished phase reads at a glance without a second treatment.

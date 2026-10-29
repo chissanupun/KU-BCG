@@ -1,12 +1,11 @@
 "use client";
 
 import type { ReactNode } from "react";
-import Image from "next/image";
 import { motion } from "framer-motion";
 import type { Roadmap } from "@/lib/roadmap";
 import type { RoadmapProgress } from "@/lib/useLearningProgress";
-import Sidebar from "../Sidebar";
-import { FONT, COLUMN_LEFT, COLUMN_WIDTH, COLUMN_TOP, fadeIn } from "./tokens";
+import AppShell from "../AppShell";
+import { FONT, COLUMN_WIDTH, fadeIn } from "./tokens";
 import HeroCard from "./HeroCard";
 import PhaseSection from "./PhaseSection";
 
@@ -38,37 +37,29 @@ export default function RoadmapView({
    */
   progress?: RoadmapProgress;
 }) {
-  // The shell tracks the viewport rather than the 900px design canvas: on a
-  // shorter window the fixed height pushed the sidebar's footer below the fold
-  // and left the document itself scrollable, so clicking anything scrolled the
-  // whole page. The right column scrolls its own content instead.
+  // The shell tracks the viewport rather than the 900px design canvas, and the
+  // content column is fluid: capped at the mockup's 569px, inset 16vw (max 231px)
+  // from the left like the original, never wider than the screen.
+  const showPill = !header && Boolean(roadmap?.topic);
   return (
-    <div style={{ width: 1440, height: "100dvh", display: "flex", overflow: "hidden", background: "var(--ku-bg)" }}>
-      <div style={{ width: 195, height: "100dvh", flexShrink: 0 }}>
-        <Sidebar height="100dvh" />
-      </div>
+    <AppShell>
+      <div className={`pb-[60px]! ${showPill ? "pt-6! min-[1025px]:pt-[135px]!" : "pt-6! min-[1025px]:pt-[211px]!"}`}>
+        <div style={{ marginLeft: "clamp(24px, 16vw, 231px)", marginRight: 24, maxWidth: COLUMN_WIDTH }}>
+          {showPill && (
+            <motion.div
+              {...fadeIn(0)}
+              className="flex items-center justify-center"
+              style={{
+                minHeight: 44, maxWidth: "100%", padding: "0 16px", marginBottom: 20, width: "fit-content",
+                background: "var(--ku-tag-bg)", border: "0.5px solid var(--ku-tag-border)", borderRadius: 8,
+              }}
+            >
+              <p style={{ fontFamily: FONT, fontSize: 13, fontWeight: 500, lineHeight: "20px", color: "var(--ku-text)", textAlign: "center" }}>
+                {roadmap!.topic}
+              </p>
+            </motion.div>
+          )}
 
-      <div style={{ flex: 1, height: "100dvh", overflowY: "auto", position: "relative" }}>
-        <div style={{ position: "absolute", right: 32, top: 30, width: 100, height: 95, zIndex: 10 }}>
-          <Image src="/ku-bcg.png" alt="KU Phumpanya" width={100} height={95} className="object-contain ku-logo" unoptimized />
-        </div>
-
-        {!header && roadmap?.topic && (
-          <motion.div
-            {...fadeIn(0)}
-            className="flex items-center justify-center"
-            style={{
-              position: "absolute", right: 349, top: 135, minWidth: 192, minHeight: 44, maxWidth: 420, padding: "0 16px",
-              background: "var(--ku-tag-bg)", border: "0.5px solid var(--ku-tag-border)", borderRadius: 8,
-            }}
-          >
-            <p style={{ fontFamily: FONT, fontSize: 13, fontWeight: 500, lineHeight: "20px", color: "var(--ku-text)", textAlign: "center" }}>
-              {roadmap.topic}
-            </p>
-          </motion.div>
-        )}
-
-        <div style={{ paddingLeft: COLUMN_LEFT, paddingTop: COLUMN_TOP, paddingBottom: 60, width: COLUMN_LEFT + COLUMN_WIDTH }}>
           {notice ? (
             <div style={{ fontFamily: FONT, fontSize: 14, lineHeight: "22px" }}>{notice}</div>
           ) : roadmap ? (
@@ -101,6 +92,6 @@ export default function RoadmapView({
           ) : null}
         </div>
       </div>
-    </div>
+    </AppShell>
   );
 }

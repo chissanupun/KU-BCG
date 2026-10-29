@@ -5,7 +5,7 @@ export default function ProgressBar({ progress, width = 375 }: { progress?: numb
   const pct = Math.max(0, Math.min(100, progress ?? 0));
 
   return (
-    <div style={{ width, height: 4, background: "var(--ku-progress-track)", borderRadius: 12 }}>
+    <div style={{ width, maxWidth: "100%", height: 4, background: "var(--ku-progress-track)", borderRadius: 12 }}>
       <div style={{ width: `${pct}%`, height: "100%", background: "var(--ku-progress-fill)", borderRadius: 12 }} />
     </div>
   );

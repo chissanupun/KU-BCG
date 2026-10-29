@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import Sidebar from "./components/Sidebar";
+import AppShell from "./components/AppShell";
 
 const PRIMARY = "#3b6347";
 
@@ -38,19 +38,9 @@ export default function Home() {
   const handleSearch = () => search(query);
 
   return (
-    <div className="flex h-screen overflow-hidden relative" style={{ background: "var(--ku-bg)" }}>
-
-      {/* Logo */}
-      <div className="absolute" style={{ top: 40, right: 40, zIndex: 10 }}>
-        <Image src="/ku-bcg.png" alt="KU Phumpanya" width={100} height={95} className="object-contain ku-logo" unoptimized />
-      </div>
-
-      {/* Sidebar */}
-      <Sidebar />
-
-      {/* Main */}
-      <main className="flex-1 flex flex-col items-center justify-center" style={{ paddingBottom: 48 }}>
-        <div style={{ width: 928 }} className="flex flex-col">
+    <AppShell>
+      <main className="flex min-h-full flex-col items-center justify-center px-6!" style={{ paddingBottom: 48 }}>
+        <div style={{ maxWidth: 928 }} className="flex w-full flex-col">
 
           {/* Hero */}
           <motion.div
@@ -176,6 +166,6 @@ export default function Home() {
 
         </div>
       </main>
-    </div>
+    </AppShell>
   );
 }

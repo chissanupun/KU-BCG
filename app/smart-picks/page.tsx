@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { apiFetch, ApiError, googleLoginUrl } from "@/lib/api";
 import { useUser } from "@/lib/UserContext";
 import type { SmartPick, SmartPicks } from "@/lib/types";
-import Sidebar from "../components/Sidebar";
+import AppShell from "../components/AppShell";
 
 const PRIMARY = "#3b6347";
 const FONT = "Poppins, sans-serif";
@@ -142,16 +142,10 @@ export default function SmartPicksPage() {
   const items = picks?.items ?? [];
 
   return (
-    <div style={{ width: 1440, height: "100dvh", display: "flex", overflow: "hidden", background: "var(--ku-bg)" }}>
-      {/* Sidebar */}
-      <div style={{ width: 195, height: "100dvh", flexShrink: 0 }}>
-        <Sidebar height="100dvh" activeNav="recommend" />
-      </div>
+    <AppShell activeNav="recommend" logo={false}>
+      <div className="flex flex-col items-center pt-6! min-[1025px]:pt-11!" style={{ paddingBottom: 60, fontFamily: FONT }}>
 
-      {/* Scrollable content */}
-      <div style={{ flex: 1, height: "100dvh", overflowY: "auto", paddingTop: 44, paddingBottom: 60, fontFamily: FONT, display: "flex", flexDirection: "column", alignItems: "center" }}>
-
-        <div style={{ width: 600 }}>
+        <div style={{ width: "100%", maxWidth: 600, padding: "0 16px" }}>
         {/* Header row */}
         <div style={{ display: "flex", alignItems: "center", gap: 16, marginBottom: 10 }}>
           <motion.div
@@ -250,6 +244,6 @@ export default function SmartPicksPage() {
         )}
         </div>
       </div>
-    </div>
+    </AppShell>
   );
 }

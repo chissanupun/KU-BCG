@@ -38,8 +38,6 @@ function FieldError({ message }: { message?: string }) {
 function TextField({
   label,
   hint,
-  left,
-  top,
   value,
   onChange,
   required,
@@ -47,15 +45,13 @@ function TextField({
 }: {
   label: string;
   hint?: string;
-  left: number;
-  top: number;
   value: string;
   onChange: (v: string) => void;
   required?: boolean;
   error?: string;
 }) {
   return (
-    <div style={{ position: "absolute", left, top, width: 280 }}>
+    <div>
       <Label text={label} required={required} />
       <input
         type="text"
@@ -89,8 +85,6 @@ function TextField({
 
 function SelectField({
   label,
-  left,
-  top,
   value,
   onChange,
   options,
@@ -99,8 +93,6 @@ function SelectField({
   error,
 }: {
   label: string;
-  left: number;
-  top: number;
   value: string;
   onChange: (v: string) => void;
   options: { value: string; label: string }[];
@@ -109,7 +101,7 @@ function SelectField({
   error?: string;
 }) {
   return (
-    <div style={{ position: "absolute", left, top, width: 280 }}>
+    <div>
       <Label text={label} required={required} />
       <select
         value={value}
@@ -245,177 +237,93 @@ export default function RegisterPage() {
   }
 
   return (
-    <div style={{ width: 1440, height: 900, background: "white", overflow: "hidden", position: "relative" }}>
-
+    <div className="relative flex min-h-dvh w-full bg-white">
       {/* Logo — top-left */}
-      <div style={{ position: "absolute", left: 30, top: 28, width: 34, height: 33 }}>
+      <div className="absolute" style={{ left: 30, top: 28, width: 34, height: 33 }}>
         <Image src="/ku-bcg.png" alt="KU Phumpanya" width={34} height={33} className="object-contain" unoptimized />
       </div>
 
-      {/* Green panel */}
+      <div className="min-w-0 flex-1 px-6! pb-16! pt-24! min-[1025px]:pl-[139px]! min-[1025px]:pt-[179px]!">
+        <div style={{ maxWidth: 594 }}>
+          <p style={{ fontFamily: FONT, fontSize: 20, fontWeight: 600, lineHeight: "28px", color: "#1a1a1a", margin: 0 }}>Register</p>
+          <p style={{ fontFamily: FONT, fontSize: 16, fontWeight: 400, lineHeight: "24px", color: "#737373", margin: "10px 0 40px" }}>
+            ตั้งค่าข้อมูลของคุณ
+          </p>
+
+          {/* Fields wrap to one column on narrow screens; order matches the mockup's rows. */}
+          <div className="grid grid-cols-1 gap-x-8 gap-y-5 sm:grid-cols-2">
+            <SelectField
+              label="สถานะ"
+              value={form.role}
+              onChange={set("role")}
+              options={roles}
+              placeholder={refLoading ? "กำลังโหลด..." : "เลือกสถานะ"}
+              required
+              error={errors.role}
+            />
+            <SelectField
+              label="คณะ"
+              value={form.faculty}
+              onChange={set("faculty")}
+              options={faculties.map((f) => ({ value: f, label: f }))}
+              placeholder={refLoading ? "กำลังโหลด..." : "เลือกคณะ"}
+              required
+              error={errors.faculty}
+            />
+            <TextField label="สาขา / ภาควิชา" value={form.department} onChange={set("department")} required error={errors.department} />
+            {isStudent && (
+              <TextField label="รหัสนิสิต" value={form.student_id} onChange={set("student_id")} hint="ตัวเลข 10 หลัก" required error={errors.student_id} />
+            )}
+            {isStaff && (
+              <TextField label="รหัสพนักงาน" value={form.employee_id} onChange={set("employee_id")} required error={errors.employee_id} />
+            )}
+            {isStaff && (
+              <TextField label="สังกัดวิจัย" value={form.research_affiliation} onChange={set("research_affiliation")} hint="ไม่บังคับ" error={errors.research_affiliation} />
+            )}
+          </div>
+
+          {formError && (
+            <p style={{ marginTop: 20, fontFamily: FONT, fontSize: 14, color: "#ff383c" }}>{formError}</p>
+          )}
+
+          <button
+            onClick={handleSubmit}
+            disabled={submitting || refLoading}
+            style={{
+              marginTop: 48,
+              width: "100%",
+              maxWidth: 511,
+              height: 40,
+              background: PRIMARY,
+              opacity: submitting || refLoading ? 0.6 : 1,
+              borderRadius: 4,
+              color: "white",
+              fontFamily: FONT,
+              fontSize: 16,
+              fontWeight: 500,
+              lineHeight: "24px",
+              border: "none",
+              cursor: submitting || refLoading ? "not-allowed" : "pointer",
+            }}
+          >
+            {submitting ? "กำลังบันทึก..." : "Register"}
+          </button>
+        </div>
+      </div>
+
+      {/* Decorative panel: only where there is room for it. */}
       <div
-        style={{
-          position: "absolute",
-          left: 688 + Math.round(752 * 0.2992),
-          top: 0,
-          width: 752 - Math.round(752 * 0.2992),
-          height: 900,
-          background: "#8a9e72",
-        }}
-      />
-
-      {/* Laptop image */}
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
-        src="/laptop.png"
-        alt=""
-        style={{
-          position: "absolute",
-          left: 688 + Math.round(752 * 0.0386),
-          top: Math.round(900 * 0.0233),
-          width: 723,
-          height: 738,
-          objectFit: "contain",
-          filter: "grayscale(1)",
-        }}
-      />
-
-      {/* Register heading */}
-      <p
-        style={{
-          position: "absolute",
-          left: 139,
-          top: 179,
-          fontFamily: FONT,
-          fontSize: 20,
-          fontWeight: 600,
-          lineHeight: "28px",
-          color: "#1a1a1a",
-          margin: 0,
-        }}
+        aria-hidden
+        className="relative hidden shrink-0 overflow-hidden min-[1025px]:block"
+        style={{ width: "37%", maxWidth: 527, background: "#8a9e72" }}
       >
-        Register
-      </p>
-
-      {/* Subtitle */}
-      <p
-        style={{
-          position: "absolute",
-          left: 139,
-          top: 217,
-          width: 448,
-          fontFamily: FONT,
-          fontSize: 16,
-          fontWeight: 400,
-          lineHeight: "24px",
-          color: "#737373",
-          margin: 0,
-        }}
-      >
-        ตั้งค่าข้อมูลของคุณ
-      </p>
-
-      {/* Row 1 */}
-      <SelectField
-        label="สถานะ"
-        left={139}
-        top={292}
-        value={form.role}
-        onChange={set("role")}
-        options={roles}
-        placeholder={refLoading ? "กำลังโหลด..." : "เลือกสถานะ"}
-        required
-        error={errors.role}
-      />
-      <SelectField
-        label="คณะ"
-        left={453}
-        top={292}
-        value={form.faculty}
-        onChange={set("faculty")}
-        options={faculties.map((f) => ({ value: f, label: f }))}
-        placeholder={refLoading ? "กำลังโหลด..." : "เลือกคณะ"}
-        required
-        error={errors.faculty}
-      />
-
-      {/* Row 2 */}
-      <TextField
-        label="สาขา / ภาควิชา"
-        left={139}
-        top={385}
-        value={form.department}
-        onChange={set("department")}
-        required
-        error={errors.department}
-      />
-      {isStudent && (
-        <TextField
-          label="รหัสนิสิต"
-          left={453}
-          top={385}
-          value={form.student_id}
-          onChange={set("student_id")}
-          hint="ตัวเลข 10 หลัก"
-          required
-          error={errors.student_id}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/laptop.png"
+          alt=""
+          style={{ position: "absolute", top: "2%", left: 0, width: "100%", objectFit: "contain", filter: "grayscale(1)" }}
         />
-      )}
-      {isStaff && (
-        <TextField
-          label="รหัสพนักงาน"
-          left={453}
-          top={385}
-          value={form.employee_id}
-          onChange={set("employee_id")}
-          required
-          error={errors.employee_id}
-        />
-      )}
-
-      {/* Row 3 */}
-      {isStaff && (
-        <TextField
-          label="สังกัดวิจัย"
-          left={139}
-          top={476}
-          value={form.research_affiliation}
-          onChange={set("research_affiliation")}
-          hint="ไม่บังคับ"
-          error={errors.research_affiliation}
-        />
-      )}
-
-      {formError && (
-        <p style={{ position: "absolute", left: 139, top: 560, width: 560, fontFamily: FONT, fontSize: 14, color: "#ff383c", margin: 0 }}>
-          {formError}
-        </p>
-      )}
-
-      {/* Register button */}
-      <button
-        onClick={handleSubmit}
-        disabled={submitting || refLoading}
-        style={{
-          position: "absolute",
-          left: 188,
-          top: 648,
-          width: 511,
-          height: 40,
-          background: PRIMARY,
-          opacity: submitting || refLoading ? 0.6 : 1,
-          borderRadius: 4,
-          color: "white",
-          fontFamily: FONT,
-          fontSize: 16,
-          fontWeight: 500,
-          lineHeight: "24px",
-          border: "none",
-          cursor: submitting || refLoading ? "not-allowed" : "pointer",
-        }}
-      >
-        {submitting ? "กำลังบันทึก..." : "Register"}
-      </button>
+      </div>
     </div>
   );
 }

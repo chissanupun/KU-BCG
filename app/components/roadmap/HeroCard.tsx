@@ -24,7 +24,7 @@ export default function HeroCard({
       {...fadeIn(0.06)}
       className="flex flex-col"
       style={{
-        width: COLUMN_WIDTH, minHeight: 125,
+        width: "100%", maxWidth: COLUMN_WIDTH, minHeight: 125,
         background: "var(--ku-overview-bg)", border: "0.5px solid var(--ku-overview-border)",
         borderRadius: 8, padding: "16px 24px",
       }}
