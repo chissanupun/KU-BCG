@@ -46,6 +46,7 @@ function resultFor(query: string): GraphRagResult {
       { title: `KU Forest: ${query}`, source: "KU_Forest", url: "https://example.com/forest", snippet: "สรุปย่อ" },
       { title: `KUKR: ${query}`, source: "KUKR", url: "https://example.com/kukr", snippet: "สรุปย่อ" },
       { title: `KU MOOC: ${query}`, source: "KU_MOOC", url: "https://example.com/mooc" },
+      ...(query === "non-degree" ? [{ title: "ธุรกิจการป่าไม้", source: "KU_NonDegree" as const, url: "https://sis.ku.ac.th/forest-based-enterprises/" }] : []),
     ],
   };
 }

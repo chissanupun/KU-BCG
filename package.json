@@ -12,6 +12,7 @@
     "es:setup": "tsx elastic-search/setup-index.ts",
     "es:ingest": "tsx elastic-search/ingest.ts",
     "es:restore": "tsx elastic-search/restore-snapshot.ts",
+    "es:non-degree": "tsx elastic-search/ingest-non-degree.ts",
     "es:embed": "tsx elastic-search/embed.ts",
     "links:check": "tsx elastic-search/check-links.ts"
   },

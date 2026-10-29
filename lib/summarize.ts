@@ -19,6 +19,7 @@ const SOURCE_LABEL: Record<string, string> = {
   KUKR: "งานวิจัย KUKR",
   KU_Forest: "โครงการวิจัย KU Forest",
   KU_MOOC: "คอร์สเรียน KU MOOC",
+  KU_NonDegree: "ชุดวิชา Non-Degree",
 };
 
 /** Sentences that announce a finding — what a skimming reader actually wants. */

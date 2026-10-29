@@ -1,0 +1,6 @@
+local ES 2026-10-29
+documents: 631 (was 612)
+KU_NonDegree: 19
+relations: 59 (was 19; +40 isCourseFor)
+ingest run twice: counts unchanged (idempotent)
+unit tests: 26 pass; e2e non-degree-evidence + search-happy-path: 7 pass

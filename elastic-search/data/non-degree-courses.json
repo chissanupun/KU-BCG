@@ -1,0 +1,295 @@
+[
+  {
+    "title": "วิทยากรกระบวนการความเป็นกลางทางคาร์บอนภาคการเกษตร",
+    "url": "https://sis.ku.ac.th/carbon-neutrality/",
+    "category": "พัฒนาชุมชนและสังคม",
+    "topics": [
+      {
+        "id": "4",
+        "level": "ตรงที่สุด"
+      }
+    ]
+  },
+  {
+    "title": "ศาสตร์การจัดการสิ่งแวดล้อมเพื่อความมั่นคงและยั่งยืน",
+    "url": "https://sis.ku.ac.th/science-in-environmental-for-security-and-sustainability/",
+    "category": "เกษตรแปรรูป",
+    "topics": [
+      {
+        "id": "4",
+        "level": "สูง"
+      },
+      {
+        "id": "3",
+        "level": "สูง"
+      }
+    ]
+  },
+  {
+    "title": "ธุรกิจการป่าไม้",
+    "url": "https://sis.ku.ac.th/forest-based-enterprises/",
+    "category": "เกษตรแปรรูป",
+    "topics": [
+      {
+        "id": "4",
+        "level": "สูง"
+      },
+      {
+        "id": "6",
+        "level": "สูง"
+      }
+    ]
+  },
+  {
+    "title": "การใช้ที่ดินวนเกษตร",
+    "url": "https://sis.ku.ac.th/agroforestry-land-use/",
+    "category": "เกษตรแปรรูป",
+    "topics": [
+      {
+        "id": "4",
+        "level": "ปานกลาง"
+      },
+      {
+        "id": "6",
+        "level": "ตรงที่สุด"
+      }
+    ]
+  },
+  {
+    "title": "การพัฒนาชุมชนเพื่อความยั่งยืน",
+    "url": "https://sis.ku.ac.th/community-development-for-sustainability/",
+    "category": "พัฒนาชุมชนและสังคม",
+    "topics": [
+      {
+        "id": "4",
+        "level": "ปานกลาง"
+      }
+    ]
+  },
+  {
+    "title": "การผลิตและเพิ่มมูลค่าสัตว์น้ำจืดเศรษฐกิจ",
+    "url": "https://sis.ku.ac.th/production-and-value-adding-of-economically-freshwater-animals/",
+    "category": "เกษตรแปรรูป",
+    "topics": [
+      {
+        "id": "5",
+        "level": "ตรงที่สุด"
+      },
+      {
+        "id": "2",
+        "level": "ต่ำ (ทางอ้อม)"
+      }
+    ]
+  },
+  {
+    "title": "การเพาะเลี้ยงสัตว์น้ำเศรษฐกิจและสัตว์น้ำสวยงาม",
+    "url": "https://sis.ku.ac.th/ornamental-and-economical-aquatic-animal-aquaculture/",
+    "category": "เกษตรแปรรูป",
+    "topics": [
+      {
+        "id": "5",
+        "level": "ตรงที่สุด"
+      },
+      {
+        "id": "3",
+        "level": "ปานกลาง"
+      }
+    ]
+  },
+  {
+    "title": "การเป็นผู้ประกอบการธุรกิจเครื่องดื่มจากพืชและโพรไบโอติกส์",
+    "url": "https://sis.ku.ac.th/entrepreneurship-for-plant-based-and-probiotics-beverages/",
+    "category": "ทักษะอาชีพ",
+    "topics": [
+      {
+        "id": "5",
+        "level": "ต่ำ (ทางอ้อม)"
+      }
+    ]
+  },
+  {
+    "title": "ธุรกิจสวนไม้เศรษฐกิจ",
+    "url": "https://sis.ku.ac.th/economic-tree/",
+    "category": "เกษตรแปรรูป",
+    "topics": [
+      {
+        "id": "6",
+        "level": "สูง"
+      }
+    ]
+  },
+  {
+    "title": "ธุรกิจเกษตรของพืชบนพื้นที่สูงตามวิถีดอยปุย",
+    "url": "https://sis.ku.ac.th/agri-business-in-highland-crops-by-doi-pui-way-of-life/",
+    "category": "เกษตรแปรรูป",
+    "topics": [
+      {
+        "id": "6",
+        "level": "สูง"
+      }
+    ]
+  },
+  {
+    "title": "เทคโนโลยีผลิตภัณฑ์ไม้เพื่อผู้ประกอบการรุ่นใหม่",
+    "url": "https://sis.ku.ac.th/wood-product-technology-for-modern-entrepreneurs/",
+    "category": "เกษตรแปรรูป",
+    "topics": [
+      {
+        "id": "6",
+        "level": "ปานกลาง"
+      }
+    ]
+  },
+  {
+    "title": "การจัดการท่องเที่ยวสัตว์ป่าเพื่อส่งเสริมการท่องเที่ยวคุณภาพสูงและความยั่งยืนของพื้นที่คุ้มครอง",
+    "url": "https://sis.ku.ac.th/wildlife-tourism-management-and-sustainability/",
+    "category": "Soft Power",
+    "topics": [
+      {
+        "id": "6",
+        "level": "ปานกลาง"
+      }
+    ]
+  },
+  {
+    "title": "ผู้ผลิตอ้อยครบวงจร",
+    "url": "https://sis.ku.ac.th/sugarcane/",
+    "category": "เกษตรแปรรูป",
+    "topics": [
+      {
+        "id": "1",
+        "level": "ปานกลาง"
+      }
+    ]
+  },
+  {
+    "title": "การใช้เครื่องมือวัดและอุปกรณ์ดิจิทัลสำหรับการจัดการพลังงานและพลังงานทดแทน",
+    "url": "https://sis.ku.ac.th/energymanagement/",
+    "category": "หุ่นยนต์และ AI",
+    "topics": [
+      {
+        "id": "1",
+        "level": "ปานกลาง"
+      }
+    ]
+  },
+  {
+    "title": "ชีววิทยาสังเคราะห์เพื่ออุตสาหกรรม",
+    "url": "https://sis.ku.ac.th/synthetic-biology-for-industry/",
+    "category": "เกษตรแปรรูป",
+    "topics": [
+      {
+        "id": "1",
+        "level": "ต่ำ (ทางอ้อม)"
+      },
+      {
+        "id": "2",
+        "level": "ต่ำ (ทางอ้อม)"
+      }
+    ]
+  },
+  {
+    "title": "กฎหมาย ข้อกำหนดและมาตรฐานในอุตสาหกรรมอาหาร สำหรับวิสาหกิจขนาดกลางและขนาดย่อม",
+    "url": "https://sis.ku.ac.th/lawsenterprises/",
+    "category": "พัฒนาผู้ประกอบการ",
+    "topics": [
+      {
+        "id": "2",
+        "level": "ต่ำ (ทางอ้อม)"
+      }
+    ]
+  },
+  {
+    "title": "วิทยาการข้อมูลทางชีววิทยาและชีวสารสนเทศ",
+    "url": "https://sis.ku.ac.th/biological-data-science-and-bioinformatics/",
+    "category": "เทคโนโลยีดิจิทัล",
+    "topics": [
+      {
+        "id": "1",
+        "level": "ข้ามหัวข้อ"
+      },
+      {
+        "id": "2",
+        "level": "ข้ามหัวข้อ"
+      },
+      {
+        "id": "3",
+        "level": "ข้ามหัวข้อ"
+      },
+      {
+        "id": "4",
+        "level": "ข้ามหัวข้อ"
+      },
+      {
+        "id": "5",
+        "level": "ข้ามหัวข้อ"
+      },
+      {
+        "id": "6",
+        "level": "ข้ามหัวข้อ"
+      }
+    ]
+  },
+  {
+    "title": "นักวิเคราะห์ข้อมูลด้วยปัญญาประดิษฐ์สำหรับนวัตกรรมอาหารและอุตสาหกรรมเกษตร",
+    "url": "https://sis.ku.ac.th/ai-driven-data-analysts-for-food/",
+    "category": "เทคโนโลยีดิจิทัล",
+    "topics": [
+      {
+        "id": "1",
+        "level": "ข้ามหัวข้อ"
+      },
+      {
+        "id": "2",
+        "level": "ข้ามหัวข้อ"
+      },
+      {
+        "id": "3",
+        "level": "ข้ามหัวข้อ"
+      },
+      {
+        "id": "4",
+        "level": "ข้ามหัวข้อ"
+      },
+      {
+        "id": "5",
+        "level": "ข้ามหัวข้อ"
+      },
+      {
+        "id": "6",
+        "level": "ข้ามหัวข้อ"
+      }
+    ]
+  },
+  {
+    "title": "ชุดวิชาเกษตรนวัตกรเพื่อการพัฒนาอย่างยั่งยืน",
+    "url": "https://sis.ku.ac.th/agricultural-innovator/",
+    "category": "เกษตรแปรรูป",
+    "topics": [
+      {
+        "id": "1",
+        "level": "ข้ามหัวข้อ"
+      },
+      {
+        "id": "2",
+        "level": "ข้ามหัวข้อ"
+      },
+      {
+        "id": "3",
+        "level": "ข้ามหัวข้อ"
+      },
+      {
+        "id": "4",
+        "level": "ข้ามหัวข้อ"
+      },
+      {
+        "id": "5",
+        "level": "ข้ามหัวข้อ"
+      },
+      {
+        "id": "6",
+        "level": "ข้ามหัวข้อ"
+      }
+    ]
+  }
+]
