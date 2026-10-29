@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ThemeToggle } from "./ThemeProvider";
 import { useUser } from "@/lib/UserContext";
 import { useSearchHistory } from "@/lib/SearchHistoryContext";
-import { apiFetch, googleLoginUrl } from "@/lib/api";
+import { googleLoginUrl } from "@/lib/api";
 
 const PRIMARY = "#3b6347";
 
@@ -42,7 +42,7 @@ export default function Sidebar({
   height?: number | string;
   activeNav?: "search" | "recommend" | "progress" | "admin";
 }) {
-  const { user, refetch } = useUser();
+  const { user, logout } = useUser();
   const { items: recentSearches, clear: clearHistory } = useSearchHistory();
 
   /**
@@ -79,26 +79,17 @@ export default function Sidebar({
     window.location.href = googleLoginUrl();
   };
 
-  const handleLogout = async () => {
-    try {
-      await apiFetch("/logout", { method: "POST" });
-    } catch {
-      // best effort — Laravel /logout is SSR-only today, response may not be JSON
-    } finally {
-      await refetch();
-    }
-  };
-
   return (
     <aside
       className="flex flex-col shrink-0"
       style={{ width: 195, height, background: "var(--ku-bg)", borderRight: "0.5px solid var(--ku-sidebar-border)" }}
     >
       {/* User Profile */}
-      <div
+      <Link
+        href="/profile"
         className="flex items-center shrink-0"
         aria-label="โปรไฟล์ผู้ใช้"
-        style={{ paddingLeft: 18.5, paddingTop: 50, paddingBottom: 14, paddingRight: 18.5, gap: 9 }}
+        style={{ paddingLeft: 18.5, paddingTop: 50, paddingBottom: 14, paddingRight: 18.5, gap: 9, textDecoration: "none" }}
       >
         <div
           className="rounded-full flex items-center justify-center overflow-hidden shrink-0"
@@ -126,7 +117,7 @@ export default function Sidebar({
           <p className="text-[12px] leading-[16px] truncate" style={{ color: "var(--ku-text-faint)" }}>แผนฟรี</p>
           <p className="text-[12px] leading-[16px] truncate" style={{ color: "var(--ku-text)" }}>{user?.name || "ผู้เยี่ยมชม"}</p>
         </div>
-      </div>
+      </Link>
 
       {/* Divider 1 */}
       <div style={{ height: 0.38, background: "var(--ku-divider)", flexShrink: 0 }} />
@@ -293,7 +284,7 @@ export default function Sidebar({
               <span>+</span><span>แชทใหม่</span>
             </Link>
             <button
-              onClick={handleLogout}
+              onClick={() => void logout()}
               className="text-[12px] leading-[16px] hover:opacity-70 transition-opacity text-center w-full"
               style={{ color: "var(--ku-text-faint)" }}
             >

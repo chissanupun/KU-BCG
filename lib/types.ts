@@ -4,7 +4,8 @@ export type User = {
   email: string;
   email_verified_at: string | null;
   role: "admin" | "student" | "researcher" | "teacher" | null;
-  google_id: string | null;
+  /** True until the current privacy notice version is accepted (contract C4). */
+  consent_required: boolean;
   avatar_url: string | null;
   profile_completed_at: string | null;
   faculty: string | null;
