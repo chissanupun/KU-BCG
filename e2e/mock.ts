@@ -113,6 +113,9 @@ export async function mockApi(
       stored.push(query);
       return json({ data: { id: stored.length, user_id: 1, query, result: resultFor(query), created_at: "", updated_at: "" } });
     }
+    if (path === "/api/progress") {
+      return json({ data: stored.map((query, i) => ({ id: i + 1, query, title: null, completed_count: 0, total: 3, percent: 0, created_at: "2026-10-29" })).reverse() });
+    }
     const progress = path.match(/^\/api\/search\/history\/(\d+)\/progress$/);
     if (progress) return json({ data: { completed: [], completed_count: 0, total: 3, percent: 0 } });
     const history = path.match(/^\/api\/search\/history\/(\d+)$/);

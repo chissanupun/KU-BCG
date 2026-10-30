@@ -86,7 +86,7 @@ function stripPhasePrefix(name: string): string {
   return name.replace(/^phase\s*\d*\s*[:\-–]\s*/i, "").trim() || name;
 }
 
-function formatHours(raw: string | undefined): string {
+function formatHours(raw: string | null | undefined): string {
   const value = (raw ?? "").trim();
   if (!value) return "";
   // Backend sends bare ranges ("90-140") but also pre-unitted strings ("8-12 hrs").
