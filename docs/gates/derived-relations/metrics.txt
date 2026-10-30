@@ -1,0 +1,11 @@
+694 derived relations { isKeywordOf: 48, sharesKeywordWith: 625, belongsToTopic: 21 }
+
+topic  edges/node  components   (relations of that topic: curated -> curated + derived)
+1 Biomass & Bioenergy                    0.75 -> 1.39   3 -> 2   (12 -> 122 nodes)
+2 Chitosan & Bio-packaging               0.73 -> 1.4   3 -> 2   (11 -> 73 nodes)
+3 Microplastics & Water Quality          0.69 -> 1.66   4 -> 4   (13 -> 70 nodes)
+4 Carbon Footprint & Carbon Neutrality   0.73 -> 1.33   6 -> 6   (22 -> 52 nodes)
+5 Sustainable Aquaculture & Probiotics   0.69 -> 1.68   4 -> 3   (13 -> 78 nodes)
+6 Agroforestry & Biodiversity            0.86 -> 1.49   2 -> 2   (14 -> 114 nodes)
+
+ES not touched

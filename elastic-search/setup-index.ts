@@ -42,6 +42,8 @@ const relationsBody = {
       topic_id: { type: 'keyword' },
       source_doc_url: { type: 'keyword' },
       target_doc_url: { type: 'keyword' },
+      origin: { type: 'keyword' }, // 'derived' = computed by derive-relations.ts; absent = hand-curated
+      weight: { type: 'float' },
     },
   },
 } as const;
