@@ -187,7 +187,7 @@ export const DEFAULT_TOPICS: Record<string, TopicDetail> = {
 
 export const DEFAULT_TOPIC_SLUG = "html-semantics";
 
-function formatHours(raw: string | undefined): string {
+function formatHours(raw: string | null | undefined): string {
   const value = (raw ?? "").trim();
   if (!value) return "";
   return /[a-zA-Zก-๙]/.test(value) ? value : `${value} ${HOURS_UNIT}`;
