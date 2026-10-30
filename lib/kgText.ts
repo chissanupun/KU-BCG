@@ -1,5 +1,6 @@
 import courseTitles from "./courseTitles.json";
 import conceptLabels from "./conceptLabels.json";
+import learningConcepts from "./learningConcepts.json";
 
 /** Plain-Thai wording for the knowledge graph: the backend sends relation names and slugs meant for developers. */
 
@@ -83,6 +84,11 @@ export function humanLabel(label: string): string {
 
 /** Edges whose `origin` is "ai_suggested" are drafts: drawn dashed and labelled so nobody reads them as verified. */
 export const AI_DRAFT_TEXT = "ร่างจาก AI";
+
+export const DIFFICULTY_TH = { 1: "พื้นฐาน", 2: "กลาง", 3: "สูง" } as const;
+const CONCEPT_TH = new Map(learningConcepts.map((c) => [c.id, c.name_th]));
+/** Thai name of a learning concept; undefined for an id the app does not know, so no raw slug is shown. */
+export const learningConceptName = (id: string) => CONCEPT_TH.get(id);
 export const isAiDraft = (edge: { origin?: string }) => edge.origin === "ai_suggested";
 
 export const predicateText = (type?: string) => PREDICATE_TH[type ?? ""] ?? UNKNOWN_PREDICATE;

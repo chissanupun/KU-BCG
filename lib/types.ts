@@ -49,6 +49,13 @@ export type LearningModule = {
   title: string;
   hours: string;
   desc: string;
+  /** Concept ids this module teaches / needs first (lib/learningConcepts.json). Absent when the module has no concept data. */
+  teaches?: string[];
+  needs?: string[];
+  /** 1 foundation, 2 intermediate, 3 advanced. */
+  difficulty?: 1 | 2 | 3;
+  /** "ai" = a draft nobody has confirmed, shown as a suggestion. Absent is treated as curated. */
+  concept_source?: "curated" | "ai";
   /** Source document link. Absent on LLM-synthesized modules, which have no single source. */
   url?: string;
   /** Per-document fields the topic detail page renders. Absent on synthesized modules. */

@@ -1,0 +1,295 @@
+[
+ {
+  "url": "https://kumooc.ku.th/courses/6/info",
+  "title": "การคำนวณคาร์บอนฟุตพริ้นท์รายบุคคล จาก Application CF Calculation",
+  "teaches": [
+   "carbon_footprint_basics"
+  ],
+  "needs": [],
+  "difficulty": 1,
+  "concept_source": "ai",
+  "difficulty_source": "ai"
+ },
+ {
+  "url": "https://kumooc.ku.th/courses/73/info",
+  "title": "พื้นฐานความรู้การทำฟาร์มป่าไม้",
+  "teaches": [
+   "forestry_basics"
+  ],
+  "needs": [],
+  "difficulty": 1,
+  "concept_source": "ai",
+  "difficulty_source": "ai"
+ },
+ {
+  "url": "https://kumooc.ku.th/courses/74/info",
+  "title": "การใช้งานเลื่อยโซ่ยนต์ขั้นพื้นฐาน",
+  "teaches": [
+   "chainsaw_operation"
+  ],
+  "needs": [
+   "forestry_basics"
+  ],
+  "difficulty": 2,
+  "concept_source": "ai",
+  "difficulty_source": "ai"
+ },
+ {
+  "url": "https://kumooc.ku.th/courses/82/info",
+  "title": "Microplastics 101",
+  "teaches": [
+   "microplastics_basics"
+  ],
+  "needs": [],
+  "difficulty": 1,
+  "concept_source": "ai",
+  "difficulty_source": "ai"
+ },
+ {
+  "url": "https://kumooc.ku.th/courses/84/info",
+  "title": "เศรษฐศาสตร์การจัดการมลพิษและของเสีย",
+  "teaches": [
+   "pollution_economics"
+  ],
+  "needs": [
+   "microplastics_basics"
+  ],
+  "difficulty": 2,
+  "concept_source": "ai",
+  "difficulty_source": "ai"
+ },
+ {
+  "url": "https://kumooc.ku.th/courses/104/info",
+  "title": "การปลูกเลี้ยงและดูแลแคคตัส",
+  "teaches": [
+   "plant_cultivation"
+  ],
+  "needs": [],
+  "difficulty": 1,
+  "concept_source": "ai",
+  "difficulty_source": "ai"
+ },
+ {
+  "url": "https://sis.ku.ac.th/carbon-neutrality/",
+  "title": "วิทยากรกระบวนการความเป็นกลางทางคาร์บอนภาคการเกษตร",
+  "teaches": [
+   "carbon_neutrality_process"
+  ],
+  "needs": [
+   "carbon_footprint_basics"
+  ],
+  "difficulty": 2,
+  "concept_source": "ai",
+  "difficulty_source": "ai"
+ },
+ {
+  "url": "https://sis.ku.ac.th/science-in-environmental-for-security-and-sustainability/",
+  "title": "ศาสตร์การจัดการสิ่งแวดล้อมเพื่อความมั่นคงและยั่งยืน",
+  "teaches": [
+   "environmental_management"
+  ],
+  "needs": [],
+  "difficulty": 3,
+  "concept_source": "ai",
+  "difficulty_source": "ai"
+ },
+ {
+  "url": "https://sis.ku.ac.th/forest-based-enterprises/",
+  "title": "ธุรกิจการป่าไม้",
+  "teaches": [
+   "forest_business"
+  ],
+  "needs": [
+   "forestry_basics"
+  ],
+  "difficulty": 3,
+  "concept_source": "ai",
+  "difficulty_source": "ai"
+ },
+ {
+  "url": "https://sis.ku.ac.th/agroforestry-land-use/",
+  "title": "การใช้ที่ดินวนเกษตร",
+  "teaches": [
+   "agroforestry_land_use"
+  ],
+  "needs": [
+   "forestry_basics"
+  ],
+  "difficulty": 2,
+  "concept_source": "ai",
+  "difficulty_source": "ai"
+ },
+ {
+  "url": "https://sis.ku.ac.th/community-development-for-sustainability/",
+  "title": "การพัฒนาชุมชนเพื่อความยั่งยืน",
+  "teaches": [
+   "sustainable_community"
+  ],
+  "needs": [],
+  "difficulty": 2,
+  "concept_source": "ai",
+  "difficulty_source": "ai"
+ },
+ {
+  "url": "https://sis.ku.ac.th/production-and-value-adding-of-economically-freshwater-animals/",
+  "title": "การผลิตและเพิ่มมูลค่าสัตว์น้ำจืดเศรษฐกิจ",
+  "teaches": [
+   "aquatic_value_adding"
+  ],
+  "needs": [
+   "aquaculture_basics"
+  ],
+  "difficulty": 2,
+  "concept_source": "ai",
+  "difficulty_source": "ai"
+ },
+ {
+  "url": "https://sis.ku.ac.th/ornamental-and-economical-aquatic-animal-aquaculture/",
+  "title": "การเพาะเลี้ยงสัตว์น้ำเศรษฐกิจและสัตว์น้ำสวยงาม",
+  "teaches": [
+   "aquaculture_basics"
+  ],
+  "needs": [],
+  "difficulty": 2,
+  "concept_source": "ai",
+  "difficulty_source": "ai"
+ },
+ {
+  "url": "https://sis.ku.ac.th/entrepreneurship-for-plant-based-and-probiotics-beverages/",
+  "title": "การเป็นผู้ประกอบการธุรกิจเครื่องดื่มจากพืชและโพรไบโอติกส์",
+  "teaches": [
+   "probiotic_business"
+  ],
+  "needs": [],
+  "difficulty": 2,
+  "concept_source": "ai",
+  "difficulty_source": "ai"
+ },
+ {
+  "url": "https://sis.ku.ac.th/economic-tree/",
+  "title": "ธุรกิจสวนไม้เศรษฐกิจ",
+  "teaches": [
+   "economic_tree_business"
+  ],
+  "needs": [
+   "forestry_basics"
+  ],
+  "difficulty": 3,
+  "concept_source": "ai",
+  "difficulty_source": "ai"
+ },
+ {
+  "url": "https://sis.ku.ac.th/agri-business-in-highland-crops-by-doi-pui-way-of-life/",
+  "title": "ธุรกิจเกษตรของพืชบนพื้นที่สูงตามวิถีดอยปุย",
+  "teaches": [
+   "highland_agriculture"
+  ],
+  "needs": [],
+  "difficulty": 3,
+  "concept_source": "ai",
+  "difficulty_source": "ai"
+ },
+ {
+  "url": "https://sis.ku.ac.th/wood-product-technology-for-modern-entrepreneurs/",
+  "title": "เทคโนโลยีผลิตภัณฑ์ไม้เพื่อผู้ประกอบการรุ่นใหม่",
+  "teaches": [
+   "wood_technology"
+  ],
+  "needs": [
+   "forestry_basics"
+  ],
+  "difficulty": 2,
+  "concept_source": "ai",
+  "difficulty_source": "ai"
+ },
+ {
+  "url": "https://sis.ku.ac.th/wildlife-tourism-management-and-sustainability/",
+  "title": "การจัดการท่องเที่ยวสัตว์ป่าเพื่อส่งเสริมการท่องเที่ยวคุณภาพสูงและความยั่งยืนของพื้นที่คุ้มครอง",
+  "teaches": [
+   "wildlife_tourism"
+  ],
+  "needs": [],
+  "difficulty": 2,
+  "concept_source": "ai",
+  "difficulty_source": "ai"
+ },
+ {
+  "url": "https://sis.ku.ac.th/sugarcane/",
+  "title": "ผู้ผลิตอ้อยครบวงจร",
+  "teaches": [
+   "sugarcane_production"
+  ],
+  "needs": [],
+  "difficulty": 2,
+  "concept_source": "ai",
+  "difficulty_source": "ai"
+ },
+ {
+  "url": "https://sis.ku.ac.th/energymanagement/",
+  "title": "การใช้เครื่องมือวัดและอุปกรณ์ดิจิทัลสำหรับการจัดการพลังงานและพลังงานทดแทน",
+  "teaches": [
+   "energy_management"
+  ],
+  "needs": [],
+  "difficulty": 2,
+  "concept_source": "ai",
+  "difficulty_source": "ai"
+ },
+ {
+  "url": "https://sis.ku.ac.th/synthetic-biology-for-industry/",
+  "title": "ชีววิทยาสังเคราะห์เพื่ออุตสาหกรรม",
+  "teaches": [
+   "synthetic_biology"
+  ],
+  "needs": [],
+  "difficulty": 3,
+  "concept_source": "ai",
+  "difficulty_source": "ai"
+ },
+ {
+  "url": "https://sis.ku.ac.th/lawsenterprises/",
+  "title": "กฎหมาย ข้อกำหนดและมาตรฐานในอุตสาหกรรมอาหาร สำหรับวิสาหกิจขนาดกลางและขนาดย่อม",
+  "teaches": [
+   "food_regulation"
+  ],
+  "needs": [],
+  "difficulty": 2,
+  "concept_source": "ai",
+  "difficulty_source": "ai"
+ },
+ {
+  "url": "https://sis.ku.ac.th/biological-data-science-and-bioinformatics/",
+  "title": "วิทยาการข้อมูลทางชีววิทยาและชีวสารสนเทศ",
+  "teaches": [
+   "bio_data_science"
+  ],
+  "needs": [],
+  "difficulty": 2,
+  "concept_source": "ai",
+  "difficulty_source": "ai"
+ },
+ {
+  "url": "https://sis.ku.ac.th/ai-driven-data-analysts-for-food/",
+  "title": "นักวิเคราะห์ข้อมูลด้วยปัญญาประดิษฐ์สำหรับนวัตกรรมอาหารและอุตสาหกรรมเกษตร",
+  "teaches": [
+   "ai_data_analysis"
+  ],
+  "needs": [
+   "bio_data_science"
+  ],
+  "difficulty": 3,
+  "concept_source": "ai",
+  "difficulty_source": "ai"
+ },
+ {
+  "url": "https://sis.ku.ac.th/agricultural-innovator/",
+  "title": "ชุดวิชาเกษตรนวัตกรเพื่อการพัฒนาอย่างยั่งยืน",
+  "teaches": [
+   "agri_innovation"
+  ],
+  "needs": [],
+  "difficulty": 2,
+  "concept_source": "ai",
+  "difficulty_source": "ai"
+ }
+]

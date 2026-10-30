@@ -8,6 +8,11 @@ export type RoadmapCard = {
   href?: string;
   /** Position in the stored result — how progress addresses this module. */
   cardIndex?: number;
+  teaches?: string[];
+  needs?: string[];
+  difficulty?: 1 | 2 | 3;
+  /** The concepts and level are an AI draft: shown as a suggestion, not as a requirement. */
+  aiDraft?: boolean;
 };
 
 export type RoadmapPhase = {
@@ -125,6 +130,10 @@ export function fromGraphRag(result: GraphRagResult, query?: string, historyId?:
         hours: formatHours(mod.hours),
         description: mod.desc ?? "",
         cardIndex,
+        teaches: mod.teaches,
+        needs: mod.needs,
+        difficulty: mod.difficulty,
+        aiDraft: mod.concept_source === "ai",
         href:
           historyId !== undefined
             ? `/topic?h=${historyId}&p=${phaseIndex}&c=${cardIndex}`

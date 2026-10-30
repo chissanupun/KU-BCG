@@ -48,8 +48,8 @@ function resultFor(query: string): GraphRagResult {
       estimated_hours: "20 ชั่วโมง",
       subtitle: "เส้นทางตัวอย่าง",
       phases: [
-        { name: "รากฐาน", intro: "เริ่มต้น", modules: [{ title: "โมดูลแรก", hours: "5 ชั่วโมง", desc: "รายละเอียด" }, { title: "โมดูลสอง", hours: "5 ชั่วโมง", desc: "รายละเอียด" }] },
-        { name: "ต่อยอด", intro: "ลึกขึ้น", modules: [{ title: "โมดูลสาม", hours: "10 ชั่วโมง", desc: "รายละเอียด" }] },
+        { name: "รากฐาน", intro: "เริ่มต้น", modules: [{ title: "โมดูลแรก", hours: "5 ชั่วโมง", desc: "รายละเอียด", teaches: ["carbon_footprint_basics"], difficulty: 1, concept_source: "ai" }, { title: "โมดูลสอง", hours: "5 ชั่วโมง", desc: "รายละเอียด", teaches: ["not_a_known_concept"] }] },
+        { name: "ต่อยอด", intro: "ลึกขึ้น", modules: [{ title: "โมดูลสาม", hours: "10 ชั่วโมง", desc: "รายละเอียด", teaches: ["carbon_neutrality_process"], needs: ["carbon_footprint_basics"], difficulty: 2, concept_source: "curated" }] },
       ],
     },
     evidence: [
