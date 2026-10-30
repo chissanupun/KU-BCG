@@ -1,4 +1,5 @@
 import courseTitles from "./courseTitles.json";
+import conceptLabels from "./conceptLabels.json";
 
 /** Plain-Thai wording for the knowledge graph: the backend sends relation names and slugs meant for developers. */
 
@@ -28,10 +29,19 @@ export const PREDICATE_TH: Record<string, string> = {
   relatedTo: "เกี่ยวข้องกับ",
   studiedBy: "มีการศึกษาโดย",
   isCourseFor: "เป็นชุดวิชาสำหรับ",
+  providesBackgroundFor: "เป็นพื้นฐานของ",
+  appliesConcept: "ประยุกต์ใช้แนวคิด",
+  addresses: "ช่วยแก้ปัญหา",
+  isProcessFor: "เป็นกระบวนการผลิต",
+  assessedWith: "ประเมินได้ด้วย",
+  isIndicatorOf: "เป็นตัวบ่งชี้ของ",
+  affects: "ส่งผลกระทบต่อ",
+  isCauseOf: "เป็นสาเหตุของ",
 };
 const UNKNOWN_PREDICATE = "เกี่ยวข้องกับ";
 
 const LABEL_TH: Record<string, string> = {
+  ...conceptLabels,
   forest: "ป่าไม้",
   agriculture: "เกษตรกรรม",
   industry: "อุตสาหกรรม",
@@ -70,6 +80,10 @@ export function humanLabel(label: string): string {
   if (/^kumooc\d+$/i.test(label)) return COURSE_TITLES[label] ?? `คอร์ส ${label}`;
   return label.replace(/_/g, " ").trim() || label;
 }
+
+/** Edges whose `origin` is "ai_suggested" are drafts: drawn dashed and labelled so nobody reads them as verified. */
+export const AI_DRAFT_TEXT = "ร่างจาก AI";
+export const isAiDraft = (edge: { origin?: string }) => edge.origin === "ai_suggested";
 
 export const predicateText = (type?: string) => PREDICATE_TH[type ?? ""] ?? UNKNOWN_PREDICATE;
 

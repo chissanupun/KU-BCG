@@ -34,6 +34,8 @@ export type GraphEdge = {
   from: string;
   to: string;
   type: string;
+  /** Absent = hand-curated. "derived" = computed from document metadata, "ai_suggested" = a draft nobody has reviewed. */
+  origin?: "derived" | "ai_suggested";
 };
 
 export type KnowledgeGraph = {
