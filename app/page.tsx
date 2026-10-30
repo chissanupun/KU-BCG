@@ -5,6 +5,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import AppShell from "./components/AppShell";
+import SuggestBox from "./components/SuggestBox";
 
 const PRIMARY = "#3b6347";
 
@@ -82,7 +83,7 @@ export default function Home() {
             animate="visible"
             custom={1}
             variants={fadeUp}
-            className="flex items-center w-full rounded-[4px] overflow-hidden"
+            className="relative flex items-center w-full rounded-[4px]"
             style={{
               background: "var(--ku-search-bg)",
               boxShadow: "var(--ku-search-shadow)",
@@ -92,14 +93,7 @@ export default function Home() {
               gap: 8,
             }}
           >
-            <input
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              onKeyDown={(e) => e.key === "Enter" && handleSearch()}
-              placeholder="วันนี้อยากสำรวจเรื่องอะไร?"
-              className="search-input flex-1 outline-none bg-transparent text-[16px]"
-              style={{ paddingLeft: 16, paddingRight: 16, paddingTop: 14, paddingBottom: 14, color: "var(--ku-text)" }}
-            />
+            <SuggestBox value={query} onChange={setQuery} onSubmit={search} />
             <button
               onClick={handleSearch}
               className="shrink-0 text-[16px] text-white whitespace-nowrap rounded-[4px] hover:opacity-90 active:scale-[0.98] transition-all"
