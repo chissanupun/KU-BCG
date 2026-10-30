@@ -14,6 +14,8 @@ export const PREDICATE_TH: Record<string, string> = {
   mitigatesCarbonVia: "ช่วยลดคาร์บอนผ่าน",
   integratesSpecies: "ผสมผสานเข้ากับ",
   isKeywordOf: "เป็นคำสำคัญของ",
+  sharesKeywordWith: "มีคำสำคัญร่วมกับ",
+  belongsToTopic: "อยู่ในหัวข้อ",
   pollutesVia: "ก่อมลพิษผ่าน",
   isEntryPointFor: "เป็นคอร์สเริ่มต้นสำหรับ",
   isFeedstockOf: "เป็นวัตถุดิบของ",
