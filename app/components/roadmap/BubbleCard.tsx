@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import type { RoadmapCard } from "@/lib/roadmap";
+import { DIFFICULTY_TH, learningConceptName } from "@/lib/kgText";
 import { FONT, fadeIn } from "./tokens";
 import CompleteToggle from "./CompleteToggle";
 
@@ -31,6 +32,17 @@ function linkLabel(url: string): string {
   } catch {
     return url;
   }
+}
+
+const names = (ids?: string[]) => (ids ?? []).flatMap((id) => learningConceptName(id) ?? []);
+
+function ConceptRow({ label, items, testId }: { label: string; items: string[]; testId: string }) {
+  if (!items.length) return null;
+  return (
+    <p data-testid={testId} style={{ fontFamily: FONT, fontSize: 12, lineHeight: "18px", color: "var(--ku-text-muted)", marginTop: 4, overflowWrap: "anywhere" }}>
+      <span style={{ fontWeight: 600 }}>{label}:</span> {items.join(" · ")}
+    </p>
+  );
 }
 
 export default function BubbleCard({
@@ -95,6 +107,16 @@ export default function BubbleCard({
           )}
         </p>
       )}
+      <div data-testid="module-concepts">
+        <ConceptRow label="สอน" items={names(card.teaches)} testId="module-teaches" />
+        <ConceptRow label="ควรรู้ก่อน" items={names(card.needs)} testId="module-needs" />
+        {card.difficulty && (
+          <p data-testid="module-level" style={{ fontFamily: FONT, fontSize: 12, lineHeight: "18px", color: "var(--ku-text-muted)", marginTop: 4 }}>
+            <span style={{ fontWeight: 600 }}>ระดับ:</span> {DIFFICULTY_TH[card.difficulty]}
+            {card.aiDraft && " · แนะนำ (AI ประเมิน)"}
+          </p>
+        )}
+      </div>
     </>
   );
 
