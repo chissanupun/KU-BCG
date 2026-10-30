@@ -23,12 +23,17 @@ export default function EvidenceCard({ item, index }: { item: EvidenceItem; inde
       >
         {SOURCE_LABELS[item.source] ?? item.source}
       </span>
-      <p style={{ fontFamily: FONT, fontSize: 14, fontWeight: 600, color: "var(--ku-text)", marginTop: 8 }}>{item.title}</p>
       {item.source === "KU_NonDegree" && (
-        <p style={{ fontFamily: FONT, fontSize: 13, lineHeight: "20px", color: "var(--ku-text-muted)", marginTop: 6 }}>
-          จับคู่กับหัวข้อจากชื่อชุดวิชา (ยังไม่ได้ตรวจเนื้อหา)
-        </p>
+        <span
+          style={{
+            display: "inline-block", marginLeft: 6, fontFamily: FONT, fontSize: 12, color: "var(--ku-text-muted)",
+            border: "0.5px solid var(--ku-tag-border)", borderRadius: 6, padding: "2px 8px",
+          }}
+        >
+          ชุดวิชาระยะสั้น
+        </span>
       )}
+      <p style={{ fontFamily: FONT, fontSize: 14, fontWeight: 600, color: "var(--ku-text)", marginTop: 8 }}>{item.title}</p>
       {item.snippet && (
         <p style={{ fontFamily: FONT, fontSize: 13, lineHeight: "20px", color: "var(--ku-text-muted)", marginTop: 6 }}>
           {item.snippet}
@@ -45,7 +50,7 @@ export default function EvidenceCard({ item, index }: { item: EvidenceItem; inde
             color: "var(--ku-text)", border: "0.5px solid var(--ku-nav-active-border)", borderRadius: 6, padding: "4px 12px", textDecoration: "none",
           }}
         >
-          ดูแหล่งข้อมูลต้นทาง →
+          {item.source === "KU_NonDegree" ? "ดูชุดวิชาที่ sis.ku.ac.th →" : "ดูแหล่งข้อมูลต้นทาง →"}
         </a>
       )}
     </motion.article>
