@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { edgeSentence, humanLabel, TYPE_LABELS } from "@/lib/kgText";
 import type { KnowledgeGraph } from "@/lib/types";
 
 /**
@@ -29,9 +30,20 @@ type SimNode = {
 
 type SimEdge = { from: SimNode; to: SimNode; type: string };
 
-function truncate(text: string | undefined, max = 14): string {
-  if (!text || text.length <= max) return text ?? "";
-  return `${text.slice(0, max - 1)}…`;
+/** Two lines of at most `max` characters; Thai has no spaces, so a long name is cut at the limit. */
+const thaiWords = typeof Intl !== "undefined" && "Segmenter" in Intl ? new Intl.Segmenter("th", { granularity: "word" }) : null;
+
+/** Two lines at most; Thai has no spaces, so break on word boundaries instead of mid-word. */
+function wrapLabel(text: string, max = 14): string[] {
+  if (text.length <= max) return [text];
+  const words = thaiWords ? [...thaiWords.segment(text)].map((s) => s.segment) : text.split(/(?<= )/);
+  let first = "";
+  for (const w of words) {
+    if (first && (first + w).length > max) break;
+    first += w;
+  }
+  const rest = text.slice(first.length).trim();
+  return [first.trim(), rest.length > max ? `${rest.slice(0, max - 1)}…` : rest].filter(Boolean);
 }
 
 function buildSimulationNodes(graph: KnowledgeGraph, hiddenTypes: ReadonlySet<string>) {
@@ -97,9 +109,9 @@ function buildSimulationNodes(graph: KnowledgeGraph, hiddenTypes: ReadonlySet<st
 }
 
 function tickSimulation(simNodes: SimNode[], simEdges: SimEdge[], cx: number, cy: number) {
-  const repulsion = 4200;
+  const repulsion = 7000;
   const spring = 0.045;
-  const idealLength = 95;
+  const idealLength = 115;
   const damping = 0.82;
   const centerPull = 0.02;
 
@@ -155,12 +167,13 @@ function tickSimulation(simNodes: SimNode[], simEdges: SimEdge[], cx: number, cy
     node.vy += (cy - node.y) * centerPull;
     node.vx *= damping;
     node.vy *= damping;
-    node.x += node.vx;
-    node.y += node.vy;
+    // Keep the circle and the two-line name under it inside the viewBox.
+    node.x = Math.min(Math.max(node.x + node.vx, 50), 430);
+    node.y = Math.min(Math.max(node.y + node.vy, 30), 310);
   });
 }
 
-function renderGraph(svg: SVGSVGElement, simNodes: SimNode[], simEdges: SimEdge[], width: number, height: number) {
+function renderGraph(svg: SVGSVGElement, simNodes: SimNode[], simEdges: SimEdge[]) {
   while (svg.firstChild) svg.removeChild(svg.firstChild);
 
   const ns = "http://www.w3.org/2000/svg";
@@ -175,13 +188,14 @@ function renderGraph(svg: SVGSVGElement, simNodes: SimNode[], simEdges: SimEdge[
     line.setAttribute("stroke-width", "1.5");
     line.setAttribute("opacity", "0.85");
     const title = document.createElementNS(ns, "title");
-    title.textContent = `${edge.from.label} --[${edge.type}]--> ${edge.to.label}`;
+    title.textContent = edgeSentence(edge.from.label, edge.type, edge.to.label);
     line.appendChild(title);
     svg.appendChild(line);
+
   });
 
   simNodes.forEach((node) => {
-    const radius = node.fixed ? 30 : 24;
+    const radius = node.fixed ? 22 : 14;
     const circle = document.createElementNS(ns, "circle");
     circle.setAttribute("cx", String(node.x));
     circle.setAttribute("cy", String(node.y));
@@ -189,25 +203,34 @@ function renderGraph(svg: SVGSVGElement, simNodes: SimNode[], simEdges: SimEdge[
     circle.setAttribute("fill", node.color);
     circle.setAttribute("stroke", "#ffffff");
     circle.setAttribute("stroke-width", "2");
+    const name = humanLabel(node.label);
     const title = document.createElementNS(ns, "title");
-    title.textContent = `${node.label} (${node.type})`;
+    title.textContent = `${name} (${TYPE_LABELS[node.type] ?? node.type})`;
     circle.appendChild(title);
 
     const text = document.createElementNS(ns, "text");
     text.setAttribute("x", String(node.x));
-    text.setAttribute("y", String(node.y));
     text.setAttribute("text-anchor", "middle");
-    text.setAttribute("dominant-baseline", "middle");
-    text.setAttribute("fill", "#ffffff");
-    text.setAttribute("font-size", node.fixed ? "9" : "7");
-    text.setAttribute("font-weight", "600");
-    text.textContent = truncate(node.label, node.fixed ? 16 : 12);
+    text.setAttribute("font-size", "16");
+    text.setAttribute("font-weight", node.fixed ? "700" : "500");
+    text.setAttribute("style", "fill:var(--ku-text);stroke:var(--ku-card-bg);stroke-width:3px;paint-order:stroke");
+    wrapLabel(name).forEach((line, i) => {
+      const span = document.createElementNS(ns, "tspan");
+      span.setAttribute("x", String(node.x));
+      span.setAttribute("y", String(node.y + radius + 17 + i * 18));
+      span.textContent = line;
+      text.appendChild(span);
+    });
 
     svg.appendChild(circle);
     svg.appendChild(text);
   });
 
-  svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+  // Fit the view to the drawn nodes (plus room for the names under them) so a small graph is not left tiny in empty space.
+  const xs = simNodes.map((n) => n.x), ys = simNodes.map((n) => n.y);
+  const x0 = Math.min(...xs) - 70, x1 = Math.max(...xs) + 70;
+  const y0 = Math.min(...ys) - 30, y1 = Math.max(...ys) + 65;
+  svg.setAttribute("viewBox", `${x0} ${y0} ${Math.max(x1 - x0, 200)} ${Math.max(y1 - y0, 150)}`);
 }
 
 const NO_HIDDEN: ReadonlySet<string> = new Set();
@@ -216,10 +239,12 @@ export default function KnowledgeGraphView({
   graph,
   hiddenTypes = NO_HIDDEN,
   height = 360,
+  ariaLabel,
 }: {
   graph: KnowledgeGraph;
   hiddenTypes?: ReadonlySet<string>;
   height?: number | string;
+  ariaLabel?: string;
 }) {
   const svgRef = useRef<SVGSVGElement>(null);
 
@@ -236,7 +261,7 @@ export default function KnowledgeGraphView({
 
     const animate = () => {
       tickSimulation(simNodes, simEdges, cx, cy);
-      renderGraph(svg, simNodes, simEdges, width, height);
+      renderGraph(svg, simNodes, simEdges);
       frame += 1;
       if (frame < maxFrames) raf = requestAnimationFrame(animate);
     };
@@ -248,6 +273,8 @@ export default function KnowledgeGraphView({
   return (
     <svg
       ref={svgRef}
+      role="img"
+      aria-label={ariaLabel}
       style={{ width: "100%", height, display: "block" }}
     />
   );

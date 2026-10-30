@@ -2,15 +2,10 @@
 
 import { useMemo, useState } from "react";
 import type { GraphRagResult } from "@/lib/types";
+import { graphSummary, pickDescription, TYPE_LABELS } from "@/lib/kgText";
 import { FONT } from "../components/roadmap/tokens";
 import KnowledgeGraphView from "./KnowledgeGraphView";
-
-const TYPE_LABELS: Record<string, string> = {
-  topic: "หัวข้อ",
-  bcg_pillar: "BCG",
-  faculty: "คณะ",
-  course: "คอร์ส",
-};
+import RelationList from "./RelationList";
 
 const button = {
   height: 28, padding: "0 10px", borderRadius: 6, border: "0.5px solid var(--ku-card-border)",
@@ -26,9 +21,23 @@ export default function MapTab({ result }: { result: GraphRagResult }) {
   // Offer only the node types this graph actually has, so no filter chip is a no-op.
   const types = useMemo(() => [...new Set((graph?.nodes ?? []).map((n) => n.type))], [graph]);
 
+  const center = graph?.center?.label ?? "";
+  const edges = graph?.edges ?? [];
+  const hiddenLabels = new Set((graph?.nodes ?? []).filter((n) => hidden.has(n.type) && n.label !== center).map((n) => n.label));
+  const shownEdges = edges.filter((e) => !hiddenLabels.has(e.from) && !hiddenLabels.has(e.to));
+  // One swatch per node type, in the colour that type is actually drawn with.
+  const legend = useMemo(() => {
+    const byType = new Map<string, string>();
+    for (const n of [graph?.center, ...(graph?.nodes ?? [])]) if (n && !byType.has(n.type)) byType.set(n.type, n.color);
+    return [...byType];
+  }, [graph]);
+
   if (!graph || (graph.nodes ?? []).length === 0) {
     return <p style={{ fontFamily: FONT, fontSize: 13, color: "var(--ku-text-muted)" }}>ยังไม่มีข้อมูลความสัมพันธ์สำหรับคำค้นนี้</p>;
   }
+
+  const others = new Set((graph.nodes ?? []).map((n) => n.label)).size - ((graph.nodes ?? []).some((n) => n.label === center) ? 1 : 0);
+  const summary = graphSummary(center, others, edges.length);
 
   const toggle = (type: string) =>
     setHidden((prev) => {
@@ -39,9 +48,9 @@ export default function MapTab({ result }: { result: GraphRagResult }) {
 
   return (
     <div style={{ overflowWrap: "anywhere" }}>
-      {graph.description && (
-        <p style={{ fontFamily: FONT, fontSize: 16, lineHeight: "24px", color: "var(--ku-text)", marginBottom: 20 }}>{graph.description}</p>
-      )}
+      <p style={{ fontFamily: FONT, fontSize: 16, lineHeight: "24px", color: "var(--ku-text)", marginBottom: 20 }}>
+        {pickDescription(graph.description, summary)}
+      </p>
       <div
         style={{
           borderRadius: expanded ? 0 : 20, overflow: "hidden", border: "0.5px solid var(--ku-card-border)",
@@ -77,9 +86,26 @@ export default function MapTab({ result }: { result: GraphRagResult }) {
         )}
 
         <div style={{ flex: 1, minHeight: 0 }}>
-          <KnowledgeGraphView graph={graph} hiddenTypes={hidden} height={expanded ? "calc(100dvh - 80px)" : 360} />
+          <KnowledgeGraphView
+            graph={graph}
+            hiddenTypes={hidden}
+            height={expanded ? "calc(100dvh - 80px)" : 360}
+            ariaLabel={summary}
+          />
         </div>
       </div>
+
+      <div className="flex flex-wrap items-center" style={{ gap: "6px 16px", marginTop: 12, fontFamily: FONT, fontSize: 12, color: "var(--ku-text-muted)" }}>
+        {legend.map(([type, color]) => (
+          <span key={type} className="flex items-center" style={{ gap: 6 }}>
+            <span aria-hidden style={{ width: 10, height: 10, borderRadius: "50%", background: color }} />
+            {TYPE_LABELS[type] ?? type}
+          </span>
+        ))}
+        <span>วงกลม = สิ่งที่เกี่ยวข้อง · เส้น = ความสัมพันธ์ (อ่านเป็นประโยคด้านล่าง)</span>
+      </div>
+
+      <RelationList edges={shownEdges} />
     </div>
   );
 }
