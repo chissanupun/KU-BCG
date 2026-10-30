@@ -15,7 +15,8 @@
     "es:non-degree": "tsx elastic-search/ingest-non-degree.ts",
     "suggest:gen": "tsx elastic-search/gen-suggestions.ts",
     "es:embed": "tsx elastic-search/embed.ts",
-    "links:check": "tsx elastic-search/check-links.ts"
+    "links:check": "tsx elastic-search/check-links.ts",
+    "audit:english": "tsx scripts/audit-english-ui.ts"
   },
   "dependencies": {
     "@elastic/elasticsearch": "^8.19.1",
