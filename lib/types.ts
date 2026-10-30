@@ -43,8 +43,25 @@ export type KnowledgeGraph = {
   edges: GraphEdge[];
 };
 
+/**
+ * Thai text an LLM produced from English-only source text. The original fields stay untouched next to the
+ * `*_ai_th` ones, and the UI must label whatever it shows from them.
+ */
+export type AiTranslation = {
+  model: string;
+  prompt_version?: string;
+  translated_at?: string;
+  reviewed?: boolean;
+};
+
 export type LearningModule = {
   title: string;
+  /** AI Thai translations of the fields above; present only when the source text has no Thai. */
+  title_ai_th?: string;
+  abstract_ai_th?: string;
+  /** Same order as `keywords`. */
+  keywords_ai_th?: string[];
+  ai_translation?: AiTranslation;
   hours: string;
   desc: string;
   /** Source document link. Absent on LLM-synthesized modules, which have no single source. */
@@ -83,6 +100,9 @@ export type EvidenceItem = {
   source: "KUKR" | "KU_Forest" | "KU_MOOC" | "KU_NonDegree" | "UNKNOWN";
   url: string;
   snippet?: string;
+  title_ai_th?: string;
+  snippet_ai_th?: string;
+  ai_translation?: AiTranslation;
 };
 
 export type GraphRagMeta = {

@@ -24,6 +24,15 @@ const node = (label: string, type: "topic" | "faculty" | "course" | "bcg_pillar"
 // The backend's real description string, which is English and must never reach the screen.
 const BACKEND_DESCRIPTION = "GraphRAG subgraph from KU BCG relations (KUKR + KU Forest + KU MOOC).";
 
+// What the backend sends once the AI Thai translations are imported (originals stay in `title`, `abstract`, `keywords`).
+const AI = { model: "claude-sonnet-5-5", translated_at: "2026-10-30T09:00:00Z", reviewed: false };
+const AI_MODULE = {
+  title: "Chitosan edible coating for bananas", title_ai_th: "สารเคลือบไคโตซานที่กินได้สำหรับกล้วย",
+  hours: "5 ชั่วโมง", desc: "รายละเอียด",
+  abstract: "Chitosan coating extended shelf life by 40%.", abstract_ai_th: "สารเคลือบไคโตซานช่วยยืดอายุการเก็บรักษาได้ 40%",
+  keywords: ["Chitosan", "Banana"], keywords_ai_th: ["ไคโตซาน", "กล้วย"], ai_translation: AI,
+};
+
 function resultFor(query: string): GraphRagResult {
   const faculties = FACULTIES_BY_TOPIC[query] ?? FACULTIES;
   // Relations as ku_bcg_relations stores them: developer slugs and camelCase predicates.
@@ -47,7 +56,7 @@ function resultFor(query: string): GraphRagResult {
       estimated_hours: "20 ชั่วโมง",
       subtitle: "เส้นทางตัวอย่าง",
       phases: [
-        { name: "รากฐาน", intro: "เริ่มต้น", modules: [{ title: "โมดูลแรก", hours: "5 ชั่วโมง", desc: "รายละเอียด" }, { title: "โมดูลสอง", hours: "5 ชั่วโมง", desc: "รายละเอียด" }] },
+        { name: "รากฐาน", intro: "เริ่มต้น", modules: [query === "ai-translation" ? AI_MODULE : { title: "โมดูลแรก", hours: "5 ชั่วโมง", desc: "รายละเอียด" }, { title: "โมดูลสอง", hours: "5 ชั่วโมง", desc: "รายละเอียด" }] },
         { name: "ต่อยอด", intro: "ลึกขึ้น", modules: [{ title: "โมดูลสาม", hours: "10 ชั่วโมง", desc: "รายละเอียด" }] },
       ],
     },
@@ -55,6 +64,13 @@ function resultFor(query: string): GraphRagResult {
       { title: `KU Forest: ${query}`, source: "KU_Forest", url: "https://example.com/forest", snippet: "สรุปย่อ" },
       { title: `KUKR: ${query}`, source: "KUKR", url: "https://example.com/kukr", snippet: "สรุปย่อ" },
       { title: `KU MOOC: ${query}`, source: "KU_MOOC", url: "https://example.com/mooc" },
+      ...(query === "ai-translation"
+        ? [
+            { title: "Chitosan edible coating for bananas", title_ai_th: "สารเคลือบไคโตซานที่กินได้สำหรับกล้วย", snippet: "Shelf life extended.", snippet_ai_th: "ยืดอายุการเก็บรักษา", ai_translation: AI, source: "KUKR" as const, url: "https://example.com/chitosan" },
+            // Already Thai: a stray translation must not replace it or add a badge.
+            { title: "งานวิจัยที่เป็นไทยอยู่แล้ว", title_ai_th: "ไม่ควรถูกใช้", source: "KUKR" as const, url: "https://example.com/thai" },
+          ]
+        : []),
       ...(query === "non-degree" ? [{ title: "ธุรกิจการป่าไม้", source: "KU_NonDegree" as const, url: "https://sis.ku.ac.th/forest-based-enterprises/" }] : []),
     ],
   };
