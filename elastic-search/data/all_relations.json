@@ -9,7 +9,7 @@
   },
   "hits": {
     "total": {
-      "value": 23,
+      "value": 63,
       "relation": "eq"
     },
     "max_score": 1.0,
@@ -265,6 +265,446 @@
           "predicate": "mitigatesCarbonVia",
           "object": "CarbonFootprint",
           "topic_id": "4"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-1",
+        "_score": 1.0,
+        "_source": {
+          "subject": "วิทยากรกระบวนการความเป็นกลางทางคาร์บอนภาคการเกษตร",
+          "predicate": "isCourseFor",
+          "object": "Carbon Footprint & Carbon Neutrality",
+          "topic_id": "4"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-2",
+        "_score": 1.0,
+        "_source": {
+          "subject": "ศาสตร์การจัดการสิ่งแวดล้อมเพื่อความมั่นคงและยั่งยืน",
+          "predicate": "isCourseFor",
+          "object": "Microplastics & Water Quality",
+          "topic_id": "3"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-3",
+        "_score": 1.0,
+        "_source": {
+          "subject": "ศาสตร์การจัดการสิ่งแวดล้อมเพื่อความมั่นคงและยั่งยืน",
+          "predicate": "isCourseFor",
+          "object": "Carbon Footprint & Carbon Neutrality",
+          "topic_id": "4"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-4",
+        "_score": 1.0,
+        "_source": {
+          "subject": "ธุรกิจการป่าไม้",
+          "predicate": "isCourseFor",
+          "object": "Carbon Footprint & Carbon Neutrality",
+          "topic_id": "4"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-5",
+        "_score": 1.0,
+        "_source": {
+          "subject": "ธุรกิจการป่าไม้",
+          "predicate": "isCourseFor",
+          "object": "Agroforestry & Biodiversity",
+          "topic_id": "6"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-6",
+        "_score": 1.0,
+        "_source": {
+          "subject": "การใช้ที่ดินวนเกษตร",
+          "predicate": "isCourseFor",
+          "object": "Carbon Footprint & Carbon Neutrality",
+          "topic_id": "4"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-7",
+        "_score": 1.0,
+        "_source": {
+          "subject": "การใช้ที่ดินวนเกษตร",
+          "predicate": "isCourseFor",
+          "object": "Agroforestry & Biodiversity",
+          "topic_id": "6"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-8",
+        "_score": 1.0,
+        "_source": {
+          "subject": "การพัฒนาชุมชนเพื่อความยั่งยืน",
+          "predicate": "isCourseFor",
+          "object": "Carbon Footprint & Carbon Neutrality",
+          "topic_id": "4"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-9",
+        "_score": 1.0,
+        "_source": {
+          "subject": "การผลิตและเพิ่มมูลค่าสัตว์น้ำจืดเศรษฐกิจ",
+          "predicate": "isCourseFor",
+          "object": "Chitosan & Bio-packaging",
+          "topic_id": "2"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-10",
+        "_score": 1.0,
+        "_source": {
+          "subject": "การผลิตและเพิ่มมูลค่าสัตว์น้ำจืดเศรษฐกิจ",
+          "predicate": "isCourseFor",
+          "object": "Sustainable Aquaculture & Probiotics",
+          "topic_id": "5"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-11",
+        "_score": 1.0,
+        "_source": {
+          "subject": "การเพาะเลี้ยงสัตว์น้ำเศรษฐกิจและสัตว์น้ำสวยงาม",
+          "predicate": "isCourseFor",
+          "object": "Microplastics & Water Quality",
+          "topic_id": "3"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-12",
+        "_score": 1.0,
+        "_source": {
+          "subject": "การเพาะเลี้ยงสัตว์น้ำเศรษฐกิจและสัตว์น้ำสวยงาม",
+          "predicate": "isCourseFor",
+          "object": "Sustainable Aquaculture & Probiotics",
+          "topic_id": "5"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-13",
+        "_score": 1.0,
+        "_source": {
+          "subject": "การเป็นผู้ประกอบการธุรกิจเครื่องดื่มจากพืชและโพรไบโอติกส์",
+          "predicate": "isCourseFor",
+          "object": "Sustainable Aquaculture & Probiotics",
+          "topic_id": "5"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-14",
+        "_score": 1.0,
+        "_source": {
+          "subject": "ธุรกิจสวนไม้เศรษฐกิจ",
+          "predicate": "isCourseFor",
+          "object": "Agroforestry & Biodiversity",
+          "topic_id": "6"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-15",
+        "_score": 1.0,
+        "_source": {
+          "subject": "ธุรกิจเกษตรของพืชบนพื้นที่สูงตามวิถีดอยปุย",
+          "predicate": "isCourseFor",
+          "object": "Agroforestry & Biodiversity",
+          "topic_id": "6"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-16",
+        "_score": 1.0,
+        "_source": {
+          "subject": "เทคโนโลยีผลิตภัณฑ์ไม้เพื่อผู้ประกอบการรุ่นใหม่",
+          "predicate": "isCourseFor",
+          "object": "Agroforestry & Biodiversity",
+          "topic_id": "6"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-17",
+        "_score": 1.0,
+        "_source": {
+          "subject": "การจัดการท่องเที่ยวสัตว์ป่าเพื่อส่งเสริมการท่องเที่ยวคุณภาพสูงและความยั่งยืนของพื้นที่คุ้มครอง",
+          "predicate": "isCourseFor",
+          "object": "Agroforestry & Biodiversity",
+          "topic_id": "6"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-18",
+        "_score": 1.0,
+        "_source": {
+          "subject": "ผู้ผลิตอ้อยครบวงจร",
+          "predicate": "isCourseFor",
+          "object": "Biomass & Bioenergy",
+          "topic_id": "1"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-19",
+        "_score": 1.0,
+        "_source": {
+          "subject": "การใช้เครื่องมือวัดและอุปกรณ์ดิจิทัลสำหรับการจัดการพลังงานและพลังงานทดแทน",
+          "predicate": "isCourseFor",
+          "object": "Biomass & Bioenergy",
+          "topic_id": "1"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-20",
+        "_score": 1.0,
+        "_source": {
+          "subject": "ชีววิทยาสังเคราะห์เพื่ออุตสาหกรรม",
+          "predicate": "isCourseFor",
+          "object": "Biomass & Bioenergy",
+          "topic_id": "1"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-21",
+        "_score": 1.0,
+        "_source": {
+          "subject": "ชีววิทยาสังเคราะห์เพื่ออุตสาหกรรม",
+          "predicate": "isCourseFor",
+          "object": "Chitosan & Bio-packaging",
+          "topic_id": "2"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-22",
+        "_score": 1.0,
+        "_source": {
+          "subject": "กฎหมาย ข้อกำหนดและมาตรฐานในอุตสาหกรรมอาหาร สำหรับวิสาหกิจขนาดกลางและขนาดย่อม",
+          "predicate": "isCourseFor",
+          "object": "Chitosan & Bio-packaging",
+          "topic_id": "2"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-23",
+        "_score": 1.0,
+        "_source": {
+          "subject": "วิทยาการข้อมูลทางชีววิทยาและชีวสารสนเทศ",
+          "predicate": "isCourseFor",
+          "object": "Biomass & Bioenergy",
+          "topic_id": "1"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-24",
+        "_score": 1.0,
+        "_source": {
+          "subject": "วิทยาการข้อมูลทางชีววิทยาและชีวสารสนเทศ",
+          "predicate": "isCourseFor",
+          "object": "Chitosan & Bio-packaging",
+          "topic_id": "2"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-25",
+        "_score": 1.0,
+        "_source": {
+          "subject": "วิทยาการข้อมูลทางชีววิทยาและชีวสารสนเทศ",
+          "predicate": "isCourseFor",
+          "object": "Microplastics & Water Quality",
+          "topic_id": "3"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-26",
+        "_score": 1.0,
+        "_source": {
+          "subject": "วิทยาการข้อมูลทางชีววิทยาและชีวสารสนเทศ",
+          "predicate": "isCourseFor",
+          "object": "Carbon Footprint & Carbon Neutrality",
+          "topic_id": "4"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-27",
+        "_score": 1.0,
+        "_source": {
+          "subject": "วิทยาการข้อมูลทางชีววิทยาและชีวสารสนเทศ",
+          "predicate": "isCourseFor",
+          "object": "Sustainable Aquaculture & Probiotics",
+          "topic_id": "5"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-28",
+        "_score": 1.0,
+        "_source": {
+          "subject": "วิทยาการข้อมูลทางชีววิทยาและชีวสารสนเทศ",
+          "predicate": "isCourseFor",
+          "object": "Agroforestry & Biodiversity",
+          "topic_id": "6"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-29",
+        "_score": 1.0,
+        "_source": {
+          "subject": "นักวิเคราะห์ข้อมูลด้วยปัญญาประดิษฐ์สำหรับนวัตกรรมอาหารและอุตสาหกรรมเกษตร",
+          "predicate": "isCourseFor",
+          "object": "Biomass & Bioenergy",
+          "topic_id": "1"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-30",
+        "_score": 1.0,
+        "_source": {
+          "subject": "นักวิเคราะห์ข้อมูลด้วยปัญญาประดิษฐ์สำหรับนวัตกรรมอาหารและอุตสาหกรรมเกษตร",
+          "predicate": "isCourseFor",
+          "object": "Chitosan & Bio-packaging",
+          "topic_id": "2"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-31",
+        "_score": 1.0,
+        "_source": {
+          "subject": "นักวิเคราะห์ข้อมูลด้วยปัญญาประดิษฐ์สำหรับนวัตกรรมอาหารและอุตสาหกรรมเกษตร",
+          "predicate": "isCourseFor",
+          "object": "Microplastics & Water Quality",
+          "topic_id": "3"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-32",
+        "_score": 1.0,
+        "_source": {
+          "subject": "นักวิเคราะห์ข้อมูลด้วยปัญญาประดิษฐ์สำหรับนวัตกรรมอาหารและอุตสาหกรรมเกษตร",
+          "predicate": "isCourseFor",
+          "object": "Carbon Footprint & Carbon Neutrality",
+          "topic_id": "4"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-33",
+        "_score": 1.0,
+        "_source": {
+          "subject": "นักวิเคราะห์ข้อมูลด้วยปัญญาประดิษฐ์สำหรับนวัตกรรมอาหารและอุตสาหกรรมเกษตร",
+          "predicate": "isCourseFor",
+          "object": "Sustainable Aquaculture & Probiotics",
+          "topic_id": "5"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-34",
+        "_score": 1.0,
+        "_source": {
+          "subject": "นักวิเคราะห์ข้อมูลด้วยปัญญาประดิษฐ์สำหรับนวัตกรรมอาหารและอุตสาหกรรมเกษตร",
+          "predicate": "isCourseFor",
+          "object": "Agroforestry & Biodiversity",
+          "topic_id": "6"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-35",
+        "_score": 1.0,
+        "_source": {
+          "subject": "ชุดวิชาเกษตรนวัตกรเพื่อการพัฒนาอย่างยั่งยืน",
+          "predicate": "isCourseFor",
+          "object": "Biomass & Bioenergy",
+          "topic_id": "1"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-36",
+        "_score": 1.0,
+        "_source": {
+          "subject": "ชุดวิชาเกษตรนวัตกรเพื่อการพัฒนาอย่างยั่งยืน",
+          "predicate": "isCourseFor",
+          "object": "Chitosan & Bio-packaging",
+          "topic_id": "2"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-37",
+        "_score": 1.0,
+        "_source": {
+          "subject": "ชุดวิชาเกษตรนวัตกรเพื่อการพัฒนาอย่างยั่งยืน",
+          "predicate": "isCourseFor",
+          "object": "Microplastics & Water Quality",
+          "topic_id": "3"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-38",
+        "_score": 1.0,
+        "_source": {
+          "subject": "ชุดวิชาเกษตรนวัตกรเพื่อการพัฒนาอย่างยั่งยืน",
+          "predicate": "isCourseFor",
+          "object": "Carbon Footprint & Carbon Neutrality",
+          "topic_id": "4"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-39",
+        "_score": 1.0,
+        "_source": {
+          "subject": "ชุดวิชาเกษตรนวัตกรเพื่อการพัฒนาอย่างยั่งยืน",
+          "predicate": "isCourseFor",
+          "object": "Sustainable Aquaculture & Probiotics",
+          "topic_id": "5"
+        }
+      },
+      {
+        "_index": "ku_bcg_relations",
+        "_id": "non-degree-rel-40",
+        "_score": 1.0,
+        "_source": {
+          "subject": "ชุดวิชาเกษตรนวัตกรเพื่อการพัฒนาอย่างยั่งยืน",
+          "predicate": "isCourseFor",
+          "object": "Agroforestry & Biodiversity",
+          "topic_id": "6"
         }
       }
     ]

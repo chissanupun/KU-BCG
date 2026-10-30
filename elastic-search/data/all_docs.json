@@ -9,7 +9,7 @@
   },
   "hits" : {
     "total" : {
-      "value" : 612,
+      "value" : 631,
       "relation" : "eq"
     },
     "max_score" : 1.0,
@@ -33997,6 +33997,626 @@
           "topic_names_en" : [
             "Agroforestry & Biodiversity"
           ]
+        }
+      },
+      {
+        "_index" : "ku_bcg_documents",
+        "_id" : "non-degree-1",
+        "_score" : 1.0,
+        "_source" : {
+          "source" : "KU_NonDegree",
+          "doc_type" : "course",
+          "title" : "วิทยากรกระบวนการความเป็นกลางทางคาร์บอนภาคการเกษตร",
+          "url" : "https://sis.ku.ac.th/carbon-neutrality/",
+          "category" : "พัฒนาชุมชนและสังคม",
+          "authors" : [ ],
+          "keywords" : [ ],
+          "topic_ids" : [
+            "4"
+          ],
+          "bcg_pillars" : [
+            "Green"
+          ],
+          "topic_names_th" : [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en" : [
+            "Carbon Footprint & Carbon Neutrality"
+          ],
+          "search_keyword" : "non-degree",
+          "indexed_at" : "2026-10-29T14:28:56.404Z"
+        }
+      },
+      {
+        "_index" : "ku_bcg_documents",
+        "_id" : "non-degree-2",
+        "_score" : 1.0,
+        "_source" : {
+          "source" : "KU_NonDegree",
+          "doc_type" : "course",
+          "title" : "ศาสตร์การจัดการสิ่งแวดล้อมเพื่อความมั่นคงและยั่งยืน",
+          "url" : "https://sis.ku.ac.th/science-in-environmental-for-security-and-sustainability/",
+          "category" : "เกษตรแปรรูป",
+          "authors" : [ ],
+          "keywords" : [ ],
+          "topic_ids" : [
+            "3",
+            "4"
+          ],
+          "bcg_pillars" : [
+            "Circular",
+            "Green"
+          ],
+          "topic_names_th" : [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง",
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en" : [
+            "Microplastics & Water Quality",
+            "Carbon Footprint & Carbon Neutrality"
+          ],
+          "search_keyword" : "non-degree",
+          "indexed_at" : "2026-10-29T14:28:56.404Z"
+        }
+      },
+      {
+        "_index" : "ku_bcg_documents",
+        "_id" : "non-degree-3",
+        "_score" : 1.0,
+        "_source" : {
+          "source" : "KU_NonDegree",
+          "doc_type" : "course",
+          "title" : "ธุรกิจการป่าไม้",
+          "url" : "https://sis.ku.ac.th/forest-based-enterprises/",
+          "category" : "เกษตรแปรรูป",
+          "authors" : [ ],
+          "keywords" : [ ],
+          "topic_ids" : [
+            "4",
+            "6"
+          ],
+          "bcg_pillars" : [
+            "Bio",
+            "Green"
+          ],
+          "topic_names_th" : [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้",
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en" : [
+            "Carbon Footprint & Carbon Neutrality",
+            "Agroforestry & Biodiversity"
+          ],
+          "search_keyword" : "non-degree",
+          "indexed_at" : "2026-10-29T14:28:56.404Z"
+        }
+      },
+      {
+        "_index" : "ku_bcg_documents",
+        "_id" : "non-degree-4",
+        "_score" : 1.0,
+        "_source" : {
+          "source" : "KU_NonDegree",
+          "doc_type" : "course",
+          "title" : "การใช้ที่ดินวนเกษตร",
+          "url" : "https://sis.ku.ac.th/agroforestry-land-use/",
+          "category" : "เกษตรแปรรูป",
+          "authors" : [ ],
+          "keywords" : [ ],
+          "topic_ids" : [
+            "4",
+            "6"
+          ],
+          "bcg_pillars" : [
+            "Bio",
+            "Green"
+          ],
+          "topic_names_th" : [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้",
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en" : [
+            "Carbon Footprint & Carbon Neutrality",
+            "Agroforestry & Biodiversity"
+          ],
+          "search_keyword" : "non-degree",
+          "indexed_at" : "2026-10-29T14:28:56.404Z"
+        }
+      },
+      {
+        "_index" : "ku_bcg_documents",
+        "_id" : "non-degree-5",
+        "_score" : 1.0,
+        "_source" : {
+          "source" : "KU_NonDegree",
+          "doc_type" : "course",
+          "title" : "การพัฒนาชุมชนเพื่อความยั่งยืน",
+          "url" : "https://sis.ku.ac.th/community-development-for-sustainability/",
+          "category" : "พัฒนาชุมชนและสังคม",
+          "authors" : [ ],
+          "keywords" : [ ],
+          "topic_ids" : [
+            "4"
+          ],
+          "bcg_pillars" : [
+            "Green"
+          ],
+          "topic_names_th" : [
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้"
+          ],
+          "topic_names_en" : [
+            "Carbon Footprint & Carbon Neutrality"
+          ],
+          "search_keyword" : "non-degree",
+          "indexed_at" : "2026-10-29T14:28:56.404Z"
+        }
+      },
+      {
+        "_index" : "ku_bcg_documents",
+        "_id" : "non-degree-6",
+        "_score" : 1.0,
+        "_source" : {
+          "source" : "KU_NonDegree",
+          "doc_type" : "course",
+          "title" : "การผลิตและเพิ่มมูลค่าสัตว์น้ำจืดเศรษฐกิจ",
+          "url" : "https://sis.ku.ac.th/production-and-value-adding-of-economically-freshwater-animals/",
+          "category" : "เกษตรแปรรูป",
+          "authors" : [ ],
+          "keywords" : [ ],
+          "topic_ids" : [
+            "2",
+            "5"
+          ],
+          "bcg_pillars" : [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "topic_names_th" : [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้",
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en" : [
+            "Chitosan & Bio-packaging",
+            "Sustainable Aquaculture & Probiotics"
+          ],
+          "search_keyword" : "non-degree",
+          "indexed_at" : "2026-10-29T14:28:56.404Z"
+        }
+      },
+      {
+        "_index" : "ku_bcg_documents",
+        "_id" : "non-degree-7",
+        "_score" : 1.0,
+        "_source" : {
+          "source" : "KU_NonDegree",
+          "doc_type" : "course",
+          "title" : "การเพาะเลี้ยงสัตว์น้ำเศรษฐกิจและสัตว์น้ำสวยงาม",
+          "url" : "https://sis.ku.ac.th/ornamental-and-economical-aquatic-animal-aquaculture/",
+          "category" : "เกษตรแปรรูป",
+          "authors" : [ ],
+          "keywords" : [ ],
+          "topic_ids" : [
+            "3",
+            "5"
+          ],
+          "bcg_pillars" : [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "topic_names_th" : [
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง",
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en" : [
+            "Microplastics & Water Quality",
+            "Sustainable Aquaculture & Probiotics"
+          ],
+          "search_keyword" : "non-degree",
+          "indexed_at" : "2026-10-29T14:28:56.404Z"
+        }
+      },
+      {
+        "_index" : "ku_bcg_documents",
+        "_id" : "non-degree-8",
+        "_score" : 1.0,
+        "_source" : {
+          "source" : "KU_NonDegree",
+          "doc_type" : "course",
+          "title" : "การเป็นผู้ประกอบการธุรกิจเครื่องดื่มจากพืชและโพรไบโอติกส์",
+          "url" : "https://sis.ku.ac.th/entrepreneurship-for-plant-based-and-probiotics-beverages/",
+          "category" : "ทักษะอาชีพ",
+          "authors" : [ ],
+          "keywords" : [ ],
+          "topic_ids" : [
+            "5"
+          ],
+          "bcg_pillars" : [
+            "Bio",
+            "Green"
+          ],
+          "topic_names_th" : [
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง"
+          ],
+          "topic_names_en" : [
+            "Sustainable Aquaculture & Probiotics"
+          ],
+          "search_keyword" : "non-degree",
+          "indexed_at" : "2026-10-29T14:28:56.404Z"
+        }
+      },
+      {
+        "_index" : "ku_bcg_documents",
+        "_id" : "non-degree-9",
+        "_score" : 1.0,
+        "_source" : {
+          "source" : "KU_NonDegree",
+          "doc_type" : "course",
+          "title" : "ธุรกิจสวนไม้เศรษฐกิจ",
+          "url" : "https://sis.ku.ac.th/economic-tree/",
+          "category" : "เกษตรแปรรูป",
+          "authors" : [ ],
+          "keywords" : [ ],
+          "topic_ids" : [
+            "6"
+          ],
+          "bcg_pillars" : [
+            "Bio",
+            "Green"
+          ],
+          "topic_names_th" : [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en" : [
+            "Agroforestry & Biodiversity"
+          ],
+          "search_keyword" : "non-degree",
+          "indexed_at" : "2026-10-29T14:28:56.404Z"
+        }
+      },
+      {
+        "_index" : "ku_bcg_documents",
+        "_id" : "non-degree-10",
+        "_score" : 1.0,
+        "_source" : {
+          "source" : "KU_NonDegree",
+          "doc_type" : "course",
+          "title" : "ธุรกิจเกษตรของพืชบนพื้นที่สูงตามวิถีดอยปุย",
+          "url" : "https://sis.ku.ac.th/agri-business-in-highland-crops-by-doi-pui-way-of-life/",
+          "category" : "เกษตรแปรรูป",
+          "authors" : [ ],
+          "keywords" : [ ],
+          "topic_ids" : [
+            "6"
+          ],
+          "bcg_pillars" : [
+            "Bio",
+            "Green"
+          ],
+          "topic_names_th" : [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en" : [
+            "Agroforestry & Biodiversity"
+          ],
+          "search_keyword" : "non-degree",
+          "indexed_at" : "2026-10-29T14:28:56.404Z"
+        }
+      },
+      {
+        "_index" : "ku_bcg_documents",
+        "_id" : "non-degree-11",
+        "_score" : 1.0,
+        "_source" : {
+          "source" : "KU_NonDegree",
+          "doc_type" : "course",
+          "title" : "เทคโนโลยีผลิตภัณฑ์ไม้เพื่อผู้ประกอบการรุ่นใหม่",
+          "url" : "https://sis.ku.ac.th/wood-product-technology-for-modern-entrepreneurs/",
+          "category" : "เกษตรแปรรูป",
+          "authors" : [ ],
+          "keywords" : [ ],
+          "topic_ids" : [
+            "6"
+          ],
+          "bcg_pillars" : [
+            "Bio",
+            "Green"
+          ],
+          "topic_names_th" : [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en" : [
+            "Agroforestry & Biodiversity"
+          ],
+          "search_keyword" : "non-degree",
+          "indexed_at" : "2026-10-29T14:28:56.404Z"
+        }
+      },
+      {
+        "_index" : "ku_bcg_documents",
+        "_id" : "non-degree-12",
+        "_score" : 1.0,
+        "_source" : {
+          "source" : "KU_NonDegree",
+          "doc_type" : "course",
+          "title" : "การจัดการท่องเที่ยวสัตว์ป่าเพื่อส่งเสริมการท่องเที่ยวคุณภาพสูงและความยั่งยืนของพื้นที่คุ้มครอง",
+          "url" : "https://sis.ku.ac.th/wildlife-tourism-management-and-sustainability/",
+          "category" : "Soft Power",
+          "authors" : [ ],
+          "keywords" : [ ],
+          "topic_ids" : [
+            "6"
+          ],
+          "bcg_pillars" : [
+            "Bio",
+            "Green"
+          ],
+          "topic_names_th" : [
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en" : [
+            "Agroforestry & Biodiversity"
+          ],
+          "search_keyword" : "non-degree",
+          "indexed_at" : "2026-10-29T14:28:56.404Z"
+        }
+      },
+      {
+        "_index" : "ku_bcg_documents",
+        "_id" : "non-degree-13",
+        "_score" : 1.0,
+        "_source" : {
+          "source" : "KU_NonDegree",
+          "doc_type" : "course",
+          "title" : "ผู้ผลิตอ้อยครบวงจร",
+          "url" : "https://sis.ku.ac.th/sugarcane/",
+          "category" : "เกษตรแปรรูป",
+          "authors" : [ ],
+          "keywords" : [ ],
+          "topic_ids" : [
+            "1"
+          ],
+          "bcg_pillars" : [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "topic_names_th" : [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en" : [
+            "Biomass & Bioenergy"
+          ],
+          "search_keyword" : "non-degree",
+          "indexed_at" : "2026-10-29T14:28:56.404Z"
+        }
+      },
+      {
+        "_index" : "ku_bcg_documents",
+        "_id" : "non-degree-14",
+        "_score" : 1.0,
+        "_source" : {
+          "source" : "KU_NonDegree",
+          "doc_type" : "course",
+          "title" : "การใช้เครื่องมือวัดและอุปกรณ์ดิจิทัลสำหรับการจัดการพลังงานและพลังงานทดแทน",
+          "url" : "https://sis.ku.ac.th/energymanagement/",
+          "category" : "หุ่นยนต์และ AI",
+          "authors" : [ ],
+          "keywords" : [ ],
+          "topic_ids" : [
+            "1"
+          ],
+          "bcg_pillars" : [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "topic_names_th" : [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร"
+          ],
+          "topic_names_en" : [
+            "Biomass & Bioenergy"
+          ],
+          "search_keyword" : "non-degree",
+          "indexed_at" : "2026-10-29T14:28:56.404Z"
+        }
+      },
+      {
+        "_index" : "ku_bcg_documents",
+        "_id" : "non-degree-15",
+        "_score" : 1.0,
+        "_source" : {
+          "source" : "KU_NonDegree",
+          "doc_type" : "course",
+          "title" : "ชีววิทยาสังเคราะห์เพื่ออุตสาหกรรม",
+          "url" : "https://sis.ku.ac.th/synthetic-biology-for-industry/",
+          "category" : "เกษตรแปรรูป",
+          "authors" : [ ],
+          "keywords" : [ ],
+          "topic_ids" : [
+            "1",
+            "2"
+          ],
+          "bcg_pillars" : [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "topic_names_th" : [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร",
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en" : [
+            "Biomass & Bioenergy",
+            "Chitosan & Bio-packaging"
+          ],
+          "search_keyword" : "non-degree",
+          "indexed_at" : "2026-10-29T14:28:56.404Z"
+        }
+      },
+      {
+        "_index" : "ku_bcg_documents",
+        "_id" : "non-degree-16",
+        "_score" : 1.0,
+        "_source" : {
+          "source" : "KU_NonDegree",
+          "doc_type" : "course",
+          "title" : "กฎหมาย ข้อกำหนดและมาตรฐานในอุตสาหกรรมอาหาร สำหรับวิสาหกิจขนาดกลางและขนาดย่อม",
+          "url" : "https://sis.ku.ac.th/lawsenterprises/",
+          "category" : "พัฒนาผู้ประกอบการ",
+          "authors" : [ ],
+          "keywords" : [ ],
+          "topic_ids" : [
+            "2"
+          ],
+          "bcg_pillars" : [
+            "Bio",
+            "Circular"
+          ],
+          "topic_names_th" : [
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้"
+          ],
+          "topic_names_en" : [
+            "Chitosan & Bio-packaging"
+          ],
+          "search_keyword" : "non-degree",
+          "indexed_at" : "2026-10-29T14:28:56.404Z"
+        }
+      },
+      {
+        "_index" : "ku_bcg_documents",
+        "_id" : "non-degree-17",
+        "_score" : 1.0,
+        "_source" : {
+          "source" : "KU_NonDegree",
+          "doc_type" : "course",
+          "title" : "วิทยาการข้อมูลทางชีววิทยาและชีวสารสนเทศ",
+          "url" : "https://sis.ku.ac.th/biological-data-science-and-bioinformatics/",
+          "category" : "เทคโนโลยีดิจิทัล",
+          "authors" : [ ],
+          "keywords" : [ ],
+          "topic_ids" : [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "bcg_pillars" : [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "topic_names_th" : [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร",
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้",
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง",
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้",
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง",
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en" : [
+            "Biomass & Bioenergy",
+            "Chitosan & Bio-packaging",
+            "Microplastics & Water Quality",
+            "Carbon Footprint & Carbon Neutrality",
+            "Sustainable Aquaculture & Probiotics",
+            "Agroforestry & Biodiversity"
+          ],
+          "search_keyword" : "non-degree",
+          "indexed_at" : "2026-10-29T14:28:56.404Z"
+        }
+      },
+      {
+        "_index" : "ku_bcg_documents",
+        "_id" : "non-degree-18",
+        "_score" : 1.0,
+        "_source" : {
+          "source" : "KU_NonDegree",
+          "doc_type" : "course",
+          "title" : "นักวิเคราะห์ข้อมูลด้วยปัญญาประดิษฐ์สำหรับนวัตกรรมอาหารและอุตสาหกรรมเกษตร",
+          "url" : "https://sis.ku.ac.th/ai-driven-data-analysts-for-food/",
+          "category" : "เทคโนโลยีดิจิทัล",
+          "authors" : [ ],
+          "keywords" : [ ],
+          "topic_ids" : [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "bcg_pillars" : [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "topic_names_th" : [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร",
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้",
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง",
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้",
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง",
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en" : [
+            "Biomass & Bioenergy",
+            "Chitosan & Bio-packaging",
+            "Microplastics & Water Quality",
+            "Carbon Footprint & Carbon Neutrality",
+            "Sustainable Aquaculture & Probiotics",
+            "Agroforestry & Biodiversity"
+          ],
+          "search_keyword" : "non-degree",
+          "indexed_at" : "2026-10-29T14:28:56.404Z"
+        }
+      },
+      {
+        "_index" : "ku_bcg_documents",
+        "_id" : "non-degree-19",
+        "_score" : 1.0,
+        "_source" : {
+          "source" : "KU_NonDegree",
+          "doc_type" : "course",
+          "title" : "ชุดวิชาเกษตรนวัตกรเพื่อการพัฒนาอย่างยั่งยืน",
+          "url" : "https://sis.ku.ac.th/agricultural-innovator/",
+          "category" : "เกษตรแปรรูป",
+          "authors" : [ ],
+          "keywords" : [ ],
+          "topic_ids" : [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "bcg_pillars" : [
+            "Bio",
+            "Circular",
+            "Green"
+          ],
+          "topic_names_th" : [
+            "ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร",
+            "ไคโตซานและบรรจุภัณฑ์ชีวภาพย่อยสลายได้",
+            "Microplastics กับคุณภาพน้ำในระบบนิเวศและการเพาะเลี้ยง",
+            "Carbon Footprint และการมุ่งสู่ Carbon Neutrality ภาคเกษตร-ป่าไม้",
+            "การเพาะเลี้ยงสัตว์น้ำที่ยั่งยืนและ Probiotic ในระบบเลี้ยง",
+            "วนเกษตร (Agroforestry) และความหลากหลายทางชีวภาพ"
+          ],
+          "topic_names_en" : [
+            "Biomass & Bioenergy",
+            "Chitosan & Bio-packaging",
+            "Microplastics & Water Quality",
+            "Carbon Footprint & Carbon Neutrality",
+            "Sustainable Aquaculture & Probiotics",
+            "Agroforestry & Biodiversity"
+          ],
+          "search_keyword" : "non-degree",
+          "indexed_at" : "2026-10-29T14:28:56.404Z"
         }
       }
     ]

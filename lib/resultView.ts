@@ -17,6 +17,7 @@ export const SOURCE_LABELS: Record<EvidenceItem["source"], string> = {
   KU_Forest: "KU Forest",
   KUKR: "KUKR",
   KU_MOOC: "KU MOOC",
+  KU_NonDegree: "Non-Degree",
   UNKNOWN: "แหล่งอื่น ๆ",
 };
 

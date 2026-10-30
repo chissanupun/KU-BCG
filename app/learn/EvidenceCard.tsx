@@ -24,6 +24,11 @@ export default function EvidenceCard({ item, index }: { item: EvidenceItem; inde
         {SOURCE_LABELS[item.source] ?? item.source}
       </span>
       <p style={{ fontFamily: FONT, fontSize: 14, fontWeight: 600, color: "var(--ku-text)", marginTop: 8 }}>{item.title}</p>
+      {item.source === "KU_NonDegree" && (
+        <p style={{ fontFamily: FONT, fontSize: 13, lineHeight: "20px", color: "var(--ku-text-muted)", marginTop: 6 }}>
+          จับคู่กับหัวข้อจากชื่อชุดวิชา (ยังไม่ได้ตรวจเนื้อหา)
+        </p>
+      )}
       {item.snippet && (
         <p style={{ fontFamily: FONT, fontSize: 13, lineHeight: "20px", color: "var(--ku-text-muted)", marginTop: 6 }}>
           {item.snippet}

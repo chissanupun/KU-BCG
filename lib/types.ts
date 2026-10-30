@@ -80,7 +80,7 @@ export type LearningPath = {
 
 export type EvidenceItem = {
   title: string;
-  source: "KUKR" | "KU_Forest" | "KU_MOOC" | "UNKNOWN";
+  source: "KUKR" | "KU_Forest" | "KU_MOOC" | "KU_NonDegree" | "UNKNOWN";
   url: string;
   snippet?: string;
 };
