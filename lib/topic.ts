@@ -52,7 +52,6 @@ export type TopicMapEdge = { from: string; to: string; type: string };
 
 const PRIMARY = "#3b6347";
 const HOURS_UNIT = "ชั่วโมง";
-const HOURS_CAPTION = "เวลาโดยประมาณทั้งหมด · ตั้งแต่ศูนย์จนถึงระดับมืออาชีพ";
 const SECTION_LABEL = "Introduction";
 const MAP_TITLE = "แผนที่ความรู้";
 
@@ -89,104 +88,6 @@ export function layoutMapNodes(nodes: TopicMapNode[]): PlacedMapNode[] {
     };
   });
 }
-
-/** The curated HTML detail — previously hardcoded inside app/components/TopicDetail.tsx. */
-const HTML_SEMANTICS: TopicDetail = {
-  badge: "HTML Semantics",
-  badgeWidth: 139,
-  estimatedHours: `10–15 ${HOURS_UNIT}`,
-  hoursCaption: HOURS_CAPTION,
-  progress: 82,
-  tags: [{ label: "การเขียนโปรแกรม", width: 135 }, { label: "พัฒนาเว็บ", width: 98 }],
-  sectionLabel: SECTION_LABEL,
-  title: "ความหมายของ HTML",
-  summary: "โครงสร้างเว็บ, แท็กความหมาย, พื้นฐานการเข้าถึง",
-  body: [
-    "HTML ความหมายเชิงความหมาย คือการใช้มาร์กอัป HTML เพื่อเสริมความหมายของข้อมูลในหน้าเว็บและเว็บแอปพลิเคชัน มากกว่าแค่การนำเสนอรูปแบบ",
-    `ลองคิดแบบนี้: แท็ก <div> บอกเบราว์เซอร์ว่า "นี่คือกล่อง"`,
-  ],
-  research: {
-    heading: "พื้นฐานงานวิจัย: Bowen (2008):",
-    paragraphs: [
-      "HTML ความหมายเชิงความหมายช่วยลดภาระทางปัญญา",
-      "สำหรับผู้ใช้โปรแกรมอ่านหน้าจอได้ถึง ~40% และปรับปรุงประสิทธิภาพการนำทางอย่างมีนัยสำคัญ",
-    ],
-  },
-  expert: { heading: "ผู้เชี่ยวชาญ / ศาสตราจารย์: ", value: "Jeffrey Zeldman (A Book Apart)" },
-  mapTitle: MAP_TITLE,
-  mapNodes: [
-    { label: "HTML Semantics", color: PRIMARY, cx: 303, cy: 187, r: 52, textColor: "#fff" },
-    { label: "Navigation\n& Links", color: "#eab308", cx: 490, cy: 90, r: 38, textColor: "#fff" },
-    { label: "Text\nSemantics", color: "#ec4899", cx: 530, cy: 230, r: 36, textColor: "#fff" },
-    { label: "Structural\nElements", color: "#84cc16", cx: 460, cy: 340, r: 38, textColor: "#fff" },
-    { label: "Forms &\nInputs", color: "#a855f7", cx: 150, cy: 330, r: 38, textColor: "#fff" },
-    { label: "ARIA\nRoles", color: "#22c55e", cx: 110, cy: 190, r: 36, textColor: "#fff" },
-    { label: "Media &\nTables", color: "#06b6d4", cx: 175, cy: 70, r: 36, textColor: "#fff" },
-  ],
-  mapEdges: [],
-};
-
-/**
- * Details for the curated roadmap's cards, keyed by the `t` query parameter.
- *
- * Only HTML Semantics carries a research citation and expert — those are real
- * attributions and are not invented for the other topics, which render without
- * those blocks rather than with fabricated sources.
- */
-export const DEFAULT_TOPICS: Record<string, TopicDetail> = {
-  "html-semantics": HTML_SEMANTICS,
-  "css-basics": {
-    badge: "รากฐาน",
-    estimatedHours: `10–15 ${HOURS_UNIT}`,
-    hoursCaption: HOURS_CAPTION,
-    tags: [{ label: "การเขียนโปรแกรม", width: 135 }, { label: "พัฒนาเว็บ", width: 98 }],
-    sectionLabel: SECTION_LABEL,
-    title: "พื้นฐาน CSS",
-    summary: "บ็อกซ์โมเดล, ตัวเลือก, การต่อเนื่องและความจำเพาะ",
-    body: [
-      "CSS คือภาษาที่กำหนดว่าเนื้อหา HTML จะถูกแสดงผลอย่างไร — ตั้งแต่ระยะห่าง สี ไปจนถึงการจัดวางทั้งหน้า",
-      "บ็อกซ์โมเดลอธิบายว่าทุกองค์ประกอบคือกล่องที่ประกอบด้วยเนื้อหา, padding, border และ margin ซ้อนกันเป็นชั้น",
-    ],
-    mapTitle: MAP_TITLE,
-    mapNodes: [],
-    mapEdges: [],
-  },
-  "color-theory": {
-    badge: "หลักการออกแบบภาพ",
-    estimatedHours: `10–15 ${HOURS_UNIT}`,
-    hoursCaption: HOURS_CAPTION,
-    tags: [{ label: "การออกแบบ" }, { label: "ทฤษฎีสี" }],
-    sectionLabel: SECTION_LABEL,
-    title: "ทฤษฎีสี",
-    summary: "จิตวิทยาสี, ความกลมกลืนของสี",
-    body: [
-      "ทฤษฎีสีอธิบายความสัมพันธ์ระหว่างสีบนวงล้อสี และวิธีจับคู่สีให้เกิดความกลมกลืนแทนการเดาสุ่ม",
-      "ความต่างของค่าความสว่างสำคัญกว่าความต่างของเฉดสี เพราะเป็นสิ่งที่กำหนดว่าข้อความจะอ่านออกหรือไม่",
-    ],
-    mapTitle: MAP_TITLE,
-    mapNodes: [],
-    mapEdges: [],
-  },
-  typography: {
-    badge: "หลักการออกแบบภาพ",
-    estimatedHours: `10–15 ${HOURS_UNIT}`,
-    hoursCaption: HOURS_CAPTION,
-    tags: [{ label: "การออกแบบ" }, { label: "ตัวอักษร" }],
-    sectionLabel: SECTION_LABEL,
-    title: "การออกแบบตัวอักษร",
-    summary: "ขนาดตัวอักษร, ความอ่านง่าย, การจับคู่ฟอนต์",
-    body: [
-      "การออกแบบตัวอักษรคือการเลือกและจัดวางฟอนต์เพื่อให้ข้อความอ่านง่ายและสื่อความหมายได้ตรงตามน้ำเสียงที่ต้องการ",
-      "ความยาวบรรทัดและระยะห่างระหว่างบรรทัดมีผลต่อความอ่านง่ายมากกว่าการเลือกฟอนต์เสียอีก",
-    ],
-    mapTitle: MAP_TITLE,
-    mapNodes: [],
-    mapEdges: [],
-  },
-};
-
-export const DEFAULT_TOPIC_SLUG = "html-semantics";
-
 function formatHours(raw: string | undefined): string {
   const value = (raw ?? "").trim();
   if (!value) return "";
