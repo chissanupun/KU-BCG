@@ -1,10 +1,14 @@
 import { chromium } from 'playwright';
 import seedData from '../seed-data.json';
+import { pickLang } from '../kukr-lang';
 
 export interface KUKRDoc {
   source: 'KUKR';
   title: string;
+  /** English form when `title` is Thai (or the record has both). */
+  title_en?: string;
   abstract?: string;
+  abstract_en?: string;
   authors: string[];
   year?: number;
   url: string;
@@ -127,7 +131,7 @@ async function fetchPage(
       'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     },
     body: JSON.stringify(body),
-    signal: AbortSignal.timeout(20000),
+    signal: AbortSignal.timeout(60000), // broad English keywords (biomass, chitosan...) take over 20 s
   });
 
   if (!resp.ok) return null;
@@ -182,12 +186,16 @@ export async function scrapeKUKR(): Promise<KUKRDoc[]> {
 
     // Get first page + total
     let firstData: { total: number; list: KUKRItem[] } | null = null;
-    try {
-      firstData = await fetchPage(cookieStr, keyword, 0);
-    } catch (err) {
-      console.warn(`  KUKR "${keyword}": first page failed — ${(err as Error).message.slice(0, 60)}`);
-      continue;
+    // KUKR often times out on the first call; one slow retry keeps whole keywords from being skipped.
+    for (let attempt = 1; attempt <= 2 && !firstData; attempt++) {
+      try {
+        firstData = await fetchPage(cookieStr, keyword, 0);
+      } catch (err) {
+        console.warn(`  KUKR "${keyword}": first page failed (try ${attempt}/2) — ${(err as Error).message.slice(0, 60)}`);
+        if (attempt < 2) await new Promise((r) => setTimeout(r, 5000));
+      }
     }
+    if (!firstData) continue;
 
     if (!firstData || !firstData.total) {
       console.warn(`  KUKR "${keyword}": no results (status may have been non-200)`);
@@ -200,14 +208,14 @@ export async function scrapeKUKR(): Promise<KUKRDoc[]> {
       for (const item of items) {
         if (seen.has(item.bibid)) continue;
         seen.add(item.bibid);
-        const rawTitle = item.title_advanced || item.title_en || item.title_th || 'Untitled';
-        const title = Array.isArray(rawTitle)
+        // title_advanced mixes in the proceedings name, so it is only the last resort.
+        const rawTitle = item.title_advanced || 'Untitled';
+        const fallbackTitle = Array.isArray(rawTitle)
           ? (rawTitle.find((t) => /[a-zA-Z]/.test(t)) || rawTitle[0])
           : rawTitle;
         const doc: KUKRDoc = {
           source: 'KUKR',
-          title,
-          abstract: item.abstract_en || item.abstract_th,
+          ...pickLang(item, fallbackTitle),
           authors: item.author || [],
           year: item.pubyear || (item.pubyear_text ? parseInt(item.pubyear_text) : undefined),
           url: `${KUKR_BASE}/KUKR/Detail/info/${item.bibid}`,
