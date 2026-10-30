@@ -2,11 +2,11 @@
 
 import { useState, type ReactNode } from "react";
 import { motion } from "framer-motion";
-import type { TopicDetail } from "@/lib/topic";
+import { toKnowledgeGraph, type TopicDetail } from "@/lib/topic";
 import AppShell from "../AppShell";
 import { PRIMARY, FONT, fadeIn } from "../roadmap/tokens";
 import CompleteToggle from "../roadmap/CompleteToggle";
-import MindMap from "./MindMap";
+import MapTab from "@/app/learn/MapTab";
 
 /**
  * Progress for the roadmap this card belongs to. `completed` is this card alone;
@@ -248,7 +248,8 @@ export default function TopicView({
 
               {detail.mapNodes.length > 1 && (
                 <motion.div {...fadeIn(0.36)}>
-                  <MindMap title={detail.mapTitle} nodes={detail.mapNodes} edges={detail.mapEdges} />
+                  <p style={{ fontFamily: FONT, fontSize: 15, fontWeight: 600, color: "var(--ku-text)", marginBottom: 16 }}>{detail.mapTitle}</p>
+                  <MapTab graph={toKnowledgeGraph(detail.mapNodes, detail.mapEdges)} />
                 </motion.div>
               )}
             </>

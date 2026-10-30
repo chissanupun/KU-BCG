@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { GraphRagResult } from "@/lib/types";
+import type { KnowledgeGraph } from "@/lib/types";
 import { graphSummary, pickDescription, TYPE_LABELS } from "@/lib/kgText";
 import { FONT } from "../components/roadmap/tokens";
 import KnowledgeGraphView from "./KnowledgeGraphView";
@@ -12,8 +12,8 @@ const button = {
   background: "var(--ku-bg)", fontSize: 11, color: "var(--ku-text-muted)", cursor: "pointer", fontFamily: FONT,
 } as const;
 
-export default function MapTab({ result }: { result: GraphRagResult }) {
-  const graph = result.knowledge_graph;
+/** The one knowledge-graph view, shared by the result tab and the topic page. */
+export default function MapTab({ graph }: { graph?: KnowledgeGraph }) {
   const [hidden, setHidden] = useState<ReadonlySet<string>>(new Set());
   const [filterOpen, setFilterOpen] = useState(false);
   const [expanded, setExpanded] = useState(false);

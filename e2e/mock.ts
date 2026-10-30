@@ -30,6 +30,8 @@ function resultFor(query: string): GraphRagResult {
   const relations = [
     { from: "forest", to: "carbon_stock", type: "mitigatesCarbonVia" },
     { from: "kumooc005", to: "carbon_footprint_learners", type: "isEntryPointFor" },
+    // The backend names topics in English; the page must show the Thai name.
+    { from: "kumooc005", to: "Biomass & Bioenergy", type: "isCourseFor" },
   ];
   const many = query === "many-edges" ? Array.from({ length: 12 }, (_, i) => ({ from: query, to: `topic_${i + 1}`, type: "relatedTo" })) : [];
   return {
