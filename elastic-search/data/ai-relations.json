@@ -362,7 +362,7 @@
     "subject": "การคำนวณคาร์บอนฟุตพริ้นท์รายบุคคล จาก Application CF Calculation",
     "predicate": "providesBackgroundFor",
     "object": "Carbon footprint of cassava starch in Thailand: A comprehensive study of production scale and production chain",
-    "topic_id": "1",
+    "topic_id": "4",
     "origin": "ai_suggested",
     "confidence": 0.5,
     "reason_th": "คอร์สคำนวณคาร์บอนฟุตพริ้นท์เป็นพื้นฐานของการประเมินคาร์บอนฟุตพริ้นท์แป้งมันสำปะหลัง",
@@ -2264,5 +2264,14 @@
     "confidence": 0.75,
     "reason_th": "พัฒนาต้นแบบชุมชนปลูกไม้มีค่าในระบบวนเกษตรเพื่อขยายผล",
     "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/414023"
+  },
+  {
+    "subject": "plastic_waste_management",
+    "predicate": "relatedTo",
+    "object": "Microplastics & Water Quality",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.6,
+    "reason_th": "การจัดการขยะพลาสติกเป็นต้นทางของไมโครพลาสติก เชื่อมแนวคิดนี้เข้ากับหัวข้อ ไม่ให้คอร์สและงานวิจัยที่ผูกกับมันลอยเป็นเกาะ"
   }
 ]
