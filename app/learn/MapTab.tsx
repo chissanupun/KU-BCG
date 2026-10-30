@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import type { GraphRagResult } from "@/lib/types";
-import { graphSummary, pickDescription, TYPE_LABELS } from "@/lib/kgText";
+import { graphSummary, isAiDraft, pickDescription, TYPE_LABELS } from "@/lib/kgText";
 import { FONT } from "../components/roadmap/tokens";
 import KnowledgeGraphView from "./KnowledgeGraphView";
 import RelationList from "./RelationList";
@@ -103,6 +103,7 @@ export default function MapTab({ result }: { result: GraphRagResult }) {
           </span>
         ))}
         <span>วงกลม = สิ่งที่เกี่ยวข้อง · เส้น = ความสัมพันธ์ (อ่านเป็นประโยคด้านล่าง)</span>
+        {shownEdges.some(isAiDraft) && <span data-testid="ai-draft-legend">เส้นประ = ร่างจาก AI ยังไม่มีผู้เชี่ยวชาญตรวจ</span>}
       </div>
 
       <RelationList edges={shownEdges} />

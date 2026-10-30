@@ -1,0 +1,2268 @@
+[
+  {
+    "subject": "Biomass",
+    "predicate": "isKeywordOf",
+    "object": "Biomass & Bioenergy",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.9,
+    "reason_th": "เอกสารต้นแบบระบุ Biomass เป็น Anchor Concept ของหัวข้อชีวมวลและพลังงานทดแทน"
+  },
+  {
+    "subject": "sugarcane_residue",
+    "predicate": "isFeedstockOf",
+    "object": "solid_biofuel",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.85,
+    "reason_th": "งานวิจัยพัฒนาเครื่องย่อยและเครื่องอัดเม็ดเชื้อเพลิงชีวมวลจากใบอ้อย"
+  },
+  {
+    "subject": "sugarcane_residue",
+    "predicate": "isFeedstockOf",
+    "object": "bioethanol",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.7,
+    "reason_th": "มีงานวิจัยผลิตเอทานอลรุ่นที่สองจากชานอ้อยพลังงานและการย่อยใบอ้อยเป็นน้ำตาล"
+  },
+  {
+    "subject": "sugarcane_residue",
+    "predicate": "requires",
+    "object": "lignocellulose_pretreatment",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "ใบอ้อยและชานอ้อยต้องผ่านการปรับสภาพลิกโนเซลลูโลสก่อนนำไปแปรรูปต่อ"
+  },
+  {
+    "subject": "bioethanol",
+    "predicate": "requires",
+    "object": "lignocellulose_pretreatment",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.65,
+    "reason_th": "การผลิตเอทานอลจากลิกโนเซลลูโลสต้องอาศัยการปรับสภาพชีวมวลและการคัดเลือกยีสต์"
+  },
+  {
+    "subject": "lignocellulose_pretreatment",
+    "predicate": "studiedBy",
+    "object": "Chemically Pretreated Biomass Conversion for Biorefinery: A Review of Current Trends",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "บทความทบทวนแนวโน้มการปรับสภาพชีวมวลเพื่อไบโอรีไฟเนอรี",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/448214"
+  },
+  {
+    "subject": "lignocellulose_pretreatment",
+    "predicate": "studiedBy",
+    "object": "การปรับปรุงกระบวนการผลิตพลังงานเอธานอลจากลิกโนเซลลูโลสโดยการพัฒนาและ/หรือคัดเลือกสายพันธุ์ยีสต์ที่เจริญในอุณหภูมิและเอธานอลความเข้มข้นสูง",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "โครงการ KU Forest ปรับปรุงการผลิตเอทานอลจากลิกโนเซลลูโลสซึ่งเชื่อมกับงาน KUKR ด้านการปรับสภาพ",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=5410644000&BudgetYear=2011"
+  },
+  {
+    "subject": "ผู้ผลิตอ้อยครบวงจร",
+    "predicate": "providesBackgroundFor",
+    "object": "sugarcane_residue",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.5,
+    "reason_th": "คอร์สผู้ผลิตอ้อยครบวงจรครอบคลุมห่วงโซ่อ้อยซึ่งรวมถึงใบและชานอ้อยที่งานวิจัยนำไปทำเชื้อเพลิง",
+    "source_doc_url": "https://sis.ku.ac.th/sugarcane/"
+  },
+  {
+    "subject": "ผู้ผลิตอ้อยครบวงจร",
+    "predicate": "providesBackgroundFor",
+    "object": "energy_crops",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.45,
+    "reason_th": "มีโครงการประเมินอ้อยพลังงานลูกผสมซึ่งต่อยอดจากความรู้การผลิตอ้อย",
+    "source_doc_url": "https://sis.ku.ac.th/sugarcane/"
+  },
+  {
+    "subject": "energy_crops",
+    "predicate": "isFeedstockOf",
+    "object": "biomass_power_plant",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.7,
+    "reason_th": "งานวิจัยแนะนำชนิดไม้โตเร็วสำหรับสวนพลังงานและการใช้ไม้โตเร็วผลิตไฟฟ้า"
+  },
+  {
+    "subject": "energy_crops",
+    "predicate": "studiedBy",
+    "object": "Growth, biomass yield and energy properties of 10 varieties/lines of Leucaena leucocephala grown for use as fuelwood in Lopburi province",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ศึกษาผลผลิตชีวมวลและสมบัติเชื้อเพลิงของกระถินยักษ์ 10 สายพันธุ์",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/401510"
+  },
+  {
+    "subject": "energy_crops",
+    "predicate": "studiedBy",
+    "object": "การใช้ประโยชน์ไม้โตเร็วเพื่อเป็นพลังงานทดแทนในการผลิตกระแสไฟฟ้าและแก๊สหุงต้ม โครงการย่อย รูปแบบการบริหารจัดการวัตถุดิบไม้โตเร็วเพื่อเป็นพลังงานทดแทนในการผลิตกระแสไฟฟ้าพลังงานชีวมวลและแก๊สหุงต้ม",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "โครงการ KU Forest ใช้ไม้โตเร็วเป็นพลังงานทดแทนผลิตไฟฟ้าและแก๊สหุงต้ม",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=0740032001&BudgetYear=2007"
+  },
+  {
+    "subject": "energy_crops",
+    "predicate": "studiedBy",
+    "object": "Fuel properties of some native tree species for biomass energy in Thailand",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "ศึกษาสมบัติเชื้อเพลิงของไม้พื้นเมืองเพื่อพลังงานชีวมวล",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/402085"
+  },
+  {
+    "subject": "torrefaction",
+    "predicate": "isProcessFor",
+    "object": "solid_biofuel",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.85,
+    "reason_th": "งานวิจัยใช้ทอร์รีแฟกชันยกระดับชีวมวลไม้และกะลามะพร้าวเป็นเชื้อเพลิงแข็งคุณภาพสูง"
+  },
+  {
+    "subject": "torrefaction",
+    "predicate": "studiedBy",
+    "object": "การปรับปรุงคุณภาพเชื้อเพลิงชีวมวลจากเศษไม้เหลือทิ้งด้วยเทคนิคร่วมการทอร์ริแฟคชัน",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ผลิตเชื้อเพลิงแข็งคุณภาพสูงจากชีวมวลไม้ด้วยทอร์รีแฟกชัน",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/413936"
+  },
+  {
+    "subject": "torrefaction",
+    "predicate": "studiedBy",
+    "object": "การศึกษาการยกระดับคุณภาพ และลดความชื้นวัตถุดิบชีวมวลเบื้องต้นด้วยเทคโนโลยีทอร์ริแฟคชั่น",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "โครงการ KU Forest ลดความชื้นวัตถุดิบชีวมวลด้วยทอร์ริแฟคชั่นเรื่องเดียวกับงาน KUKR",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=6110190000&BudgetYear=2018"
+  },
+  {
+    "subject": "pyrolysis",
+    "predicate": "isProcessFor",
+    "object": "biochar",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.85,
+    "reason_th": "งานวิจัยผลิตไบโอชาร์และน้ำมันชีวภาพด้วยไพโรไลซิสจากชีวมวลปาล์มและซังข้าวโพด"
+  },
+  {
+    "subject": "pyrolysis",
+    "predicate": "studiedBy",
+    "object": "โครงการต้นแบบระบบการจัดการขยะแปรรูปเป็นพลังงานอย่างยั่งยืนด้วยระบบไพโรไลซิสเพื่อได้ผลผลิตเป็นเชื้อเพลิงของเหลว แท่งเชื้อเพลิง ก๊าซสังเคราะห์อัดแน่น ปุ๋ยหมัก และพลังงานไฟฟ้า",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "โครงการต้นแบบแปรรูปขยะเป็นพลังงานด้วยระบบไพโรไลซิส",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=1732031000&BudgetYear=2017"
+  },
+  {
+    "subject": "biochar",
+    "predicate": "studiedBy",
+    "object": "รู้จักไบโอชาร์มากขึ้น",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "เอกสารเผยแพร่ความรู้ไบโอชาร์ในฐานะสารปรับปรุงดินจากชีวมวล",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/20017553"
+  },
+  {
+    "subject": "biochar",
+    "predicate": "studiedBy",
+    "object": "เตาผลิตถ่านชีวภาพด้วยวิธีการแยกสลายมวลชีวภาพด้วยความร้อน (2010) นักวิจัย: Dr.Orasa Suksawang, Associate Professor , ประเภท:",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "สิ่งประดิษฐ์เตาผลิตถ่านชีวภาพของ KU Forest เชื่อมกับงานไบโอชาร์ใน KUKR",
+    "target_doc_url": "https://research.ku.ac.th/forest/Invent.aspx?InventID=193&Type=5"
+  },
+  {
+    "subject": "Biomass",
+    "predicate": "isFeedstockOf",
+    "object": "biochar",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "ไบโอชาร์ผลิตจากการแยกสลายมวลชีวภาพด้วยความร้อน"
+  },
+  {
+    "subject": "Biomass",
+    "predicate": "isFeedstockOf",
+    "object": "biomass_power_plant",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "งานวิจัยศึกษาแหล่งและปริมาณเชื้อเพลิงชีวมวลสำหรับโครงการโรงไฟฟ้าชีวมวล"
+  },
+  {
+    "subject": "gasification",
+    "predicate": "studiedBy",
+    "object": "การศึกษาผลกระทบของอัตราการป้อนอากาศต่ออัตราการผลิตก๊าซชีวมวลของเตาแก๊สซิฟิเคชั่นชนิดดาวน์ดราฟขนาดเล็ก",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ศึกษาผลอัตราการไหลอากาศต่อการผลิตแก๊สของเตาแก๊สซิฟิเคชันชีวมวล",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/20021965"
+  },
+  {
+    "subject": "gasification",
+    "predicate": "studiedBy",
+    "object": "Design, CFD simulation, and experimental verification of a novel fixed-bed decoupling gasifier with an integrated syngas burner using high-temperature flue gas",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "ออกแบบและจำลอง CFD เตาแก๊สซิฟายเออร์ชีวมวลแบบเบดนิ่ง",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/446897"
+  },
+  {
+    "subject": "bioethanol",
+    "predicate": "studiedBy",
+    "object": "Process simulation of ethanol production from oil palm trunk",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "จำลองกระบวนการผลิตเอทานอลจากลำต้นปาล์มน้ำมัน",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/438665"
+  },
+  {
+    "subject": "bioethanol",
+    "predicate": "studiedBy",
+    "object": "การปรับปรุงการผลิตเอทานอลจากกากน้ำตาลโดยยีสต์สายพันธุ์กลายทนเอทานอล",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "โครงการ KU Forest ผลิตเอทานอลจากกากน้ำตาลด้วยยีสต์ทนเอทานอล",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=1331152000&BudgetYear=2013"
+  },
+  {
+    "subject": "biomass_power_plant",
+    "predicate": "studiedBy",
+    "object": "การศึกษาความเป็นไปได้ในการลงทุนโรงไฟฟ้าชีวมวล กรณีศึกษา ใช้เชื้อเพลิงเหง้ามันสำปะหลังในจังหวัดนครราชสีมา",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.85,
+    "reason_th": "ศึกษาความเป็นไปได้การลงทุนโรงไฟฟ้าชีวมวลจากเหง้ามันสำปะหลัง",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/20017067"
+  },
+  {
+    "subject": "biomass_power_plant",
+    "predicate": "studiedBy",
+    "object": "การพัฒนาแบบจำลองด้านโลจิสติกส์ของการป้อนชีวมวลเข้าสู่โรงงานผลิตพลังงานจากชีวมวลขนาดใหญ่ (กรณีศึกษา โลจิสติกส์ของชีวมวลที่เหลือทิ้งในไร่นา)",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "พัฒนาแบบจำลองโลจิสติกส์การป้อนชีวมวลเข้าโรงงานผลิตพลังงาน",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=0930990000&BudgetYear=2009"
+  },
+  {
+    "subject": "biomass_power_plant",
+    "predicate": "studiedBy",
+    "object": "การลดต้นทุนเชื้อเพลิงของโรงไฟฟ้าชีวมวลโดยวิธีการโปรแกรมเชิงเป้าหมาย",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ลดต้นทุนเชื้อเพลิงโรงไฟฟ้าชีวมวลด้วย goal programming",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/20019906"
+  },
+  {
+    "subject": "cassava_residue",
+    "predicate": "isFeedstockOf",
+    "object": "biomass_power_plant",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "เหง้ามันสำปะหลังถูกศึกษาเป็นเชื้อเพลิงโรงไฟฟ้าชีวมวล"
+  },
+  {
+    "subject": "microalgae_biomass",
+    "predicate": "studiedBy",
+    "object": "Utilising waste CO2 to increase algal biomass for biofuel production",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.85,
+    "reason_th": "ใช้ CO2 เหลือทิ้งเพิ่มชีวมวลสาหร่ายเพื่อผลิตเชื้อเพลิงชีวภาพ",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/419944"
+  },
+  {
+    "subject": "microalgae_biomass",
+    "predicate": "studiedBy",
+    "object": "กรรมวิธีการเพิ่มปริมาณชีวมวลสาหร่ายสไปรูลิน่า (2015) นักวิจัย: Dr.Sarote Sirisansaneeyakul, Professor , มณชัย เดชสังกรานนท์ , Mr.Natapas Phoopat , ประเภท:",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.85,
+    "reason_th": "สิทธิบัตร KU Forest วิธีเพิ่มปริมาณชีวมวลสาหร่ายสไปรูลิน่า",
+    "target_doc_url": "https://research.ku.ac.th/forest/Invent.aspx?InventID=340&Type=5"
+  },
+  {
+    "subject": "microalgae_biomass",
+    "predicate": "studiedBy",
+    "object": "การเพาะเลี้ยงสาหร่ายสไปรูลิน่าเพื่อผลิตซี-ไฟโคไซยานิน",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "ผลิตไฟโคไซยานินจากการเพาะเลี้ยงสไปรูลินา",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/20021551"
+  },
+  {
+    "subject": "microalgae_biomass",
+    "predicate": "isFeedstockOf",
+    "object": "bioethanol",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.65,
+    "reason_th": "โครงการ KU Forest ผลิตเอทานอลด้วยเชื้อรา Monascus จากทรัพยากรสาหร่าย"
+  },
+  {
+    "subject": "การใช้เครื่องมือวัดและอุปกรณ์ดิจิทัลสำหรับการจัดการพลังงานและพลังงานทดแทน",
+    "predicate": "providesBackgroundFor",
+    "object": "โครงการจัดทำตัวชี้วัดสมรรถนะด้านพลังงานเพื่อเพิ่มประสิทธิภาพการใช้พลังงานในโรงงานควบคุม",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.55,
+    "reason_th": "คอร์สเครื่องมือวัดเพื่อการจัดการพลังงานตรงกับงานจัดทำตัวชี้วัดสมรรถนะพลังงานในโรงงาน",
+    "source_doc_url": "https://sis.ku.ac.th/energymanagement/",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=1730780000&BudgetYear=2016"
+  },
+  {
+    "subject": "การใช้เครื่องมือวัดและอุปกรณ์ดิจิทัลสำหรับการจัดการพลังงานและพลังงานทดแทน",
+    "predicate": "providesBackgroundFor",
+    "object": "โครงการประหยัดพลังงานสำหรับโรงงานขนาดเล็ก",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.5,
+    "reason_th": "คอร์สการจัดการพลังงานเป็นพื้นฐานของโครงการประหยัดพลังงานในโรงงานขนาดเล็ก",
+    "source_doc_url": "https://sis.ku.ac.th/energymanagement/",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=1130305000&BudgetYear=2010"
+  },
+  {
+    "subject": "para_rubber",
+    "predicate": "isFeedstockOf",
+    "object": "solid_biofuel",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.6,
+    "reason_th": "งานวิจัยประเมินสมบัติชีวมวลและพลังงานของไม้ยางพารา"
+  },
+  {
+    "subject": "การคำนวณคาร์บอนฟุตพริ้นท์รายบุคคล จาก Application CF Calculation",
+    "predicate": "providesBackgroundFor",
+    "object": "Carbon footprint of cassava starch in Thailand: A comprehensive study of production scale and production chain",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.5,
+    "reason_th": "คอร์สคำนวณคาร์บอนฟุตพริ้นท์เป็นพื้นฐานของการประเมินคาร์บอนฟุตพริ้นท์แป้งมันสำปะหลัง",
+    "source_doc_url": "https://kumooc.ku.th/courses/6/info",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/446562"
+  },
+  {
+    "subject": "Machine learning and thermodynamic modeling for optimizing hydrogen production via algae-biomass co-gasification",
+    "predicate": "appliesConcept",
+    "object": "machine_learning",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ใช้การเรียนรู้ของเครื่องหาค่าเหมาะสมการผลิตไฮโดรเจนจากชีวมวลสาหร่าย",
+    "source_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/446560"
+  },
+  {
+    "subject": "Self-driving surrogate modeling for optimizing targeted bio-oil yield and heating value in waste biomass-plastic co-pyrolysis",
+    "predicate": "appliesConcept",
+    "object": "machine_learning",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.7,
+    "reason_th": "ใช้แบบจำลองตัวแทนและ transfer learning ทำนายผลผลิตน้ำมันชีวภาพจากไพโรไลซิส",
+    "source_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/446773"
+  },
+  {
+    "subject": "Chitosan",
+    "predicate": "isKeywordOf",
+    "object": "Chitosan & Bio-packaging",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.9,
+    "reason_th": "เอกสารต้นแบบระบุ Chitosan เป็น Anchor Concept ของหัวข้อไคโตซานและบรรจุภัณฑ์ชีวภาพ"
+  },
+  {
+    "subject": "shell_waste",
+    "predicate": "isFeedstockOf",
+    "object": "Chitosan",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.9,
+    "reason_th": "งานวิจัยสกัดไคโตซานจากเปลือกกุ้งขาว เปลือกหอยแมลงภู่ และเปลือกปู"
+  },
+  {
+    "subject": "shell_waste",
+    "predicate": "studiedBy",
+    "object": "การใช้ประโยชน์จากวัสดุเศษเหลือเปลือกกุ้งขาวเป็นแหล่งไคโตซานที่มีศักยภาพ สำหรับบรรจุภัณฑ์ที่ย่อยสลายได้ทางชีวภาพ",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.85,
+    "reason_th": "ใช้เปลือกกุ้งขาวเหลือทิ้งเป็นแหล่งไคโตซานสำหรับบรรจุภัณฑ์ย่อยสลายได้",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/20020390"
+  },
+  {
+    "subject": "shell_waste",
+    "predicate": "studiedBy",
+    "object": "ปริมาณและประสิทธิภาพของไคซินและไคโตซานจากเปลือกปูที่ได้จากอวนจมปู",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "โครงการ KU Forest ศึกษาไคตินและไคโตซานจากเปลือกปูเรื่องเดียวกับงาน KUKR ด้านเปลือกกุ้ง",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=5410471000&BudgetYear=2011"
+  },
+  {
+    "subject": "shell_waste",
+    "predicate": "studiedBy",
+    "object": "ผลของไคโตซานจากปูน้ำจืดสกุล Thaipotamon ต่อการเจริญเติบโตและลดปัญหาโรครากเน่าจากเชื้อ Sclerotium sp. ของข้าว",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "ใช้ไคโตซานจากปูน้ำจืดกับการเติบโตของข้าว",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/20010551"
+  },
+  {
+    "subject": "Chitosan",
+    "predicate": "isFeedstockOf",
+    "object": "chitosan_coating",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.85,
+    "reason_th": "ไคโตซานถูกขึ้นรูปเป็นฟิล์มและสารเคลือบอาหาร"
+  },
+  {
+    "subject": "chitosan_coating",
+    "predicate": "addresses",
+    "object": "postharvest_loss",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "สารเคลือบไคโตซานช่วยยืดอายุการเก็บรักษามะม่วง พลับ ลำไย และไข่"
+  },
+  {
+    "subject": "chitosan_coating",
+    "predicate": "addresses",
+    "object": "foodborne_pathogens",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ฟิล์มไคโตซานยับยั้ง E. coli และ Salmonella บนผักผลไม้"
+  },
+  {
+    "subject": "chitosan_coating",
+    "predicate": "studiedBy",
+    "object": "การศึกษาคุณสมบัติทางกายภาพและชีวเคมีของฟิล์มไคโตซานผสมกรดแกลลิกสำหรับบรรจุภัณฑ์ผลิตผลสด",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ศึกษาสมบัติฟิล์มไคโตซานผสมกรดแกลลิกสำหรับบรรจุผลิตผลสด",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/414105"
+  },
+  {
+    "subject": "chitosan_coating",
+    "predicate": "studiedBy",
+    "object": "การผลิตและประยุกต์ใช้ไคโตซานจากเห็ดเพื่อเป็นวัตถุกันเสียจากธรรมชาติในผลิตภัณฑ์อาหาร ปีที่ 2",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "โครงการ KU Forest ใช้ไคโตซานจากเห็ดเป็นวัตถุกันเสียธรรมชาติในอาหาร",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=2330138000&BudgetYear=2023"
+  },
+  {
+    "subject": "chitosan_coating",
+    "predicate": "studiedBy",
+    "object": "ผลของการเสริมฤทธิ์ของไคโตซานและวัตถุกันเสีย สภาวะการบรรจุและอุณหภูมิการเก็บต่ออายุการเก็บรักษาก๋วยเตี๋ยว",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.7,
+    "reason_th": "โครงการ KU Forest ใช้ไคโตซานร่วมกับวัตถุกันเสียยืดอายุก๋วยเตี๋ยว",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=5910432000&BudgetYear=2016"
+  },
+  {
+    "subject": "Chitosan",
+    "predicate": "isFeedstockOf",
+    "object": "intelligent_packaging",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ฟิล์มไคโตซานผสม AMP และแอนโทไซยานินใช้เป็นตัวชี้วัดคุณภาพในบรรจุภัณฑ์"
+  },
+  {
+    "subject": "intelligent_packaging",
+    "predicate": "studiedBy",
+    "object": "การตรวจสอบคุณภาพของฝรั่งตัดแต่งพร้อมบริโภคพันธุ์กิมจูในบรรจุภัณฑ์โดยใช้ฟิล์มไคโตซานอัจฉริยะที่ผสมเอเอ็มพีและแอนโทไซยานิน",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.85,
+    "reason_th": "ติดตามคุณภาพฝรั่งตัดแต่งด้วยฟิล์มไคโตซานอัจฉริยะ",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/20021684"
+  },
+  {
+    "subject": "intelligent_packaging",
+    "predicate": "studiedBy",
+    "object": "แผนงานวิจัย: การพัฒนาแถบชี้วัดปริมาณเอทานอลสำหรับติดตามการเสื่อมเสียของผลไม้ที่เก็บรักษาในบรรจุภัณฑ์ดัดแปลงบรรยากาศ: กรณีศึกษา มะม่วงน้ำดอกไม้โครงการวิจัย: การพัฒนาแถบชี้วัดเอทานอล",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.65,
+    "reason_th": "โครงการ KU Forest พัฒนาแถบชี้วัดเอทานอลติดตามการเสื่อมเสียของผลไม้ในบรรจุภัณฑ์",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=1240051000&BudgetYear=2012"
+  },
+  {
+    "subject": "intelligent_packaging",
+    "predicate": "studiedBy",
+    "object": "การพัฒนาระบบบรรจุภัณฑ์สมาร์ทเพื่อธุรกิจค้าปลีกสมัยใหม่",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.65,
+    "reason_th": "โครงการ KU Forest พัฒนาระบบบรรจุภัณฑ์สมาร์ทสำหรับค้าปลีก",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=2040033003&BudgetYear=2020"
+  },
+  {
+    "subject": "Chitosan",
+    "predicate": "isFeedstockOf",
+    "object": "active_packaging",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.65,
+    "reason_th": "ฟิล์มไคโตซานผสมสารสกัดกากกาแฟมีฤทธิ์ต้านจุลินทรีย์แบบบรรจุภัณฑ์แอคทีฟ"
+  },
+  {
+    "subject": "active_packaging",
+    "predicate": "addresses",
+    "object": "postharvest_loss",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "บรรจุภัณฑ์แอคทีฟและแผ่นกำจัดเอทิลีนช่วยยืดอายุอาหารและสินค้าเกษตร"
+  },
+  {
+    "subject": "active_packaging",
+    "predicate": "studiedBy",
+    "object": "การพัฒนาวัสดุบรรจุภัณฑ์แอกทิฟชีวภาพจากวัสดุเหลือใช้ทางการเกษตรเพื่อนวัตกรรมการบรรจุอาหาร",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "พัฒนาวัสดุบรรจุภัณฑ์แอกทิฟชีวภาพจากวัสดุเหลือใช้ทางการเกษตร",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=6820020000&BudgetYear=2025"
+  },
+  {
+    "subject": "active_packaging",
+    "predicate": "studiedBy",
+    "object": "บรรจุภัณฑ์แอคทีฟย่อยสลายได้ทางชีวภาพจากการใช้ผลพลอยได้ทางการเกษตรเพื่อยึดอายุการเก็บรักษาอาหารและลดขยะอาหาร (food waste) โดยความร่วมมือระหว่างบริษัท บรรจุภัณฑ์เพื่อสิ่งแวดล้อม จำกัด (GRACZ) และบริษัท เซ็นทรัล รีเทล คอร์ปอเรชั่น จำกัด (มหาชน)",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "บรรจุภัณฑ์แอคทีฟย่อยสลายได้จากผลพลอยได้ทางการเกษตร",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=2330472000&BudgetYear=2023"
+  },
+  {
+    "subject": "agri_residue_packaging",
+    "predicate": "studiedBy",
+    "object": "การผลิตบรรจุภัณฑ์จากชานอ้อย",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ผลิตบรรจุภัณฑ์จากชานอ้อย",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=0330775000&BudgetYear=2003"
+  },
+  {
+    "subject": "agri_residue_packaging",
+    "predicate": "studiedBy",
+    "object": "บรรจุภัณฑ์อาหารจากฟางข้าวอินทรีย์",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ผลิตบรรจุภัณฑ์อาหารจากฟางข้าวอินทรีย์",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=2230131000&BudgetYear=2022"
+  },
+  {
+    "subject": "agri_residue_packaging",
+    "predicate": "studiedBy",
+    "object": "การพัฒนากระดาษจากเส้นใยทะลายปาล์มน้ำมันเปลือกหุ้มผลปาล์มน้ำมันและเปลือกปอสาและสารเคลือบไคโตซาน",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "พัฒนากระดาษจากทะลายปาล์มและเส้นใยปอสา",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/416354"
+  },
+  {
+    "subject": "sugarcane_residue",
+    "predicate": "isFeedstockOf",
+    "object": "agri_residue_packaging",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "ชานอ้อยถูกใช้ทำบรรจุภัณฑ์และนาโนเซลลูโลสเสริมแรงฟิล์มไคโตซาน"
+  },
+  {
+    "subject": "agri_residue_packaging",
+    "predicate": "relatedTo",
+    "object": "biodegradable_packaging",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.6,
+    "reason_th": "บรรจุภัณฑ์จากผลพลอยได้ทางการเกษตรถูกพัฒนาเป็นบรรจุภัณฑ์ย่อยสลายได้ทางชีวภาพ"
+  },
+  {
+    "subject": "starch_bioplastic",
+    "predicate": "isFeedstockOf",
+    "object": "biodegradable_packaging",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "พลาสติกชีวภาพฐานแป้งมันสำปะหลังถูกขึ้นรูปเป็นบรรจุภัณฑ์ย่อยสลายได้ทดแทนพลาสติก"
+  },
+  {
+    "subject": "starch_bioplastic",
+    "predicate": "studiedBy",
+    "object": "การพัฒนาบรรจุภัณฑ์พลาสติกชีวภาพฐานสตาร์ชมันสำปะหลังสำหรับการบรรจุอาหารแบบสุญญากาศ",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "พัฒนาบรรจุภัณฑ์พลาสติกชีวภาพฐานแป้งมันสำปะหลังแบบสุญญากาศ",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=2230146000&BudgetYear=2022"
+  },
+  {
+    "subject": "starch_bioplastic",
+    "predicate": "studiedBy",
+    "object": "การเตรียม การตรวจสอบโครงสร้างและสมบัติต่าง ๆ ของฟิล์มนาโนคอมพอสิทไคโตซาน/สตาร์ชที่มีการเติมอนุภาคนาโนซิลเวอร์",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.7,
+    "reason_th": "ศึกษาฟิล์มนาโนคอมพอสิทไคโตซานและสตาร์ช",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=0730518000&BudgetYear=2007"
+  },
+  {
+    "subject": "biodegradable_packaging",
+    "predicate": "assessedWith",
+    "object": "LCA",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "มีโครงการประเมินวัฏจักรชีวิตเปรียบเทียบสมรรถนะสิ่งแวดล้อมของบรรจุภัณฑ์ย่อยสลายได้"
+  },
+  {
+    "subject": "Chitosan",
+    "predicate": "isFeedstockOf",
+    "object": "seed_coating",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ไคโตซานใช้เคลือบเมล็ดถั่วเขียว ข้าวโพด และทานตะวันเพื่อรักษาคุณภาพเมล็ด"
+  },
+  {
+    "subject": "seed_coating",
+    "predicate": "studiedBy",
+    "object": "ผลของการเคลือบเมล็ดพันธุ์ถั่วเขียวด้วยไคโตซานร่วมกับน้ำมันหอมระเหยขิงและข่าที่มีต่อการยับยั้งเข้าทำลายของด้วงถั่วเขียวและคุณภาพเมล็ดพันธุ์ถั่วเขียวขณะเก็บรักษา",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "เคลือบเมล็ดด้วยไคโตซานร่วมกับน้ำมันหอมระเหยขิงและข่า",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/20022447"
+  },
+  {
+    "subject": "seed_coating",
+    "predicate": "studiedBy",
+    "object": "การเคลือบเมล็ดที่มีต่อคุณภาพของเมล็ดพันธุ์ข้าวฟ่าง",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "ศึกษาการเคลือบเมล็ดข้าวฟ่างด้วยไคโตซาน",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/387893"
+  },
+  {
+    "subject": "Chitosan",
+    "predicate": "enhancesGrowthOf",
+    "object": "rice_crop",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "งานวิจัยหลายชิ้นพบผลของไคโตซานต่อการงอก การเติบโต และโรคใบจุดของข้าว"
+  },
+  {
+    "subject": "กฎหมาย ข้อกำหนดและมาตรฐานในอุตสาหกรรมอาหาร สำหรับวิสาหกิจขนาดกลางและขนาดย่อม",
+    "predicate": "providesBackgroundFor",
+    "object": "foodborne_pathogens",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.5,
+    "reason_th": "คอร์สกฎหมายและมาตรฐานอุตสาหกรรมอาหารเป็นพื้นฐานของงานด้านความปลอดภัยอาหารจากเชื้อก่อโรค",
+    "source_doc_url": "https://sis.ku.ac.th/lawsenterprises/"
+  },
+  {
+    "subject": "ชีววิทยาสังเคราะห์เพื่ออุตสาหกรรม",
+    "predicate": "providesBackgroundFor",
+    "object": "Production and secretion of Bacillus subtillis chitosanase using a food-grade expression system",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.5,
+    "reason_th": "งานผลิตเอนไซม์ไคโตซาเนสด้วยระบบแสดงออกยีนเป็นงานประยุกต์ชีววิทยาเพื่ออุตสาหกรรม",
+    "source_doc_url": "https://sis.ku.ac.th/synthetic-biology-for-industry/",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/22802"
+  },
+  {
+    "subject": "chitosan_coating",
+    "predicate": "studiedBy",
+    "object": "Faculty_อุตสาหกรรมเกษตร",
+    "topic_id": "2",
+    "origin": "ai_suggested",
+    "confidence": 0.5,
+    "reason_th": "เอกสารต้นแบบระบุคณะอุตสาหกรรมเกษตรดูแลกระบวนการ deacetylation และการขึ้นรูปฟิล์ม"
+  },
+  {
+    "subject": "microplastics_problem",
+    "predicate": "isKeywordOf",
+    "object": "Microplastics & Water Quality",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.85,
+    "reason_th": "เอกสารต้นแบบระบุ Microplastics เป็น Anchor Concept ของหัวข้อนี้"
+  },
+  {
+    "subject": "plastic_weathering",
+    "predicate": "isCauseOf",
+    "object": "microplastics_problem",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "งานวิจัยจำลองการผุกร่อนของโฟมและพลาสติกด้วย UV และคลื่นจนเกิดไมโครพลาสติก"
+  },
+  {
+    "subject": "biodegradable_packaging",
+    "predicate": "isCauseOf",
+    "object": "microplastics_problem",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.45,
+    "reason_th": "ถุงพลาสติกย่อยสลายได้ PBAT/PLA ก็ปลดปล่อยไมโครพลาสติกได้ จึงต้องให้ผู้เชี่ยวชาญยืนยันขอบเขต"
+  },
+  {
+    "subject": "agricultural_plastic",
+    "predicate": "pollutesVia",
+    "object": "soil_microplastics",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "พบการสะสมพลาสติกขนาดใหญ่และไมโครพลาสติกในดินโรงเรือน"
+  },
+  {
+    "subject": "soil_microplastics",
+    "predicate": "studiedBy",
+    "object": "การสะสมของไมโครพลาสติกในดินบริเวณลุ่มน้ำแควน้อยตอนล่าง",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ศึกษาการสะสมไมโครพลาสติกในดินลุ่มน้ำแควน้อยตอนล่าง",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/414116"
+  },
+  {
+    "subject": "municipal_wastewater",
+    "predicate": "pollutesVia",
+    "object": "water_quality",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "น้ำเสียชุมชนที่ไม่ผ่านการบำบัดเป็นแหล่งไมโครพลาสติกในแหล่งน้ำและหอยตลับ"
+  },
+  {
+    "subject": "wastewater_treatment",
+    "predicate": "addresses",
+    "object": "microplastics_problem",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "งานวิจัยวัดประสิทธิภาพการกำจัดไมโครพลาสติกของระบบบำบัดน้ำเสียในกรุงเทพและระบบ SBR"
+  },
+  {
+    "subject": "wastewater_treatment",
+    "predicate": "studiedBy",
+    "object": "การปนเปื้อนของไมโครพลาสติกในระบบบำบัดน้ำเสียชุมชน",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ศึกษาการปนเปื้อนไมโครพลาสติกในระบบบำบัดน้ำเสียชุมชน",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/20019101"
+  },
+  {
+    "subject": "wastewater_treatment",
+    "predicate": "studiedBy",
+    "object": "การบำบัดสีและปรับปรุงคุณภาพน้ำทิ้งจากโรงงานอุตสาหกรรมการผลิตเยื่อและกระดาษโดยวิธีทางชีวภาพ",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.6,
+    "reason_th": "โครงการ KU Forest บำบัดสีและปรับปรุงคุณภาพน้ำทิ้งโรงงานเยื่อกระดาษด้วยวิธีชีวภาพ",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=0530642000&BudgetYear=2005"
+  },
+  {
+    "subject": "ศาสตร์การจัดการสิ่งแวดล้อมเพื่อความมั่นคงและยั่งยืน",
+    "predicate": "providesBackgroundFor",
+    "object": "wastewater_treatment",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.45,
+    "reason_th": "คอร์สศาสตร์การจัดการสิ่งแวดล้อมเป็นพื้นฐานของการจัดการน้ำเสีย ซึ่งยืนยันได้จากชื่อคอร์สเท่านั้น",
+    "source_doc_url": "https://sis.ku.ac.th/science-in-environmental-for-security-and-sustainability/"
+  },
+  {
+    "subject": "mp_removal",
+    "predicate": "addresses",
+    "object": "microplastics_problem",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "มีงานวิจัยย่อยสลายไมโครพลาสติกด้วยโฟโตคะตะไลต์ โอโซน และจุลินทรีย์"
+  },
+  {
+    "subject": "mp_removal",
+    "predicate": "studiedBy",
+    "object": "การพัฒนาผลิตภัณฑ์แบคทีเรียแบบผงย่อยสลายไมโครพลาสติกเพื่อนำไปใช้ในบริเวณป่าชายเลน",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "โครงการ KU Forest พัฒนาผงแบคทีเรียย่อยสลายไมโครพลาสติกในป่าชายเลน",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=2630330000&BudgetYear=2026"
+  },
+  {
+    "subject": "mp_removal",
+    "predicate": "studiedBy",
+    "object": "Performance of bioretention systems by umbrella plant (Cyperus alternifolius L.) and common reed (Phragmites australis) for removal of microplastics",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "ใช้ระบบ bioretention ด้วยพืชกำจัดไมโครพลาสติก",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/439694"
+  },
+  {
+    "subject": "mp_removal",
+    "predicate": "studiedBy",
+    "object": "Membrane and filtration processes for microplastic removal",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "ทบทวนเทคโนโลยีเมมเบรนและการกรองกำจัดไมโครพลาสติก",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/428661"
+  },
+  {
+    "subject": "เศรษฐศาสตร์การจัดการมลพิษและของเสีย",
+    "predicate": "providesBackgroundFor",
+    "object": "plastic_waste_management",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.5,
+    "reason_th": "คอร์สเศรษฐศาสตร์การจัดการมลพิษและของเสียเป็นพื้นฐานของการจัดการขยะพลาสติก",
+    "source_doc_url": "https://kumooc.ku.th/courses/84/info"
+  },
+  {
+    "subject": "Microplastics 101",
+    "predicate": "providesBackgroundFor",
+    "object": "seafood_safety",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.5,
+    "reason_th": "คอร์ส Microplastics 101 ปูพื้นก่อนศึกษาการปนเปื้อนในสัตว์น้ำบริโภค ซึ่งอนุมานได้จากชื่อคอร์ส",
+    "source_doc_url": "https://kumooc.ku.th/courses/82/info"
+  },
+  {
+    "subject": "aquatic_insects",
+    "predicate": "isIndicatorOf",
+    "object": "microplastics_problem",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.85,
+    "reason_th": "งานวิจัยใช้แมลงน้ำเป็นตัวบ่งชี้มลพิษไมโครพลาสติกในนาข้าวและลำธาร"
+  },
+  {
+    "subject": "aquatic_insects",
+    "predicate": "studiedBy",
+    "object": "Occurrence of microplastics in edible aquatic insect Pantala sp. (Odonata: Libellulidae) from rice fields",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "พบไมโครพลาสติกในตัวอ่อนแมลงปอที่คนบริโภคจากนาข้าว",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/421989"
+  },
+  {
+    "subject": "freshwater_snails",
+    "predicate": "isIndicatorOf",
+    "object": "microplastics_problem",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.85,
+    "reason_th": "หอยเชอรี่และหอยฝาเดียวถูกใช้เป็นตัวบ่งชี้ไมโครพลาสติกในน้ำจืด"
+  },
+  {
+    "subject": "terrestrial_wildlife",
+    "predicate": "isIndicatorOf",
+    "object": "microplastics_problem",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ใช้มูลสัตว์ป่าบนบกในพื้นที่คุ้มครองฝั่งตะวันตกบ่งชี้มลพิษพลาสติก"
+  },
+  {
+    "subject": "microplastics_problem",
+    "predicate": "affects",
+    "object": "ระบบเพาะเลี้ยง",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "พบไมโครพลาสติกในกุ้งก้ามกราม กุ้งขาว และหอยแมลงภู่จากบ่อและแพเลี้ยง"
+  },
+  {
+    "subject": "microplastics_problem",
+    "predicate": "affects",
+    "object": "seafood_safety",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "พบการปนเปื้อนไมโครพลาสติกในหอยแมลงภู่และหอยลายที่ขายในตลาดสด"
+  },
+  {
+    "subject": "water_quality",
+    "predicate": "assessedWith",
+    "object": "water_quality_monitoring",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.7,
+    "reason_th": "โครงการ KU Forest พัฒนาเซ็นเซอร์ชีวภาพและติดตามคุณภาพน้ำในลำน้ำ"
+  },
+  {
+    "subject": "water_quality_monitoring",
+    "predicate": "studiedBy",
+    "object": "การพัฒนาระบบเซ็นเซอร์ด้านชีวภาพ เพื่อการประเมินคุณภาพน้ำอย่างง่าย",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "พัฒนาระบบเซ็นเซอร์ชีวภาพประเมินคุณภาพน้ำอย่างง่าย",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=2040055003&BudgetYear=2020"
+  },
+  {
+    "subject": "water_quality_monitoring",
+    "predicate": "studiedBy",
+    "object": "งานติดตามตรวจสอบคุณภาพสิ่งแวดล้อมด้านคุณภาพน้ำ และนิเวศวิทยาทางน้ำ โครงการกังหันลมผลิตไฟฟ้าลำตะคอง ระยะที่ 2 (ระยะก่อสร้าง) ปี 2560",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.7,
+    "reason_th": "ติดตามคุณภาพน้ำและนิเวศวิทยาทางน้ำของโครงการกังหันลมลำตะคอง",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=1731740000&BudgetYear=2017"
+  },
+  {
+    "subject": "water_quality",
+    "predicate": "assessedWith",
+    "object": "remote_sensing",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.65,
+    "reason_th": "โครงการ KU Forest ใช้การรับรู้ระยะไกลประเมินคลอโรฟิลล์เอในหนองหาร"
+  },
+  {
+    "subject": "agricultural_plastic",
+    "predicate": "studiedBy",
+    "object": "Faculty_เกษตร",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.55,
+    "reason_th": "เอกสารต้นแบบระบุบทบาทคณะเกษตรด้านฟิล์มคลุมดินซึ่งเป็นพลาสติกการเกษตร"
+  },
+  {
+    "subject": "CarbonFootprint",
+    "predicate": "isKeywordOf",
+    "object": "Carbon Footprint & Carbon Neutrality",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.9,
+    "reason_th": "เอกสารต้นแบบระบุ Carbon Footprint เป็น Anchor Concept ของหัวข้อนี้"
+  },
+  {
+    "subject": "CarbonFootprint",
+    "predicate": "assessedWith",
+    "object": "LCA",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.85,
+    "reason_th": "งานวิจัยประเมินคาร์บอนฟุตพริ้นท์แบบ cradle-to-gate ด้วยการประเมินวัฏจักรชีวิต"
+  },
+  {
+    "subject": "LCA",
+    "predicate": "studiedBy",
+    "object": "การประเมินวัฏจักรชีวิตของผลิตภัณฑ์สละลอยแก้วในจังหวัดจันทบุรี",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ประเมินวัฏจักรชีวิตของสละลอยแก้ว",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/315506"
+  },
+  {
+    "subject": "LCA",
+    "predicate": "studiedBy",
+    "object": "Faculty_อุตสาหกรรมเกษตร",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.6,
+    "reason_th": "เอกสารต้นแบบระบุบทบาทคณะอุตสาหกรรมเกษตรด้าน LCA ผลิตภัณฑ์"
+  },
+  {
+    "subject": "carbon_label",
+    "predicate": "requires",
+    "object": "CarbonFootprint",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "การขอฉลากคาร์บอนต้องอาศัยการประเมินคาร์บอนฟุตพริ้นท์ของผลิตภัณฑ์"
+  },
+  {
+    "subject": "carbon_label",
+    "predicate": "studiedBy",
+    "object": "พิชิตคาร์บอนฟุตพริ้นท์และฉลากคาร์บอนฟุตพริ้นท์กับ VGREEN",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "เอกสาร VGREEN อธิบายคาร์บอนฟุตพริ้นท์และฉลากคาร์บอนของผลิตภัณฑ์ข้าวและอาหาร",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/372832"
+  },
+  {
+    "subject": "water_footprint",
+    "predicate": "relatedTo",
+    "object": "CarbonFootprint",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.65,
+    "reason_th": "งานวิจัยหลายชิ้นประเมินวอเตอร์ฟุตพริ้นท์คู่กับคาร์บอนฟุตพริ้นท์"
+  },
+  {
+    "subject": "การคำนวณคาร์บอนฟุตพริ้นท์รายบุคคล จาก Application CF Calculation",
+    "predicate": "providesBackgroundFor",
+    "object": "organizational_cf",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.5,
+    "reason_th": "คอร์สคำนวณคาร์บอนฟุตพริ้นท์รายบุคคลเป็นขั้นแรกก่อนประเมินคาร์บอนฟุตพริ้นท์องค์กร",
+    "source_doc_url": "https://kumooc.ku.th/courses/6/info"
+  },
+  {
+    "subject": "organizational_cf",
+    "predicate": "studiedBy",
+    "object": "คาร์บอนฟุตพริ้นท์ขององค์กร ของมหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตเฉลิมพระเกียรติ จังหวัดสกลนคร",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ประเมินคาร์บอนฟุตพริ้นท์องค์กรของ มก. วิทยาเขตสกลนคร",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/20008802"
+  },
+  {
+    "subject": "organizational_cf",
+    "predicate": "studiedBy",
+    "object": "แนวทางการพัฒนาค่าสัมประสิทธิ์การปล่อยก๊าซเรือนกระจกสําหรับการประเมินคาร์บอนฟุตพริ้นท์ขององค์กร กรณีภาคส่วนการจัดการของเสีย",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "พัฒนาค่าการปล่อยก๊าซเรือนกระจกสำหรับคาร์บอนฟุตพริ้นท์องค์กร",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/20022196"
+  },
+  {
+    "subject": "CarbonFootprint",
+    "predicate": "studiedBy",
+    "object": "การเปรียบเทียบปริมาณคาร์บอนฟุตพริ้นท์ของฟาร์มเลี้ยงกุ้งขาวแวนนาไม (Litopenaeus vannamei, Boone 1931) ที่อัตราความหนาแน่นการเลี้ยงแตกต่างกัน",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "เปรียบเทียบคาร์บอนฟุตพริ้นท์ฟาร์มกุ้งขาวที่ความหนาแน่นต่างกัน",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/20020401"
+  },
+  {
+    "subject": "CarbonFootprint",
+    "predicate": "studiedBy",
+    "object": "คาร์บอนฟุตพริ้นท์ของผลิตภัณฑ์ปลานิล เพื่อเพิ่มศักยภาพการส่งออกและส่งเสริมการผลิตและบริโภคที่คำนึงถึงความเป็นมิตรต่อสภาพภูมิอากาศ",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "โครงการ KU Forest ประเมินคาร์บอนฟุตพริ้นท์ผลิตภัณฑ์ปลานิลเพื่อการส่งออก",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=1031300000&BudgetYear=2010"
+  },
+  {
+    "subject": "CarbonFootprint",
+    "predicate": "studiedBy",
+    "object": "คาร์บอนฟุตพริ้นท์ของผลิตภัณฑ์ข้าว",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ประเมินคาร์บอนฟุตพริ้นท์ผลิตภัณฑ์ข้าว",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/203060"
+  },
+  {
+    "subject": "วิทยากรกระบวนการความเป็นกลางทางคาร์บอนภาคการเกษตร",
+    "predicate": "providesBackgroundFor",
+    "object": "emission_reduction",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.6,
+    "reason_th": "คอร์สวิทยากรความเป็นกลางทางคาร์บอนภาคเกษตรสอดคล้องกับเส้นทางเกษตรลดการปล่อยก๊าซ",
+    "source_doc_url": "https://sis.ku.ac.th/carbon-neutrality/"
+  },
+  {
+    "subject": "emission_reduction",
+    "predicate": "studiedBy",
+    "object": "4.11) Biogas reduces the carbon footprint of cassava starch: A comparative Assessment with fuel oil",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ก๊าซชีวภาพแทนน้ำมันเตาลดคาร์บอนฟุตพริ้นท์แป้งมันสำปะหลัง",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/384812"
+  },
+  {
+    "subject": "emission_reduction",
+    "predicate": "studiedBy",
+    "object": "Faculty_เกษตร",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.5,
+    "reason_th": "เอกสารต้นแบบระบุบทบาทคณะเกษตรด้านฟาร์มในเส้นทางลดการปล่อยก๊าซ"
+  },
+  {
+    "subject": "biogas",
+    "predicate": "mitigatesCarbonVia",
+    "object": "emission_reduction",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "การใช้ก๊าซชีวภาพแทนน้ำมันเตาในโรงงานแป้งมันสำปะหลังลดการปล่อยก๊าซเรือนกระจก"
+  },
+  {
+    "subject": "carbon_credit",
+    "predicate": "requires",
+    "object": "emission_reduction",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.7,
+    "reason_th": "คาร์บอนเครดิตประเมินจากปริมาณก๊าซเรือนกระจกที่ลดได้"
+  },
+  {
+    "subject": "carbon_credit",
+    "predicate": "studiedBy",
+    "object": "โครงการวิจัยการประเมิน Carbon Credit จากการลดปริมาณก๊าซเรือนกระจกที่เกิดจากกระบวนการบำบัดน้ำเสียของโรงควบคุมคุณภาพน้ำหนองแขม สำนักการระบายน้ำ",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "ประเมินคาร์บอนเครดิตจากการลดก๊าซเรือนกระจกในกระบวนการบำบัดน้ำเสีย",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=1531688000&BudgetYear=2015"
+  },
+  {
+    "subject": "carbon_stock",
+    "predicate": "assessedWith",
+    "object": "remote_sensing",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.85,
+    "reason_th": "งานวิจัยประเมินมวลชีวภาพและคาร์บอนป่าด้วยภาพ SAR Sentinel และการรับรู้ระยะไกล"
+  },
+  {
+    "subject": "remote_sensing",
+    "predicate": "studiedBy",
+    "object": "การประเมินปริมาณก๊าซเรือนกระจกในชั้นบรรยากาศด้วยเทคโนโลยีการสำรวจข้อมูลระยะไกล (Remote Sensing) ในพื้นที่ประเทศไทย",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "โครงการ KU Forest ประเมินก๊าซเรือนกระจกในบรรยากาศด้วยการสำรวจระยะไกล",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=1630858000&BudgetYear=2016"
+  },
+  {
+    "subject": "remote_sensing",
+    "predicate": "studiedBy",
+    "object": "การประเมินข้อมูล SAR สําหรับการทำแผนที่และการติดตามชีวมวลป่าไม้",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ประเมินข้อมูล SAR สำหรับทำแผนที่และติดตามมวลชีวภาพป่า",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/426624"
+  },
+  {
+    "subject": "carbon_stock",
+    "predicate": "studiedBy",
+    "object": "การประเมินการกักเก็บคาร์บอนในมวลชีวภาพเหนือพื้นดินของป่าเต็งรัง มหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตเฉลิมพระเกียรติ จังหวัดสกลนคร",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ประเมินการกักเก็บคาร์บอนจากมวลชีวภาพเหนือดินของป่าเต็งรัง",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/20020283"
+  },
+  {
+    "subject": "carbon_stock",
+    "predicate": "studiedBy",
+    "object": "พลวัตป่าไม้และการกักเก็บคาร์บอนในช่วงเวลา 10 ปี ในพื้นที่อุทยานแห่งชาติลำน้ำน่าน จังหวัดอุตรดิตถ์และจังหวัดแพร่",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ติดตามพลวัตป่าและปริมาณคาร์บอน 10 ปีในอุทยานแห่งชาติลำน้ำน่าน",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/20017411"
+  },
+  {
+    "subject": "carbon_stock",
+    "predicate": "studiedBy",
+    "object": "Faculty_วนศาสตร์",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.6,
+    "reason_th": "เอกสารต้นแบบระบุบทบาทคณะวนศาสตร์ด้าน carbon stock ของป่า"
+  },
+  {
+    "subject": "blue_carbon",
+    "predicate": "studiedBy",
+    "object": "การติดตามการเปลี่ยนแปลงมวลชีวภาพและการกักเก็บคาร์บอนของป่าชายเลนที่ปลูกฟื้นฟูภายหลังการทำนากุ้งด้วยการรับรู้ระยะไกลที่อำเภอดอนสัก จังหวัดสุราษฎร์ธานี",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ติดตามมวลชีวภาพและคาร์บอนของป่าชายเลนที่ปลูกฟื้นฟูหลังนากุ้ง",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=1730424000&BudgetYear=2017"
+  },
+  {
+    "subject": "blue_carbon",
+    "predicate": "studiedBy",
+    "object": "องค์ประกอบของสังคมพืชและการกักเก็บคาร์บอนของป่าชายเลน บริเวณศูนย์ศึกษาการพัฒนาอ่าวคุ้งกระเบนอันเนื่องมาจากพระราชดำริ จังหวัดจันทบุรี",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ศึกษาการกักเก็บคาร์บอนของป่าชายเลนอ่าวคุ้งกระเบน",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/438192"
+  },
+  {
+    "subject": "blue_carbon",
+    "predicate": "studiedBy",
+    "object": "ปริมาณคาร์บอนของซากพืชร่วงหล่นในป่าชายเลนบริเวณโครงการศึกษาวิจัยและพัฒนาสิ่งแวดล้อมแหลมผักเบี้ยอันเนื่องมาจากพระราชดำริ จังหวัดเพชรบุรี",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "ศึกษาคาร์บอนในซากพืชร่วงหล่นของป่าชายเลนแหลมผักเบี้ย",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/443776"
+  },
+  {
+    "subject": "blue_carbon",
+    "predicate": "studiedBy",
+    "object": "Faculty_ประมง",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.55,
+    "reason_th": "เอกสารต้นแบบระบุบทบาทคณะประมงด้าน blue carbon"
+  },
+  {
+    "subject": "Agroforestry",
+    "predicate": "mitigatesCarbonVia",
+    "object": "carbon_stock",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "งานวิจัยพบว่าระบบวนเกษตรเก็บคาร์บอนได้มากทั้งในดินและมวลชีวภาพ"
+  },
+  {
+    "subject": "urban_green",
+    "predicate": "mitigatesCarbonVia",
+    "object": "carbon_stock",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.7,
+    "reason_th": "งานวิจัยวัดการกักเก็บคาร์บอนของไม้ต้นในสวนสาธารณะและแนวถนนในเมือง"
+  },
+  {
+    "subject": "การใช้ที่ดินวนเกษตร",
+    "predicate": "providesBackgroundFor",
+    "object": "carbon_stock",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.5,
+    "reason_th": "คอร์สการใช้ที่ดินวนเกษตรเป็นพื้นฐานของการกักเก็บคาร์บอนในระบบวนเกษตร",
+    "source_doc_url": "https://sis.ku.ac.th/agroforestry-land-use/"
+  },
+  {
+    "subject": "climate_change",
+    "predicate": "affects",
+    "object": "ระบบเพาะเลี้ยง",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "งานวิจัยศึกษาผลของภูมิอากาศต่อการเลี้ยงปลานิลในกระชังและปลาดุก"
+  },
+  {
+    "subject": "climate_change",
+    "predicate": "affects",
+    "object": "biodiversity",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "โครงการ KU Forest ติดตามผลของการเปลี่ยนแปลงภูมิอากาศต่อถิ่นอาศัยพืชและสัตว์ป่าและองค์ประกอบความหลากหลายทางชีวภาพ"
+  },
+  {
+    "subject": "climate_adaptation",
+    "predicate": "addresses",
+    "object": "climate_change",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "มีโครงการด้านการปรับตัวต่อการเปลี่ยนแปลงภูมิอากาศทั้งในเมือง ภาคเกษตร และผู้เลี้ยงปลา"
+  },
+  {
+    "subject": "climate_adaptation",
+    "predicate": "studiedBy",
+    "object": "โครงการส่งเสริมประเทศไทยเพื่อรวมภาคเกษตรในแผนการปรับตัวของประเทศด้านการเปลี่ยนแปลงสภาพภูมิอากาศ",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "โครงการนำภาคเกษตรเข้าแผนปรับตัวต่อการเปลี่ยนแปลงภูมิอากาศของประเทศ",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=1631188000&BudgetYear=2016"
+  },
+  {
+    "subject": "climate_adaptation",
+    "predicate": "studiedBy",
+    "object": "ปัจจัยที่มีอิทธิพลต่อความสามารถในการปรับตัวต่อการเปลี่ยนแปลงสภาพภูมิอากาศของเกษตรกรผู้เลี้ยงปลานิลในกระชัง จังหวัดอุบลราชธานี",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ศึกษาปัจจัยความสามารถในการปรับตัวของผู้เลี้ยงปลานิลในกระชัง",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/437745"
+  },
+  {
+    "subject": "การพัฒนาชุมชนเพื่อความยั่งยืน",
+    "predicate": "providesBackgroundFor",
+    "object": "การพัฒนานวัตกรรมผลิตภัณฑ์ชุมชนเพื่อความยั่งยืน",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.5,
+    "reason_th": "คอร์สการพัฒนาชุมชนเพื่อความยั่งยืนสอดคล้องกับโครงการนวัตกรรมผลิตภัณฑ์ชุมชนเพื่อความยั่งยืน",
+    "source_doc_url": "https://sis.ku.ac.th/community-development-for-sustainability/",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=2530541000&BudgetYear=2025"
+  },
+  {
+    "subject": "ระบบคาดการณ์สถานการณ์ภัยแล้งด้านการเกษตรระดับแปลงด้วยการรับรู้ระยะไกลและเทคโนโลยีการเรียนรู้ของเครื่อง",
+    "predicate": "appliesConcept",
+    "object": "machine_learning",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ระบบคาดการณ์ภัยแล้งระดับแปลงใช้การรับรู้ระยะไกลร่วมกับการเรียนรู้ของเครื่อง",
+    "source_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=2130324000&BudgetYear=2021"
+  },
+  {
+    "subject": "Probiotic",
+    "predicate": "isKeywordOf",
+    "object": "Sustainable Aquaculture & Probiotics",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "Probiotic อยู่ในชื่อหัวข้อและเป็นคำค้นหลักในเอกสารต้นแบบ"
+  },
+  {
+    "subject": "Probiotic",
+    "predicate": "addresses",
+    "object": "tilapia_diseases",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "มีงานใช้ Bacillus ป้องกันโรค Streptococcosis ในปลานิล และทบทวนการควบคุมโรคด้วยโพรไบโอติก"
+  },
+  {
+    "subject": "Probiotic",
+    "predicate": "studiedBy",
+    "object": "การใช้แบคทีเรียโปรไบโอติกสำหรับการเลี้ยงสัตว์น้ำ",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.85,
+    "reason_th": "โครงการ KU Forest ใช้แบคทีเรียโปรไบโอติกในการเลี้ยงสัตว์น้ำ",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=1430731000&BudgetYear=2014"
+  },
+  {
+    "subject": "Probiotic",
+    "predicate": "enhancesGrowthOf",
+    "object": "giant_freshwater_prawn",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "การเสริม Bacillus tropicus เพิ่มการเติบโตและสุขภาพของกุ้งก้ามกราม"
+  },
+  {
+    "subject": "fish_vaccine",
+    "predicate": "addresses",
+    "object": "tilapia_diseases",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.85,
+    "reason_th": "มีงานพัฒนาวัคซีน DNA วัคซีนเชื้อตาย และวัคซีนโปรตีนสำหรับโรคสเตรปโตคอคคัสและ TiLV ในปลานิล"
+  },
+  {
+    "subject": "fish_vaccine",
+    "predicate": "studiedBy",
+    "object": "กรรมวิธีการผลิตวัคซีนสองซีโรไทป์ของเชื้อสเตรปโตคอลคัสอะกาแลคเทีย (Streptococcus agalactiae) เพื่อป้องกันโรคสเตร็ปโตค็อคโคซิส (streptococcosis) ในการเลี้ยงปลานิล (2023) นักวิจัย: Dr.Nontawith Areechon, Associate Professor , Dr.Sasimanas Unajak, Associate Professor , กรทิพย์ กันนิการ์ , ประเภท:",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "สิทธิบัตร KU Forest วัคซีนสองซีโรไทป์ของ Streptococcus agalactiae",
+    "target_doc_url": "https://research.ku.ac.th/forest/Invent.aspx?InventID=1474&Type=5"
+  },
+  {
+    "subject": "fish_vaccine",
+    "predicate": "studiedBy",
+    "object": "Immunoproteomics analysis assisted multiepitope subunit vaccine for streptococcosis disease",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ออกแบบวัคซีนหน่วยย่อยแบบหลายเอพิโทปสำหรับโรคสเตรปโตคอคโคซิส",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/402207"
+  },
+  {
+    "subject": "tilapia_diseases",
+    "predicate": "affects",
+    "object": "ปลานิล",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.85,
+    "reason_th": "โรคไวรัส TiLV และโรคแบคทีเรียเป็นความเสี่ยงหลักของการเลี้ยงปลานิล"
+  },
+  {
+    "subject": "tilapia_diseases",
+    "predicate": "studiedBy",
+    "object": "การเพาะเลี้ยงเชื้อไวรัสที่ก่อโรคตายเดือนในปลานิลและปลาทับทิมในเซลล์เพาะเลี้ยง (2017) นักวิจัย: Dr.Win Surachetpong, Associate Professor , นางสาวปุณธนาฒย์ ทัตติยพงศ์ , ประเภท:",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "สิทธิบัตร KU Forest เพาะเลี้ยงไวรัสก่อโรคตายเดือนในปลานิลและปลาทับทิม",
+    "target_doc_url": "https://research.ku.ac.th/forest/Invent.aspx?InventID=680&Type=5"
+  },
+  {
+    "subject": "tilapia_diseases",
+    "predicate": "studiedBy",
+    "object": "Faculty_ประมง",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.55,
+    "reason_th": "เอกสารต้นแบบระบุบทบาทคณะประมงด้านการเพาะเลี้ยง พันธุกรรม และโรค"
+  },
+  {
+    "subject": "disease_resistance_breeding",
+    "predicate": "addresses",
+    "object": "tilapia_diseases",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.7,
+    "reason_th": "พบสหสัมพันธ์ทางพันธุกรรมเชิงบวกระหว่างความต้านทานโรคแอโรโมแนสและสเตรปโตคอคคัสในปลานิล"
+  },
+  {
+    "subject": "lactic_acid_bacteria",
+    "predicate": "isFeedstockOf",
+    "object": "Probiotic",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "มีการคัดแยกแบคทีเรียกรดแลคติกที่มีศักยภาพเป็นโพรไบโอติกจากลำไส้ปลานิลและอาหารหมัก"
+  },
+  {
+    "subject": "lactic_acid_bacteria",
+    "predicate": "studiedBy",
+    "object": "In vitro screening of potential probiotic lactic acid bacteria isolated from intestinal contents and gills of nile tilapia",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.85,
+    "reason_th": "คัดกรองแบคทีเรียกรดแลคติกจากลำไส้และเหงือกปลานิลเพื่อใช้เป็นโพรไบโอติก",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/20008879"
+  },
+  {
+    "subject": "lactic_acid_bacteria",
+    "predicate": "studiedBy",
+    "object": "การเก็บรักษาเชื้อแบคทีเรียกรดแลคติก",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.7,
+    "reason_th": "โครงการ KU Forest ศึกษาการเก็บรักษาเชื้อแบคทีเรียกรดแลคติก",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=0931160000&BudgetYear=2009"
+  },
+  {
+    "subject": "การเป็นผู้ประกอบการธุรกิจเครื่องดื่มจากพืชและโพรไบโอติกส์",
+    "predicate": "providesBackgroundFor",
+    "object": "ผลิตภัณฑ์เครื่องดื่มหมักจากน้ำหางกะทิ (Culture coconut whey by lactic acid bacteria) เสริมพรีไบโอติกส์ (prebiotic) และสารสกัดจากหม่อน (mulberry extract) (2023) นักวิจัย: Dr.Pramuan Saithong , Dr.Wanida Tewaruth Chitisankul , Dr.Phisamai Srichayet , ประเภท:",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.7,
+    "reason_th": "คอร์สธุรกิจเครื่องดื่มโพรไบโอติกตรงกับผลงานเครื่องดื่มหมักน้ำหางกะทิด้วยแบคทีเรียกรดแลคติกเสริมพรีไบโอติก",
+    "source_doc_url": "https://sis.ku.ac.th/entrepreneurship-for-plant-based-and-probiotics-beverages/",
+    "target_doc_url": "https://research.ku.ac.th/forest/Invent.aspx?InventID=1369&Type=5"
+  },
+  {
+    "subject": "การเป็นผู้ประกอบการธุรกิจเครื่องดื่มจากพืชและโพรไบโอติกส์",
+    "predicate": "providesBackgroundFor",
+    "object": "lactic_acid_bacteria",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.55,
+    "reason_th": "เครื่องดื่มโพรไบโอติกอาศัยแบคทีเรียกรดแลคติกเป็นเชื้อหลัก",
+    "source_doc_url": "https://sis.ku.ac.th/entrepreneurship-for-plant-based-and-probiotics-beverages/"
+  },
+  {
+    "subject": "prebiotic",
+    "predicate": "enhancesGrowthOf",
+    "object": "ปลานิล",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.7,
+    "reason_th": "มีงานเสริมอินูลินและแมนแนนโอลิโกแซ็กคาไรด์ต่อสมรรถนะการเติบโตของปลานิลแดง"
+  },
+  {
+    "subject": "sugarcane_residue",
+    "predicate": "isFeedstockOf",
+    "object": "prebiotic",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "มีงานผลิตพรีไบโอติกจากใบอ้อยและไซโลโอลิโกแซ็กคาไรด์จากชานอ้อยพลังงาน"
+  },
+  {
+    "subject": "prebiotic",
+    "predicate": "studiedBy",
+    "object": "β-mannanase and its application in prebiotic (mannooligosaccharides) preparation",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "ทบทวนเอนไซม์เบต้าแมนนาเนสสำหรับผลิตพรีไบโอติก MOS",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/446644"
+  },
+  {
+    "subject": "fish_feed",
+    "predicate": "enhancesGrowthOf",
+    "object": "ปลานิล",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "งานวิจัยสูตรอาหารและวัตถุดิบทดแทนปลาป่นวัดผลต่อการเติบโตของปลานิล"
+  },
+  {
+    "subject": "fish_feed",
+    "predicate": "studiedBy",
+    "object": "สูตรอาหารสำหรับเลี้ยงปลานิล (2014) นักวิจัย: Dr.Arunee Engkagul, Assistant Professor , นายสาธิต โกวิทวที , Dr.Uthaiwan Kovitvadhi, Associate Professor , Dr.Kiattawee Choowongkomon, Associate Professor , Dr.Sasimanas Unajak, Associate Professor , นางกฤษณา รุ่งเรืองศักดิ์ ทอริสสัน , ประเภท:",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "สิทธิบัตร KU Forest สูตรอาหารเลี้ยงปลานิล",
+    "target_doc_url": "https://research.ku.ac.th/forest/Invent.aspx?InventID=413&Type=5"
+  },
+  {
+    "subject": "fish_feed",
+    "predicate": "studiedBy",
+    "object": "Screening possibility insects as an alternative sustainable protein sources for Nile tilapia (Oreochromis niloticus) using in vitro digestibility technique",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "คัดกรองแมลงเป็นโปรตีนทางเลือกในอาหารปลานิล",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/427879"
+  },
+  {
+    "subject": "cassava_residue",
+    "predicate": "isFeedstockOf",
+    "object": "fish_feed",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "กากและเปลือกมันสำปะหลังร่วมกับเอนไซม์ถูกใช้เป็นวัตถุดิบอาหารปลานิล"
+  },
+  {
+    "subject": "fish_feed",
+    "predicate": "studiedBy",
+    "object": "Faculty_อุตสาหกรรมเกษตร",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.5,
+    "reason_th": "เอกสารต้นแบบระบุบทบาทคณะอุตสาหกรรมเกษตรด้านอาหารสัตว์น้ำและ probiotic"
+  },
+  {
+    "subject": "aquaponics",
+    "predicate": "connectsViaValueChain",
+    "object": "microalgae_biomass",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.7,
+    "reason_th": "น้ำทิ้งจากบ่อเลี้ยงปลานิลถูกใช้เพาะสาหร่ายขนาดเล็กและสาหร่ายช่วยลดสารไนโตรเจนในน้ำเลี้ยงปลา"
+  },
+  {
+    "subject": "aquaponics",
+    "predicate": "studiedBy",
+    "object": "การศึกษาผลการเจริญเติบโตของปลานิล ปลาดุกรัสเซีย และปลาคาร์ปในระบบอควาโปนิกส์ร่วมกับการปลูกผักสลัดแบบไร้ดิน",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "เปรียบเทียบการเติบโตของปลานิล ปลาดุก และปลาไนในระบบอะควาโปนิกส์ร่วมผักสลัด",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/20020287"
+  },
+  {
+    "subject": "aquaponics",
+    "predicate": "relatedTo",
+    "object": "ระบบเพาะเลี้ยง",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.6,
+    "reason_th": "อะควาโปนิกส์และการนำน้ำทิ้งกลับมาใช้เป็นรูปแบบหนึ่งของระบบเพาะเลี้ยงที่ต้องดูแลคุณภาพน้ำ"
+  },
+  {
+    "subject": "cage_culture",
+    "predicate": "requires",
+    "object": "water_quality",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.65,
+    "reason_th": "งานวิจัยศึกษาการถ่ายเทออกซิเจนและการปนเปื้อนแบคทีเรียในการเลี้ยงปลานิลในกระชัง"
+  },
+  {
+    "subject": "cage_culture",
+    "predicate": "studiedBy",
+    "object": "โปรแกรมสำหรับวัดความยาวและประเมินน้ำหนักปลานิลแดงที่เลี้ยงในกระชังในบ่อดิน (2016) นักวิจัย: Dr.Wara Taparhudee, Associate Professor , ประเภท:",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.7,
+    "reason_th": "โปรแกรมวัดความยาวและน้ำหนักปลานิลแดงที่เลี้ยงในกระชัง",
+    "target_doc_url": "https://research.ku.ac.th/forest/Invent.aspx?InventID=637&Type=3"
+  },
+  {
+    "subject": "ปลานิล",
+    "predicate": "isFeedstockOf",
+    "object": "fish_byproducts",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ก้าง กระดูก และหนังปลานิลถูกแปรรูปเป็นผงแคลเซียมและคอลลาเจน"
+  },
+  {
+    "subject": "fish_byproducts",
+    "predicate": "studiedBy",
+    "object": "การผลิตกาวจากหนังปลาของไทย",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "โครงการ KU Forest ผลิตกาวจากหนังปลา",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=1030733000&BudgetYear=2010"
+  },
+  {
+    "subject": "fish_byproducts",
+    "predicate": "studiedBy",
+    "object": "การใช้ประโยชน์น้ำมันปลาดิบที่ได้จากกระบวนการผลิตปลาป่นเพื่อพัฒนาเป็นผลิตภัณฑ์น้ำมันปลารูปแบบใหม่",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "ใช้น้ำมันปลาดิบจากการผลิตปลาป่นพัฒนาผลิตภัณฑ์ใหม่",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=1831142000&BudgetYear=2018"
+  },
+  {
+    "subject": "การผลิตและเพิ่มมูลค่าสัตว์น้ำจืดเศรษฐกิจ",
+    "predicate": "providesBackgroundFor",
+    "object": "fish_byproducts",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.65,
+    "reason_th": "คอร์สการผลิตและเพิ่มมูลค่าสัตว์น้ำจืดตรงกับงานแปรรูปผลพลอยได้จากปลานิล",
+    "source_doc_url": "https://sis.ku.ac.th/production-and-value-adding-of-economically-freshwater-animals/"
+  },
+  {
+    "subject": "การเพาะเลี้ยงสัตว์น้ำเศรษฐกิจและสัตว์น้ำสวยงาม",
+    "predicate": "providesBackgroundFor",
+    "object": "ระบบเพาะเลี้ยง",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.6,
+    "reason_th": "คอร์สการเพาะเลี้ยงสัตว์น้ำเศรษฐกิจเป็นพื้นฐานของระบบเพาะเลี้ยงที่ต้องอาศัยคุณภาพน้ำ",
+    "source_doc_url": "https://sis.ku.ac.th/ornamental-and-economical-aquatic-animal-aquaculture/"
+  },
+  {
+    "subject": "การเพาะเลี้ยงสัตว์น้ำเศรษฐกิจและสัตว์น้ำสวยงาม",
+    "predicate": "providesBackgroundFor",
+    "object": "การเลี้ยงกุ้งก้ามแดงเพื่อความสวยงาม ตอนที่ 3",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.6,
+    "reason_th": "คอร์สสัตว์น้ำสวยงามตรงกับเอกสารการเลี้ยงกุ้งก้ามแดงเพื่อความสวยงาม",
+    "source_doc_url": "https://sis.ku.ac.th/ornamental-and-economical-aquatic-animal-aquaculture/",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/354223"
+  },
+  {
+    "subject": "วิทยาการข้อมูลทางชีววิทยาและชีวสารสนเทศ",
+    "predicate": "providesBackgroundFor",
+    "object": "genetic_diversity",
+    "topic_id": "5",
+    "origin": "ai_suggested",
+    "confidence": 0.5,
+    "reason_th": "การวิเคราะห์ความหลากหลายทางพันธุกรรมด้วยเครื่องหมายโมเลกุลอาศัยวิทยาการข้อมูลชีววิทยา",
+    "source_doc_url": "https://sis.ku.ac.th/biological-data-science-and-bioinformatics/"
+  },
+  {
+    "subject": "Agroforestry",
+    "predicate": "isKeywordOf",
+    "object": "Agroforestry & Biodiversity",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.9,
+    "reason_th": "เอกสารต้นแบบระบุ Agroforestry เป็น Anchor Concept ของหัวข้อนี้"
+  },
+  {
+    "subject": "Agroforestry",
+    "predicate": "integratesSpecies",
+    "object": "para_rubber",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.85,
+    "reason_th": "งานวิจัยหลายชิ้นศึกษาวนเกษตรในสวนยางพาราเทียบกับยางเชิงเดี่ยว"
+  },
+  {
+    "subject": "Agroforestry",
+    "predicate": "integratesSpecies",
+    "object": "arabica_coffee",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.85,
+    "reason_th": "มีงานปลูกกาแฟอาราบิกาใต้ร่มไม้ในระบบวนเกษตรบนพื้นที่สูง"
+  },
+  {
+    "subject": "Agroforestry",
+    "predicate": "addresses",
+    "object": "soil_erosion",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "งานวิจัยเปรียบเทียบพบวนเกษตรยางพาราช่วยลดการชะล้างพังทลายของดินเมื่อเทียบกับยางเชิงเดี่ยว"
+  },
+  {
+    "subject": "Agroforestry",
+    "predicate": "addresses",
+    "object": "food_insecurity",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "งานวิจัยเชื่อมความหลากหลายพืชในวนเกษตรกับความมั่นคงทางอาหารของชุมชน"
+  },
+  {
+    "subject": "Agroforestry",
+    "predicate": "relatedTo",
+    "object": "biodiversity",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.7,
+    "reason_th": "วนเกษตรยางพาราและพื้นที่วนเกษตรดอยตุงให้ประโยชน์ด้านความหลากหลายของสัตว์โดยไม่ลดผลผลิต"
+  },
+  {
+    "subject": "การใช้ที่ดินวนเกษตร",
+    "predicate": "providesBackgroundFor",
+    "object": "Agroforestry",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "คอร์สการใช้ที่ดินวนเกษตรตรงกับงานวิจัยรูปแบบและการจัดการวนเกษตรในที่ดินชุมชน",
+    "source_doc_url": "https://sis.ku.ac.th/agroforestry-land-use/"
+  },
+  {
+    "subject": "para_rubber",
+    "predicate": "studiedBy",
+    "object": "Economic outcomes of rubber-based agroforestry systems: a systematic review and narrative synthesis",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ทบทวนอย่างเป็นระบบผลทางเศรษฐกิจของวนเกษตรยางพารา",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/429724"
+  },
+  {
+    "subject": "arabica_coffee",
+    "predicate": "studiedBy",
+    "object": "การปรับตัวให้เหมาะสมกับสภาพแวดล้อมใหม่ของชันโรงรุ่งอรุณ Tetragonula laeviceps Smith ณ พื้นที่วนเกษตรปลูกกาแฟอาราบิก้าอินทรีย์ บ้านขุนลาว อำเภอเวียงป่าเป้า จังหวัดเชียงราย",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.7,
+    "reason_th": "ศึกษาการปรับตัวของชันโรงในวนเกษตรกาแฟอาราบิกาอินทรีย์บนพื้นที่สูง",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/20016599"
+  },
+  {
+    "subject": "ธุรกิจเกษตรของพืชบนพื้นที่สูงตามวิถีดอยปุย",
+    "predicate": "providesBackgroundFor",
+    "object": "arabica_coffee",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.55,
+    "reason_th": "คอร์สธุรกิจพืชพื้นที่สูงวิถีดอยปุยสอดคล้องกับงานกาแฟอาราบิกาในวนเกษตรพื้นที่สูง",
+    "source_doc_url": "https://sis.ku.ac.th/agri-business-in-highland-crops-by-doi-pui-way-of-life/"
+  },
+  {
+    "subject": "biodiversity",
+    "predicate": "studiedBy",
+    "object": "โครงการพัฒนาระบบและเครือข่ายฐานข้อมูลความหลากหลายทางชีวภาพระดับประเทศ ระยะที่ 1 ปี 2553",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "โครงการ KU Forest พัฒนาเครือข่ายฐานข้อมูลความหลากหลายทางชีวภาพระดับประเทศ",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=1130308000&BudgetYear=2010"
+  },
+  {
+    "subject": "biodiversity",
+    "predicate": "studiedBy",
+    "object": "ความหลากหลายทางชีวภาพและการประเมินมูลค่าการใช้ประโยชน์ในพื้นที่ป่าเต็งรัง มหาวิทยาลัยแม่โจ้-แพร่ เฉลิมพระเกียรติ จังหวัดแพร่",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "ประเมินความหลากหลายและประโยชน์ของป่าเต็งรังที่ มหาวิทยาลัยแม่โจ้ แพร่",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/407857"
+  },
+  {
+    "subject": "genetic_diversity",
+    "predicate": "relatedTo",
+    "object": "biodiversity",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.6,
+    "reason_th": "ความหลากหลายทางพันธุกรรมของไม้หลุมพอเป็นระดับหนึ่งของความหลากหลายทางชีวภาพที่ใช้จัดการทรัพยากร"
+  },
+  {
+    "subject": "forest_restoration",
+    "predicate": "studiedBy",
+    "object": "การสืบต่อพันธุ์ของพรรณไม้ในป่าดิบเขาระดับต่ำภายหลังการฟื้นฟูบริเวณอุทยานแห่งชาติดอยสุเทพ-ปุย จังหวัดเชียงใหม่",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ศึกษาการทดแทนของป่าดิบเขาหลังการฟื้นฟูในดอยสุเทพ-ปุย",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/420336"
+  },
+  {
+    "subject": "forest_restoration",
+    "predicate": "studiedBy",
+    "object": "การพัฒนาความรู้ด้านนิเวศวิทยากล้าไม้ต้นเพื่อการฟื้นฟูป่าเขตร้อนและการกักเก็บคาร์บอนภายใต้การเปลี่ยนแปลงสภาพภูมิอากาศของประเทศไทย : กรณีศึกษาจากแปลงถาวรขนาดใหญ่เพื่อศึกษาพลวัตของสังคมพืชเขตรักษาพันธุ์สัตว์ป่าห้วยขาแข็ง จังหวัดอุทัยธานี",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "โครงการ KU Forest ศึกษานิเวศวิทยากล้าไม้เพื่อฟื้นฟูป่าเขตร้อนและกักเก็บคาร์บอน",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=1930669000&BudgetYear=2019"
+  },
+  {
+    "subject": "forest_restoration",
+    "predicate": "mitigatesCarbonVia",
+    "object": "carbon_stock",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "การฟื้นฟูป่าและการปลูกป่าในพื้นที่เหมืองเพิ่มการกักเก็บคาร์บอน"
+  },
+  {
+    "subject": "forest_restoration",
+    "predicate": "relatedTo",
+    "object": "biodiversity",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.65,
+    "reason_th": "งานวิจัยวัดผลการฟื้นฟูป่าต่อโครงสร้างสังคมพืชและความหลากหลายของชนิดไม้"
+  },
+  {
+    "subject": "aquatic_species_mangrove",
+    "predicate": "studiedBy",
+    "object": "การศึกษาพลวัตของสังคมพืชป่าชายเลนเพื่อการจัดการอย่างยั่งยืนในพื้นที่ชายฝั่งระนอง",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "โครงการ KU Forest ศึกษาพลวัตสังคมพืชป่าชายเลนระนองเพื่อการจัดการยั่งยืน",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=5510265000&BudgetYear=2012"
+  },
+  {
+    "subject": "aquatic_species_mangrove",
+    "predicate": "studiedBy",
+    "object": "ความหลากชนิดและมวลชีวภาพของพรรณไม้ต้นในป่าชายเลนบริเวณคลองกำพวน จังหวัดระนอง",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ศึกษาความหลากชนิดและมวลชีวภาพพรรณไม้ป่าชายเลนคลองกำพวน",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/20022699"
+  },
+  {
+    "subject": "aquatic_species_mangrove",
+    "predicate": "studiedBy",
+    "object": "Artificial macropores enhance mangrove establishment in hypersaline environments",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "ทดลองช่องว่างเทียมในดินช่วยการตั้งตัวของป่าชายเลนในพื้นที่เค็มจัด",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/447301"
+  },
+  {
+    "subject": "aquatic_species_mangrove",
+    "predicate": "studiedBy",
+    "object": "Faculty_ประมง",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.55,
+    "reason_th": "เอกสารต้นแบบระบุบทบาทคณะประมงด้านป่าชายเลนและสัตว์น้ำในวนเกษตร"
+  },
+  {
+    "subject": "tree_species",
+    "predicate": "studiedBy",
+    "object": "Faculty_วนศาสตร์",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.55,
+    "reason_th": "เอกสารต้นแบบระบุบทบาทคณะวนศาสตร์ด้านโครงสร้างป่าและชนิดไม้ยืนต้น"
+  },
+  {
+    "subject": "crop_species",
+    "predicate": "studiedBy",
+    "object": "Faculty_เกษตร",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.55,
+    "reason_th": "เอกสารต้นแบบระบุบทบาทคณะเกษตรด้านพืชและปศุสัตว์ใต้ร่มไม้"
+  },
+  {
+    "subject": "tree_species",
+    "predicate": "studiedBy",
+    "object": "การเลือกไม้ยืนต้นที่เหมาะสมในระบบวนเกษตรโดยการประยุกต์ใช้เทคนิค AHP",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "คัดเลือกชนิดไม้ที่เหมาะกับระบบวนเกษตรด้วย AHP",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/370799"
+  },
+  {
+    "subject": "tree_species",
+    "predicate": "studiedBy",
+    "object": "Diversity and spatial distribution of the Fagaceae tree species in the Doi Suthep-Pui National Park, Chiang Mai province",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.7,
+    "reason_th": "ศึกษาความหลากหลายและการกระจายของไม้วงศ์ก่อในดอยสุเทพ-ปุย",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/386630"
+  },
+  {
+    "subject": "crop_species",
+    "predicate": "studiedBy",
+    "object": "Seasonal and management influences on yield of Melientha suavis Pierre in different alley agroforestry systems",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "ศึกษาผลผลิตผักหวานป่าในระบบวนเกษตรแบบแถว",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/439723"
+  },
+  {
+    "subject": "community_forest",
+    "predicate": "studiedBy",
+    "object": "การพัฒนาต้นแบบชุมชนไม้มีค่าเพื่อการขยายผลในประเทศไทย",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "พัฒนาต้นแบบป่าชุมชนไม้มีค่าเพื่อขยายผลในประเทศไทย",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/414023"
+  },
+  {
+    "subject": "community_forest",
+    "predicate": "studiedBy",
+    "object": "กลยุทธ์ทางเลือกในการจัดการทรัพยากรป่าไม้บนพื้นที่สูงโดยการมีส่วนร่วม: กรณีศึกษาบ้านแม่สายนาเลา ตำบลโหล่งขอด อำเภอพร้าว จังหวัดเชียงใหม่",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "กลยุทธ์ทางเลือกการจัดการทรัพยากรป่าแบบมีส่วนร่วมบนพื้นที่สูง",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/418202"
+  },
+  {
+    "subject": "การพัฒนาชุมชนเพื่อความยั่งยืน",
+    "predicate": "providesBackgroundFor",
+    "object": "community_forest",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.5,
+    "reason_th": "คอร์สการพัฒนาชุมชนเพื่อความยั่งยืนเป็นพื้นฐานของการจัดการป่าชุมชนแบบมีส่วนร่วม",
+    "source_doc_url": "https://sis.ku.ac.th/community-development-for-sustainability/"
+  },
+  {
+    "subject": "ธุรกิจสวนไม้เศรษฐกิจ",
+    "predicate": "providesBackgroundFor",
+    "object": "economic_trees",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.7,
+    "reason_th": "ชื่อคอร์สธุรกิจสวนไม้เศรษฐกิจตรงกับงานฐานข้อมูลไม้เศรษฐกิจเพื่อเกษตรกรผู้ปลูกไม้",
+    "source_doc_url": "https://sis.ku.ac.th/economic-tree/"
+  },
+  {
+    "subject": "economic_trees",
+    "predicate": "studiedBy",
+    "object": "ระบบฐานข้อมูลไม้เศรษฐกิจเพื่อส่งเสริมเกษตรกรผู้ปลูกสวนป่าแบบครบวงจร",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "พัฒนาระบบฐานข้อมูลไม้เศรษฐกิจเพื่อส่งเสริมเกษตรกรผู้ปลูกไม้",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/414112"
+  },
+  {
+    "subject": "economic_trees",
+    "predicate": "studiedBy",
+    "object": "การผลิต การตลาด และการวิเคราะห์ทางการเงินจากการปลูกสวนไม้กฤษณา จังหวัดปราจีนบุรี",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "วิเคราะห์การผลิต การตลาด และการเงินของสวนป่าไม้กฤษณา",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/20016058"
+  },
+  {
+    "subject": "economic_trees",
+    "predicate": "studiedBy",
+    "object": "การวิเคราะห์ความคุ้มค่าทางเศรษฐศาสตร์ของโครงการธนาคารต้นไม้บ้านถ้ำเสือ จังหวัดเพชรบุรี",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "วิเคราะห์มูลค่าทางเศรษฐกิจของโครงการธนาคารต้นไม้",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/406692"
+  },
+  {
+    "subject": "พื้นฐานความรู้การทำฟาร์มป่าไม้",
+    "predicate": "providesBackgroundFor",
+    "object": "economic_trees",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.55,
+    "reason_th": "คอร์สพื้นฐานการทำฟาร์มป่าไม้เป็นพื้นฐานของการปลูกไม้เศรษฐกิจและสวนป่า",
+    "source_doc_url": "https://kumooc.ku.th/courses/73/info"
+  },
+  {
+    "subject": "ธุรกิจการป่าไม้",
+    "predicate": "providesBackgroundFor",
+    "object": "Direct use value of Lat Krathing forest plantation, Thailand",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.55,
+    "reason_th": "คอร์สธุรกิจการป่าไม้ตรงกับงานประเมินมูลค่าการใช้ประโยชน์ทางตรงของสวนป่า",
+    "source_doc_url": "https://sis.ku.ac.th/forest-based-enterprises/",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/408317"
+  },
+  {
+    "subject": "economic_trees",
+    "predicate": "isFeedstockOf",
+    "object": "wood_products",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.6,
+    "reason_th": "ไม้จากสวนป่าและพื้นที่สูงถูกแปรรูปเป็นไม้บางสำหรับบรรจุภัณฑ์และไม้ส่งออก"
+  },
+  {
+    "subject": "เทคโนโลยีผลิตภัณฑ์ไม้เพื่อผู้ประกอบการรุ่นใหม่",
+    "predicate": "providesBackgroundFor",
+    "object": "wood_products",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.7,
+    "reason_th": "คอร์สเทคโนโลยีผลิตภัณฑ์ไม้เป็นพื้นฐานของงานแปรรูปไม้และกาวไม้",
+    "source_doc_url": "https://sis.ku.ac.th/wood-product-technology-for-modern-entrepreneurs/"
+  },
+  {
+    "subject": "wood_products",
+    "predicate": "studiedBy",
+    "object": "Development of Cellulose-Based Wood Adhesives with Good Bonding Performance and Application Potential",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.7,
+    "reason_th": "พัฒนากาวไม้ฐานเซลลูโลสสำหรับไม้อัด",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/447053"
+  },
+  {
+    "subject": "การจัดการท่องเที่ยวสัตว์ป่าเพื่อส่งเสริมการท่องเที่ยวคุณภาพสูงและความยั่งยืนของพื้นที่คุ้มครอง",
+    "predicate": "providesBackgroundFor",
+    "object": "ecotourism",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.7,
+    "reason_th": "คอร์สการจัดการท่องเที่ยวสัตว์ป่าในพื้นที่คุ้มครองตรงกับงานประเมินขีดความสามารถรองรับของอุทยาน",
+    "source_doc_url": "https://sis.ku.ac.th/wildlife-tourism-management-and-sustainability/"
+  },
+  {
+    "subject": "ecotourism",
+    "predicate": "studiedBy",
+    "object": "ขีดความสามารถในการรองรับนักท่องเที่ยวด้านสิ่งอำนวยความสะดวก ในอุทยานแห่งชาติภูหินร่องกล้า จังหวัดพิษณุโลก",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ประเมินขีดความสามารถรองรับด้านสิ่งอำนวยความสะดวกของอุทยานแห่งชาติภูหินร่องกล้า",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/20018089"
+  },
+  {
+    "subject": "ecotourism",
+    "predicate": "studiedBy",
+    "object": "ความหลากหลายของพืชและศักยภาพของทรัพยากรการท่องเที่ยวในป่าชายเลนเทศบาลตำบลคลองพน ต.คลองพน อ.คลองท่อมจ.กระบี่",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "โครงการ KU Forest ศึกษาศักยภาพการท่องเที่ยวในป่าชายเลนคลองพน",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=5110545000&BudgetYear=2008"
+  },
+  {
+    "subject": "การจัดการท่องเที่ยวสัตว์ป่าเพื่อส่งเสริมการท่องเที่ยวคุณภาพสูงและความยั่งยืนของพื้นที่คุ้มครอง",
+    "predicate": "providesBackgroundFor",
+    "object": "พฤติกรรมและถิ่นที่อาศัยที่เหมาะสมของกวางผาในพื้นที่เขตรักษาพันธุ์สัตว์ป่าเชียงดาว จังหวัดเชียงใหม่",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.5,
+    "reason_th": "การศึกษาพฤติกรรมและถิ่นอาศัยของกวางผาในเขตรักษาพันธุ์สัตว์ป่าเป็นข้อมูลพื้นฐานของการท่องเที่ยวสัตว์ป่า",
+    "source_doc_url": "https://sis.ku.ac.th/wildlife-tourism-management-and-sustainability/",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/20018098"
+  },
+  {
+    "subject": "นักวิเคราะห์ข้อมูลด้วยปัญญาประดิษฐ์สำหรับนวัตกรรมอาหารและอุตสาหกรรมเกษตร",
+    "predicate": "providesBackgroundFor",
+    "object": "machine_learning",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.6,
+    "reason_th": "คอร์สนักวิเคราะห์ข้อมูลด้วย AI เป็นพื้นฐานของงานวิจัยที่ใช้โครงข่ายประสาทเทียมและการเรียนรู้ของเครื่อง",
+    "source_doc_url": "https://sis.ku.ac.th/ai-driven-data-analysts-for-food/"
+  },
+  {
+    "subject": "การพยากรณ์ปริมาณน้ำไหลเข้าอ่างเก็บน้ำกระเสียวด้วยโครงข่ายประสาทเทียมแบบวนกลับ",
+    "predicate": "appliesConcept",
+    "object": "machine_learning",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ทำนายปริมาณน้ำไหลเข้าอ่างกระเสียวด้วย RNN",
+    "source_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/443645"
+  },
+  {
+    "subject": "การคาดคะเนการเปลี่ยนแปลงการใช้ที่ดินด้วยแบบจำลองโครงข่ายประสาทเทียมของพื้นที่ลุ่มน้ำสาขาย่อยแม่สอย จังหวัดลำปาง",
+    "predicate": "appliesConcept",
+    "object": "machine_learning",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ทำนายการเปลี่ยนแปลงการใช้ที่ดินลุ่มน้ำแม่สอยด้วยโครงข่ายประสาทเทียม",
+    "source_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/20018707"
+  },
+  {
+    "subject": "Biomass",
+    "predicate": "isFeedstockOf",
+    "object": "gasification",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.7,
+    "reason_th": "งานวิจัยแก๊สซิฟิเคชันใช้ชีวมวลเป็นวัตถุดิบในเตาแก๊สซิฟายเออร์"
+  },
+  {
+    "subject": "gasification",
+    "predicate": "studiedBy",
+    "object": "Machine learning and thermodynamic modeling for optimizing hydrogen production via algae-biomass co-gasification",
+    "topic_id": "1",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "ใช้แก๊สซิฟิเคชันร่วมของชีวมวลสาหร่ายผลิตไฮโดรเจน",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/446560"
+  },
+  {
+    "subject": "mp_removal",
+    "predicate": "studiedBy",
+    "object": "Removal of Microplastics from Industrial Wastewater Using Microalgae",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "ใช้สาหร่ายขนาดเล็กกำจัดไมโครพลาสติกจากน้ำเสียอุตสาหกรรม ซึ่งเชื่อมกับเรื่องชีวมวลสาหร่ายในหัวข้อชีวมวล",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/446091"
+  },
+  {
+    "subject": "seafood_safety",
+    "predicate": "studiedBy",
+    "object": "Microplastic contamination in different tissues of cultured giant freshwater prawns for human consumption",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ตรวจไมโครพลาสติกในเนื้อเยื่อแต่ละส่วนของกุ้งก้ามกรามเลี้ยงที่ใช้บริโภค",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/448014"
+  },
+  {
+    "subject": "contaminant_vector",
+    "predicate": "affects",
+    "object": "seafood_safety",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.55,
+    "reason_th": "บทความทบทวนชี้การถ่ายทอดไมโครพลาสติกตามห่วงโซ่อาหารและความเป็นพิษต่อสัตว์และคน ส่วนงานอื่นพบการดูดซับโลหะหนักบนไมโครพลาสติก"
+  },
+  {
+    "subject": "seafood_safety",
+    "predicate": "assessedWith",
+    "object": "ftir_spectroscopy",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "งานตรวจไมโครพลาสติกในหอยและกุ้งใช้ FTIR ระบุชนิดพอลิเมอร์"
+  },
+  {
+    "subject": "plastic_waste_management",
+    "predicate": "studiedBy",
+    "object": "Biodegradation of Plastic Wastes under Semi-aerobic Condition with Active Methane Oxidation Activities and Nutrient Supply",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.7,
+    "reason_th": "ศึกษาการย่อยสลายขยะพลาสติกในหลุมฝังกลบแบบกึ่งใช้อากาศ",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/440831"
+  },
+  {
+    "subject": "aquatic_insects",
+    "predicate": "isIndicatorOf",
+    "object": "water_quality",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.7,
+    "reason_th": "งานวิจัยวัดแมลงน้ำคู่กับตัวแปรคุณภาพน้ำและไมโครพลาสติกในลำธารและฝายมีชีวิต"
+  },
+  {
+    "subject": "aquatic_insects",
+    "predicate": "studiedBy",
+    "object": "Using aquatic insects as indicators of microplastic pollution in rice field ecosystems",
+    "topic_id": "3",
+    "origin": "ai_suggested",
+    "confidence": 0.8,
+    "reason_th": "ใช้แมลงน้ำเป็นตัวบ่งชี้มลพิษไมโครพลาสติกในนาข้าว",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/440567"
+  },
+  {
+    "subject": "remote_sensing",
+    "predicate": "studiedBy",
+    "object": "ระบบคาดการณ์สถานการณ์ภัยแล้งด้านการเกษตรระดับแปลงด้วยการรับรู้ระยะไกลและเทคโนโลยีการเรียนรู้ของเครื่อง",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "ระบบคาดการณ์ภัยแล้งระดับแปลงใช้การรับรู้ระยะไกลร่วมกับการเรียนรู้ของเครื่อง",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=2130324000&BudgetYear=2021"
+  },
+  {
+    "subject": "climate_change",
+    "predicate": "studiedBy",
+    "object": "การพัฒนาความรู้ด้านนิเวศวิทยากล้าไม้ต้นเพื่อการฟื้นฟูป่าเขตร้อนและการกักเก็บคาร์บอนภายใต้การเปลี่ยนแปลงสภาพภูมิอากาศของประเทศไทย : กรณีศึกษาจากแปลงถาวรขนาดใหญ่เพื่อศึกษาพลวัตของสังคมพืชเขตรักษาพันธุ์สัตว์ป่าห้วยขาแข็ง จังหวัดอุทัยธานี",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "โครงการศึกษาการฟื้นฟูป่าและการกักเก็บคาร์บอนภายใต้การเปลี่ยนแปลงสภาพภูมิอากาศ",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=1930669000&BudgetYear=2019"
+  },
+  {
+    "subject": "carbon_stock",
+    "predicate": "studiedBy",
+    "object": "การพัฒนาความรู้ด้านนิเวศวิทยากล้าไม้ต้นเพื่อการฟื้นฟูป่าเขตร้อนและการกักเก็บคาร์บอนภายใต้การเปลี่ยนแปลงสภาพภูมิอากาศของประเทศไทย : กรณีศึกษาจากแปลงถาวรขนาดใหญ่เพื่อศึกษาพลวัตของสังคมพืชเขตรักษาพันธุ์สัตว์ป่าห้วยขาแข็ง จังหวัดอุทัยธานี",
+    "topic_id": "4",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "โครงการ KU Forest ศึกษากล้าไม้เพื่อฟื้นฟูป่าเขตร้อนและเพิ่มการกักเก็บคาร์บอน",
+    "target_doc_url": "https://research.ku.ac.th/forest/Project.aspx?ProjectNumber=1930669000&BudgetYear=2019"
+  },
+  {
+    "subject": "economic_trees",
+    "predicate": "studiedBy",
+    "object": "การพัฒนาต้นแบบชุมชนไม้มีค่าเพื่อการขยายผลในประเทศไทย",
+    "topic_id": "6",
+    "origin": "ai_suggested",
+    "confidence": 0.75,
+    "reason_th": "พัฒนาต้นแบบชุมชนปลูกไม้มีค่าในระบบวนเกษตรเพื่อขยายผล",
+    "target_doc_url": "https://kukr.lib.ku.ac.th/KUKR/Detail/info/414023"
+  }
+]
