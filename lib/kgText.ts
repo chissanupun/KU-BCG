@@ -1,4 +1,5 @@
 import courseTitles from "./courseTitles.json";
+import topicNames from "./topicNames.json";
 
 /** Plain-Thai wording for the knowledge graph: the backend sends relation names and slugs meant for developers. */
 
@@ -57,10 +58,12 @@ const LABEL_TH: Record<string, string> = {
 const PILLAR_TH: Record<string, string> = { green: "เศรษฐกิจสีเขียว", bio: "เศรษฐกิจชีวภาพ", circular: "เศรษฐกิจหมุนเวียน" };
 
 const COURSE_TITLES: Record<string, string> = courseTitles;
+const TOPIC_NAMES: Record<string, string> = topicNames;
 
 export function humanLabel(label: string): string {
   if (!label) return "";
   if (LABEL_TH[label]) return LABEL_TH[label];
+  if (TOPIC_NAMES[label]) return TOPIC_NAMES[label];
   const faculty = label.match(/^Faculty_(.+)$/);
   if (faculty) return `คณะ${faculty[1]}`;
   const pillar = label.match(/^bcg_(.+)$/i);

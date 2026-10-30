@@ -84,7 +84,7 @@ function LearnPageInner() {
       progress={progress}
       activeTab={tab}
       header={result && <ResultTabs title={result.title || query || roadmap?.title || ""} active={tab} />}
-      body={result && tab === "overview" ? <OverviewTab result={result} /> : result && tab === "map" ? <MapTab key={historyId ?? query} result={result} /> : undefined}
+      body={result && tab === "overview" ? <OverviewTab result={result} /> : result && tab === "map" ? <MapTab key={historyId ?? query} graph={result.knowledge_graph} /> : undefined}
     />
   );
 }
