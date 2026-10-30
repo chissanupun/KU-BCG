@@ -1,7 +1,11 @@
-import type { GraphRagResult } from "./types";
+import { shownText } from "./aiTranslation";
+import type { AiTranslation, GraphRagResult, LearningModule } from "./types";
 
 export type RoadmapCard = {
   title: string;
+  /** Set when `title` is an AI Thai translation: the English original, and the badge details. */
+  titleOriginal?: string;
+  aiTranslation?: AiTranslation;
   hours: string;
   description: string;
   /** Every card opens the shared topic detail page; the source link lives in there. */
@@ -93,6 +97,11 @@ function formatHours(raw: string | undefined): string {
   return /[a-zA-Zก-๙]/.test(value) ? value : `${value} ${HOURS_UNIT}`;
 }
 
+function translatedTitle(mod: LearningModule): Pick<RoadmapCard, "title" | "titleOriginal" | "aiTranslation"> {
+  const { text, original } = shownText(mod.title, mod.title_ai_th);
+  return original ? { title: text, titleOriginal: original, aiTranslation: mod.ai_translation } : { title: text };
+}
+
 /**
  * Projects a GraphRAG search result onto the same model the curated roadmap uses.
  *
@@ -121,7 +130,7 @@ export function fromGraphRag(result: GraphRagResult, query?: string, historyId?:
       description: phase.intro ?? "",
       phaseIndex,
       cards: (phase.modules ?? []).map((mod, cardIndex) => ({
-        title: mod.title,
+        ...translatedTitle(mod),
         hours: formatHours(mod.hours),
         description: mod.desc ?? "",
         cardIndex,

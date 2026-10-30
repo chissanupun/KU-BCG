@@ -4,6 +4,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import type { RoadmapCard } from "@/lib/roadmap";
 import { FONT, fadeIn } from "./tokens";
+import AiBadge from "../AiBadge";
 import CompleteToggle from "./CompleteToggle";
 
 const hoverOn = (el: HTMLElement) => {
@@ -56,6 +57,16 @@ export default function BubbleCard({
       >
         {card.title}
       </p>
+      {card.titleOriginal && (
+        <>
+          <p lang="en" style={{ fontFamily: FONT, fontSize: 12, lineHeight: "18px", color: "var(--ku-text-muted)", marginTop: 2, paddingRight: onToggle ? 28 : 0 }}>
+            {card.titleOriginal}
+          </p>
+          <div style={{ marginTop: 4 }}>
+            <AiBadge translation={card.aiTranslation} />
+          </div>
+        </>
+      )}
       {card.hours && (
         <p style={{ fontFamily: FONT, fontSize: 13, lineHeight: "20px", color: "var(--ku-text-muted)", marginTop: 6 }}>
           {card.hours}

@@ -3,6 +3,7 @@
 import { useState, type ReactNode } from "react";
 import { motion } from "framer-motion";
 import type { TopicDetail } from "@/lib/topic";
+import AiBadge from "../AiBadge";
 import AppShell from "../AppShell";
 import { PRIMARY, FONT, fadeIn } from "../roadmap/tokens";
 import CompleteToggle from "../roadmap/CompleteToggle";
@@ -152,6 +153,17 @@ export default function TopicView({
                 </motion.p>
               </div>
 
+              {(detail.titleOriginal || detail.aiTranslated) && (
+                <motion.div {...fadeIn(0.16)} style={{ marginBottom: 12, maxWidth: 448 }}>
+                  {detail.titleOriginal && (
+                    <p lang="en" style={{ fontFamily: FONT, fontSize: 12, lineHeight: "18px", color: "var(--ku-text-muted)", marginBottom: 4 }}>
+                      {detail.titleOriginal}
+                    </p>
+                  )}
+                  {detail.aiTranslated && <AiBadge translation={detail.aiTranslation} />}
+                </motion.div>
+              )}
+
               {detail.summary && (
                 <motion.p
                   {...fadeIn(0.18)}
@@ -179,6 +191,16 @@ export default function TopicView({
                       {paragraph}
                     </p>
                   ))}
+                  {detail.bodyOriginal && (
+                    <details style={{ marginTop: 10 }}>
+                      <summary style={{ cursor: "pointer", fontFamily: FONT, fontSize: 13, lineHeight: "21px", color: "var(--ku-text-muted)" }}>
+                        ดูต้นฉบับภาษาอังกฤษ
+                      </summary>
+                      <p lang="en" style={{ fontFamily: FONT, fontSize: 13, lineHeight: "21px", color: "var(--ku-text-muted)", marginTop: 6 }}>
+                        {detail.bodyOriginal}
+                      </p>
+                    </details>
+                  )}
                   {detail.bodyFull && (
                     <button
                       type="button"

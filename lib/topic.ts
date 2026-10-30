@@ -1,4 +1,5 @@
-import type { GraphRagResult } from "./types";
+import { shownKeywords, shownText } from "./aiTranslation";
+import type { AiTranslation, GraphRagResult } from "./types";
 import { condenseAbstract, projectFacts, thaiGist } from "./summarize";
 
 export type TopicMapNode = {
@@ -32,6 +33,13 @@ export type TopicDetail = {
   /** Pill left of the section title. */
   sectionLabel: string;
   title: string;
+  /** Set when `title`, `body` or `tags` come from an AI Thai translation: the English title, if translated. */
+  titleOriginal?: string;
+  /** The English abstract, kept behind a fold when `body` is its AI translation. */
+  bodyOriginal?: string;
+  /** Present exactly when something on this page is AI-translated — drives the badge. */
+  aiTranslation?: AiTranslation;
+  aiTranslated?: boolean;
   summary: string;
   body: string[];
   /** The untouched source prose, when `body` is a shortened form of it. */
@@ -220,14 +228,19 @@ export function topicFromGraphRag(
   // What survives is often several hundred words of English, which is the entire
   // page. `body` therefore holds the shortened form and `bodyFull` the original,
   // so the reader chooses when to see all of it.
-  const abstract = mod.abstract?.trim() ?? "";
-  const condensed = condenseAbstract(abstract, mod.keywords ?? []);
+  const abstractEn = mod.abstract?.trim() ?? "";
+  const translatedAbstract = shownText(abstractEn, mod.abstract_ai_th);
+  const title = shownText(mod.title, mod.title_ai_th);
+  const keywords = shownKeywords(mod.keywords ?? [], mod.keywords_ai_th);
+  // An AI abstract is shown whole: the English cue-based shortening below cannot read Thai prose.
+  const abstract = translatedAbstract.original ? translatedAbstract.text : abstractEn;
+  const condensed = translatedAbstract.original ? [] : condenseAbstract(abstract, mod.keywords ?? []);
   // KU Forest documents never have an abstract, so their body is the Thai project
   // detail instead of an empty block.
   const body =
     condensed.length > 0 ? condensed : abstract ? [abstract] : projectFacts(mod);
   const bodyFull =
-    abstract && condensed.join(" ").length < abstract.length - 40 ? [abstract] : undefined;
+    !translatedAbstract.original && abstract && condensed.join(" ").length < abstract.length - 40 ? [abstract] : undefined;
 
   const attribution = [authors.join(", "), mod.year].filter(Boolean).join(" · ");
   const research = attribution
@@ -285,9 +298,13 @@ export function topicFromGraphRag(
     hoursCaption: phase.intro ?? "",
     // GraphRagResult carries no progress signal — left undefined rather than invented.
     progress: undefined,
-    tags: (mod.keywords ?? []).slice(0, 4).map((label) => ({ label })),
+    tags: keywords.tags.slice(0, 4).map((label) => ({ label })),
     sectionLabel: SECTION_LABEL,
-    title: mod.title,
+    title: title.text,
+    titleOriginal: title.original,
+    bodyOriginal: translatedAbstract.original,
+    aiTranslated: Boolean(title.original || translatedAbstract.original || keywords.translated),
+    aiTranslation: mod.ai_translation,
     // The card's `desc` is a truncation of whichever field already appears below —
     // the abstract as body, or the keywords as tags — so repeating it here would
     // print the same text twice. The Thai gist goes here instead: it is the one

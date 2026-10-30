@@ -1,12 +1,17 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { shownText } from "@/lib/aiTranslation";
 import { SOURCE_LABELS, safeHref } from "@/lib/resultView";
 import type { EvidenceItem } from "@/lib/types";
+import AiBadge from "../components/AiBadge";
 import { FONT, fadeIn } from "../components/roadmap/tokens";
 
 export default function EvidenceCard({ item, index }: { item: EvidenceItem; index: number }) {
   const href = safeHref(item.url);
+  const title = shownText(item.title, item.title_ai_th);
+  const snippet = item.snippet ? shownText(item.snippet, item.snippet_ai_th) : undefined;
+  const translated = Boolean(title.original || snippet?.original);
   return (
     <motion.article
       {...fadeIn(0.16 + index * 0.02)}
@@ -33,11 +38,19 @@ export default function EvidenceCard({ item, index }: { item: EvidenceItem; inde
           ชุดวิชาระยะสั้น
         </span>
       )}
-      <p style={{ fontFamily: FONT, fontSize: 14, fontWeight: 600, color: "var(--ku-text)", marginTop: 8 }}>{item.title}</p>
-      {item.snippet && (
+      <p style={{ fontFamily: FONT, fontSize: 14, fontWeight: 600, color: "var(--ku-text)", marginTop: 8 }}>{title.text}</p>
+      {title.original && (
+        <p lang="en" style={{ fontFamily: FONT, fontSize: 12, lineHeight: "18px", color: "var(--ku-text-muted)", marginTop: 2 }}>{title.original}</p>
+      )}
+      {snippet && (
         <p style={{ fontFamily: FONT, fontSize: 13, lineHeight: "20px", color: "var(--ku-text-muted)", marginTop: 6 }}>
-          {item.snippet}
+          {snippet.text}
         </p>
+      )}
+      {translated && (
+        <div style={{ marginTop: 6 }}>
+          <AiBadge translation={item.ai_translation} />
+        </div>
       )}
       {href && (
         <a
