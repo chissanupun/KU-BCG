@@ -1,11 +1,11 @@
 "use client";
 
-import { Suspense, useMemo } from "react";
+import { Suspense, useEffect, useMemo } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { googleLoginUrl } from "@/lib/api";
 import { useSearchResult } from "@/lib/useSearchResult";
 import { useLearningProgress } from "@/lib/useLearningProgress";
-import { DEFAULT_TOPICS, DEFAULT_TOPIC_SLUG, topicFromGraphRag } from "@/lib/topic";
+import { topicFromGraphRag } from "@/lib/topic";
 import TopicView from "../components/topic/TopicView";
 
 const PRIMARY = "#3b6347";
@@ -23,7 +23,6 @@ function TopicPageInner() {
   const historyId = rawHistoryId && /^\d+$/.test(rawHistoryId) ? Number(rawHistoryId) : undefined;
   const phaseIndex = toIndex(searchParams.get("p"));
   const cardIndex = toIndex(searchParams.get("c"));
-  const slug = searchParams.get("t")?.trim() || DEFAULT_TOPIC_SLUG;
 
   // Read-only page: it replays a stored result and never runs a search, so no
   // `query` and no URL rewrite.
@@ -46,9 +45,11 @@ function TopicPageInner() {
       }
     : undefined;
 
-  if (historyId === undefined) {
-    return <TopicView detail={DEFAULT_TOPICS[slug] ?? DEFAULT_TOPICS[DEFAULT_TOPIC_SLUG]} />;
-  }
+  // A topic is a card of a stored result; without `h` there is nothing to replay.
+  useEffect(() => {
+    if (historyId === undefined) router.replace("/");
+  }, [historyId, router]);
+  if (historyId === undefined) return null;
 
   if (loading) {
     return <TopicView notice={<span style={{ color: "var(--ku-text-muted)" }}>กำลังโหลด...</span>} />;

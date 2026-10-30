@@ -31,53 +31,6 @@ export type Roadmap = {
 
 const HOURS_UNIT = "ชั่วโมง";
 
-/** The curated HTML roadmap — previously hardcoded inside app/learn/page.tsx. */
-export const DEFAULT_ROADMAP: Roadmap = {
-  title: "HTML learning",
-  topic: "HTML learning",
-  estimatedHours: `~300–500 ${HOURS_UNIT}`,
-  description: "เวลาโดยประมาณทั้งหมด · ตั้งแต่ศูนย์จนถึงระดับมืออาชีพ",
-  progress: 82,
-  phases: [
-    {
-      title: "รากฐาน",
-      description: "ก่อนออกแบบ ต้องเข้าใจสื่อก่อน — เหมือนจิตรกรที่ต้องรู้จักผืนผ้าใบ",
-      cards: [
-        {
-          title: "ความหมายของ HTML",
-          hours: `10–15 ${HOURS_UNIT}`,
-          description: "โครงสร้างเว็บ, แท็กความหมาย, พื้นฐานการเข้าถึง",
-          href: "/topic?t=html-semantics",
-        },
-        {
-          title: "พื้นฐาน CSS",
-          hours: `10–15 ${HOURS_UNIT}`,
-          description: "บ็อกซ์โมเดล, ตัวเลือก, การต่อเนื่องและความจำเพาะ",
-          href: "/topic?t=css-basics",
-        },
-      ],
-    },
-    {
-      title: "หลักการออกแบบภาพ",
-      description: `ทฤษฎีการออกแบบที่มีงานวิจัยรองรับ — ไม่ใช่แค่ "ทำให้ดูสวย"`,
-      cards: [
-        {
-          title: "ทฤษฎีสี",
-          hours: `10–15 ${HOURS_UNIT}`,
-          description: "จิตวิทยาสี, ความกลมกลืนของสี",
-          href: "/topic?t=color-theory",
-        },
-        {
-          title: "การออกแบบตัวอักษร",
-          hours: `10–15 ${HOURS_UNIT}`,
-          description: "ขนาดตัวอักษร, ความอ่านง่าย, การจับคู่ฟอนต์",
-          href: "/topic?t=typography",
-        },
-      ],
-    },
-  ],
-};
-
 /**
  * Backend phase names arrive as "Phase: Foundation" — the badge already renders
  * the ordinal, so the prefix would read as "Phase 1 Phase: Foundation".
