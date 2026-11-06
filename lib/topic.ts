@@ -1,4 +1,4 @@
-import type { GraphRagResult } from "./types";
+import type { GraphRagResult, KnowledgeGraph } from "./types";
 import { condenseAbstract, projectFacts, thaiGist } from "./summarize";
 
 export type TopicMapNode = {
@@ -12,9 +12,6 @@ export type TopicMapNode = {
   cy?: number;
   r?: number;
 };
-
-/** A node with its coordinates resolved — either from Figma or from the ring layout. */
-export type PlacedMapNode = TopicMapNode & { cx: number; cy: number; r: number };
 
 /** Curated entries carry their Figma width; dynamic ones size to their content. */
 export type TopicTag = { label: string; width?: number };
@@ -68,26 +65,18 @@ function stripPhasePrefix(name: string): string {
 }
 
 /**
- * Fills in coordinates for nodes that have none, on the ellipse the curated map
- * was hand-drawn along, so a computed layout reads the same as the Figma frame.
+ * The topic page draws the same graph as the result tab. Curated topics carry no
+ * relations, only a centre and its spokes, so those are drawn as "related to".
  */
-export function layoutMapNodes(nodes: TopicMapNode[]): PlacedMapNode[] {
-  const ring = nodes.length - 1;
-
-  return nodes.map((node, i) => {
-    if (node.cx !== undefined && node.cy !== undefined && node.r !== undefined) {
-      return node as PlacedMapNode;
-    }
-    if (i === 0) return { ...node, cx: 303, cy: 205, r: 52 };
-
-    const angle = -Math.PI / 2 + ((i - 1) / Math.max(ring, 1)) * Math.PI * 2;
-    return {
-      ...node,
-      cx: Math.round(303 + 195 * Math.cos(angle)),
-      cy: Math.round(205 + 150 * Math.sin(angle)),
-      r: 37,
-    };
-  });
+export function toKnowledgeGraph(nodes: TopicMapNode[], edges: TopicMapEdge[]): KnowledgeGraph {
+  const flat = (label: string) => label.replace(/\s*\n\s*/g, " ");
+  const node = (n: TopicMapNode) => ({ label: flat(n.label), color: n.color, type: (n.type ?? "topic") as KnowledgeGraph["center"]["type"] });
+  const [center, ...rest] = nodes;
+  return {
+    center: node(center),
+    nodes: rest.map(node),
+    edges: edges.length > 0 ? edges : rest.map((n) => ({ from: flat(center.label), to: flat(n.label), type: "relatedTo" })),
+  };
 }
 
 /** The curated HTML detail — previously hardcoded inside app/components/TopicDetail.tsx. */
