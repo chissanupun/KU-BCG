@@ -85,7 +85,7 @@ export function toKnowledgeGraph(nodes: TopicMapNode[], edges: TopicMapEdge[]): 
     edges: edges.length > 0 ? edges : rest.map((n) => ({ from: flat(center.label), to: flat(n.label), type: "relatedTo" })),
   };
 }
-function formatHours(raw: string | undefined): string {
+function formatHours(raw: string | null | undefined): string {
   const value = (raw ?? "").trim();
   if (!value) return "";
   return /[a-zA-Zก-๙]/.test(value) ? value : `${value} ${HOURS_UNIT}`;

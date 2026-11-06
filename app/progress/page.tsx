@@ -2,18 +2,15 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { googleLoginUrl } from "@/lib/api";
-import { useSearchHistory } from "@/lib/SearchHistoryContext";
-import { useLearningProgress } from "@/lib/useLearningProgress";
+import { useEffect, useState } from "react";
+import { apiFetch, googleLoginUrl } from "@/lib/api";
 import { useUser } from "@/lib/UserContext";
-import type { RecentSearch } from "@/lib/types";
+import type { ProgressList, ProgressRow } from "@/lib/types";
 import AppShell from "../components/AppShell";
 import ProgressBar from "../components/roadmap/ProgressBar";
 import { FONT, PRIMARY, fadeIn } from "../components/roadmap/tokens";
 
-/** One request per row (max 10 recents); a batch endpoint would need a backend contract change. */
-function ProgressRow({ item, index }: { item: RecentSearch; index: number }) {
-  const { enabled, percent, completedCount, total } = useLearningProgress(item.id);
+function ProgressRow({ item, index }: { item: ProgressRow; index: number }) {
   return (
     <motion.li {...fadeIn(0.1 + index * 0.03)} style={{ listStyle: "none" }}>
       <Link
@@ -24,12 +21,12 @@ function ProgressRow({ item, index }: { item: RecentSearch; index: number }) {
           padding: "14px 18px", textDecoration: "none", overflowWrap: "anywhere",
         }}
       >
-        <p style={{ fontSize: 14, fontWeight: 600, color: "var(--ku-text)" }}>{item.query}</p>
+        <p style={{ fontSize: 14, fontWeight: 600, color: "var(--ku-text)" }}>{item.title || item.query}</p>
         <div style={{ marginTop: 10 }}>
-          <ProgressBar progress={enabled ? percent : 0} width="100%" />
+          <ProgressBar progress={item.percent} width="100%" />
         </div>
         <p style={{ fontSize: 12, color: "var(--ku-text-muted)", marginTop: 8 }}>
-          {enabled && total > 0 ? `เรียนจบแล้ว ${completedCount}/${total} หัวข้อ · ${percent ?? 0}%` : "ยังไม่มีข้อมูลความก้าวหน้า"}
+          {`เรียนจบแล้ว ${item.completed_count}/${item.total} หัวข้อ · ${item.percent}%`}
         </p>
       </Link>
     </motion.li>
@@ -38,7 +35,18 @@ function ProgressRow({ item, index }: { item: RecentSearch; index: number }) {
 
 export default function ProgressPage() {
   const { user, loading: userLoading } = useUser();
-  const { items, loading } = useSearchHistory();
+  const [items, setItems] = useState<ProgressRow[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    if (!user) return;
+    let live = true;
+    apiFetch<ProgressList>("/api/progress")
+      .then((json) => { if (live) setItems(json.data); })
+      .catch(() => { if (live) setItems([]); })
+      .finally(() => { if (live) setLoading(false); });
+    return () => { live = false; };
+  }, [user]);
 
   return (
     <AppShell activeNav="progress" logo={false}>
@@ -72,7 +80,7 @@ export default function ProgressPage() {
               ยังไม่มีเส้นทางการเรียนรู้ — <Link href="/" style={{ color: "var(--ku-text)", textDecoration: "underline" }}>เริ่มค้นหาหัวข้อแรก</Link>
             </p>
           ) : (
-            // Order is whatever /api/search/recent returned (newest first); not re-sorted here.
+            // Order is whatever /api/progress returned (newest first); not re-sorted here.
             <ul className="flex flex-col" style={{ gap: 12, padding: 0 }}>
               {items.map((item, i) => (
                 <ProgressRow key={item.id} item={item} index={i} />
