@@ -42,6 +42,7 @@ function resultFor(query: string): GraphRagResult {
     // The backend names topics in English; the page must show the Thai name.
     { from: "kumooc005", to: "Biomass & Bioenergy", type: "isCourseFor" },
   ];
+  const draft = query === "ai-draft" ? [{ from: "sugarcane_residue", to: "Biomass", type: "providesBackgroundFor", origin: "ai_suggested" as const }] : [];
   const many = query === "many-edges" ? Array.from({ length: 12 }, (_, i) => ({ from: query, to: `topic_${i + 1}`, type: "relatedTo" })) : [];
   return {
     // C1 as deployed: pillars are Bio / Circular / Green with no BCG_ prefix.
@@ -52,7 +53,7 @@ function resultFor(query: string): GraphRagResult {
       center: node(query, "topic"),
       description: query === "english-description" ? BACKEND_DESCRIPTION : `แผนที่ความรู้ของ ${query}`,
       nodes: [node("BCG_Green", "bcg_pillar"), ...faculties.map((f) => node(f, "faculty")), node("kumooc-1", "course")],
-      edges: [{ from: query, to: "BCG_Green", type: "relatedTo" }, ...faculties.map((f) => ({ from: query, to: f, type: "studiedBy" })), ...relations, ...many],
+      edges: [{ from: query, to: "BCG_Green", type: "relatedTo" }, ...faculties.map((f) => ({ from: query, to: f, type: "studiedBy" })), ...relations, ...draft, ...many],
     },
     learning_path: {
       estimated_hours: "20 ชั่วโมง",
