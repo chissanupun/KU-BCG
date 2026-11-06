@@ -64,7 +64,7 @@ export type LearningModule = {
   /** Same order as `keywords`. */
   keywords_ai_th?: string[];
   ai_translation?: AiTranslation;
-  hours: string;
+  hours?: string | null;
   desc: string;
   /** Concept ids this module teaches / needs first (lib/learningConcepts.json). Absent when the module has no concept data. */
   teaches?: string[];
@@ -99,7 +99,8 @@ export type LearningPhase = {
 };
 
 export type LearningPath = {
-  estimated_hours: string;
+  /** Null/empty when the sources carry no real hours; the UI hides the badge then. */
+  estimated_hours?: string | null;
   subtitle?: string;
   phases: LearningPhase[];
 };
@@ -182,6 +183,20 @@ export type LearningProgressState = {
   total: number;
   percent: number;
 };
+
+/** One row of GET /api/progress. Roadmaps with no modules are left out by the server. */
+export type ProgressRow = {
+  id: number;
+  query: string;
+  title: string | null;
+  completed_count: number;
+  total: number;
+  percent: number;
+  created_at: string;
+};
+
+/** GET /api/progress — the user's roadmaps, newest first, max 50. */
+export type ProgressList = { data: ProgressRow[] };
 
 /** GET /api/search/recent — sidebar list. Max 10, newest first. */
 export type RecentSearch = {
