@@ -1,11 +1,11 @@
 "use client";
 
-import { Suspense, useMemo } from "react";
+import { Suspense, useEffect, useMemo } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { googleLoginUrl } from "@/lib/api";
 import { useSearchResult } from "@/lib/useSearchResult";
 import { useLearningProgress } from "@/lib/useLearningProgress";
-import { DEFAULT_ROADMAP, fromGraphRag } from "@/lib/roadmap";
+import { fromGraphRag } from "@/lib/roadmap";
 import { parseTab } from "@/lib/resultView";
 import RoadmapView from "../components/roadmap/RoadmapView";
 import PendingView from "./PendingView";
@@ -40,7 +40,12 @@ function LearnPageInner() {
   const { percent, completedCount, total, done, toggle, enabled } = useLearningProgress(historyId);
   const progress = enabled ? { percent, completedCount, total, done, toggle } : undefined;
 
-  if (!q && historyId === undefined) return <RoadmapView roadmap={DEFAULT_ROADMAP} />;
+  // Nothing to show without a query or a stored result: the search box lives on the home page.
+  const empty = !q && historyId === undefined;
+  useEffect(() => {
+    if (empty) router.replace("/");
+  }, [empty, router]);
+  if (empty) return null;
 
   if (loading) {
     return <RoadmapView notice={<PendingView pending={pending} evidence={partialEvidence} />} />;
