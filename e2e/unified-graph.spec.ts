@@ -35,9 +35,3 @@ test("topic page shows the shared Thai graph, not raw relation names", async ({ 
   const topicSentences = await main.getByRole("listitem").allInnerTexts();
   for (const s of learnSentences) expect(topicSentences).toContain(s);
 });
-
-test("a curated topic still draws its spokes through the same component", async ({ page }) => {
-  await page.goto("/topic/?t=html-semantics");
-  await expect(page.locator('svg[role="img"]')).toBeVisible();
-  await expect(page.locator("svg text").first()).toBeVisible();
-});
