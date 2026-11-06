@@ -1,0 +1,11 @@
+235 relations kept, 0 dropped
+
+topic  edges/node  components   (curated + derived -> plus AI drafts)
+1 Biomass & Bioenergy                    1.39 -> 1.38   2 -> 3   (122 -> 153 nodes)
+2 Chitosan & Bio-packaging               1.4 -> 1.41   2 -> 1   (73 -> 97 nodes)
+3 Microplastics & Water Quality          1.66 -> 1.53   4 -> 3   (70 -> 98 nodes)
+4 Carbon Footprint & Carbon Neutrality   1.33 -> 1.39   6 -> 1   (52 -> 80 nodes)
+5 Sustainable Aquaculture & Probiotics   1.68 -> 1.62   3 -> 1   (78 -> 103 nodes)
+6 Agroforestry & Biodiversity            1.49 -> 1.52   2 -> 1   (114 -> 142 nodes)
+
+ES not touched

@@ -1,0 +1,398 @@
+[
+ {
+  "id": "sugarcane_residue",
+  "name_th": "ใบอ้อยและชานอ้อย",
+  "name_en": "Sugarcane leaves and bagasse",
+  "topic_id": "1"
+ },
+ {
+  "id": "energy_crops",
+  "name_th": "พืชพลังงานและไม้โตเร็ว",
+  "name_en": "Energy crops and fast-growing trees",
+  "topic_id": "1"
+ },
+ {
+  "id": "microalgae_biomass",
+  "name_th": "ชีวมวลสาหร่ายขนาดเล็ก",
+  "name_en": "Microalgal biomass",
+  "topic_id": "1"
+ },
+ {
+  "id": "cassava_residue",
+  "name_th": "กาก เปลือก และเหง้ามันสำปะหลัง",
+  "name_en": "Cassava residues (pulp, peel, rhizome)",
+  "topic_id": "1"
+ },
+ {
+  "id": "bioethanol",
+  "name_th": "เอทานอลชีวภาพ",
+  "name_en": "Bioethanol",
+  "topic_id": "1"
+ },
+ {
+  "id": "solid_biofuel",
+  "name_th": "เชื้อเพลิงชีวมวลแข็ง (อัดเม็ด/อัดแท่ง)",
+  "name_en": "Solid biofuel (pellets, briquettes)",
+  "topic_id": "1"
+ },
+ {
+  "id": "biochar",
+  "name_th": "ถ่านชีวภาพ (ไบโอชาร์)",
+  "name_en": "Biochar",
+  "topic_id": "1"
+ },
+ {
+  "id": "torrefaction",
+  "name_th": "ทอร์รีแฟกชัน",
+  "name_en": "Torrefaction",
+  "topic_id": "1"
+ },
+ {
+  "id": "gasification",
+  "name_th": "แก๊สซิฟิเคชัน",
+  "name_en": "Gasification",
+  "topic_id": "1"
+ },
+ {
+  "id": "pyrolysis",
+  "name_th": "ไพโรไลซิส",
+  "name_en": "Pyrolysis",
+  "topic_id": "1"
+ },
+ {
+  "id": "lignocellulose_pretreatment",
+  "name_th": "การปรับสภาพชีวมวลลิกโนเซลลูโลส",
+  "name_en": "Lignocellulosic biomass pretreatment",
+  "topic_id": "1"
+ },
+ {
+  "id": "biomass_power_plant",
+  "name_th": "โรงไฟฟ้าชีวมวล",
+  "name_en": "Biomass power plant",
+  "topic_id": "1"
+ },
+ {
+  "id": "machine_learning",
+  "name_th": "การเรียนรู้ของเครื่องและปัญญาประดิษฐ์",
+  "name_en": "Machine learning / AI",
+  "topic_id": "1"
+ },
+ {
+  "id": "shell_waste",
+  "name_th": "เปลือกกุ้ง ปู และหอยเหลือทิ้ง",
+  "name_en": "Crustacean and mollusc shell waste",
+  "topic_id": "2"
+ },
+ {
+  "id": "chitosan_coating",
+  "name_th": "สารเคลือบและฟิล์มไคโตซานสำหรับอาหาร",
+  "name_en": "Chitosan edible coatings and films",
+  "topic_id": "2"
+ },
+ {
+  "id": "intelligent_packaging",
+  "name_th": "บรรจุภัณฑ์อัจฉริยะแสดงคุณภาพอาหาร",
+  "name_en": "Intelligent (indicator) packaging",
+  "topic_id": "2"
+ },
+ {
+  "id": "active_packaging",
+  "name_th": "บรรจุภัณฑ์แอคทีฟ",
+  "name_en": "Active packaging",
+  "topic_id": "2"
+ },
+ {
+  "id": "agri_residue_packaging",
+  "name_th": "บรรจุภัณฑ์จากวัสดุเหลือทิ้งทางการเกษตร",
+  "name_en": "Packaging from agricultural residues",
+  "topic_id": "2"
+ },
+ {
+  "id": "starch_bioplastic",
+  "name_th": "พลาสติกชีวภาพจากแป้งมันสำปะหลัง",
+  "name_en": "Cassava-starch bioplastic",
+  "topic_id": "2"
+ },
+ {
+  "id": "seed_coating",
+  "name_th": "การเคลือบเมล็ดพันธุ์ด้วยไคโตซาน",
+  "name_en": "Chitosan seed coating",
+  "topic_id": "2"
+ },
+ {
+  "id": "postharvest_loss",
+  "name_th": "การเสื่อมคุณภาพของผลิตผลและอาหารระหว่างเก็บรักษา",
+  "name_en": "Postharvest and storage quality loss",
+  "topic_id": "2"
+ },
+ {
+  "id": "foodborne_pathogens",
+  "name_th": "การปนเปื้อนเชื้อก่อโรคในอาหาร",
+  "name_en": "Foodborne pathogen contamination",
+  "topic_id": "2"
+ },
+ {
+  "id": "rice_crop",
+  "name_th": "ข้าว",
+  "name_en": "Rice (crop)",
+  "topic_id": "2"
+ },
+ {
+  "id": "plastic_weathering",
+  "name_th": "การผุกร่อนของพลาสติกจนแตกเป็นไมโครพลาสติก",
+  "name_en": "Plastic weathering into microplastics",
+  "topic_id": "3"
+ },
+ {
+  "id": "municipal_wastewater",
+  "name_th": "น้ำเสียชุมชนที่ไม่ผ่านการบำบัด",
+  "name_en": "Untreated municipal wastewater",
+  "topic_id": "3"
+ },
+ {
+  "id": "wastewater_treatment",
+  "name_th": "ระบบบำบัดน้ำเสีย",
+  "name_en": "Wastewater treatment plants",
+  "topic_id": "3"
+ },
+ {
+  "id": "mp_removal",
+  "name_th": "การกำจัดและย่อยสลายไมโครพลาสติก",
+  "name_en": "Microplastic removal and degradation",
+  "topic_id": "3"
+ },
+ {
+  "id": "plastic_waste_management",
+  "name_th": "การจัดการขยะพลาสติก",
+  "name_en": "Plastic waste management",
+  "topic_id": "3"
+ },
+ {
+  "id": "soil_microplastics",
+  "name_th": "การสะสมไมโครพลาสติกในดิน",
+  "name_en": "Microplastics in soil",
+  "topic_id": "3"
+ },
+ {
+  "id": "aquatic_insects",
+  "name_th": "แมลงน้ำ",
+  "name_en": "Aquatic insects",
+  "topic_id": "3"
+ },
+ {
+  "id": "freshwater_snails",
+  "name_th": "หอยน้ำจืด (หอยเชอรี่และหอยฝาเดียว)",
+  "name_en": "Freshwater snails",
+  "topic_id": "3"
+ },
+ {
+  "id": "terrestrial_wildlife",
+  "name_th": "สัตว์ป่าบนบก",
+  "name_en": "Terrestrial wildlife",
+  "topic_id": "3"
+ },
+ {
+  "id": "seafood_safety",
+  "name_th": "ความปลอดภัยของสัตว์น้ำเพื่อการบริโภค",
+  "name_en": "Seafood safety",
+  "topic_id": "3"
+ },
+ {
+  "id": "contaminant_vector",
+  "name_th": "ไมโครพลาสติกในฐานะพาหะของโลหะหนักและยาปฏิชีวนะ",
+  "name_en": "Microplastics as contaminant vectors",
+  "topic_id": "3"
+ },
+ {
+  "id": "ftir_spectroscopy",
+  "name_th": "การวิเคราะห์ด้วย FTIR",
+  "name_en": "FTIR spectroscopy",
+  "topic_id": "3"
+ },
+ {
+  "id": "water_quality_monitoring",
+  "name_th": "การติดตามตรวจวัดคุณภาพน้ำ",
+  "name_en": "Water quality monitoring",
+  "topic_id": "3"
+ },
+ {
+  "id": "remote_sensing",
+  "name_th": "การสำรวจข้อมูลระยะไกล (Remote Sensing)",
+  "name_en": "Remote sensing",
+  "topic_id": "4"
+ },
+ {
+  "id": "carbon_label",
+  "name_th": "ฉลากคาร์บอน",
+  "name_en": "Carbon label",
+  "topic_id": "4"
+ },
+ {
+  "id": "water_footprint",
+  "name_th": "วอเตอร์ฟุตพริ้นท์",
+  "name_en": "Water footprint",
+  "topic_id": "4"
+ },
+ {
+  "id": "organizational_cf",
+  "name_th": "คาร์บอนฟุตพริ้นท์องค์กร",
+  "name_en": "Organizational carbon footprint",
+  "topic_id": "4"
+ },
+ {
+  "id": "biogas",
+  "name_th": "ก๊าซชีวภาพ",
+  "name_en": "Biogas",
+  "topic_id": "4"
+ },
+ {
+  "id": "carbon_credit",
+  "name_th": "คาร์บอนเครดิต",
+  "name_en": "Carbon credit",
+  "topic_id": "4"
+ },
+ {
+  "id": "climate_change",
+  "name_th": "การเปลี่ยนแปลงสภาพภูมิอากาศ",
+  "name_en": "Climate change",
+  "topic_id": "4"
+ },
+ {
+  "id": "climate_adaptation",
+  "name_th": "การปรับตัวต่อการเปลี่ยนแปลงสภาพภูมิอากาศ",
+  "name_en": "Climate change adaptation",
+  "topic_id": "4"
+ },
+ {
+  "id": "urban_green",
+  "name_th": "ต้นไม้และพื้นที่สีเขียวในเมือง",
+  "name_en": "Urban trees and green space",
+  "topic_id": "4"
+ },
+ {
+  "id": "tilapia_diseases",
+  "name_th": "โรคปลานิล",
+  "name_en": "Tilapia diseases",
+  "topic_id": "5"
+ },
+ {
+  "id": "fish_vaccine",
+  "name_th": "วัคซีนสัตว์น้ำ",
+  "name_en": "Fish vaccines",
+  "topic_id": "5"
+ },
+ {
+  "id": "lactic_acid_bacteria",
+  "name_th": "แบคทีเรียกรดแลคติก",
+  "name_en": "Lactic acid bacteria",
+  "topic_id": "5"
+ },
+ {
+  "id": "prebiotic",
+  "name_th": "พรีไบโอติก",
+  "name_en": "Prebiotics",
+  "topic_id": "5"
+ },
+ {
+  "id": "fish_feed",
+  "name_th": "อาหารปลาและวัตถุดิบทดแทนปลาป่น",
+  "name_en": "Fish feed and fishmeal replacement",
+  "topic_id": "5"
+ },
+ {
+  "id": "giant_freshwater_prawn",
+  "name_th": "กุ้งก้ามกราม",
+  "name_en": "Giant freshwater prawn",
+  "topic_id": "5"
+ },
+ {
+  "id": "aquaponics",
+  "name_th": "อะควาโปนิกส์และการใช้น้ำทิ้งจากบ่อเลี้ยง",
+  "name_en": "Aquaponics and farm effluent reuse",
+  "topic_id": "5"
+ },
+ {
+  "id": "cage_culture",
+  "name_th": "การเลี้ยงปลาในกระชัง",
+  "name_en": "Cage culture",
+  "topic_id": "5"
+ },
+ {
+  "id": "fish_byproducts",
+  "name_th": "ผลิตภัณฑ์มูลค่าเพิ่มจากผลพลอยได้ของปลา",
+  "name_en": "Value-added fish by-products",
+  "topic_id": "5"
+ },
+ {
+  "id": "disease_resistance_breeding",
+  "name_th": "การปรับปรุงพันธุ์ปลาให้ต้านทานโรค",
+  "name_en": "Breeding for disease resistance",
+  "topic_id": "5"
+ },
+ {
+  "id": "genetic_diversity",
+  "name_th": "ความหลากหลายทางพันธุกรรม",
+  "name_en": "Genetic diversity",
+  "topic_id": "6"
+ },
+ {
+  "id": "para_rubber",
+  "name_th": "ยางพารา",
+  "name_en": "Para rubber",
+  "topic_id": "6"
+ },
+ {
+  "id": "arabica_coffee",
+  "name_th": "กาแฟอาราบิกา",
+  "name_en": "Arabica coffee",
+  "topic_id": "6"
+ },
+ {
+  "id": "biodiversity",
+  "name_th": "ความหลากหลายทางชีวภาพ",
+  "name_en": "Biodiversity",
+  "topic_id": "6"
+ },
+ {
+  "id": "forest_restoration",
+  "name_th": "การฟื้นฟูป่า",
+  "name_en": "Forest restoration",
+  "topic_id": "6"
+ },
+ {
+  "id": "community_forest",
+  "name_th": "ป่าชุมชนและการจัดการโดยชุมชน",
+  "name_en": "Community forestry",
+  "topic_id": "6"
+ },
+ {
+  "id": "economic_trees",
+  "name_th": "ไม้เศรษฐกิจและสวนป่า",
+  "name_en": "Economic trees and forest plantations",
+  "topic_id": "6"
+ },
+ {
+  "id": "wood_products",
+  "name_th": "ผลิตภัณฑ์จากไม้",
+  "name_en": "Wood products",
+  "topic_id": "6"
+ },
+ {
+  "id": "food_insecurity",
+  "name_th": "ความไม่มั่นคงทางอาหารของชุมชน",
+  "name_en": "Community food insecurity",
+  "topic_id": "6"
+ },
+ {
+  "id": "soil_erosion",
+  "name_th": "การชะล้างพังทลายของดิน",
+  "name_en": "Soil erosion",
+  "topic_id": "6"
+ },
+ {
+  "id": "ecotourism",
+  "name_th": "การท่องเที่ยวเชิงนิเวศในพื้นที่คุ้มครอง",
+  "name_en": "Ecotourism in protected areas",
+  "topic_id": "6"
+ }
+]

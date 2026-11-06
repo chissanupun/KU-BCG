@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { PREDICATE_TH, edgeSentence, graphSummary, humanLabel, pickDescription } from "./kgText";
+import { PREDICATE_TH, edgeSentence, graphSummary, humanLabel, isAiDraft, pickDescription } from "./kgText";
 
 test("edgeSentence reads as a Thai sentence", () => {
   assert.equal(edgeSentence("forest", "mitigatesCarbonVia", "carbon_stock"), "ป่าไม้ ช่วยลดคาร์บอนผ่าน คาร์บอนที่สะสมไว้");
@@ -46,4 +46,17 @@ test("graphSummary counts only the other nodes", () => {
   assert.equal(graphSummary("Carbon Footprint", 5, 4), "Carbon Footprint เชื่อมโยงกับ 5 เรื่อง ผ่าน 4 ความสัมพันธ์");
   assert.equal(graphSummary("Carbon Footprint", 3, 0), "Carbon Footprint เชื่อมโยงกับ 3 เรื่อง");
   assert.equal(graphSummary("kumooc005", 0, 0), "การคำนวณคาร์บอนฟุตพริ้นท์รายบุคคล จาก Application CF Calculation ยังไม่มีเรื่องที่เชื่อมโยง");
+});
+
+test("every predicate and new concept in the AI-drafted relations has Thai wording", async () => {
+  const { default: relations } = await import("../elastic-search/data/ai-relations.json");
+  const { default: concepts } = await import("../elastic-search/data/ai-concepts.json");
+  const missing = [...new Set(relations.map((r) => r.predicate))].filter((p) => !PREDICATE_TH[p]);
+  assert.deepEqual(missing, []);
+  for (const c of concepts) assert.match(humanLabel(c.id), /[ก-๙]/, c.id);
+});
+
+test("only ai_suggested edges count as AI drafts", () => {
+  assert.equal(isAiDraft({ origin: "ai_suggested" }), true);
+  assert.deepEqual([{}, { origin: "derived" }].map(isAiDraft), [false, false]);
 });

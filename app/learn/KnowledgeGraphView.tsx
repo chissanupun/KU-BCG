@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { edgeSentence, humanLabel, TYPE_LABELS } from "@/lib/kgText";
-import type { KnowledgeGraph } from "@/lib/types";
+import { AI_DRAFT_TEXT, edgeSentence, humanLabel, isAiDraft, TYPE_LABELS } from "@/lib/kgText";
+import type { GraphEdge, KnowledgeGraph } from "@/lib/types";
 
 /**
  * Force-directed layout, ported 1:1 from ku-phumpanya's resources/js/knowledge-graph.js
@@ -28,7 +28,7 @@ type SimNode = {
   fixed: boolean;
 };
 
-type SimEdge = { from: SimNode; to: SimNode; type: string };
+type SimEdge = { from: SimNode; to: SimNode; type: string; origin: GraphEdge["origin"] };
 
 /** Two lines of at most `max` characters; Thai has no spaces, so a long name is cut at the limit. */
 const thaiWords = typeof Intl !== "undefined" && "Segmenter" in Intl ? new Intl.Segmenter("th", { granularity: "word" }) : null;
@@ -86,7 +86,7 @@ function buildSimulationNodes(graph: KnowledgeGraph, hiddenTypes: ReadonlySet<st
 
   const simNodes = Array.from(byLabel.values());
   const simEdges: SimEdge[] = edges
-    .map((edge) => ({ from: byLabel.get(edge.from), to: byLabel.get(edge.to), type: edge.type ?? "relatedTo" }))
+    .map((edge) => ({ from: byLabel.get(edge.from), to: byLabel.get(edge.to), type: edge.type ?? "relatedTo", origin: edge.origin }))
     .filter((edge): edge is SimEdge => Boolean(edge.from && edge.to));
 
   const width = 480;
@@ -185,10 +185,13 @@ function renderGraph(svg: SVGSVGElement, simNodes: SimNode[], simEdges: SimEdge[
     line.setAttribute("x2", String(edge.to.x));
     line.setAttribute("y2", String(edge.to.y));
     line.setAttribute("stroke", "#9ca3af");
-    line.setAttribute("stroke-width", "1.5");
+    // Hand-curated lines are thick and solid, derived ones thin, AI drafts dashed.
+    line.setAttribute("stroke-width", edge.origin === "derived" ? "1" : isAiDraft(edge) ? "1.5" : "2");
+    if (isAiDraft(edge)) line.setAttribute("stroke-dasharray", "5 4");
+    line.setAttribute("data-origin", edge.origin ?? "curated");
     line.setAttribute("opacity", "0.85");
     const title = document.createElementNS(ns, "title");
-    title.textContent = edgeSentence(edge.from.label, edge.type, edge.to.label);
+    title.textContent = edgeSentence(edge.from.label, edge.type, edge.to.label) + (isAiDraft(edge) ? ` (${AI_DRAFT_TEXT})` : "");
     line.appendChild(title);
     svg.appendChild(line);
 
