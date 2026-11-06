@@ -124,7 +124,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -243,7 +243,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -342,7 +342,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -449,7 +449,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -558,7 +558,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -656,7 +656,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -809,7 +809,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -928,7 +928,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -1051,7 +1051,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -1148,7 +1148,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -1263,7 +1263,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -1364,7 +1364,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -1453,7 +1453,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -1634,7 +1634,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -1748,7 +1748,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -1897,7 +1897,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -1996,7 +1996,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -2105,7 +2105,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -2218,7 +2218,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -2343,7 +2343,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -2456,7 +2456,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -2591,7 +2591,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -2704,7 +2704,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -2845,7 +2845,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -2982,7 +2982,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -3119,7 +3119,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -3274,7 +3274,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -3413,7 +3413,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -3514,7 +3514,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -3623,7 +3623,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -3704,7 +3704,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -3856,7 +3856,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -4011,7 +4011,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -4122,7 +4122,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -4269,7 +4269,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -4330,7 +4330,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -4493,7 +4493,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -4567,7 +4567,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -4691,7 +4691,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -4788,7 +4788,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -4907,7 +4907,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -5027,7 +5027,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -5129,7 +5129,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -5256,7 +5256,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -5367,7 +5367,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -5490,7 +5490,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -5603,7 +5603,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -5727,7 +5727,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -5868,7 +5868,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -6011,7 +6011,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -6128,7 +6128,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -6246,7 +6246,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -6364,7 +6364,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -6473,7 +6473,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -6586,7 +6586,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -6723,7 +6723,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -6826,7 +6826,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -6960,7 +6960,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -7064,7 +7064,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -7189,7 +7189,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -7315,7 +7315,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -7406,7 +7406,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -7524,7 +7524,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -7637,7 +7637,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -7737,7 +7737,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -7803,7 +7803,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -7908,7 +7908,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -8022,7 +8022,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -8088,7 +8088,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -8158,7 +8158,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -8210,7 +8210,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -8263,7 +8263,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -8344,7 +8344,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -8540,7 +8540,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -8631,7 +8631,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -8706,7 +8706,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -8806,7 +8806,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -8876,7 +8876,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -8977,7 +8977,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -9080,7 +9080,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -9158,7 +9158,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -9258,7 +9258,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -9359,7 +9359,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -9462,7 +9462,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -9526,7 +9526,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -9628,7 +9628,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -9739,7 +9739,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -9894,7 +9894,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -10043,7 +10043,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -10180,7 +10180,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -10284,7 +10284,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -10365,7 +10365,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -10490,7 +10490,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -10555,7 +10555,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -10648,7 +10648,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -10755,7 +10755,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -10850,7 +10850,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -10951,7 +10951,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -11045,7 +11045,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -11151,7 +11151,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -11213,7 +11213,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -11278,7 +11278,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -11369,7 +11369,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -11456,7 +11456,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -11576,7 +11576,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -11663,7 +11663,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -11775,7 +11775,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -11867,7 +11867,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -12031,7 +12031,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -12122,7 +12122,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -12213,7 +12213,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -12310,7 +12310,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -12433,7 +12433,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -12513,7 +12513,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -12605,7 +12605,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -12675,7 +12675,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -12727,7 +12727,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -12780,7 +12780,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -12881,7 +12881,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -12967,7 +12967,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -13059,7 +13059,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -13198,7 +13198,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -13330,7 +13330,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -13476,7 +13476,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -13590,7 +13590,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -13712,7 +13712,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -13860,7 +13860,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -13986,7 +13986,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -14099,7 +14099,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -14220,7 +14220,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -14326,7 +14326,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -14426,7 +14426,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -14494,7 +14494,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -14602,7 +14602,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -14740,7 +14740,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -14831,7 +14831,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -14968,7 +14968,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -15112,7 +15112,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -15234,7 +15234,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -15338,7 +15338,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -15426,7 +15426,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -15553,7 +15553,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -15655,7 +15655,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -15777,7 +15777,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -15903,7 +15903,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -16035,7 +16035,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -16155,7 +16155,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -16250,7 +16250,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -16402,7 +16402,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -16544,7 +16544,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -16652,7 +16652,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -16790,7 +16790,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -16938,7 +16938,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -17060,7 +17060,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -17166,7 +17166,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -17304,7 +17304,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -17398,7 +17398,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -17524,7 +17524,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -17650,7 +17650,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -17746,7 +17746,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -17842,7 +17842,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -17938,7 +17938,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -18043,7 +18043,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -18161,7 +18161,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -18277,7 +18277,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -18373,7 +18373,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -18487,7 +18487,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -18589,7 +18589,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -18679,7 +18679,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -18779,7 +18779,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -18862,7 +18862,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -18913,7 +18913,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -19029,7 +19029,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -19086,7 +19086,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -19169,7 +19169,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -19291,7 +19291,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -19468,7 +19468,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -19534,7 +19534,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -19588,7 +19588,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -19708,7 +19708,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -19814,7 +19814,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -19875,7 +19875,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -19936,7 +19936,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -19997,7 +19997,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -20076,7 +20076,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -20143,7 +20143,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -20211,7 +20211,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -20273,7 +20273,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -20495,7 +20495,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -20543,7 +20543,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -20634,7 +20634,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -20683,7 +20683,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -20796,7 +20796,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -20948,7 +20948,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -21007,7 +21007,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -21179,7 +21179,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -21239,7 +21239,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -21299,7 +21299,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -21362,7 +21362,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -21587,7 +21587,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -21648,7 +21648,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -21803,7 +21803,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -21865,7 +21865,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -21934,7 +21934,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -22017,7 +22017,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -22096,7 +22096,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -22175,7 +22175,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -22233,7 +22233,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -22294,7 +22294,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -22343,7 +22343,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -22444,7 +22444,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -22562,7 +22562,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -22678,7 +22678,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -22774,7 +22774,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -22844,7 +22844,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -22978,7 +22978,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -23074,7 +23074,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -23133,7 +23133,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -23253,7 +23253,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -23371,7 +23371,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -23435,7 +23435,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -23545,7 +23545,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -23605,7 +23605,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -23691,7 +23691,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -23821,7 +23821,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -23924,7 +23924,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -24028,7 +24028,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -24132,7 +24132,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -24240,7 +24240,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -24349,7 +24349,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -24480,7 +24480,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -24592,7 +24592,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -24700,7 +24700,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -24828,7 +24828,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -24950,7 +24950,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -25053,7 +25053,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -25182,7 +25182,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -25253,7 +25253,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -25354,7 +25354,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -25435,7 +25435,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -25518,7 +25518,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -25609,7 +25609,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -25691,7 +25691,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -25774,7 +25774,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -25881,7 +25881,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -25985,7 +25985,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -26112,7 +26112,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -26227,7 +26227,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -26358,7 +26358,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -26443,7 +26443,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -26523,7 +26523,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -26672,7 +26672,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -26746,7 +26746,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -26925,7 +26925,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -27040,7 +27040,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -27171,7 +27171,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -27265,7 +27265,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -27387,7 +27387,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -27505,7 +27505,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -27633,7 +27633,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -27779,7 +27779,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -27895,7 +27895,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -28001,7 +28001,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -28120,7 +28120,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -28245,7 +28245,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -28341,7 +28341,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -28445,7 +28445,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -28520,7 +28520,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -28652,7 +28652,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -28731,7 +28731,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -28839,7 +28839,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -29029,7 +29029,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -29219,7 +29219,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -29329,7 +29329,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -29435,7 +29435,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -29528,7 +29528,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -29649,7 +29649,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -29763,7 +29763,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -29851,7 +29851,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -29952,7 +29952,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -30084,7 +30084,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -30185,7 +30185,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -30301,7 +30301,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -30426,7 +30426,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -30544,7 +30544,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -30682,7 +30682,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -30790,7 +30790,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -30905,7 +30905,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -31011,7 +31011,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -31164,7 +31164,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -31272,7 +31272,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -31388,7 +31388,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -31479,7 +31479,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -31604,7 +31604,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -31771,7 +31771,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -31901,7 +31901,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -31985,7 +31985,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -32077,7 +32077,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -32179,7 +32179,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -32272,7 +32272,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -32372,7 +32372,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -32485,7 +32485,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -32585,7 +32585,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -32727,7 +32727,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -32850,7 +32850,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -32961,7 +32961,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -33084,7 +33084,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -33191,7 +33191,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -33286,7 +33286,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -33375,7 +33375,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -33463,7 +33463,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -33579,7 +33579,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -33689,7 +33689,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -33769,7 +33769,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -33986,7 +33986,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -34126,7 +34126,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -34220,7 +34220,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -34322,7 +34322,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -34484,7 +34484,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -34673,7 +34673,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -34787,7 +34787,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -34910,7 +34910,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -35068,7 +35068,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -35180,7 +35180,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -35341,7 +35341,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -35469,7 +35469,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -35607,7 +35607,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -35757,7 +35757,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -35981,7 +35981,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -36077,7 +36077,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -36172,7 +36172,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -36289,7 +36289,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -36409,7 +36409,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -36526,7 +36526,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -36673,7 +36673,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -36775,7 +36775,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -36871,7 +36871,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -36973,7 +36973,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -37073,7 +37073,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -37179,7 +37179,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -37249,7 +37249,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -37359,7 +37359,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -37479,7 +37479,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -37601,7 +37601,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -37737,7 +37737,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -37851,7 +37851,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -37977,7 +37977,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -38108,7 +38108,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -38210,7 +38210,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -38292,7 +38292,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -38402,7 +38402,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -38508,7 +38508,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -38616,7 +38616,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -38708,7 +38708,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -38808,7 +38808,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -38894,7 +38894,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -39017,7 +39017,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -39147,7 +39147,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -39273,7 +39273,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -39431,7 +39431,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -39565,7 +39565,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -39640,7 +39640,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -39724,7 +39724,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -39812,7 +39812,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -39875,7 +39875,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -39938,7 +39938,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -40002,7 +40002,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -40118,7 +40118,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -40230,7 +40230,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -40306,7 +40306,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -40370,7 +40370,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -40488,7 +40488,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -40584,7 +40584,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -40706,7 +40706,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -40812,7 +40812,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -40892,7 +40892,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -40996,7 +40996,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -41114,7 +41114,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -41220,7 +41220,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -41326,7 +41326,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -41430,7 +41430,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -41633,7 +41633,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -41693,7 +41693,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -41837,7 +41837,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -41944,7 +41944,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -42001,7 +42001,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -42049,7 +42049,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -42111,7 +42111,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -42212,7 +42212,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -42275,7 +42275,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -42340,7 +42340,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -42458,7 +42458,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -42600,7 +42600,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -42655,7 +42655,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -42768,7 +42768,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -42884,7 +42884,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -42999,7 +42999,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -43047,7 +43047,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -43161,7 +43161,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -43209,7 +43209,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -43290,7 +43290,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -43338,7 +43338,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -43389,7 +43389,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -43435,7 +43435,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -43487,7 +43487,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -43534,7 +43534,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -43578,7 +43578,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -43622,7 +43622,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -43672,7 +43672,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -43724,7 +43724,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -43776,7 +43776,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -43825,7 +43825,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -43873,7 +43873,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -43921,7 +43921,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -43972,7 +43972,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -44021,7 +44021,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -44069,7 +44069,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -44115,7 +44115,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -44722,7 +44722,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -44770,7 +44770,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -44825,7 +44825,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -44874,7 +44874,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -44927,7 +44927,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -44978,7 +44978,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -45033,7 +45033,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -45084,7 +45084,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -46133,7 +46133,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -46181,7 +46181,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -46236,7 +46236,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -46291,7 +46291,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -46343,7 +46343,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -46397,7 +46397,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -46452,7 +46452,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -46506,7 +46506,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -46559,7 +46559,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -46610,7 +46610,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -46665,7 +46665,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -46721,7 +46721,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -46777,7 +46777,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -47515,7 +47515,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -47563,7 +47563,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -48148,7 +48148,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -48192,7 +48192,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -48236,7 +48236,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -48280,7 +48280,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -48324,7 +48324,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -48370,7 +48370,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -48416,7 +48416,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -48464,7 +48464,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -48510,7 +48510,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -48557,7 +48557,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -48604,7 +48604,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -48652,7 +48652,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -48698,7 +48698,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -48745,7 +48745,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -48791,7 +48791,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -48841,7 +48841,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -48887,7 +48887,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -48935,7 +48935,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -48982,7 +48982,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -49448,7 +49448,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -49495,7 +49495,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -49542,7 +49542,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -49592,7 +49592,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -49639,7 +49639,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -49686,7 +49686,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -49735,7 +49735,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -49782,7 +49782,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -49827,7 +49827,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -49870,7 +49870,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -49913,7 +49913,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -49956,7 +49956,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -50003,7 +50003,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -50048,7 +50048,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -50099,7 +50099,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -50147,7 +50147,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -50195,7 +50195,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -50246,7 +50246,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -50296,7 +50296,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -50341,7 +50341,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -50389,7 +50389,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -50438,7 +50438,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -50485,7 +50485,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -50534,7 +50534,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -50582,7 +50582,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -50626,7 +50626,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [
@@ -50669,7 +50669,7 @@
           "ai_translation" : {
             "model" : "claude-sonnet-5-5",
             "prompt_version" : "v1",
-            "translated_at" : "2026-10-30",
+            "translated_at" : "2026-11-06",
             "source_lang" : "en",
             "reviewed" : false,
             "fields" : [

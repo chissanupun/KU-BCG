@@ -17,6 +17,8 @@ async function openMap(page: Page, query: string) {
 
 test("an AI-drafted edge is dashed, labelled, and explained in the legend; the Thai wording comes from the new tables", async ({ page }) => {
   const panel = await openMap(page, "ai-draft");
+  // Drafts are listed after the verified relations, past the first eight.
+  await panel.getByRole("button", { name: /ดูทั้งหมด/ }).click();
   const draft = panel.getByRole("listitem").filter({ hasText: "ใบอ้อยและชานอ้อย เป็นพื้นฐานของ ชีวมวล" });
   await expect(draft).toBeVisible();
   await expect(draft.getByTestId("ai-draft")).toHaveText(/ร่างจาก AI/);
