@@ -157,7 +157,7 @@ export default function SmartPicksPage() {
               display: "flex", alignItems: "center", fontFamily: FONT,
             }}
           >
-            Smart Picks
+            แนะนำอัจฉริยะ
           </motion.div>
           <motion.h1
             {...fadeIn(0.04)}
@@ -193,12 +193,12 @@ export default function SmartPicksPage() {
           </p>
         </motion.div>
 
-        {/* TOP PICKS label */}
+        {/* top picks label */}
         <motion.p
           {...fadeIn(0.16)}
           style={{ fontSize: 15, fontWeight: 700, color: "var(--ku-text)", marginBottom: 18, fontFamily: FONT }}
         >
-          TOP PICKS
+          คำแนะนำอันดับต้น
         </motion.p>
 
         {loading || userLoading ? (

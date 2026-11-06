@@ -130,7 +130,7 @@ export default function Sidebar({
             block; a small gap separates them without changing their height. */}
         <div className="flex flex-col" style={{ gap: 3 }}>
         <NavItem href="/" label="ค้นหา" active={activeNav === "search"} strokeWidth={2} d="M21 21l-4.35-4.35M17 11A6 6 0 115 11a6 6 0 0112 0z" />
-        <NavItem href="/smart-picks" label="Smart Picks" active={activeNav === "recommend"} d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z" />
+        <NavItem href="/smart-picks" label="แนะนำอัจฉริยะ" active={activeNav === "recommend"} d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z" />
         <NavItem href="/progress" label="ความก้าวหน้า" active={activeNav === "progress"} d="M3 3v18h18M7 15l4-4 3 3 5-6" />
         {/* ผู้ดูแล (admin only) */}
         {activeNav === "admin" && (
@@ -178,7 +178,7 @@ export default function Sidebar({
           </>
         ) : (
           <>
-            <p className="flex-1 text-[12px] leading-[16px]" style={{ color: "var(--ku-text-faint)" }}>RECENTS</p>
+            <p className="flex-1 text-[12px] leading-[16px]" style={{ color: "var(--ku-text-faint)" }}>ล่าสุด</p>
             {user && recentSearches.length > 0 && (
               <button
                 type="button"
