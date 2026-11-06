@@ -1,0 +1,152 @@
+[
+ {
+  "id": "carbon_footprint_basics",
+  "name_th": "พื้นฐานการคำนวณคาร์บอนฟุตพริ้นท์",
+  "name_en": "Carbon footprint basics",
+  "topic_id": "4"
+ },
+ {
+  "id": "carbon_neutrality_process",
+  "name_th": "กระบวนการสู่ความเป็นกลางทางคาร์บอน",
+  "name_en": "Carbon neutrality process",
+  "topic_id": "4"
+ },
+ {
+  "id": "environmental_management",
+  "name_th": "การจัดการสิ่งแวดล้อมเพื่อความยั่งยืน",
+  "name_en": "Environmental management",
+  "topic_id": "4"
+ },
+ {
+  "id": "sustainable_community",
+  "name_th": "การพัฒนาชุมชนอย่างยั่งยืน",
+  "name_en": "Sustainable community development",
+  "topic_id": "4"
+ },
+ {
+  "id": "microplastics_basics",
+  "name_th": "พื้นฐานไมโครพลาสติก",
+  "name_en": "Microplastics basics",
+  "topic_id": "3"
+ },
+ {
+  "id": "pollution_economics",
+  "name_th": "เศรษฐศาสตร์การจัดการมลพิษและของเสีย",
+  "name_en": "Pollution and waste economics",
+  "topic_id": "3"
+ },
+ {
+  "id": "forestry_basics",
+  "name_th": "พื้นฐานการทำฟาร์มป่าไม้",
+  "name_en": "Forestry basics",
+  "topic_id": "6"
+ },
+ {
+  "id": "chainsaw_operation",
+  "name_th": "การใช้เลื่อยโซ่ยนต์",
+  "name_en": "Chainsaw operation",
+  "topic_id": "6"
+ },
+ {
+  "id": "forest_business",
+  "name_th": "ธุรกิจการป่าไม้",
+  "name_en": "Forest-based business",
+  "topic_id": "6"
+ },
+ {
+  "id": "economic_tree_business",
+  "name_th": "ธุรกิจสวนไม้เศรษฐกิจ",
+  "name_en": "Economic tree business",
+  "topic_id": "6"
+ },
+ {
+  "id": "agroforestry_land_use",
+  "name_th": "การใช้ที่ดินวนเกษตร",
+  "name_en": "Agroforestry land use",
+  "topic_id": "6"
+ },
+ {
+  "id": "wood_technology",
+  "name_th": "เทคโนโลยีผลิตภัณฑ์ไม้",
+  "name_en": "Wood product technology",
+  "topic_id": "6"
+ },
+ {
+  "id": "wildlife_tourism",
+  "name_th": "การจัดการท่องเที่ยวสัตว์ป่า",
+  "name_en": "Wildlife tourism management",
+  "topic_id": "6"
+ },
+ {
+  "id": "highland_agriculture",
+  "name_th": "เกษตรพื้นที่สูง",
+  "name_en": "Highland agriculture",
+  "topic_id": "6"
+ },
+ {
+  "id": "aquaculture_basics",
+  "name_th": "พื้นฐานการเพาะเลี้ยงสัตว์น้ำ",
+  "name_en": "Aquaculture basics",
+  "topic_id": "5"
+ },
+ {
+  "id": "aquatic_value_adding",
+  "name_th": "การเพิ่มมูลค่าสัตว์น้ำ",
+  "name_en": "Aquatic product value adding",
+  "topic_id": "5"
+ },
+ {
+  "id": "probiotic_business",
+  "name_th": "ธุรกิจเครื่องดื่มจากพืชและโพรไบโอติกส์",
+  "name_en": "Plant-based and probiotic beverage business",
+  "topic_id": "5"
+ },
+ {
+  "id": "plant_cultivation",
+  "name_th": "การปลูกเลี้ยงและดูแลพืช",
+  "name_en": "Plant cultivation",
+  "topic_id": "5"
+ },
+ {
+  "id": "sugarcane_production",
+  "name_th": "การผลิตอ้อยครบวงจร",
+  "name_en": "Integrated sugarcane production",
+  "topic_id": "1"
+ },
+ {
+  "id": "energy_management",
+  "name_th": "การจัดการพลังงานและพลังงานทดแทน",
+  "name_en": "Energy and renewable energy management",
+  "topic_id": "1"
+ },
+ {
+  "id": "synthetic_biology",
+  "name_th": "ชีววิทยาสังเคราะห์",
+  "name_en": "Synthetic biology",
+  "topic_id": "1"
+ },
+ {
+  "id": "food_regulation",
+  "name_th": "กฎหมายและมาตรฐานอุตสาหกรรมอาหาร",
+  "name_en": "Food industry regulation and standards",
+  "topic_id": "2"
+ },
+ {
+  "id": "bio_data_science",
+  "name_th": "วิทยาการข้อมูลชีววิทยาและชีวสารสนเทศ",
+  "name_en": "Biological data science and bioinformatics",
+  "topic_id": "1"
+ },
+ {
+  "id": "ai_data_analysis",
+  "name_th": "การวิเคราะห์ข้อมูลด้วยปัญญาประดิษฐ์",
+  "name_en": "AI-driven data analysis",
+  "topic_id": "1"
+ },
+ {
+  "id": "agri_innovation",
+  "name_th": "เกษตรนวัตกรเพื่อการพัฒนาอย่างยั่งยืน",
+  "name_en": "Agricultural innovator for sustainability",
+  "topic_id": "1"
+ }
+]
