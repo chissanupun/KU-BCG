@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { parseTab, resultTags, safeHref } from "./resultView";
+import { parseTab, portalLinks, resultTags, safeHref } from "./resultView";
 import type { GraphRagResult } from "./types";
 
 const node = (label: string, type: "topic" | "faculty" | "course" | "bcg_pillar") => ({ label, color: "#000", type });
@@ -49,4 +49,24 @@ test("safeHref only passes http(s)", () => {
   assert.equal(safeHref("  https://a.b "), "https://a.b");
   assert.equal(safeHref(""), undefined);
   assert.equal(safeHref(undefined), undefined);
+});
+
+test("portalLinks gives one link per source site, from the evidence URLs only", () => {
+  const ev = (source: "KUKR" | "KU_Forest" | "UNKNOWN", url: string) => ({ title: "t", source, url });
+  assert.deepEqual(
+    portalLinks([
+      ev("KUKR", "https://kukr.lib.ku.ac.th/db/a"),
+      ev("KUKR", "https://kukr.lib.ku.ac.th/db/b"), // same site again: no second link
+      ev("KU_Forest", "https://forest.ku.ac.th/x?id=1"),
+      ev("UNKNOWN", "https://other.example.org/p"),
+      ev("KUKR", "javascript:alert(1)"), // not http(s): never a link
+      ev("KUKR", "not a url"),
+    ]),
+    [
+      { label: "KUKR", href: "https://kukr.lib.ku.ac.th" },
+      { label: "KU Forest", href: "https://forest.ku.ac.th" },
+      { label: "other.example.org", href: "https://other.example.org" },
+    ],
+  );
+  assert.deepEqual(portalLinks(undefined), []);
 });

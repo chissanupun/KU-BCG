@@ -13,6 +13,7 @@ import ResultTabs from "./ResultTabs";
 import OverviewTab from "./OverviewTab";
 import MapTab from "./MapTab";
 import WordCloudTab from "./WordCloudTab";
+import AiGeneratedNote from "../components/AiGeneratedNote";
 
 const PRIMARY = "#3b6347";
 
@@ -89,7 +90,12 @@ function LearnPageInner() {
       roadmap={roadmap}
       progress={progress}
       activeTab={tab}
-      header={result && <ResultTabs title={result.title || query || roadmap?.title || ""} active={tab} />}
+      header={result && (
+        <>
+          <ResultTabs title={result.title || query || roadmap?.title || ""} active={tab} />
+          {tab === "path" && <AiGeneratedNote what="เส้นทางการเรียนรู้นี้" evidence={result.evidence} model={result._meta?.models?.synth} />}
+        </>
+      )}
       body={result && tab === "overview" ? <OverviewTab result={result} /> : result && tab === "map" ? <MapTab key={historyId ?? query} graph={result.knowledge_graph} /> : result && tab === "cloud" ? <WordCloudTab graph={result.knowledge_graph} /> : undefined}
     />
   );

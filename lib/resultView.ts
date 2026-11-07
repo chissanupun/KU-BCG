@@ -47,3 +47,23 @@ export function safeHref(url: string | undefined | null): string | undefined {
   const trimmed = url?.trim();
   return trimmed && /^https?:\/\//i.test(trimmed) ? trimmed : undefined;
 }
+
+export type PortalLink = { label: string; href: string };
+
+/**
+ * The portals a result's evidence comes from, one link per site. Taken from the evidence URLs themselves
+ * (their site root), so a link is never guessed; AI text is shown next to these as "based on".
+ */
+export function portalLinks(evidence: EvidenceItem[] | undefined): PortalLink[] {
+  const byOrigin = new Map<string, PortalLink>();
+  for (const item of evidence ?? []) {
+    const href = safeHref(item.url);
+    if (!href) continue;
+    let url: URL;
+    try { url = new URL(href); } catch { continue; }
+    const label = item.source === "UNKNOWN" ? url.hostname : SOURCE_LABELS[item.source];
+    const key = `${label}|${url.origin}`; // two sources on one host stay two links, each under its own name
+    if (!byOrigin.has(key)) byOrigin.set(key, { label, href: url.origin });
+  }
+  return [...byOrigin.values()];
+}

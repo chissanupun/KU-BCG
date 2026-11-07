@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { resultTags } from "@/lib/resultView";
 import type { GraphRagResult } from "@/lib/types";
 import { FONT, fadeIn } from "../components/roadmap/tokens";
+import AiGeneratedNote from "../components/AiGeneratedNote";
 import EvidenceCard from "./EvidenceCard";
 
 const chip = (pillar: boolean) =>
@@ -23,6 +24,9 @@ export default function OverviewTab({ result }: { result: GraphRagResult }) {
 
   return (
     <div style={{ overflowWrap: "anywhere" }}>
+      {(intro || analogy || research_basis || expert) && (
+        <AiGeneratedNote what="ภาพรวมนี้" evidence={evidence} model={result._meta?.models?.synth} />
+      )}
       {intro && (
         <motion.div
           {...fadeIn(0.03)}

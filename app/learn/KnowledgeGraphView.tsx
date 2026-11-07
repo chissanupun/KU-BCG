@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { select } from "d3-selection";
 import { zoom, zoomIdentity, type ZoomBehavior } from "d3-zoom";
 import { AI_DRAFT_TEXT, edgeSentence, humanLabel, isAiDraft, isGenericPredicate, originText, TYPE_LABELS } from "@/lib/kgText";
+import AiBadge from "../components/AiBadge";
 import { FONT } from "../components/roadmap/tokens";
 import { fitView } from "@/lib/graphView";
 import type { GraphEdge, KnowledgeGraph } from "@/lib/types";
@@ -409,7 +410,7 @@ function ExplainCard({ graph, picked, onClose }: { graph: KnowledgeGraph; picked
   const sentence = (e: { from: string; to: string; type?: string; origin?: GraphEdge["origin"] }) => (
     <>
       {edgeSentence(e.from, e.type, e.to)}
-      {isAiDraft(e) && <span style={{ color: "var(--ku-text-muted)", fontSize: 12 }}> · {AI_DRAFT_TEXT}</span>}
+      {isAiDraft(e) && <>{" "}<AiBadge text={AI_DRAFT_TEXT} testId="ai-draft-badge" /></>}
     </>
   );
   const node = picked.kind === "node" ? [graph.center, ...graph.nodes].find((n) => n.label === picked.label) : undefined;
