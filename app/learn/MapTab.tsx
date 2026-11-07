@@ -2,10 +2,10 @@
 
 import { useMemo, useState } from "react";
 import type { KnowledgeGraph } from "@/lib/types";
+import { mergeSameName, oneEdgePerPair, simplifyGraph, withoutTypes } from "@/lib/graphView";
 import { graphSummary, isAiDraft, pickDescription, TYPE_LABELS } from "@/lib/kgText";
 import { FONT } from "../components/roadmap/tokens";
 import KnowledgeGraphView from "./KnowledgeGraphView";
-import RelationList from "./RelationList";
 
 const button = {
   height: 28, padding: "0 10px", borderRadius: 6, border: "0.5px solid var(--ku-card-border)",
@@ -17,14 +17,18 @@ export default function MapTab({ graph }: { graph?: KnowledgeGraph }) {
   const [hidden, setHidden] = useState<ReadonlySet<string>>(new Set());
   const [filterOpen, setFilterOpen] = useState(false);
   const [expanded, setExpanded] = useState(false);
+  const [showAll, setShowAll] = useState(false);
 
   // Offer only the node types this graph actually has, so no filter chip is a no-op.
   const types = useMemo(() => [...new Set((graph?.nodes ?? []).map((n) => n.type))], [graph]);
 
   const center = graph?.center?.label ?? "";
   const edges = graph?.edges ?? [];
-  const hiddenLabels = new Set((graph?.nodes ?? []).filter((n) => hidden.has(n.type) && n.label !== center).map((n) => n.label));
-  const shownEdges = edges.filter((e) => !hiddenLabels.has(e.from) && !hiddenLabels.has(e.to));
+  const filtered = useMemo(() => (graph ? withoutTypes(mergeSameName(graph), hidden) : undefined), [graph, hidden]);
+  const shownEdges = filtered?.edges ?? [];
+  const simple = useMemo(() => (filtered ? simplifyGraph(filtered) : undefined), [filtered]);
+  const full = useMemo(() => (filtered ? { ...filtered, edges: oneEdgePerPair(filtered.edges) } : undefined), [filtered]);
+  const drawn = showAll || !simple?.hiddenNodes ? full : simple.graph;
   // One swatch per node type, in the colour that type is actually drawn with.
   const legend = useMemo(() => {
     const byType = new Map<string, string>();
@@ -64,6 +68,11 @@ export default function MapTab({ graph }: { graph?: KnowledgeGraph }) {
               ตัวกรอง{hidden.size > 0 ? ` (${hidden.size})` : ""}
             </button>
           )}
+          {Boolean(simple?.hiddenNodes) && (
+            <button type="button" aria-pressed={showAll} onClick={() => setShowAll((v) => !v)} style={button}>
+              {showAll ? "แสดงเฉพาะส่วนหลัก" : `แสดงทั้งหมด (+${simple!.hiddenNodes})`}
+            </button>
+          )}
           <button type="button" onClick={() => setExpanded((v) => !v)} style={button}>
             {expanded ? "ย่อ" : "ขยาย"}
           </button>
@@ -87,9 +96,9 @@ export default function MapTab({ graph }: { graph?: KnowledgeGraph }) {
 
         <div style={{ flex: 1, minHeight: 0 }}>
           <KnowledgeGraphView
-            graph={graph}
-            hiddenTypes={hidden}
-            height={expanded ? "calc(100dvh - 80px)" : 360}
+            graph={drawn ?? graph}
+            height={expanded ? "calc(100dvh - 80px)" : 420}
+            wheelZoom={expanded}
             ariaLabel={summary}
           />
         </div>
@@ -102,11 +111,9 @@ export default function MapTab({ graph }: { graph?: KnowledgeGraph }) {
             {TYPE_LABELS[type] ?? type}
           </span>
         ))}
-        <span>วงกลม = สิ่งที่เกี่ยวข้อง · เส้น = ความสัมพันธ์ (อ่านเป็นประโยคด้านล่าง)</span>
+        <span>วงกลม = สิ่งที่เกี่ยวข้อง · เส้น = ความสัมพันธ์ · คลิกจุดหรือเส้นเพื่ออ่านคำอธิบาย</span>
         {shownEdges.some(isAiDraft) && <span data-testid="ai-draft-legend">เส้นประ = ร่างจาก AI ยังไม่มีผู้เชี่ยวชาญตรวจ</span>}
       </div>
-
-      <RelationList edges={shownEdges} />
     </div>
   );
 }
