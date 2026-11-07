@@ -17,11 +17,10 @@ async function openMap(page: Page, query: string) {
 
 test("an AI-drafted edge is dashed, labelled, and explained in the legend; the Thai wording comes from the new tables", async ({ page }) => {
   const panel = await openMap(page, "ai-draft");
-  // Drafts are listed after the verified relations, past the first eight.
-  await panel.getByRole("button", { name: /ดูทั้งหมด/ }).click();
-  const draft = panel.getByRole("listitem").filter({ hasText: "ใบอ้อยและชานอ้อย เป็นพื้นฐานของ ชีวมวล" });
-  await expect(draft).toBeVisible();
-  await expect(draft.getByTestId("ai-draft")).toHaveText(/ร่างจาก AI/);
+  await panel.locator("svg g[data-node]").filter({ has: page.locator("title", { hasText: /^ใบอ้อยและชานอ้อย/ }) }).locator("circle").click();
+  const card = panel.getByRole("region", { name: "คำอธิบายความสัมพันธ์" });
+  await expect(card.getByText("ใบอ้อยและชานอ้อย เป็นพื้นฐานของ ชีวมวล")).toBeVisible();
+  await expect(card).toContainText("ร่างจาก AI");
   await expect(panel.getByTestId("ai-draft-legend")).toContainText("เส้นประ");
   await expect(panel.locator('line[data-origin="ai_suggested"]')).toHaveAttribute("stroke-dasharray", "5 4");
   await expect(panel.locator('line[data-origin="curated"]').first()).not.toHaveAttribute("stroke-dasharray", /.+/);
@@ -31,6 +30,8 @@ test("an AI-drafted edge is dashed, labelled, and explained in the legend; the T
 
 test("verified relations carry no AI label when there are no drafts", async ({ page }) => {
   const panel = await openMap(page, "Carbon Footprint");
-  await expect(panel.getByTestId("ai-draft")).toHaveCount(0);
+  await panel.locator("svg g[data-node] circle").first().click();
+  await expect(panel.getByRole("region", { name: "คำอธิบายความสัมพันธ์" })).toBeVisible();
+  await expect(panel).not.toContainText("ร่างจาก AI");
   await expect(panel.getByTestId("ai-draft-legend")).toHaveCount(0);
 });

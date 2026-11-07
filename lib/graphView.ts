@@ -109,3 +109,15 @@ export function simplifyGraph(graph: KnowledgeGraph, maxNodes = DEFAULT_MAX_NODE
     hiddenNodes: allLabels.size - kept.size,
   };
 }
+
+export type Bounds = { x0: number; y0: number; x1: number; y1: number };
+
+/** Scale and offset that centre `bounds` in a `width`×`height` pane, so the whole graph is in view at first. `maxScale` keeps it inside the zoom range, so the offset still centres what is drawn. */
+export function fitView(bounds: Bounds, width: number, height: number, minSpan = { w: 240, h: 160 }, maxScale = Infinity) {
+  const w = Math.max(bounds.x1 - bounds.x0, minSpan.w);
+  const h = Math.max(bounds.y1 - bounds.y0, minSpan.h);
+  const k = Math.min(width / w, height / h, maxScale);
+  const cx = (bounds.x0 + bounds.x1) / 2;
+  const cy = (bounds.y0 + bounds.y1) / 2;
+  return { k, x: width / 2 - cx * k, y: height / 2 - cy * k };
+}

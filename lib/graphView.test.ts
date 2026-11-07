@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { mergeSameName, oneEdgePerPair, simplifyGraph, withoutTypes } from "./graphView";
+import { fitView, mergeSameName, oneEdgePerPair, simplifyGraph, withoutTypes } from "./graphView";
 import type { GraphEdge, KnowledgeGraph } from "./types";
 
 const node = (label: string, type: KnowledgeGraph["center"]["type"] = "topic") => ({ label, type, color: "#000" });
@@ -66,4 +66,22 @@ test("withoutTypes hides a type and its edges but never the center", () => {
   const out = withoutTypes(g, new Set(["faculty"]));
   assert.deepEqual(out.nodes.map((n) => n.label), ["C", "T"]);
   assert.deepEqual(out.edges, [{ from: "C", to: "T", type: "t" }]);
+});
+
+test("fitView centres the graph and scales it to the tighter side", () => {
+  const { k, x, y } = fitView({ x0: -200, y0: -50, x1: 200, y1: 50 }, 800, 600);
+  assert.equal(k, 2); // 400 wide fills 800; height 100 is raised to the 160 minimum, which still fits
+  assert.equal(x, 400); // origin lands mid-pane because the graph is centred on 0
+  assert.equal(y, 300);
+});
+
+test("fitView never collapses a one-node graph to nothing", () => {
+  const { k } = fitView({ x0: 0, y0: 0, x1: 0, y1: 0 }, 480, 320);
+  assert.equal(k, 2); // the 240x160 minimum span
+});
+
+test("fitView caps the scale and keeps the graph centred at the capped scale", () => {
+  const { k, x } = fitView({ x0: -50, y0: -50, x1: 50, y1: 50 }, 1920, 1000, undefined, 6);
+  assert.equal(k, 6);
+  assert.equal(x, 960); // centred on 0 whatever the scale
 });

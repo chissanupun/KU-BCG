@@ -94,6 +94,13 @@ const CONCEPT_TH = new Map(learningConcepts.map((c) => [c.id, c.name_th]));
 export const learningConceptName = (id: string) => CONCEPT_TH.get(id);
 export const isAiDraft = (edge: { origin?: string }) => edge.origin === "ai_suggested";
 
+/** Where a line on the map comes from, so a reader knows how much weight it carries. */
+export const originText = (origin?: string) =>
+  origin === "derived" ? "คำนวณจากข้อมูลเอกสาร" : origin === "ai_suggested" ? `${AI_DRAFT_TEXT} ยังไม่มีผู้เชี่ยวชาญตรวจ` : "คัดไว้ด้วยมือ";
+
+/** True when the relation only says "related": the data names no specific way the two are connected. */
+export const isGenericPredicate = (type?: string) => !type || type === "relatedTo" || !(type in PREDICATE_TH);
+
 export const predicateText = (type?: string) => PREDICATE_TH[type ?? ""] ?? UNKNOWN_PREDICATE;
 
 export const edgeSentence = (from: string, type: string | undefined, to: string) =>

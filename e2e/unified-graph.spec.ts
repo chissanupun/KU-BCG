@@ -13,9 +13,6 @@ test("topic page shows the shared Thai graph, not raw relation names", async ({ 
   await page.getByPlaceholder("วันนี้อยากสำรวจเรื่องอะไร?").fill("Carbon Footprint");
   await page.getByRole("button", { name: "เริ่มค้นหา" }).click();
 
-  await page.getByRole("tab", { name: "แผนที่ความรู้" }).click();
-  const learnSentences = await page.getByRole("tabpanel").getByRole("listitem").allInnerTexts();
-
   await page.getByRole("tab", { name: "เส้นทางการเรียนรู้" }).click();
   await page.getByRole("tabpanel").locator('a[href^="/topic"]').first().click();
   await expect(page).toHaveURL(/\/topic\/\?h=\d+&p=\d+&c=\d+/);
@@ -23,15 +20,12 @@ test("topic page shows the shared Thai graph, not raw relation names", async ({ 
   const main = page.locator("main, body").first();
   await expect(main.locator('svg[role="img"]')).toBeVisible();
   expect((await main.locator("svg text").allTextContents()).join("")).toContain("ชีวมวล");
-  await expect(main.getByRole("listitem").filter({ hasText: "เป็นชุดวิชาสำหรับ ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร" })).toBeVisible();
+  await main.locator("svg g[data-node]").filter({ has: page.locator("title", { hasText: /^ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร/ }) }).locator("circle").click();
+  await expect(main.getByRole("region", { name: "คำอธิบายความสัมพันธ์" })).toContainText("เป็นชุดวิชาสำหรับ ชีวมวลและพลังงานทดแทนจากผลผลิตเกษตร");
   for (const term of ["isCourseFor", "mitigatesCarbonVia", "Biomass & Bioenergy", "→ ", "carbon_stock"]) {
     await expect(main).not.toContainText(term);
   }
   const titles = (await main.locator("svg title").allTextContents()).join("\n");
   expect(titles).not.toContain("isCourseFor");
   expect(titles).not.toContain("Biomass & Bioenergy");
-
-  // same relations as the map tab
-  const topicSentences = await main.getByRole("listitem").allInnerTexts();
-  for (const s of learnSentences) expect(topicSentences).toContain(s);
 });
