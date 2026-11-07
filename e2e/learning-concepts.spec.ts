@@ -18,7 +18,7 @@ test.describe("module concepts (plan E)", () => {
   });
 
   test("an AI-drafted level is labelled as a suggestion, a curated one is not", async ({ page }) => {
-    await expect(page.getByTestId("module-level").filter({ hasText: "พื้นฐาน" })).toContainText("แนะนำ (AI ประเมิน)");
+    await expect(page.getByTestId("module-level").filter({ hasText: "พื้นฐาน" })).toContainText("AI ประเมิน · ข้อเสนอแนะ");
     await expect(page.getByTestId("module-level").filter({ hasText: "กลาง" })).not.toContainText("AI");
   });
 

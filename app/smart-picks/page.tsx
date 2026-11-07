@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import AiBadge from "../components/AiBadge";
 import { motion } from "framer-motion";
 import { apiFetch, ApiError, googleLoginUrl } from "@/lib/api";
 import { useUser } from "@/lib/UserContext";
@@ -163,7 +164,7 @@ export default function SmartPicksPage() {
             {...fadeIn(0.04)}
             style={{ fontSize: 16, fontWeight: 700, color: "var(--ku-text)", fontFamily: FONT }}
           >
-            คำแนะนำจาก AI สำหรับคุณ
+            คำแนะนำจาก AI สำหรับคุณ <AiBadge text="สร้างโดย AI" testId="ai-smart-picks-badge" />
           </motion.h1>
         </div>
 

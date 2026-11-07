@@ -130,6 +130,9 @@ button, a, input {
   --ku-overview-bg: #ffffff;
   --ku-overview-border: #737373;
   --ku-tag-bg: #eae6dc;
+  --ku-ai-bg: #f1ecff;
+  --ku-ai-border: #7c5cd6;
+  --ku-ai-text: #4b2fa3;
   --ku-tag-border: #737373;
   --ku-progress-track: #ebebec;
   --ku-progress-fill: #3b6347;
@@ -167,6 +170,9 @@ button, a, input {
   --ku-overview-bg: #141f16;
   --ku-overview-border: rgba(196,150,90,0.25);
   --ku-tag-bg: rgba(59,99,71,0.15);
+  --ku-ai-bg: rgba(139,111,214,0.2);
+  --ku-ai-border: rgba(167,139,250,0.65);
+  --ku-ai-text: #ddd2ff;
   --ku-tag-border: rgba(59,99,71,0.4);
   --ku-progress-track: rgba(232,223,200,0.08);
   --ku-progress-fill: linear-gradient(90deg, #3b6347 0%, #c4965a 100%);

@@ -124,7 +124,7 @@ export default function BubbleCard({
         {card.difficulty && (
           <p data-testid="module-level" style={{ fontFamily: FONT, fontSize: 12, lineHeight: "18px", color: "var(--ku-text-muted)", marginTop: 4 }}>
             <span style={{ fontWeight: 600 }}>ระดับ:</span> {DIFFICULTY_TH[card.difficulty]}
-            {card.aiDraft && " · แนะนำ (AI ประเมิน)"}
+            {card.aiDraft && <>{" "}<AiBadge text="AI ประเมิน · ข้อเสนอแนะ" testId="ai-level-badge" /></>}
           </p>
         )}
       </div>
