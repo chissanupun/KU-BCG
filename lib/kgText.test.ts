@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { PREDICATE_TH, edgeSentence, graphSummary, humanLabel, isAiDraft, pickDescription } from "./kgText";
+import { PREDICATE_TH, edgeSentence, isGenericPredicate, originText, graphSummary, humanLabel, isAiDraft, pickDescription } from "./kgText";
 
 test("edgeSentence reads as a Thai sentence", () => {
   assert.equal(edgeSentence("forest", "mitigatesCarbonVia", "carbon_stock"), "ป่าไม้ ช่วยลดคาร์บอนผ่าน คาร์บอนที่สะสมไว้");
@@ -59,4 +59,17 @@ test("every predicate and new concept in the AI-drafted relations has Thai wordi
 test("only ai_suggested edges count as AI drafts", () => {
   assert.equal(isAiDraft({ origin: "ai_suggested" }), true);
   assert.deepEqual([{}, { origin: "derived" }].map(isAiDraft), [false, false]);
+});
+
+test("originText says where a line came from, and flags drafts", () => {
+  assert.equal(originText(undefined), "คัดไว้ด้วยมือ");
+  assert.equal(originText("derived"), "คำนวณจากข้อมูลเอกสาร");
+  assert.match(originText("ai_suggested"), /ร่างจาก AI.*ยังไม่มีผู้เชี่ยวชาญตรวจ/);
+});
+
+test("isGenericPredicate is true only when the data does not say how two things relate", () => {
+  assert.equal(isGenericPredicate("relatedTo"), true);
+  assert.equal(isGenericPredicate(undefined), true);
+  assert.equal(isGenericPredicate("someNewBackendType"), true); // unknown wording falls back to "เกี่ยวข้องกับ"
+  assert.equal(isGenericPredicate("mitigatesCarbonVia"), false);
 });
