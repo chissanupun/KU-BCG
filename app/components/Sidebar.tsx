@@ -114,7 +114,6 @@ export default function Sidebar({
           )}
         </div>
         <div className="min-w-0">
-          <p className="text-[12px] leading-[16px] truncate" style={{ color: "var(--ku-text-faint)" }}>แผนฟรี</p>
           <p className="text-[12px] leading-[16px] truncate" style={{ color: "var(--ku-text)" }}>{user?.name || "ผู้เยี่ยมชม"}</p>
         </div>
       </Link>
