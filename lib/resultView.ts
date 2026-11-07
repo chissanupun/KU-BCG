@@ -3,6 +3,7 @@ import type { EvidenceItem, GraphRagResult } from "./types";
 export const TABS = [
   { key: "overview", label: "ภาพรวม" },
   { key: "map", label: "แผนที่ความรู้" },
+  { key: "cloud", label: "คำสำคัญ" },
   { key: "path", label: "เส้นทางการเรียนรู้" },
 ] as const;
 
