@@ -35,6 +35,92 @@ function NavItem({ href, label, active, d, strokeWidth = 1.8 }: { href: string; 
   );
 }
 
+const smallButton = { background: "none", border: "none", padding: 0, cursor: "pointer" } as const;
+
+/** One recent search: opens the result, and a delete button that asks inline before it fires. */
+function RecentRow({ id, query, onRemove }: { id: number; query: string; onRemove: (id: number) => Promise<void> }) {
+  const [confirming, setConfirming] = useState(false);
+  const [removing, setRemoving] = useState(false);
+
+  const handleRemove = async () => {
+    setRemoving(true);
+    try {
+      await onRemove(id);
+      // The open result no longer exists, so leave it rather than show a page that will 404 on reload.
+      if (new URLSearchParams(window.location.search).get("h") === String(id)) window.location.assign("/");
+    } catch {
+      // Nothing was deleted; the row stays as it was.
+      setConfirming(false);
+    } finally {
+      setRemoving(false);
+    }
+  };
+
+  if (confirming) {
+    return (
+      <div className="flex items-center rounded-[9px]" style={{ paddingLeft: 15, paddingRight: 3, paddingTop: 12, paddingBottom: 12, gap: 10, background: "var(--ku-hover-bg)" }}>
+        <span className="flex-1 text-[12px] leading-[16px] truncate" style={{ color: "var(--ku-text-faint)" }} title={query}>ลบรายการนี้?</span>
+        <button
+          type="button"
+          onClick={handleRemove}
+          disabled={removing}
+          aria-label={`ยืนยันลบ ${query}`}
+          className="text-[12px] hover:opacity-70 transition-opacity"
+          style={{ ...smallButton, cursor: removing ? "wait" : "pointer", color: "#dc2626" }}
+        >
+          {removing ? "..." : "ลบ"}
+        </button>
+        <button
+          type="button"
+          onClick={() => setConfirming(false)}
+          disabled={removing}
+          aria-label="ยกเลิก"
+          className="text-[12px] hover:opacity-70 transition-opacity"
+          style={{ ...smallButton, color: "var(--ku-text-faint)" }}
+        >
+          ยกเลิก
+        </button>
+      </div>
+    );
+  }
+
+  return (
+    <div className="group flex items-start w-full rounded-[9px] transition-all hover:bg-[var(--ku-hover-bg)]">
+      <Link
+        href={`/learn?h=${id}`}
+        title={query}
+        className="flex flex-1 min-w-0 text-left"
+        style={{ paddingLeft: 15, paddingTop: 12, paddingBottom: 12, textDecoration: "none" }}
+      >
+        {/* Queries are free text, so clamp to the two lines the fixed 195px rail allows. */}
+        <span
+          className="text-[12px] leading-[16px]"
+          style={{
+            color: "var(--ku-text-muted)",
+            display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical",
+            overflow: "hidden", overflowWrap: "anywhere",
+          }}
+        >
+          {query}
+        </span>
+      </Link>
+      {/* Hidden until the row is pointed at or reached by keyboard, so the list reads as plain text. */}
+      <button
+        type="button"
+        onClick={() => setConfirming(true)}
+        aria-label={`ลบ ${query}`}
+        title="ลบรายการนี้"
+        className="opacity-0 group-hover:opacity-100 focus-visible:opacity-100 [@media(hover:none)]:opacity-100 hover:!opacity-70 transition-opacity shrink-0"
+        style={{ ...smallButton, color: "var(--ku-text-faint)", lineHeight: 0, padding: 4, margin: "10px 3px 0 2px" }}
+      >
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden>
+          <path d="M3.5 3.5l7 7M10.5 3.5l-7 7" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" />
+        </svg>
+      </button>
+    </div>
+  );
+}
+
 export default function Sidebar({
   height = "100%",
   activeNav = "search",
@@ -43,7 +129,7 @@ export default function Sidebar({
   activeNav?: "search" | "recommend" | "progress" | "admin";
 }) {
   const { user, logout } = useUser();
-  const { items: recentSearches, clear: clearHistory } = useSearchHistory();
+  const { items: recentSearches, clear: clearHistory, remove: removeSearch } = useSearchHistory();
 
   /**
    * Clearing is irreversible and cascades to the completion ticks recorded
@@ -212,25 +298,7 @@ export default function Sidebar({
       {user ? (
         <div style={{ flex: "1 1 auto", minHeight: 0, overflowY: "auto", paddingLeft: 18.5, paddingRight: 18.5 }}>
           {recentSearches.map((item) => (
-            <Link
-              key={item.id}
-              href={`/learn?h=${item.id}`}
-              title={item.query}
-              className="flex w-full rounded-[9px] transition-all text-left hover:bg-[var(--ku-hover-bg)]"
-              style={{ paddingLeft: 15, paddingRight: 3, paddingTop: 12, paddingBottom: 12, textDecoration: "none" }}
-            >
-              {/* Queries are free text, so clamp to the two lines the fixed 195px rail allows. */}
-              <span
-                className="text-[12px] leading-[16px]"
-                style={{
-                  color: "var(--ku-text-muted)", width: 128,
-                  display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical",
-                  overflow: "hidden", overflowWrap: "anywhere",
-                }}
-              >
-                {item.query}
-              </span>
-            </Link>
+            <RecentRow key={item.id} id={item.id} query={item.query} onRemove={removeSearch} />
           ))}
         </div>
       ) : (
