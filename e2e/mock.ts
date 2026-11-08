@@ -85,6 +85,7 @@ export async function mockApi(
   opts: { seed?: string[]; profileIncomplete?: boolean; consentRequired?: boolean; deleteFails?: boolean } = {},
 ) {
   const stored: string[] = [...(opts.seed ?? [])]; // history id = index + 1
+  const removed = new Set<number>();
   let signedIn = true;
   let consentRequired = opts.consentRequired ?? false;
   const calls: { method: string; path: string; body: unknown }[] = []; // for specs that assert on writes
@@ -126,7 +127,18 @@ export async function mockApi(
         },
       });
     }
-    if (path === "/api/search/recent") return json({ data: stored.map((query, i) => ({ id: i + 1, query, created_at: "2026-10-29" })).reverse() });
+    if (path === "/api/search/recent" && request.method() === "DELETE") {
+      const deleted = stored.filter((_, i) => !removed.has(i + 1)).length;
+      stored.forEach((_, i) => removed.add(i + 1));
+      return json({ deleted });
+    }
+    if (path === "/api/search/recent") return json({ data: stored.map((query, i) => ({ id: i + 1, query, created_at: "2026-10-29" })).filter((r) => !removed.has(r.id)).reverse() });
+    const removeOne = request.method() === "DELETE" && path.match(/^\/api\/search\/history\/(\d+)$/);
+    if (removeOne) {
+      if (opts.deleteFails) return route.fulfill({ status: 500, body: "{}" });
+      removed.add(Number(removeOne[1]));
+      return json({ deleted: 1 });
+    }
     if (path === "/api/search" && request.method() === "POST") {
       const { query } = request.postDataJSON() as { query: string };
       stored.push(query);

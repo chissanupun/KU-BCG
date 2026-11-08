@@ -12,6 +12,8 @@ type SearchHistoryContextValue = {
   refresh: () => Promise<void>;
   /** Deletes every stored search. Not undoable — callers must confirm first. */
   clear: () => Promise<void>;
+  /** Deletes one stored search (and its progress). Not undoable — callers must confirm first. */
+  remove: (id: number) => Promise<void>;
 };
 
 const SearchHistoryContext = createContext<SearchHistoryContextValue>({
@@ -19,6 +21,7 @@ const SearchHistoryContext = createContext<SearchHistoryContextValue>({
   loading: false,
   refresh: async () => {},
   clear: async () => {},
+  remove: async () => {},
 });
 
 /**
@@ -51,6 +54,12 @@ export function SearchHistoryProvider({ children }: { children: React.ReactNode 
     setItems([]);
   }, []);
 
+  const remove = useCallback(async (id: number) => {
+    // Same rule as clear: the row goes only once the server says it is gone.
+    await apiFetch<{ deleted: number }>(`/api/search/history/${id}`, { method: "DELETE" });
+    setItems((prev) => prev.filter((item) => item.id !== id));
+  }, []);
+
   useEffect(() => {
     if (userLoading) return;
     if (!user) {
@@ -61,7 +70,7 @@ export function SearchHistoryProvider({ children }: { children: React.ReactNode 
   }, [user, userLoading, refresh]);
 
   return (
-    <SearchHistoryContext.Provider value={{ items, loading, refresh, clear }}>
+    <SearchHistoryContext.Provider value={{ items, loading, refresh, clear, remove }}>
       {children}
     </SearchHistoryContext.Provider>
   );
